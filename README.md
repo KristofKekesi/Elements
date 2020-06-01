@@ -5,7 +5,7 @@
 ### Contributors
 * _[Programming]_  - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
 * _[Image Rendering]_ - __Farkas Bódis__
-* _[PR and Managment]_ - __Roland Ország__
+* _[PR and Management]_ - __Roland Ország__
  
 ## Made with
 ##### Made with __Flutter__.
