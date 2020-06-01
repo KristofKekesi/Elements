@@ -1,6 +1,5 @@
 # Elements
 
-## Description
 ##### A modern app made with Flutter, to track the chemistry's element.
 ##### __UNDER DEVELOPMENT__
 ### Contributors
