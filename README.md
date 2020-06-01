@@ -1,2 +1,15 @@
-# chem
-A modern app to track the chemistry's elements.
+# Elements
+
+## Description
+##### A modern app made with Flutter, to track the chemistry's element.
+##### __UNDER DEVELOPMENT__
+### Contributors
+* _[Programming]_  - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
+* _[Image Rendering]_ - __Farkas Bódis__
+* _[PR and Managment]_ - __Roland Ország__
+ 
+## Made with
+##### Made with __Flutter__.
+
+## License
+##### __MIT__
