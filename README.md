@@ -8,7 +8,7 @@
 * _[PR and Management]_ - [__Roland Ország__](https://github.com/rolandorszag)
  
 ## Made with
-##### Made with __Flutter SDK__ in __Dart__ with. Programmed in __Android Studio__.
+##### Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android Studio__.
 
 ## License
 ##### __MIT__
