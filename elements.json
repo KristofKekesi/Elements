@@ -7,7 +7,10 @@
     "block": "s",
     "consistency": "gas",
     "discovery": "1766",
-    "electronnegativity": "2,1"
+    "electronnegativity": "2,1",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "He",
@@ -17,7 +20,10 @@
     "block": "s",
     "consistency": "gas",
     "discovery": "1868",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Li",
@@ -27,7 +33,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1817",
-    "electronnegativity": "1,0"
+    "electronnegativity": "1,0",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Be",
@@ -37,7 +46,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1797",
-    "electronnegativity": "1,5"
+    "electronnegativity": "1,5",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "B",
@@ -47,7 +59,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1808",
-    "electronnegativity": "2,0"
+    "electronnegativity": "2,0",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "C",
@@ -57,7 +72,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "2,5"
+    "electronnegativity": "2,5",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "N",
@@ -67,7 +85,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1772",
-    "electronnegativity": "3,0"
+    "electronnegativity": "3,0",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "O",
@@ -77,7 +98,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1774",
-    "electronnegativity": "3,5"
+    "electronnegativity": "3,5",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "F",
@@ -87,7 +111,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1886",
-    "electronnegativity": "4,0"
+    "electronnegativity": "4,0",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Ne",
@@ -97,7 +124,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1898",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Na",
@@ -107,7 +137,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1807",
-    "electronnegativity": "0,9"
+    "electronnegativity": "0,9",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Mg",
@@ -117,7 +150,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1808",
-    "electronnegativity": "1,2"
+    "electronnegativity": "1,2",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Al",
@@ -127,7 +163,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1825",
-    "electronnegativity": "1,5"
+    "electronnegativity": "1,5",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Si",
@@ -137,7 +176,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1823",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "P",
@@ -147,7 +189,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1669",
-    "electronnegativity": "2,1"
+    "electronnegativity": "2,1",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "S",
@@ -157,7 +202,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "2,5"
+    "electronnegativity": "2,5",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Cl",
@@ -167,7 +215,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1774",
-    "electronnegativity": "3,0"
+    "electronnegativity": "3,0",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Ar",
@@ -177,7 +228,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1894",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "K",
@@ -187,7 +241,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1807",
-    "electronnegativity": "0,8"
+    "electronnegativity": "0,8",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Ca",
@@ -197,7 +254,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1808",
-    "electronnegativity": "1,0"
+    "electronnegativity": "1,0",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Sc",
@@ -207,7 +267,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1879",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Ti",
@@ -217,7 +280,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1791",
-    "electronnegativity": "1,5"
+    "electronnegativity": "1,5",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "V",
@@ -227,7 +293,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1831",
-    "electronnegativity": "1,6"
+    "electronnegativity": "1,6",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Cr",
@@ -237,7 +306,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1797",
-    "electronnegativity": "1,6"
+    "electronnegativity": "1,6",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Mn",
@@ -247,7 +319,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1774",
-    "electronnegativity": "1,5"
+    "electronnegativity": "1,5",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Fe",
@@ -257,7 +332,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Co",
@@ -267,7 +345,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1735",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": 
   },
   {
     "element": "Ni",
@@ -277,7 +358,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1751",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Cu",
@@ -287,7 +371,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "1,9"
+    "electronnegativity": "1,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Zn",
