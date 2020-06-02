@@ -36,7 +36,7 @@
     "electronnegativity": "1,0",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Be",
@@ -49,7 +49,7 @@
     "electronnegativity": "1,5",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "B",
@@ -62,7 +62,7 @@
     "electronnegativity": "2,0",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "C",
@@ -75,7 +75,7 @@
     "electronnegativity": "2,5",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "N",
@@ -88,7 +88,7 @@
     "electronnegativity": "3,0",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "O",
@@ -101,7 +101,7 @@
     "electronnegativity": "3,5",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "F",
@@ -114,7 +114,7 @@
     "electronnegativity": "4,0",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Ne",
@@ -127,7 +127,7 @@
     "electronnegativity": "",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Na",
@@ -140,7 +140,7 @@
     "electronnegativity": "0,9",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Mg",
@@ -153,7 +153,7 @@
     "electronnegativity": "1,2",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Al",
@@ -166,7 +166,7 @@
     "electronnegativity": "1,5",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Si",
@@ -179,7 +179,7 @@
     "electronnegativity": "1,8",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "P",
@@ -192,7 +192,7 @@
     "electronnegativity": "2,1",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "S",
@@ -205,7 +205,7 @@
     "electronnegativity": "2,5",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Cl",
@@ -218,7 +218,7 @@
     "electronnegativity": "3,0",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Ar",
@@ -231,7 +231,7 @@
     "electronnegativity": "",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "K",
@@ -244,7 +244,7 @@
     "electronnegativity": "0,8",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Ca",
@@ -257,7 +257,7 @@
     "electronnegativity": "1,0",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Sc",
@@ -270,7 +270,7 @@
     "electronnegativity": "1,3",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Ti",
@@ -283,7 +283,7 @@
     "electronnegativity": "1,5",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "V",
@@ -296,7 +296,7 @@
     "electronnegativity": "1,6",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Cr",
@@ -309,7 +309,7 @@
     "electronnegativity": "1,6",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Mn",
@@ -322,7 +322,7 @@
     "electronnegativity": "1,5",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Fe",
@@ -335,7 +335,7 @@
     "electronnegativity": "1,8",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Co",
@@ -348,7 +348,7 @@
     "electronnegativity": "1,8",
     
     "hu": "",
-    "eng": 
+    "eng": ""
   },
   {
     "element": "Ni",
@@ -384,7 +384,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1520",
-    "electronnegativity": "1,6"
+    "electronnegativity": "1,6",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ga",
@@ -394,7 +397,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1875",
-    "electronnegativity": "1,6"
+    "electronnegativity": "1,6",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ge",
@@ -404,7 +410,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1885",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "As",
@@ -414,7 +423,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1250",
-    "electronnegativity": "2,0"
+    "electronnegativity": "2,0",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Se",
@@ -424,7 +436,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1817",
-    "electronnegativity": "2,4"
+    "electronnegativity": "2,4",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Br",
@@ -434,7 +449,10 @@
     "block": "p",
     "consistency": "fluid",
     "discovery": "1826",
-    "electronnegativity": "2,8"
+    "electronnegativity": "2,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Kr",
@@ -444,7 +462,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1898",
-    "electronnegativity": "3,0"
+    "electronnegativity": "3,0",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Rb",
@@ -454,7 +475,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1861",
-    "electronnegativity": "0,8"
+    "electronnegativity": "0,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Sr",
@@ -464,7 +488,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1790",
-    "electronnegativity": "1,0"
+    "electronnegativity": "1,0",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Y",
@@ -474,7 +501,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1794",
-    "electronnegativity": "1,2"
+    "electronnegativity": "1,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Zr",
@@ -484,7 +514,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1791",
-    "electronnegativity": "1,4"
+    "electronnegativity": "1,4",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Nb",
@@ -494,7 +527,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1801",
-    "electronnegativity": "1,6"
+    "electronnegativity": "1,6",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Mo",
@@ -504,7 +540,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1782",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Tc",
@@ -514,7 +553,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1937",
-    "electronnegativity": "1,9"
+    "electronnegativity": "1,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ru",
@@ -524,7 +566,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1844",
-    "electronnegativity": "2,2"
+    "electronnegativity": "2,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Rh",
@@ -534,7 +579,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1803",
-    "electronnegativity": "2,2"
+    "electronnegativity": "2,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Pd",
@@ -544,7 +592,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1803",
-    "electronnegativity": "2,2"
+    "electronnegativity": "2,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ag",
@@ -554,7 +605,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "1,9"
+    "electronnegativity": "1,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Cd",
@@ -564,7 +618,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1817",
-    "electronnegativity": "1,7"
+    "electronnegativity": "1,7",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "In",
@@ -574,7 +631,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1863",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Sn",
@@ -584,7 +644,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Sb",
@@ -594,7 +657,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1450",
-    "electronnegativity": "1,9"
+    "electronnegativity": "1,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Te",
@@ -604,7 +670,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1782",
-    "electronnegativity": "2,1"
+    "electronnegativity": "2,1",
+    
+    "hu": "",
+    "eng": ""
 
   },
   {
@@ -615,7 +684,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1811",
-    "electronnegativity": "2,5"
+    "electronnegativity": "2,5",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Xe",
@@ -625,7 +697,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1898",
-    "electronnegativity": "2,6"
+    "electronnegativity": "2,6",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Cs",
@@ -635,7 +710,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1860",
-    "electronnegativity": "0,7"
+    "electronnegativity": "0,7",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ba",
@@ -645,7 +723,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1808",
-    "electronnegativity": "0,9"
+    "electronnegativity": "0,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "La",
@@ -655,7 +736,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1839",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ce",
@@ -665,7 +749,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1803",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Pr",
@@ -675,7 +762,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1885",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Nd",
@@ -685,7 +775,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1885",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Pm",
@@ -695,7 +788,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1945",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Sm",
@@ -705,7 +801,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1879",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Eu",
@@ -715,7 +814,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1889",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Gd",
@@ -725,7 +827,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1880",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Tb",
@@ -735,7 +840,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1843",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Dy",
@@ -745,7 +853,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1886",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ho",
@@ -755,7 +866,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1879",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Er",
@@ -765,7 +879,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1843",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Tm",
@@ -775,7 +892,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1879",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Yb",
@@ -785,7 +905,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1878",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Lu",
@@ -795,7 +918,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1907",
-    "electronnegativity": "1,2"
+    "electronnegativity": "1,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Hf",
@@ -805,7 +931,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1923",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ta",
@@ -815,7 +944,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1802",
-    "electronnegativity": "1,5"
+    "electronnegativity": "1,5",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "W",
@@ -825,7 +957,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1783",
-    "electronnegativity": "1,7"
+    "electronnegativity": "1,7",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Re",
@@ -835,7 +970,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1925",
-    "electronnegativity": "1,9"
+    "electronnegativity": "1,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Os",
@@ -845,7 +983,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1804",
-    "electronnegativity": "2,2"
+    "electronnegativity": "2,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ir",
@@ -855,7 +996,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1804",
-    "electronnegativity": "2,2"
+    "electronnegativity": "2,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Pt",
@@ -865,7 +1009,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1741",
-    "electronnegativity": "2,2"
+    "electronnegativity": "2,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Au",
@@ -875,7 +1022,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "2,4"
+    "electronnegativity": "2,4",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Hg",
@@ -885,7 +1035,10 @@
     "block": "d",
     "consistency": "fluid",
     "discovery": "ancient",
-    "electronnegativity": "1,9"
+    "electronnegativity": "1,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Tl",
@@ -895,7 +1048,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1861",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Pb",
@@ -905,7 +1061,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "ancient",
-    "electronnegativity": "1,8"
+    "electronnegativity": "1,8",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Bi",
@@ -915,7 +1074,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1740",
-    "electronnegativity": "1,9"
+    "electronnegativity": "1,9",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Po",
@@ -925,7 +1087,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1898",
-    "electronnegativity": "2,0"
+    "electronnegativity": "2,0",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "At",
@@ -935,7 +1100,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1940",
-    "electronnegativity": "2,2"
+    "electronnegativity": "2,2",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Rn",
@@ -945,7 +1113,10 @@
     "block": "p",
     "consistency": "gas",
     "discovery": "1900",
-    "electronnegativity": "2,4"
+    "electronnegativity": "2,4",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Fr",
@@ -955,7 +1126,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1939",
-    "electronnegativity": "0,7"
+    "electronnegativity": "0,7",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ra",
@@ -965,7 +1139,10 @@
     "block": "s",
     "consistency": "solid",
     "discovery": "1898",
-    "electronnegativity": "0,7"
+    "electronnegativity": "0,7",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ac",
@@ -975,7 +1152,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1899",
-    "electronnegativity": "1,1"
+    "electronnegativity": "1,1",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Th",
@@ -985,7 +1165,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1828",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Pa",
@@ -995,7 +1178,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1917",
-    "electronnegativity": "1,5"
+    "electronnegativity": "1,5",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "U",
@@ -1005,7 +1191,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1789",
-    "electronnegativity": "1,7"
+    "electronnegativity": "1,7",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Np",
@@ -1015,7 +1204,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1940",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Pu",
@@ -1025,7 +1217,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1940",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Am",
@@ -1035,7 +1230,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1944",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Cm",
@@ -1045,7 +1243,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1944",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Bk",
@@ -1055,7 +1256,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1949",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Cf",
@@ -1065,7 +1269,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1950",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Es",
@@ -1075,7 +1282,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1952",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Fm",
@@ -1085,7 +1295,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1953",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Md",
@@ -1095,7 +1308,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1955",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "No",
@@ -1105,7 +1321,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1958",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Lr",
@@ -1115,7 +1334,10 @@
     "block": "f",
     "consistency": "solid",
     "discovery": "1961",
-    "electronnegativity": "1,3"
+    "electronnegativity": "1,3",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Rf",
@@ -1125,7 +1347,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1966",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Db",
@@ -1135,7 +1360,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1967",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Sg",
@@ -1145,7 +1373,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1974",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Bh",
@@ -1155,7 +1386,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1976",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Hs",
@@ -1165,7 +1399,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1984",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Mt",
@@ -1175,7 +1412,10 @@
     "block": "d",
     "consistency": "unknown",
     "discovery": "1982",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ds",
@@ -1185,7 +1425,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1994",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Rg",
@@ -1195,7 +1438,10 @@
     "block": "d",
     "consistency": "unknown",
     "discovery": "1994",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Cn",
@@ -1205,7 +1451,10 @@
     "block": "d",
     "consistency": "solid",
     "discovery": "1996",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Nh",
@@ -1215,7 +1464,10 @@
     "block": "p",
     "consistency": "unknown",
     "discovery": "2004",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Fl",
@@ -1225,7 +1477,10 @@
     "block": "p",
     "consistency": "solid",
     "discovery": "1999",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Mc",
@@ -1235,7 +1490,10 @@
     "block": "p",
     "consistency": "unknown",
     "discovery": "2004",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Lv",
@@ -1245,7 +1503,10 @@
     "block": "p",
     "consistency": "unknown",
     "discovery": "2001",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Ts",
@@ -1255,7 +1516,10 @@
     "block": "p",
     "consistency": "unknown",
     "discovery": "2010",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   },
   {
     "element": "Og",
@@ -1265,6 +1529,9 @@
     "block": "p",
     "consistency": "unknown",
     "discovery": "2006",
-    "electronnegativity": ""
+    "electronnegativity": "",
+    
+    "hu": "",
+    "eng": ""
   }
 ]
