@@ -35,8 +35,8 @@
     "discovery": "1817",
     "electronnegativity": "1,0",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Lítium",
+    "eng": "Lithium"
   },
   {
     "element": "Be",
@@ -48,8 +48,8 @@
     "discovery": "1797",
     "electronnegativity": "1,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Berillium",
+    "eng": "Beryllium"
   },
   {
     "element": "B",
@@ -61,8 +61,8 @@
     "discovery": "1808",
     "electronnegativity": "2,0",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Bór",
+    "eng": "Boron"
   },
   {
     "element": "C",
@@ -74,8 +74,8 @@
     "discovery": "ancient",
     "electronnegativity": "2,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Szén",
+    "eng": "Carbon"
   },
   {
     "element": "N",
@@ -87,8 +87,8 @@
     "discovery": "1772",
     "electronnegativity": "3,0",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Nitrogén",
+    "eng": "Nitrogen"
   },
   {
     "element": "O",
@@ -100,8 +100,8 @@
     "discovery": "1774",
     "electronnegativity": "3,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Oxigén",
+    "eng": "Oxygen"
   },
   {
     "element": "F",
@@ -113,8 +113,8 @@
     "discovery": "1886",
     "electronnegativity": "4,0",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Fluor",
+    "eng": "Fluorine"
   },
   {
     "element": "Ne",
@@ -126,8 +126,8 @@
     "discovery": "1898",
     "electronnegativity": "",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Neon",
+    "eng": "Neon"
   },
   {
     "element": "Na",
@@ -139,8 +139,8 @@
     "discovery": "1807",
     "electronnegativity": "0,9",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Nátrium",
+    "eng": "Sodium"
   },
   {
     "element": "Mg",
@@ -152,8 +152,8 @@
     "discovery": "1808",
     "electronnegativity": "1,2",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Magnézium",
+    "eng": "Magnesium"
   },
   {
     "element": "Al",
@@ -165,8 +165,8 @@
     "discovery": "1825",
     "electronnegativity": "1,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Alumínium",
+    "eng": "Aluminium"
   },
   {
     "element": "Si",
@@ -178,8 +178,8 @@
     "discovery": "1823",
     "electronnegativity": "1,8",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Szilícium",
+    "eng": "Silicon"
   },
   {
     "element": "P",
@@ -191,8 +191,8 @@
     "discovery": "1669",
     "electronnegativity": "2,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Foszfor",
+    "eng": "Phosphorus" 
   },
   {
     "element": "S",
@@ -204,8 +204,8 @@
     "discovery": "ancient",
     "electronnegativity": "2,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Kén",
+    "eng": "Sulfur"
   },
   {
     "element": "Cl",
@@ -217,8 +217,8 @@
     "discovery": "1774",
     "electronnegativity": "3,0",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Klór",
+    "eng": "Chlorine"
   },
   {
     "element": "Ar",
@@ -230,8 +230,8 @@
     "discovery": "1894",
     "electronnegativity": "",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Argon",
+    "eng": "Argon"
   },
   {
     "element": "K",
@@ -243,8 +243,8 @@
     "discovery": "1807",
     "electronnegativity": "0,8",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Kálium",
+    "eng": "Potassium"
   },
   {
     "element": "Ca",
@@ -256,8 +256,8 @@
     "discovery": "1808",
     "electronnegativity": "1,0",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Kalcium",
+    "eng": "Calcium"
   },
   {
     "element": "Sc",
@@ -269,8 +269,8 @@
     "discovery": "1879",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Szkandium",
+    "eng": "Scandium"
   },
   {
     "element": "Ti",
@@ -282,8 +282,8 @@
     "discovery": "1791",
     "electronnegativity": "1,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Titán",
+    "eng": "Titanium"
   },
   {
     "element": "V",
@@ -295,8 +295,8 @@
     "discovery": "1831",
     "electronnegativity": "1,6",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Vanádium",
+    "eng": "Vanadium"
   },
   {
     "element": "Cr",
@@ -308,8 +308,8 @@
     "discovery": "1797",
     "electronnegativity": "1,6",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Króm",
+    "eng": "Chromium"
   },
   {
     "element": "Mn",
@@ -321,8 +321,8 @@
     "discovery": "1774",
     "electronnegativity": "1,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Mangán",
+    "eng": "Manganese"
   },
   {
     "element": "Fe",
@@ -334,8 +334,8 @@
     "discovery": "ancient",
     "electronnegativity": "1,8",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Vas",
+    "eng": "Iron"
   },
   {
     "element": "Co",
@@ -347,8 +347,8 @@
     "discovery": "1735",
     "electronnegativity": "1,8",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Kobalt",
+    "eng": "Cobalt"
   },
   {
     "element": "Ni",
@@ -360,8 +360,8 @@
     "discovery": "1751",
     "electronnegativity": "1,8",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Nikkel",
+    "eng": "Nickel"
   },
   {
     "element": "Cu",
@@ -373,8 +373,8 @@
     "discovery": "ancient",
     "electronnegativity": "1,9",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Réz",
+    "eng": "Copper"
   },
   {
     "element": "Zn",
