@@ -9,10 +9,15 @@
 
 ## 3rd day
 
-<img src="https://github.com/KristofKekesi/Elements/blob/master/img/day3a.png" height=400px>
-<img src="https://github.com/KristofKekesi/Elements/blob/master/img/day3b.png" height=400px>
-
+<table><tr><td>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day3a.png" height=400px>
+</td><td>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day3b.png" height=400px>
+</td></tr><table>
 ## 4th day
 
-<img src="https://github.com/KristofKekesi/Elements/blob/master/img/day4a.png" height=400px>
-<img src="https://github.com/KristofKekesi/Elements/blob/master/img/day4b.png" height=400px>
+<table><tr><td>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day4a.png" height=400px>
+</td><td>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day4b.png" height=400px>
+</td></tr><table>
