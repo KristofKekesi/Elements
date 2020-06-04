@@ -790,8 +790,8 @@
     "discovery": "1945",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Prométium",
+    "eng": "Promethium"
   },
   {
     "element": "Sm",
@@ -803,8 +803,8 @@
     "discovery": "1879",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Szamárium",
+    "eng": "Samarium"
   },
   {
     "element": "Eu",
@@ -816,8 +816,8 @@
     "discovery": "1889",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Európium",
+    "eng": "Europium"
   },
   {
     "element": "Gd",
@@ -829,8 +829,8 @@
     "discovery": "1880",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Gadolínium",
+    "eng": "Gadolinium"
   },
   {
     "element": "Tb",
@@ -842,8 +842,8 @@
     "discovery": "1843",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Terbium",
+    "eng": "Terbium"
   },
   {
     "element": "Dy",
@@ -855,8 +855,8 @@
     "discovery": "1886",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Diszprózium",
+    "eng": "Dysprosium"
   },
   {
     "element": "Ho",
@@ -868,8 +868,8 @@
     "discovery": "1879",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Holmium",
+    "eng": "Holmium"
   },
   {
     "element": "Er",
@@ -881,8 +881,8 @@
     "discovery": "1843",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Erbium",
+    "eng": "Erbium"
   },
   {
     "element": "Tm",
@@ -894,8 +894,8 @@
     "discovery": "1879",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Túlium",
+    "eng": "Thulium"
   },
   {
     "element": "Yb",
@@ -907,8 +907,8 @@
     "discovery": "1878",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Itterbium",
+    "eng": "Ytterbium"
   },
   {
     "element": "Lu",
@@ -920,8 +920,8 @@
     "discovery": "1907",
     "electronnegativity": "1,2",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Lutécium",
+    "eng": "Lutetium"
   },
   {
     "element": "Hf",
@@ -933,8 +933,8 @@
     "discovery": "1923",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Hafnium",
+    "eng": "Hafnium"
   },
   {
     "element": "Ta",
@@ -946,8 +946,8 @@
     "discovery": "1802",
     "electronnegativity": "1,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Tantál",
+    "eng": "Tantalum"
   },
   {
     "element": "W",
@@ -959,8 +959,8 @@
     "discovery": "1783",
     "electronnegativity": "1,7",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Volfram",
+    "eng": "Tungsten"
   },
   {
     "element": "Re",
@@ -972,8 +972,8 @@
     "discovery": "1925",
     "electronnegativity": "1,9",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Rénium",
+    "eng": "Rhenium"
   },
   {
     "element": "Os",
@@ -985,8 +985,8 @@
     "discovery": "1804",
     "electronnegativity": "2,2",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Ozmium",
+    "eng": "Osmium"
   },
   {
     "element": "Ir",
@@ -998,8 +998,8 @@
     "discovery": "1804",
     "electronnegativity": "2,2",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Irídium",
+    "eng": "Iridium"
   },
   {
     "element": "Pt",
@@ -1011,8 +1011,8 @@
     "discovery": "1741",
     "electronnegativity": "2,2",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Platina",
+    "eng": "Platinum"
   },
   {
     "element": "Au",
@@ -1024,8 +1024,8 @@
     "discovery": "ancient",
     "electronnegativity": "2,4",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Arany",
+    "eng": "Gold"
   },
   {
     "element": "Hg",
@@ -1037,8 +1037,8 @@
     "discovery": "ancient",
     "electronnegativity": "1,9",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Higany",
+    "eng": "Mercury"
   },
   {
     "element": "Tl",
@@ -1050,8 +1050,8 @@
     "discovery": "1861",
     "electronnegativity": "1,8",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Tallium",
+    "eng": "Thallium"
   },
   {
     "element": "Pb",
@@ -1063,8 +1063,8 @@
     "discovery": "ancient",
     "electronnegativity": "1,8",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Ólom",
+    "eng": "Lead"
   },
   {
     "element": "Bi",
@@ -1076,8 +1076,8 @@
     "discovery": "1740",
     "electronnegativity": "1,9",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Bizmut",
+    "eng": "Bismuth"
   },
   {
     "element": "Po",
@@ -1089,8 +1089,8 @@
     "discovery": "1898",
     "electronnegativity": "2,0",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Polónium",
+    "eng": "Polonium"
   },
   {
     "element": "At",
@@ -1102,8 +1102,8 @@
     "discovery": "1940",
     "electronnegativity": "2,2",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Asztácium",
+    "eng": "Astatine"
   },
   {
     "element": "Rn",
@@ -1115,8 +1115,8 @@
     "discovery": "1900",
     "electronnegativity": "2,4",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Radon",
+    "eng": "Radon"
   },
   {
     "element": "Fr",
@@ -1128,8 +1128,8 @@
     "discovery": "1939",
     "electronnegativity": "0,7",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Francium",
+    "eng": "Francium"
   },
   {
     "element": "Ra",
@@ -1141,8 +1141,8 @@
     "discovery": "1898",
     "electronnegativity": "0,7",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Rádium",
+    "eng": "Radium"
   },
   {
     "element": "Ac",
@@ -1154,8 +1154,8 @@
     "discovery": "1899",
     "electronnegativity": "1,1",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Aktínium",
+    "eng": "Actinium"
   },
   {
     "element": "Th",
@@ -1167,8 +1167,8 @@
     "discovery": "1828",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Tórium",
+    "eng": "Thorium"
   },
   {
     "element": "Pa",
@@ -1180,8 +1180,8 @@
     "discovery": "1917",
     "electronnegativity": "1,5",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Protaktínium",
+    "eng": "Protactinium"
   },
   {
     "element": "U",
@@ -1193,8 +1193,8 @@
     "discovery": "1789",
     "electronnegativity": "1,7",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Urán",
+    "eng": "Uranium"
   },
   {
     "element": "Np",
@@ -1206,8 +1206,8 @@
     "discovery": "1940",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Neptúnium",
+    "eng": "Neptunium"
   },
   {
     "element": "Pu",
@@ -1219,8 +1219,8 @@
     "discovery": "1940",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Plutónium",
+    "eng": "Plutonium"
   },
   {
     "element": "Am",
@@ -1232,8 +1232,8 @@
     "discovery": "1944",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Amerícium",
+    "eng": "Americium"
   },
   {
     "element": "Cm",
@@ -1245,8 +1245,8 @@
     "discovery": "1944",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Kűrium",
+    "eng": "Curium"
   },
   {
     "element": "Bk",
@@ -1258,8 +1258,8 @@
     "discovery": "1949",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Berkélium",
+    "eng": "Berkelium"
   },
   {
     "element": "Cf",
@@ -1271,8 +1271,8 @@
     "discovery": "1950",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Kalifornium",
+    "eng": "Californium"
   },
   {
     "element": "Es",
@@ -1284,8 +1284,8 @@
     "discovery": "1952",
     "electronnegativity": "1,3",
     
-    "hu": "",
-    "eng": ""
+    "hu": "Einsteinium",
+    "eng": "Einsteinium"
   },
   {
     "element": "Fm",
