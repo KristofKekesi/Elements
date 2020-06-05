@@ -1,0 +1,20 @@
+[
+  "meta": [
+    "name": "english",
+    "versio": "0.1"
+  ],
+  
+  "title": "Elements",
+  
+  "consistency": [
+    "solid": "solid",
+    "fluid": "fluid",
+    "gas": "gas",
+    "unknown": "unknown"
+  ],
+  
+  "buttons": [
+    "cards": "Cards",
+    "minimal": "Minimal"
+  ]
+]
