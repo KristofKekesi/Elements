@@ -1,0 +1,20 @@
+[
+  "meta": [
+    "name": "hungarian",
+    "versio": "0.1"
+  ],
+  
+  "title": "Elements",
+  
+  "consistency": [
+    "solid": "szilárd",
+    "fluid": "folyékony",
+    "gas": "gáz",
+    "unknown": "ismeretlen"
+  ],
+  
+  "buttons": [
+    "cards": "Kártyák",
+    "minimal": "Minimál"
+  ]
+]
