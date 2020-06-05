@@ -4,7 +4,7 @@
 ##### __UNDER DEVELOPMENT__
 ## Contributors
 * _[Programming]_  - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
-* _[Image Rendering]_ - __Farkas Bódis__
+* _[Backgrounds]_ - [__Rahul Pandit__](https://instagram.com/immrahulp)
 * _[PR and Management]_ - [__Roland Ország__](https://github.com/rolandorszag)
 * _[JSON Formatting]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi), [__Roland Ország__](https://github.com/rolandorszag)
  
