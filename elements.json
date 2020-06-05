@@ -228,7 +228,7 @@
 	"element": "S",
 	"number": 16,
 	"weight": "32,06",
-	"type": otherNonmetals",
+	"type": "otherNonmetals",
 	"block": "p",
 	"consistency": "solid",
 	"discovery": "ancient",
