@@ -1,0 +1,34 @@
+[
+  "meta": [
+    "name": "hungarian",
+    "versio": "0.1"
+  ],
+  
+  "title": "Elemek",
+  
+  "consistency": [
+    "solid": "szilárd",
+    "fluid": "folyékony",
+    "gas": "gáz",
+    "unknown": "ismeretlen"
+  ],
+  
+  "buttons": [
+    "cards": "Kártyák",
+    "minimal": "Minimál"
+  ],
+
+  "tooltips": [
+    "moreAboutElement": "További információkhoz kattincson az elemre!",
+    
+    "num": "Az elem száma a Periódusos rendszerben",
+    "symbol": "Az elem vegyjele",
+    "name": "Az elem neve",
+    
+    "consistency": "Halmazállapot",
+    "discovery": "Felfedezés",
+    
+    "cardView": "Kártya nézethez kattintson a gombra!",
+    "minimalView": "A minimális nézethez kattintson a gombra!"
+  ]
+]
