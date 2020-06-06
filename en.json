@@ -1,0 +1,34 @@
+[
+  "meta": [
+    "name": "english",
+    "versio": "0.1"
+  ],
+  
+  "title": "Elements",
+  
+  "consistency": [
+    "solid": "solid",
+    "fluid": "fluid",
+    "gas": "gas",
+    "unknown": "unknown"
+  ],
+  
+  "buttons": [
+    "cards": "Cards",
+    "minimal": "Minimal"
+  ],
+  
+  "tooltips": [
+    "moreAboutElement": "For more informations tap the element!",
+    
+    "num": "The element's number from the Periodic table",
+    "symbol": "The element's chemical symbol",
+    "name": "The element's name",
+    
+    "consistency": "Consistency",
+    "discovery": "Discovery",
+    
+    "cardView": "For the card view tap the button!",
+    "minimalView": "For the minimal view tap the button!"
+  ]
+]
