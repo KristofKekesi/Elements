@@ -1,34 +1,60 @@
 [
   "meta": [
-    "name": "hungarian",
-    "versio": "0.1"
+	"name": "hungarian",
+	"versio": "0.1"
   ],
   
   "title": "Elemek",
   
   "consistency": [
-    "solid": "szilárd",
-    "fluid": "folyékony",
-    "gas": "gáz",
-    "unknown": "ismeretlen"
+	"solid": "szilárd",
+	"fluid": "folyékony",
+	"gas": "gáz",
+	"unknown": "ismeretlen"
+  ],
+  
+  "typesPlural": [
+	"otherNonmetals": "egyéb nemfémek",
+	"nobleGases": "nemesgázok",
+	"alkaliMetals": "alkálifémek",
+	"alkaliEarthMetals": "alkáliföldfémek",
+	"metalloids": "félfémek",
+	"postTransformMetals": "másodfajú fémek",
+	"transitionMetals": "átmenetifémek",
+	"lanthanoids": "lantanoidák",
+	"actinoids": "aktinoidák"
+  ],
+  
+    "typesSingular": [
+	"otherNonmetal": "egyéb nemfém",
+	"nobleGas": "nemesgáz",
+	"alkaliMetal": "alkálifém",
+	"alkaliEarthMetal": "alkáliföldfém",
+	"metalloid": "félfém",
+	"postTransformMetal": "másodfajú fém",
+	"transitionMetal": "átmenetifém",
+	"lanthanoid": "lantanoida",
+	"actinoid": "aktinoida"
   ],
   
   "buttons": [
-    "cards": "Kártyák",
-    "minimal": "Minimál"
+	"cards": "Kártyák",
+	"minimal": "Minimál"
   ],
 
   "tooltips": [
-    "moreAboutElement": "További információkhoz kattincson az elemre!",
-    
-    "num": "Az elem száma a Periódusos rendszerben",
-    "symbol": "Az elem vegyjele",
-    "name": "Az elem neve",
-    
-    "consistency": "Halmazállapot",
-    "discovery": "Felfedezés",
-    
-    "cardView": "Kártya nézethez kattintson a gombra!",
-    "minimalView": "A minimális nézethez kattintson a gombra!"
+	"settings": "Beállítások",
+	
+	"moreAboutElement": "További információkhoz kattincson az elemre!",
+	
+	"num": "Az elem száma a Periódusos rendszerben",
+	"symbol": "Az elem vegyjele",
+	"name": "Az elem neve",
+	
+	"consistency": "Halmazállapot",
+	"discovery": "Felfedezés",
+	
+	"cardView": "Kártya nézethez kattintson a gombra!",
+	"minimalView": "A minimális nézethez kattintson a gombra!"
   ]
 ]

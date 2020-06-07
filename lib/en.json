@@ -1,34 +1,60 @@
 [
   "meta": [
-    "name": "english",
-    "versio": "0.1"
+	"name": "english",
+	"versio": "0.1"
   ],
   
   "title": "Elements",
   
   "consistency": [
-    "solid": "solid",
-    "fluid": "fluid",
-    "gas": "gas",
-    "unknown": "unknown"
+	"solid": "solid",
+	"fluid": "fluid",
+	"gas": "gas",
+	"unknown": "unknown"
+  ],
+  
+  "typesPlural": [
+	"otherNonmetals": "other nonmetals",
+	"nobleGases": "noble gases",
+	"alkaliMetals": "alkali metals",
+	"alkaliEarthMetals": "alkali earth metals",
+	"metalloids": "metalloids",
+	"postTransformMetals": "post transform metals",
+	"transitionMetals": "transition matals",
+	"lanthanoids": "lanthanoids",
+	"actinoids": "actinoids"
+  ],
+  
+    "typesSingular": [
+	"otherNonmetal": "other nonmetal",
+	"nobleGas": "noble gas",
+	"alkaliMetal": "alkali metal",
+	"alkaliEarthMetal": "alkali earth metal",
+	"metalloid": "metalloid",
+	"postTransformMetal": "post transform metal",
+	"transitionMetal": "transition matal",
+	"lanthanoid": "lanthanoid",
+	"actinoid": "actinoid"
   ],
   
   "buttons": [
-    "cards": "Cards",
-    "minimal": "Minimal"
+	"cards": "Cards",
+	"minimal": "Minimal"
   ],
   
   "tooltips": [
-    "moreAboutElement": "For more informations tap the element!",
-    
-    "num": "The element's number from the Periodic table",
-    "symbol": "The element's chemical symbol",
-    "name": "The element's name",
-    
-    "consistency": "Consistency",
-    "discovery": "Discovery",
-    
-    "cardView": "For the card view tap the button!",
-    "minimalView": "For the minimal view tap the button!"
+	"settings": "Settings",
+	
+	"moreAboutElement": "For more informations tap the element!",
+	
+	"num": "The element's number from the Periodic table",
+	"symbol": "The element's chemical symbol",
+	"name": "The element's name",
+	
+	"consistency": "Consistency",
+	"discovery": "Discovery",
+	
+	"cardView": "For the card view tap the button!",
+	"minimalView": "For the minimal view tap the button!"
   ]
 ]
