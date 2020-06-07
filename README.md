@@ -1,4 +1,5 @@
 # Elements
+<img src="https://img.shields.io/badge/Status-Developing-yellow.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/15-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-13-blue.svg" alt="">
 
 ##### A modern app made with Flutter, to track the chemistry's element.
 ##### __UNDER DEVELOPMENT__
@@ -8,7 +9,7 @@
 * _[PR and Management]_ - [__Roland Ország__](https://github.com/rolandorszag)
 * _[JSON Formatting]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi), [__Roland Ország__](https://github.com/rolandorszag)
  
-## Made with
+## Made with <img src="https://img.shields.io/badge/Flutter-blue.svg" alt=""> <img src="https://img.shields.io/badge/Android Studio-green.svg" alt="">
 Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android Studio__.
 
 ## License
