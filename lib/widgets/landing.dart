@@ -21,16 +21,32 @@ class landing extends StatelessWidget {
                   top: 20),
               child: Row(
                 children: <Widget>[
-                  Image(
-                      image: AssetImage("lib/icons/wrench_500.png"),
-                      height: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .05,
-                      width: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .05),
+                  CupertinoContextMenu(
+                    child: Image(
+                        image: AssetImage("lib/icons/wrench_500.png"),
+                        height: (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .05,
+                        width: (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .05),
+                    actions: <Widget>[
+                      CupertinoContextMenuAction(
+                        child: const Text('English [EN]'),
+                        onPressed: () {
+                          Navigator.pop(context);
+                        },
+                      ),
+                      CupertinoContextMenuAction(
+                        child: const Text('Magyar [HU]'),
+                        onPressed: () {
+                          Navigator.pop(context);
+                        },
+                      ),
+                    ],
+                  ),
                   Text(
                     '  Elements:',
                     textAlign: TextAlign.left,
@@ -59,16 +75,16 @@ class landing extends StatelessWidget {
               padding: EdgeInsets.only(
                   bottom: 20,
                   right: (MediaQuery.of(context).size.height +
-                      MediaQuery.of(context).size.width) /
+                          MediaQuery.of(context).size.width) /
                       2 *
                       .05),
               child: Container(
                 width: (MediaQuery.of(context).size.width +
-                    MediaQuery.of(context).size.height) /
+                        MediaQuery.of(context).size.height) /
                     2 *
                     .30,
                 height: (MediaQuery.of(context).size.height +
-                    MediaQuery.of(context).size.width) /
+                        MediaQuery.of(context).size.width) /
                     2 *
                     .13,
                 decoration: BoxDecoration(
@@ -78,20 +94,18 @@ class landing extends StatelessWidget {
                   ], begin: Alignment.topLeft, end: Alignment.bottomRight),
                   borderRadius: BorderRadius.circular(
                       (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
+                              MediaQuery.of(context).size.width) /
                           2 *
                           .02),
                 ),
-                child:
-                Center(
-                  child:
-                  Text(
+                child: Center(
+                  child: Text(
                     "Search",
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                         fontSize: (MediaQuery.of(context).size.height +
-                            MediaQuery.of(context).size.width) /
+                                MediaQuery.of(context).size.width) /
                             2 *
                             .06),
                   ),
