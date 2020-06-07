@@ -14,7 +14,6 @@ class minimalView extends StatelessWidget {
           return new ListView.builder(
             shrinkWrap: true,
             itemCount: elementList.length,
-            scrollDirection: Axis.horizontal,
             cacheExtent: 100.0,
             itemBuilder: (BuildContext context, int index) {
               return GestureDetector(
@@ -40,26 +39,22 @@ class minimalView extends StatelessWidget {
                                 topLeft: Radius.circular(30),
                                 topRight: Radius.circular(30)),
                             image: DecorationImage(
-                              image: AssetImage("lib/backgrounds/transparent.png"),
+                              image:
+                                  AssetImage("lib/backgrounds/transparent.png"),
                               fit: BoxFit.cover,
                             ),
                           ),
                           child: Padding(
                             padding: EdgeInsets.only(
-                                left: (MediaQuery.of(context)
-                                    .size
-                                    .height +
-                                    MediaQuery.of(context)
-                                        .size
-                                        .width) /
-                                    2 *
-                                    .05 +
+                                left: (MediaQuery.of(context).size.height +
+                                            MediaQuery.of(context).size.width) /
+                                        2 *
+                                        .05 +
                                     30,
                                 top: 30,
                                 bottom: 30),
                             child: Column(
-                              crossAxisAlignment:
-                              CrossAxisAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
                                   elementList[index]['eng'],
@@ -68,48 +63,42 @@ class minimalView extends StatelessWidget {
                                     color: Colors.white,
                                     height: 1.2,
                                     fontSize: (MediaQuery.of(context)
-                                        .size
-                                        .height +
-                                        MediaQuery.of(context)
-                                            .size
-                                            .width) /
+                                                .size
+                                                .height +
+                                            MediaQuery.of(context).size.width) /
                                         2 *
                                         .08,
                                   ),
                                 ),
                                 Row(children: <Widget>[
                                   Image(
-                                      image: AssetImage(
-                                          consistency()),
-                                      height: (MediaQuery.of(context)
-                                          .size
-                                          .height +
-                                          MediaQuery.of(context)
-                                              .size
-                                              .width) /
-                                          2 *
-                                          .06,
-                                      width: (MediaQuery.of(context)
-                                          .size
-                                          .height +
-                                          MediaQuery.of(context)
-                                              .size
-                                              .width) /
-                                          2 *
-                                          .06),
+                                      image: AssetImage(consistency()),
+                                      height:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .06,
+                                      width:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .06),
                                   Text(
                                     ' ${elementList[index]["consistency"][0].toUpperCase()}${elementList[index]["consistency"].substring(1)}',
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
-                                      fontSize: (MediaQuery.of(context)
-                                          .size
-                                          .height +
-                                          MediaQuery.of(context)
-                                              .size
-                                              .width) /
-                                          2 *
-                                          .06,
+                                      fontSize:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .06,
                                     ),
                                   ),
                                 ]),
@@ -117,36 +106,32 @@ class minimalView extends StatelessWidget {
                                   Image(
                                       image: AssetImage(
                                           "lib/icons/discovery_white_500.png"),
-                                      height: (MediaQuery.of(context)
-                                          .size
-                                          .height +
-                                          MediaQuery.of(context)
-                                              .size
-                                              .width) /
-                                          2 *
-                                          .06,
-                                      width: (MediaQuery.of(context)
-                                          .size
-                                          .height +
-                                          MediaQuery.of(context)
-                                              .size
-                                              .width) /
-                                          2 *
-                                          .06),
+                                      height:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .06,
+                                      width:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .06),
                                   Text(
-                                    ' ' +
-                                        elementList[index]["discovery"],
+                                    ' ' + elementList[index]["discovery"],
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
-                                      fontSize: (MediaQuery.of(context)
-                                          .size
-                                          .height +
-                                          MediaQuery.of(context)
-                                              .size
-                                              .width) /
-                                          2 *
-                                          .06,
+                                      fontSize:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .06,
                                     ),
                                   ),
                                 ]),
@@ -159,141 +144,69 @@ class minimalView extends StatelessWidget {
                 child: Container(
                   margin: EdgeInsets.only(
                       left: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
+                              MediaQuery.of(context).size.width) /
                           2 *
                           .05,
                       right: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
+                              MediaQuery.of(context).size.width) /
                           2 *
                           .05,
                       bottom: 40),
                   decoration: new BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("lib/backgrounds/" + elementList[index]["bg"]),
+                        image: AssetImage(
+                            "lib/backgrounds/" + elementList[index]["bg"]),
                         fit: BoxFit.cover,
                       ),
                       borderRadius: new BorderRadius.circular(
                           (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
+                                  MediaQuery.of(context).size.width) /
                               2 *
                               .03)),
                   height: (MediaQuery.of(context).size.height +
-                      MediaQuery.of(context).size.width) /
+                          MediaQuery.of(context).size.width) /
                       2 *
-                      .8,
+                      .2,
                   width: (MediaQuery.of(context).size.width +
-                      MediaQuery.of(context).size.height) /
+                          MediaQuery.of(context).size.height) /
                       2 *
-                      .55,
-                  child: new Column(
-                    //crossAxisAlignment: CrossAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: <Widget>[
-                      new Align(
-                        alignment: Alignment.topLeft,
-                        child: new Padding(
-                          padding: EdgeInsets.only(top: 20, left: 30),
-                          child: new Column(
-                            crossAxisAlignment:
-                            CrossAxisAlignment.start,
-                            children: <Widget>[
-                              new Text(
-                                elementList[index]["number"].toString(),
-                                textAlign: TextAlign.left,
-                                style: new TextStyle(
-                                  shadows: <Shadow>[
-                                    Shadow(
-                                      offset: Offset(2.0, 2.0),
-                                      blurRadius: 8.0,
-                                      color: Color.fromARGB(255, 0, 0, 0),
-                                    ),
-                                  ],
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: (MediaQuery.of(context)
-                                      .size
-                                      .height +
-                                      MediaQuery.of(context)
-                                          .size
-                                          .width) /
-                                      2 *
-                                      .08,
+                      .2,
+                  child: new Align(
+                    alignment: Alignment.topLeft,
+                    child: new Padding(
+                      padding: EdgeInsets.only(top: 20, left: 30),
+                      child: new Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          new Text(
+                            elementList[index]["element"].toString(),
+                            textAlign: TextAlign.left,
+                            style: new TextStyle(
+                              shadows: <Shadow>[
+                                Shadow(
+                                  offset: Offset(2.0, 2.0),
+                                  blurRadius: 8.0,
+                                  color: Color.fromARGB(255, 0, 0, 0),
                                 ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                      Expanded(
-                        flex: 10,
-                        child: new Padding(
-                          padding:
-                          EdgeInsets.only(bottom: 20, left: 30),
-                          child: new Align(
-                            alignment: Alignment.bottomLeft,
-                            child: RichText(
-                              text: TextSpan(
-                                style: new TextStyle(
-                                  shadows: <Shadow>[
-                                    Shadow(
-                                      offset: Offset(2.0, 2.0),
-                                      blurRadius: 8.0,
-                                      color: Color.fromARGB(255, 0, 0, 0),
-                                    ),
-                                  ],
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: (MediaQuery.of(context)
-                                      .size
-                                      .height +
-                                      MediaQuery.of(context)
-                                          .size
-                                          .width) /
-                                      2 *
-                                      .06,
-                                ),
-                                children: <TextSpan>[
-                                  TextSpan(
-                                      text: elementList[index]
-                                      ["element"],
-                                      style: TextStyle(
-                                        shadows: <Shadow>[
-                                          Shadow(
-                                            offset: Offset(2.0, 2.0),
-                                            blurRadius: 8.0,
-                                            color: Color.fromARGB(255, 0, 0, 0),
-                                          ),
-                                        ],
-                                        fontSize: (MediaQuery.of(
-                                            context)
-                                            .size
-                                            .height +
-                                            MediaQuery.of(context)
-                                                .size
-                                                .width) /
-                                            2 *
-                                            .1,
-                                      )),
-                                  TextSpan(text: "\n"),
-                                  TextSpan(
-                                      text: elementList[index]["eng"]),
-                                ],
-                              ),
+                              ],
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: (MediaQuery.of(context).size.height +
+                                      MediaQuery.of(context).size.width) /
+                                  2 *
+                                  .08,
                             ),
                           ),
-                        ),
+                        ],
                       ),
-                    ],
+                    ),
                   ),
                 ),
               );
             },
           );
         },
-        future: DefaultAssetBundle.of(context)
-            .loadString('lib/elements.json'),
+        future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
       ),
     );
   }
