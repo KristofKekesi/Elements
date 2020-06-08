@@ -1,60 +1,45 @@
-[
-  "meta": [
-	"name": "hungarian",
-	"versio": "0.1"
-  ],
-  
-  "title": "Elemek",
-  
-  "consistency": [
-	"solid": "szilárd",
-	"fluid": "folyékony",
-	"gas": "gáz",
-	"unknown": "ismeretlen"
-  ],
-  
-  "typesPlural": [
-	"otherNonmetals": "egyéb nemfémek",
-	"nobleGases": "nemesgázok",
-	"alkaliMetals": "alkálifémek",
-	"alkaliEarthMetals": "alkáliföldfémek",
-	"metalloids": "félfémek",
-	"postTransformMetals": "másodfajú fémek",
-	"transitionMetals": "átmenetifémek",
-	"lanthanoids": "lantanoidák",
-	"actinoids": "aktinoidák"
-  ],
-  
-    "typesSingular": [
-	"otherNonmetal": "egyéb nemfém",
-	"nobleGas": "nemesgáz",
-	"alkaliMetal": "alkálifém",
-	"alkaliEarthMetal": "alkáliföldfém",
-	"metalloid": "félfém",
-	"postTransformMetal": "másodfajú fém",
-	"transitionMetal": "átmenetifém",
-	"lanthanoid": "lantanoida",
-	"actinoid": "aktinoida"
-  ],
-  
-  "buttons": [
-	"cards": "Kártyák",
-	"minimal": "Minimál"
-  ],
-
-  "tooltips": [
-	"settings": "Beállítások",
-	
-	"moreAboutElement": "További információkhoz kattincson az elemre!",
-	
-	"num": "Az elem száma a Periódusos rendszerben",
-	"symbol": "Az elem vegyjele",
-	"name": "Az elem neve",
-	
-	"consistency": "Halmazállapot",
-	"discovery": "Felfedezés",
-	
-	"cardView": "Kártya nézethez kattintson a gombra!",
-	"minimalView": "A minimális nézethez kattintson a gombra!"
-  ]
-]
+{
+  "_comment_": "META",
+  "name": "?hungarian",
+  "versio": "?0.1",
+  "title": "?Elemek",
+  "_comment_": "CONSISTENCY",
+  "solid": "?szilárd",
+  "fluid": "?folyékony",
+  "gas": "?gáz",
+  "unknown": "?ismeretlen",
+  "_comment_": "TYPES PLURAL",
+  "otherNonmetals": "?egyéb nemfémek",
+  "nobleGases": "?nemesgázok",
+  "alkaliMetals": "?alkálifémek",
+  "alkaliEarthMetals": "?alkáliföldfémek",
+  "metalloids": "?félfémek",
+  "postTransformMetals": "?másodfajú fémek",
+  "transitionMetals": "?átmenetifémek",
+  "lanthanoids": "?lantanoidák",
+  "actinoids": "?aktinoidák",
+  "_comment_": "TYPES SINGULAR",
+  "otherNonmetal": "?egyéb nemfém",
+  "nobleGas": "?nemesgáz",
+  "alkaliMetal": "?alkálifém",
+  "alkaliEarthMetal": "?alkáliföldfém",
+  "metalloid": "?félfém",
+  "postTransformMetal": "?másodfajú fém",
+  "transitionMetal": "?átmenetifém",
+  "lanthanoid": "?lantanoida",
+  "actinoid": "?aktinoida",
+  "_comment_": "BUTTONS",
+  "cards": "?Kártyák",
+  "minimal": "?Minimál",
+  "_comment_": "TOOLTIPS",
+  "settings": "?Beállítások",
+  "moreAboutElement": "?További információkhoz kattincson az elemre!",
+  "num": "?Az elem száma a Periódusos rendszerben",
+  "back": "?Vissza",
+  "symbol": "?Az elem vegyjele",
+  "elementName": "?Az elem neve",
+  "consistency": "?Halmazállapot",
+  "discovery": "?Felfedezés",
+  "cardView": "?Kártya nézethez kattintson a gombra!",
+  "minimalView": "?A minimális nézethez kattintson a gombra!"
+}

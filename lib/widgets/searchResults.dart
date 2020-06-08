@@ -1,3 +1,4 @@
+import 'package:flutter_chem/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -40,7 +41,7 @@ class searchResults extends StatelessWidget {
                               .09),
                     ),
                     Text(
-                      ' Elements:',
+                      ' ' + AppLocalizations.of(context).translate('title'),
                       textAlign: TextAlign.left,
                       style: new TextStyle(
                           color: Colors.black,
@@ -54,8 +55,8 @@ class searchResults extends StatelessWidget {
                 ),
               ),
             ),
-            cardView(),
-            //minimalView(),
+            //cardView(),
+            minimalView(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
@@ -105,7 +106,7 @@ class searchResults extends StatelessWidget {
                                   2 *
                                   .04),
                           Text(
-                            " Cards",
+                            " " + AppLocalizations.of(context).translate('cards'),
                             style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -166,7 +167,7 @@ class searchResults extends StatelessWidget {
                                   2 *
                                   .04),
                           Text(
-                            " Minimal",
+                            " " + AppLocalizations.of(context).translate('minimal'),
                             style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,

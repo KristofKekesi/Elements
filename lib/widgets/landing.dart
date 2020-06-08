@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_chem/widgets/localization.dart';
 import 'package:flutter_chem/widgets/searchResults.dart';
 
 // ignore: camel_case_types
@@ -48,7 +49,7 @@ class landing extends StatelessWidget {
                     ],
                   ),
                   Text(
-                    '  Elements:',
+                    '  ' + AppLocalizations.of(context).translate('title'),
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,

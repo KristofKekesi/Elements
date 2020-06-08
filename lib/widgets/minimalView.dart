@@ -171,35 +171,45 @@ class minimalView extends StatelessWidget {
                           MediaQuery.of(context).size.height) /
                       2 *
                       .2,
-                  child: new Align(
-                    alignment: Alignment.topLeft,
-                    child: new Padding(
-                      padding: EdgeInsets.only(top: 20, left: 30),
-                      child: new Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          new Text(
-                            elementList[index]["element"].toString(),
-                            textAlign: TextAlign.left,
-                            style: new TextStyle(
-                              shadows: <Shadow>[
-                                Shadow(
-                                  offset: Offset(2.0, 2.0),
-                                  blurRadius: 8.0,
-                                  color: Color.fromARGB(255, 0, 0, 0),
+                  child: new Column(
+                    //crossAxisAlignment: CrossAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: <Widget>[
+                      new Align(
+                        alignment: Alignment.topLeft,
+                        child: new Padding(
+                          padding: EdgeInsets.only(top: 20, left: 30),
+                          child: new Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              new Text(
+                                elementList[index]["element"].toString(),
+                                textAlign: TextAlign.left,
+                                style: new TextStyle(
+                                  shadows: <Shadow>[
+                                    Shadow(
+                                      offset: Offset(2.0, 2.0),
+                                      blurRadius: 8.0,
+                                      color: Color.fromARGB(255, 0, 0, 0),
+                                    ),
+                                  ],
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: (MediaQuery.of(context)
+                                              .size
+                                              .height +
+                                          MediaQuery.of(context).size.width) /
+                                      2 *
+                                      .08,
                                 ),
-                              ],
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .08,
-                            ),
+                              ),
+                            ],
                           ),
-                        ],
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                 ),
               );
