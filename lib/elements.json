@@ -41,7 +41,7 @@
 	"discovery": "1817",
 	"electronnegativity": "1,0",
 	
-	"bg": "",
+	"bg": "029_ar.jpg",
 	
 	"hu": "Lítium",
 	"eng": "Lithium"
@@ -56,7 +56,7 @@
 	"discovery": "1797",
 	"electronnegativity": "1,5",
 	
-	"bg": "",
+	"bg": "010_pc.jpg",
 	
 	"hu": "Berillium",
 	"eng": "Beryllium"
@@ -71,7 +71,7 @@
 	"discovery": "1808",
 	"electronnegativity": "2,0",
 	
-	"bg": "",
+	"bg": "023_di.jpg",
 	
 	"hu": "Bór",
 	"eng": "Boron"
@@ -86,7 +86,7 @@
 	"discovery": "ancient",
 	"electronnegativity": "2,5",
 	
-	"bg": "",
+	"bg": "014_ph.jpg",
 	
 	"hu": "Szén",
 	"eng": "Carbon"
@@ -101,7 +101,7 @@
 	"discovery": "1772",
 	"electronnegativity": "3,0",
 	
-	"bg": "",
+	"bg": "025_ab.jpg",
 	
 	"hu": "Nitrogén",
 	"eng": "Nitrogen"
@@ -116,7 +116,7 @@
 	"discovery": "1774",
 	"electronnegativity": "3,5",
 	
-	"bg": "",
+	"bg": "022_ea.jpg",
 	
 	"hu": "Oxigén",
 	"eng": "Oxygen"
@@ -131,7 +131,7 @@
 	"discovery": "1886",
 	"electronnegativity": "4,0",
 	
-	"bg": "",
+	"bg": "031_ar.jpg",
 	
 	"hu": "Fluor",
 	"eng": "Fluorine"
@@ -146,7 +146,7 @@
 	"discovery": "1898",
 	"electronnegativity": "",
 	
-	"bg": "",
+	"bg": "030_ar.jpg",
 	
 	"hu": "Neon",
 	"eng": "Neon"
@@ -161,7 +161,7 @@
 	"discovery": "1807",
 	"electronnegativity": "0,9",
 	
-	"bg": "",
+	"bg": "018_di.jpg",
 	
 	"hu": "Nátrium",
 	"eng": "Sodium"
@@ -176,7 +176,7 @@
 	"discovery": "1808",
 	"electronnegativity": "1,2",
 	
-	"bg": "",
+	"bg": "015_sk.jpg",
 	
 	"hu": "Magnézium",
 	"eng": "Magnesium"
@@ -191,7 +191,7 @@
 	"discovery": "1825",
 	"electronnegativity": "1,5",
 	
-	"bg": "",
+	"bg": "008_pc.jpg",
 	
 	"hu": "Alumínium",
 	"eng": "Aluminium"
@@ -251,7 +251,7 @@
 	"discovery": "1774",
 	"electronnegativity": "3,0",
 	
-	"bg": "",
+	"bg": "026_hd.jpg",
 	
 	"hu": "Klór",
 	"eng": "Chlorine"
