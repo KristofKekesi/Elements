@@ -2,18 +2,46 @@
   {
 	"element": "H",
 	"number": 1,
+	
+	"consistency": "gas",
+	"discovery": "1766",
 	"weight": "1,008",
 	"type": "otherNonmetals",
 	"block": "s",
-	"consistency": "gas",
-	"discovery": "1766",
 	"electronnegativity": "2,1",
 	"radioactivity": "",
 	
 	"bg": "016_di.jpg",
 	
 	"hu": "Hidrogén",
-	"eng": "Hydrogen"
+	"en": "Hydrogen"
+	
+	"isotopes": [
+		{
+			"weight": "1.00782503207",
+			"rate": "99.9885",
+			"halfRate": "stable",
+			
+			"hu": "Hidrogén-1",
+			"en": "Hydrogen-1"
+		},
+		{
+			"weight": "2.01410177785",
+			"rate": "0.0115",
+			"halfRate": "stable",
+			
+			"hu": "Hidrogén-2",
+			"en": "Hydrogen-2"
+		},
+		{
+			"weight": "3.01604927767",
+			"rate": "0",
+			"halfRate": "12.32y",
+			
+			"hu": "Hidrogén-3",
+			"en": "Hydrogen-3"
+		}
+	]
   },
   {
 	"element": "He",
@@ -29,7 +57,18 @@
 	"bg": "011_pc.jpg",
 	
 	"hu": "Hélium",
-	"eng": "Helium"
+	"en": "Helium",
+	
+	"isotopes": [
+		{
+		"weight": "3.01602931914",
+			"rate": "0.000137",
+			"halfRate": "stable",
+			
+			"hu": "Hélium-3",
+			"en": "Helium-3"
+		}
+	]
   },
   {
 	"element": "Li",
@@ -44,7 +83,18 @@
 	"bg": "029_ar.jpg",
 	
 	"hu": "Lítium",
-	"eng": "Lithium"
+	"en": "Lithium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Be",
@@ -59,7 +109,18 @@
 	"bg": "010_pc.jpg",
 	
 	"hu": "Berillium",
-	"eng": "Beryllium"
+	"en": "Beryllium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "B",
@@ -74,7 +135,18 @@
 	"bg": "023_di.jpg",
 	
 	"hu": "Bór",
-	"eng": "Boron"
+	"en": "Boron",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "C",
@@ -89,7 +161,18 @@
 	"bg": "014_ph.jpg",
 	
 	"hu": "Szén",
-	"eng": "Carbon"
+	"en": "Carbon",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "N",
@@ -104,7 +187,18 @@
 	"bg": "025_ab.jpg",
 	
 	"hu": "Nitrogén",
-	"eng": "Nitrogen"
+	"en": "Nitrogen",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "O",
@@ -119,7 +213,18 @@
 	"bg": "022_ea.jpg",
 	
 	"hu": "Oxigén",
-	"eng": "Oxygen"
+	"en": "Oxygen",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "F",
@@ -134,7 +239,18 @@
 	"bg": "031_ar.jpg",
 	
 	"hu": "Fluor",
-	"eng": "Fluorine"
+	"en": "Fluorine",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ne",
@@ -149,7 +265,18 @@
 	"bg": "030_ar.jpg",
 	
 	"hu": "Neon",
-	"eng": "Neon"
+	"en": "Neon",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Na",
@@ -164,7 +291,18 @@
 	"bg": "018_di.jpg",
 	
 	"hu": "Nátrium",
-	"eng": "Sodium"
+	"en": "Sodium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Mg",
@@ -179,7 +317,18 @@
 	"bg": "015_sk.jpg",
 	
 	"hu": "Magnézium",
-	"eng": "Magnesium"
+	"en": "Magnesium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Al",
@@ -194,7 +343,18 @@
 	"bg": "008_pc.jpg",
 	
 	"hu": "Alumínium",
-	"eng": "Aluminium"
+	"en": "Aluminium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Si",
@@ -209,7 +369,18 @@
 	"bg": "",
 	
 	"hu": "Szilícium",
-	"eng": "Silicon"
+	"en": "Silicon",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "P",
@@ -224,7 +395,18 @@
 	"bg": "",
 	
 	"hu": "Foszfor",
-	"eng": "Phosphorus" 
+	"en": "Phosphorus",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "S",
@@ -239,7 +421,18 @@
 	"bg": "",
 	
 	"hu": "Kén",
-	"eng": "Sulfur"
+	"en": "Sulfur",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cl",
@@ -254,7 +447,18 @@
 	"bg": "026_hd.jpg",
 	
 	"hu": "Klór",
-	"eng": "Chlorine"
+	"en": "Chlorine",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ar",
@@ -269,7 +473,18 @@
 	"bg": "",
 	
 	"hu": "Argon",
-	"eng": "Argon"
+	"en": "Argon",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "K",
@@ -284,7 +499,18 @@
 	"bg": "",
 	
 	"hu": "Kálium",
-	"eng": "Potassium"
+	"en": "Potassium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ca",
@@ -299,7 +525,18 @@
 	"bg": "",
 	
 	"hu": "Kalcium",
-	"eng": "Calcium"
+	"en": "Calcium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Sc",
@@ -314,7 +551,18 @@
 	"bg": "",
 	
 	"hu": "Szkandium",
-	"eng": "Scandium"
+	"en": "Scandium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ti",
@@ -329,7 +577,18 @@
 	"bg": "",
 	
 	"hu": "Titán",
-	"eng": "Titanium"
+	"en": "Titanium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "V",
@@ -344,7 +603,18 @@
 	"bg": "",
 	
 	"hu": "Vanádium",
-	"eng": "Vanadium"
+	"en": "Vanadium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cr",
@@ -359,7 +629,18 @@
 	"bg": "",
 	
 	"hu": "Króm",
-	"eng": "Chromium"
+	"en": "Chromium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Mn",
@@ -374,7 +655,18 @@
 	"bg": "",
 	
 	"hu": "Mangán",
-	"eng": "Manganese"
+	"en": "Manganese",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Fe",
@@ -389,7 +681,18 @@
 	"bg": "024_cj.jpg",
 	
 	"hu": "Vas",
-	"eng": "Iron"
+	"en": "Iron",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Co",
@@ -404,7 +707,18 @@
 	"bg": "",
 	
 	"hu": "Kobalt",
-	"eng": "Cobalt"
+	"en": "Cobalt",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ni",
@@ -419,7 +733,18 @@
 	"bg": "",
 	
 	"hu": "Nikkel",
-	"eng": "Nickel"
+	"en": "Nickel",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cu",
@@ -434,7 +759,18 @@
 	"bg": "004_dp.jpg",
 	
 	"hu": "Réz",
-	"eng": "Copper"
+	"en": "Copper",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Zn",
@@ -449,7 +785,18 @@
 	"bg": "",
 	
 	"hu": "Cink",
-	"eng": "Zinc"
+	"en": "Zinc",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ga",
@@ -464,7 +811,18 @@
 	"bg": "",
 	
 	"hu": "Gallium",
-	"eng": "Gallium"
+	"en": "Gallium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ge",
@@ -479,7 +837,18 @@
 	"bg": "",
 	
 	"hu": "Germánium",
-	"eng": "Germanium"
+	"en": "Germanium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "As",
@@ -494,7 +863,18 @@
 	"bg": "",
 	
 	"hu": "Arzén",
-	"eng": "Arsenic"
+	"en": "Arsenic",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Se",
@@ -509,7 +889,18 @@
 	"bg": "",
 	
 	"hu": "Szelén",
-	"eng": "Selenium"
+	"en": "Selenium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Br",
@@ -524,7 +915,18 @@
 	"bg": "",
 	
 	"hu": "Bróm",
-	"eng": "Bromine"
+	"en": "Bromine",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Kr",
@@ -539,7 +941,18 @@
 	"bg": "",
 	
 	"hu": "Kripton",
-	"eng": "Krypton"
+	"en": "Krypton",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Rb",
@@ -554,7 +967,18 @@
 	"bg": "",
 	
 	"hu": "Rubídium",
-	"eng": "Rubidium"
+	"en": "Rubidium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Sr",
@@ -569,7 +993,18 @@
 	"bg": "",
 	
 	"hu": "Stroncium",
-	"eng": "Stroncium"
+	"en": "Stroncium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Y",
@@ -584,7 +1019,18 @@
 	"bg": "",
 	
 	"hu": "Ittrium",
-	"eng": "Yttrium"
+	"en": "Yttrium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Zr",
@@ -599,7 +1045,18 @@
 	"bg": "",
 	
 	"hu": "Cirkónium",
-	"eng": "Zirconium"
+	"en": "Zirconium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Nb",
@@ -614,7 +1071,18 @@
 	"bg": "",
 	
 	"hu": "Nióbium",
-	"eng": "Niobium"
+	"en": "Niobium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Mo",
@@ -629,7 +1097,18 @@
 	"bg": "",
 	
 	"hu": "Molibdén",
-	"eng": "Molybdenum"
+	"en": "Molybdenum",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Tc",
@@ -644,7 +1123,18 @@
 	"bg": "",
 	
 	"hu": "Technécium",
-	"eng": "Technetium"
+	"en": "Technetium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ru",
@@ -659,7 +1149,18 @@
 	"bg": "",
 	
 	"hu": "Ruténium",
-	"eng": "Ruthenium"
+	"en": "Ruthenium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Rh",
@@ -674,7 +1175,18 @@
 	"bg": "",
 	
 	"hu": "Ródium",
-	"eng": "Rhodium"
+	"en": "Rhodium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Pd",
@@ -689,7 +1201,18 @@
 	"bg": "",
 	
 	"hu": "Palláddium",
-	"eng": "Palladium"
+	"en": "Palladium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ag",
@@ -704,7 +1227,18 @@
 	"bg": "",
 	
 	"hu": "Ezüst",
-	"eng": "Silver"
+	"en": "Silver",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cd",
@@ -719,7 +1253,18 @@
 	"bg": "",
 	
 	"hu": "Kadmium",
-	"eng": "Cadmium"
+	"en": "Cadmium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "In",
@@ -734,7 +1279,18 @@
 	"bg": "",
 	
 	"hu": "Indiumu",
-	"eng": "Indium"
+	"en": "Indium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Sn",
@@ -749,7 +1305,18 @@
 	"bg": "",
 	
 	"hu": "Ón",
-	"eng": "Tin"
+	"en": "Tin",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Sb",
@@ -764,7 +1331,18 @@
 	"bg": "",
 	
 	"hu": "Antimon",
-	"eng": "Antimony"
+	"en": "Antimony",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Te",
@@ -779,7 +1357,18 @@
 	"bg": "",
 	
 	"hu": "Tellúr",
-	"eng": "Tellurium"
+	"en": "Tellurium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
 
   },
   {
@@ -795,7 +1384,18 @@
 	"bg": "",
 	
 	"hu": "Jód",
-	"eng": "Iodine"
+	"en": "Iodine",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Xe",
@@ -810,7 +1410,18 @@
 	"bg": "",
 	
 	"hu": "Xenon",
-	"eng": "Xenon"
+	"en": "Xenon",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cs",
@@ -825,7 +1436,18 @@
 	"bg": "",
 	
 	"hu": "Cézium",
-	"eng": "Caesium"
+	"en": "Caesium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ba",
@@ -840,7 +1462,18 @@
 	"bg": "",
 	
 	"hu": "Bárium",
-	"eng": "Barium"
+	"en": "Barium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "La",
@@ -855,7 +1488,18 @@
 	"bg": "",
 	
 	"hu": "Lantán",
-	"eng": "Lanthanum"
+	"en": "Lanthanum",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ce",
@@ -870,7 +1514,18 @@
 	"bg": "",
 	
 	"hu": "Cérium",
-	"eng": "Cerium"
+	"en": "Cerium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Pr",
@@ -885,7 +1540,18 @@
 	"bg": "",
 	
 	"hu": "Prazeodímium",
-	"eng": "Praseodymium"
+	"en": "Praseodymium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Nd",
@@ -900,7 +1566,18 @@
 	"bg": "",
 	
 	"hu": "Neodímium",
-	"eng": "Neodymium"
+	"en": "Neodymium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Pm",
@@ -915,7 +1592,18 @@
 	"bg": "",
 	
 	"hu": "Prométium",
-	"eng": "Promethium"
+	"en": "Promethium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Sm",
@@ -930,7 +1618,18 @@
 	"bg": "",
 	
 	"hu": "Szamárium",
-	"eng": "Samarium"
+	"en": "Samarium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Eu",
@@ -945,7 +1644,18 @@
 	"bg": "",
 	
 	"hu": "Európium",
-	"eng": "Europium"
+	"en": "Europium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Gd",
@@ -960,7 +1670,18 @@
 	"bg": "",
 	
 	"hu": "Gadolínium",
-	"eng": "Gadolinium"
+	"en": "Gadolinium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Tb",
@@ -975,7 +1696,18 @@
 	"bg": "",
 	
 	"hu": "Terbium",
-	"eng": "Terbium"
+	"en": "Terbium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Dy",
@@ -990,7 +1722,18 @@
 	"bg": "",
 	
 	"hu": "Diszprózium",
-	"eng": "Dysprosium"
+	"en": "Dysprosium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ho",
@@ -1005,7 +1748,18 @@
 	"bg": "",
 	
 	"hu": "Holmium",
-	"eng": "Holmium"
+	"en": "Holmium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Er",
@@ -1020,7 +1774,18 @@
 	"bg": "",
 	
 	"hu": "Erbium",
-	"eng": "Erbium"
+	"en": "Erbium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Tm",
@@ -1035,7 +1800,18 @@
 	"bg": "",
 	
 	"hu": "Túlium",
-	"eng": "Thulium"
+	"en": "Thulium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Yb",
@@ -1050,7 +1826,18 @@
 	"bg": "",
 	
 	"hu": "Itterbium",
-	"eng": "Ytterbium"
+	"en": "Ytterbium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Lu",
@@ -1065,7 +1852,18 @@
 	"bg": "",
 	
 	"hu": "Lutécium",
-	"eng": "Lutetium"
+	"en": "Lutetium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Hf",
@@ -1080,7 +1878,18 @@
 	"bg": "",
 	
 	"hu": "Hafnium",
-	"eng": "Hafnium"
+	"en": "Hafnium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ta",
@@ -1095,7 +1904,18 @@
 	"bg": "",
 	
 	"hu": "Tantál",
-	"eng": "Tantalum"
+	"en": "Tantalum",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "W",
@@ -1110,7 +1930,18 @@
 	"bg": "",
 	
 	"hu": "Volfram",
-	"eng": "Tungsten"
+	"en": "Tungsten",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Re",
@@ -1125,7 +1956,18 @@
 	"bg": "",
 	
 	"hu": "Rénium",
-	"eng": "Rhenium"
+	"en": "Rhenium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Os",
@@ -1140,7 +1982,18 @@
 	"bg": "",
 	
 	"hu": "Ozmium",
-	"eng": "Osmium"
+	"en": "Osmium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ir",
@@ -1155,7 +2008,18 @@
 	"bg": "",
 	
 	"hu": "Irídium",
-	"eng": "Iridium"
+	"en": "Iridium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Pt",
@@ -1170,7 +2034,18 @@
 	"bg": "",
 	
 	"hu": "Platina",
-	"eng": "Platinum"
+	"en": "Platinum",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Au",
@@ -1185,7 +2060,18 @@
 	"bg": "",
 	
 	"hu": "Arany",
-	"eng": "Gold"
+	"en": "Gold",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Hg",
@@ -1200,7 +2086,18 @@
 	"bg": "",
 	
 	"hu": "Higany",
-	"eng": "Mercury"
+	"en": "Mercury",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Tl",
@@ -1215,7 +2112,18 @@
 	"bg": "",
 	
 	"hu": "Tallium",
-	"eng": "Thallium"
+	"en": "Thallium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Pb",
@@ -1230,7 +2138,18 @@
 	"bg": "",
 	
 	"hu": "Ólom",
-	"eng": "Lead"
+	"en": "Lead",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Bi",
@@ -1245,7 +2164,18 @@
 	"bg": "",
 	
 	"hu": "Bizmut",
-	"eng": "Bismuth"
+	"en": "Bismuth",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Po",
@@ -1260,7 +2190,18 @@
 	"bg": "",
 	
 	"hu": "Polónium",
-	"eng": "Polonium"
+	"en": "Polonium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "At",
@@ -1275,7 +2216,18 @@
 	"bg": "",
 	
 	"hu": "Asztácium",
-	"eng": "Astatine"
+	"en": "Astatine",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Rn",
@@ -1290,7 +2242,18 @@
 	"bg": "",
 	
 	"hu": "Radon",
-	"eng": "Radon"
+	"en": "Radon",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Fr",
@@ -1305,7 +2268,18 @@
 	"bg": "",
 	
 	"hu": "Francium",
-	"eng": "Francium"
+	"en": "Francium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ra",
@@ -1320,7 +2294,18 @@
 	"bg": "",
 	
 	"hu": "Rádium",
-	"eng": "Radium"
+	"en": "Radium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ac",
@@ -1335,7 +2320,18 @@
 	"bg": "",
 	
 	"hu": "Aktínium",
-	"eng": "Actinium"
+	"en": "Actinium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Th",
@@ -1350,7 +2346,18 @@
 	"bg": "",
 	
 	"hu": "Tórium",
-	"eng": "Thorium"
+	"en": "Thorium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Pa",
@@ -1365,7 +2372,18 @@
 	"bg": "",
 	
 	"hu": "Protaktínium",
-	"eng": "Protactinium"
+	"en": "Protactinium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "U",
@@ -1380,7 +2398,18 @@
 	"bg": "009_pc.jpg",
 	
 	"hu": "Urán",
-	"eng": "Uranium"
+	"en": "Uranium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Np",
@@ -1395,7 +2424,18 @@
 	"bg": "",
 	
 	"hu": "Neptúnium",
-	"eng": "Neptunium"
+	"en": "Neptunium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Pu",
@@ -1410,7 +2450,18 @@
 	"bg": "",
 	
 	"hu": "Plutónium",
-	"eng": "Plutonium"
+	"en": "Plutonium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Am",
@@ -1425,7 +2476,18 @@
 	"bg": "",
 	
 	"hu": "Amerícium",
-	"eng": "Americium"
+	"en": "Americium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cm",
@@ -1440,7 +2502,18 @@
 	"bg": "",
 	
 	"hu": "Kűrium",
-	"eng": "Curium"
+	"en": "Curium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Bk",
@@ -1455,7 +2528,18 @@
 	"bg": "",
 	
 	"hu": "Berkélium",
-	"eng": "Berkelium"
+	"en": "Berkelium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cf",
@@ -1470,7 +2554,18 @@
 	"bg": "",
 	
 	"hu": "Kalifornium",
-	"eng": "Californium"
+	"en": "Californium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Es",
@@ -1485,7 +2580,18 @@
 	"bg": "",
 	
 	"hu": "Einsteinium",
-	"eng": "Einsteinium"
+	"en": "Einsteinium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Fm",
@@ -1500,7 +2606,18 @@
 	"bg": "",
 	
 	"hu": "Fermium",
-	"eng": "Fermium"
+	"en": "Fermium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Md",
@@ -1515,7 +2632,18 @@
 	"bg": "",
 	
 	"hu": "Mendelévium",
-	"eng": "Mendelevium"
+	"en": "Mendelevium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "No",
@@ -1530,7 +2658,18 @@
 	"bg": "",
 	
 	"hu": "Nobélium",
-	"eng": "Nobelium"
+	"en": "Nobelium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Lr",
@@ -1545,7 +2684,18 @@
 	"bg": "",
 	
 	"hu": "Laurencium",
-	"eng": "Lawrencium"
+	"en": "Lawrencium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Rf",
@@ -1560,7 +2710,18 @@
 	"bg": "",
 	
 	"hu": "Raderfordium",
-	"eng": "Rutherfordium"
+	"en": "Rutherfordium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Db",
@@ -1575,7 +2736,18 @@
 	"bg": "",
 	
 	"hu": "Dubnium",
-	"eng": "Dubnium"
+	"en": "Dubnium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Sg",
@@ -1590,7 +2762,18 @@
 	"bg": "",
 	
 	"hu": "Sziborgium",
-	"eng": "Seaborgium"
+	"en": "Seaborgium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Bh",
@@ -1605,7 +2788,18 @@
 	"bg": "",
 	
 	"hu": "Bohrium",
-	"eng": "Bohrium"
+	"en": "Bohrium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Hs",
@@ -1620,7 +2814,18 @@
 	"bg": "",
 	
 	"hu": "Hasszium",
-	"eng": "Hassium"
+	"en": "Hassium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Mt",
@@ -1635,7 +2840,18 @@
 	"bg": "",
 	
 	"hu": "Meitnérium",
-	"eng": "Meittnerium"
+	"en": "Meittnerium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ds",
@@ -1650,7 +2866,18 @@
 	"bg": "",
 	
 	"hu": "Darmstadtium",
-	"eng": "Darmstadtium"
+	"en": "Darmstadtium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Rg",
@@ -1665,7 +2892,18 @@
 	"bg": "",
 	
 	"hu": "Röntgénium",
-	"eng": "Roentgenium"
+	"en": "Roentgenium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Cn",
@@ -1680,7 +2918,18 @@
 	"bg": "",
 	
 	"hu": "Kopernícium",
-	"eng": "Copernicium"
+	"en": "Copernicium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Nh",
@@ -1695,7 +2944,18 @@
 	"bg": "",
 	
 	"hu": "Nihónium",
-	"eng": "Nihonium"
+	"en": "Nihonium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Fl",
@@ -1710,7 +2970,18 @@
 	"bg": "",
 	
 	"hu": "Fleróvium",
-	"eng": "Flerovium"
+	"en": "Flerovium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Mc",
@@ -1725,7 +2996,18 @@
 	"bg": "",
 	
 	"hu": "Moszkóvium",
-	"eng": "Moscovium"
+	"en": "Moscovium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Lv",
@@ -1740,7 +3022,18 @@
 	"bg": "",
 	
 	"hu": "Livermórium",
-	"eng": "Livermorium"
+	"en": "Livermorium",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Ts",
@@ -1755,7 +3048,18 @@
 	"bg": "",
 	
 	"hu": "Tenesszium",
-	"eng": "Tennessie"
+	"en": "Tennessie",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   },
   {
 	"element": "Og",
@@ -1770,6 +3074,17 @@
 	"bg": "",
 	
 	"hu": "Oganeszon",
-	"eng": "Oganesson"
+	"en": "Oganesson",
+	
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}
+	]
   }
 ]
