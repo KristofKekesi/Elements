@@ -36,7 +36,7 @@
   "minimal": "!Minimal",
   "_comment_": "TOOLTIPS",
   "settings": "!Settings",
-  "moreAboutElement": "!For more informations tap the element!",
+  "moreAboutElement": "!For more informations tap on the element!",
   "num": "!The element's number from the Periodic table",
   "back": "!Back",
   "symbol": "!The element's chemical symbol",

@@ -29,7 +29,9 @@ class searchResults extends StatelessWidget {
                       onTap: () {
                         Navigator.of(context).pop();
                       },
-                      child: Image(
+                      child: Tooltip(
+                        message: AppLocalizations.of(context).translate("back"),
+                        child: Image(
                           image: AssetImage("lib/icons/left_500.png"),
                           height: (MediaQuery.of(context).size.height +
                                   MediaQuery.of(context).size.width) /
@@ -39,6 +41,7 @@ class searchResults extends StatelessWidget {
                                   MediaQuery.of(context).size.width) /
                               2 *
                               .09),
+                    ),
                     ),
                     Text(
                       ' ' + AppLocalizations.of(context).translate('title'),
@@ -69,7 +72,7 @@ class searchResults extends StatelessWidget {
                                 MediaQuery.of(context).size.width) /
                             2 *
                             .05),
-                    child: Container(
+                    child: Tooltip(message: AppLocalizations.of(context).translate("cardView"),child: Container(
                       width: (MediaQuery.of(context).size.width +
                               MediaQuery.of(context).size.height) /
                           2 *
@@ -120,6 +123,10 @@ class searchResults extends StatelessWidget {
                     ),
                   ),
                 ),
+                ),
+                Tooltip(
+                  message: AppLocalizations.of(context).translate("minimalView"),
+                  child:
                 GestureDetector(
                   onTap: () {},
                   child: Padding(
@@ -181,6 +188,7 @@ class searchResults extends StatelessWidget {
                     ),
                   ),
                 )
+                ),
               ],
             ),
           ],

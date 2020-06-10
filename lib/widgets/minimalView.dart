@@ -84,7 +84,10 @@ class minimalView extends StatelessWidget {
                               children: <Widget>[
                                 Padding(
                                   padding: EdgeInsets.only(bottom: 20),
-                                  child: Text(
+                                  child: Tooltip(
+                                    message: AppLocalizations.of(context).translate("elementName"),
+                                    child:
+                                  Text(
                                     elementList[index][
                                         AppLocalizations.of(context)
                                             .translate("key")],
@@ -101,7 +104,11 @@ class minimalView extends StatelessWidget {
                                               .08,
                                     ),
                                   ),
+                                  ),
                                 ),
+                            Tooltip(
+                                message: AppLocalizations.of(context).translate("consistency"),
+                                child:
                                 Row(children: <Widget>[
                                   Image(
                                       image: AssetImage(consistencyIcon()),
@@ -133,7 +140,10 @@ class minimalView extends StatelessWidget {
                                               .06,
                                     ),
                                   ),
-                                ]),
+                        ],),),
+                                Tooltip(
+                                  message: AppLocalizations.of(context).translate("discovery"),
+                                  child:
                                 Row(
                                   children: <Widget>[
                                     Image(
@@ -155,6 +165,9 @@ class minimalView extends StatelessWidget {
                                                     .width) /
                                             2 *
                                             .06),
+                                    Tooltip(
+                                      message: AppLocalizations.of(context).translate("type"),
+                                      child:
                                     Text(
                                       discoveryText(),
                                       style: TextStyle(
@@ -170,7 +183,9 @@ class minimalView extends StatelessWidget {
                                             .06,
                                       ),
                                     ),
+                                    ),
                                   ],
+                                ),
                                 ),
                                 Padding(
                                   padding: EdgeInsets.only(top: 20),

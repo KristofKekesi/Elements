@@ -22,6 +22,9 @@ class landing extends StatelessWidget {
                   top: 20),
               child: Row(
                 children: <Widget>[
+                  Tooltip(
+              message: "" + AppLocalizations.of(context).translate("settings"),
+              child:
                   CupertinoContextMenu(
                     child: Image(
                         image: AssetImage("lib/icons/wrench_500.png"),
@@ -47,6 +50,7 @@ class landing extends StatelessWidget {
                         },
                       ),
                     ],
+                  ),
                   ),
                   Text(
                     '  ' + AppLocalizations.of(context).translate('title'),
