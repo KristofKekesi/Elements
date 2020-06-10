@@ -1,6 +1,7 @@
 {
   "_comment_": "META",
   "name": "?hungarian",
+  "key": "hu",
   "versio": "?0.1",
   "title": "?Elemek",
   "_comment_": "CONSISTENCY",
@@ -8,6 +9,8 @@
   "fluid": "?folyékony",
   "gas": "?gáz",
   "unknown": "?ismeretlen",
+  "_comment_": "TIMES",
+  "ancient": "!okor",
   "_comment_": "TYPES PLURAL",
   "otherNonmetals": "?egyéb nemfémek",
   "nobleGases": "?nemesgázok",

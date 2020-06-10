@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_chem/widgets/localization.dart';
 
 // ignore: camel_case_types
 class minimalView extends StatelessWidget {
@@ -18,7 +19,7 @@ class minimalView extends StatelessWidget {
             itemBuilder: (BuildContext context, int index) {
               return GestureDetector(
                 onTap: () {
-                  String consistency() {
+                  String consistencyIcon() {
                     if (elementList[index]["consistency"] == "gas") {
                       return "lib/icons/gas_white_500.png";
                     } else if (elementList[index]["consistency"] == "fluid") {
@@ -30,6 +31,26 @@ class minimalView extends StatelessWidget {
                     }
                   }
 
+                  String consistencyText() {
+                    if (elementList[index]["consistency"] == "gas") {
+                      return AppLocalizations.of(context).translate("gas");
+                    } else if (elementList[index]["consistency"] == "fluid") {
+                      return AppLocalizations.of(context).translate("fluid");
+                    } else if (elementList[index]["consistency"] == "solid") {
+                      return AppLocalizations.of(context).translate("solid");
+                    } else {
+                      return AppLocalizations.of(context).translate("unknown");
+                    }
+                  }
+                  
+                  String discoveryText() {
+                    if (elementList[index]["discovery"] == "ancient") {
+                      return '${AppLocalizations.of(context).translate("ancient")[0].toUpperCase()}${AppLocalizations.of(context).translate("ancient").substring(1)}';
+                    } else {
+                      return elementList[index]["discovery"];
+                    }
+                  }
+                  
                   showModalBottomSheet(
                       context: context,
                       builder: (context) {
@@ -57,7 +78,7 @@ class minimalView extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  elementList[index]['eng'],
+                                  elementList[index][AppLocalizations.of(context).translate("key")],
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
@@ -72,7 +93,7 @@ class minimalView extends StatelessWidget {
                                 ),
                                 Row(children: <Widget>[
                                   Image(
-                                      image: AssetImage(consistency()),
+                                      image: AssetImage(consistencyIcon()),
                                       height:
                                           (MediaQuery.of(context).size.height +
                                                   MediaQuery.of(context)
@@ -88,7 +109,7 @@ class minimalView extends StatelessWidget {
                                               2 *
                                               .06),
                                   Text(
-                                    ' ${elementList[index]["consistency"][0].toUpperCase()}${elementList[index]["consistency"].substring(1)}',
+                                    ' ${consistencyText()[0].toUpperCase()}${consistencyText().substring(1)}',
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
@@ -121,7 +142,7 @@ class minimalView extends StatelessWidget {
                                               2 *
                                               .06),
                                   Text(
-                                    ' ' + elementList[index]["discovery"],
+                                    ' ' + discoveryText(),
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
