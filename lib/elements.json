@@ -439,7 +439,7 @@
 	"discovery": "1823",
 	"electronnegativity": "1,8",
 	
-	"bg": "",
+	"bg": "006_ba.jpeg",
 	
 	"hu": "Szilícium",
 	"en": "Silicon",
@@ -465,7 +465,7 @@
 	"discovery": "1669",
 	"electronnegativity": "2,1",
 	
-	"bg": "",
+	"bg": "035_kg.jpg",
 	
 	"hu": "Foszfor",
 	"en": "Phosphorus",
@@ -543,7 +543,7 @@
 	"discovery": "1894",
 	"electronnegativity": "",
 	
-	"bg": "",
+	"bg": "003_dp.jpg",
 	
 	"hu": "Argon",
 	"en": "Argon",
@@ -569,7 +569,7 @@
 	"discovery": "1807",
 	"electronnegativity": "0,8",
 	
-	"bg": "",
+	"bg": "032_di.jpg",
 	
 	"hu": "Kálium",
 	"en": "Potassium",
@@ -595,7 +595,7 @@
 	"discovery": "1808",
 	"electronnegativity": "1,0",
 	
-	"bg": "",
+	"bg": "034_kg.jpg",
 	
 	"hu": "Kalcium",
 	"en": "Calcium",
@@ -621,7 +621,7 @@
 	"discovery": "1879",
 	"electronnegativity": "1,3",
 	
-	"bg": "",
+	"bg": "005_ba.jpg",
 	
 	"hu": "Szkandium",
 	"en": "Scandium",
@@ -647,7 +647,7 @@
 	"discovery": "1791",
 	"electronnegativity": "1,5",
 	
-	"bg": "",
+	"bg": "021_di.jpg",
 	
 	"hu": "Titán",
 	"en": "Titanium",
@@ -673,7 +673,7 @@
 	"discovery": "1831",
 	"electronnegativity": "1,6",
 	
-	"bg": "",
+	"bg": "019_di.jpg",
 	
 	"hu": "Vanádium",
 	"en": "Vanadium",
@@ -699,7 +699,7 @@
 	"discovery": "1797",
 	"electronnegativity": "1,6",
 	
-	"bg": "",
+	"bg": "027_ar.jpg",
 	
 	"hu": "Króm",
 	"en": "Chromium",
@@ -777,7 +777,7 @@
 	"discovery": "1735",
 	"electronnegativity": "1,8",
 	
-	"bg": "",
+	"bg": "012_mh.jpg",
 	
 	"hu": "Kobalt",
 	"en": "Cobalt",
@@ -855,7 +855,7 @@
 	"discovery": "1520",
 	"electronnegativity": "1,6",
 	
-	"bg": "",
+	"bg": "017_di.jpg",
 	
 	"hu": "Cink",
 	"en": "Zinc",
@@ -907,7 +907,7 @@
 	"discovery": "1885",
 	"electronnegativity": "1,8",
 	
-	"bg": "",
+	"bg": "001_rp.jpg",
 	
 	"hu": "Germánium",
 	"en": "Germanium",
@@ -933,7 +933,7 @@
 	"discovery": "1250",
 	"electronnegativity": "2,0",
 	
-	"bg": "",
+	"bg": "020_di.jpg",
 	
 	"hu": "Arzén",
 	"en": "Arsenic",
@@ -959,7 +959,7 @@
 	"discovery": "1817",
 	"electronnegativity": "2,4",
 	
-	"bg": "",
+	"bg": "028_ar.jpg",
 	
 	"hu": "Szelén",
 	"en": "Selenium",
@@ -1011,7 +1011,7 @@
 	"discovery": "1898",
 	"electronnegativity": "3,0",
 	
-	"bg": "",
+	"bg": "002_dp.jpg",
 	
 	"hu": "Kripton",
 	"en": "Krypton",
@@ -1063,7 +1063,7 @@
 	"discovery": "1790",
 	"electronnegativity": "1,0",
 	
-	"bg": "",
+	"bg": "033_kg.jpg",
 	
 	"hu": "Stroncium",
 	"en": "Stroncium",
@@ -1089,7 +1089,7 @@
 	"discovery": "1794",
 	"electronnegativity": "1,2",
 	
-	"bg": "",
+	"bg": "013_pc.jpg",
 	
 	"hu": "Ittrium",
 	"en": "Yttrium",
@@ -1351,7 +1351,7 @@
 	
 	"bg": "",
 	
-	"hu": "Indiumu",
+	"hu": "Indium",
 	"en": "Indium",
 	
 	"isotopes": [
@@ -1480,7 +1480,7 @@
 	"discovery": "1898",
 	"electronnegativity": "2,6",
 	
-	"bg": "",
+	"bg": "007_ba.jpeg",
 	
 	"hu": "Xenon",
 	"en": "Xenon",
