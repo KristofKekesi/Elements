@@ -1,5 +1,5 @@
 # Elements
-<img src="https://img.shields.io/badge/Status-Developing-yellow.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/15-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-14-blue.svg" alt="">
+<img src="https://img.shields.io/badge/Status-Developing-yellow.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/15-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-17-blue.svg" alt="">
 
 ##### A modern app made with Flutter, to track the chemistry's element.
 ##### __UNDER DEVELOPMENT__
