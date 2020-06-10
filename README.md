@@ -15,8 +15,8 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
 ## License
 ##### __MIT__
 
-## Latest Feature (day 6)
-- __**Multilanguage**__
+## Latest Feature (day 8)
+- __**Tooltips**__
 
 ## Latest Images (day 5)
 <table><tr><td>
