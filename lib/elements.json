@@ -439,7 +439,7 @@
 	"discovery": "1823",
 	"electronnegativity": "1,8",
 	
-	"bg": "006_ba.jpeg",
+	"bg": "006_ba.jpg",
 	
 	"hu": "Szilícium",
 	"en": "Silicon",
@@ -725,7 +725,7 @@
 	"discovery": "1774",
 	"electronnegativity": "1,5",
 	
-	"bg": "",
+	"bg": "036_ar.jpg",
 	
 	"hu": "Mangán",
 	"en": "Manganese",
@@ -1037,7 +1037,7 @@
 	"discovery": "1861",
 	"electronnegativity": "0,8",
 	
-	"bg": "",
+	"bg": "037_ar.jpg",
 	
 	"hu": "Rubídium",
 	"en": "Rubidium",
@@ -1480,7 +1480,7 @@
 	"discovery": "1898",
 	"electronnegativity": "2,6",
 	
-	"bg": "007_ba.jpeg",
+	"bg": "007_ba.jpg",
 	
 	"hu": "Xenon",
 	"en": "Xenon",
