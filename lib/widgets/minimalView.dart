@@ -42,7 +42,7 @@ class minimalView extends StatelessWidget {
                       return AppLocalizations.of(context).translate("unknown");
                     }
                   }
-                  
+
                   String discoveryText() {
                     if (elementList[index]["discovery"] == "ancient") {
                       return '${AppLocalizations.of(context).translate("ancient")[0].toUpperCase()}${AppLocalizations.of(context).translate("ancient").substring(1)}';
@@ -50,7 +50,12 @@ class minimalView extends StatelessWidget {
                       return elementList[index]["discovery"];
                     }
                   }
-                  
+
+                  String typeText() {
+                    return AppLocalizations.of(context)
+                        .translate(elementList[index]["type"]);
+                  }
+
                   showModalBottomSheet(
                       context: context,
                       builder: (context) {
@@ -77,18 +82,24 @@ class minimalView extends StatelessWidget {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
-                                Text(
-                                  elementList[index][AppLocalizations.of(context).translate("key")],
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                    height: 1.2,
-                                    fontSize: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                            MediaQuery.of(context).size.width) /
-                                        2 *
-                                        .08,
+                                Padding(
+                                  padding: EdgeInsets.only(bottom: 20),
+                                  child: Text(
+                                    elementList[index][
+                                        AppLocalizations.of(context)
+                                            .translate("key")],
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                      height: 1.2,
+                                      fontSize:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .08,
+                                    ),
                                   ),
                                 ),
                                 Row(children: <Widget>[
@@ -123,26 +134,48 @@ class minimalView extends StatelessWidget {
                                     ),
                                   ),
                                 ]),
-                                Row(children: <Widget>[
-                                  Image(
-                                      image: AssetImage(
-                                          "lib/icons/discovery_white_500.png"),
-                                      height:
-                                          (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
-                                              2 *
-                                              .06,
-                                      width:
-                                          (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
-                                              2 *
-                                              .06),
-                                  Text(
-                                    ' ' + discoveryText(),
+                                Row(
+                                  children: <Widget>[
+                                    Image(
+                                        image: AssetImage(
+                                            "lib/icons/discovery_white_500.png"),
+                                        height: (MediaQuery.of(context)
+                                                    .size
+                                                    .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                            2 *
+                                            .06,
+                                        width: (MediaQuery.of(context)
+                                                    .size
+                                                    .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                            2 *
+                                            .06),
+                                    Text(
+                                      discoveryText(),
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: (MediaQuery.of(context)
+                                                    .size
+                                                    .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                            2 *
+                                            .06,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(top: 20),
+                                  child: Text(
+                                    typeText(),
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
@@ -155,7 +188,7 @@ class minimalView extends StatelessWidget {
                                               .06,
                                     ),
                                   ),
-                                ]),
+                                ),
                               ],
                             ),
                           ),
