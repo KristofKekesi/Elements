@@ -45,9 +45,9 @@ class minimalView extends StatelessWidget {
 
                   String discoveryText() {
                     if (elementList[index]["discovery"] == "ancient") {
-                      return '${AppLocalizations.of(context).translate("ancient")[0].toUpperCase()}${AppLocalizations.of(context).translate("ancient").substring(1)}';
+                      return ' ${AppLocalizations.of(context).translate("ancient")[0].toUpperCase()}${AppLocalizations.of(context).translate("ancient").substring(1)}';
                     } else {
-                      return elementList[index]["discovery"];
+                      return ' ' + elementList[index]["discovery"];
                     }
                   }
 
