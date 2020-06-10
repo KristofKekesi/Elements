@@ -24,22 +24,48 @@
 			
 			"hu": "Hidrogén-1",
 			"en": "Hydrogen-1"
-		},
-		{
+		}, {
 			"weight": "2.01410177785",
 			"rate": "0.0115",
 			"halfRate": "stable",
 			
 			"hu": "Hidrogén-2",
 			"en": "Hydrogen-2"
-		},
-		{
+		}, {
 			"weight": "3.01604927767",
 			"rate": "0",
 			"halfRate": "12.32y",
 			
 			"hu": "Hidrogén-3",
 			"en": "Hydrogen-3"
+		}, {
+			"weight": "4.027806424",
+			"rate": "0",
+			"halfRate": "1.39×10-10ps",
+			
+			"hu": "Hidrogén-4",
+			"en": "Hydrogen-4"
+		}, {
+			"weight": "5.035311488",
+			"rate": "0",
+			"halfRate": "9.10×10-10ps",
+			
+			"hu": "Hidrogén-5",
+			"en": "Hydrogen-5"
+		}, {
+			"weight": "6.044942594",
+			"rate": "0",
+			"halfRate": "2.90×10-10ps",
+			
+			"hu": "Hidrogén-6",
+			"en": "Hydrogen-6"
+		}, {
+			"weight": "7.052749",
+			"rate": "0",
+			"halfRate": "2.3×10-11ps",
+			
+			"hu": "Hidrogén-7",
+			"en": "Hydrogen-7"
 		}
 	]
   },
@@ -61,20 +87,68 @@
 	
 	"isotopes": [
 		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
 		"weight": "3.01602931914",
 			"rate": "0.000137",
 			"halfRate": "stable",
 			
 			"hu": "Hélium-3",
 			"en": "Helium-3"
-		},
-		{
+		}, {
 		"weight": "4.00260325415",
 			"rate": "99.9999",
 			"halfRate": "stable",
 			
 			"hu": "Hélium-4",
 			"en": "Helium-4"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
 		}
 	]
   },
@@ -101,65 +175,63 @@
 			
 			"hu": "Lítium-3",
 			"en": "Lithium-3"
-		},
-		{
+		}, {
 			"weight": "4.027185558",
 			"rate": "0",
 			"halfRate": "9.1×10-11ps",
 			
 			"hu": "Lítium-4",
 			"en": "Lithium-4"
-		},
-		{
+		}, {
 			"weight": "5.0125378",
 			"rate": "0",
 			"halfRate": "3.70×10-10ps",
 			
 			"hu": "Lítium-5",
 			"en": "Lithium-5"
-		},{
+		}, {
 			"weight": "6.015122794",
 			"rate": "7.59",
 			"halfRate": "stable",
 			
 			"hu": "Lítium-6",
 			"en": "Lithium-6"
-		},{
+		}, {
 			"weight": "7.016004548",
 			"rate": "92.41",
 			"halfRate": "stable",
 			
 			"hu": "Lítium-7",
 			"en": "Lithium-7"
-		},{
+		}, {
 			"weight": "8.022487362",
 			"rate": "0",
 			"halfRate": "840.3ms",
 			
 			"hu": "Lítium-8",
 			"en": "Lithium-8"
-		},{
+		}, {
 			"weight": "9.026789505",
 			"rate": "0",
 			"halfRate": "178.3ms",
 			
 			"hu": "Lítium-9",
 			"en": "Lithium-9"
-		},{
+		}, {
 			"weight": "10.035481259",
 			"rate": "0",
 			"halfRate": "2.0×10-9ps",
 			
 			"hu": "Lítium-10",
 			"en": "Lithium-10"
-		},{
+		}, {
 			"weight": "11.043797715",
 			"rate": "0",
 			"halfRate": "8.75ms",
 			
 			"hu": "Lítium-11",
 			"en": "Lithium-11"
-		},{
+		}, {
 			"weight": "12.053780",
 			"rate": "0",
 			"halfRate": "10ns",
