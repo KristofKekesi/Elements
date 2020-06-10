@@ -165,9 +165,6 @@ class minimalView extends StatelessWidget {
                                                     .width) /
                                             2 *
                                             .06),
-                                    Tooltip(
-                                      message: AppLocalizations.of(context).translate("type"),
-                                      child:
                                     Text(
                                       discoveryText(),
                                       style: TextStyle(
@@ -183,10 +180,12 @@ class minimalView extends StatelessWidget {
                                             .06,
                                       ),
                                     ),
-                                    ),
                                   ],
                                 ),
                                 ),
+                          Tooltip(
+                            message: AppLocalizations.of(context).translate("type"),
+                            child:
                                 Padding(
                                   padding: EdgeInsets.only(top: 20),
                                   child: Text(
@@ -202,6 +201,7 @@ class minimalView extends StatelessWidget {
                                               2 *
                                               .06,
                                     ),
+                                  ),
                                   ),
                                 ),
                               ],
