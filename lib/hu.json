@@ -43,6 +43,7 @@
   "elementName": "?Az elem neve",
   "consistency": "?Halmazállapot",
   "discovery": "?Felfedezés",
+  "type": "?Típus"
   "cardView": "?Kártya nézethez kattintson a gombra!",
   "minimalView": "?A minimális nézethez kattintson a gombra!"
 }

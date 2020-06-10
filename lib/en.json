@@ -43,6 +43,7 @@
   "elementName": "!The element's name",
   "consistency": "!Consistency",
   "discovery": "!Discovery",
+  "type": "!Type",
   "cardView": "!For the card view tap the button!",
   "minimalView": "!For the minimal view tap the button!"
 }
