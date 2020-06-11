@@ -11,6 +11,9 @@
   "unknown": "?ismeretlen",
   "_comment_": "TIMES",
   "ancient": "!ókor",
+  "_comment_": "RADIOACTIVITY",
+  "stable": "stabil",
+  "radioactiveInfo": "Azok az elemek radioaktívak amelyek nem rendelkeznek stabil izotóppal.",
   "_comment_": "TYPES PLURAL",
   "otherNonmetals": "?egyéb nemfémek",
   "nobleGases": "?nemesgázok",
@@ -43,6 +46,7 @@
   "elementName": "?Az elem neve",
   "consistency": "?Halmazállapot",
   "discovery": "?Felfedezés",
+  "radioactivity": "?Radioaktivitás"
   "type": "?Típus"
   "cardView": "?Kártya nézethez kattintson a gombra!",
   "minimalView": "?A minimális nézethez kattintson a gombra!"

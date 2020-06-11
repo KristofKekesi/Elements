@@ -11,6 +11,9 @@
   "_comment_": "TIMES",
   "ancient": "!ancient",
   "unknown": "!unknown",
+    "_comment_": "RADIOACTIVITY",
+  "stable": "stabil",
+  "radioactiveInfo": "Radioactive elements dont't have stabil isotopes.",
   "_comment_": "TYPES PLURAL",
   "otherNonmetals": "!other nonmetals",
   "nobleGases": "!noble gases",
@@ -43,6 +46,7 @@
   "elementName": "!The element's name",
   "consistency": "!Consistency",
   "discovery": "!Discovery",
+  "radioactivity": "!Radioactivity",
   "type": "!Type",
   "cardView": "!For the card view tap the button!",
   "minimalView": "!For the minimal view tap the button!"
