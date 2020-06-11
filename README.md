@@ -17,22 +17,17 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
 ##### __MIT__
 
 ## Latest Feature (day 8)
-- __**Tooltips**__
+- __**Info about the elements radioactivity**__
 
 ## Latest Images (day 5)
 <table><tr><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day5a.png" height=400px>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9a.png" height=400px>
 </td><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day5b.png" height=400px>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9b.png" height=400px>
 </td></tr>
 <tr><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day5c.png" height=400px>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9c.png" height=400px>
 </td><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day5d.png" height=400px>
-</td></tr>
-<tr><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day5e.png" height=400px>
-</td><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day5f.png" height=400px>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9d.png" height=400px>
 </td></tr>
 <table>

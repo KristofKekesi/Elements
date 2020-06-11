@@ -26,16 +26,10 @@ class landing extends StatelessWidget {
               message: "" + AppLocalizations.of(context).translate("settings"),
               child:
                   CupertinoContextMenu(
-                    child: Image(
-                        image: AssetImage("lib/icons/wrench_500.png"),
-                        height: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .05,
-                        width: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .05),
+                    child: Icon(CupertinoIcons.settings, size: (MediaQuery.of(context).size.height +
+                        MediaQuery.of(context).size.width) /
+                        2 *
+                        .085),
                     actions: <Widget>[
                       CupertinoContextMenuAction(
                         child: const Text('English [EN]'),
