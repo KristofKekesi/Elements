@@ -16,7 +16,7 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
 ## License
 ##### __MIT__
 
-## Latest Feature (day 8)
+## Latest Feature (day 9)
 - __**Info about the elements radioactivity**__
 
 ## Latest Images (day 5)
