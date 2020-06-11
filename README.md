@@ -8,7 +8,7 @@
  ## Latest Feature (day 9)
 - __**Info about the elements radioactivity**__
 
-## Latest Images (day 5)
+## Latest Images (day 9)
 <table><tr><td>
   <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9a.png" height=400px>
 </td><td>
