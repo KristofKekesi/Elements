@@ -12,13 +12,9 @@
 	
 	"radioactivity": "stable",
 	"gamma": false,
-	"beta": false,
+	"beta": true,
 	"alpha": false,
-	"multipleRandomEmitters": false,
-	"gamma": false,
-	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "016_di.jpg",
 	
@@ -45,6 +41,7 @@
 			"rate": "0",
 			"halfRate": "12.32 y",
 			
+			"nick": "Tritium",
 			"hu": "Hidrogén-3",
 			"en": "Hydrogen-3"
 		}, {
@@ -92,7 +89,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "011_pc.jpg",
 	
@@ -180,7 +177,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "029_ar.jpg",
 	
@@ -275,7 +272,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "010_pc.jpg",
 	
@@ -384,7 +381,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "023_di.jpg",
 	
@@ -512,9 +509,9 @@
 	
 	"radioactivity": "stable",
 	"gamma": false,
-	"beta": false,
+	"beta": true,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "014_ph.jpg",
 	
@@ -644,7 +641,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "025_ab.jpg",
 	
@@ -781,7 +778,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "022_ea.jpg",
 	
@@ -925,7 +922,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "031_ar.jpg",
 	
@@ -1076,7 +1073,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "030_ar.jpg",
 	
@@ -1231,10 +1228,10 @@
 	"electronnegativity": "0,9",
 	
 	"radioactivity": "stable",
-	"gamma": false,
+	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "018_di.jpg",
 	
@@ -1266,7 +1263,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "015_sk.jpg",
 	
@@ -1298,7 +1295,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "008_pc.jpg",
 	
@@ -1330,7 +1327,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "006_ba.jpg",
 	
@@ -1362,7 +1359,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "035_kg.jpg",
 	
@@ -1394,7 +1391,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -1426,7 +1423,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "026_hd.jpg",
 	
@@ -1458,7 +1455,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "003_dp.jpg",
 	
@@ -1490,7 +1487,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "032_di.jpg",
 	
@@ -1522,7 +1519,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "034_kg.jpg",
 	
@@ -1554,7 +1551,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "005_ba.jpg",
 	
@@ -1586,7 +1583,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "021_di.jpg",
 	
@@ -1618,7 +1615,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "019_di.jpg",
 	
@@ -1650,7 +1647,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "027_ar.jpg",
 	
@@ -1679,10 +1676,10 @@
 	"electronnegativity": "1,5",
 	
 	"radioactivity": "stable",
-	"gamma": false,
+	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "036_ar.jpg",
 	
@@ -1714,7 +1711,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "024_cj.jpg",
 	
@@ -1746,7 +1743,7 @@
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "012_mh.jpg",
 	
@@ -1778,7 +1775,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -1810,7 +1807,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "004_dp.jpg",
 	
@@ -1839,10 +1836,10 @@
 	"electronnegativity": "1,6",
 	
 	"radioactivity": "stable",
-	"gamma": false,
+	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "017_di.jpg",
 	
@@ -1874,7 +1871,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "039_ar.jpg",
 	
@@ -1906,7 +1903,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "001_rp.jpg",
 	
@@ -1938,7 +1935,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "020_di.jpg",
 	
@@ -1970,7 +1967,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "028_ar.jpg",
 	
@@ -2002,7 +1999,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "043_di.jpg",
 	
@@ -2034,7 +2031,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "002_dp.jpg",
 	
@@ -2066,7 +2063,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "037_ar.jpg",
 	
@@ -2096,9 +2093,9 @@
 	
 	"radioactivity": "stable",
 	"gamma": false,
-	"beta": false,
+	"beta": true,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "033_kg.jpg",
 	
@@ -2130,7 +2127,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "013_pc.jpg",
 	
@@ -2162,7 +2159,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "042_di.jpg",
 	
@@ -2194,7 +2191,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "044_lq.jpg",
 	
@@ -2226,7 +2223,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2254,16 +2251,11 @@
 	"discovery": "1937",
 	"electronnegativity": "1,9",
 	
-	
 	"radioactivity": "radioactive",
-	"gamma": false,
-	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "046_pb.jpg",
 	
@@ -2295,7 +2287,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "045_ss.jpg",
 	
@@ -2327,7 +2319,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2359,7 +2351,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "041_di.jpg",
 	
@@ -2391,7 +2383,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2423,7 +2415,7 @@
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "040_di.jpg",
 	
@@ -2455,7 +2447,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "038_ar.jpg",
 	
@@ -2487,7 +2479,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2519,7 +2511,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2551,7 +2543,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2584,7 +2576,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2616,7 +2608,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "007_ba.jpg",
 	
@@ -2648,7 +2640,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": true,
 	
 	"bg": "",
 	
@@ -2680,7 +2672,7 @@
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2712,7 +2704,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2744,7 +2736,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2776,7 +2768,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2808,7 +2800,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2836,21 +2828,11 @@
 	"discovery": "1945",
 	"electronnegativity": "1,1",
 	
-	
-	
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
-	"gamma": false,
-	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
-	"gamma": false,
-	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2882,7 +2864,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2911,10 +2893,10 @@
 	"electronnegativity": "1,1",
 	
 	"radioactivity": "stable",
-	"gamma": false,
+	"gamma": true,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2946,7 +2928,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -2978,7 +2960,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3010,7 +2992,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3042,7 +3024,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3074,7 +3056,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3106,7 +3088,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3138,7 +3120,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3170,7 +3152,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3202,7 +3184,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3234,7 +3216,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3266,7 +3248,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3298,7 +3280,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3330,7 +3312,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3362,7 +3344,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3394,7 +3376,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3426,7 +3408,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3458,7 +3440,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3488,9 +3470,9 @@
 	
 	"radioactivity": "stable",
 	"gamma": false,
-	"beta": false,
+	"beta": true,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3522,7 +3504,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3554,7 +3536,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3582,16 +3564,11 @@
 	"discovery": "1898",
 	"electronnegativity": "2,0",
 	
-	
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
-	"gamma": false,
-	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
+	"alpha": true,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3619,16 +3596,11 @@
 	"discovery": "1940",
 	"electronnegativity": "2,2",
 	
-	
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
-	"gamma": false,
-	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3660,7 +3632,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3688,16 +3660,11 @@
 	"discovery": "1939",
 	"electronnegativity": "0,7",
 	
-	
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
-	"gamma": false,
-	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3729,7 +3696,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3761,7 +3728,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3793,7 +3760,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3825,7 +3792,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3856,8 +3823,8 @@
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
-	"alpha": false,
-	"multipleRandomEmitters": false,
+	"alpha": true,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "009_pc.jpg",
 	
@@ -3889,7 +3856,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3921,7 +3888,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -3953,7 +3920,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": true,
 	
 	"bg": "",
 	
@@ -3985,7 +3952,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4017,7 +3984,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4049,7 +4016,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4081,7 +4048,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4113,7 +4080,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4145,7 +4112,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4177,7 +4144,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4209,7 +4176,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4241,7 +4208,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4273,7 +4240,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4305,7 +4272,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4337,7 +4304,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4369,7 +4336,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4401,7 +4368,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4433,7 +4400,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4465,7 +4432,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4497,7 +4464,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4529,7 +4496,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4561,7 +4528,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4593,7 +4560,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4625,7 +4592,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4657,7 +4624,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
@@ -4689,7 +4656,7 @@
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
-	"multipleRandomEmitters": false,
+	"multipleRadiationEmitters": false,
 	
 	"bg": "",
 	
