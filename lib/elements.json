@@ -9,7 +9,16 @@
 	"type": "otherNonmetal",
 	"block": "s",
 	"electronnegativity": "2,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "016_di.jpg",
 	
@@ -78,7 +87,12 @@
 	"consistency": "gas",
 	"discovery": "1868",
 	"electronnegativity": "",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "011_pc.jpg",
 	
@@ -161,7 +175,12 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "1,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "029_ar.jpg",
 	
@@ -251,7 +270,12 @@
 	"consistency": "solid",
 	"discovery": "1797",
 	"electronnegativity": "1,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "010_pc.jpg",
 	
@@ -355,7 +379,12 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "2,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "023_di.jpg",
 	
@@ -480,7 +509,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "014_ph.jpg",
 	
@@ -605,7 +639,12 @@
 	"consistency": "gas",
 	"discovery": "1772",
 	"electronnegativity": "3,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "025_ab.jpg",
 	
@@ -737,7 +776,12 @@
 	"consistency": "gas",
 	"discovery": "1774",
 	"electronnegativity": "3,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "022_ea.jpg",
 	
@@ -876,7 +920,12 @@
 	"consistency": "gas",
 	"discovery": "1886",
 	"electronnegativity": "4,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "031_ar.jpg",
 	
@@ -1022,7 +1071,12 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "030_ar.jpg",
 	
@@ -1175,7 +1229,12 @@
 	"consistency": "solid",
 	"discovery": "1807",
 	"electronnegativity": "0,9",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "018_di.jpg",
 	
@@ -1202,7 +1261,12 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "1,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "015_sk.jpg",
 	
@@ -1229,7 +1293,12 @@
 	"consistency": "solid",
 	"discovery": "1825",
 	"electronnegativity": "1,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "008_pc.jpg",
 	
@@ -1256,7 +1325,12 @@
 	"consistency": "solid",
 	"discovery": "1823",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "006_ba.jpg",
 	
@@ -1283,7 +1357,12 @@
 	"consistency": "solid",
 	"discovery": "1669",
 	"electronnegativity": "2,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "035_kg.jpg",
 	
@@ -1310,7 +1389,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -1337,7 +1421,12 @@
 	"consistency": "gas",
 	"discovery": "1774",
 	"electronnegativity": "3,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "026_hd.jpg",
 	
@@ -1364,7 +1453,12 @@
 	"consistency": "gas",
 	"discovery": "1894",
 	"electronnegativity": "",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "003_dp.jpg",
 	
@@ -1391,7 +1485,12 @@
 	"consistency": "solid",
 	"discovery": "1807",
 	"electronnegativity": "0,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "032_di.jpg",
 	
@@ -1418,7 +1517,12 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "1,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "034_kg.jpg",
 	
@@ -1445,7 +1549,12 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "005_ba.jpg",
 	
@@ -1472,7 +1581,12 @@
 	"consistency": "solid",
 	"discovery": "1791",
 	"electronnegativity": "1,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "021_di.jpg",
 	
@@ -1499,7 +1613,12 @@
 	"consistency": "solid",
 	"discovery": "1831",
 	"electronnegativity": "1,6",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "019_di.jpg",
 	
@@ -1526,7 +1645,12 @@
 	"consistency": "solid",
 	"discovery": "1797",
 	"electronnegativity": "1,6",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "027_ar.jpg",
 	
@@ -1553,7 +1677,12 @@
 	"consistency": "solid",
 	"discovery": "1774",
 	"electronnegativity": "1,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "036_ar.jpg",
 	
@@ -1580,7 +1709,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "024_cj.jpg",
 	
@@ -1607,7 +1741,12 @@
 	"consistency": "solid",
 	"discovery": "1735",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": true,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "012_mh.jpg",
 	
@@ -1634,7 +1773,12 @@
 	"consistency": "solid",
 	"discovery": "1751",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -1661,7 +1805,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,9",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "004_dp.jpg",
 	
@@ -1688,7 +1837,12 @@
 	"consistency": "solid",
 	"discovery": "1520",
 	"electronnegativity": "1,6",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "017_di.jpg",
 	
@@ -1715,7 +1869,12 @@
 	"consistency": "solid",
 	"discovery": "1875",
 	"electronnegativity": "1,6",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "039_ar.jpg",
 	
@@ -1742,7 +1901,12 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "001_rp.jpg",
 	
@@ -1769,7 +1933,12 @@
 	"consistency": "solid",
 	"discovery": "1250",
 	"electronnegativity": "2,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "020_di.jpg",
 	
@@ -1796,7 +1965,12 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "2,4",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "028_ar.jpg",
 	
@@ -1823,7 +1997,12 @@
 	"consistency": "fluid",
 	"discovery": "1826",
 	"electronnegativity": "2,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "043_di.jpg",
 	
@@ -1850,7 +2029,12 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "3,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "002_dp.jpg",
 	
@@ -1877,7 +2061,12 @@
 	"consistency": "solid",
 	"discovery": "1861",
 	"electronnegativity": "0,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "037_ar.jpg",
 	
@@ -1904,7 +2093,12 @@
 	"consistency": "solid",
 	"discovery": "1790",
 	"electronnegativity": "1,0",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "033_kg.jpg",
 	
@@ -1931,7 +2125,12 @@
 	"consistency": "solid",
 	"discovery": "1794",
 	"electronnegativity": "1,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "013_pc.jpg",
 	
@@ -1958,7 +2157,12 @@
 	"consistency": "solid",
 	"discovery": "1791",
 	"electronnegativity": "1,4",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "042_di.jpg",
 	
@@ -1985,7 +2189,12 @@
 	"consistency": "solid",
 	"discovery": "1801",
 	"electronnegativity": "1,6",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "044_lq.jpg",
 	
@@ -2012,7 +2221,12 @@
 	"consistency": "solid",
 	"discovery": "1782",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2039,7 +2253,17 @@
 	"consistency": "solid",
 	"discovery": "1937",
 	"electronnegativity": "1,9",
+	
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
+	"gamma": true,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "046_pb.jpg",
 	
@@ -2066,7 +2290,12 @@
 	"consistency": "solid",
 	"discovery": "1844",
 	"electronnegativity": "2,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "045_ss.jpg",
 	
@@ -2093,7 +2322,12 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "2,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2120,7 +2354,12 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "2,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "041_di.jpg",
 	
@@ -2147,7 +2386,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,9",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2174,7 +2418,12 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "1,7",
+	
 	"radioactivity": "stable",
+	"gamma": true,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "040_di.jpg",
 	
@@ -2201,7 +2450,12 @@
 	"consistency": "solid",
 	"discovery": "1863",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "038_ar.jpg",
 	
@@ -2228,7 +2482,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2255,7 +2514,12 @@
 	"consistency": "solid",
 	"discovery": "1450",
 	"electronnegativity": "1,9",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2282,7 +2546,12 @@
 	"consistency": "solid",
 	"discovery": "1782",
 	"electronnegativity": "2,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2310,7 +2579,12 @@
 	"consistency": "solid",
 	"discovery": "1811",
 	"electronnegativity": "2,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2337,7 +2611,12 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "2,6",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "007_ba.jpg",
 	
@@ -2364,7 +2643,12 @@
 	"consistency": "solid",
 	"discovery": "1860",
 	"electronnegativity": "0,7",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2391,7 +2675,12 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "0,9",
+	
 	"radioactivity": "stable",
+	"gamma": true,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2418,7 +2707,12 @@
 	"consistency": "solid",
 	"discovery": "1839",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2445,7 +2739,12 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2472,7 +2771,12 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2499,7 +2803,12 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2526,7 +2835,22 @@
 	"consistency": "solid",
 	"discovery": "1945",
 	"electronnegativity": "1,1",
+	
+	
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2553,7 +2877,12 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2580,7 +2909,12 @@
 	"consistency": "solid",
 	"discovery": "1889",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2607,7 +2941,12 @@
 	"consistency": "solid",
 	"discovery": "1880",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2634,7 +2973,12 @@
 	"consistency": "solid",
 	"discovery": "1843",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2661,7 +3005,12 @@
 	"consistency": "solid",
 	"discovery": "1886",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2688,7 +3037,12 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2715,7 +3069,12 @@
 	"consistency": "solid",
 	"discovery": "1843",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2742,7 +3101,12 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2769,7 +3133,12 @@
 	"consistency": "solid",
 	"discovery": "1878",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2796,7 +3165,12 @@
 	"consistency": "solid",
 	"discovery": "1907",
 	"electronnegativity": "1,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2823,7 +3197,12 @@
 	"consistency": "solid",
 	"discovery": "1923",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2850,7 +3229,12 @@
 	"consistency": "solid",
 	"discovery": "1802",
 	"electronnegativity": "1,5",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2877,7 +3261,12 @@
 	"consistency": "solid",
 	"discovery": "1783",
 	"electronnegativity": "1,7",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2904,7 +3293,12 @@
 	"consistency": "solid",
 	"discovery": "1925",
 	"electronnegativity": "1,9",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2931,7 +3325,12 @@
 	"consistency": "solid",
 	"discovery": "1804",
 	"electronnegativity": "2,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2958,7 +3357,12 @@
 	"consistency": "solid",
 	"discovery": "1804",
 	"electronnegativity": "2,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -2985,7 +3389,12 @@
 	"consistency": "solid",
 	"discovery": "1741",
 	"electronnegativity": "2,2",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3012,7 +3421,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2,4",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3039,7 +3453,12 @@
 	"consistency": "fluid",
 	"discovery": "ancient",
 	"electronnegativity": "1,9",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3066,7 +3485,12 @@
 	"consistency": "solid",
 	"discovery": "1861",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3093,7 +3517,12 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,8",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3120,7 +3549,12 @@
 	"consistency": "solid",
 	"discovery": "1740",
 	"electronnegativity": "1,9",
+	
 	"radioactivity": "stable",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3147,7 +3581,17 @@
 	"consistency": "solid",
 	"discovery": "1898",
 	"electronnegativity": "2,0",
+	
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3174,7 +3618,17 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "2,2",
+	
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3201,7 +3655,12 @@
 	"consistency": "gas",
 	"discovery": "1900",
 	"electronnegativity": "2,4",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3228,7 +3687,17 @@
 	"consistency": "solid",
 	"discovery": "1939",
 	"electronnegativity": "0,7",
+	
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3255,7 +3724,12 @@
 	"consistency": "solid",
 	"discovery": "1898",
 	"electronnegativity": "0,7",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3282,7 +3756,12 @@
 	"consistency": "solid",
 	"discovery": "1899",
 	"electronnegativity": "1,1",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3309,7 +3788,12 @@
 	"consistency": "solid",
 	"discovery": "1828",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3336,7 +3820,12 @@
 	"consistency": "solid",
 	"discovery": "1917",
 	"electronnegativity": "1,5",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3363,7 +3852,12 @@
 	"consistency": "solid",
 	"discovery": "1789",
 	"electronnegativity": "1,7",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "009_pc.jpg",
 	
@@ -3390,7 +3884,12 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3417,7 +3916,12 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3444,7 +3948,12 @@
 	"consistency": "solid",
 	"discovery": "1944",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3471,7 +3980,12 @@
 	"consistency": "solid",
 	"discovery": "1944",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3498,7 +4012,12 @@
 	"consistency": "solid",
 	"discovery": "1949",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3525,7 +4044,12 @@
 	"consistency": "solid",
 	"discovery": "1950",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3552,7 +4076,12 @@
 	"consistency": "solid",
 	"discovery": "1952",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3579,7 +4108,12 @@
 	"consistency": "solid",
 	"discovery": "1953",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3606,7 +4140,12 @@
 	"consistency": "solid",
 	"discovery": "1955",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3633,7 +4172,12 @@
 	"consistency": "solid",
 	"discovery": "1958",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3660,7 +4204,12 @@
 	"consistency": "solid",
 	"discovery": "1961",
 	"electronnegativity": "1,3",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3687,7 +4236,12 @@
 	"consistency": "solid",
 	"discovery": "1966",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3714,7 +4268,12 @@
 	"consistency": "solid",
 	"discovery": "1967",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3741,7 +4300,12 @@
 	"consistency": "solid",
 	"discovery": "1974",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3768,7 +4332,12 @@
 	"consistency": "solid",
 	"discovery": "1976",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3795,7 +4364,12 @@
 	"consistency": "solid",
 	"discovery": "1984",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3822,7 +4396,12 @@
 	"consistency": "unknown",
 	"discovery": "1982",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3849,7 +4428,12 @@
 	"consistency": "solid",
 	"discovery": "1994",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3876,7 +4460,12 @@
 	"consistency": "unknown",
 	"discovery": "1994",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3903,7 +4492,12 @@
 	"consistency": "solid",
 	"discovery": "1996",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3930,7 +4524,12 @@
 	"consistency": "unknown",
 	"discovery": "2004",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3957,7 +4556,12 @@
 	"consistency": "solid",
 	"discovery": "1999",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -3984,7 +4588,12 @@
 	"consistency": "unknown",
 	"discovery": "2004",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -4011,7 +4620,12 @@
 	"consistency": "unknown",
 	"discovery": "2001",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -4038,7 +4652,12 @@
 	"consistency": "unknown",
 	"discovery": "2010",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
@@ -4065,7 +4684,12 @@
 	"consistency": "unknown",
 	"discovery": "2006",
 	"electronnegativity": "",
+	
 	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRandomEmitters": false,
 	
 	"bg": "",
 	
