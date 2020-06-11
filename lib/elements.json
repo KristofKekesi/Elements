@@ -9,7 +9,7 @@
 	"type": "otherNonmetal",
 	"block": "s",
 	"electronnegativity": "2,1",
-	"radioactivity": "",
+	"radioactivity": "stable",
 	
 	"bg": "016_di.jpg",
 	
@@ -34,35 +34,35 @@
 		}, {
 			"weight": "3.01604927767",
 			"rate": "0",
-			"halfRate": "12.32y",
+			"halfRate": "12.32 y",
 			
 			"hu": "Hidrogén-3",
 			"en": "Hydrogen-3"
 		}, {
 			"weight": "4.027806424",
 			"rate": "0",
-			"halfRate": "1.39×10-10ps",
+			"halfRate": "1.39×10-10 ps",
 			
 			"hu": "Hidrogén-4",
 			"en": "Hydrogen-4"
 		}, {
 			"weight": "5.035311488",
 			"rate": "0",
-			"halfRate": "9.10×10-10ps",
+			"halfRate": "9.10×10-10 ps",
 			
 			"hu": "Hidrogén-5",
 			"en": "Hydrogen-5"
 		}, {
 			"weight": "6.044942594",
 			"rate": "0",
-			"halfRate": "2.90×10-10ps",
+			"halfRate": "2.90×10-10 ps",
 			
 			"hu": "Hidrogén-6",
 			"en": "Hydrogen-6"
 		}, {
 			"weight": "7.052749",
 			"rate": "0",
-			"halfRate": "2.3×10-11ps",
+			"halfRate": "2.3×10-11 ps",
 			
 			"hu": "Hidrogén-7",
 			"en": "Hydrogen-7"
@@ -78,7 +78,7 @@
 	"consistency": "gas",
 	"discovery": "1868",
 	"electronnegativity": "",
-	"radioactivity": "",
+	"radioactivity": "stable",
 	
 	"bg": "011_pc.jpg",
 	
@@ -87,12 +87,12 @@
 	
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "unknown",
+			"rate": "unknown",
+			"halfRate": "unknown",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Hélium-2",
+			"en": "Helium-2"
 		}, {
 		"weight": "3.01602931914",
 			"rate": "0.000137",
@@ -108,47 +108,47 @@
 			"hu": "Hélium-4",
 			"en": "Helium-4"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "5.012223624",
+			"rate": "0",
+			"halfRate": "7.0×10-10 ps",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Hélium-5",
+			"en": "Helium-5"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "6.018889124",
+			"rate": "0",
+			"halfRate": "806.7 ms",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Hélium-6",
+			"en": "Helium-6"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "7.028020618",
+			"rate": "0",
+			"halfRate": "0.0000000029 ps",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Hélium-7",
+			"en": "Helium-7"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "8.033921897",
+			"rate": "0",
+			"halfRate": "119 ms",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Hélium-8",
+			"en": "Helium-8"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "9.043950286",
+			"rate": "0",
+			"halfRate": "0.000000007 ps",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Hélium-9",
+			"en": "Helium-9"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "10.052398837",
+			"rate": "0",
+			"halfRate": "0.0000000027 ps",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Hélium-10",
+			"en": "Helium-10"
 		}
 	]
   },
@@ -161,6 +161,7 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "1,0",
+	"radioactivity": "stable",
 	
 	"bg": "029_ar.jpg",
 	
@@ -178,14 +179,14 @@
 		}, {
 			"weight": "4.027185558",
 			"rate": "0",
-			"halfRate": "9.1×10-11ps",
+			"halfRate": "9.1×10-11 ps",
 			
 			"hu": "Lítium-4",
 			"en": "Lithium-4"
 		}, {
 			"weight": "5.0125378",
 			"rate": "0",
-			"halfRate": "3.70×10-10ps",
+			"halfRate": "0.000000000037 ps",
 			
 			"hu": "Lítium-5",
 			"en": "Lithium-5"
@@ -206,35 +207,35 @@
 		}, {
 			"weight": "8.022487362",
 			"rate": "0",
-			"halfRate": "840.3ms",
+			"halfRate": "840.3 ms",
 			
 			"hu": "Lítium-8",
 			"en": "Lithium-8"
 		}, {
 			"weight": "9.026789505",
 			"rate": "0",
-			"halfRate": "178.3ms",
+			"halfRate": "178.3 ms",
 			
 			"hu": "Lítium-9",
 			"en": "Lithium-9"
 		}, {
 			"weight": "10.035481259",
 			"rate": "0",
-			"halfRate": "2.0×10-9ps",
+			"halfRate": "0.000000009 ps",
 			
 			"hu": "Lítium-10",
 			"en": "Lithium-10"
 		}, {
 			"weight": "11.043797715",
 			"rate": "0",
-			"halfRate": "8.75ms",
+			"halfRate": "8.75 ms",
 			
 			"hu": "Lítium-11",
 			"en": "Lithium-11"
 		}, {
 			"weight": "12.053780",
 			"rate": "0",
-			"halfRate": "10ns",
+			"halfRate": "10 ns",
 			
 			"hu": "Lítium-12",
 			"en": "Lithium-12"
@@ -250,6 +251,7 @@
 	"consistency": "solid",
 	"discovery": "1797",
 	"electronnegativity": "1,5",
+	"radioactivity": "stable",
 	
 	"bg": "010_pc.jpg",
 	
@@ -258,12 +260,89 @@
 	
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "5.040790",
+			"rate": "0",
+			"halfRate": "unknown",
 			
-			"hu": "",
-			"en": ""
+			"hu": "Berillium-5",
+			"en": "Beryllium-5"
+		}, {
+			"weight": "6.019726317",
+			"rate": "0",
+			"halfRate": "5.0×10-9ps",
+			
+			"hu": "Berillium-6",
+			"en": "Beryllium-6"
+		}, {
+			"weight": "7.016929828",
+			"rate": "0",
+			"halfRate": "53.22 d",
+			
+			"hu": "Berillium-7",
+			"en": "Beryllium-7"
+		}, {
+			"weight": "8.005305103",
+			"rate": "0",
+			"halfRate": "0.000067 ps",
+			
+			"hu": "Berillium-8",
+			"en": "Beryllium-8"
+		}, {
+			"weight": "9.012182201",
+			"rate": "100",
+			"halfRate": "stable",
+			
+			"hu": "Berillium-9",
+			"en": "Beryllium-9"
+		}, {
+			"weight": "10.013533818",
+			"rate": "0",
+			"halfRate": "1.51×106 y",
+			
+			"hu": "Berillium-10",
+			"en": "Beryllium-10"
+		}, {
+			"weight": "11.021657749",
+			"rate": "0",
+			"halfRate": "13.81 s",
+			
+			"hu": "Berillium-11",
+			"en": "Beryllium-11"
+		}, {
+			"weight": "12.026920737",
+			"rate": "0",
+			"halfRate": "21.5 ms",
+			
+			"hu": "Berillium-12",
+			"en": "Beryllium-12"
+		}, {
+			"weight": "13.035693007",
+			"rate": "0",
+			"halfRate": "5.0×10+2 ps",
+			
+			"hu": "Berillium-13",
+			"en": "Beryllium-13"
+		}, {
+			"weight": "14.04289292",
+			"rate": "0",
+			"halfRate": "4.35 ms",
+			
+			"hu": "Berillium-14",
+			"en": "Beryllium-14"
+		}, {
+			"weight": "15.053460",
+			"rate": "0",
+			"halfRate": "2.0×10+2 ns",
+			
+			"hu": "Berillium-15",
+			"en": "Beryllium-15"
+		}, {
+			"weight": "16.061920",
+			"rate": "0",
+			"halfRate": "2.0×10+2 ns",
+			
+			"hu": "Berillium-16",
+			"en": "Beryllium-16"
 		}
 	]
   },
@@ -276,6 +355,7 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "2,0",
+	"radioactivity": "stable",
 	
 	"bg": "023_di.jpg",
 	
@@ -284,6 +364,104 @@
 	
 	"isotopes": [
 		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
@@ -302,6 +480,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2,5",
+	"radioactivity": "stable",
 	
 	"bg": "014_ph.jpg",
 	
@@ -310,6 +489,104 @@
 	
 	"isotopes": [
 		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
@@ -328,6 +605,7 @@
 	"consistency": "gas",
 	"discovery": "1772",
 	"electronnegativity": "3,0",
+	"radioactivity": "stable",
 	
 	"bg": "025_ab.jpg",
 	
@@ -336,6 +614,111 @@
 	
 	"isotopes": [
 		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
@@ -354,6 +737,7 @@
 	"consistency": "gas",
 	"discovery": "1774",
 	"electronnegativity": "3,5",
+	"radioactivity": "stable",
 	
 	"bg": "022_ea.jpg",
 	
@@ -362,6 +746,118 @@
 	
 	"isotopes": [
 		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
@@ -380,6 +876,7 @@
 	"consistency": "gas",
 	"discovery": "1886",
 	"electronnegativity": "4,0",
+	"radioactivity": "stable",
 	
 	"bg": "031_ar.jpg",
 	
@@ -388,6 +885,125 @@
 	
 	"isotopes": [
 		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
@@ -406,6 +1022,7 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "",
+	"radioactivity": "stable",
 	
 	"bg": "030_ar.jpg",
 	
@@ -414,6 +1031,132 @@
 	
 	"isotopes": [
 		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+			
+			"hu": "",
+			"en": ""
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
@@ -432,6 +1175,7 @@
 	"consistency": "solid",
 	"discovery": "1807",
 	"electronnegativity": "0,9",
+	"radioactivity": "stable",
 	
 	"bg": "018_di.jpg",
 	
@@ -458,6 +1202,7 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "1,2",
+	"radioactivity": "stable",
 	
 	"bg": "015_sk.jpg",
 	
@@ -484,6 +1229,7 @@
 	"consistency": "solid",
 	"discovery": "1825",
 	"electronnegativity": "1,5",
+	"radioactivity": "stable",
 	
 	"bg": "008_pc.jpg",
 	
@@ -510,6 +1256,7 @@
 	"consistency": "solid",
 	"discovery": "1823",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "006_ba.jpg",
 	
@@ -536,6 +1283,7 @@
 	"consistency": "solid",
 	"discovery": "1669",
 	"electronnegativity": "2,1",
+	"radioactivity": "stable",
 	
 	"bg": "035_kg.jpg",
 	
@@ -562,6 +1310,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2,5",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -588,6 +1337,7 @@
 	"consistency": "gas",
 	"discovery": "1774",
 	"electronnegativity": "3,0",
+	"radioactivity": "stable",
 	
 	"bg": "026_hd.jpg",
 	
@@ -614,6 +1364,7 @@
 	"consistency": "gas",
 	"discovery": "1894",
 	"electronnegativity": "",
+	"radioactivity": "stable",
 	
 	"bg": "003_dp.jpg",
 	
@@ -640,6 +1391,7 @@
 	"consistency": "solid",
 	"discovery": "1807",
 	"electronnegativity": "0,8",
+	"radioactivity": "stable",
 	
 	"bg": "032_di.jpg",
 	
@@ -666,6 +1418,7 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "1,0",
+	"radioactivity": "stable",
 	
 	"bg": "034_kg.jpg",
 	
@@ -692,6 +1445,7 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,3",
+	"radioactivity": "stable",
 	
 	"bg": "005_ba.jpg",
 	
@@ -718,6 +1472,7 @@
 	"consistency": "solid",
 	"discovery": "1791",
 	"electronnegativity": "1,5",
+	"radioactivity": "stable",
 	
 	"bg": "021_di.jpg",
 	
@@ -744,6 +1499,7 @@
 	"consistency": "solid",
 	"discovery": "1831",
 	"electronnegativity": "1,6",
+	"radioactivity": "stable",
 	
 	"bg": "019_di.jpg",
 	
@@ -770,6 +1526,7 @@
 	"consistency": "solid",
 	"discovery": "1797",
 	"electronnegativity": "1,6",
+	"radioactivity": "stable",
 	
 	"bg": "027_ar.jpg",
 	
@@ -796,6 +1553,7 @@
 	"consistency": "solid",
 	"discovery": "1774",
 	"electronnegativity": "1,5",
+	"radioactivity": "stable",
 	
 	"bg": "036_ar.jpg",
 	
@@ -822,6 +1580,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "024_cj.jpg",
 	
@@ -848,6 +1607,7 @@
 	"consistency": "solid",
 	"discovery": "1735",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "012_mh.jpg",
 	
@@ -874,6 +1634,7 @@
 	"consistency": "solid",
 	"discovery": "1751",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -900,6 +1661,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,9",
+	"radioactivity": "stable",
 	
 	"bg": "004_dp.jpg",
 	
@@ -926,6 +1688,7 @@
 	"consistency": "solid",
 	"discovery": "1520",
 	"electronnegativity": "1,6",
+	"radioactivity": "stable",
 	
 	"bg": "017_di.jpg",
 	
@@ -952,6 +1715,7 @@
 	"consistency": "solid",
 	"discovery": "1875",
 	"electronnegativity": "1,6",
+	"radioactivity": "stable",
 	
 	"bg": "039_ar.jpg",
 	
@@ -978,6 +1742,7 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "001_rp.jpg",
 	
@@ -1004,6 +1769,7 @@
 	"consistency": "solid",
 	"discovery": "1250",
 	"electronnegativity": "2,0",
+	"radioactivity": "stable",
 	
 	"bg": "020_di.jpg",
 	
@@ -1030,6 +1796,7 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "2,4",
+	"radioactivity": "stable",
 	
 	"bg": "028_ar.jpg",
 	
@@ -1056,6 +1823,7 @@
 	"consistency": "fluid",
 	"discovery": "1826",
 	"electronnegativity": "2,8",
+	"radioactivity": "stable",
 	
 	"bg": "043_di.jpg",
 	
@@ -1082,6 +1850,7 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "3,0",
+	"radioactivity": "stable",
 	
 	"bg": "002_dp.jpg",
 	
@@ -1108,6 +1877,7 @@
 	"consistency": "solid",
 	"discovery": "1861",
 	"electronnegativity": "0,8",
+	"radioactivity": "stable",
 	
 	"bg": "037_ar.jpg",
 	
@@ -1134,6 +1904,7 @@
 	"consistency": "solid",
 	"discovery": "1790",
 	"electronnegativity": "1,0",
+	"radioactivity": "stable",
 	
 	"bg": "033_kg.jpg",
 	
@@ -1160,6 +1931,7 @@
 	"consistency": "solid",
 	"discovery": "1794",
 	"electronnegativity": "1,2",
+	"radioactivity": "stable",
 	
 	"bg": "013_pc.jpg",
 	
@@ -1186,6 +1958,7 @@
 	"consistency": "solid",
 	"discovery": "1791",
 	"electronnegativity": "1,4",
+	"radioactivity": "stable",
 	
 	"bg": "042_di.jpg",
 	
@@ -1212,6 +1985,7 @@
 	"consistency": "solid",
 	"discovery": "1801",
 	"electronnegativity": "1,6",
+	"radioactivity": "stable",
 	
 	"bg": "044_lq.jpg",
 	
@@ -1238,6 +2012,7 @@
 	"consistency": "solid",
 	"discovery": "1782",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1264,6 +2039,7 @@
 	"consistency": "solid",
 	"discovery": "1937",
 	"electronnegativity": "1,9",
+	"radioactivity": "radioactive",
 	
 	"bg": "046_pb.jpg",
 	
@@ -1290,6 +2066,7 @@
 	"consistency": "solid",
 	"discovery": "1844",
 	"electronnegativity": "2,2",
+	"radioactivity": "stable",
 	
 	"bg": "045_ss.jpg",
 	
@@ -1316,6 +2093,7 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "2,2",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1342,6 +2120,7 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "2,2",
+	"radioactivity": "stable",
 	
 	"bg": "041_di.jpg",
 	
@@ -1368,6 +2147,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,9",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1394,6 +2174,7 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "1,7",
+	"radioactivity": "stable",
 	
 	"bg": "040_di.jpg",
 	
@@ -1420,6 +2201,7 @@
 	"consistency": "solid",
 	"discovery": "1863",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "038_ar.jpg",
 	
@@ -1446,6 +2228,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1472,6 +2255,7 @@
 	"consistency": "solid",
 	"discovery": "1450",
 	"electronnegativity": "1,9",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1498,6 +2282,7 @@
 	"consistency": "solid",
 	"discovery": "1782",
 	"electronnegativity": "2,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1525,6 +2310,7 @@
 	"consistency": "solid",
 	"discovery": "1811",
 	"electronnegativity": "2,5",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1551,6 +2337,7 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "2,6",
+	"radioactivity": "stable",
 	
 	"bg": "007_ba.jpg",
 	
@@ -1577,6 +2364,7 @@
 	"consistency": "solid",
 	"discovery": "1860",
 	"electronnegativity": "0,7",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1603,6 +2391,7 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "0,9",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1629,6 +2418,7 @@
 	"consistency": "solid",
 	"discovery": "1839",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1655,6 +2445,7 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1681,6 +2472,7 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1707,6 +2499,7 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1733,6 +2526,7 @@
 	"consistency": "solid",
 	"discovery": "1945",
 	"electronnegativity": "1,1",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -1759,6 +2553,7 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1785,6 +2580,7 @@
 	"consistency": "solid",
 	"discovery": "1889",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1811,6 +2607,7 @@
 	"consistency": "solid",
 	"discovery": "1880",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1837,6 +2634,7 @@
 	"consistency": "solid",
 	"discovery": "1843",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1863,6 +2661,7 @@
 	"consistency": "solid",
 	"discovery": "1886",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1889,6 +2688,7 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1915,6 +2715,7 @@
 	"consistency": "solid",
 	"discovery": "1843",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1941,6 +2742,7 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1967,6 +2769,7 @@
 	"consistency": "solid",
 	"discovery": "1878",
 	"electronnegativity": "1,1",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -1993,6 +2796,7 @@
 	"consistency": "solid",
 	"discovery": "1907",
 	"electronnegativity": "1,2",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2019,6 +2823,7 @@
 	"consistency": "solid",
 	"discovery": "1923",
 	"electronnegativity": "1,3",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2045,6 +2850,7 @@
 	"consistency": "solid",
 	"discovery": "1802",
 	"electronnegativity": "1,5",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2071,6 +2877,7 @@
 	"consistency": "solid",
 	"discovery": "1783",
 	"electronnegativity": "1,7",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2097,6 +2904,7 @@
 	"consistency": "solid",
 	"discovery": "1925",
 	"electronnegativity": "1,9",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2123,6 +2931,7 @@
 	"consistency": "solid",
 	"discovery": "1804",
 	"electronnegativity": "2,2",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2149,6 +2958,7 @@
 	"consistency": "solid",
 	"discovery": "1804",
 	"electronnegativity": "2,2",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2175,6 +2985,7 @@
 	"consistency": "solid",
 	"discovery": "1741",
 	"electronnegativity": "2,2",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2201,6 +3012,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2,4",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2227,6 +3039,7 @@
 	"consistency": "fluid",
 	"discovery": "ancient",
 	"electronnegativity": "1,9",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2253,6 +3066,7 @@
 	"consistency": "solid",
 	"discovery": "1861",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2279,6 +3093,7 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1,8",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2305,6 +3120,7 @@
 	"consistency": "solid",
 	"discovery": "1740",
 	"electronnegativity": "1,9",
+	"radioactivity": "stable",
 	
 	"bg": "",
 	
@@ -2331,6 +3147,7 @@
 	"consistency": "solid",
 	"discovery": "1898",
 	"electronnegativity": "2,0",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2357,6 +3174,7 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "2,2",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2383,6 +3201,7 @@
 	"consistency": "gas",
 	"discovery": "1900",
 	"electronnegativity": "2,4",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2409,6 +3228,7 @@
 	"consistency": "solid",
 	"discovery": "1939",
 	"electronnegativity": "0,7",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2435,6 +3255,7 @@
 	"consistency": "solid",
 	"discovery": "1898",
 	"electronnegativity": "0,7",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2461,6 +3282,7 @@
 	"consistency": "solid",
 	"discovery": "1899",
 	"electronnegativity": "1,1",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2487,6 +3309,7 @@
 	"consistency": "solid",
 	"discovery": "1828",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2513,6 +3336,7 @@
 	"consistency": "solid",
 	"discovery": "1917",
 	"electronnegativity": "1,5",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2539,6 +3363,7 @@
 	"consistency": "solid",
 	"discovery": "1789",
 	"electronnegativity": "1,7",
+	"radioactivity": "radioactive",
 	
 	"bg": "009_pc.jpg",
 	
@@ -2565,6 +3390,7 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2591,6 +3417,7 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2617,6 +3444,7 @@
 	"consistency": "solid",
 	"discovery": "1944",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2643,6 +3471,7 @@
 	"consistency": "solid",
 	"discovery": "1944",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2669,6 +3498,7 @@
 	"consistency": "solid",
 	"discovery": "1949",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2695,6 +3525,7 @@
 	"consistency": "solid",
 	"discovery": "1950",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2721,6 +3552,7 @@
 	"consistency": "solid",
 	"discovery": "1952",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2747,6 +3579,7 @@
 	"consistency": "solid",
 	"discovery": "1953",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2773,6 +3606,7 @@
 	"consistency": "solid",
 	"discovery": "1955",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2799,6 +3633,7 @@
 	"consistency": "solid",
 	"discovery": "1958",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2825,6 +3660,7 @@
 	"consistency": "solid",
 	"discovery": "1961",
 	"electronnegativity": "1,3",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2851,6 +3687,7 @@
 	"consistency": "solid",
 	"discovery": "1966",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2877,6 +3714,7 @@
 	"consistency": "solid",
 	"discovery": "1967",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2903,6 +3741,7 @@
 	"consistency": "solid",
 	"discovery": "1974",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2929,6 +3768,7 @@
 	"consistency": "solid",
 	"discovery": "1976",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2955,6 +3795,7 @@
 	"consistency": "solid",
 	"discovery": "1984",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -2981,6 +3822,7 @@
 	"consistency": "unknown",
 	"discovery": "1982",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3007,6 +3849,7 @@
 	"consistency": "solid",
 	"discovery": "1994",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3033,6 +3876,7 @@
 	"consistency": "unknown",
 	"discovery": "1994",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3059,6 +3903,7 @@
 	"consistency": "solid",
 	"discovery": "1996",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3085,6 +3930,7 @@
 	"consistency": "unknown",
 	"discovery": "2004",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3111,6 +3957,7 @@
 	"consistency": "solid",
 	"discovery": "1999",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3137,6 +3984,7 @@
 	"consistency": "unknown",
 	"discovery": "2004",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3163,6 +4011,7 @@
 	"consistency": "unknown",
 	"discovery": "2001",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3189,6 +4038,7 @@
 	"consistency": "unknown",
 	"discovery": "2010",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
@@ -3215,6 +4065,7 @@
 	"consistency": "unknown",
 	"discovery": "2006",
 	"electronnegativity": "",
+	"radioactivity": "radioactive",
 	
 	"bg": "",
 	
