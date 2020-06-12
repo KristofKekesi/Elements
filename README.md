@@ -6,6 +6,7 @@
 <img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
  
  ## Latest Feature (day 10)
+ - __**Popup Window improvements**__
 - __**Info about the electron blocks**__
 - __**Info about the element's weight**__
 
