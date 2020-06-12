@@ -5,19 +5,15 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
  
- ## Latest Feature (day 9)
-- __**Info about the elements radioactivity**__
+ ## Latest Feature (day 10)
+- __**Info about the electron blocks**__
+- __**Info about the element's weight**__
 
-## Latest Images (day 9)
+## Latest Images (day 10)
 <table><tr><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9a.png" height=400px>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10a.png" height=400px>
 </td><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9b.png" height=400px>
-</td></tr>
-<tr><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9c.png" height=400px>
-</td><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day9d.png" height=400px>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10b.png" height=400px>
 </td></tr>
 <table>
 
