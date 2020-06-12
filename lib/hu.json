@@ -39,6 +39,7 @@
   "transitionMetal": "átmenetifém",
   "lanthanoid": "lantanoida",
   "actinoid": "aktinoida",
+  "blockPre": pálya:",
   "_comment_": "BUTTONS",
   "cards": "Kártyák",
   "minimal": "Minimál",
@@ -52,7 +53,8 @@
   "consistency": "Halmazállapot",
   "discovery": "Felfedezés",
   "radioactivity": "Radioaktivitás"
-  "type": "Típus"
+  "type": "Típus",
+  "block": "Elektronpálya"
   "cardView": "Kártya nézethez kattintson a gombra!",
   "minimalView": "A minimális nézethez kattintson a gombra!"
 }
