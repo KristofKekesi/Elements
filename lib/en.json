@@ -39,6 +39,7 @@
   "transitionMetal": "transition metal",
   "lanthanoid": "lanthanoid",
   "actinoid": "actinoid",
+  "blockPre": "Block",
   "_comment_": "BUTTONS",
   "cards": "Cards",
   "minimal": "Minimal",
@@ -53,6 +54,7 @@
   "discovery": "Discovery",
   "radioactivity": "Radioactivity",
   "type": "Type",
+  "block": "Block",
   "cardView": "For the card view tap the button!",
   "minimalView": "For the minimal view tap the button!"
 }
