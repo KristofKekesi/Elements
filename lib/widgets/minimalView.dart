@@ -373,12 +373,12 @@ class minimalView extends StatelessWidget {
                                           Tooltip(
                                             message:
                                                 AppLocalizations.of(context)
-                                                    .translate("type"),
+                                                    .translate("block"),
                                             child: Padding(
                                               padding: EdgeInsets.only(
                                                   top: 20),
                                               child: Text(
-                                                "block: " +
+                                                AppLocalizations.of(context).translate("blockPre") + ": " +
                                                     Capitalizate(
                                                         elementList[index]
                                                             ["block"]),
