@@ -39,7 +39,8 @@
   "transitionMetal": "átmenetifém",
   "lanthanoid": "lantanoida",
   "actinoid": "aktinoida",
-  "blockPre": pálya:",
+  "blockPre": "pálya",
+  "weightPre": "tömeg",
   "_comment_": "BUTTONS",
   "cards": "Kártyák",
   "minimal": "Minimál",
@@ -54,7 +55,8 @@
   "discovery": "Felfedezés",
   "radioactivity": "Radioaktivitás"
   "type": "Típus",
-  "block": "Elektronpálya"
+  "block": "Elektronpálya",
+  "weight": "Relatív tömeg",
   "cardView": "Kártya nézethez kattintson a gombra!",
   "minimalView": "A minimális nézethez kattintson a gombra!"
 }

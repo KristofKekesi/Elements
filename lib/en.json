@@ -40,6 +40,7 @@
   "lanthanoid": "lanthanoid",
   "actinoid": "actinoid",
   "blockPre": "Block",
+  "weightPre": "weight"
   "_comment_": "BUTTONS",
   "cards": "Cards",
   "minimal": "Minimal",
@@ -55,6 +56,7 @@
   "radioactivity": "Radioactivity",
   "type": "Type",
   "block": "Block",
+  "weight": "Relative weight",
   "cardView": "For the card view tap the button!",
   "minimalView": "For the minimal view tap the button!"
 }
