@@ -350,8 +350,7 @@ class minimalView extends StatelessWidget {
                                                 AppLocalizations.of(context)
                                                     .translate("type"),
                                             child: Padding(
-                                              padding: EdgeInsets.only(
-                                                  top: 20),
+                                              padding: EdgeInsets.only(top: 20),
                                               child: Text(
                                                 typeText(),
                                                 style: TextStyle(
@@ -375,10 +374,11 @@ class minimalView extends StatelessWidget {
                                                 AppLocalizations.of(context)
                                                     .translate("block"),
                                             child: Padding(
-                                              padding: EdgeInsets.only(
-                                                  top: 20),
+                                              padding: EdgeInsets.only(top: 20),
                                               child: Text(
-                                                AppLocalizations.of(context).translate("blockPre") + ": " +
+                                                AppLocalizations.of(context)
+                                                        .translate("blockPre") +
+                                                    ": " +
                                                     Capitalizate(
                                                         elementList[index]
                                                             ["block"]),
@@ -395,6 +395,33 @@ class minimalView extends StatelessWidget {
                                                       2 *
                                                       .06,
                                                 ),
+                                              ),
+                                            ),
+                                          ),
+                                          Tooltip(
+                                            message:
+                                                AppLocalizations.of(context)
+                                                    .translate("weight"),
+                                            child: Text(
+                                              Capitalizate(AppLocalizations.of(
+                                                          context)
+                                                      .translate("weightPre")) +
+                                                  ": " +
+                                                  Capitalizate(
+                                                      elementList[index]
+                                                          ["weight"]),
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: (MediaQuery.of(
+                                                                context)
+                                                            .size
+                                                            .height +
+                                                        MediaQuery.of(context)
+                                                            .size
+                                                            .width) /
+                                                    2 *
+                                                    .06,
                                               ),
                                             ),
                                           ),
