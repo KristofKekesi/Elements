@@ -5,10 +5,9 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
  
- ## Latest Feature <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
- - __**Popup Window improvements**__
-- __**Info about the electron blocks**__
-- __**Info about the element's weight**__
+ ## Latest Feature <img src="https://img.shields.io/badge/Day 11-brown.svg" alt="">
+ - Added 47 new backgrounds
+ - Added the isotopes of H, He, Li, Be
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
 <table><tr><td>
