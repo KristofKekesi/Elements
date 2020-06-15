@@ -17,7 +17,7 @@
   "gamma": "gamma",
   "beta": "beta",
   "alpha": "alpha",
-  "multipleRadiationEmmitters": "Multiple Radiation Emitters",
+  "multipleRadiationEmitters": "MRE",
   "radioactiveInfo": "Azok az elemek radioaktívak amelyek nem rendelkeznek stabil izotóppal.",
   "_comment_": "TYPES PLURAL",
   "otherNonmetals": "egyéb nemfémek",
@@ -53,7 +53,7 @@
   "elementName": "Az elem neve",
   "consistency": "Halmazállapot",
   "discovery": "Felfedezés",
-  "radioactivity": "Radioaktivitás"
+  "radioactivity": "Radioaktivitás",
   "type": "Típus",
   "block": "Elektronpálya",
   "weight": "Relatív tömeg",

@@ -17,7 +17,7 @@
   "gamma": "gamma",
   "beta": "beta",
   "alpha": "alpha",
-  "multipleRadiationEmmitters": "Multiple Radiation Emitters",
+  "multipleRadiationEmitters": "MRE",
   "radioactiveInfo": "Radioactive elements dont't have stabil isotopes.",
   "_comment_": "TYPES PLURAL",
   "otherNonmetals": "other nonmetals",
