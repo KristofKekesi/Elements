@@ -7,7 +7,7 @@
  
  ## Latest Feature <img src="https://img.shields.io/badge/Day 11-brown.svg" alt="">
  - Added 47 new backgrounds
- - Added the isotopes of H, He, Li, Be
+ - Added the isotopes of H, He, Li, Be, B
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
 <table><tr><td>
