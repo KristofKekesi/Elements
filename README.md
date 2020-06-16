@@ -9,13 +9,14 @@
  - Added the isotopes of N
  - Added a left side menu
 
-## Latest Images <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day 10%20and%2012-brown.svg" alt="">
 <table><tr><td>
   <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10a.png" height=400px>
 </td><td>
   <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10b.png" height=400px>
 </td></tr>
 </table>
+ <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day12a.png" height=400px>
 
  
 ## Made with <img src="https://img.shields.io/badge/Flutter-blue.svg" alt=""> <img src="https://img.shields.io/badge/Android Studio-green.svg" alt="">
