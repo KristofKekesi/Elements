@@ -58,8 +58,8 @@ class searchResults extends StatelessWidget {
                 ),
               ),
             ),
-            //cardView(),
-            minimalView(),
+            cardView(),
+            //minimalView(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
