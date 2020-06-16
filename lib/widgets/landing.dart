@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import 'package:flutter_chem/widgets/localization.dart';
-import 'package:flutter_chem/widgets/searchResults.dart';
+import 'package:flutter_chem/widgets/resultWindow.dart';
 
 // ignore: camel_case_types
 class landing extends StatelessWidget {
@@ -23,7 +24,7 @@ class landing extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   GestureDetector(onTap: (){Scaffold.of(context).openDrawer();}, child: Tooltip(
-              message: "" + AppLocalizations.of(context).translate("settings"),
+              message: "" + AppLocalizations.of(context).translate("menu"),
               child:   Image(
                   image: AssetImage("lib/icons/right_500.png"),
                   height: (MediaQuery.of(context).size.height +
