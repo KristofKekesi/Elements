@@ -9,7 +9,7 @@
  - Added the isotopes of N, O
  - Left side menu (Drawer)
 
-## Latest Images <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day 10%20and%2012-brown.svg" alt="">
 <table><tr><td>
   <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10a.png" height=400px>
 </td><td>
