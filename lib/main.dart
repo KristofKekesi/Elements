@@ -1,3 +1,4 @@
+import 'package:flutter_chem/widgets/drawer.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_chem/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
@@ -69,15 +70,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  void _autoAboutDialog() {
-    showAboutDialog(
-        context: context,
-        applicationVersion: '0.0.1',
-        applicationName: widget.title,
-        applicationLegalese: 'Kristof Kekesi');
-  }
-
-  var lang = "english";
 
   @override
   Widget build(BuildContext context) {
@@ -87,6 +79,6 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return Scaffold(backgroundColor: Colors.white, body: landing());
+    return Scaffold(backgroundColor: Colors.white, drawer: customDrawer(),  body: landing());
   }
 }

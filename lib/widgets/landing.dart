@@ -22,28 +22,18 @@ class landing extends StatelessWidget {
                   top: 20),
               child: Row(
                 children: <Widget>[
-                  Tooltip(
+                  GestureDetector(onTap: (){Scaffold.of(context).openDrawer();}, child: Tooltip(
               message: "" + AppLocalizations.of(context).translate("settings"),
-              child:
-                  CupertinoContextMenu(
-                    child: Icon(CupertinoIcons.settings, size: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                        2 *
-                        .085),
-                    actions: <Widget>[
-                      CupertinoContextMenuAction(
-                        child: const Text('English [EN]'),
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                      ),
-                      CupertinoContextMenuAction(
-                        child: const Text('Magyar [HU]'),
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                      ),
-                    ],
+              child:   Image(
+                  image: AssetImage("lib/icons/right_500.png"),
+                  height: (MediaQuery.of(context).size.height +
+                      MediaQuery.of(context).size.width) /
+                      2 *
+                      .09,
+                  width: (MediaQuery.of(context).size.height +
+                      MediaQuery.of(context).size.width) /
+                      2 *
+                      .09),
                   ),
                   ),
                   Text(
