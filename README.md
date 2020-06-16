@@ -7,6 +7,7 @@
  
  ## Latest Feature <img src="https://img.shields.io/badge/Day 12-brown.svg" alt="">
  - Added the isotopes of N, O
+ - Left side menu (Drawer)
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
 <table><tr><td>
@@ -14,6 +15,9 @@
 </td><td>
   <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10b.png" height=400px>
 </td></tr>
+ <tr><td>
+  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day12a.png" height=400px>
+ </td></tr>
 </table>
 
  
@@ -29,9 +33,18 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
 
 ## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
-Discord: [[link]](https://discord.gg/7URAMuc)
-
-Email: kristofkekesiofficial@gmail.com
+<table>
+ <tr><td>
+  Discord:
+ </td><td>
+  https://discord.gg/7URAMuc
+ </td></tr>
+ <tr><td>
+  mail:
+ </td><td>
+  kristofkekesiofficial@gmail.com
+ </td></tr>
+</table>
 
 ## License <img src="https://img.shields.io/badge/LGPL%203.0-brown.svg" alt="">
  GNU LESSER GENERAL PUBLIC LICENSE
