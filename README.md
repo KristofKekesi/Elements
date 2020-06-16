@@ -1,5 +1,5 @@
 # Elements
-<img src="https://img.shields.io/badge/Status-Developing%20/%20Programming-yellow.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/15-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-38-blue.svg" alt="">
+<img src="https://img.shields.io/badge/Status-Developing%20/%20Programming-yellow.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/15-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-38-blue.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 ##### A modern app made with Flutter, to track the chemistry's element.
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
@@ -27,6 +27,12 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
 * _[JSON Formatting]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi), [__Roland Ország__](https://github.com/rolandorszag)
 * _[SVG Icon]_ - [__Icon 54__](https://icon54.com/)
 * _[PR and Management]_ - [__Roland Ország__](https://github.com/rolandorszag)
+
+## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
+
+Discord: [[link]](https://discord.gg/7URAMuc)
+
+Email: kristofkekesiofficial@gmail.com
 
 ## License <img src="https://img.shields.io/badge/LGPL%203.0-brown.svg" alt="">
  GNU LESSER GENERAL PUBLIC LICENSE
