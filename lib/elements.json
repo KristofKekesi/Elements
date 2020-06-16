@@ -642,117 +642,117 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "10.041653674",
+			"rate": "0",
+			"halfRate": "2.0×10-10 ps",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-10",
+			"en": "Nitrogen-10"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "11.026090956",
+			"rate": "0",
+			"halfRate": "5.90×10-10 ps",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-11",
+			"en": "Nitrogen-11"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "12.018613197",
+			"rate": "0",
+			"halfRate": "11 ms",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-12",
+			"en": "Nitrogen-12"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "13.005738609",
+			"rate": "0",
+			"halfRate": "9.965 min",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-13",
+			"en": "Nitrogen-13"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "14.00307400478",
+			"rate": "99.632",
+			"halfRate": "stable",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-14",
+			"en": "Nitrogen-14"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "15.00010889823",
+			"rate": "0.368",
+			"halfRate": "stable",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-15",
+			"en": "Nitrogen-15"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "16.006101658",
+			"rate": "0",
+			"halfRate": "7.13 s",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-16",
+			"en": "Nitrogen-16"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "17.008450261",
+			"rate": "0",
+			"halfRate": "4.173 s",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-17",
+			"en": "Nitrogen-17"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "18.014078959",
+			"rate": "0",
+			"halfRate": "622 ms",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-18",
+			"en": "Nitrogen-18"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "19.017028697",
+			"rate": "0",
+			"halfRate": "271 ms",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-19",
+			"en": "Nitrogen-19"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "20.023365807",
+			"rate": "0",
+			"halfRate": "130 ms",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-20",
+			"en": "Nitrogen-20"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "21.02710824",
+			"rate": "0",
+			"halfRate": "87 ms",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-21",
+			"en": "Nitrogen-21"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "22.034394934",
+			"rate": "0",
+			"halfRate": ""13.9 ms,
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-22",
+			"en": "Nitrogen-22"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "23.041220",
+			"rate": "0",
+			"halfRate": "14.5 ms",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-23",
+			"en": "Nitrogen-23"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "24.051040",
+			"rate": "0",
+			"halfRate": "52 ns",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-24",
+			"en": "Nitrogen-24"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "25.060660",
+			"rate": "0",
+			"halfRate": "260 ns",
 
-			"hu": "",
-			"en": ""
+			"hu": "Nitrogén-25",
+			"en": "Nitrogen-25"
 		}
 	]
   },

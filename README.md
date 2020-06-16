@@ -5,9 +5,8 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
  
- ## Latest Feature <img src="https://img.shields.io/badge/Day 11-brown.svg" alt="">
- - Added 47 new backgrounds
- - Added the isotopes of H, He, Li, Be, B
+ ## Latest Feature <img src="https://img.shields.io/badge/Day 12-brown.svg" alt="">
+ - Added the isotopes of N
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
 <table><tr><td>
