@@ -7,6 +7,7 @@
  
  ## Latest Feature <img src="https://img.shields.io/badge/Day 12-brown.svg" alt="">
  - Added the isotopes of N
+ - Added a left side menu
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10-brown.svg" alt="">
 <table><tr><td>
