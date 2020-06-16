@@ -14,9 +14,10 @@
   <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10a.png" height=400px>
 </td><td>
   <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10b.png" height=400px>
+</td><td>
+ <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day12a.png" height=400px>
 </td></tr>
 </table>
- <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day12a.png" height=400px>
 
  
 ## Made with <img src="https://img.shields.io/badge/Flutter-blue.svg" alt=""> <img src="https://img.shields.io/badge/Android Studio-green.svg" alt="">
@@ -31,9 +32,18 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
 
 ## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
-Discord: [[link]](https://discord.gg/7URAMuc)
-
-Email: kristofkekesiofficial@gmail.com
+<table>
+ <tr><td>
+  Discord:
+ </td><td>
+  https://discord.gg/7URAMuc
+ </td></tr>
+ <tr><td>
+  Email:
+ </td><td>
+  kristofkekesiofficial@gmail.com
+ </td></tr>
+</table>
 
 ## License <img src="https://img.shields.io/badge/LGPL%203.0-brown.svg" alt="">
  GNU LESSER GENERAL PUBLIC LICENSE
