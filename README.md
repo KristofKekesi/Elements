@@ -1,7 +1,7 @@
 # Elements
 <img src="https://img.shields.io/badge/Status-Developing%20/%20Programming-yellow.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/15-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-38-blue.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
-##### A modern app made with Flutter, to track the chemistry's element.
+<span style="text-align: justify;">A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat. Only joking. __WE DO NOT RECCOMMEND THAT__!</span>
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
  
@@ -22,7 +22,7 @@
 
  
 ## Made with <img src="https://img.shields.io/badge/Flutter-blue.svg" alt=""> <img src="https://img.shields.io/badge/Android Studio-green.svg" alt="">
-Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android Studio__.
+Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android Studio__. 
 
 ## Contributors <img src="https://img.shields.io/badge/38-blue.svg" alt="">
 * _[Programming]_  - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
@@ -45,6 +45,13 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
   kristofkekesiofficial@gmail.com
  </td></tr>
 </table>
+
+## System Requirements
+My system / Known minimum:
+- __CPU__: Intel core i7-2640M @ 2.80GHz
+- __OS__: Windows 7 Professional
+- __System type__: 64-bit
+- __RAM__: 8Gb
 
 ## License <img src="https://img.shields.io/badge/LGPL%203.0-brown.svg" alt="">
  GNU LESSER GENERAL PUBLIC LICENSE
