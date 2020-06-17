@@ -5,9 +5,9 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
  
- ## Latest Feature <img src="https://img.shields.io/badge/Day 12-brown.svg" alt="">
- - Added the isotopes of N, O
- - Left side menu (Drawer)
+ ## Latest Feature <img src="https://img.shields.io/badge/Day 13-brown.svg" alt="">
+ - Added the isotopes of F
+ - Image optimalization
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10%20and%2012-brown.svg" alt="">
 <table><tr><td>
