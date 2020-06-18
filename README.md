@@ -37,7 +37,9 @@ Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android St
 * _[JSON Formatting]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi), [__Roland Ország__](https://github.com/rolandorszag)
 * _[SVG Icon]_ - [__Icon 54__](https://icon54.com/), [__Farkas Bódis__](https://www.instagram.com/bodisfarkas/)
 * _[PR and Management]_ - [__Roland Ország__](https://github.com/rolandorszag)
-
+* _[Translations]_
+  * _[hu]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
+  * _[en]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi), [__Viktória Várszegi__](https://www.instagram.com/viktoriavarszegi/)
 ## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 <table>
