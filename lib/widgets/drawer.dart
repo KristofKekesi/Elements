@@ -4,10 +4,17 @@ import 'package:flutter/material.dart';
 import 'preferenciesWindow.dart';
 import 'localization.dart';
 
+// ignore: non_constant_identifier_names
+String Capitalizate(input) {
+  return input[0].toUpperCase() + input.substring(1);
+}
+
 // ignore: camel_case_types
 class customDrawer extends StatelessWidget {
   @override
+
   Widget build(BuildContext context) {
+
     return Container(
       width: MediaQuery.of(context).size.width * .7,
       child: Drawer(
@@ -84,6 +91,16 @@ class customDrawer extends StatelessWidget {
                                     MediaQuery.of(context).size.width) /
                                 2 *
                                 .05)))),
+            Divider(),
+            ListTile(
+              title: Text(Capitalizate(AppLocalizations.of(context).translate('name')) + ' [' + AppLocalizations.of(context).translate('key') + ']', style: TextStyle(
+                  letterSpacing: 2,
+                  fontWeight: FontWeight.bold,
+                  fontSize: (MediaQuery.of(context).size.height +
+                      MediaQuery.of(context).size.width) /
+                      2 *
+                      .05),),
+            )
           ],
         ),
       ),
