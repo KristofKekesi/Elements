@@ -18,9 +18,9 @@
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10%20and%2012-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day10a.png" height=400px>
+  <img src="img/day14a.png" height=400px>
 </td><td>
-  <img src="img/day10b.png" height=400px>
+  <img src="img/day14d.png" height=400px>
 </td></tr>
  <tr><td>
   <img src="img/day12a.png" height=400px>
