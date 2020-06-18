@@ -38,7 +38,7 @@ class landing extends StatelessWidget {
                   ),
                   ),
                   Text(
-                    '  ' + AppLocalizations.of(context).translate('title'),
+                    ' ' + AppLocalizations.of(context).translate('title'),
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,

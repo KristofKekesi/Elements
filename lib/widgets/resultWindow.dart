@@ -22,7 +22,8 @@ class searchResults extends StatelessWidget {
                             MediaQuery.of(context).size.width) /
                         2 *
                         .05,
-                    top: 20),
+                    top: 20,
+                bottom: 20),
                 child: Row(
                   children: <Widget>[
                     GestureDetector(

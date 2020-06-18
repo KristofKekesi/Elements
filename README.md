@@ -11,16 +11,17 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Feature <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
+ ## Latest Features <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
  - Logo
  - Hint texts
+ - Added 39 isotopes (Neon, Sodium)
  - Image optimalization
 
-## Latest Images <img src="https://img.shields.io/badge/Day 10%20and%2012-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day10a.png" height=400px>
+  <img src="img/day14a.png" height=400px>
 </td><td>
-  <img src="img/day10b.png" height=400px>
+  <img src="img/day14d.png" height=400px>
 </td></tr>
  <tr><td>
   <img src="img/day12a.png" height=400px>
