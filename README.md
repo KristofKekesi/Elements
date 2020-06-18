@@ -9,7 +9,7 @@
 
 <span style="text-align: justify;">A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat. Only joking. __WE DO NOT RECCOMMEND THAT__!</span>
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
-<img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
+<img src="img/state.png">
  
  ## Latest Feature <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
  - Logo
@@ -18,12 +18,12 @@
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10%20and%2012-brown.svg" alt="">
 <table><tr><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10a.png" height=400px>
+  <img src="img/day10a.png" height=400px>
 </td><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day10b.png" height=400px>
+  <img src="img/day10b.png" height=400px>
 </td></tr>
  <tr><td>
-  <img src="https://github.com/KristofKekesi/Elements/blob/master/img/day12a.png" height=400px>
+  <img src="img/day12a.png" height=400px>
  </td></tr>
 </table>
 
