@@ -11,7 +11,7 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Feature <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
+ ## Latest Features <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
  - Logo
  - Hint texts
  - Image optimalization
