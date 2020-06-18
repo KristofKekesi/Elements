@@ -14,7 +14,7 @@
  ## Latest Features <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
  - Logo
  - Hint texts
- - Added 19 isotopes (Neon)
+ - Added 39 isotopes (Neon, Sodium)
  - Image optimalization
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014-brown.svg" alt="">
