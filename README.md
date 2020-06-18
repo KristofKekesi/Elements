@@ -11,8 +11,9 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="https://github.com/KristofKekesi/Elements/blob/master/img/state.png">
  
- ## Latest Feature <img src="https://img.shields.io/badge/Day 13-brown.svg" alt="">
- - Added the isotopes of F
+ ## Latest Feature <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
+ - Logo
+ - Hint texts
  - Image optimalization
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 10%20and%2012-brown.svg" alt="">
