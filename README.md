@@ -13,13 +13,14 @@
  
  ## Latest Features <img src="https://img.shields.io/badge/Day 15-brown.svg" alt="">
  - Bugfix
+ - Finished drawer
  - Numbers of electrons, protons and neutrons for all 118 elements
  - Improved popup menu
  - Added numbers of electrons, neutrons and protons to the popup menu
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day14a.png" height=400px>
+  <img src="img/day15a.png" height=400px>
 </td><td>
   <img src="img/day14d.png" height=400px>
 </td></tr>
