@@ -49,6 +49,10 @@
   "blockPre": "Block",
   "weightPre": "weight",
   "molarmass": "The molar mass is the sum of the total weight in grams.",
+  "_comment_": "components",
+  "protons": "Protons",
+  "electrons": "Elektrons",
+  "neutron": "Neutrons",
   "_comment_": "BUTTONS",
   "cards": "Cards",
   "minimal": "Minimal",
@@ -65,6 +69,9 @@
   "type": "Type",
   "block": "Block",
   "weight": "Relative weight",
+  "protonnumber": "Numbers of protons",
+  "electronnumber": "Numbers of electrons",
+  "neutronnumber": "Numbers of neutrons",
   "cardView": "For the card view tap the button!",
   "minimalView": "For the minimal view tap the button!"
 }
