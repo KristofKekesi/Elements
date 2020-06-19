@@ -12,21 +12,22 @@ String Capitalizate(input) {
 // ignore: camel_case_types
 class customDrawer extends StatelessWidget {
   @override
-
   Widget build(BuildContext context) {
-
     return Container(
-      width: MediaQuery.of(context).size.width * .7,
+      width: MediaQuery.of(context).size.width * .75,
       child: Drawer(
         child: ListView(
           children: <Widget>[
-            DrawerHeader(
-              margin: EdgeInsets.zero,
-              padding: EdgeInsets.zero,
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                      image: AssetImage('lib/backgrounds/cover.jpg'),
-                      fit: BoxFit.fill)),
+            Container(
+              height: MediaQuery.of(context).size.height * .3,
+              child: DrawerHeader(
+                margin: EdgeInsets.zero,
+                padding: EdgeInsets.zero,
+                decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage('lib/backgrounds/cover.jpg'),
+                        fit: BoxFit.fill)),
+              ),
             ),
             GestureDetector(
               onTap: () {
@@ -38,26 +39,34 @@ class customDrawer extends StatelessWidget {
                   ),
                 );
               },
-              child: ListTile(
-                  title: Text(AppLocalizations.of(context).translate('preferencies'),
-                      style: TextStyle(
-                          letterSpacing: 2,
-                          fontWeight: FontWeight.bold,
-                          fontSize: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
-                              .05))),
+              child: Padding(
+                padding: EdgeInsets.only(
+                    top: MediaQuery.of(context).size.height * .03),
+                child: ListTile(
+                    title: Text(
+                        AppLocalizations.of(context).translate('preferencies'),
+                        style: TextStyle(
+                            letterSpacing: 2,
+                            fontWeight: FontWeight.bold,
+                            fontSize: (MediaQuery.of(context).size.height +
+                                    MediaQuery.of(context).size.width) /
+                                2 *
+                                .07))),
+              ),
             ),
-            Divider(),
+            Divider(
+              thickness: MediaQuery.of(context).size.height * .003,
+            ),
             ListTile(
-                title: Text(AppLocalizations.of(context).translate('contributors'),
+                title: Text(
+                    AppLocalizations.of(context).translate('contributors'),
                     style: TextStyle(
                         letterSpacing: 2,
                         fontWeight: FontWeight.bold,
                         fontSize: (MediaQuery.of(context).size.height +
                                 MediaQuery.of(context).size.width) /
                             2 *
-                            .05))),
+                            .07))),
             ListTile(
                 title: Text(AppLocalizations.of(context).translate('contacts'),
                     style: TextStyle(
@@ -66,8 +75,10 @@ class customDrawer extends StatelessWidget {
                         fontSize: (MediaQuery.of(context).size.height +
                                 MediaQuery.of(context).size.width) /
                             2 *
-                            .05))),
-            Divider(),
+                            .07))),
+            Divider(
+              thickness: MediaQuery.of(context).size.height * .005,
+            ),
             ListTile(
                 title: Text(AppLocalizations.of(context).translate('license'),
                     style: TextStyle(
@@ -76,31 +87,44 @@ class customDrawer extends StatelessWidget {
                         fontSize: (MediaQuery.of(context).size.height +
                                 MediaQuery.of(context).size.width) /
                             2 *
-                            .05))),
+                            .07))),
             GestureDetector(
                 onTap: () {
                   Navigator.pop(context);
                   autoAboutDialog(context);
                 },
                 child: ListTile(
-                    title: Text(AppLocalizations.of(context).translate('credits'),
+                    title: Text(
+                        AppLocalizations.of(context).translate('credits'),
                         style: TextStyle(
                             letterSpacing: 2,
                             fontWeight: FontWeight.bold,
                             fontSize: (MediaQuery.of(context).size.height +
                                     MediaQuery.of(context).size.width) /
                                 2 *
-                                .05)))),
-            Divider(),
+                                .07)))),
+            Divider(
+              thickness: MediaQuery.of(context).size.height * .005,
+            ),
+            Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .02),
+              child:
             ListTile(
-              title: Text(Capitalizate(AppLocalizations.of(context).translate('name')) + ' [' + AppLocalizations.of(context).translate('key') + ']', style: TextStyle(
-                  letterSpacing: 2,
-                  fontWeight: FontWeight.bold,
-                  fontSize: (MediaQuery.of(context).size.height +
-                      MediaQuery.of(context).size.width) /
-                      2 *
-                      .05),),
-            )
+              title: Text(
+                Capitalizate(AppLocalizations.of(context).translate('name')) +
+                    ' [' +
+                    AppLocalizations.of(context).translate('key') +
+                    ']',
+                style: TextStyle(
+                    letterSpacing: 2,
+                    fontWeight: FontWeight.bold,
+                    fontSize: (MediaQuery.of(context).size.height +
+                            MediaQuery.of(context).size.width) /
+                        2 *
+                        .05),
+              ),
+            ),
+            ),
           ],
         ),
       ),

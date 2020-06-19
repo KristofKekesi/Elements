@@ -173,7 +173,15 @@ class cardView extends StatelessWidget {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsets.only(bottom: 20),
+                                                EdgeInsets.only(bottom: (MediaQuery.of(
+                                                    context)
+                                                    .size
+                                                    .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
+                                                    2 *
+                                                    .05,),
                                             child: Tooltip(
                                               message:
                                                   AppLocalizations.of(context)
@@ -352,7 +360,15 @@ class cardView extends StatelessWidget {
                                                     .width *
                                                 .7,
                                             child: Padding(
-                                              padding: EdgeInsets.only(top: 3),
+                                              padding: EdgeInsets.only(top: 3, bottom: (MediaQuery.of(
+                                                  context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05),
                                               child: Text(
                                                 AppLocalizations.of(context)
                                                     .translate(
@@ -377,8 +393,6 @@ class cardView extends StatelessWidget {
                                             message:
                                                 AppLocalizations.of(context)
                                                     .translate("type"),
-                                            child: Padding(
-                                              padding: EdgeInsets.only(top: 20),
                                               child: Text(
                                                 typeText(),
                                                 style: TextStyle(
@@ -396,13 +410,21 @@ class cardView extends StatelessWidget {
                                                 ),
                                               ),
                                             ),
-                                          ),
+                                          Padding(
+                                            padding: EdgeInsets.only(top: (MediaQuery.of(
+                                                context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05,),
+                                            child:
                                           Tooltip(
                                             message:
                                                 AppLocalizations.of(context)
                                                     .translate("block"),
-                                            child: Padding(
-                                              padding: EdgeInsets.only(top: 20),
                                               child: Text(
                                                 AppLocalizations.of(context)
                                                         .translate("blockPre") +
