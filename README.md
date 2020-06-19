@@ -13,7 +13,9 @@
  
  ## Latest Features <img src="https://img.shields.io/badge/Day 15-brown.svg" alt="">
  - Bugfix
- - Numbers of electrons, protons and neutrons for the first 50 elements
+ - Numbers of electrons, protons and neutrons for all 118 elements
+ - Improved popup menu
+ - Added numbers of electrons, neutrons and protons to the popup menu
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014-brown.svg" alt="">
 <table><tr><td>
