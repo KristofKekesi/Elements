@@ -114,12 +114,12 @@ class cardView extends StatelessWidget {
                         builder: (context) {
                           return DraggableScrollableSheet(
                               initialChildSize: .56,
+                              maxChildSize: 1,
                               builder:
                                   (BuildContext context, scrollController) {
                                 return SingleChildScrollView(
                                   controller: scrollController,
                                   child: Container(
-                                    height: MediaQuery.of(context).size.height,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.only(
                                           topLeft: Radius.circular(30),
@@ -172,16 +172,16 @@ class cardView extends StatelessWidget {
                                             ),
                                           ),
                                           Padding(
-                                            padding:
-                                                EdgeInsets.only(bottom: (MediaQuery.of(
-                                                    context)
-                                                    .size
-                                                    .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
-                                                    2 *
-                                                    .05,),
+                                            padding: EdgeInsets.only(
+                                              bottom: (MediaQuery.of(context)
+                                                          .size
+                                                          .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
+                                                  2 *
+                                                  .05,
+                                            ),
                                             child: Tooltip(
                                               message:
                                                   AppLocalizations.of(context)
@@ -360,15 +360,17 @@ class cardView extends StatelessWidget {
                                                     .width *
                                                 .7,
                                             child: Padding(
-                                              padding: EdgeInsets.only(top: 3, bottom: (MediaQuery.of(
-                                                  context)
-                                                  .size
-                                                  .height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
-                                                  2 *
-                                                  .05),
+                                              padding: EdgeInsets.only(
+                                                  top: 3,
+                                                  bottom: (MediaQuery.of(
+                                                                  context)
+                                                              .size
+                                                              .height +
+                                                          MediaQuery.of(context)
+                                                              .size
+                                                              .width) /
+                                                      2 *
+                                                      .05),
                                               child: Text(
                                                 AppLocalizations.of(context)
                                                     .translate(
@@ -393,38 +395,38 @@ class cardView extends StatelessWidget {
                                             message:
                                                 AppLocalizations.of(context)
                                                     .translate("type"),
-                                              child: Text(
-                                                typeText(),
-                                                style: TextStyle(
-                                                  color: Colors.white,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
-                                                      2 *
-                                                      .06,
-                                                ),
+                                            child: Text(
+                                              typeText(),
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: (MediaQuery.of(
+                                                                context)
+                                                            .size
+                                                            .height +
+                                                        MediaQuery.of(context)
+                                                            .size
+                                                            .width) /
+                                                    2 *
+                                                    .06,
                                               ),
                                             ),
+                                          ),
                                           Padding(
-                                            padding: EdgeInsets.only(top: (MediaQuery.of(
-                                                context)
-                                                .size
-                                                .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
-                                                2 *
-                                                .05,),
-                                            child:
-                                          Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate("block"),
+                                            padding: EdgeInsets.only(
+                                              top: (MediaQuery.of(context)
+                                                          .size
+                                                          .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
+                                                  2 *
+                                                  .05,
+                                            ),
+                                            child: Tooltip(
+                                              message:
+                                                  AppLocalizations.of(context)
+                                                      .translate("block"),
                                               child: Text(
                                                 AppLocalizations.of(context)
                                                         .translate("blockPre") +
@@ -477,28 +479,116 @@ class cardView extends StatelessWidget {
                                           ),
                                           Container(
                                             width: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .7,
                                             child: Padding(
                                               padding: EdgeInsets.only(top: 3),
                                               child: Text(
                                                 AppLocalizations.of(context)
-                                                    .translate(
-                                                    'molarmass'),
+                                                    .translate('molarmass'),
                                                 style: TextStyle(
                                                   color: Colors.white70,
                                                   fontWeight: FontWeight.bold,
                                                   fontSize: (MediaQuery.of(
-                                                      context)
-                                                      .size
-                                                      .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
+                                                                  context)
+                                                              .size
+                                                              .height +
+                                                          MediaQuery.of(context)
+                                                              .size
+                                                              .width) /
                                                       2 *
                                                       .04,
                                                 ),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            child: Padding(
+                                              padding: EdgeInsets.only(
+                                                top: (MediaQuery.of(context)
+                                                            .size
+                                                            .height +
+                                                        MediaQuery.of(context)
+                                                            .size
+                                                            .width) /
+                                                    2 *
+                                                    .05,
+                                              ),
+                                              child: Tooltip(
+                                                message: AppLocalizations.of(
+                                                        context)
+                                                    .translate('protonnumber'),
+                                                child: Text(
+                                                  AppLocalizations.of(context)
+                                                          .translate(
+                                                              'protons') +
+                                                      ': ' +
+                                                      elementList[index]
+                                                          ['chargedComponent'],
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.white,
+                                                    fontSize:
+                                                        (MediaQuery.of(context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .06,
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                          Tooltip(
+                                            message: AppLocalizations.of(
+                                                    context)
+                                                .translate('electronnumber'),
+                                            child: Text(
+                                              AppLocalizations.of(context)
+                                                      .translate('electrons') +
+                                                  ': ' +
+                                                  elementList[index]
+                                                      ['chargedComponent'],
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                                fontSize: (MediaQuery.of(
+                                                                context)
+                                                            .size
+                                                            .height +
+                                                        MediaQuery.of(context)
+                                                            .size
+                                                            .width) /
+                                                    2 *
+                                                    .06,
+                                              ),
+                                            ),
+                                          ),
+                                          Tooltip(
+                                            message:
+                                                AppLocalizations.of(context)
+                                                    .translate('neutronnumber'),
+                                            child: Text(
+                                              AppLocalizations.of(context)
+                                                      .translate('neutrons') + ': ' +
+                                                  elementList[index]['neutron'],
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                                fontSize: (MediaQuery.of(
+                                                                context)
+                                                            .size
+                                                            .height +
+                                                        MediaQuery.of(context)
+                                                            .size
+                                                            .width) /
+                                                    2 *
+                                                    .06,
                                               ),
                                             ),
                                           ),
