@@ -1814,7 +1814,7 @@
 	"en": "Vanadium",
 
 	"chargedComponent": "23",
-	"neutron": ""28,
+	"neutron": "28",
 
 	"isotopes": [
 		{
@@ -2793,8 +2793,8 @@
 	"hu": "Antimon",
 	"en": "Antimony",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "51",
+	"neutron": "71",
 
 	"isotopes": [
 		{
@@ -2828,8 +2828,8 @@
 	"hu": "Tellúr",
 	"en": "Tellurium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "52",
+	"neutron": "76",
 
 	"isotopes": [
 		{
@@ -2864,8 +2864,8 @@
 	"hu": "Jód",
 	"en": "Iodine",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "53",
+	"neutron": "75",
 
 	"isotopes": [
 		{
@@ -2899,8 +2899,8 @@
 	"hu": "Xenon",
 	"en": "Xenon",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "54",
+	"neutron": "77",
 
 	"isotopes": [
 		{
@@ -2934,8 +2934,8 @@
 	"hu": "Cézium",
 	"en": "Caesium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "55",
+	"neutron": "78",
 
 	"isotopes": [
 		{
@@ -2969,8 +2969,8 @@
 	"hu": "Bárium",
 	"en": "Barium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "86",
+	"neutron": "81",
 
 	"isotopes": [
 		{
@@ -3004,8 +3004,8 @@
 	"hu": "Lantán",
 	"en": "Lanthanum",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "57",
+	"neutron": "82",
 
 	"isotopes": [
 		{
@@ -3039,8 +3039,8 @@
 	"hu": "Cérium",
 	"en": "Cerium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "58",
+	"neutron": "82",
 
 	"isotopes": [
 		{
@@ -3074,8 +3074,8 @@
 	"hu": "Prazeodímium",
 	"en": "Praseodymium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "59",
+	"neutron": "82",
 
 	"isotopes": [
 		{
@@ -3109,8 +3109,8 @@
 	"hu": "Neodímium",
 	"en": "Neodymium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "60",
+	"neutron": "84",
 
 	"isotopes": [
 		{
@@ -3144,8 +3144,8 @@
 	"hu": "Prométium",
 	"en": "Promethium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "61",
+	"neutron": "84",
 
 	"isotopes": [
 		{
@@ -3179,8 +3179,8 @@
 	"hu": "Szamárium",
 	"en": "Samarium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "62",
+	"neutron": "88",
 
 	"isotopes": [
 		{
@@ -3214,8 +3214,8 @@
 	"hu": "Európium",
 	"en": "Europium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "63",
+	"neutron": "89",
 
 	"isotopes": [
 		{
@@ -3249,8 +3249,8 @@
 	"hu": "Gadolínium",
 	"en": "Gadolinium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "64",
+	"neutron": "93",
 
 	"isotopes": [
 		{
@@ -3284,8 +3284,8 @@
 	"hu": "Terbium",
 	"en": "Terbium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "65",
+	"neutron": "94,
 
 	"isotopes": [
 		{
@@ -3319,8 +3319,8 @@
 	"hu": "Diszprózium",
 	"en": "Dysprosium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "66",
+	"neutron": "97",
 
 	"isotopes": [
 		{
@@ -3354,8 +3354,8 @@
 	"hu": "Holmium",
 	"en": "Holmium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "67",
+	"neutron": "98",
 
 	"isotopes": [
 		{
@@ -3389,8 +3389,8 @@
 	"hu": "Erbium",
 	"en": "Erbium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "68",
+	"neutron": "99",
 
 	"isotopes": [
 		{
@@ -3424,8 +3424,8 @@
 	"hu": "Túlium",
 	"en": "Thulium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "69",
+	"neutron": "100",
 
 	"isotopes": [
 		{
@@ -3459,8 +3459,8 @@
 	"hu": "Itterbium",
 	"en": "Ytterbium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "70",
+	"neutron": "103",
 
 	"isotopes": [
 		{
@@ -3494,8 +3494,8 @@
 	"hu": "Lutécium",
 	"en": "Lutetium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "71",
+	"neutron": "104",
 
 	"isotopes": [
 		{
@@ -3529,8 +3529,8 @@
 	"hu": "Hafnium",
 	"en": "Hafnium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "72",
+	"neutron": "106",
 
 	"isotopes": [
 		{
@@ -3564,8 +3564,8 @@
 	"hu": "Tantál",
 	"en": "Tantalum",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "73",
+	"neutron": "108",
 
 	"isotopes": [
 		{
@@ -3599,8 +3599,8 @@
 	"hu": "Volfrám",
 	"en": "Tungsten",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "74",
+	"neutron": "110",
 
 	"isotopes": [
 		{
@@ -3634,8 +3634,8 @@
 	"hu": "Rénium",
 	"en": "Rhenium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "75",
+	"neutron": "111",
 
 	"isotopes": [
 		{
@@ -3669,8 +3669,8 @@
 	"hu": "Ozmium",
 	"en": "Osmium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "76",
+	"neutron": "114",
 
 	"isotopes": [
 		{
@@ -3704,8 +3704,8 @@
 	"hu": "Irídium",
 	"en": "Iridium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "77",
+	"neutron": "115",
 
 	"isotopes": [
 		{
@@ -3739,8 +3739,8 @@
 	"hu": "Platina",
 	"en": "Platinum",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "78",
+	"neutron": "117",
 
 	"isotopes": [
 		{
@@ -3774,8 +3774,8 @@
 	"hu": "Arany",
 	"en": "Gold",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "79",
+	"neutron": "118",
 
 	"isotopes": [
 		{
@@ -3809,8 +3809,8 @@
 	"hu": "Higany",
 	"en": "Mercury",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "80",
+	"neutron": "121",
 
 	"isotopes": [
 		{
@@ -3844,8 +3844,8 @@
 	"hu": "Tallium",
 	"en": "Thallium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "81",
+	"neutron": "123",
 
 	"isotopes": [
 		{
@@ -3879,8 +3879,8 @@
 	"hu": "Ólom",
 	"en": "Lead",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "82",
+	"neutron": "125",
 
 	"isotopes": [
 		{
@@ -3914,8 +3914,8 @@
 	"hu": "Bizmut",
 	"en": "Bismuth",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "83",
+	"neutron": "126",
 
 	"isotopes": [
 		{
@@ -3949,8 +3949,8 @@
 	"hu": "Polónium",
 	"en": "Polonium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "84",
+	"neutron": "125",
 
 	"isotopes": [
 		{
@@ -3984,8 +3984,8 @@
 	"hu": "Asztácium",
 	"en": "Astatine",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "85",
+	"neutron": "125",
 
 	"isotopes": [
 		{
@@ -4019,8 +4019,8 @@
 	"hu": "Radon",
 	"en": "Radon",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "86",
+	"neutron": "136",
 
 	"isotopes": [
 		{
@@ -4054,8 +4054,8 @@
 	"hu": "Francium",
 	"en": "Francium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "87",
+	"neutron": "136",
 
 	"isotopes": [
 		{
@@ -4089,8 +4089,8 @@
 	"hu": "Rádium",
 	"en": "Radium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "88",
+	"neutron": "138",
 
 	"isotopes": [
 		{
@@ -4124,8 +4124,8 @@
 	"hu": "Aktínium",
 	"en": "Actinium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "89",
+	"neutron": "138",
 
 	"isotopes": [
 		{
@@ -4159,8 +4159,8 @@
 	"hu": "Tórium",
 	"en": "Thorium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "90",
+	"neutron": "142",
 
 	"isotopes": [
 		{
@@ -4194,8 +4194,8 @@
 	"hu": "Protaktínium",
 	"en": "Protactinium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "91",
+	"neutron": "148",
 
 	"isotopes": [
 		{
@@ -4229,8 +4229,8 @@
 	"hu": "Urán",
 	"en": "Uranium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "92",
+	"neutron": "146",
 
 	"isotopes": [
 		{
@@ -4264,8 +4264,8 @@
 	"hu": "Neptúnium",
 	"en": "Neptunium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "93",
+	"neutron": "144",
 
 	"isotopes": [
 		{
@@ -4299,8 +4299,8 @@
 	"hu": "Plutónium",
 	"en": "Plutonium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "94",
+	"neutron": "150",
 
 	"isotopes": [
 		{
@@ -4334,8 +4334,8 @@
 	"hu": "Amerícium",
 	"en": "Americium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "95",
+	"neutron": "148",
 
 	"isotopes": [
 		{
@@ -4369,8 +4369,8 @@
 	"hu": "Kűrium",
 	"en": "Curium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "96",
+	"neutron": "151",
 
 	"isotopes": [
 		{
@@ -4404,8 +4404,8 @@
 	"hu": "Berkélium",
 	"en": "Berkelium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "97",
+	"neutron": "150",
 
 	"isotopes": [
 		{
@@ -4439,8 +4439,8 @@
 	"hu": "Kalifornium",
 	"en": "Californium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "98",
+	"neutron": "153",
 
 	"isotopes": [
 		{
@@ -4474,8 +4474,8 @@
 	"hu": "Einsteinium",
 	"en": "Einsteinium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "99",
+	"neutron": "153",
 
 	"isotopes": [
 		{
@@ -4509,8 +4509,8 @@
 	"hu": "Fermium",
 	"en": "Fermium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "100",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4544,8 +4544,8 @@
 	"hu": "Mendelévium",
 	"en": "Mendelevium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "101",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4579,8 +4579,8 @@
 	"hu": "Nobélium",
 	"en": "Nobelium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "102",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4614,8 +4614,8 @@
 	"hu": "Laurencium",
 	"en": "Lawrencium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "103",
+	"neutron": "159",
 
 	"isotopes": [
 		{
@@ -4649,8 +4649,8 @@
 	"hu": "Raderfordium",
 	"en": "Rutherfordium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "104",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4684,8 +4684,8 @@
 	"hu": "Dubnium",
 	"en": "Dubnium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "105",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4719,8 +4719,8 @@
 	"hu": "Sziborgium",
 	"en": "Seaborgium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "106",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4754,8 +4754,8 @@
 	"hu": "Bohrium",
 	"en": "Bohrium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "107",
+	"neutron": "155",
 
 	"isotopes": [
 		{
@@ -4789,8 +4789,8 @@
 	"hu": "Hasszium",
 	"en": "Hassium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "108",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4824,8 +4824,8 @@
 	"hu": "Meitnérium",
 	"en": "Meittnerium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "109",
+	"neutron": "157",
 
 	"isotopes": [
 		{
@@ -4859,8 +4859,8 @@
 	"hu": "Darmstadtium",
 	"en": "Darmstadtium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "110",
+	"neutron": "151",
 
 	"isotopes": [
 		{
@@ -4894,8 +4894,8 @@
 	"hu": "Röntgénium",
 	"en": "Roentgenium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "111",
+	"neutron": "161",
 
 	"isotopes": [
 		{
@@ -4929,8 +4929,8 @@
 	"hu": "Kopernícium",
 	"en": "Copernicium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "112",
+	"neutron": "165",
 
 	"isotopes": [
 		{
@@ -4964,8 +4964,8 @@
 	"hu": "Nihónium",
 	"en": "Nihonium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "113",
+	"neutron": "173",
 
 	"isotopes": [
 		{
@@ -4999,8 +4999,8 @@
 	"hu": "Fleróvium",
 	"en": "Flerovium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "114",
+	"neutron": "175",
 
 	"isotopes": [
 		{
@@ -5034,8 +5034,8 @@
 	"hu": "Moszkóvium",
 	"en": "Moscovium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "115",
+	"neutron": "175",
 
 	"isotopes": [
 		{
@@ -5069,8 +5069,8 @@
 	"hu": "Livermórium",
 	"en": "Livermorium",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "116",
+	"neutron": "177",
 
 	"isotopes": [
 		{
@@ -5104,8 +5104,8 @@
 	"hu": "Tenesszium",
 	"en": "Tennessie",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "117",
+	"neutron": "177",
 
 	"isotopes": [
 		{
@@ -5139,8 +5139,8 @@
 	"hu": "Oganeszon",
 	"en": "Oganesson",
 
-	"chargedComponent": "",
-	"neutron": "",
+	"chargedComponent": "118",
+	"neutron": "176",
 
 	"isotopes": [
 		{
