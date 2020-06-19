@@ -11,14 +11,14 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Features <img src="https://img.shields.io/badge/Day 15-brown.svg" alt="">
+ ## Latest Features <img src="https://img.shields.io/badge/Day%2015-brown.svg" alt="">
  - Bugfix
  - Finished drawer
  - Numbers of electrons, protons and neutrons for all 118 elements
  - Improved popup menu
  - Added numbers of electrons, neutrons and protons to the popup menu
 
-## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%2015-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2015-brown.svg" alt="">
 <table><tr><td>
   <img src="img/day15a.png" height=400px>
 </td><td>
