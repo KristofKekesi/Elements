@@ -11,11 +11,9 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Features <img src="https://img.shields.io/badge/Day 14-brown.svg" alt="">
- - Logo
- - Hint texts
- - Added 39 isotopes (Neon, Sodium)
- - Image optimalization
+ ## Latest Features <img src="https://img.shields.io/badge/Day 15-brown.svg" alt="">
+ - Bugfix
+ - Numbers of electrons, protons and neutrons for the first 50 elements
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014-brown.svg" alt="">
 <table><tr><td>
