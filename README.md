@@ -12,11 +12,9 @@
 <img src="img/state.png">
  
  ## Latest Features <img src="https://img.shields.io/badge/Day%2015-brown.svg" alt="">
- - Bugfix
- - Finished drawer
- - Numbers of electrons, protons and neutrons for all 118 elements
- - Improved popup menu
- - Added numbers of electrons, neutrons and protons to the popup menu
+ - Background for all elements
+ - Added isotopes of magnesium
+ - Deleted unused files
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2015-brown.svg" alt="">
 <table><tr><td>
