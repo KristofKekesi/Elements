@@ -26,6 +26,8 @@
 </td></tr>
  <tr><td>
   <img src="img/day12a.png" height=400px>
+ </td><td>
+  <img src="img/day14a.png" height=400px>
  </td></tr>
 </table>
 
