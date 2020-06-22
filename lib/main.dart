@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Elements',
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.grey,
         bottomSheetTheme:
             BottomSheetThemeData(backgroundColor: Colors.black.withOpacity(0)),
       ),

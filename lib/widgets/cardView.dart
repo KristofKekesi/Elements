@@ -426,14 +426,14 @@ class cardView extends StatelessWidget {
                                             child: Tooltip(
                                               message:
                                                   AppLocalizations.of(context)
-                                                      .translate("block"),
+                                                      .translate("electronnegativity"),
                                               child: Text(
                                                 AppLocalizations.of(context)
-                                                        .translate("blockPre") +
+                                                        .translate("electronnegativityPre") +
                                                     ": " +
                                                     Capitalizate(
                                                         elementList[index]
-                                                            ["block"]),
+                                                            ["electronnegativity"]),
                                                 style: TextStyle(
                                                   color: Colors.white,
                                                   fontWeight: FontWeight.bold,
@@ -447,6 +447,32 @@ class cardView extends StatelessWidget {
                                                       2 *
                                                       .06,
                                                 ),
+                                              ),
+                                            ),
+                                          ),
+                                          Tooltip(
+                                            message:
+                                            AppLocalizations.of(context)
+                                                .translate("block"),
+                                            child: Text(
+                                              AppLocalizations.of(context)
+                                                  .translate("blockPre") +
+                                                  ": " +
+                                                  Capitalizate(
+                                                      elementList[index]
+                                                      ["block"]),
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: (MediaQuery.of(
+                                                    context)
+                                                    .size
+                                                    .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
+                                                    2 *
+                                                    .06,
                                               ),
                                             ),
                                           ),
