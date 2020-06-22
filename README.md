@@ -12,13 +12,13 @@
 <img src="img/state.png">
  
  ## Latest Features <img src="https://img.shields.io/badge/Day%2015-brown.svg" alt="">
- - Background for all elements
- - Added isotopes of magnesium
- - Deleted unused files
+ - Improved landing screen.
+ - Elements.json improvements
+ - Improved popup with electronnegativity
 
-## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2015-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2016-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day15a.png" height=400px>
+  <img src="img/day16a.png" height=400px>
 </td><td>
   <img src="img/day14d.png" height=400px>
 </td></tr>
