@@ -92,96 +92,167 @@ class _landingState extends State<landing> {
                       context: context,
                       builder: (context) {
                         return DraggableScrollableSheet(
-                          initialChildSize: .82,
-                          maxChildSize: .82,
+                          initialChildSize: .85,
+                          maxChildSize: .85,
                           builder: (BuildContext context, scrollController) {
                             return SingleChildScrollView(
                               controller: scrollController,
-                              child: ClipRRect(borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(30),
-                                  topRight: Radius.circular(30)), child: BackdropFilter(filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20), child: Container(
-                                child: Center(
-                                  child: Column(
-                                    children: <Widget>[
-                                      Padding(
-                                        padding: EdgeInsets.only(
-                                            top: 30, bottom: 70),
-                                        child: Text(
-                                          AppLocalizations.of(context).translate(
-                                                  'electronnegativitySelector') +
-                                              ':',
-                                          style: TextStyle(
-                                              color: Colors.white,
-                                              fontWeight: FontWeight.bold,
-                                              fontSize: 30),
-                                        ),
-                                      ),
-                                      SleekCircularSlider(
-                                        initialValue: 1,
-                                        min: 0,
-                                        max: 4,
-                                        appearance: CircularSliderAppearance(
-                                          infoProperties: InfoProperties(
-                                            modifier: percentageModifier,
-                                            topLabelStyle: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.white),
-                                            mainLabelStyle: TextStyle(
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.only(
+                                    topLeft: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1),
+                                    topRight: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1),),
+                                child: BackdropFilter(
+                                  filter:
+                                      ImageFilter.blur(sigmaX: (MediaQuery.of(context)
+                                          .size
+                                          .height +
+                                          MediaQuery.of(context)
+                                              .size
+                                              .width) /
+                                          2 *
+                                          .05, sigmaY: (MediaQuery.of(context)
+                                          .size
+                                          .height +
+                                          MediaQuery.of(context)
+                                              .size
+                                              .width) /
+                                          2 *
+                                          .05),
+                                  child: Container(
+                                    child: Center(
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(
+                                            padding: EdgeInsets.only(
+                                                top: 30, bottom: 70),
+                                            child: Text(
+                                              AppLocalizations.of(context)
+                                                      .translate(
+                                                          'electronnegativitySelector') +
+                                                  ':',
+                                              style: TextStyle(
                                                 color: Colors.white,
-                                                fontSize: 35),
-                                            topLabelText:
-                                                AppLocalizations.of(context)
-                                                    .translate('sliderMin'),
-                                          ),
-                                          customColors: CustomSliderColors(
-                                            trackColor: Colors.white,
-                                            hideShadow: true,
-                                            progressBarColors: <Color>[
-                                              Colors.orangeAccent,
-                                              Colors.deepOrangeAccent,
-                                            ],
-                                          ),
-                                        ),
-                                        onChangeEnd: (v) {
-                                          print(v.toStringAsFixed(2));
-                                        },
-                                      ),
-                                      SleekCircularSlider(
-                                        initialValue: 3,
-                                        min: 0,
-                                        max: 4,
-                                        appearance: CircularSliderAppearance(
-                                          infoProperties: InfoProperties(
-                                            modifier: percentageModifier,
-                                            topLabelStyle: TextStyle(
                                                 fontWeight: FontWeight.bold,
-                                                color: Colors.white),
-                                            mainLabelStyle: TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 35),
-                                            topLabelText:
-                                                AppLocalizations.of(context)
-                                                    .translate('sliderMax'),
+                                                fontSize: (MediaQuery.of(
+                                                                context)
+                                                            .size
+                                                            .height +
+                                                        MediaQuery.of(context)
+                                                            .size
+                                                            .width) /
+                                                    2 *
+                                                    .07,
+                                              ),
+                                            ),
                                           ),
-                                          customColors: CustomSliderColors(
-                                            trackColor: Colors.white,
-                                            hideShadow: true,
-                                            progressBarColors: <Color>[
-                                              Colors.orangeAccent,
-                                              Colors.deepOrangeAccent,
-                                            ],
+                                          SleekCircularSlider(
+                                            initialValue: 1,
+                                            min: 0,
+                                            max: 4,
+                                            appearance:
+                                                CircularSliderAppearance(
+                                                  size: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .4,
+                                              infoProperties: InfoProperties(
+                                                modifier: percentageModifier,
+                                                topLabelStyle: TextStyle(
+                                                    fontSize:
+                                                        (MediaQuery.of(context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .06,
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.white),
+                                                mainLabelStyle: TextStyle(
+                                                  fontSize: (MediaQuery.of(
+                                                                  context)
+                                                              .size
+                                                              .height +
+                                                          MediaQuery.of(context)
+                                                              .size
+                                                              .width) /
+                                                      2 *
+                                                      .08,
+                                                  color: Colors.white,
+                                                ),
+                                                topLabelText:
+                                                    AppLocalizations.of(context)
+                                                        .translate('sliderMin'),
+                                              ),
+                                              customColors: CustomSliderColors(
+                                                trackColor: Colors.white,
+                                                hideShadow: true,
+                                                progressBarColors: <Color>[
+                                                  Colors.orangeAccent,
+                                                  Colors.deepOrangeAccent,
+                                                ],
+                                              ),
+                                            ),
+                                            onChangeEnd: (v) {
+                                              print(v.toStringAsFixed(2));
+                                            },
                                           ),
-                                        ),
-                                        onChangeEnd: (v) {
-                                          print(v.toStringAsFixed(2));
-                                        },
+                                          SleekCircularSlider(
+                                            initialValue: 3,
+                                            min: 0,
+                                            max: 4,
+                                            appearance:
+                                                CircularSliderAppearance(
+                                                  size: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .4,
+                                              infoProperties: InfoProperties(
+                                                modifier: percentageModifier,
+                                                topLabelStyle: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    fontSize:
+                                                        (MediaQuery.of(context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .06,
+                                                    color: Colors.white),
+                                                mainLabelStyle: TextStyle(
+                                                    color: Colors.white,
+                                                    fontSize:
+                                                        (MediaQuery.of(context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .08),
+                                                topLabelText:
+                                                    AppLocalizations.of(context)
+                                                        .translate('sliderMax'),
+                                              ),
+                                              customColors: CustomSliderColors(
+                                                trackColor: Colors.white,
+                                                hideShadow: true,
+                                                progressBarColors: <Color>[
+                                                  Colors.orangeAccent,
+                                                  Colors.deepOrangeAccent,
+                                                ],
+                                              ),
+                                            ),
+                                            onChangeEnd: (v) {
+                                              print(v.toStringAsFixed(2));
+                                            },
+                                          ),
+                                        ],
                                       ),
-                                    ],
+                                    ),
                                   ),
                                 ),
                               ),
-                            ),
-                            ),
                             );
                           },
                         );
@@ -219,41 +290,70 @@ class _landingState extends State<landing> {
 
                             return SingleChildScrollView(
                               controller: scrollController,
-                              child: ClipRRect(borderRadius: BorderRadius.only(
-                                topLeft: Radius.circular(30),
-                            topRight: Radius.circular(30)), child: BackdropFilter(filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20), child: Container(
-                                child: Center(
-                                  child: Column(
-                                    children: <Widget>[
-                                      Padding(
-                                        padding: EdgeInsets.only(
-                                            top: 30, bottom: 70),
-                                        child: Text(
-                                          AppLocalizations.of(context)
-                                                  .translate('types') +
-                                              ':',
-                                          style: TextStyle(
-                                              color: Colors.white,
-                                              fontWeight: FontWeight.bold,
-                                              fontSize: 30),
-                                        ),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.only(
+                                    topLeft: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1),
+                                    topRight: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1)),
+                                child: BackdropFilter(
+                                  filter:
+                                      ImageFilter.blur(sigmaX: (MediaQuery.of(context)
+                                          .size
+                                          .height +
+                                          MediaQuery.of(context)
+                                              .size
+                                              .width) /
+                                          2 *
+                                          .05, sigmaY: (MediaQuery.of(context)
+                                          .size
+                                          .height +
+                                          MediaQuery.of(context)
+                                              .size
+                                              .width) /
+                                          2 *
+                                          .05),
+                                  child: Container(
+                                    child: Center(
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(
+                                            padding: EdgeInsets.only(
+                                                top: 30, bottom: 70),
+                                            child: Text(
+                                              AppLocalizations.of(context)
+                                                      .translate('types') +
+                                                  ':',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: (MediaQuery.of(
+                                                                context)
+                                                            .size
+                                                            .height +
+                                                        MediaQuery.of(context)
+                                                            .size
+                                                            .width) /
+                                                    2 *
+                                                    .07,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                          ),
+                                          CheckboxListTile(
+                                            title: Text('Type 1'),
+                                            controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                            value: _cb1,
+                                            onChanged: (bool value) {
+                                              setState(() {
+                                                _cb1 = value;
+                                              });
+                                            },
+                                          ),
+                                        ],
                                       ),
-                                      CheckboxListTile(
-                                        title: Text('Type 1'),
-                                        controlAffinity:
-                                            ListTileControlAffinity.platform,
-                                        value: _cb1,
-                                        onChanged: (bool value) {
-                                          setState(() {
-                                            _cb1 = value;
-                                          });
-                                        },
-                                      ),
-                                    ],
+                                    ),
                                   ),
                                 ),
-                              ),
-                            ),
                               ),
                             );
                           },
