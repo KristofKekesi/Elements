@@ -2,16 +2,29 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import 'package:flutter_chem/widgets/localization.dart';
-import 'package:flutter_chem/widgets/searchResults.dart';
+import 'package:flutter_chem/widgets/resultWindow.dart';
+import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 // ignore: camel_case_types
-class landing extends StatelessWidget {
+class landing extends StatefulWidget {
+  @override
+  _landingState createState() => _landingState();
+}
+
+// ignore: camel_case_types
+class _landingState extends State<landing> {
   @override
   Widget build(BuildContext context) {
+    String percentageModifier(double value) {
+      final roundedValue = value.toStringAsFixed(2).toString();
+      return roundedValue;
+    }
+
     return SafeArea(
       child: Column(
-        //mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Align(
             alignment: Alignment.topLeft,
@@ -24,32 +37,27 @@ class landing extends StatelessWidget {
                   top: 20),
               child: Row(
                 children: <Widget>[
-                  Tooltip(
-              message: "" + AppLocalizations.of(context).translate("settings"),
-              child:
-                  CupertinoContextMenu(
-                    child: Icon(CupertinoIcons.settings, size: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                        2 *
-                        .085),
-                    actions: <Widget>[
-                      CupertinoContextMenuAction(
-                        child: const Text('English [EN]'),
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                      ),
-                      CupertinoContextMenuAction(
-                        child: const Text('Magyar [HU]'),
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                      ),
-                    ],
-                  ),
+                  GestureDetector(
+                    onTap: () {
+                      Scaffold.of(context).openDrawer();
+                    },
+                    child: Tooltip(
+                      message:
+                          "" + AppLocalizations.of(context).translate("menu"),
+                      child: Image(
+                          image: AssetImage("lib/icons/right_500.png"),
+                          height: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .09,
+                          width: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .09),
+                    ),
                   ),
                   Text(
-                    '  ' + AppLocalizations.of(context).translate('title'),
+                    ' ' + AppLocalizations.of(context).translate('title'),
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,
@@ -63,8 +71,6 @@ class landing extends StatelessWidget {
               ),
             ),
           ),
-<<<<<<< Updated upstream
-=======
           Padding(
             padding: EdgeInsets.only(
                 top: (MediaQuery.of(context).size.height +
@@ -206,6 +212,8 @@ class landing extends StatelessWidget {
                       context: context,
                       builder: (context) {
                         return DraggableScrollableSheet(
+                          initialChildSize: .9,
+                          maxChildSize: 1,
                           builder: (BuildContext context, scrollController) {
                             bool _cb1 = true;
 
@@ -271,7 +279,6 @@ class landing extends StatelessWidget {
               ],
             ),
           ),
->>>>>>> Stashed changes
           GestureDetector(
             onTap: () {
               Navigator.push(
@@ -287,12 +294,13 @@ class landing extends StatelessWidget {
                   right: (MediaQuery.of(context).size.height +
                           MediaQuery.of(context).size.width) /
                       2 *
+                      .05,
+                  left: (MediaQuery.of(context).size.height +
+                          MediaQuery.of(context).size.width) /
+                      2 *
                       .05),
               child: Container(
-                width: (MediaQuery.of(context).size.width +
-                        MediaQuery.of(context).size.height) /
-                    2 *
-                    .30,
+                width: MediaQuery.of(context).size.width + .7,
                 height: (MediaQuery.of(context).size.height +
                         MediaQuery.of(context).size.width) /
                     2 *
