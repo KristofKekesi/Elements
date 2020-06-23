@@ -11,7 +11,7 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Features <img src="https://img.shields.io/badge/Day%2016-brown.svg" alt="">
+ ## Latest Features <img src="https://img.shields.io/badge/Day%2017-brown.svg" alt="">
  - Improved landing screen.
  - Elements.json improvements
  - Improved popup with electronnegativity
