@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -116,118 +117,106 @@ class cardView extends StatelessWidget {
                               initialChildSize: .56,
                               maxChildSize: 1,
                               builder:
-                                  (BuildContext context, scrollController) {
+                                  (BuildContext context, ScrollController scrollController) {
                                 return SingleChildScrollView(
-                                  controller: scrollController,
-                                  child: Container(
-                                    decoration: BoxDecoration(
+                                    controller: scrollController,
+                                    child: ClipRRect(
                                       borderRadius: BorderRadius.only(
-                                          topLeft: Radius.circular(30),
-                                          topRight: Radius.circular(30)),
-                                      image: DecorationImage(
-                                        image: AssetImage(
-                                            "lib/backgrounds/transparent.png"),
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                    child: Padding(
-                                      padding: EdgeInsets.only(
-                                          left: (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .05 +
-                                              30,
-                                          top: 30,
-                                          bottom: 30),
-                                      child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: <Widget>[
-                                          Padding(
-                                            padding: EdgeInsets.only(),
-                                            child: Tooltip(
-                                              message:
-                                                  AppLocalizations.of(context)
-                                                      .translate("symbol"),
-                                              child: Text(
-                                                elementList[index]["element"],
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  color: Colors.white,
-                                                  fontSize: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
-                                                      2 *
-                                                      .10,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                          Padding(
+                                          topLeft: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1),
+                                          topRight: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1)),
+                                      child: BackdropFilter(
+                                        filter: ImageFilter.blur(
+                                            sigmaX: (MediaQuery.of(context)
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
+                                                2 *
+                                                .05,
+                                            sigmaY: (MediaQuery.of(context)
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
+                                                2 *
+                                                .05),
+                                        child: Container(
+                                          child: Padding(
                                             padding: EdgeInsets.only(
-                                              bottom: (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .05,
-                                            ),
-                                            child: Tooltip(
-                                              message:
-                                                  AppLocalizations.of(context)
-                                                      .translate("elementName"),
-                                              child: Text(
-                                                elementList[index][
-                                                    AppLocalizations.of(context)
-                                                        .translate("key")],
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  color: Colors.white,
-                                                  height: 1.2,
-                                                  fontSize: (MediaQuery.of(
+                                                left: (MediaQuery.of(context)
+                                                                .size
+                                                                .height +
+                                                            MediaQuery.of(
+                                                                    context)
+                                                                .size
+                                                                .width) /
+                                                        2 *
+                                                        .06 +
+                                                    30,
+                                                top: 30,
+                                                bottom: 30),
+                                            child: Column(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: <Widget>[
+                                                  Tooltip(
+                                                    message: AppLocalizations
+                                                            .of(context)
+                                                        .translate("symbol"),
+                                                    child: Text(
+                                                      elementList[index]
+                                                          ["element"],
+                                                      style: TextStyle(
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        color: Colors.white,
+                                                        fontSize: (MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .10,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                Padding(
+                                                  padding: EdgeInsets.only(
+                                                    bottom:
+                                                        (MediaQuery.of(context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .05,
+                                                  ),
+                                                  child: Tooltip(
+                                                    message:
+                                                        AppLocalizations.of(
+                                                                context)
+                                                            .translate(
+                                                                "elementName"),
+                                                    child: Text(
+                                                      elementList[index][
+                                                          AppLocalizations.of(
                                                                   context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
-                                                      2 *
-                                                      .08,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate("consistency"),
-                                            child: Row(
-                                              children: <Widget>[
-                                                Image(
-                                                    image: AssetImage(
-                                                        consistencyIcon()),
-                                                    height: (MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height +
-                                                            MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width) /
-                                                        2 *
-                                                        .055,
-                                                    width:
-                                                        (MediaQuery.of(context)
+                                                              .translate(
+                                                                  "key")],
+                                                      style: TextStyle(
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        color: Colors.white,
+                                                        height: 1.2,
+                                                        fontSize: (MediaQuery.of(
+                                                                        context)
                                                                     .size
                                                                     .height +
                                                                 MediaQuery.of(
@@ -235,97 +224,173 @@ class cardView extends StatelessWidget {
                                                                     .size
                                                                     .width) /
                                                             2 *
-                                                            .055),
-                                                Text(
-                                                  consistencyText(),
-                                                  style: TextStyle(
-                                                    color: Colors.white,
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize:
-                                                        (MediaQuery.of(context)
-                                                                    .size
-                                                                    .height +
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width) /
-                                                            2 *
-                                                            .06,
+                                                            .08,
+                                                      ),
+                                                    ),
                                                   ),
                                                 ),
-                                              ],
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate("discovery"),
-                                            child: Row(
-                                              children: <Widget>[
-                                                Image(
-                                                    image: AssetImage(
-                                                        "lib/icons/discovery_white_500.png"),
-                                                    height: (MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height +
-                                                            MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width) /
-                                                        2 *
-                                                        .06,
-                                                    width:
-                                                        (MediaQuery.of(context)
-                                                                    .size
-                                                                    .height +
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width) /
-                                                            2 *
-                                                            .06),
-                                                Text(
-                                                  discoveryText(),
-                                                  style: TextStyle(
-                                                    color: Colors.white,
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize:
-                                                        (MediaQuery.of(context)
-                                                                    .size
-                                                                    .height +
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width) /
-                                                            2 *
-                                                            .06,
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate("consistency"),
+                                                  child: Row(
+                                                    children: <Widget>[
+                                                      Image(
+                                                          image: AssetImage(
+                                                              consistencyIcon()),
+                                                          height: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .055,
+                                                          width: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .055),
+                                                      Text(
+                                                        consistencyText(),
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontSize: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .06,
+                                                        ),
+                                                      ),
+                                                    ],
                                                   ),
                                                 ),
-                                              ],
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate("radioactivity"),
-                                            child: Row(
-                                              children: <Widget>[
-                                                Image(
-                                                    image: AssetImage(
-                                                        "lib/icons/radioactive_white_500.png"),
-                                                    height: (MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height +
-                                                            MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width) /
-                                                        2 *
-                                                        .05,
-                                                    width:
-                                                        (MediaQuery.of(context)
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate("discovery"),
+                                                  child: Row(
+                                                    children: <Widget>[
+                                                      Image(
+                                                          image: AssetImage(
+                                                              "lib/icons/discovery_white_500.png"),
+                                                          height: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .06,
+                                                          width: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .06),
+                                                      Text(
+                                                        discoveryText(),
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontSize: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .06,
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate(
+                                                          "radioactivity"),
+                                                  child: Row(
+                                                    children: <Widget>[
+                                                      Image(
+                                                          image: AssetImage(
+                                                              "lib/icons/radioactive_white_500.png"),
+                                                          height: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .05,
+                                                          width: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .05),
+                                                      Text(
+                                                        " " +
+                                                            radioactivityString(),
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontSize: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .06,
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                      .7,
+                                                  child: Padding(
+                                                    padding: EdgeInsets.only(
+                                                        top: 3,
+                                                        bottom: (MediaQuery.of(
+                                                                        context)
                                                                     .size
                                                                     .height +
                                                                 MediaQuery.of(
@@ -334,13 +399,84 @@ class cardView extends StatelessWidget {
                                                                     .width) /
                                                             2 *
                                                             .05),
-                                                Text(
-                                                  " " + radioactivityString(),
-                                                  style: TextStyle(
-                                                    color: Colors.white,
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize:
-                                                        (MediaQuery.of(context)
+                                                    child: Text(
+                                                      AppLocalizations.of(
+                                                              context)
+                                                          .translate(
+                                                              'radioactivityInfo'),
+                                                      style: TextStyle(
+                                                        color: Colors.white70,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: (MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .04,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate("type"),
+                                                  child: Text(
+                                                    typeText(),
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontSize: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .06,
+                                                    ),
+                                                  ),
+                                                ),
+                                                Padding(
+                                                  padding: EdgeInsets.only(
+                                                    top: (MediaQuery.of(context)
+                                                                .size
+                                                                .height +
+                                                            MediaQuery.of(
+                                                                    context)
+                                                                .size
+                                                                .width) /
+                                                        2 *
+                                                        .05,
+                                                  ),
+                                                  child: Tooltip(
+                                                    message: AppLocalizations
+                                                            .of(context)
+                                                        .translate(
+                                                            "electronnegativity"),
+                                                    child: Text(
+                                                      AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  "electronnegativityPre") +
+                                                          ": " +
+                                                          Capitalizate(elementList[
+                                                                  index][
+                                                              "electronnegativity"]),
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: (MediaQuery.of(
+                                                                        context)
                                                                     .size
                                                                     .height +
                                                                 MediaQuery.of(
@@ -349,280 +485,210 @@ class cardView extends StatelessWidget {
                                                                     .width) /
                                                             2 *
                                                             .06,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate("block"),
+                                                  child: Text(
+                                                    AppLocalizations.of(context)
+                                                            .translate(
+                                                                "blockPre") +
+                                                        ": " +
+                                                        Capitalizate(
+                                                            elementList[index]
+                                                                ["block"]),
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontSize: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .06,
+                                                    ),
+                                                  ),
+                                                ),
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate("weight"),
+                                                  child: Text(
+                                                    Capitalizate(AppLocalizations
+                                                                .of(context)
+                                                            .translate(
+                                                                "weightPre")) +
+                                                        ": " +
+                                                        Capitalizate(
+                                                            elementList[index]
+                                                                ["weight"]),
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontSize: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .06,
+                                                    ),
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                      .7,
+                                                  child: Padding(
+                                                    padding:
+                                                        EdgeInsets.only(top: 3),
+                                                    child: Text(
+                                                      AppLocalizations.of(
+                                                              context)
+                                                          .translate(
+                                                              'molarmass'),
+                                                      style: TextStyle(
+                                                        color: Colors.white70,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: (MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height +
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width) /
+                                                            2 *
+                                                            .04,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                                Container(
+                                                  child: Padding(
+                                                    padding: EdgeInsets.only(
+                                                      top: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .05,
+                                                    ),
+                                                    child: Tooltip(
+                                                      message: AppLocalizations
+                                                              .of(context)
+                                                          .translate(
+                                                              'protonnumber'),
+                                                      child: Text(
+                                                        AppLocalizations.of(
+                                                                    context)
+                                                                .translate(
+                                                                    'protons') +
+                                                            ': ' +
+                                                            elementList[index][
+                                                                'chargedComponent'],
+                                                        style: TextStyle(
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          color: Colors.white,
+                                                          fontSize: (MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height +
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width) /
+                                                              2 *
+                                                              .06,
+                                                        ),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate(
+                                                          'electronnumber'),
+                                                  child: Text(
+                                                    AppLocalizations.of(context)
+                                                            .translate(
+                                                                'electrons') +
+                                                        ': ' +
+                                                        elementList[index][
+                                                            'chargedComponent'],
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      color: Colors.white,
+                                                      fontSize: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .06,
+                                                    ),
+                                                  ),
+                                                ),
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate(
+                                                          'neutronnumber'),
+                                                  child: Text(
+                                                    AppLocalizations.of(context)
+                                                            .translate(
+                                                                'neutrons') +
+                                                        ': ' +
+                                                        elementList[index]
+                                                            ['neutron'],
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      color: Colors.white,
+                                                      fontSize: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .06,
+                                                    ),
                                                   ),
                                                 ),
                                               ],
                                             ),
                                           ),
-                                          Container(
-                                            width: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
-                                                .7,
-                                            child: Padding(
-                                              padding: EdgeInsets.only(
-                                                  top: 3,
-                                                  bottom: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
-                                                      2 *
-                                                      .05),
-                                              child: Text(
-                                                AppLocalizations.of(context)
-                                                    .translate(
-                                                        'radioactivityInfo'),
-                                                style: TextStyle(
-                                                  color: Colors.white70,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
-                                                      2 *
-                                                      .04,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate("type"),
-                                            child: Text(
-                                              typeText(),
-                                              style: TextStyle(
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: (MediaQuery.of(
-                                                                context)
-                                                            .size
-                                                            .height +
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width) /
-                                                    2 *
-                                                    .06,
-                                              ),
-                                            ),
-                                          ),
-                                          Padding(
-                                            padding: EdgeInsets.only(
-                                              top: (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .05,
-                                            ),
-                                            child: Tooltip(
-                                              message:
-                                                  AppLocalizations.of(context)
-                                                      .translate("electronnegativity"),
-                                              child: Text(
-                                                AppLocalizations.of(context)
-                                                        .translate("electronnegativityPre") +
-                                                    ": " +
-                                                    Capitalizate(
-                                                        elementList[index]
-                                                            ["electronnegativity"]),
-                                                style: TextStyle(
-                                                  color: Colors.white,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
-                                                      2 *
-                                                      .06,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message:
-                                            AppLocalizations.of(context)
-                                                .translate("block"),
-                                            child: Text(
-                                              AppLocalizations.of(context)
-                                                  .translate("blockPre") +
-                                                  ": " +
-                                                  Capitalizate(
-                                                      elementList[index]
-                                                      ["block"]),
-                                              style: TextStyle(
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: (MediaQuery.of(
-                                                    context)
-                                                    .size
-                                                    .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
-                                                    2 *
-                                                    .06,
-                                              ),
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate("weight"),
-                                            child: Text(
-                                              Capitalizate(AppLocalizations.of(
-                                                          context)
-                                                      .translate("weightPre")) +
-                                                  ": " +
-                                                  Capitalizate(
-                                                      elementList[index]
-                                                          ["weight"]),
-                                              style: TextStyle(
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: (MediaQuery.of(
-                                                                context)
-                                                            .size
-                                                            .height +
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width) /
-                                                    2 *
-                                                    .06,
-                                              ),
-                                            ),
-                                          ),
-                                          Container(
-                                            width: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
-                                                .7,
-                                            child: Padding(
-                                              padding: EdgeInsets.only(top: 3),
-                                              child: Text(
-                                                AppLocalizations.of(context)
-                                                    .translate('molarmass'),
-                                                style: TextStyle(
-                                                  color: Colors.white70,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
-                                                      2 *
-                                                      .04,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                          Container(
-                                            child: Padding(
-                                              padding: EdgeInsets.only(
-                                                top: (MediaQuery.of(context)
-                                                            .size
-                                                            .height +
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width) /
-                                                    2 *
-                                                    .05,
-                                              ),
-                                              child: Tooltip(
-                                                message: AppLocalizations.of(
-                                                        context)
-                                                    .translate('protonnumber'),
-                                                child: Text(
-                                                  AppLocalizations.of(context)
-                                                          .translate(
-                                                              'protons') +
-                                                      ': ' +
-                                                      elementList[index]
-                                                          ['chargedComponent'],
-                                                  style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    color: Colors.white,
-                                                    fontSize:
-                                                        (MediaQuery.of(context)
-                                                                    .size
-                                                                    .height +
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width) /
-                                                            2 *
-                                                            .06,
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message: AppLocalizations.of(
-                                                    context)
-                                                .translate('electronnumber'),
-                                            child: Text(
-                                              AppLocalizations.of(context)
-                                                      .translate('electrons') +
-                                                  ': ' +
-                                                  elementList[index]
-                                                      ['chargedComponent'],
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.white,
-                                                fontSize: (MediaQuery.of(
-                                                                context)
-                                                            .size
-                                                            .height +
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width) /
-                                                    2 *
-                                                    .06,
-                                              ),
-                                            ),
-                                          ),
-                                          Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate('neutronnumber'),
-                                            child: Text(
-                                              AppLocalizations.of(context)
-                                                      .translate('neutrons') +
-                                                  ': ' +
-                                                  elementList[index]['neutron'],
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.white,
-                                                fontSize: (MediaQuery.of(
-                                                                context)
-                                                            .size
-                                                            .height +
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width) /
-                                                    2 *
-                                                    .06,
-                                              ),
-                                            ),
-                                          ),
-                                        ],
+                                        ),
                                       ),
                                     ),
-                                  ),
                                 );
                               });
                         });
@@ -644,11 +710,7 @@ class cardView extends StatelessWidget {
                               "lib/backgrounds/" + elementList[index]["bg"]),
                           fit: BoxFit.cover,
                         ),
-                        borderRadius: new BorderRadius.circular(
-                            (MediaQuery.of(context).size.height +
-                                    MediaQuery.of(context).size.width) /
-                                2 *
-                                .03)),
+                        borderRadius: new BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04)),
                     height: (MediaQuery.of(context).size.height +
                             MediaQuery.of(context).size.width) /
                         2 *
@@ -666,7 +728,7 @@ class cardView extends StatelessWidget {
                         new Align(
                           alignment: Alignment.topLeft,
                           child: new Padding(
-                            padding: EdgeInsets.only(top: 20, left: 30),
+                            padding: EdgeInsets.only(top: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02, left: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04),
                             child: new Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
@@ -688,7 +750,7 @@ class cardView extends StatelessWidget {
                                                 .height +
                                             MediaQuery.of(context).size.width) /
                                         2 *
-                                        .08,
+                                        .1,
                                   ),
                                 ),
                               ],
@@ -698,7 +760,7 @@ class cardView extends StatelessWidget {
                         Expanded(
                           flex: 10,
                           child: new Padding(
-                            padding: EdgeInsets.only(bottom: 20, left: 30),
+                            padding: EdgeInsets.only(bottom: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04, left: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04),
                             child: new Align(
                               alignment: Alignment.bottomLeft,
                               child: RichText(

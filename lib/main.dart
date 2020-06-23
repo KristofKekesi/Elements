@@ -39,6 +39,7 @@ class _MyAppState extends State<MyApp> {
 
         return supportedLocales.first;
       },
+      debugShowCheckedModeBanner: false,
       title: 'Elements',
       theme: ThemeData(
         brightness: Brightness.light,
