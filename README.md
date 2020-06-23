@@ -18,14 +18,14 @@
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2016-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day16a.png" height=400px>
+  <img src="img/day17a.png" height=400px>
 </td><td>
   <img src="img/day14d.png" height=400px>
 </td></tr>
  <tr><td>
   <img src="img/day12a.png" height=400px>
  </td><td>
-  <img src="img/day14a.png" height=400px>
+  <img src="img/day17b.png" height=400px>
  </td></tr>
 </table>
 

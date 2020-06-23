@@ -92,8 +92,8 @@ class _landingState extends State<landing> {
                       context: context,
                       builder: (context) {
                         return DraggableScrollableSheet(
-                          initialChildSize: .85,
-                          maxChildSize: .85,
+                          initialChildSize: .82,
+                          maxChildSize: .82,
                           builder: (BuildContext context, scrollController) {
                             return SingleChildScrollView(
                               controller: scrollController,
@@ -124,7 +124,7 @@ class _landingState extends State<landing> {
                                         children: <Widget>[
                                           Padding(
                                             padding: EdgeInsets.only(
-                                                top: 30, bottom: 70),
+                                                top: 30, bottom: 30),
                                             child: Text(
                                               AppLocalizations.of(context)
                                                       .translate(

@@ -739,7 +739,7 @@ class cardView extends StatelessWidget {
                                     shadows: <Shadow>[
                                       Shadow(
                                         offset: Offset(2.0, 2.0),
-                                        blurRadius: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .00001,
+                                        blurRadius: 8.0,
                                         color: Color.fromARGB(255, 0, 0, 0),
                                       ),
                                     ],
