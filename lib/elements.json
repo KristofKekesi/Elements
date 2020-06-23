@@ -1604,12 +1604,159 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "21.028040",
+			"rate": "0",
+			"halfRate": "35 ns",
 
-			"hu": "Alumínium-",
-			"en": "Aluminium-"
+			"hu": "Alumínium-21",
+			"en": "Aluminium-21"
+		}, {
+			"weight": "22.019520",
+			"rate": "0",
+			"halfRate": "59 ms",
+
+			"hu": "Alumínium-22",
+			"en": "Aluminium-22"
+		}, {
+			"weight": "23.007267432",
+			"rate": "0",
+			"halfRate": "470 ms",
+
+			"hu": "Alumínium-23",
+			"en": "Aluminium-23"
+		}, {
+			"weight": "23.999938865",
+			"rate": "0",
+			"halfRate": "2.053 s",
+
+			"hu": "Alumínium-24",
+			"en": "Aluminium-24"
+		}, {
+			"weight": "24.990428095",
+			"rate": "0",
+			"halfRate": "7.183 s",
+
+			"hu": "Alumínium-25",
+			"en": "Aluminium-25"
+		}, {
+			"weight": "25.986891692",
+			"rate": "0",
+			"halfRate": "716000 y",
+
+			"hu": "Alumínium-26",
+			"en": "Aluminium-26"
+		}, {
+			"weight": "26.981538627",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Alumínium-27",
+			"en": "Aluminium-27"
+		}, {
+			"weight": "27.981910306",
+			"rate": "0",
+			"halfRate": "2.2413 min",
+
+			"hu": "Alumínium-28",
+			"en": "Aluminium-28"
+		}, {
+			"weight": "28.980445046",
+			"rate": "0",
+			"halfRate": "6.57 min",
+
+			"hu": "Alumínium-29",
+			"en": "Aluminium-29"
+		}, {
+			"weight": "29.982960256",
+			"rate": "0",
+			"halfRate": "3.6 s",
+
+			"hu": "Alumínium-30",
+			"en": "Aluminium-30"
+		}, {
+			"weight": "30.983946619",
+			"rate": "0",
+			"halfRate": "644 ms",
+
+			"hu": "Alumínium-31",
+			"en": "Aluminium-31"
+		}, {
+			"weight": "31.988124489",
+			"rate": "0",
+			"halfRate": "31.7 ms",
+
+			"hu": "Alumínium-32",
+			"en": "Aluminium-32"
+		}, {
+			"weight": "32.990843336",
+			"rate": "0",
+			"halfRate": "41.7 ms",
+
+			"hu": "Alumínium-33",
+			"en": "Aluminium-33"
+		}, {
+			"weight": "33.996851837",
+			"rate": "0",
+			"halfRate": "56.3 ms",
+
+			"hu": "Alumínium-34",
+			"en": "Aluminium-34"
+		}, {
+			"weight": "34.999860235",
+			"rate": "0",
+			"halfRate": "38.6 ms",
+
+			"hu": "Alumínium-35",
+			"en": "Aluminium-35"
+		}, {
+			"weight": "36.006207204",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Alumínium-36",
+			"en": "Aluminium-36"
+		}, {
+			"weight": "37.01067782",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Alumínium-37",
+			"en": "Aluminium-37"
+		}, {
+			"weight": "38.017231021",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Alumínium-38",
+			"en": "Aluminium-38"
+		}, {
+			"weight": "39.02297",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Alumínium-39",
+			"en": "Aluminium-39"
+		}, {
+			"weight": "40.031450",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Alumínium-40",
+			"en": "Aluminium-40"
+		}, {
+			"weight": "41.038330",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Alumínium-41",
+			"en": "Aluminium-41"
+		}, {
+			"weight": "42.046890",
+			"rate": "0",
+			"halfRate": "1ms",
+
+			"hu": "Alumínium-42",
+			"en": "Aluminium-42"
 		}
 	]
   }, {
@@ -1638,12 +1785,166 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "22.034530",
+			"rate": "0",
+			"halfRate": "29 ms",
 
-			"hu": "Szilícium-",
-			"en": "Silicon-"
+			"hu": "Szilícium-22",
+			"en": "Silicon-22"
+		}, {
+			"weight": "23.025520",
+			"rate": "0",
+			"halfRate": "42.3 ms",
+
+			"hu": "Szilícium-23",
+			"en": "Silicon-23"
+		}, {
+			"weight": "24.011545616",
+			"rate": "0",
+			"halfRate": "140 ms",
+
+			"hu": "Szilícium-24",
+			"en": "Silicon-24"
+		}, {
+			"weight": "25.004105574",
+			"rate": "0",
+			"halfRate": "220 ms",
+
+			"hu": "Szilícium-25",
+			"en": "Silicon-25"
+		}, {
+			"weight": "25.992329921",
+			"rate": "0",
+			"halfRate": "2.234 s",
+
+			"hu": "Szilícium-26",
+			"en": "Silicon-26
+		}, {
+			"weight": "26.986704905",
+			"rate": "0",
+			"halfRate": "4.16 s",
+
+			"hu": "Szilícium-27",
+			"en": "Silicon-27"
+		}, {
+			"weight": "27.97692653246",
+			"rate": "92.2297",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-28",
+			"en": "Silicon-28"
+		}, {
+			"weight": "28.9764947",
+			"rate": "4.6832",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-29",
+			"en": "Silicon-29"
+		}, {
+			"weight": "29.973770171",
+			"rate": "3.0872",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-30",
+			"en": "Silicon-30"
+		}, {
+			"weight": "30.975363226999998",
+			"rate": "0",
+			"halfRate": "2.622 h",
+
+			"hu": "Szilícium-31",
+			"en": "Silicon-31"
+		}, {
+			"weight": "31.974148082",
+			"rate": "0",
+			"halfRate": "132 y",
+
+			"hu": "Szilícium-32",
+			"en": "Silicon-32"
+		}, {
+			"weight": "32.97800022",
+			"rate": "0",
+			"halfRate": "6.18 s",
+
+			"hu": "Szilícium-33",
+			"en": "Silicon-33"
+		}, {
+			"weight": "33.978575524",
+			"rate": "0",
+			"halfRate": "2.77 s",
+
+			"hu": "Szilícium-34",
+			"en": "Silicon-34"
+		}, {
+			"weight": "34.984583575",
+			"rate": "0",
+			"halfRate": "780 ms",
+
+			"hu": "Szilícium-35",
+			"en": "Silicon-35"
+		}, {
+			"weight": "35.986599477",
+			"rate": "0",
+			"halfRate": "450 ms",
+
+			"hu": "Szilícium-36",
+			"en": "Silicon-36"
+		}, {
+			"weight": "36.99293608",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-37",
+			"en": "Silicon-37"
+		}, {
+			"weight": "37.995633601",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-38",
+			"en": "Silicon-38"
+		}, {
+			"weight": "39.002070013",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-39",
+			"en": "Silicon-39"
+		}, {
+			"weight": "40.005869121",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Szilícium-40",
+			"en": "Silicon-40"
+		}, {
+			"weight": "41.01456",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Szilícium-41",
+			"en": "Silicon-41"
+		}, {
+			"weight": "42.019790",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Szilícium-42",
+			"en": "Silicon-42"
+		}, {
+			"weight": "43.028660",
+			"rate": "0",
+			"halfRate": "15 ms",
+
+			"hu": "Szilícium-43",
+			"en": "Silicon-43"
+		}, {
+			"weight": "44.035260",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Szilícium-44",
+			"en": "Silicon-44"
 		}
 	]
   }, {
