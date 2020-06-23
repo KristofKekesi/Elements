@@ -16,7 +16,7 @@
  - Elements.json improvements
  - Improved popup with electronnegativity
 
-## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2016-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2017-brown.svg" alt="">
 <table><tr><td>
   <img src="img/day17a.png" height=400px>
 </td><td>
