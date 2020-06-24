@@ -14,6 +14,7 @@
  ## Latest Features <img src="https://img.shields.io/badge/Day%2017-brown.svg" alt="">
  - Popup redesign
  - Improved on big screens
+ - Added isottopes of Al and Si
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2017-brown.svg" alt="">
 <table><tr><td>
