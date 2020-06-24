@@ -11,12 +11,11 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Features <img src="https://img.shields.io/badge/Day%2017-brown.svg" alt="">
- - Popup redesign
- - Improved on big screens
- - Added isottopes of Al and Si
+ ## Latest Features <img src="https://img.shields.io/badge/Day%2018-brown.svg" alt="">
+ - Improved lnading screen
+ - Added isottopes of Al Si and P
 
-## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2017-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2017%20and%2018-brown.svg" alt="">
 <table><tr><td>
   <img src="img/day17a.png" height=400px>
 </td><td>
@@ -26,6 +25,11 @@
   <img src="img/day12a.png" height=400px>
  </td><td>
   <img src="img/day17b.png" height=400px>
+ </td></tr>
+  <tr><td>
+  <img src="img/day18a.png" height=400px>
+ </td><td>
+  <img src="img/day18b.png" height=400px>
  </td></tr>
 </table>
 
