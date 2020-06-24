@@ -2,10 +2,21 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_chem/widgets/drawer.dart';
 
 import 'package:flutter_chem/widgets/localization.dart';
 import 'package:flutter_chem/widgets/resultWindow.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
+
+bool cb1 = true;
+bool cb2 = true;
+bool cb3 = true;
+bool cb4 = true;
+bool cb5 = true;
+bool cb6 = true;
+bool cb7 = true;
+bool cb8 = true;
+bool cb9 = true;
 
 // ignore: camel_case_types
 class landing extends StatefulWidget {
@@ -286,7 +297,6 @@ class _landingState extends State<landing> {
                           initialChildSize: .9,
                           maxChildSize: 1,
                           builder: (BuildContext context, scrollController) {
-                            bool _cb1 = true;
 
                             return SingleChildScrollView(
                               controller: scrollController,
@@ -317,7 +327,7 @@ class _landingState extends State<landing> {
                                         children: <Widget>[
                                           Padding(
                                             padding: EdgeInsets.only(
-                                                top: 30, bottom: 70),
+                                                top: 30, bottom: 30),
                                             child: Text(
                                               AppLocalizations.of(context)
                                                       .translate('types') +
@@ -337,16 +347,151 @@ class _landingState extends State<landing> {
                                               ),
                                             ),
                                           ),
-                                          CheckboxListTile(
-                                            title: Text('Type 1'),
-                                            controlAffinity:
+                                          StatefulBuilder(
+                                          builder: (BuildContext context, StateSetter setState) {
+                                            return CheckboxListTile(
+                                              title: Text(Capitalizate(AppLocalizations.of(context).translate('otherNonmetals'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                              controlAffinity:
+                                              ListTileControlAffinity
+                                                  .platform,
+                                              value: cb1,
+                                              onChanged: (bool value) {
+                                                setState(() {
+                                                  cb1 = value;
+                                                  print(value);
+                                                },);
+                                              },
+                                            );
+                                          },
+                                          ),StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('nobleGases'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
                                                 ListTileControlAffinity
                                                     .platform,
-                                            value: _cb1,
-                                            onChanged: (bool value) {
-                                              setState(() {
-                                                _cb1 = value;
-                                              });
+                                                value: cb2,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb2 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
+                                            },
+                                          ),StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('alkaliMetals'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                                value: cb3,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb3 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
+                                            },
+                                          ),StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('alkaliEarthMetals'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                                value: cb4,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb4 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
+                                            },
+                                          ),StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('metalloids'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                                value: cb5,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb5 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
+                                            },
+                                          ),StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('post-transitionMetals'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                                value: cb6,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb6 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
+                                            },
+                                          ),StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('transitionMetals'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                                value: cb7,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb7 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
+                                            },
+                                          ),
+                                          StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('lanthanoids'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                                value: cb8,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb8 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
+                                            },
+                                          ),
+                                          StatefulBuilder(
+                                            builder: (BuildContext context, StateSetter setState) {
+                                              return CheckboxListTile(
+                                                title: Text(Capitalizate(AppLocalizations.of(context).translate('actinoids'),), style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: (MediaQuery.of(context).size.width + MediaQuery.of(context).size.height) / 2 * .05),),
+                                                controlAffinity:
+                                                ListTileControlAffinity
+                                                    .platform,
+                                                value: cb9,
+                                                onChanged: (bool value) {
+                                                  setState(() {
+                                                    cb9 = value;
+                                                    print(value);
+                                                  },);
+                                                },
+                                              );
                                             },
                                           ),
                                         ],

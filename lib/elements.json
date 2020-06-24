@@ -80,11 +80,12 @@
   }, {
 	"element": "He",
 	"number": 2,
+
+	"consistency": "gas",
+	"discovery": "1868",
 	"weight": "4.0026",
 	"type": "nobleGas",
 	"block": "s",
-	"consistency": "gas",
-	"discovery": "1868",
 	"electronnegativity": "",
 
 	"radioactivity": "stable",
@@ -1818,7 +1819,7 @@
 			"halfRate": "2.234 s",
 
 			"hu": "Szilícium-26",
-			"en": "Silicon-26
+			"en": "Silicon-26"
 		}, {
 			"weight": "26.986704905",
 			"rate": "0",
@@ -2003,7 +2004,7 @@
 		}, {
 			"weight": "27.992314761",
 			"rate": "0",
-			"halfRate": 270.3 ms",
+			"halfRate": "270.3 ms",
 
 			"hu": "Foszfor-28",
 			"en": "Phosphorus-28"
