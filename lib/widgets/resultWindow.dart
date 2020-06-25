@@ -7,6 +7,23 @@ import 'cardView.dart';
 
 // ignore: camel_case_types
 class searchResults extends StatelessWidget {
+  final bool cb1;
+  final bool cb2;
+  final bool cb3;
+  final bool cb4;
+  final bool cb5;
+  final bool cb6;
+  final bool cb7;
+  final bool cb8;
+  final bool cb9;
+  final bool cb0;
+
+  final double en1;
+  final double en2;
+  final bool en3;
+
+  const searchResults({Key key, this.cb1, this.cb2, this.cb3, this.cb4, this.cb5, this.cb6, this.cb7, this.cb8, this.cb9, this.cb0, this.en1, this.en2, this.en3}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -59,7 +76,7 @@ class searchResults extends StatelessWidget {
                 ),
               ),
             ),
-            cardView(),
+            cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
             //minimalView(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

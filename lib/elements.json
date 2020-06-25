@@ -86,7 +86,7 @@
 	"weight": "4.0026",
 	"type": "nobleGas",
 	"block": "s",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "stable",
 	"gamma": false,
@@ -1079,7 +1079,7 @@
 	"block": "p",
 	"consistency": "gas",
 	"discovery": "1898",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "stable",
 	"gamma": false,
@@ -2212,7 +2212,7 @@
 	"block": "p",
 	"consistency": "gas",
 	"discovery": "1894",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "stable",
 	"gamma": false,
@@ -5137,7 +5137,7 @@
 	"block": "d",
 	"consistency": "solid",
 	"discovery": "1966",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5171,7 +5171,7 @@
 	"block": "d",
 	"consistency": "solid",
 	"discovery": "1967",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5205,7 +5205,7 @@
 	"block": "d",
 	"consistency": "solid",
 	"discovery": "1974",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5239,7 +5239,7 @@
 	"block": "d",
 	"consistency": "solid",
 	"discovery": "1976",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5273,7 +5273,7 @@
 	"block": "d",
 	"consistency": "solid",
 	"discovery": "1984",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5307,7 +5307,7 @@
 	"block": "d",
 	"consistency": "unknown",
 	"discovery": "1982",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5341,7 +5341,7 @@
 	"block": "d",
 	"consistency": "solid",
 	"discovery": "1994",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5375,7 +5375,7 @@
 	"block": "d",
 	"consistency": "unknown",
 	"discovery": "1994",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5409,7 +5409,7 @@
 	"block": "d",
 	"consistency": "solid",
 	"discovery": "1996",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5443,7 +5443,7 @@
 	"block": "p",
 	"consistency": "unknown",
 	"discovery": "2004",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5477,7 +5477,7 @@
 	"block": "p",
 	"consistency": "solid",
 	"discovery": "1999",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5511,7 +5511,7 @@
 	"block": "p",
 	"consistency": "unknown",
 	"discovery": "2004",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5545,7 +5545,7 @@
 	"block": "p",
 	"consistency": "unknown",
 	"discovery": "2001",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5579,7 +5579,7 @@
 	"block": "p",
 	"consistency": "unknown",
 	"discovery": "2010",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,
@@ -5613,7 +5613,7 @@
 	"block": "p",
 	"consistency": "unknown",
 	"discovery": "2006",
-	"electronnegativity": "",
+	"electronnegativity": "unknown",
 
 	"radioactivity": "radioactive",
 	"gamma": false,

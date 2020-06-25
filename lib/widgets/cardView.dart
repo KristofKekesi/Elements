@@ -7,123 +7,192 @@ import 'package:flutter_chem/widgets/localization.dart';
 
 // ignore: camel_case_types
 class cardView extends StatelessWidget {
+  final bool cb1;
+  final bool cb2;
+  final bool cb3;
+  final bool cb4;
+  final bool cb5;
+  final bool cb6;
+  final bool cb7;
+  final bool cb8;
+  final bool cb9;
+  final bool cb0;
+
+  final double en1;
+  final double en2;
+  final bool en3;
+
+  const cardView({
+    Key key,
+    this.cb1,
+    this.cb2,
+    this.cb3,
+    this.cb4,
+    this.cb5,
+    this.cb6,
+    this.cb7,
+    this.cb8,
+    this.cb9,
+    this.cb0,
+    this.en1,
+    this.en2,
+    this.en3,
+  }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Expanded(
       child: new FutureBuilder(
+        // ignore: missing_return
         builder: (context, snapshot) {
           var elementList = json.decode(snapshot.data.toString());
-          return new Tooltip(
-            message: AppLocalizations.of(context).translate("moreAboutElement"),
-            child: new ListView.builder(
-              shrinkWrap: true,
-              itemCount: elementList.length,
-              scrollDirection: Axis.horizontal,
-              cacheExtent: 100.0,
-              itemBuilder: (BuildContext context, int index) {
-                return GestureDetector(
-                  onTap: () {
-                    // ignore: non_constant_identifier_names
-                    String Capitalizate(input) {
-                      return input[0].toUpperCase() + input.substring(1);
-                    }
-
-                    String consistencyIcon() {
-                      if (elementList[index]["consistency"] == "gas") {
-                        return "lib/icons/gas_white_500.png";
-                      } else if (elementList[index]["consistency"] == "fluid") {
-                        return "lib/icons/fluid_white_500.png";
-                      } else if (elementList[index]["consistency"] == "solid") {
-                        return "lib/icons/solid_white_500.png";
-                      } else {
-                        return "lib/icons/questionmark_white_500.png";
+          final listElements = <Widget>[];
+          for (var index = 0; index < elementList.length; index++) {
+            if (en3 == true &&
+                    elementList[index]['electronnegativity'] == 'unknown' ||
+                elementList[index]['electronnegativity'] != 'unknown' &&
+                en1 <=
+                    num.parse(elementList[index]['electronnegativity']) &&
+                    en2 >=
+                        num.parse(elementList[index]['electronnegativity'])) {
+              if (cb1 == true &&
+                      elementList[index]['type'] == 'otherNonmetal' ||
+                  cb2 == true && elementList[index]['type'] == 'nobleGas' ||
+                  cb3 == true && elementList[index]['type'] == 'alkaliMetal' ||
+                  cb4 == true &&
+                      elementList[index]['type'] == 'alkaliEarthMetal' ||
+                  cb5 == true && elementList[index]['type'] == 'metalloid' ||
+                  cb6 == true &&
+                      elementList[index]['type'] == 'post-transitionMetal' ||
+                  cb7 == true &&
+                      elementList[index]['type'] == 'transitionMetal' ||
+                  cb8 == true && elementList[index]['type'] == 'lanthanoid' ||
+                  cb9 == true && elementList[index]['type'] == 'actinoid' ||
+                  cb0 == true && elementList[index]['type'] == 'unknown') {
+                listElements.add(
+                  new GestureDetector(
+                    onTap: () {
+                      // ignore: non_constant_identifier_names
+                      String Capitalizate(input) {
+                        return input[0].toUpperCase() + input.substring(1);
                       }
-                    }
 
-                    String consistencyText() {
-                      if (elementList[index]["consistency"] == "gas") {
-                        return " " +
-                            Capitalizate(
-                                AppLocalizations.of(context).translate("gas"));
-                      } else if (elementList[index]["consistency"] == "fluid") {
-                        return " " +
-                            Capitalizate(AppLocalizations.of(context)
-                                .translate("fluid"));
-                      } else if (elementList[index]["consistency"] == "solid") {
-                        return " " +
-                            Capitalizate(AppLocalizations.of(context)
-                                .translate("solid"));
-                      } else {
-                        return " " +
-                            Capitalizate(AppLocalizations.of(context)
-                                .translate("unknown"));
-                      }
-                    }
-
-                    String discoveryText() {
-                      if (elementList[index]["discovery"] == "ancient") {
-                        return ' ' +
-                            Capitalizate(AppLocalizations.of(context)
-                                .translate("ancient"));
-                      } else {
-                        return ' ' + elementList[index]["discovery"];
-                      }
-                    }
-
-                    String radioactivityString() {
-                      if (elementList[index]["radioactivity"] == "stable") {
-                        return " " +
-                            Capitalizate(AppLocalizations.of(context)
-                                .translate("stable"));
-                      } else {
-                        String list = " ";
-                        if (elementList[index]["gamma"] == true) {
-                          list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("gamma")) +
-                              " ";
-                        } else if (elementList[index]["beta"] == true) {
-                          list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("beta")) +
-                              " ";
-                        } else if (elementList[index]["alpha"] == true) {
-                          list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("alpha")) +
-                              " ";
-                        } else if (elementList[index]
-                                ["multipleRadiationEmitters"] ==
-                            true) {
-                          list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("multipleRadiationEmitters") +
-                              " ");
+                      String consistencyIcon() {
+                        if (elementList[index]["consistency"] == "gas") {
+                          return "lib/icons/gas_white_500.png";
+                        } else if (elementList[index]["consistency"] ==
+                            "fluid") {
+                          return "lib/icons/fluid_white_500.png";
+                        } else if (elementList[index]["consistency"] ==
+                            "solid") {
+                          return "lib/icons/solid_white_500.png";
                         } else {
-                          list = " " +
-                              Capitalizate(AppLocalizations.of(context)
-                                  .translate("radioactive"));
+                          return "lib/icons/questionmark_white_500.png";
                         }
-                        return list;
                       }
-                    }
 
-                    String typeText() {
-                      return Capitalizate(AppLocalizations.of(context)
-                          .translate(elementList[index]["type"]));
-                    }
+                      String consistencyText() {
+                        if (elementList[index]["consistency"] == "gas") {
+                          return " " +
+                              Capitalizate(AppLocalizations.of(context)
+                                  .translate("gas"));
+                        } else if (elementList[index]["consistency"] ==
+                            "fluid") {
+                          return " " +
+                              Capitalizate(AppLocalizations.of(context)
+                                  .translate("fluid"));
+                        } else if (elementList[index]["consistency"] ==
+                            "solid") {
+                          return " " +
+                              Capitalizate(AppLocalizations.of(context)
+                                  .translate("solid"));
+                        } else {
+                          return " " +
+                              Capitalizate(AppLocalizations.of(context)
+                                  .translate("unknown"));
+                        }
+                      }
 
-                    showModalBottomSheet(
-                        isScrollControlled: true,
-                        context: context,
-                        builder: (context) {
-                          return DraggableScrollableSheet(
-                              initialChildSize: .56,
-                              maxChildSize: 1,
-                              builder:
-                                  (BuildContext context, ScrollController scrollController) {
-                                return SingleChildScrollView(
+                      String discoveryText() {
+                        if (elementList[index]["discovery"] == "ancient") {
+                          return ' ' +
+                              Capitalizate(AppLocalizations.of(context)
+                                  .translate("ancient"));
+                        } else {
+                          return ' ' + elementList[index]["discovery"];
+                        }
+                      }
+
+                      String radioactivityString() {
+                        if (elementList[index]["radioactivity"] == "stable") {
+                          return " " +
+                              Capitalizate(AppLocalizations.of(context)
+                                  .translate("stable"));
+                        } else {
+                          String list = " ";
+                          if (elementList[index]["gamma"] == true) {
+                            list += Capitalizate(AppLocalizations.of(context)
+                                    .translate("gamma")) +
+                                " ";
+                          } else if (elementList[index]["beta"] == true) {
+                            list += Capitalizate(AppLocalizations.of(context)
+                                    .translate("beta")) +
+                                " ";
+                          } else if (elementList[index]["alpha"] == true) {
+                            list += Capitalizate(AppLocalizations.of(context)
+                                    .translate("alpha")) +
+                                " ";
+                          } else if (elementList[index]
+                                  ["multipleRadiationEmitters"] ==
+                              true) {
+                            list += Capitalizate(AppLocalizations.of(context)
+                                    .translate("multipleRadiationEmitters") +
+                                " ");
+                          } else {
+                            list = " " +
+                                Capitalizate(AppLocalizations.of(context)
+                                    .translate("radioactive"));
+                          }
+                          return list;
+                        }
+                      }
+
+                      String typeText() {
+                        return Capitalizate(AppLocalizations.of(context)
+                            .translate(elementList[index]["type"]));
+                      }
+
+                      showModalBottomSheet(
+                          isScrollControlled: true,
+                          context: context,
+                          builder: (context) {
+                            return DraggableScrollableSheet(
+                                initialChildSize: .56,
+                                maxChildSize: 1,
+                                builder: (BuildContext context,
+                                    ScrollController scrollController) {
+                                  return SingleChildScrollView(
                                     controller: scrollController,
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.only(
-                                          topLeft: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1),
-                                          topRight: Radius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .1)),
+                                          topLeft: Radius.circular(
+                                              (MediaQuery.of(context)
+                                                          .size
+                                                          .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
+                                                  2 *
+                                                  .1),
+                                          topRight: Radius.circular(
+                                              (MediaQuery.of(context)
+                                                          .size
+                                                          .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
+                                                  2 *
+                                                  .1)),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery.of(context)
@@ -161,30 +230,30 @@ class cardView extends StatelessWidget {
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
                                               children: <Widget>[
-                                                  Tooltip(
-                                                    message: AppLocalizations
-                                                            .of(context)
-                                                        .translate("symbol"),
-                                                    child: Text(
-                                                      elementList[index]
-                                                          ["element"],
-                                                      style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                        color: Colors.white,
-                                                        fontSize: (MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height +
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width) /
-                                                            2 *
-                                                            .10,
-                                                      ),
+                                                Tooltip(
+                                                  message: AppLocalizations.of(
+                                                          context)
+                                                      .translate("symbol"),
+                                                  child: Text(
+                                                    elementList[index]
+                                                        ["element"],
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      color: Colors.white,
+                                                      fontSize: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .10,
                                                     ),
                                                   ),
+                                                ),
                                                 Padding(
                                                   padding: EdgeInsets.only(
                                                     bottom:
@@ -689,137 +758,169 @@ class cardView extends StatelessWidget {
                                         ),
                                       ),
                                     ),
-                                );
-                              });
-                        });
-                  },
-                  child: Container(
-                    margin: EdgeInsets.only(
-                        left: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .05,
-                        right: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .05,
-                        bottom: 40),
-                    decoration: new BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage(
-                              "lib/backgrounds/" + elementList[index]["bg"]),
-                          fit: BoxFit.cover,
-                        ),
-                        borderRadius: new BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04)),
-                    height: (MediaQuery.of(context).size.height +
-                            MediaQuery.of(context).size.width) /
-                        2 *
-                        .8,
-                    width: (MediaQuery.of(context).size.width +
-                            MediaQuery.of(context).size.height) /
-                        2 *
-                        .55,
-                    child: new Column(
-                      //crossAxisAlignment: CrossAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        new Align(
-                          alignment: Alignment.topLeft,
-                          child: new Padding(
-                            padding: EdgeInsets.only(top: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02, left: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04),
-                            child: new Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                                new Text(
-                                  elementList[index]["number"].toString(),
-                                  textAlign: TextAlign.left,
-                                  style: new TextStyle(
-                                    shadows: <Shadow>[
-                                      Shadow(
-                                        offset: Offset(2.0, 2.0),
-                                        blurRadius: 8.0,
-                                        color: Color.fromARGB(255, 0, 0, 0),
-                                      ),
-                                    ],
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                            MediaQuery.of(context).size.width) /
-                                        2 *
-                                        .1,
-                                  ),
-                                ),
-                              ],
-                            ),
+                                  );
+                                });
+                          });
+                    },
+                    child: Container(
+                      margin: EdgeInsets.only(
+                          left: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .05,
+                          right: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .05,
+                          bottom: 40),
+                      decoration: new BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(
+                                "lib/backgrounds/" + elementList[index]["bg"]),
+                            fit: BoxFit.cover,
                           ),
-                        ),
-                        Expanded(
-                          flex: 10,
-                          child: new Padding(
-                            padding: EdgeInsets.only(bottom: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04, left: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04),
-                            child: new Align(
-                              alignment: Alignment.bottomLeft,
-                              child: RichText(
-                                text: TextSpan(
-                                  style: new TextStyle(
-                                    shadows: <Shadow>[
-                                      Shadow(
-                                        offset: Offset(2.0, 2.0),
-                                        blurRadius: 8.0,
-                                        color: Color.fromARGB(255, 0, 0, 0),
-                                      ),
-                                    ],
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                            MediaQuery.of(context).size.width) /
-                                        2 *
-                                        .06,
-                                  ),
-                                  children: <TextSpan>[
-                                    TextSpan(
-                                        text: elementList[index]["element"],
-                                        style: TextStyle(
-                                          shadows: <Shadow>[
-                                            Shadow(
-                                              offset: Offset(2.0, 2.0),
-                                              blurRadius: 8.0,
-                                              color:
-                                                  Color.fromARGB(255, 0, 0, 0),
-                                            ),
-                                          ],
-                                          fontSize: (MediaQuery.of(context)
-                                                      .size
-                                                      .height +
+                          borderRadius: new BorderRadius.circular(
+                              (MediaQuery.of(context).size.height +
+                                      MediaQuery.of(context).size.width) /
+                                  2 *
+                                  .04)),
+                      height: (MediaQuery.of(context).size.height +
+                              MediaQuery.of(context).size.width) /
+                          2 *
+                          .8,
+                      width: (MediaQuery.of(context).size.width +
+                              MediaQuery.of(context).size.height) /
+                          2 *
+                          .55,
+                      child: new Column(
+                        //crossAxisAlignment: CrossAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          new Align(
+                            alignment: Alignment.topLeft,
+                            child: new Padding(
+                              padding: EdgeInsets.only(
+                                  top: (MediaQuery.of(context).size.height +
+                                          MediaQuery.of(context).size.width) /
+                                      2 *
+                                      .02,
+                                  left: (MediaQuery.of(context).size.height +
+                                          MediaQuery.of(context).size.width) /
+                                      2 *
+                                      .04),
+                              child: new Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: <Widget>[
+                                  new Text(
+                                    elementList[index]["number"].toString(),
+                                    textAlign: TextAlign.left,
+                                    style: new TextStyle(
+                                      shadows: <Shadow>[
+                                        Shadow(
+                                          offset: Offset(2.0, 2.0),
+                                          blurRadius: 8.0,
+                                          color: Color.fromARGB(255, 0, 0, 0),
+                                        ),
+                                      ],
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize:
+                                          (MediaQuery.of(context).size.height +
                                                   MediaQuery.of(context)
                                                       .size
                                                       .width) /
                                               2 *
                                               .1,
-                                        )),
-                                    TextSpan(text: "\n"),
-                                    TextSpan(
-                                      text: elementList[index][
-                                          AppLocalizations.of(context)
-                                              .translate("key")],
                                     ),
-                                  ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 10,
+                            child: new Padding(
+                              padding: EdgeInsets.only(
+                                  bottom: (MediaQuery.of(context).size.height +
+                                          MediaQuery.of(context).size.width) /
+                                      2 *
+                                      .04,
+                                  left: (MediaQuery.of(context).size.height +
+                                          MediaQuery.of(context).size.width) /
+                                      2 *
+                                      .04),
+                              child: new Align(
+                                alignment: Alignment.bottomLeft,
+                                child: RichText(
+                                  text: TextSpan(
+                                    style: new TextStyle(
+                                      shadows: <Shadow>[
+                                        Shadow(
+                                          offset: Offset(2.0, 2.0),
+                                          blurRadius: 8.0,
+                                          color: Color.fromARGB(255, 0, 0, 0),
+                                        ),
+                                      ],
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize:
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .06,
+                                    ),
+                                    children: <TextSpan>[
+                                      TextSpan(
+                                          text: elementList[index]["element"],
+                                          style: TextStyle(
+                                            shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(2.0, 2.0),
+                                                blurRadius: 8.0,
+                                                color: Color.fromARGB(
+                                                    255, 0, 0, 0),
+                                              ),
+                                            ],
+                                            fontSize: (MediaQuery.of(context)
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
+                                                2 *
+                                                .1,
+                                          )),
+                                      TextSpan(text: "\n"),
+                                      TextSpan(
+                                        text: elementList[index][
+                                            AppLocalizations.of(context)
+                                                .translate("key")],
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 );
-              },
+              }
+            }
+          }
+
+          return new Tooltip(
+            message: AppLocalizations.of(context).translate("moreAboutElement"),
+            child: new ListView(
+              shrinkWrap: true,
+              scrollDirection: Axis.horizontal,
+              children: listElements,
             ),
           );
         },
