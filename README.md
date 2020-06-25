@@ -11,9 +11,10 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Features <img src="https://img.shields.io/badge/Day%2018-brown.svg" alt="">
- - Improved lnading screen
- - Added isottopes of Al Si and P
+ ## Latest Features <img src="https://img.shields.io/badge/Day%2019-brown.svg" alt="">
+ - Improved landing screen
+ - Added selector back end
+ - Improved hungarian and english
 
 ## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2017%20and%2018-brown.svg" alt="">
 <table><tr><td>
