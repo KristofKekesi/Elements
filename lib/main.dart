@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_chem/widgets/landing.dart';
+import 'package:flutter_chem/widgets/build.dart';
 
 void main() => runApp(MyApp());
 
@@ -65,6 +66,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.white, drawer: customDrawer(),  body: landing());
+    return Splash();
   }
 }

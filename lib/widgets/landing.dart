@@ -73,7 +73,7 @@ class _landingState extends State<landing> {
                     ),
                   ),
                   Text(
-                    ' ' + AppLocalizations.of(context).translate('title'),
+                    ' Elements',
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,
@@ -89,15 +89,15 @@ class _landingState extends State<landing> {
           ),
           Padding(
             padding: EdgeInsets.only(
-                top: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                    2 *
-                    .03,
-                bottom: 20,
-                right: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                    2 *
-                    .05),
+                top: MediaQuery.of(
+                    context)
+                    .size
+                    .height *
+                    .02, bottom: MediaQuery.of(
+                context)
+                .size
+                .height *
+                .05),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
@@ -108,8 +108,8 @@ class _landingState extends State<landing> {
                       context: context,
                       builder: (context) {
                         return DraggableScrollableSheet(
-                          initialChildSize: .925,
-                          maxChildSize: .925,
+                          initialChildSize: .884,
+                          maxChildSize: .884,
                           builder: (BuildContext context, scrollController) {
                             return SingleChildScrollView(
                               controller: scrollController,
@@ -151,8 +151,8 @@ class _landingState extends State<landing> {
                                       child: Column(
                                         children: <Widget>[
                                           Padding(
-                                            padding: EdgeInsets.only(
-                                                top: 30, bottom: 30),
+                                      padding: EdgeInsets.only(
+                                                top: MediaQuery.of(context).size.height * .02, bottom: MediaQuery.of(context).size.height * .05),
                                             child: Text(
                                               AppLocalizations.of(context)
                                                       .translate(
@@ -305,15 +305,10 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                       FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                          context)
-                                                          .size
-                                                          .width +
-                                                          MediaQuery.of(
+                                                      fontSize: MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height) /
-                                                          2 *
+                                                              .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -366,8 +361,8 @@ class _landingState extends State<landing> {
                       context: context,
                       builder: (context) {
                         return DraggableScrollableSheet(
-                          initialChildSize: .9,
-                          maxChildSize: 1,
+                          initialChildSize: .795,
+                          maxChildSize: .795,
                           builder: (BuildContext context, scrollController) {
                             return SingleChildScrollView(
                               controller: scrollController,
@@ -409,7 +404,15 @@ class _landingState extends State<landing> {
                                         children: <Widget>[
                                           Padding(
                                             padding: EdgeInsets.only(
-                                                top: 30, bottom: 30),
+                                                top: MediaQuery.of(
+                                                    context)
+                                                    .size
+                                                    .height *
+                                                    .02, bottom: MediaQuery.of(
+                                                context)
+                                                .size
+                                                .height *
+                                                .05),
                                             child: Text(
                                               AppLocalizations.of(context)
                                                       .translate('types') +
@@ -443,15 +446,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -482,15 +481,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -521,15 +516,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -560,15 +551,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -599,15 +586,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -638,15 +621,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -677,15 +656,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -716,15 +691,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -754,15 +725,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width +
+                                                      fontSize:
                                                               MediaQuery.of(
                                                                       context)
                                                                   .size
-                                                                  .height) /
-                                                          2 *
+                                                                  .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:
@@ -793,15 +760,11 @@ class _landingState extends State<landing> {
                                                       fontWeight:
                                                       FontWeight.bold,
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                          context)
-                                                          .size
-                                                          .width +
+                                                      fontSize:
                                                           MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height) /
-                                                          2 *
+                                                              .height *
                                                           .05),
                                                 ),
                                                 controlAffinity:

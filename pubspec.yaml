@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   url_launcher: ^5.4.2
   sleek_circular_slider: 1.1.0
+  splashscreen: ^1.2.0
 
 
 dev_dependencies:

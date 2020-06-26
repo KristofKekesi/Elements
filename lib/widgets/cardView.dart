@@ -222,7 +222,7 @@ class cardView extends StatelessWidget {
                                                                 .size
                                                                 .width) /
                                                         2 *
-                                                        .06 +
+                                                        .03 +
                                                     30,
                                                 top: 30,
                                                 bottom: 30),
@@ -563,9 +563,9 @@ class cardView extends StatelessWidget {
                                                           context)
                                                       .translate("block"),
                                                   child: Text(
-                                                    AppLocalizations.of(context)
+                                                    Capitalizate(AppLocalizations.of(context)
                                                             .translate(
-                                                                "blockPre") +
+                                                                "blockPre")) +
                                                         ": " +
                                                         Capitalizate(
                                                             elementList[index]
