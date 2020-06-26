@@ -11,29 +11,25 @@
 ## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Features <img src="https://img.shields.io/badge/Day%2019-brown.svg" alt="">
- - Improved landing screen
- - Added selector back end
+ ## Latest Features <img src="https://img.shields.io/badge/Day%2020-brown.svg" alt="">
+ - Added Splash screen
  - Improved hungarian and english
 
-## Latest Images <img src="https://img.shields.io/badge/Day 12%20and%2014%20and%2017%20and%2018-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day%2012%20and%2017%20and%2018%20and%2020-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day17a.png" height=400px>
+  <img src="img/day20a.png" height=400px>
 </td><td>
-  <img src="img/day14d.png" height=400px>
+  <img src="img/day12a.png" height=400px>
 </td></tr>
  <tr><td>
-  <img src="img/day12a.png" height=400px>
+  <img src="img/day20b.png" height=400px>
  </td><td>
-  <img src="img/day17b.png" height=400px>
+  <img src="img/day18a.png" height=400px>
  </td></tr>
   <tr><td>
-  <img src="img/day18a.png" height=400px>
- </td><td>
-  <img src="img/day18b.png" height=400px>
+  <img src="img/day17b.png" height=400px>
  </td></tr>
 </table>
-
  
 ## Made with <img src="https://img.shields.io/badge/Flutter-blue.svg" alt=""> <img src="https://img.shields.io/badge/Android Studio-green.svg" alt="">
 Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android Studio__. 
