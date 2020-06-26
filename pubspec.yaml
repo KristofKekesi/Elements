@@ -48,6 +48,8 @@ flutter:
   assets:
     - lib/
 
+    - lib/elements.json
+
     - lib/icons/
     - lib/widgets/
     - lib/backgrounds/

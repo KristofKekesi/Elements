@@ -30,6 +30,7 @@ class customDrawer extends StatelessWidget {
             Container(
               height: MediaQuery.of(context).size.height * .3,
               child: DrawerHeader(
+                child: null,
                 margin: EdgeInsets.zero,
                 padding: EdgeInsets.zero,
                 decoration: BoxDecoration(
@@ -51,22 +52,7 @@ class customDrawer extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(
                     top: MediaQuery.of(context).size.height * .03),
-                child: ListTile(
-                    title: Text(
-                        AppLocalizations.of(context).translate('preferencies'),
-                        style: TextStyle(
-                            letterSpacing: 2,
-                            fontWeight: FontWeight.bold,
-                            fontSize: (MediaQuery.of(context).size.height +
-                                    MediaQuery.of(context).size.width) /
-                                2 *
-                                .07))),
-              ),
-            ),
-            Divider(
-              thickness: MediaQuery.of(context).size.height * .003,
-            ),
-            GestureDetector(
+           child: GestureDetector(
               onTap: () {
                 _launchURL('https://github.com/KristofKekesi/Elements/blob/master/README.md#contributors-');
               },
@@ -81,6 +67,8 @@ class customDrawer extends StatelessWidget {
                           2 *
                           .07),
                 ),
+              ),
+           ),
               ),
             ),
             GestureDetector(

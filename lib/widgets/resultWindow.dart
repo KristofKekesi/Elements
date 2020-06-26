@@ -2,6 +2,8 @@ import 'package:flutter_chem/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'package:flutter_chem/widgets/viewSelector.dart';
+
 import 'minimalView.dart';
 import 'cardView.dart';
 
@@ -76,139 +78,9 @@ class searchResults extends StatelessWidget {
                 ),
               ),
             ),
-            cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
-            //minimalView(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                GestureDetector(
-                  onTap: () {},
-                  child: Padding(
-                    padding: EdgeInsets.only(
-                        bottom: 20,
-                        left: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .05),
-                    child: Tooltip(message: AppLocalizations.of(context).translate("cardView"),child: Container(
-                      width: (MediaQuery.of(context).size.width +
-                              MediaQuery.of(context).size.height) /
-                          2 *
-                          .30,
-                      height: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .13,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                            colors: [
-                              Colors.deepOrange,
-                              Colors.orangeAccent,
-                            ],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight),
-                        borderRadius: BorderRadius.circular(
-                            (MediaQuery.of(context).size.height +
-                                    MediaQuery.of(context).size.width) /
-                                2 *
-                                .02),
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          Image(
-                              image: AssetImage("lib/icons/card_white_500.png"),
-                              height: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .06,
-                              width: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .04),
-                          Text(
-                            " " + AppLocalizations.of(context).translate('cards'),
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
-                                    2 *
-                                    .05),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-                ),
-                Tooltip(
-                  message: AppLocalizations.of(context).translate("minimalView"),
-                  child:
-                GestureDetector(
-                  onTap: () {},
-                  child: Padding(
-                    padding: EdgeInsets.only(
-                        bottom: 20,
-                        right: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .05),
-                    child: Container(
-                      width: (MediaQuery.of(context).size.width +
-                              MediaQuery.of(context).size.height) /
-                          2 *
-                          .30,
-                      height: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .13,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                            colors: [
-                              Colors.deepOrangeAccent,
-                              Colors.orangeAccent,
-                            ],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight),
-                        borderRadius: BorderRadius.circular(
-                            (MediaQuery.of(context).size.height +
-                                    MediaQuery.of(context).size.width) /
-                                2 *
-                                .02),
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          Image(
-                              image:
-                                  AssetImage("lib/icons/modern_white_500.png"),
-                              height: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .06,
-                              width: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .04),
-                          Text(
-                            " " + AppLocalizations.of(context).translate('minimal'),
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
-                                    2 *
-                                    .05),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                )
-                ),
-              ],
-            ),
+            viewSelector(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
+            //cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
+            //minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
           ],
         ),
       ),
