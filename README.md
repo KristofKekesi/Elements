@@ -16,6 +16,7 @@
  - Improved hungarian and english
  - Added minimalist view
  - Added view control
+ - Future builder bug __removed__
 
 ## Latest Images <img src="https://img.shields.io/badge/Day%2012%20and%2017%20and%2018%20and%2020-brown.svg" alt="">
 <table><tr><td>
