@@ -5,15 +5,17 @@
   Elements
 </h1>
 
-<img src="https://img.shields.io/badge/Status-Developing%20/%20Programming-yellow.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/25-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
+<img src="https://img.shields.io/badge/Status-Debugging-red.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/25-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 <span style="text-align: justify;">A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat. Only joking. __WE DO NOT RECCOMMEND THAT__!</span>
-## State <img src="https://img.shields.io/badge/Developing%20/%20Programming-yellow.svg" alt="">
+## State <img src="https://img.shields.io/badge/Debugging-red.svg" alt="">
 <img src="img/state.png">
  
  ## Latest Features <img src="https://img.shields.io/badge/Day%2020-brown.svg" alt="">
  - Added Splash screen
  - Improved hungarian and english
+ - Added minimalist view
+ - Added view control
 
 ## Latest Images <img src="https://img.shields.io/badge/Day%2012%20and%2017%20and%2018%20and%2020-brown.svg" alt="">
 <table><tr><td>
