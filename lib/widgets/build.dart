@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_chem/widgets/localization.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 import 'drawer.dart';
@@ -12,17 +13,21 @@ class Splash extends StatelessWidget {
       title: Text(
         'Elements',
         style: TextStyle(
+          fontSize: 25,
             color: Colors.white,
-            fontSize: (MediaQuery.of(context).size.height +
-                    MediaQuery.of(context).size.width) /
-                2 *
-                .07,
+            fontWeight: FontWeight.bold),
+      ),
+      loadingText: Text(
+        AppLocalizations.of(context).translate('loadString'),
+        style: TextStyle(
+          fontSize: 25,
+            color: Colors.white,
             fontWeight: FontWeight.bold),
       ),
       imageBackground:
         AssetImage('lib/backgrounds/008_pc.jpg'),
       image: Image(
-        image: AssetImage('lib/icons/logo_500.png'),
+        image: AssetImage('lib/icons/logo_white_500.png'),
       ),
       photoSize: 50,
       loaderColor: Colors.white,
