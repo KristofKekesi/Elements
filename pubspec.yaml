@@ -26,6 +26,7 @@ dependencies:
   url_launcher: ^5.4.2
   sleek_circular_slider: 1.1.0
   splashscreen: ^1.2.0
+  firebase_admob: ^0.9.0+1
 
 
 dev_dependencies:

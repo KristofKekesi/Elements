@@ -905,8 +905,8 @@ class minimalView extends StatelessWidget {
                           decoration: new BoxDecoration(
                               gradient: LinearGradient(
                                   colors: [
-                                    Colors.deepOrange,
-                                    Colors.orangeAccent,
+                                    Color(int.parse(elementList[index]["m1"])),
+                                    Color(int.parse(elementList[index]["m2"])),
                                   ],
                                   begin: Alignment.topLeft,
                                   end: Alignment.bottomRight),

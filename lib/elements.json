@@ -17,6 +17,8 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "016_di.jpg",
+	  "m1": "0xffffffff",
+	  "m2": "0xff000000",
 
 	"hu": "Hidrogén",
 	"en": "Hydrogen",
@@ -935,6 +937,8 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "031_ar.jpg",
+	"m1": "0xffffffff",
+	"m2": "0xff000000",
 
 	"hu": "Fluor",
 	"en": "Fluorine",
