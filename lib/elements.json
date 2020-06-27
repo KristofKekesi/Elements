@@ -17,8 +17,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "016_di.jpg",
-	  "m1": "0xffffffff",
-	  "m2": "0xff000000",
+	
+	"m1": "0xff28313a",
+	"m2": "0xffcfbac1",
 
 	"hu": "Hidrogén",
 	"en": "Hydrogen",
@@ -97,6 +98,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "011_pc.jpg",
+	
+	"m1": "0xff212737",
+	"m2": "0xffcfbac1",
 
 	"hu": "Hélium",
 	"en": "Helium",
@@ -187,6 +191,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "029_ar.jpg",
+	
+	"m1": "0xff0c116c",
+	"m2": "0xff4a4a4a",
 
 	"hu": "Lítium",
 	"en": "Lithium",
@@ -284,6 +291,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "104_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Berillium",
 	"en": "Beryllium",
@@ -395,6 +405,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "023_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Bór",
 	"en": "Boron",
@@ -520,6 +533,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "014_ph.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Szén",
 	"en": "Carbon",
@@ -652,6 +668,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "025_ab.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Nitrogén",
 	"en": "Nitrogen",
@@ -791,6 +810,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "022_ea.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Oxigén",
 	"en": "Oxygen",
@@ -937,6 +959,10 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "031_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
+	
 	"m1": "0xff0042c0",
 	"m2": "0xff6366b5",
 
@@ -1092,6 +1118,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "106_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Neon",
 	"en": "Neon",
@@ -1252,6 +1281,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "018_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Nátrium",
 	"en": "Sodium",
@@ -1419,6 +1451,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "015_sk.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Magnézium",
 	"en": "Magnesium",
@@ -1600,6 +1635,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "008_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Alumínium",
 	"en": "Aluminium",
@@ -1781,6 +1819,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "006_ba.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Szilícium",
 	"en": "Silicon",
@@ -1969,6 +2010,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "035_kg.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Foszfor",
 	"en": "Phosphorus",
@@ -2157,6 +2201,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "066_nm.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kén",
 	"en": "Sulfur",
@@ -2191,6 +2238,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "026_hd.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Klór",
 	"en": "Chlorine",
@@ -2225,6 +2275,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "003_dp.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Argon",
 	"en": "Argon",
@@ -2259,6 +2312,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "032_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kálium",
 	"en": "Potassium",
@@ -2293,6 +2349,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "034_kg.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kálcium",
 	"en": "Calcium",
@@ -2327,6 +2386,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "005_ba.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Szkandium",
 	"en": "Scandium",
@@ -2361,6 +2423,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "021_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Titán",
 	"en": "Titanium",
@@ -2395,6 +2460,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "019_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Vanádium",
 	"en": "Vanadium",
@@ -2429,6 +2497,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "027_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Króm",
 	"en": "Chromium",
@@ -2463,6 +2534,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "036_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Mangán",
 	"en": "Manganese",
@@ -2497,6 +2571,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "024_cj.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Vas",
 	"en": "Iron",
@@ -2531,6 +2608,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "012_mh.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kobalt",
 	"en": "Cobalt",
@@ -2565,6 +2645,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "072_ac.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Nikkel",
 	"en": "Nickel",
@@ -2599,6 +2682,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "004_dp.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Réz",
 	"en": "Copper",
@@ -2633,6 +2719,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "017_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Cink",
 	"en": "Zinc",
@@ -2667,6 +2756,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "039_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Gallium",
 	"en": "Gallium",
@@ -2701,6 +2793,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "115_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Germánium",
 	"en": "Germanium",
@@ -2735,6 +2830,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "020_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Arzén",
 	"en": "Arsenic",
@@ -2769,6 +2867,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "028_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Szelén",
 	"en": "Selenium",
@@ -2803,6 +2904,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "043_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Bróm",
 	"en": "Bromine",
@@ -2837,6 +2941,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "002_dp.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kripton",
 	"en": "Krypton",
@@ -2871,6 +2978,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "037_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Rubídium",
 	"en": "Rubidium",
@@ -2905,6 +3015,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "033_kg.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Stroncium",
 	"en": "Stroncium",
@@ -2939,6 +3052,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "013_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Ittrium",
 	"en": "Yttrium",
@@ -2973,6 +3089,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "042_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Cirkónium",
 	"en": "Zirconium",
@@ -3007,6 +3126,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "044_lq.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Nióbium",
 	"en": "Niobium",
@@ -3041,6 +3163,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "090_ac.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Molibdén",
 	"en": "Molybdenum",
@@ -3075,6 +3200,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "046_pb.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Technécium",
 	"en": "Technetium",
@@ -3109,6 +3237,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "045_ss.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Ruténium",
 	"en": "Ruthenium",
@@ -3143,6 +3274,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "091_va.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Ródium",
 	"en": "Rhodium",
@@ -3177,6 +3311,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "041_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Palládium",
 	"en": "Palladium",
@@ -3211,6 +3348,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "047_ab.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Ezüst",
 	"en": "Silver",
@@ -3245,6 +3385,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "040_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kadmium",
 	"en": "Cadmium",
@@ -3279,6 +3422,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "038_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Indium",
 	"en": "Indium",
@@ -3313,6 +3459,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "079_dc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Ón",
 	"en": "Tin",
@@ -3347,6 +3496,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "085_ah.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Antimon",
 	"en": "Antimony",
@@ -3381,6 +3533,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "065_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Tellúr",
 	"en": "Tellurium",
@@ -3416,6 +3571,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "068_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Jód",
 	"en": "Iodine",
@@ -3450,6 +3608,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "007_ba.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Xenon",
 	"en": "Xenon",
@@ -3484,6 +3645,9 @@
 	"multipleRadiationEmitters": true,
 
 	"bg": "069_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Cézium",
 	"en": "Caesium",
@@ -3518,6 +3682,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "073_gr.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Bárium",
 	"en": "Barium",
@@ -3552,6 +3719,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "062_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Lantán",
 	"en": "Lanthanum",
@@ -3586,6 +3756,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "092_kb.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Cérium",
 	"en": "Cerium",
@@ -3620,6 +3793,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "049_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Prazeodímium",
 	"en": "Praseodymium",
@@ -3654,6 +3830,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "105_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Neodímium",
 	"en": "Neodymium",
@@ -3688,6 +3867,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "052_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Prométium",
 	"en": "Promethium",
@@ -3722,6 +3904,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "050_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Szamárium",
 	"en": "Samarium",
@@ -3756,6 +3941,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "084_mk.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Európium",
 	"en": "Europium",
@@ -3790,6 +3978,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "082_wj.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Gadolínium",
 	"en": "Gadolinium",
@@ -3824,6 +4015,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "071_ac.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Terbium",
 	"en": "Terbium",
@@ -3858,6 +4052,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "078_lm.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Diszprózium",
 	"en": "Dysprosium",
@@ -3892,6 +4089,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "064_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Holmium",
 	"en": "Holmium",
@@ -3926,6 +4126,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "093_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Erbium",
 	"en": "Erbium",
@@ -3960,6 +4163,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "074_nd.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Túlium",
 	"en": "Thulium",
@@ -3994,6 +4200,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "107_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Itterbium",
 	"en": "Ytterbium",
@@ -4028,6 +4237,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "059_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Lutécium",
 	"en": "Lutetium",
@@ -4062,6 +4274,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "116_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Hafnium",
 	"en": "Hafnium",
@@ -4096,6 +4311,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "108_pr.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Tantál",
 	"en": "Tantalum",
@@ -4130,6 +4348,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "068_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Volfrám",
 	"en": "Tungsten",
@@ -4164,6 +4385,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "088_do.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Rénium",
 	"en": "Rhenium",
@@ -4198,6 +4422,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "056_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Ozmium",
 	"en": "Osmium",
@@ -4232,6 +4459,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "081_ja.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Irídium",
 	"en": "Iridium",
@@ -4266,6 +4496,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "077_ab.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Platina",
 	"en": "Platinum",
@@ -4300,6 +4533,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "076_sk.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Arany",
 	"en": "Gold",
@@ -4334,6 +4570,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "055_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Higany",
 	"en": "Mercury",
@@ -4368,6 +4607,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "054_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Tallium",
 	"en": "Thallium",
@@ -4402,6 +4644,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "053_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Ólom",
 	"en": "Lead",
@@ -4436,6 +4681,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "010_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Bizmut",
 	"en": "Bismuth",
@@ -4470,6 +4718,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "030_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Polónium",
 	"en": "Polonium",
@@ -4504,6 +4755,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "048_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Asztácium",
 	"en": "Astatine",
@@ -4537,7 +4791,10 @@
 	"alpha": false,
 	"multipleRadiationEmitters": false,
 
-	 "bg": "111_sj.jpg",
+	"bg": "111_sj.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Radon",
 	"en": "Radon",
@@ -4572,6 +4829,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "100_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Francium",
 	"en": "Francium",
@@ -4606,6 +4866,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "117_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Rádium",
 	"en": "Radium",
@@ -4640,6 +4903,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "118_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Aktínium",
 	"en": "Actinium",
@@ -4674,6 +4940,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "099_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Tórium",
 	"en": "Thorium",
@@ -4708,6 +4977,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "075_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Protaktínium",
 	"en": "Protactinium",
@@ -4742,6 +5014,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "009_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Urán",
 	"en": "Uranium",
@@ -4776,6 +5051,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "102_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Neptúnium",
 	"en": "Neptunium",
@@ -4810,6 +5088,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "089_mj.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Plutónium",
 	"en": "Plutonium",
@@ -4844,6 +5125,9 @@
 	"multipleRadiationEmitters": true,
 
 	"bg": "051_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Amerícium",
 	"en": "Americium",
@@ -4878,6 +5162,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "086_js.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kűrium",
 	"en": "Curium",
@@ -4912,6 +5199,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "087_js.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Berkélium",
 	"en": "Berkelium",
@@ -4946,6 +5236,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "094_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kalifornium",
 	"en": "Californium",
@@ -4980,6 +5273,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "058_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Einsteinium",
 	"en": "Einsteinium",
@@ -5014,6 +5310,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "095_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Fermium",
 	"en": "Fermium",
@@ -5048,6 +5347,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "097_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Mendelévium",
 	"en": "Mendelevium",
@@ -5082,6 +5384,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "098_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Nobélium",
 	"en": "Nobelium",
@@ -5116,6 +5421,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "101_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Laurencium",
 	"en": "Lawrencium",
@@ -5150,6 +5458,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "103_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Raderfordium",
 	"en": "Rutherfordium",
@@ -5184,6 +5495,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "109_jk.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Dubnium",
 	"en": "Dubnium",
@@ -5218,6 +5532,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "114_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Sziborgium",
 	"en": "Seaborgium",
@@ -5252,6 +5569,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "057_ar.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Bohrium",
 	"en": "Bohrium",
@@ -5286,6 +5606,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "001_di.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Hasszium",
 	"en": "Hassium",
@@ -5320,6 +5643,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "096_rp.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Meitnérium",
 	"en": "Meittnerium",
@@ -5354,6 +5680,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "067_nm.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Darmstadtium",
 	"en": "Darmstadtium",
@@ -5388,6 +5717,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "113_na.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Röntgénium",
 	"en": "Roentgenium",
@@ -5422,6 +5754,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "110_sj.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Kopernícium",
 	"en": "Copernicium",
@@ -5456,6 +5791,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "083_mk.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Nihónium",
 	"en": "Nihonium",
@@ -5490,6 +5828,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "112_fa.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Fleróvium",
 	"en": "Flerovium",
@@ -5524,6 +5865,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "061_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Moszkóvium",
 	"en": "Moscovium",
@@ -5558,6 +5902,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "070_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Livermórium",
 	"en": "Livermorium",
@@ -5592,6 +5939,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "060_pc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Tenesszium",
 	"en": "Tennessie",
@@ -5626,6 +5976,9 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "080_rc.jpg",
+	
+	"m1": "0xff",
+	"m2": "0xff",
 
 	"hu": "Oganeszon",
 	"en": "Oganesson",
