@@ -937,8 +937,8 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "031_ar.jpg",
-	"m1": "0xffffffff",
-	"m2": "0xff000000",
+	"m1": "0xff0042c0",
+	"m2": "0xff6366b5",
 
 	"hu": "Fluor",
 	"en": "Fluorine",
