@@ -2623,9 +2623,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "004_dp.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff468f65",
 
 	"hu": "Réz",
 	"en": "Copper",
@@ -2660,9 +2658,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "017_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffd1322b",
 
 	"hu": "Cink",
 	"en": "Zinc",
@@ -2697,9 +2693,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "039_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffd97c20",
 
 	"hu": "Gallium",
 	"en": "Gallium",
@@ -2734,9 +2728,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "115_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff64979a",
 
 	"hu": "Germánium",
 	"en": "Germanium",
