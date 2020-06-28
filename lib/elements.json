@@ -3628,9 +3628,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "062_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffe87e30",
 
 	"hu": "Lantán",
 	"en": "Lanthanum",
@@ -3665,9 +3663,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "092_kb.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff3a5661",
 
 	"hu": "Cérium",
 	"en": "Cerium",
@@ -3702,9 +3698,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "049_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffcc6954",
 
 	"hu": "Prazeodímium",
 	"en": "Praseodymium",
@@ -3739,9 +3733,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "105_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff297166",
 
 	"hu": "Neodímium",
 	"en": "Neodymium",
@@ -3776,9 +3768,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "052_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffc2481e",
 
 	"hu": "Prométium",
 	"en": "Promethium",
@@ -3813,9 +3803,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "050_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff013b8f",
 
 	"hu": "Szamárium",
 	"en": "Samarium",
@@ -3850,9 +3838,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "084_mk.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff1e5f73",
 
 	"hu": "Európium",
 	"en": "Europium",
@@ -3887,9 +3873,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "082_wj.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff0f7f6f",
 
 	"hu": "Gadolínium",
 	"en": "Gadolinium",
@@ -3924,9 +3908,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "071_ac.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffa9475a",
 
 	"hu": "Terbium",
 	"en": "Terbium",
@@ -3961,9 +3943,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "078_lm.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xfffcbc8e",
 
 	"hu": "Diszprózium",
 	"en": "Dysprosium",
@@ -3998,9 +3978,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "064_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffda6456",
 
 	"hu": "Holmium",
 	"en": "Holmium",
@@ -4035,9 +4013,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "093_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff6e65c2",
 
 	"hu": "Erbium",
 	"en": "Erbium",
@@ -4072,9 +4048,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "074_nd.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffeb2f09",
 
 	"hu": "Túlium",
 	"en": "Thulium",
@@ -4109,9 +4083,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "107_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffa70a1d",
 
 	"hu": "Itterbium",
 	"en": "Ytterbium",
@@ -4146,9 +4118,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "059_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xfff8791a",
 
 	"hu": "Lutécium",
 	"en": "Lutetium",
@@ -4428,7 +4398,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "076_sk.jpg",
-	"m1": "0xffcb7b4a-",
+	"m1": "0xffcb7b4a",
 
 	"hu": "Arany",
 	"en": "Gold",
