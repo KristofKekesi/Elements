@@ -5071,9 +5071,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "086_js.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff3694ac",
 
 	"hu": "Kűrium",
 	"en": "Curium",
@@ -5108,9 +5106,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "087_js.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff0d7b84",
 
 	"hu": "Berkélium",
 	"en": "Berkelium",
@@ -5145,9 +5141,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "094_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff8b2b35",
 
 	"hu": "Kalifornium",
 	"en": "Californium",
@@ -5182,10 +5176,8 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "058_pc.jpg",
+	"m1": "0xff0663c5",
 	
-	"m1": "0xff",
-	"m2": "0xff",
-
 	"hu": "Einsteinium",
 	"en": "Einsteinium",
 
@@ -5219,9 +5211,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "095_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff4b6acb",
 
 	"hu": "Fermium",
 	"en": "Fermium",
@@ -5256,9 +5246,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "097_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff4db3b6",
 
 	"hu": "Mendelévium",
 	"en": "Mendelevium",
@@ -5293,9 +5281,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "098_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffe28155",
 
 	"hu": "Nobélium",
 	"en": "Nobelium",
@@ -5330,9 +5316,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "101_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffc45053",
 
 	"hu": "Laurencium",
 	"en": "Lawrencium",
