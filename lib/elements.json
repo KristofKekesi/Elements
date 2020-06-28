@@ -3554,9 +3554,7 @@
 	"multipleRadiationEmitters": true,
 
 	"bg": "069_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffc2233f",
 
 	"hu": "Cézium",
 	"en": "Caesium",
@@ -3591,9 +3589,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "073_gr.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff43a9ae",
 
 	"hu": "Bárium",
 	"en": "Barium",
