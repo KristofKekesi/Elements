@@ -2938,9 +2938,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "033_kg.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff277e78",
 
 	"hu": "Stroncium",
 	"en": "Stroncium",
@@ -2975,9 +2973,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "013_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff58ebdb",
 
 	"hu": "Ittrium",
 	"en": "Yttrium",
