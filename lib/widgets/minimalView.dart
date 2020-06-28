@@ -4,6 +4,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_chem/widgets/localization.dart';
+import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 // ignore: camel_case_types
 class minimalView extends StatelessWidget {
@@ -903,13 +904,7 @@ class minimalView extends StatelessWidget {
                                   2 *
                                   .05),
                           decoration: new BoxDecoration(
-                              gradient: LinearGradient(
-                                  colors: [
-                                    Color(int.parse(elementList[index]["m1"])),
-                                    Color(int.parse(elementList[index]["m2"])),
-                                  ],
-                                  begin: Alignment.topLeft,
-                                  end: Alignment.bottomRight),
+                            color: Color(int.parse(elementList[index]["m1"])),
                               borderRadius: BorderRadius.circular(
                                   (MediaQuery
                                       .of(context)
@@ -930,7 +925,7 @@ class minimalView extends StatelessWidget {
                                   .size
                                   .width) /
                               2 *
-                              .15,
+                              .13,
                           width: (MediaQuery
                               .of(context)
                               .size
@@ -940,7 +935,7 @@ class minimalView extends StatelessWidget {
                                   .size
                                   .height) /
                               2 *
-                              .15,
+                              .13,
                           child: new Column(
                             //crossAxisAlignment: CrossAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -964,7 +959,7 @@ class minimalView extends StatelessWidget {
                                             .size
                                             .width) /
                                         2 *
-                                        .065,
+                                        .06,
                                   ),
                                 ),
                               ),
@@ -982,40 +977,48 @@ class minimalView extends StatelessWidget {
                     "moreAboutElement"),
                 child: SizedBox.expand(
                   child: Padding(
-                    padding: EdgeInsets.only(left: (MediaQuery
-                        .of(context)
-                        .size
-                        .height +
-                        MediaQuery
-                            .of(context)
-                            .size
-                            .width) /
-                        2 *
-                        .05, right: (MediaQuery
-                        .of(context)
-                        .size
-                        .height +
-                        MediaQuery
-                            .of(context)
-                            .size
-                            .width) /
-                        2 *
-                        .05),
+                    padding: EdgeInsets.only(left: 0),
                     child: ListView(
-                      children: <Widget>[new Wrap(
+                      children: <Widget>[
+                        Column(
+                    children: <Widget>[
+                      Container(),
+                        new Wrap(
                         direction: Axis.horizontal,
-                        alignment: WrapAlignment.spaceBetween,
-                        spacing: 5,
+                        spacing: 0,
                         runSpacing: 0,
                         children: listElements,
                       ),
+                      Container(),
+                    ],
+                  ),
                       ],
                     ),
                   ),
                 ),
               );
             }
-            return CircularProgressIndicator(valueColor: AlwaysStoppedAnimation<Color>(Colors.deepOrangeAccent),);
+            return SleekCircularSlider(
+              appearance: CircularSliderAppearance(
+                spinnerMode: true,
+                size: (MediaQuery.of(context).size.height +
+                    MediaQuery.of(context).size.width) /
+                    2 *
+                    .4,
+                customColors:
+                CustomSliderColors(
+                  trackColor:
+                  Color(0x00000000),
+                  hideShadow: true,
+                  progressBarColors: <
+                      Color>[
+                    Colors.orangeAccent,
+                    Colors
+                        .deepOrangeAccent,
+                  ],
+                ),
+              ),
+            );
         },
     );
   }

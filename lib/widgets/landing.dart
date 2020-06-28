@@ -225,11 +225,12 @@ class _landingState extends State<landing> {
                                                     ),
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: 0,
+                                                    initialValue: en1,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
                                                         CircularSliderAppearance(
+                                                          animationEnabled: false,
                                                       size: (MediaQuery.of(
                                                                       context)
                                                                   .size
@@ -300,11 +301,12 @@ class _landingState extends State<landing> {
                                                     },
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: 4,
+                                                    initialValue: en2,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
                                                         CircularSliderAppearance(
+                                                          animationEnabled: false,
                                                       size: (MediaQuery.of(
                                                                       context)
                                                                   .size
