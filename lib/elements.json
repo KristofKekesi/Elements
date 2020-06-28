@@ -5589,9 +5589,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "067_nm.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff52899b",
 
 	"hu": "Darmstadtium",
 	"en": "Darmstadtium",
@@ -5626,9 +5624,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "113_na.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff658a9c",
 
 	"hu": "Röntgénium",
 	"en": "Roentgenium",
@@ -5663,9 +5659,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "110_sj.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff0034bb",
 
 	"hu": "Kopernícium",
 	"en": "Copernicium",
@@ -5700,9 +5694,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "083_mk.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff189cc3",
 
 	"hu": "Nihónium",
 	"en": "Nihonium",
@@ -5737,9 +5729,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "112_fa.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffeb6123",
 
 	"hu": "Fleróvium",
 	"en": "Flerovium",
@@ -5774,9 +5764,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "061_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffe52122",
 
 	"hu": "Moszkóvium",
 	"en": "Moscovium",
@@ -5811,9 +5799,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "070_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xfffe6253",
 
 	"hu": "Livermórium",
 	"en": "Livermorium",
