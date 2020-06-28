@@ -2763,9 +2763,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "020_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff903b4d",
 
 	"hu": "Arzén",
 	"en": "Arsenic",
@@ -2800,9 +2798,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "028_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xfff9855e",
 
 	"hu": "Szelén",
 	"en": "Selenium",
@@ -2837,9 +2833,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "043_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffbe394a",
 
 	"hu": "Bróm",
 	"en": "Bromine",
@@ -2873,10 +2867,8 @@
 	"alpha": false,
 	"multipleRadiationEmitters": false,
 
-	"bg": "002_dp.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"bg": "002_dp.jpg",--
+	"m1": "0xff237ec5",
 
 	"hu": "Kripton",
 	"en": "Krypton",
@@ -2911,9 +2903,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "037_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffe13f3c",
 
 	"hu": "Rubídium",
 	"en": "Rubidium",
