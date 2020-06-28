@@ -3008,9 +3008,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "042_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xfff76915",
 
 	"hu": "Cirkónium",
 	"en": "Zirconium",
@@ -3045,9 +3043,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "044_lq.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xfffeb300",
 
 	"hu": "Nióbium",
 	"en": "Niobium",
@@ -3082,9 +3078,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "090_ac.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff489ca9",
 
 	"hu": "Molibdén",
 	"en": "Molybdenum",
@@ -3119,9 +3113,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "046_pb.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff00c7b1",
 
 	"hu": "Technécium",
 	"en": "Technetium",
@@ -3156,9 +3148,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "045_ss.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffc01c25",
 
 	"hu": "Ruténium",
 	"en": "Ruthenium",
@@ -5858,9 +5848,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "060_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffd8b78e",
 
 	"hu": "Tenesszium",
 	"en": "Tennessie",
@@ -5895,9 +5883,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "080_rc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff88acba",
 
 	"hu": "Oganeszon",
 	"en": "Oganesson",
