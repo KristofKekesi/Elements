@@ -292,8 +292,8 @@
 
 	"bg": "104_ar.jpg",
 	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffbf5219",
+	"m2": "0xff41a7c0",
 
 	"hu": "Berillium",
 	"en": "Beryllium",
@@ -406,8 +406,8 @@
 
 	"bg": "023_di.jpg",
 	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff2f2e40",
+	"m2": "0xffc07464",
 
 	"hu": "Bór",
 	"en": "Boron",
