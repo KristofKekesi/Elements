@@ -3183,9 +3183,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "091_va.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff1eeaa3",
 
 	"hu": "Ródium",
 	"en": "Rhodium",
@@ -3220,9 +3218,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "041_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffd06a68",
 
 	"hu": "Palládium",
 	"en": "Palladium",
@@ -3257,9 +3253,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "047_ab.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff376baa",
 
 	"hu": "Ezüst",
 	"en": "Silver",
@@ -3294,9 +3288,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "040_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffc16c6f",
 
 	"hu": "Kadmium",
 	"en": "Cadmium",
@@ -3331,9 +3323,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "038_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffaa1630",
 
 	"hu": "Indium",
 	"en": "Indium",
@@ -3368,9 +3358,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "079_dc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff3f6490",
 
 	"hu": "Ón",
 	"en": "Tin",
@@ -3405,9 +3393,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "085_ah.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff982b54",
 
 	"hu": "Antimon",
 	"en": "Antimony",
@@ -3442,9 +3428,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "065_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff6cc075",
 
 	"hu": "Tellúr",
 	"en": "Tellurium",
@@ -3480,9 +3464,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "068_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffcf3e23",
 
 	"hu": "Jód",
 	"en": "Iodine",
@@ -3517,9 +3499,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "007_ba.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff4d6ba7",
 
 	"hu": "Xenon",
 	"en": "Xenon",
