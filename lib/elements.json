@@ -4886,9 +4886,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "075_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffba0f6f",
 
 	"hu": "Protaktínium",
 	"en": "Protactinium",
@@ -4923,9 +4921,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "009_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff3a8b0b",
 
 	"hu": "Urán",
 	"en": "Uranium",
@@ -4960,9 +4956,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "102_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff"334c85",
 
 	"hu": "Neptúnium",
 	"en": "Neptunium",
@@ -4997,9 +4991,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "089_mj.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff0493b3",
 
 	"hu": "Plutónium",
 	"en": "Plutonium",
@@ -5034,9 +5026,7 @@
 	"multipleRadiationEmitters": true,
 
 	"bg": "051_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffb7274a",
 
 	"hu": "Amerícium",
 	"en": "Americium",
