@@ -2867,7 +2867,7 @@
 	"alpha": false,
 	"multipleRadiationEmitters": false,
 
-	"bg": "002_dp.jpg",--
+	"bg": "002_dp.jpg",
 	"m1": "0xff237ec5",
 
 	"hu": "Kripton",
