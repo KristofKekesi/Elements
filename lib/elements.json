@@ -5552,9 +5552,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "096_rp.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffe34e3a",
 
 	"hu": "Meitnérium",
 	"en": "Meittnerium",
