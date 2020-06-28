@@ -2203,9 +2203,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "026_hd.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff2a5ce5",
 
 	"hu": "Klór",
 	"en": "Chlorine",
@@ -2275,9 +2273,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "032_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffde2324",
 
 	"hu": "Kálium",
 	"en": "Potassium",
@@ -2557,9 +2553,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "012_mh.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff088f77",
 
 	"hu": "Kobalt",
 	"en": "Cobalt",
