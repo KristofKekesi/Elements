@@ -2588,9 +2588,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "072_ac.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff586ad7",
 
 	"hu": "Nikkel",
 	"en": "Nickel",
