@@ -1608,9 +1608,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "008_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffb01b23",
 
 	"hu": "Alumínium",
 	"en": "Aluminium",
@@ -1792,9 +1790,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "006_ba.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff635f91",
 
 	"hu": "Szilícium",
 	"en": "Silicon",
@@ -1983,9 +1979,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "035_kg.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffff5f2b",
 
 	"hu": "Foszfor",
 	"en": "Phosphorus",
@@ -2174,9 +2168,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "066_nm.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffe9a117",
 
 	"hu": "Kén",
 	"en": "Sulfur",
@@ -2248,9 +2240,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "003_dp.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffd74c87",
 
 	"hu": "Argon",
 	"en": "Argon",
@@ -2322,9 +2312,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "034_kg.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff409099",
 
 	"hu": "Kálcium",
 	"en": "Calcium",
@@ -2359,9 +2347,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "005_ba.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff03757f",
 
 	"hu": "Szkandium",
 	"en": "Scandium",
@@ -2396,9 +2382,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "021_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff5547da",
 
 	"hu": "Titán",
 	"en": "Titanium",
@@ -2433,9 +2417,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "019_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff9f3b55",
 
 	"hu": "Vanádium",
 	"en": "Vanadium",
@@ -2470,9 +2452,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "027_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff238076",
 
 	"hu": "Króm",
 	"en": "Chromium",
@@ -2507,9 +2487,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "036_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff373bff",
 
 	"hu": "Mangán",
 	"en": "Manganese",
@@ -2544,9 +2522,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "024_cj.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffd8222f",
 
 	"hu": "Vas",
 	"en": "Iron",
