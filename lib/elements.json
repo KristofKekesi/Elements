@@ -4183,9 +4183,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "116_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff89273e",
 
 	"hu": "Hafnium",
 	"en": "Hafnium",
@@ -4220,9 +4218,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "108_pr.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff2285a4",
 
 	"hu": "Tantál",
 	"en": "Tantalum",
@@ -4257,9 +4253,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "068_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffcf3e23",
 
 	"hu": "Volfrám",
 	"en": "Tungsten",
@@ -4294,9 +4288,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "088_do.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffef950b",
 
 	"hu": "Rénium",
 	"en": "Rhenium",
@@ -4331,9 +4323,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "056_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff31a1a3",
 
 	"hu": "Ozmium",
 	"en": "Osmium",
@@ -4368,9 +4358,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "081_ja.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff31a1a3",
 
 	"hu": "Irídium",
 	"en": "Iridium",
@@ -4405,9 +4393,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "077_ab.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffc0756f",
 
 	"hu": "Platina",
 	"en": "Platinum",
@@ -4442,9 +4428,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "076_sk.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffcb7b4a-",
 
 	"hu": "Arany",
 	"en": "Gold",
@@ -4479,9 +4463,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "055_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffb4452a",
 
 	"hu": "Higany",
 	"en": "Mercury",
@@ -4516,9 +4498,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "054_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffffae6f",
 
 	"hu": "Tallium",
 	"en": "Thallium",
@@ -4553,9 +4533,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "053_pc.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xfff5595a",
 
 	"hu": "Ólom",
 	"en": "Lead",
@@ -4590,9 +4568,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "010_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff2e8688",
 
 	"hu": "Bizmut",
 	"en": "Bismuth",
@@ -4627,9 +4603,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "030_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff2a69ca",
 
 	"hu": "Polónium",
 	"en": "Polonium",
