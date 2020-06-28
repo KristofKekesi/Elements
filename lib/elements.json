@@ -4664,9 +4664,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "048_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff4fbfb3",
 
 	"hu": "Asztácium",
 	"en": "Astatine",
@@ -4701,9 +4699,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "111_sj.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff07a46f",
 
 	"hu": "Radon",
 	"en": "Radon",
@@ -4738,9 +4734,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "100_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffa61e32",
 
 	"hu": "Francium",
 	"en": "Francium",
@@ -4775,9 +4769,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "117_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff8aad69",
 
 	"hu": "Rádium",
 	"en": "Radium",
@@ -4812,9 +4804,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "118_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff0fcaab",
 
 	"hu": "Aktínium",
 	"en": "Actinium",
@@ -4849,9 +4839,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "099_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff873c63",
 
 	"hu": "Tórium",
 	"en": "Thorium",
@@ -4956,7 +4944,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "102_ar.jpg",
-	"m1": "0xff"334c85",
+	"m1": "0xff334c85",
 
 	"hu": "Neptúnium",
 	"en": "Neptunium",
