@@ -5367,9 +5367,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "103_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff3c4d78",
 
 	"hu": "Raderfordium",
 	"en": "Rutherfordium",
@@ -5404,9 +5402,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "109_jk.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff13868d",
 
 	"hu": "Dubnium",
 	"en": "Dubnium",
@@ -5441,9 +5437,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "114_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff2a9ad6",
 
 	"hu": "Sziborgium",
 	"en": "Seaborgium",
@@ -5478,9 +5472,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "057_ar.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff189a6c",
 
 	"hu": "Bohrium",
 	"en": "Bohrium",
@@ -5515,9 +5507,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "001_di.jpg",
-	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffef4727",
 
 	"hu": "Hasszium",
 	"en": "Hassium",
