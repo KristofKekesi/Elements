@@ -534,8 +534,8 @@
 
 	"bg": "014_ph.jpg",
 	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff1d2c31",
+	"m2": "0xffc2cdd3",
 
 	"hu": "Szén",
 	"en": "Carbon",
@@ -669,8 +669,8 @@
 
 	"bg": "025_ab.jpg",
 	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xff133246",
+	"m2": "0xff4a6b94",
 
 	"hu": "Nitrogén",
 	"en": "Nitrogen",
@@ -811,8 +811,8 @@
 
 	"bg": "022_ea.jpg",
 	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffc28334",
+	"m2": "0xff237478",
 
 	"hu": "Oxigén",
 	"en": "Oxygen",
@@ -1119,8 +1119,8 @@
 
 	"bg": "106_ar.jpg",
 	
-	"m1": "0xff",
-	"m2": "0xff",
+	"m1": "0xffb7484e",
+	"m2": "0xff638fc0",
 
 	"hu": "Neon",
 	"en": "Neon",
