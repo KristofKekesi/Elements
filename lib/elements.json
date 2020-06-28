@@ -17,7 +17,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "016_di.jpg",
-	"m1": "0xff28313a",
+	"m1": "0xffb795a5",
 
 	"hu": "Hidrogén",
 	"en": "Hydrogen",
@@ -397,7 +397,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "023_di.jpg",
-	"m1": "0xff2f2e40",
+	"m1": "0xffbd4632",
 
 	"hu": "Bór",
 	"en": "Boron",
@@ -656,7 +656,7 @@
 	"multipleRadiationEmitters": false,
 
 	"bg": "025_ab.jpg",
-	"m1": "0xff133246",
+	"m1": "0xff2566a8",
 
 	"hu": "Nitrogén",
 	"en": "Nitrogen",
