@@ -11,12 +11,10 @@
 ## State <img src="https://img.shields.io/badge/Debugging-red.svg" alt="">
 <img src="img/state.png">
  
- ## Latest Features <img src="https://img.shields.io/badge/Day%2020-brown.svg" alt="">
- - Added Splash screen
- - Improved hungarian and english
- - Added minimalist view
- - Added view control
- - Future builder bug __removed__
+ ## Latest Features <img src="https://img.shields.io/badge/Day%2022-brown.svg" alt="">
+ - bugfixes
+ - big screen optimalization
+ - final minimalview
 
 ## Latest Images <img src="https://img.shields.io/badge/Day%2012%20and%2017%20and%2018%20and%2020-brown.svg" alt="">
 <table><tr><td>
