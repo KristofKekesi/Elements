@@ -1,5 +1,5 @@
 name: flutter_chem
-description: A new Flutter application.
+description: A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -29,15 +29,17 @@ dependencies:
   firebase_admob: ^0.9.0+1
 
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  flutter_launcher_icons: ^0.7.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+flutter_icons:
+  android: true
+  image_path_andorid: "lib/icons/launcher_icon.png"
 
-# The following section is specific to Flutter.
 flutter:
 
   # The following line ensures that the Material Icons font is

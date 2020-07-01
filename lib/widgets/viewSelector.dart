@@ -106,7 +106,7 @@ class viewSelectorState extends State<viewSelector> {
                             .size
                             .height) /
                         2 *
-                        .30,
+                        .35 - 30,
                     height: (MediaQuery
                         .of(context)
                         .size
@@ -119,8 +119,8 @@ class viewSelectorState extends State<viewSelector> {
                         .13,
                     decoration: BoxDecoration(
                       gradient: LinearGradient(colors: [
-                        Colors.deepOrange,
-                        Colors.orangeAccent,
+                        Color(0xff62a39c),
+                        Color(0xff13547a),
                       ], begin: Alignment.topLeft, end: Alignment.bottomRight),
                       borderRadius: BorderRadius.circular(
                           (MediaQuery
@@ -212,7 +212,7 @@ class viewSelectorState extends State<viewSelector> {
                               .size
                               .height) /
                           2 *
-                          .30,
+                          .35 - 30,
                       height: (MediaQuery
                           .of(context)
                           .size
@@ -226,8 +226,8 @@ class viewSelectorState extends State<viewSelector> {
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                             colors: [
-                              Colors.deepOrangeAccent,
-                              Colors.orangeAccent,
+                              Color(0xff62a39c),
+                              Color(0xff13547a),
                             ],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight),
@@ -305,6 +305,18 @@ class viewSelectorState extends State<viewSelector> {
     case viewMarker.minimal:
       return minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,);
     }
-    return cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,);
-  }
+    return minimalView(cb1: cb1,
+      cb2: cb2,
+      cb3: cb3,
+      cb4: cb4,
+      cb5: cb5,
+      cb6: cb6,
+      cb7: cb7,
+      cb8: cb8,
+      cb9: cb9,
+      cb0: cb0,
+      en1: en1,
+      en2: en2,
+      en3: en3,);
+    }
 }

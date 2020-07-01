@@ -977,7 +977,7 @@ class minimalView extends StatelessWidget {
                     "moreAboutElement"),
                 child: SizedBox.expand(
                   child: Padding(
-                    padding: EdgeInsets.only(left: 0),
+                    padding: EdgeInsets.only(left: 7, right: 7),
                     child: ListView(
                       children: <Widget>[
                         Column(
@@ -1012,9 +1012,8 @@ class minimalView extends StatelessWidget {
                   hideShadow: true,
                   progressBarColors: <
                       Color>[
-                    Colors.orangeAccent,
-                    Colors
-                        .deepOrangeAccent,
+                    Color(0xff62a39c),
+                    Color(0xff13547a),
                   ],
                 ),
               ),

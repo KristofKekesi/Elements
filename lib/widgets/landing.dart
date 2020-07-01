@@ -115,8 +115,8 @@ class _landingState extends State<landing> {
                   width: MediaQuery.of(context).size.width,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(colors: [
-                      Colors.deepOrangeAccent,
-                      Colors.orangeAccent,
+                      Color(0xff62a39c),
+                      Color(0xff13547a),
                     ], begin: Alignment.topLeft, end: Alignment.bottomRight),
                     borderRadius: BorderRadius.circular(
                         (MediaQuery.of(context).size.height +
@@ -140,52 +140,52 @@ class _landingState extends State<landing> {
                               context: context,
                               builder: (context) {
                                 return DraggableScrollableSheet(
-                                  initialChildSize: .884,
-                                  maxChildSize: .884,
+                                  initialChildSize: .95,
+                                  maxChildSize: 1,
                                   builder:
                                       (BuildContext context, scrollController) {
-                                    return SingleChildScrollView(
+                                    return ClipRRect(
+                                      borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(
+                                            (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .1),
+                                        topRight: Radius.circular(
+                                            (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .1),
+                                      ),
+                                      child: BackdropFilter(
+                                        filter: ImageFilter.blur(
+                                            sigmaX: (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05,
+                                            sigmaY: (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05),
+                                        child: SingleChildScrollView(
                                       controller: scrollController,
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.only(
-                                          topLeft: Radius.circular(
-                                              (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .1),
-                                          topRight: Radius.circular(
-                                              (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .1),
-                                        ),
-                                        child: BackdropFilter(
-                                          filter: ImageFilter.blur(
-                                              sigmaX: (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .05,
-                                              sigmaY: (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .05),
-                                          child: Container(
+                                      child: Container(
                                             child: Center(
                                               child: Column(
                                                 children: <Widget>[
@@ -195,7 +195,7 @@ class _landingState extends State<landing> {
                                                                     context)
                                                                 .size
                                                                 .height *
-                                                            .02,
+                                                            .04,
                                                         bottom: MediaQuery.of(
                                                                     context)
                                                                 .size
@@ -287,9 +287,8 @@ class _landingState extends State<landing> {
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
-                                                          Colors.orangeAccent,
-                                                          Colors
-                                                              .deepOrangeAccent,
+                                                          Color(0xff62a39c),
+                                                          Color(0xff13547a),
                                                         ],
                                                       ),
                                                     ),
@@ -361,9 +360,8 @@ class _landingState extends State<landing> {
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
-                                                          Colors.orangeAccent,
-                                                          Colors
-                                                              .deepOrangeAccent,
+                                                          Color(0xff62a39c),
+                                                          Color(0xff13547a),
                                                         ],
                                                       ),
                                                     ),
@@ -450,53 +448,53 @@ class _landingState extends State<landing> {
                               context: context,
                               builder: (context) {
                                 return DraggableScrollableSheet(
-                                  initialChildSize: .795,
-                                  maxChildSize: .795,
+                                  initialChildSize: .95,
+                                  maxChildSize: 1,
                                   builder:
                                       (BuildContext context, scrollController) {
-                                    return SingleChildScrollView(
+                                    return ClipRRect(
+                                      borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(
+                                              (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .1),
+                                          topRight: Radius.circular(
+                                              (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .1)),
+                                      child: BackdropFilter(
+                                        filter: ImageFilter.blur(
+                                            sigmaX: (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05,
+                                            sigmaY: (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05),
+                                        child: SingleChildScrollView(
                                       controller: scrollController,
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.only(
-                                            topLeft: Radius.circular(
-                                                (MediaQuery.of(context)
-                                                            .size
-                                                            .height +
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width) /
-                                                    2 *
-                                                    .1),
-                                            topRight: Radius.circular(
-                                                (MediaQuery.of(context)
-                                                            .size
-                                                            .height +
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width) /
-                                                    2 *
-                                                    .1)),
-                                        child: BackdropFilter(
-                                          filter: ImageFilter.blur(
-                                              sigmaX: (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .05,
-                                              sigmaY: (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
-                                                  2 *
-                                                  .05),
-                                          child: Container(
                                             child: Center(
                                               child: Column(
+mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                 children: <Widget>[
                                                   Padding(
                                                     padding: EdgeInsets.only(
@@ -504,7 +502,7 @@ class _landingState extends State<landing> {
                                                                     context)
                                                                 .size
                                                                 .height *
-                                                            .02,
+                                                            .04,
                                                         bottom: MediaQuery.of(
                                                                     context)
                                                                 .size
@@ -928,7 +926,6 @@ class _landingState extends State<landing> {
                                             ),
                                           ),
                                         ),
-                                      ),
                                     );
                                   },
                                 );
@@ -1001,8 +998,8 @@ class _landingState extends State<landing> {
                     .13,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [
-                    Colors.deepOrangeAccent,
-                    Colors.orangeAccent,
+                    Color(0xff62a39c),
+                    Color(0xff13547a),
                   ], begin: Alignment.topLeft, end: Alignment.bottomRight),
                   borderRadius: BorderRadius.circular(
                       (MediaQuery.of(context).size.height +

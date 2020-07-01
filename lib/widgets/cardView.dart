@@ -830,7 +830,7 @@ class cardView extends StatelessWidget {
                               (MediaQuery.of(context).size.height +
                                       MediaQuery.of(context).size.width) /
                                   2 *
-                                  .04)),
+                                  .02)),
                       height: (MediaQuery.of(context).size.height +
                               MediaQuery.of(context).size.width) /
                           2 *
@@ -985,9 +985,8 @@ class cardView extends StatelessWidget {
               hideShadow: true,
               progressBarColors: <
                   Color>[
-                Colors.orangeAccent,
-                Colors
-                    .deepOrangeAccent,
+                Color(0xff62a39c),
+                Color(0xff13547a),
               ],
             ),
           ),
