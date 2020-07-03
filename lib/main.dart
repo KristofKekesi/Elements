@@ -1,10 +1,8 @@
-import 'package:flutter_chem/widgets/drawer.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_chem/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_chem/widgets/landing.dart';
 import 'package:flutter_chem/widgets/build.dart';
 
 void main() => runApp(MyApp());

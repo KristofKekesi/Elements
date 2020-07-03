@@ -70,8 +70,9 @@ class viewSelectorState extends State<viewSelector> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
-        Container(height: MediaQuery.of(context).size.height * .64, child:getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3),),
+        Container(height: MediaQuery.of(context).size.height * .65, child:getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3),),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -83,7 +84,6 @@ class viewSelectorState extends State<viewSelector> {
               },
               child: Padding(
                 padding: EdgeInsets.only(
-                    bottom: 20,
                     left: (MediaQuery
                         .of(context)
                         .size
@@ -191,7 +191,6 @@ class viewSelectorState extends State<viewSelector> {
                   },
                   child: Padding(
                     padding: EdgeInsets.only(
-                        bottom: 20,
                         right: (MediaQuery
                             .of(context)
                             .size

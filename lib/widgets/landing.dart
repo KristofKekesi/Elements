@@ -31,6 +31,7 @@ class landing extends StatefulWidget {
 
 // ignore: camel_case_types
 class _landingState extends State<landing> {
+
   @override
   Widget build(BuildContext context) {
     String percentageModifier(double value) {
@@ -103,13 +104,17 @@ class _landingState extends State<landing> {
               children: <Widget>[
                 Container(
                   width: MediaQuery.of(context).size.width,
-                  child: Text(AppLocalizations.of(
-                      context)
-                      .translate(
-                      'selectorTag'), style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,fontSize: (MediaQuery.of(context).size.height +
-                      MediaQuery.of(context).size.width) /
-                      2 *
-                      .08,),),
+                  child: Text(
+                    AppLocalizations.of(context).translate('selectorTag'),
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontSize: (MediaQuery.of(context).size.height +
+                              MediaQuery.of(context).size.width) /
+                          2 *
+                          .08,
+                    ),
+                  ),
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width,
@@ -148,44 +153,44 @@ class _landingState extends State<landing> {
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(
                                             (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
                                                 2 *
                                                 .1),
                                         topRight: Radius.circular(
                                             (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
                                                 2 *
                                                 .1),
                                       ),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
                                                 2 *
                                                 .05,
                                             sigmaY: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
                                                 2 *
                                                 .05),
                                         child: SingleChildScrollView(
-                                      controller: scrollController,
-                                      child: Container(
+                                          controller: scrollController,
+                                          child: Container(
                                             child: Center(
                                               child: Column(
                                                 children: <Widget>[
@@ -230,7 +235,7 @@ class _landingState extends State<landing> {
                                                     max: 4,
                                                     appearance:
                                                         CircularSliderAppearance(
-                                                          animationEnabled: false,
+                                                      animationEnabled: false,
                                                       size: (MediaQuery.of(
                                                                       context)
                                                                   .size
@@ -305,7 +310,7 @@ class _landingState extends State<landing> {
                                                     max: 4,
                                                     appearance:
                                                         CircularSliderAppearance(
-                                                          animationEnabled: false,
+                                                      animationEnabled: false,
                                                       size: (MediaQuery.of(
                                                                       context)
                                                                   .size
@@ -456,476 +461,447 @@ class _landingState extends State<landing> {
                                       borderRadius: BorderRadius.only(
                                           topLeft: Radius.circular(
                                               (MediaQuery.of(context)
-                                                  .size
-                                                  .height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                                          .size
+                                                          .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
                                                   2 *
                                                   .1),
                                           topRight: Radius.circular(
                                               (MediaQuery.of(context)
-                                                  .size
-                                                  .height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                                          .size
+                                                          .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
                                                   2 *
                                                   .1)),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
                                                 2 *
                                                 .05,
                                             sigmaY: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
                                                 2 *
                                                 .05),
                                         child: SingleChildScrollView(
-                                      controller: scrollController,
-                                            child: Center(
-                                              child: Column(
-mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                                children: <Widget>[
-                                                  Padding(
-                                                    padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
-                                                            .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
-                                                            .05),
-                                                    child: Text(
-                                                      AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'types') +
-                                                          ':',
-                                                      style: TextStyle(
-                                                        color: Colors.white,
-                                                        fontSize: (MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height +
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width) /
-                                                            2 *
-                                                            .07,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
+                                          controller: scrollController,
+                                          child: Center(
+                                            child: Column(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
+                                              children: <Widget>[
+                                                Padding(
+                                                  padding: EdgeInsets.only(
+                                                      top:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .height *
+                                                              .04,
+                                                      bottom:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .height *
+                                                              .05),
+                                                  child: Text(
+                                                    AppLocalizations.of(context)
+                                                            .translate(
+                                                                'types') +
+                                                        ':',
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                      fontSize: (MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .height +
+                                                              MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width) /
+                                                          2 *
+                                                          .07,
+                                                      fontWeight:
+                                                          FontWeight.bold,
                                                     ),
                                                   ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'otherNonmetals'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'otherNonmetals'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb1,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb1 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'nobleGases'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb1,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb1 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'nobleGases'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb2,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb2 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'alkaliMetals'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb2,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb2 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'alkaliMetals'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb3,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb3 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'alkaliEarthMetals'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb3,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb3 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'alkaliEarthMetals'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb4,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb4 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'metalloids'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb4,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb4 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'metalloids'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb5,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb5 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'post-transitionMetals'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb5,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb5 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'post-transitionMetals'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb6,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb6 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'transitionMetals'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb6,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb6 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'transitionMetals'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb7,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb7 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'lanthanoids'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb7,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb7 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'lanthanoids'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb8,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb8 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'actinoids'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb8,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb8 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'actinoids'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb9,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb9 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                  StatefulBuilder(
-                                                    builder: (BuildContext
-                                                            context,
-                                                        StateSetter setState) {
-                                                      return CheckboxListTile(
-                                                        title: Text(
-                                                          Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'unknown'),
-                                                          ),
-                                                          style: TextStyle(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                              color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
-                                                                  .05),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb9,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb9 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                          context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        Capitalizate(
+                                                          AppLocalizations.of(
+                                                                  context)
+                                                              .translate(
+                                                                  'unknown'),
                                                         ),
-                                                        controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
-                                                        value: cb0,
-                                                        onChanged:
-                                                            (bool value) {
-                                                          setState(
-                                                            () {
-                                                              cb0 = value;
-                                                            },
-                                                          );
-                                                        },
-                                                      );
-                                                    },
-                                                  ),
-                                                ],
-                                              ),
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                .05),
+                                                      ),
+                                                      controlAffinity:
+                                                          ListTileControlAffinity
+                                                              .platform,
+                                                      value: cb0,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                          () {
+                                                            cb0 = value;
+                                                          },
+                                                        );
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                              ],
                                             ),
                                           ),
                                         ),
+                                      ),
                                     );
                                   },
                                 );
@@ -1009,10 +985,7 @@ mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 ),
                 child: Center(
                   child: Text(
-                    AppLocalizations.of(
-                        context)
-                        .translate(
-                        'search'),
+                    AppLocalizations.of(context).translate('search'),
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,

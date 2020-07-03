@@ -321,6 +321,9 @@ class cardView extends StatelessWidget {
                                                         ),
                                                       ),
                                                     ),
+                                                    Tooltip(
+                                                      message: AppLocalizations.of(context).translate("elementNumber"),
+                                                    child:
                                                     Text(elementList[index]
                                                     ["number"].toString(), style: TextStyle(
                                                       fontWeight:
@@ -336,7 +339,8 @@ class cardView extends StatelessWidget {
                                                               .width) /
                                                           2 *
                                                           .08,
-                                                    ),)
+                                                    ),),
+                                                    ),
                                                   ],
                                                 ),
                                           ),
