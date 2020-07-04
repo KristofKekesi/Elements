@@ -25,17 +25,17 @@ class _MyAppState extends State<MyApp> {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: [
-        const Locale('en', 'US'),
-        const Locale('hu', 'HU'),
+        const Locale('hu', ''),
+        const Locale('en', ''),
       ],
       localeResolutionCallback: (locale, supportedLocales) {
         for (var supportedLocale in supportedLocales) {
-          if (locale.languageCode == supportedLocale.languageCode &&
-              locale.countryCode == supportedLocale.countryCode) {
+          print('loc ' + locale.languageCode);
+          print('sup ' + supportedLocale.languageCode);
+          if (locale.languageCode == supportedLocale.languageCode) {
             return supportedLocale;
           }
         }
-
         return supportedLocales.first;
       },
       debugShowCheckedModeBanner: false,
