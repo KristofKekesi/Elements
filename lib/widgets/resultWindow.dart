@@ -24,7 +24,22 @@ class searchResults extends StatelessWidget {
   final double en2;
   final bool en3;
 
-  const searchResults({Key key, this.cb1, this.cb2, this.cb3, this.cb4, this.cb5, this.cb6, this.cb7, this.cb8, this.cb9, this.cb0, this.en1, this.en2, this.en3}) : super(key: key);
+  const searchResults(
+      {Key key,
+      this.cb1,
+      this.cb2,
+      this.cb3,
+      this.cb4,
+      this.cb5,
+      this.cb6,
+      this.cb7,
+      this.cb8,
+      this.cb9,
+      this.cb0,
+      this.en1,
+      this.en2,
+      this.en3})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -41,8 +56,8 @@ class searchResults extends StatelessWidget {
                             MediaQuery.of(context).size.width) /
                         2 *
                         .05,
-                    top: 20,
-                bottom: 20),
+                    top: MediaQuery.of(context).size.height * .02,
+                    bottom: MediaQuery.of(context).size.height * .02),
                 child: Row(
                   children: <Widget>[
                     GestureDetector(
@@ -52,13 +67,10 @@ class searchResults extends StatelessWidget {
                       child: Tooltip(
                         message: AppLocalizations.of(context).translate("back"),
                         child: Image(
-                          image: AssetImage("lib/icons/left_500.png"),
-                          height:                             MediaQuery.of(context).size.width *
-                              .105,
-                          width:
-                                  MediaQuery.of(context).size.width *
-                              .105),
-                    ),
+                            image: AssetImage("lib/icons/left_500.png"),
+                            height: MediaQuery.of(context).size.width * .105,
+                            width: MediaQuery.of(context).size.width * .105),
+                      ),
                     ),
                     Text(
                       ' ' + AppLocalizations.of(context).translate('title'),
@@ -72,7 +84,21 @@ class searchResults extends StatelessWidget {
                 ),
               ),
             ),
-            viewSelector(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
+            viewSelector(
+              cb1: cb1,
+              cb2: cb2,
+              cb3: cb3,
+              cb4: cb4,
+              cb5: cb5,
+              cb6: cb6,
+              cb7: cb7,
+              cb8: cb8,
+              cb9: cb9,
+              cb0: cb0,
+              en1: en1,
+              en2: en2,
+              en3: en3,
+            ),
             //cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
             //minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
           ],

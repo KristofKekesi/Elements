@@ -72,7 +72,7 @@ class viewSelectorState extends State<viewSelector> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
-        Container(height: MediaQuery.of(context).size.height * .65, child:getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3),),
+        Container(height: MediaQuery.of(context).size.height * .70, child:getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3),),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -84,39 +84,25 @@ class viewSelectorState extends State<viewSelector> {
               },
               child: Padding(
                 padding: EdgeInsets.only(
-                    left: (MediaQuery
-                        .of(context)
-                        .size
-                        .height +
-                        MediaQuery
+                    left:    MediaQuery
                             .of(context)
                             .size
-                            .width) /
-                        2 *
-                        .05),
+                            .width
+                        *
+                        .1,),
                 child: Tooltip(
                   message: AppLocalizations.of(context).translate("cardView"),
                   child: Container(
-                    width: (MediaQuery
+                    width: MediaQuery
                         .of(context)
                         .size
-                        .width +
-                        MediaQuery
-                            .of(context)
-                            .size
-                            .height) /
-                        2 *
-                        .35 - 30,
-                    height: (MediaQuery
+                        .width *
+                        .35,
+                    height: MediaQuery
                         .of(context)
                         .size
-                        .height +
-                        MediaQuery
-                            .of(context)
-                            .size
-                            .width) /
-                        2 *
-                        .13,
+                        .height *
+                        .1,
                     decoration: BoxDecoration(
                       gradient: LinearGradient(colors: [
                         Color(0xff62a39c),
@@ -184,37 +170,25 @@ class viewSelectorState extends State<viewSelector> {
                   },
                   child: Padding(
                     padding: EdgeInsets.only(
-                        right: (MediaQuery
-                            .of(context)
-                            .size
-                            .height +
+                        right:
                             MediaQuery
                                 .of(context)
                                 .size
-                                .width) /
-                            2 *
-                            .05),
+                                .width
+                             *
+                            .1),
                     child: Container(
-                      width: (MediaQuery
+                      width: MediaQuery
                           .of(context)
                           .size
-                          .width +
-                          MediaQuery
-                              .of(context)
-                              .size
-                              .height) /
-                          2 *
-                          .35 - 30,
-                      height: (MediaQuery
+                          .width
+                           *
+                          .35,
+                      height: MediaQuery
                           .of(context)
                           .size
-                          .height +
-                          MediaQuery
-                              .of(context)
-                              .size
-                              .width) /
-                          2 *
-                          .13,
+                          .height *
+                          .1,
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                             colors: [

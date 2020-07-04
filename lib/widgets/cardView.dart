@@ -48,6 +48,7 @@ class cardView extends StatelessWidget {
         if (snapshot.hasData) {
           var elementList = json.decode(snapshot.data.toString());
           final listElements = <Widget>[];
+          listElements.add(new Container(width: MediaQuery.of(context).size.width * .05,));
           for (var index = 0; index < elementList.length; index++) {
             if (en3 == true &&
                     elementList[index]['electronnegativity'] == 'unknown' ||
@@ -225,26 +226,18 @@ class cardView extends StatelessWidget {
                                         child: Container(
                                           child: Padding(
                                             padding: EdgeInsets.only(
-                                                left: (MediaQuery.of(context)
-                                                                .size
-                                                                .height +
+                                                left:
                                                             MediaQuery.of(
                                                                     context)
                                                                 .size
-                                                                .width) /
-                                                        2 *
-                                                        .03 +
-                                                    30,
-                                                right: (MediaQuery.of(context)
-                                                    .size
-                                                    .height +
+                                                                .width *
+                                                        .1,
+                                                right:
                                                     MediaQuery.of(
                                                         context)
                                                         .size
-                                                        .width) /
-                                                    2 *
-                                                    .03 +
-                                                    30,
+                                                        .width *
+                                                    .01,
                                                 top: 30,
                                                 bottom: 30),
                                             child: Column(
@@ -812,18 +805,14 @@ class cardView extends StatelessWidget {
                     },
                     child: Container(
                       margin: EdgeInsets.only(
-                          left: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
+                          left:
+                                  MediaQuery.of(context).size.width *
                               .05,
-                          right: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
+                          right:
+                                  MediaQuery.of(context).size.width *
                               .05,
-                          bottom: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
-                              .05),
+                          bottom: MediaQuery.of(context).size.height *
+                              .03,),
                       decoration: new BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage(
@@ -965,6 +954,7 @@ class cardView extends StatelessWidget {
               }
             }
           }
+          listElements.add(new Container(width: MediaQuery.of(context).size.width * .05,));
 
           return new Tooltip(
             message: AppLocalizations.of(context).translate("moreAboutElement"),
