@@ -52,10 +52,9 @@ class searchResults extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: Padding(
                 padding: EdgeInsets.only(
-                    left: (MediaQuery.of(context).size.height +
-                            MediaQuery.of(context).size.width) /
-                        2 *
-                        .05,
+                    left:
+                            MediaQuery.of(context).size.width *
+                        .1,
                     top: MediaQuery.of(context).size.height * .02,
                     bottom: MediaQuery.of(context).size.height * .02),
                 child: Row(

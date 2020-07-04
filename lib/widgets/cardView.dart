@@ -231,13 +231,13 @@ class cardView extends StatelessWidget {
                                                                     context)
                                                                 .size
                                                                 .width *
-                                                        .1,
+                                                        .15,
                                                 right:
                                                     MediaQuery.of(
                                                         context)
                                                         .size
                                                         .width *
-                                                    .01,
+                                                    .15,
                                                 top: 30,
                                                 bottom: 30),
                                             child: Column(
@@ -812,7 +812,7 @@ class cardView extends StatelessWidget {
                                   MediaQuery.of(context).size.width *
                               .05,
                           bottom: MediaQuery.of(context).size.height *
-                              .03,),
+                              .035,),
                       decoration: new BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage(
@@ -823,15 +823,12 @@ class cardView extends StatelessWidget {
                               (MediaQuery.of(context).size.height +
                                       MediaQuery.of(context).size.width) /
                                   2 *
-                                  .02)),
-                      height: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
+                                  .02 + 10)),
+                      height: MediaQuery.of(context).size.height
+                               * .9,
+                      width: MediaQuery.of(context).size.width
+                               *
                           .8,
-                      width: (MediaQuery.of(context).size.width +
-                              MediaQuery.of(context).size.height) /
-                          2 *
-                          .55,
                       child: new Column(
                         //crossAxisAlignment: CrossAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.start,

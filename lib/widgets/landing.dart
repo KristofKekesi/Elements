@@ -46,11 +46,12 @@ class _landingState extends State<landing> {
             alignment: Alignment.topLeft,
             child: Padding(
               padding: EdgeInsets.only(
-                  left: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
-                      2 *
-                      .05,
-                  top: 20),
+                  left:
+                          MediaQuery.of(context).size.width
+                       *
+                      .1,
+                  top: MediaQuery.of(context).size.height * .02,
+                  bottom: MediaQuery.of(context).size.height * .02),
               child: Row(
                 children: <Widget>[
                   GestureDetector(
@@ -83,14 +84,12 @@ class _landingState extends State<landing> {
             padding: EdgeInsets.only(
                 top: MediaQuery.of(context).size.height * .05,
                 bottom: MediaQuery.of(context).size.height * .05,
-                right: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                    2 *
-                    .05,
-                left: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                    2 *
-                    .05),
+                right:
+                        MediaQuery.of(context).size.width *
+                    .1,
+                left:
+                        MediaQuery.of(context).size.width *
+                    .1),
             child: Column(
               children: <Widget>[
                 Container(
@@ -969,7 +968,7 @@ class _landingState extends State<landing> {
             },
             child: Padding(
               padding: EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 22,
                   right: (MediaQuery.of(context).size.height +
                           MediaQuery.of(context).size.width) /
                       2 *
@@ -979,11 +978,9 @@ class _landingState extends State<landing> {
                       2 *
                       .05),
               child: Container(
-                width: MediaQuery.of(context).size.width + .7,
-                height: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                    2 *
-                    .13,
+                width: MediaQuery.of(context).size.width * .8,
+                height: MediaQuery.of(context).size.height *
+                    .1,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [
                     Color(0xff62a39c),

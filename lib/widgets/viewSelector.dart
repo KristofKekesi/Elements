@@ -72,7 +72,7 @@ class viewSelectorState extends State<viewSelector> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
-        Container(height: MediaQuery.of(context).size.height * .70, child:getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3),),
+        Container(height: MediaQuery.of(context).size.height * .69, child:getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3),),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
