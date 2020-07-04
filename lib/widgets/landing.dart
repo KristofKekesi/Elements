@@ -31,7 +31,6 @@ class landing extends StatefulWidget {
 
 // ignore: camel_case_types
 class _landingState extends State<landing> {
-
   @override
   Widget build(BuildContext context) {
     String percentageModifier(double value) {
@@ -67,10 +66,7 @@ class _landingState extends State<landing> {
                                   MediaQuery.of(context).size.width) /
                               2 *
                               .09,
-                          width: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
-                              .09),
+                          width: MediaQuery.of(context).size.width * .105),
                     ),
                   ),
                   Text(
@@ -78,10 +74,7 @@ class _landingState extends State<landing> {
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,
-                        fontSize: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .095,
+                        fontSize: MediaQuery.of(context).size.width * .12,
                         fontWeight: FontWeight.bold),
                   ),
                 ],
@@ -109,10 +102,9 @@ class _landingState extends State<landing> {
                     style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
-                      fontSize: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .08,
+                      fontSize:
+                              MediaQuery.of(context).size.width *
+                          .12,
                     ),
                   ),
                 ),
@@ -216,16 +208,12 @@ class _landingState extends State<landing> {
                                                         color: Colors.white,
                                                         fontWeight:
                                                             FontWeight.bold,
-                                                        fontSize: (MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height +
+                                                        fontSize:
                                                                 MediaQuery.of(
                                                                         context)
                                                                     .size
-                                                                    .width) /
-                                                            2 *
-                                                            .07,
+                                                                    .width *
+                                                            .09,
                                                       ),
                                                     ),
                                                   ),
@@ -292,8 +280,8 @@ class _landingState extends State<landing> {
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
-                                                          Color(0xff62a39c),
                                                           Color(0xff13547a),
+                                                          Color(0xff62a39c),
                                                         ],
                                                       ),
                                                     ),
@@ -365,8 +353,8 @@ class _landingState extends State<landing> {
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
-                                                          Color(0xff62a39c),
                                                           Color(0xff13547a),
+                                                          Color(0xff62a39c),
                                                         ],
                                                       ),
                                                     ),
@@ -404,6 +392,9 @@ class _landingState extends State<landing> {
                                                         controlAffinity:
                                                             ListTileControlAffinity
                                                                 .platform,
+                                                        activeColor:
+                                                            Color.fromRGBO(255,
+                                                                255, 255, 0),
                                                         value: en3,
                                                         onChanged:
                                                             (bool value) {
@@ -437,10 +428,10 @@ class _landingState extends State<landing> {
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 height: 1,
-                                fontSize: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
-                                    2 *
-                                    .08,
+                                fontSize:
+                                        MediaQuery.of(context).size.width
+                                    *
+                                    .1,
                                 color: Colors.white,
                               ),
                             ),
@@ -522,16 +513,11 @@ class _landingState extends State<landing> {
                                                         ':',
                                                     style: TextStyle(
                                                       color: Colors.white,
-                                                      fontSize: (MediaQuery.of(
-                                                                      context)
+                                                      fontSize:
+                                                          MediaQuery.of(context)
                                                                   .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
-                                                          2 *
-                                                          .07,
+                                                                  .width *
+                                                              .08,
                                                       fontWeight:
                                                           FontWeight.bold,
                                                     ),
@@ -562,6 +548,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb1,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -598,6 +587,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb2,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -634,6 +626,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb3,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -670,6 +665,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb4,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -706,6 +704,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb5,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -742,6 +743,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb6,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -778,6 +782,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb7,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -814,6 +821,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb8,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -850,6 +860,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb9,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -886,6 +899,9 @@ class _landingState extends State<landing> {
                                                       controlAffinity:
                                                           ListTileControlAffinity
                                                               .platform,
+                                                      activeColor:
+                                                          Color.fromRGBO(
+                                                              255, 255, 255, 0),
                                                       value: cb0,
                                                       onChanged: (bool value) {
                                                         setState(
@@ -916,10 +932,8 @@ class _landingState extends State<landing> {
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 height: 1,
-                                fontSize: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
-                                    2 *
-                                    .08,
+                                fontSize:
+                                    MediaQuery.of(context).size.width * .1,
                                 color: Colors.white,
                               ),
                             ),
@@ -989,10 +1003,7 @@ class _landingState extends State<landing> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
-                            2 *
-                            .06),
+                        fontSize: MediaQuery.of(context).size.width * .08),
                   ),
                 ),
               ),

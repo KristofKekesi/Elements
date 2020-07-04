@@ -14,8 +14,6 @@ class customDrawer extends StatelessWidget {
   _launchURL(url) async {
     if (await canLaunch(url)) {
       await launch(url);
-    } else {
-      throw 'Error launching $url';
     }
   }
 
@@ -61,9 +59,8 @@ class customDrawer extends StatelessWidget {
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
+                      fontSize:
+                              MediaQuery.of(context).size.width *
                           .07),
                 ),
               ),
@@ -78,9 +75,8 @@ class customDrawer extends StatelessWidget {
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
+                      fontSize:
+                              MediaQuery.of(context).size.width *
                           .07),
                 ),
               ),
@@ -96,9 +92,8 @@ class customDrawer extends StatelessWidget {
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
+                      fontSize:
+                              MediaQuery.of(context).size.width *
                           .07),
                 ),
               ),
@@ -114,9 +109,8 @@ class customDrawer extends StatelessWidget {
                         style: TextStyle(
                             letterSpacing: 2,
                             fontWeight: FontWeight.bold,
-                            fontSize: (MediaQuery.of(context).size.height +
-                                    MediaQuery.of(context).size.width) /
-                                2 *
+                            fontSize:
+                                    MediaQuery.of(context).size.width *
                                 .07)))),
             Divider(
               thickness: MediaQuery.of(context).size.height * .005,
@@ -133,9 +127,8 @@ class customDrawer extends StatelessWidget {
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
+                      fontSize:
+                              MediaQuery.of(context).size.width *
                           .05),
                 ),
               ),
