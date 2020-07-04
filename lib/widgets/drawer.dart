@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'preferenciesWindow.dart';
 import 'localization.dart';
 
 // ignore: non_constant_identifier_names
@@ -36,17 +35,7 @@ class customDrawer extends StatelessWidget {
                         fit: BoxFit.fill)),
               ),
             ),
-            GestureDetector(
-              onTap: () {
-                Navigator.pop(context);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => preferenciesWindow(),
-                  ),
-                );
-              },
-              child: Padding(
+            Padding(
                 padding: EdgeInsets.only(
                     top: MediaQuery.of(context).size.height * .03),
            child: GestureDetector(
@@ -66,7 +55,6 @@ class customDrawer extends StatelessWidget {
               ),
            ),
               ),
-            ),
             GestureDetector(
               onTap: (){_launchURL('https://github.com/KristofKekesi/Elements/blob/master/README.md#contacts-');},
               child: ListTile(

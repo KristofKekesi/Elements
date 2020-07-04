@@ -62,10 +62,8 @@ class _landingState extends State<landing> {
                           "" + AppLocalizations.of(context).translate("menu"),
                       child: Image(
                           image: AssetImage("lib/icons/right_500.png"),
-                          height: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
-                              .09,
+                          height: MediaQuery.of(context).size.width *
+                              .105,
                           width: MediaQuery.of(context).size.width * .105),
                     ),
                   ),
@@ -387,7 +385,7 @@ class _landingState extends State<landing> {
                                                                           context)
                                                                       .size
                                                                       .height *
-                                                                  .05),
+                                                                  .04),
                                                         ),
                                                         controlAffinity:
                                                             ListTileControlAffinity
@@ -543,7 +541,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -582,7 +580,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -621,7 +619,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -660,7 +658,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -699,7 +697,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -738,7 +736,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -777,7 +775,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -816,7 +814,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -855,7 +853,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity
@@ -894,7 +892,7 @@ class _landingState extends State<landing> {
                                                                         context)
                                                                     .size
                                                                     .height *
-                                                                .05),
+                                                                .04),
                                                       ),
                                                       controlAffinity:
                                                           ListTileControlAffinity

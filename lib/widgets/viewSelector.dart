@@ -149,30 +149,23 @@ class viewSelectorState extends State<viewSelector> {
                                     .width) /
                                 2 *
                                 .06,
-                            width: (MediaQuery
-                                .of(context)
-                                .size
-                                .height +
+                            width:
                                 MediaQuery
                                     .of(context)
                                     .size
-                                    .width) /
-                                2 *
+                                    .width *
                                 .04),
                         Text(
                           " " + AppLocalizations.of(context).translate('cards'),
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
-                              fontSize: (MediaQuery
-                                  .of(context)
-                                  .size
-                                  .height +
+                              fontSize:
                                   MediaQuery
                                       .of(context)
                                       .size
-                                      .width) /
-                                  2 *
+                                      .width
+                                   *
                                   .05),
                         ),
                       ],
@@ -258,15 +251,12 @@ class viewSelectorState extends State<viewSelector> {
                                       .width) /
                                   2 *
                                   .06,
-                              width: (MediaQuery
-                                  .of(context)
-                                  .size
-                                  .height +
+                              width:
                                   MediaQuery
                                       .of(context)
                                       .size
-                                      .width) /
-                                  2 *
+                                      .width
+                                   *
                                   .04),
                           Text(
                             " " +
@@ -275,15 +265,11 @@ class viewSelectorState extends State<viewSelector> {
                             style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
-                                fontSize: (MediaQuery
-                                    .of(context)
-                                    .size
-                                    .height +
+                                fontSize:
                                     MediaQuery
                                         .of(context)
                                         .size
-                                        .width) /
-                                    2 *
+                                        .width *
                                     .05),
                           ),
                         ],

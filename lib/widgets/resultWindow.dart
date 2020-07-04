@@ -53,14 +53,11 @@ class searchResults extends StatelessWidget {
                         message: AppLocalizations.of(context).translate("back"),
                         child: Image(
                           image: AssetImage("lib/icons/left_500.png"),
-                          height: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
-                              .09,
-                          width: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
-                              .09),
+                          height:                             MediaQuery.of(context).size.width *
+                              .105,
+                          width:
+                                  MediaQuery.of(context).size.width *
+                              .105),
                     ),
                     ),
                     Text(
@@ -68,10 +65,7 @@ class searchResults extends StatelessWidget {
                       textAlign: TextAlign.left,
                       style: new TextStyle(
                           color: Colors.black,
-                          fontSize: (MediaQuery.of(context).size.height +
-                                  MediaQuery.of(context).size.width) /
-                              2 *
-                              .095,
+                          fontSize: MediaQuery.of(context).size.width * .12,
                           fontWeight: FontWeight.bold),
                     ),
                   ],
