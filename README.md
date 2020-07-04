@@ -10,7 +10,14 @@
 <span style="text-align: justify;">A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat. Only joking. __WE DO NOT RECCOMMEND THAT__!</span>
 ## State <img src="https://img.shields.io/badge/Debugging-red.svg" alt="">
 <img src="img/state.png">
- 
+
+## Beta program
+#### To aply:
+Send an email to kristofkekesiofficial@gmail.com with your name and email address and some sentences about yourself and why are you interested in the app.
+#### Requirements:
+- Phone or tablet with Android
+- Google Drive
+
  ## Latest Features <img src="https://img.shields.io/badge/Day%2022-brown.svg" alt="">
  - bugfixes
  - big screen optimalization
