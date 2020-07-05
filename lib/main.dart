@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_chem/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
@@ -16,6 +17,15 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
 
   @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitDown,
+      DeviceOrientation.portraitUp,
+    ]);
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       localizationsDelegates: [
@@ -30,8 +40,6 @@ class _MyAppState extends State<MyApp> {
       ],
       localeResolutionCallback: (locale, supportedLocales) {
         for (var supportedLocale in supportedLocales) {
-          print('loc ' + locale.languageCode);
-          print('sup ' + supportedLocale.languageCode);
           if (locale.languageCode == supportedLocale.languageCode) {
             return supportedLocale;
           }
