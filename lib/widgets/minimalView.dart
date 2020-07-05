@@ -193,75 +193,64 @@ class minimalView extends StatelessWidget {
                                 return DraggableScrollableSheet(
                                     initialChildSize: .56,
                                     maxChildSize: 1,
-                                    builder: (BuildContext context,
-                                        ScrollController scrollController) {
-                                      return SingleChildScrollView(
-                                        controller: scrollController,
-                                        child: ClipRRect(
-                                          borderRadius: BorderRadius.only(
-                                              topLeft: Radius.circular(
-                                                  (MediaQuery.of(context)
+                                    builder:
+                                        (BuildContext context, scrollController) {
+                                      return ClipRRect(
+                                        borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(
+                                              (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
                                                       .size
-                                                      .height +
-                                                      MediaQuery.of(
-                                                          context)
-                                                          .size
-                                                          .width) /
-                                                      2 *
-                                                      .03 +
-                                                      30),
-                                              topRight: Radius.circular(
-                                                  (MediaQuery.of(context)
+                                                      .width) /
+                                                  2 *
+                                                  .1),
+                                          topRight: Radius.circular(
+                                              (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
                                                       .size
-                                                      .height +
-                                                      MediaQuery.of(
-                                                          context)
-                                                          .size
-                                                          .width) /
-                                                      2 *
-                                                      .03 +
-                                                      30)),
-                                          child: BackdropFilter(
-                                            filter: ImageFilter.blur(
-                                                sigmaX: (MediaQuery.of(context)
-                                                    .size
-                                                    .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
-                                                    2 *
-                                                    .05,
-                                                sigmaY: (MediaQuery.of(context)
-                                                    .size
-                                                    .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
-                                                    2 *
-                                                    .05),
+                                                      .width) /
+                                                  2 *
+                                                  .1),
+                                        ),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                              sigmaX: (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05,
+                                              sigmaY: (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05),
+                                          child: SingleChildScrollView(
+                                            controller: scrollController,
                                             child: Container(
                                               child: Padding(
                                                 padding: EdgeInsets.only(
-                                                    left: (MediaQuery.of(context)
+                                                    left:
+                                                    MediaQuery.of(
+                                                        context)
                                                         .size
-                                                        .height +
-                                                        MediaQuery.of(
-                                                            context)
-                                                            .size
-                                                            .width) /
-                                                        2 *
-                                                        .03 +
-                                                        30,
-                                                    right: (MediaQuery.of(context)
+                                                        .width *
+                                                        .15,
+                                                    right:
+                                                    MediaQuery.of(
+                                                        context)
                                                         .size
-                                                        .height +
-                                                        MediaQuery.of(
-                                                            context)
-                                                            .size
-                                                            .width) /
-                                                        2 *
-                                                        .03 +
-                                                        30,
+                                                        .width *
+                                                        .15,
                                                     top: 30,
                                                     bottom: 30),
                                                 child: Column(
@@ -285,16 +274,13 @@ class minimalView extends StatelessWidget {
                                                           FontWeight.bold,
                                                           color: Colors.white,
                                                           height: 1.2,
-                                                          fontSize: (MediaQuery.of(
+                                                          fontSize:
+                                                          MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height +
-                                                              MediaQuery.of(
-                                                                  context)
-                                                                  .size
-                                                                  .width) /
-                                                              2 *
-                                                              .1,
+                                                              .width
+                                                              *
+                                                              (1 / int.parse(AppLocalizations.of(context).translate("maxVolume"))),
                                                         ),
                                                       ),
                                                     ),
@@ -325,16 +311,12 @@ class minimalView extends StatelessWidget {
                                                                 fontWeight:
                                                                 FontWeight.bold,
                                                                 color: Colors.white,
-                                                                fontSize: (MediaQuery.of(
+                                                                fontSize:
+                                                                MediaQuery.of(
                                                                     context)
                                                                     .size
-                                                                    .height +
-                                                                    MediaQuery.of(
-                                                                        context)
-                                                                        .size
-                                                                        .width) /
-                                                                    2 *
-                                                                    .08,
+                                                                    .width*
+                                                                    (1 / int.parse(AppLocalizations.of(context).translate("maxVolume"))),
                                                               ),
                                                             ),
                                                           ),
@@ -346,16 +328,12 @@ class minimalView extends StatelessWidget {
                                                               fontWeight:
                                                               FontWeight.bold,
                                                               color: Colors.white,
-                                                              fontSize: (MediaQuery.of(
+                                                              fontSize:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .08,
+                                                                  .width *
+                                                                  (1 / int.parse(AppLocalizations.of(context).translate("maxVolume"))),
                                                             ),),
                                                           ),
                                                         ],
@@ -370,42 +348,29 @@ class minimalView extends StatelessWidget {
                                                           Image(
                                                               image: AssetImage(
                                                                   consistencyIcon()),
-                                                              height: (MediaQuery.of(
+                                                              height:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .055,
-                                                              width: (MediaQuery.of(
+                                                                  .width *
+                                                                  .07,
+                                                              width:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .055),
+                                                                  .width *
+                                                                  .07),
                                                           Text(
                                                             consistencyText(),
                                                             style: TextStyle(
                                                               color: Colors.white,
                                                               fontWeight:
                                                               FontWeight.bold,
-                                                              fontSize: (MediaQuery.of(
+                                                              fontSize:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .06,
+                                                                  .width* .08,
                                                             ),
                                                           ),
                                                         ],
@@ -420,42 +385,30 @@ class minimalView extends StatelessWidget {
                                                           Image(
                                                               image: AssetImage(
                                                                   "lib/icons/discovery_white_500.png"),
-                                                              height: (MediaQuery.of(
+                                                              height:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .06,
-                                                              width: (MediaQuery.of(
+                                                                  .width*
+                                                                  .07,
+                                                              width:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .06),
+                                                                  .width*
+                                                                  .07),
                                                           Text(
                                                             discoveryText(),
                                                             style: TextStyle(
                                                               color: Colors.white,
                                                               fontWeight:
                                                               FontWeight.bold,
-                                                              fontSize: (MediaQuery.of(
+                                                              fontSize:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .06,
+                                                                  .width*
+                                                                  .08,
                                                             ),
                                                           ),
                                                         ],
@@ -471,26 +424,17 @@ class minimalView extends StatelessWidget {
                                                           Image(
                                                               image: AssetImage(
                                                                   "lib/icons/radioactive_white_500.png"),
-                                                              height: (MediaQuery.of(
+                                                              height:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .05,
-                                                              width: (MediaQuery.of(
+                                                                  .width*
+                                                                  .07,
+                                                              width: MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .05),
+                                                                  .width*
+                                                                  .07),
                                                           Text(
                                                             " " +
                                                                 radioactivityString(),
@@ -498,16 +442,12 @@ class minimalView extends StatelessWidget {
                                                               color: Colors.white,
                                                               fontWeight:
                                                               FontWeight.bold,
-                                                              fontSize: (MediaQuery.of(
+                                                              fontSize:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .06,
+                                                                  .width*
+                                                                  .08,
                                                             ),
                                                           ),
                                                         ],
@@ -520,16 +460,11 @@ class minimalView extends StatelessWidget {
                                                           .7,
                                                       child: Padding(
                                                         padding: EdgeInsets.only(
-                                                            top: 3,
-                                                            bottom: (MediaQuery.of(
+                                                            top: MediaQuery.of(context).size.height * .01,
+                                                            bottom: MediaQuery.of(
                                                                 context)
                                                                 .size
-                                                                .height +
-                                                                MediaQuery.of(
-                                                                    context)
-                                                                    .size
-                                                                    .width) /
-                                                                2 *
+                                                                .height *
                                                                 .05),
                                                         child: Text(
                                                           AppLocalizations.of(
@@ -540,16 +475,12 @@ class minimalView extends StatelessWidget {
                                                             color: Colors.white70,
                                                             fontWeight:
                                                             FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
+                                                            fontSize:
+                                                            MediaQuery.of(
                                                                 context)
                                                                 .size
-                                                                .height +
-                                                                MediaQuery.of(
-                                                                    context)
-                                                                    .size
-                                                                    .width) /
-                                                                2 *
-                                                                .04,
+                                                                .width *
+                                                                .06,
                                                           ),
                                                         ),
                                                       ),
@@ -564,16 +495,12 @@ class minimalView extends StatelessWidget {
                                                           color: Colors.white,
                                                           fontWeight:
                                                           FontWeight.bold,
-                                                          fontSize: (MediaQuery.of(
+                                                          fontSize:
+                                                          MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height +
-                                                              MediaQuery.of(
-                                                                  context)
-                                                                  .size
-                                                                  .width) /
-                                                              2 *
-                                                              .06,
+                                                              .width*
+                                                              .08,
                                                         ),
                                                       ),
                                                     ),
@@ -608,16 +535,12 @@ class minimalView extends StatelessWidget {
                                                             color: Colors.white,
                                                             fontWeight:
                                                             FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
+                                                            fontSize:
+                                                            MediaQuery.of(
                                                                 context)
                                                                 .size
-                                                                .height +
-                                                                MediaQuery.of(
-                                                                    context)
-                                                                    .size
-                                                                    .width) /
-                                                                2 *
-                                                                .06,
+                                                                .width*
+                                                                .08,
                                                           ),
                                                         ),
                                                       ),
@@ -639,16 +562,12 @@ class minimalView extends StatelessWidget {
                                                           color: Colors.white,
                                                           fontWeight:
                                                           FontWeight.bold,
-                                                          fontSize: (MediaQuery.of(
+                                                          fontSize:
+                                                          MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height +
-                                                              MediaQuery.of(
-                                                                  context)
-                                                                  .size
-                                                                  .width) /
-                                                              2 *
-                                                              .06,
+                                                              .width*
+                                                              .08,
                                                         ),
                                                       ),
                                                     ),
@@ -669,16 +588,12 @@ class minimalView extends StatelessWidget {
                                                           color: Colors.white,
                                                           fontWeight:
                                                           FontWeight.bold,
-                                                          fontSize: (MediaQuery.of(
+                                                          fontSize:
+                                                          MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height +
-                                                              MediaQuery.of(
-                                                                  context)
-                                                                  .size
-                                                                  .width) /
-                                                              2 *
-                                                              .06,
+                                                              .width*
+                                                              .08,
                                                         ),
                                                       ),
                                                     ),
@@ -689,7 +604,7 @@ class minimalView extends StatelessWidget {
                                                           .7,
                                                       child: Padding(
                                                         padding:
-                                                        EdgeInsets.only(top: 3),
+                                                        EdgeInsets.only(top: MediaQuery.of(context).size.height * .01),
                                                         child: Text(
                                                           AppLocalizations.of(
                                                               context)
@@ -699,16 +614,12 @@ class minimalView extends StatelessWidget {
                                                             color: Colors.white70,
                                                             fontWeight:
                                                             FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
+                                                            fontSize:
+                                                            MediaQuery.of(
                                                                 context)
                                                                 .size
-                                                                .height +
-                                                                MediaQuery.of(
-                                                                    context)
-                                                                    .size
-                                                                    .width) /
-                                                                2 *
-                                                                .04,
+                                                                .width*
+                                                                .06,
                                                           ),
                                                         ),
                                                       ),
@@ -744,16 +655,12 @@ class minimalView extends StatelessWidget {
                                                               fontWeight:
                                                               FontWeight.bold,
                                                               color: Colors.white,
-                                                              fontSize: (MediaQuery.of(
+                                                              fontSize:
+                                                              MediaQuery.of(
                                                                   context)
                                                                   .size
-                                                                  .height +
-                                                                  MediaQuery.of(
-                                                                      context)
-                                                                      .size
-                                                                      .width) /
-                                                                  2 *
-                                                                  .06,
+                                                                  .width*
+                                                                  .08,
                                                             ),
                                                           ),
                                                         ),
@@ -775,16 +682,12 @@ class minimalView extends StatelessWidget {
                                                           fontWeight:
                                                           FontWeight.bold,
                                                           color: Colors.white,
-                                                          fontSize: (MediaQuery.of(
+                                                          fontSize:
+                                                          MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height +
-                                                              MediaQuery.of(
-                                                                  context)
-                                                                  .size
-                                                                  .width) /
-                                                              2 *
-                                                              .06,
+                                                              .width*
+                                                              .08,
                                                         ),
                                                       ),
                                                     ),
@@ -804,16 +707,12 @@ class minimalView extends StatelessWidget {
                                                           fontWeight:
                                                           FontWeight.bold,
                                                           color: Colors.white,
-                                                          fontSize: (MediaQuery.of(
+                                                          fontSize:
+                                                          MediaQuery.of(
                                                               context)
                                                               .size
-                                                              .height +
-                                                              MediaQuery.of(
-                                                                  context)
-                                                                  .size
-                                                                  .width) /
-                                                              2 *
-                                                              .06,
+                                                              .width*
+                                                              .08,
                                                         ),
                                                       ),
                                                     ),

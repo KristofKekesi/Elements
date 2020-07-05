@@ -416,7 +416,9 @@ class _landingState extends State<landing> {
                               },
                             );
                           },
-                          child: Tooltip(
+                          child: Container(
+                          width: MediaQuery.of(context).size.width,
+                            child: Tooltip(
                             message: AppLocalizations.of(context)
                                 .translate('electronnegativitySelector'),
                             child: Text(
@@ -432,6 +434,7 @@ class _landingState extends State<landing> {
                                 color: Colors.white,
                               ),
                             ),
+                          ),
                           ),
                         ),
                         GestureDetector(
@@ -921,7 +924,9 @@ class _landingState extends State<landing> {
                               },
                             );
                           },
-                          child: Tooltip(
+                          child: Container(
+                            width: MediaQuery.of(context).size.width,
+                            child: Tooltip(
                             message:
                                 AppLocalizations.of(context).translate('types'),
                             child: Text(
@@ -935,6 +940,7 @@ class _landingState extends State<landing> {
                               ),
                             ),
                           ),
+                        ),
                         ),
                       ],
                     ),
