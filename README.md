@@ -18,7 +18,7 @@ Send an email to kristofkekesiofficial@gmail.com with your name and email addres
 - Phone or tablet with Android
 - Google Drive
 
-## Latest Images <img src="https://img.shields.io/badge/Day%2012%20and%2017%20and%2018%20and%2020-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day%2030-brown.svg" alt="">
 <table><tr><td>
   <img src="img/day30a.png" height=400px>
 </td><td>
