@@ -32,7 +32,7 @@ Send an email to kristofkekesiofficial@gmail.com with your name and email addres
   <tr><td>
   <img src="img/day30e.png" height=400px>
  </td>
-  <tr><td>
+ <td>
   <img src="img/day30f.png" height=400px>
  </td></tr>
 </table>
