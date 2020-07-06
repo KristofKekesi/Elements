@@ -1,6 +1,6 @@
 name: flutter_chem
 description: A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity.
-version: 1.0.0+1
+version: 0.1.0+2
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
