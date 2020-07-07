@@ -5,32 +5,35 @@
   Elements
 </h1>
 
-<img src="https://img.shields.io/badge/Status-Debugging-red.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/25-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
+<img src="https://img.shields.io/badge/Beta%20Program-Closed-red.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Release-2020/07/15-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 <span style="text-align: justify;">A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat. Only joking. __WE DO NOT RECCOMMEND THAT__!</span>
-## State <img src="https://img.shields.io/badge/Debugging-red.svg" alt="">
+## State <img src="https://img.shields.io/badge/Release-green.svg" alt="">
 <img src="img/state.png">
 
-## Beta program
+## Beta program <img src="https://img.shields.io/badge/Beta%20Program-Closed-red.svg" alt="">
 #### To aply:
 Send an email to kristofkekesiofficial@gmail.com with your name and email address and some sentences about yourself and why are you interested in the app.
 #### Requirements:
 - Phone or tablet with Android
 - Google Drive
 
-## Latest Images <img src="https://img.shields.io/badge/Day%2012%20and%2017%20and%2018%20and%2020-brown.svg" alt="">
+## Latest Images <img src="https://img.shields.io/badge/Day%2030-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day20a.png" height=400px>
+  <img src="img/day30a.png" height=400px>
 </td><td>
-  <img src="img/day12a.png" height=400px>
+  <img src="img/day30b.png" height=400px>
 </td></tr>
  <tr><td>
-  <img src="img/day20b.png" height=400px>
+  <img src="img/day30c.png" height=400px>
  </td><td>
-  <img src="img/day18a.png" height=400px>
+  <img src="img/day30d.png" height=400px>
  </td></tr>
   <tr><td>
-  <img src="img/day17b.png" height=400px>
+  <img src="img/day30e.png" height=400px>
+ </td>
+ <td>
+  <img src="img/day30f.png" height=400px>
  </td></tr>
 </table>
  
