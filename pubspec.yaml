@@ -1,9 +1,9 @@
 name: elements_rework
-description: A new Flutter application.
+description: A modern app to track the cemistry's elements. Including all 118 element with their weight, radiation, consistency, type, block, and electronnegativity.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 1.0.0+1
+version: 0.2.0+1
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
