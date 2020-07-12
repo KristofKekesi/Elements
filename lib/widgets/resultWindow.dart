@@ -1,8 +1,8 @@
-import 'package:flutter_chem/widgets/localization.dart';
+import 'package:elements_rework/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_chem/widgets/viewSelector.dart';
+import 'package:elements_rework/widgets/viewSelector.dart';
 
 import 'minimalView.dart';
 import 'cardView.dart';

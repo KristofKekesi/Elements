@@ -3,7 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chem/widgets/localization.dart';
+import 'package:elements_rework/widgets/localization.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 // ignore: camel_case_types
