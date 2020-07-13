@@ -12,8 +12,7 @@
 ## Download <img src="https://img.shields.io/badge/Play%20Store-green.svg" alt="">
 Latest release: __0.2.0__
 
-[__[Download here]__](https://play.google.com/store/apps/details?id=com.kristofkekesi.elements)
-
+<a href='https://play.google.com/store/apps/details?id=com.kristofkekesi.elements&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 ## State <img src="https://img.shields.io/badge/Release-green.svg" alt="">
 <img src="img/state.png">
 
@@ -245,3 +244,6 @@ whether future versions of the GNU Lesser General Public License shall
 apply, that proxy's public statement of acceptance of any version is
 permanent authorization for you to choose that version for the
 Library.
+
+
+Google Play and the Google Play logo are trademarks of Google LLC.
