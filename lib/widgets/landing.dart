@@ -949,7 +949,9 @@ class _landingState extends State<landing> {
               ],
             ),
           ),
-          GestureDetector(
+          Tooltip(
+            message: AppLocalizations.of(context).translate('searchTooltip'),
+            child: GestureDetector(
             onTap: () {
               Navigator.push(
                 context,
@@ -1009,6 +1011,7 @@ class _landingState extends State<landing> {
                 ),
               ),
             ),
+          ),
           ),
         ],
       ),
