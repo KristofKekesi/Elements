@@ -246,4 +246,8 @@ permanent authorization for you to choose that version for the
 Library.
 
 
+##
+
 Google Play and the Google Play logo are trademarks of Google LLC.
+
+Screenshots by [__App Mockup__](https://app-mockup.com/)
