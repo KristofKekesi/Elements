@@ -25,20 +25,20 @@ Send an email to kristofkekesiofficial@gmail.com with your name and email addres
 
 ## Latest Images <img src="https://img.shields.io/badge/Day%2030-brown.svg" alt="">
 <table><tr><td>
-  <img src="img/day30a.png" height=400px>
+  <img src="playstore/final_phone_en_1.png" height=400px>
 </td><td>
-  <img src="img/day30b.png" height=400px>
+  <img src="playstore/final_phone_en_4.png" height=400px>
 </td></tr>
  <tr><td>
-  <img src="img/day30c.png" height=400px>
+  <img src="playstore/final_phone_en_2.png" height=400px>
  </td><td>
-  <img src="img/day30d.png" height=400px>
+  <img src="playstore/final_phone_en_3.png" height=400px>
  </td></tr>
   <tr><td>
-  <img src="img/day30e.png" height=400px>
+  <img src="playstore/final_phone_en_5.png" height=400px>
  </td>
  <td>
-  <img src="img/day30f.png" height=400px>
+  <img src="playstore/final_phone_en_6.png" height=400px>
  </td></tr>
 </table>
  
