@@ -42,6 +42,8 @@ class minimalView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int pass = 0;
+
     return new FutureBuilder(
       future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
       builder: (context, snapshot) {
@@ -70,6 +72,8 @@ class minimalView extends StatelessWidget {
                   cb8 == true && elementList[index]['type'] == 'lanthanoid' ||
                   cb9 == true && elementList[index]['type'] == 'actinoid' ||
                   cb0 == true && elementList[index]['type'] == 'unknown') {
+                pass++;
+
                 listElements.add(
                   GestureDetector(
                     onTap: () {
@@ -771,76 +775,138 @@ class minimalView extends StatelessWidget {
             }
           }
 
-          return new Padding(
-            padding: EdgeInsets.only(
-                top: MediaQuery.of(context).size.height * .02,
-                bottom: MediaQuery.of(context).size.height * .02),
-            child: new Tooltip(
-              message:
-                  AppLocalizations.of(context).translate("moreAboutElement"),
-              child: Stack(
+          if (pass == 0) {
+            return Container(
+              width: MediaQuery.of(context).size.width * .8,
+              height: MediaQuery.of(context).size.height * .5,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  SizedBox.expand(
-                    child: Padding(
-                      padding: EdgeInsets.only(left: 7, right: 7),
-                      child: ListView(
-                        children: <Widget>[
-                          Container(height: MediaQuery.of(context).size.height * .04),
-                          Column(
-                            children: <Widget>[
-                              new Wrap(
-                                direction: Axis.horizontal,
-                                spacing: 0,
-                                runSpacing: 0,
-                                children: listElements,
-                              ),
-                            ],
-                          ),
-                          Container(height: MediaQuery.of(context).size.height * .01),
-                        ],
-                      ),
-                    ),
+                  Text(
+                    AppLocalizations.of(context).translate('noResTitle'),
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: MediaQuery.of(context).size.width * .1),
                   ),
-                  Positioned(
-                    top: -1,
-                    width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * .05,
-                    child: Container(
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          stops: [0.0, 1.0],
-                          colors: [
-                            Theme.of(context).scaffoldBackgroundColor,
-                            Theme.of(context).scaffoldBackgroundColor.withOpacity(0.0),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    bottom: -1,
-                    width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * .05,
-                    child: Container(
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.bottomCenter,
-                          end: Alignment.topCenter,
-                          stops: [0.0, 1.0],
-                          colors: [
-                            Theme.of(context).scaffoldBackgroundColor,
-                            Theme.of(context).scaffoldBackgroundColor.withOpacity(0.0),
-                          ],
-                        ),
-                      ),
-                    ),
+                  Text(
+                    AppLocalizations.of(context).translate('noResContent'),
+                    style: TextStyle(
+                        fontWeight: FontWeight.normal,
+                        color: Colors.black45,
+                        fontSize: MediaQuery.of(context).size.width * .06),
                   ),
                 ],
               ),
-            ),
-          );
+            );
+          } else {
+            return new Padding(
+              padding: EdgeInsets.only(
+                  top: MediaQuery
+                      .of(context)
+                      .size
+                      .height * .02,
+                  bottom: MediaQuery
+                      .of(context)
+                      .size
+                      .height * .02),
+              child: new Tooltip(
+                message:
+                AppLocalizations.of(context).translate("moreAboutElement"),
+                child: Stack(
+                  children: <Widget>[
+                    SizedBox.expand(
+                      child: Padding(
+                        padding: EdgeInsets.only(left: 7, right: 7),
+                        child: ListView(
+                          children: <Widget>[
+                            Container(
+                                height: MediaQuery
+                                    .of(context)
+                                    .size
+                                    .height * .04),
+                            Column(
+                              children: <Widget>[
+                                new Wrap(
+                                  direction: Axis.horizontal,
+                                  spacing: 0,
+                                  runSpacing: 0,
+                                  children: listElements,
+                                ),
+                              ],
+                            ),
+                            Container(
+                                height: MediaQuery
+                                    .of(context)
+                                    .size
+                                    .height * .01),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      top: -1,
+                      width: MediaQuery
+                          .of(context)
+                          .size
+                          .width,
+                      height: MediaQuery
+                          .of(context)
+                          .size
+                          .height * .05,
+                      child: Container(
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter,
+                            stops: [0.0, 1.0],
+                            colors: [
+                              Theme
+                                  .of(context)
+                                  .scaffoldBackgroundColor,
+                              Theme
+                                  .of(context)
+                                  .scaffoldBackgroundColor
+                                  .withOpacity(0.0),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      bottom: -1,
+                      width: MediaQuery
+                          .of(context)
+                          .size
+                          .width,
+                      height: MediaQuery
+                          .of(context)
+                          .size
+                          .height * .05,
+                      child: Container(
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.topCenter,
+                            stops: [0.0, 1.0],
+                            colors: [
+                              Theme
+                                  .of(context)
+                                  .scaffoldBackgroundColor,
+                              Theme
+                                  .of(context)
+                                  .scaffoldBackgroundColor
+                                  .withOpacity(0.0),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          }
         }
         return SleekCircularSlider(
           appearance: CircularSliderAppearance(

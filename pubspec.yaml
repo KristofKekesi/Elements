@@ -19,6 +19,7 @@ dependencies:
   url_launcher: ^5.4.2
   splashscreen: ^1.2.0
   sleek_circular_slider: ^1.1.0
+  flutter_svg: ^0.18.0
 
 dev_dependencies:
   flutter_test:

@@ -42,6 +42,8 @@ class cardView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int pass = 0;
+
     return new FutureBuilder(
       future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
       builder: (context, snapshot) {
@@ -71,6 +73,9 @@ class cardView extends StatelessWidget {
                   cb8 == true && elementList[index]['type'] == 'lanthanoid' ||
                   cb9 == true && elementList[index]['type'] == 'actinoid' ||
                   cb0 == true && elementList[index]['type'] == 'unknown') {
+
+                pass++;
+
                 listElements.add(
                   new GestureDetector(
                     onTap: () {
@@ -864,14 +869,41 @@ class cardView extends StatelessWidget {
           }
           listElements.add(new Container(width: MediaQuery.of(context).size.width * .05,));
 
-          return new Tooltip(
-            message: AppLocalizations.of(context).translate("moreAboutElement"),
-            child: new ListView(
-              shrinkWrap: true,
-              scrollDirection: Axis.horizontal,
-              children: listElements,
-            ),
-          );
+          if (pass == 0) {
+            return Container(
+              width: MediaQuery.of(context).size.width * .8,
+              height: MediaQuery.of(context).size.height * .5,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    AppLocalizations.of(context).translate('noResTitle'),
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: MediaQuery.of(context).size.width * .1),
+                  ),
+                  Text(
+                    AppLocalizations.of(context).translate('noResContent'),
+                    style: TextStyle(
+                        fontWeight: FontWeight.normal,
+                        color: Colors.black45,
+                        fontSize: MediaQuery.of(context).size.width * .06),
+                  ),
+                ],
+              ),
+            );
+          } else {
+            return new Tooltip(
+              message: AppLocalizations.of(context).translate(
+                  "moreAboutElement"),
+              child: new ListView(
+                shrinkWrap: true,
+                scrollDirection: Axis.horizontal,
+                children: listElements,
+              ),
+            );
+          }
         }
         return SleekCircularSlider(
           appearance: CircularSliderAppearance(
