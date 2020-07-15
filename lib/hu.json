@@ -75,6 +75,8 @@
   "electronnegativity": "Elektronnegativitás",
   "searchTooltip": "Elemek keresése",
   "back": "Vissza",
+   "noResTitle": "Nincs találat",
+  "noResContent": "Próbálja módosítani a szűrőket a fő oldalon!",
   "moreAboutElement": "További információkhoz kattincson az elemre!",
   "num": "Az elem száma a Periódusos rendszerben",
   "symbol": "Az elem vegyjele",

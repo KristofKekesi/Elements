@@ -75,6 +75,8 @@
   "electronnegativity": "Electronnegativity",
   "searchTooltip": "Search for elements",
   "back": "Back",
+  "noResTitle": "No result",
+  "noResContent": "Consider modifying the selectors in the main page!",
   "moreAboutElement": "For more informations tap on the element!",
   "num": "The element's number from the Periodic table",
   "symbol": "The element's chemical symbol",
