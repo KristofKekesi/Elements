@@ -5,7 +5,7 @@
   Elements
 </h1>
 
-<img src="https://img.shields.io/badge/Beta%20Program-Closed-red.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
+<img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 <span style="text-align: justify;">A modern app to track the cemical elements. Including all 118 elements, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat.</span>
 
@@ -16,7 +16,15 @@ Latest release: __0.2.0__
 ## State <img src="https://img.shields.io/badge/Release-green.svg" alt="">
 <img src="img/state.png">
 
-## Beta program <img src="https://img.shields.io/badge/Beta%20Program-Closed-red.svg" alt="">
+## Beta state
+#### New features
+- No result (for selectors)
+- Colored background while loading background images
+- Bugfixes
+  - Minimalview listview
+  - True white backgrounds
+
+## Beta program <img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt="">
 #### To aply:
 Send an email to kristofkekesiofficial@gmail.com with your name and email address and some sentences about yourself and why are you interested in the app.
 #### Requirements:
