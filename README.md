@@ -7,7 +7,7 @@
 
 <img src="https://img.shields.io/badge/Beta%20Program-Closed-red.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
-<span style="text-align: justify;">A modern app made with Flutter, to track the chemistry's element. Including all 118 element, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat.</span>
+<span style="text-align: justify;">A modern app to track the cemical elements. Including all 118 elements, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat.</span>
 
 ## Download <img src="https://img.shields.io/badge/Play%20Store-green.svg" alt="">
 Latest release: __0.2.0__
