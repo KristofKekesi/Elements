@@ -24,7 +24,7 @@ Latest release: __0.2.0__
   - Minimalview listview
   - True white backgrounds
 
-## Beta program <img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt="">
+## Beta program <img src="https://img.shields.io/badge/Open-green.svg" alt="">
 #### To aply:
 Send an email to kristofkekesiofficial@gmail.com with your name and email address and some sentences about yourself and why are you interested in the app.
 #### Requirements:
