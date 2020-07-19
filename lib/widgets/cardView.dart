@@ -730,6 +730,7 @@ class cardView extends StatelessWidget {
                           bottom: MediaQuery.of(context).size.height *
                               .035,),
                       decoration: new BoxDecoration(
+                        color: Color(int.parse(elementList[index]["m1"])),
                           image: DecorationImage(
                             image: AssetImage(
                                 "lib/backgrounds/" + elementList[index]["bg"]),
