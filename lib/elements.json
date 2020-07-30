@@ -2,43 +2,174 @@
   {
 	"element": "H",
 	"number": 1,
+
 	"consistency": "gas",
 	"discovery": "1766",
 	"weight": "1.008",
 	"type": "otherNonmetal",
 	"block": "s",
 	"electronnegativity": "2.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": true,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "016_di.jpg",
 	"m1": "0xffb795a5",
+
 	"hu": "Hidrogén",
 	"en": "Hydrogen",
+	
 	"chargedComponent": "1",
-	"neutron": "0"
+	"neutron": "0",
+
+	"isotopes": [
+		{
+			"weight": "1.00782503207",
+			"rate": "99.9885",
+			"halfRate": "stable",
+
+			"hu": "Hidrogén-1",
+			"en": "Hydrogen-1"
+		}, {
+			"weight": "2.01410177785",
+			"rate": "0.0115",
+			"halfRate": "stable",
+
+			"hu": "Hidrogén-2",
+			"en": "Hydrogen-2"
+		}, {
+			"weight": "3.01604927767",
+			"rate": "0",
+			"halfRate": "12.32 y",
+
+			"nick": "Tritium",
+			"hu": "Hidrogén-3",
+			"en": "Hydrogen-3"
+		}, {
+			"weight": "4.027806424",
+			"rate": "0",
+			"halfRate": "0.000000000139 ps",
+
+			"hu": "Hidrogén-4",
+			"en": "Hydrogen-4"
+		}, {
+			"weight": "5.035311488",
+			"rate": "0",
+			"halfRate": "0.00000000091 ps",
+
+			"hu": "Hidrogén-5",
+			"en": "Hydrogen-5"
+		}, {
+			"weight": "6.044942594",
+			"rate": "0",
+			"halfRate": "0.00000000029 ps",
+
+			"hu": "Hidrogén-6",
+			"en": "Hydrogen-6"
+		}, {
+			"weight": "7.052749",
+			"rate": "0",
+			"halfRate": "0.000000000023 ps",
+
+			"hu": "Hidrogén-7",
+			"en": "Hydrogen-7"
+		}
+	]
   }, {
 	"element": "He",
 	"number": 2,
+
 	"consistency": "gas",
 	"discovery": "1868",
 	"weight": "4.0026",
 	"type": "nobleGas",
 	"block": "s",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "011_pc.jpg",
 	"m1": "0xff069faf",
+
 	"hu": "Hélium",
 	"en": "Helium",
+
 	"chargedComponent": "2",
-	"neutron": "2"
+	"neutron": "2",
+
+	"isotopes": [
+		{
+			"weight": "unknown",
+			"rate": "unknown",
+			"halfRate": "unknown",
+
+			"hu": "Hélium-2",
+			"en": "Helium-2"
+		}, {
+			"weight": "3.01602931914",
+			"rate": "0.000137",
+			"halfRate": "stable",
+
+			"hu": "Hélium-3",
+			"en": "Helium-3"
+		}, {
+			"weight": "4.00260325415",
+			"rate": "99.9999",
+			"halfRate": "stable",
+
+			"hu": "Hélium-4",
+			"en": "Helium-4"
+		}, {
+			"weight": "5.012223624",
+			"rate": "0",
+			"halfRate": "0.0000000007 ps",
+
+			"hu": "Hélium-5",
+			"en": "Helium-5"
+		}, {
+			"weight": "6.018889124",
+			"rate": "0",
+			"halfRate": "806.7 ms",
+
+			"hu": "Hélium-6",
+			"en": "Helium-6"
+		}, {
+			"weight": "7.028020618",
+			"rate": "0",
+			"halfRate": "0.0000000029 ps",
+
+			"hu": "Hélium-7",
+			"en": "Helium-7"
+		}, {
+			"weight": "8.033921897",
+			"rate": "0",
+			"halfRate": "119 ms",
+
+			"hu": "Hélium-8",
+			"en": "Helium-8"
+		}, {
+			"weight": "9.043950286",
+			"rate": "0",
+			"halfRate": "0.000000007 ps",
+
+			"hu": "Hélium-9",
+			"en": "Helium-9"
+		}, {
+			"weight": "10.052398837",
+			"rate": "0",
+			"halfRate": "0.0000000027 ps",
+
+			"hu": "Hélium-10",
+			"en": "Helium-10"
+		}
+	]
   }, {
 	"element": "Li",
 	"number": 3,
@@ -48,17 +179,95 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "1.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "029_ar.jpg",
 	"m1": "0xff0c116c",
+
 	"hu": "Lítium",
 	"en": "Lithium",
+
 	"chargedComponent": "3",
-	"neutron": "4"
+	"neutron": "4",
+
+	"isotopes": [
+		{
+			"weight": "3.030775",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Lítium-3",
+			"en": "Lithium-3"
+		}, {
+			"weight": "4.027185558",
+			"rate": "0",
+			"halfRate": "0.000000000091 ps",
+
+			"hu": "Lítium-4",
+			"en": "Lithium-4"
+		}, {
+			"weight": "5.0125378",
+			"rate": "0",
+			"halfRate": "0.000000000037 ps",
+
+			"hu": "Lítium-5",
+			"en": "Lithium-5"
+		}, {
+			"weight": "6.015122794",
+			"rate": "7.59",
+			"halfRate": "stable",
+
+			"hu": "Lítium-6",
+			"en": "Lithium-6"
+		}, {
+			"weight": "7.016004548",
+			"rate": "92.41",
+			"halfRate": "stable",
+
+			"hu": "Lítium-7",
+			"en": "Lithium-7"
+		}, {
+			"weight": "8.022487362",
+			"rate": "0",
+			"halfRate": "840.3 ms",
+
+			"hu": "Lítium-8",
+			"en": "Lithium-8"
+		}, {
+			"weight": "9.026789505",
+			"rate": "0",
+			"halfRate": "178.3 ms",
+
+			"hu": "Lítium-9",
+			"en": "Lithium-9"
+		}, {
+			"weight": "10.035481259",
+			"rate": "0",
+			"halfRate": "0.000000009 ps",
+
+			"hu": "Lítium-10",
+			"en": "Lithium-10"
+		}, {
+			"weight": "11.043797715",
+			"rate": "0",
+			"halfRate": "8.75 ms",
+
+			"hu": "Lítium-11",
+			"en": "Lithium-11"
+		}, {
+			"weight": "12.053780",
+			"rate": "0",
+			"halfRate": "10 ns",
+
+			"hu": "Lítium-12",
+			"en": "Lithium-12"
+		}
+	]
   }, {
 	"element": "Be",
 	"number": 4,
@@ -68,17 +277,109 @@
 	"consistency": "solid",
 	"discovery": "1797",
 	"electronnegativity": "1.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "104_ar.jpg",
 	"m1": "0xffbf5219",
+
 	"hu": "Berillium",
 	"en": "Beryllium",
+
 	"chargedComponent": "4",
-	"neutron": "5"
+	"neutron": "5",
+
+	"isotopes": [
+		{
+			"weight": "5.040790",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Berillium-5",
+			"en": "Beryllium-5"
+		}, {
+			"weight": "6.019726317",
+			"rate": "0",
+			"halfRate": "0.000000005 ps",
+
+			"hu": "Berillium-6",
+			"en": "Beryllium-6"
+		}, {
+			"weight": "7.016929828",
+			"rate": "0",
+			"halfRate": "53.22 d",
+
+			"hu": "Berillium-7",
+			"en": "Beryllium-7"
+		}, {
+			"weight": "8.005305103",
+			"rate": "0",
+			"halfRate": "0.000067 ps",
+
+			"hu": "Berillium-8",
+			"en": "Beryllium-8"
+		}, {
+			"weight": "9.012182201",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Berillium-9",
+			"en": "Beryllium-9"
+		}, {
+			"weight": "10.013533818",
+			"rate": "0",
+			"halfRate": "1510000 y",
+
+			"hu": "Berillium-10",
+			"en": "Beryllium-10"
+		}, {
+			"weight": "11.021657749",
+			"rate": "0",
+			"halfRate": "13.81 s",
+
+			"hu": "Berillium-11",
+			"en": "Beryllium-11"
+		}, {
+			"weight": "12.026920737",
+			"rate": "0",
+			"halfRate": "21.5 ms",
+
+			"hu": "Berillium-12",
+			"en": "Beryllium-12"
+		}, {
+			"weight": "13.035693007",
+			"rate": "0",
+			"halfRate": "500 ps",
+
+			"hu": "Berillium-13",
+			"en": "Beryllium-13"
+		}, {
+			"weight": "14.04289292",
+			"rate": "0",
+			"halfRate": "4.35 ms",
+
+			"hu": "Berillium-14",
+			"en": "Beryllium-14"
+		}, {
+			"weight": "15.053460",
+			"rate": "0",
+			"halfRate": "200 ns",
+
+			"hu": "Berillium-15",
+			"en": "Beryllium-15"
+		}, {
+			"weight": "16.061920",
+			"rate": "0",
+			"halfRate": "200 ns",
+
+			"hu": "Berillium-16",
+			"en": "Beryllium-16"
+		}
+	]
   }, {
 	"element": "B",
 	"number": 5,
@@ -88,17 +389,123 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "2.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "023_di.jpg",
 	"m1": "0xffbd4632",
+
 	"hu": "Bór",
 	"en": "Boron",
+
 	"chargedComponent": "5",
-	"neutron": "6"
+	"neutron": "6",
+
+	"isotopes": [
+		{
+			"weight": "6.046810",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Bór-6",
+			"en": "Boron-6"
+		}, {
+			"weight": "7.029917901",
+			"rate": "0",
+			"halfRate": "0.00000000035×10 ps",
+
+			"hu": "Bór-7",
+			"en": "Boron-7"
+		}, {
+			"weight": "8.024607233",
+			"rate": "0",
+			"halfRate": "770 ms",
+
+			"hu": "Bór-8",
+			"en": "Boron-8"
+		}, {
+			"weight": "9.013328782",
+			"rate": "0",
+			"halfRate": "0.0000008 ps",
+
+			"hu": "Bór-9",
+			"en": "Boron-9"
+		}, {
+			"weight": "10.012936992",
+			"rate": "19.9",
+			"halfRate": "stable",
+
+			"hu": "Bór-10",
+			"en": "Boron-10"
+		}, {
+			"weight": "11.009305406",
+			"rate": "80.1",
+			"halfRate": "stable",
+
+			"hu": "Bór-11",
+			"en": "Boron-11"
+		}, {
+			"weight": "12.014352104",
+			"rate": "0",
+			"halfRate": "20.2 ms",
+
+			"hu": "Bór-12",
+			"en": "Boron-12"
+		}, {
+			"weight": "13.017780217",
+			"rate": "0",
+			"halfRate": "17.33 ms",
+
+			"hu": "Bór-13",
+			"en": "Boron-13"
+		}, {
+			"weight": "14.025404009",
+			"rate": "0",
+			"halfRate": "12.5 ms",
+
+			"hu": "Bór-14",
+			"en": "Boron-14"
+		}, {
+			"weight": "15.031103021",
+			"rate": "0",
+			"halfRate": "9.87 ms",
+
+			"hu": "Bór-15",
+			"en": "Boron-15"
+		}, {
+			"weight": "16.039808829",
+			"rate": "0",
+			"halfRate": "190 ps",
+
+			"hu": "Bór-16",
+			"en": "Boron-16"
+		}, {
+			"weight": "17.046989906",
+			"rate": "0",
+			"halfRate": "5.08 ms",
+
+			"hu": "Bór-17",
+			"en": "Boron-17"
+		}, {
+			"weight": "18.056170",
+			"rate": "0",
+			"halfRate": "26 ns",
+
+			"hu": "Bór-18",
+			"en": "Boron-18"
+		}, {
+			"weight": "19.063730",
+			"rate": "0",
+			"halfRate": "2.92 ms",
+
+			"hu": "Bór-19",
+			"en": "Boron-19"
+		}
+		]
   }, {
 	"element": "C",
 	"number": 6,
@@ -108,17 +515,130 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": true,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "014_ph.jpg",
 	"m1": "0xff1d2c31",
+
 	"hu": "Szén",
 	"en": "Carbon",
+
 	"chargedComponent": "6",
-	"neutron": "6"
+	"neutron": "6",
+
+	"isotopes": [
+		{
+			"weight": "8.037675025",
+			"rate": "0",
+			"halfRate": "0.0000000020 ps",
+
+			"hu": "Szén-8",
+			"en": "Carbon-8"
+		}, {
+			"weight": "9.031036689",
+			"rate": "0",
+			"halfRate": "126.5 ms",
+
+			"hu": "Szén-9",
+			"en": "Carbon-9"
+		}, {
+			"weight": "10.016853228",
+			"rate": "0",
+			"halfRate": "19.29 s",
+
+			"hu": "Szén-10",
+			"en": "Carbon-10"
+		}, {
+			"weight": "11.011433613",
+			"rate": "0",
+			"halfRate": "20.38 min",
+
+			"hu": "Szén-11",
+			"en": "Carbon-11"
+		}, {
+			"weight": "12",
+			"rate": "98.93",
+			"halfRate": "stable",
+
+			"hu": "Szén-12",
+			"en": "Carbon-12"
+		}, {
+			"weight": "13.00335483778",
+			"rate": "1.07",
+			"halfRate": "stable",
+
+			"hu": "Szén-13",
+			"en": "Carbon-13"
+		}, {
+			"weight": "14.0032419887",
+			"rate": "0",
+			"halfRate": "5700 y",
+
+			"hu": "Szén-14",
+			"en": "Carbon-14"
+		}, {
+			"weight": "15.010599256",
+			"rate": "0",
+			"halfRate": "2.449 s",
+
+			"hu": "Szén-15",
+			"en": "Carbon-15"
+		}, {
+			"weight": "16.014701252",
+			"rate": "0",
+			"halfRate": "747 ms",
+
+			"hu": "Szén-16",
+			"en": "Carbon-16"
+		}, {
+			"weight": "17.022586116",
+			"rate": "0",
+			"halfRate": "193 ms",
+
+			"hu": "Szén-17",
+			"en": "Carbon-17"
+		}, {
+			"weight": "18.026759354",
+			"rate": "0",
+			"halfRate": "92 ms",
+
+			"hu": "Szén-18",
+			"en": "Carbon-18"
+		}, {
+			"weight": "19.034805018",
+			"rate": "0",
+			"halfRate": "42.2 ms",
+
+			"hu": "Szén-19",
+			"en": "Carbon-19"
+		}, {
+			"weight": "20.040319754",
+			"rate": "0",
+			"halfRate": "16 ms",
+
+			"hu": "Szén-20",
+			"en": "Carbon-20"
+		}, {
+			"weight": "21.049340",
+			"rate": "0",
+			"halfRate": "30 ns",
+
+			"hu": "Szén-21",
+			"en": "Carbon-21"
+		}, {
+			"weight": "22.057200",
+			"rate": "0",
+			"halfRate": "6.2 ms",
+
+			"hu": "Szén-22",
+			"en": "Carbon-22"
+		}
+	]
   }, {
 	"element": "N",
 	"number": 7,
@@ -128,17 +648,137 @@
 	"consistency": "gas",
 	"discovery": "1772",
 	"electronnegativity": "3.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "025_ab.jpg",
 	"m1": "0xff2566a8",
+
 	"hu": "Nitrogén",
 	"en": "Nitrogen",
+
 	"chargedComponent": "7",
-	"neutron": "7"
+	"neutron": "7",
+
+	"isotopes": [
+		{
+			"weight": "10.041653674",
+			"rate": "0",
+			"halfRate": "0.0000000002 ps",
+
+			"hu": "Nitrogén-10",
+			"en": "Nitrogen-10"
+		}, {
+			"weight": "11.026090956",
+			"rate": "0",
+			"halfRate": "0.00000000059 ps",
+
+			"hu": "Nitrogén-11",
+			"en": "Nitrogen-11"
+		}, {
+			"weight": "12.018613197",
+			"rate": "0",
+			"halfRate": "11 ms",
+
+			"hu": "Nitrogén-12",
+			"en": "Nitrogen-12"
+		}, {
+			"weight": "13.005738609",
+			"rate": "0",
+			"halfRate": "9.965 min",
+
+			"hu": "Nitrogén-13",
+			"en": "Nitrogen-13"
+		}, {
+			"weight": "14.00307400478",
+			"rate": "99.632",
+			"halfRate": "stable",
+
+			"hu": "Nitrogén-14",
+			"en": "Nitrogen-14"
+		}, {
+			"weight": "15.00010889823",
+			"rate": "0.368",
+			"halfRate": "stable",
+
+			"hu": "Nitrogén-15",
+			"en": "Nitrogen-15"
+		}, {
+			"weight": "16.006101658",
+			"rate": "0",
+			"halfRate": "7.13 s",
+
+			"hu": "Nitrogén-16",
+			"en": "Nitrogen-16"
+		}, {
+			"weight": "17.008450261",
+			"rate": "0",
+			"halfRate": "4.173 s",
+
+			"hu": "Nitrogén-17",
+			"en": "Nitrogen-17"
+		}, {
+			"weight": "18.014078959",
+			"rate": "0",
+			"halfRate": "622 ms",
+
+			"hu": "Nitrogén-18",
+			"en": "Nitrogen-18"
+		}, {
+			"weight": "19.017028697",
+			"rate": "0",
+			"halfRate": "271 ms",
+
+			"hu": "Nitrogén-19",
+			"en": "Nitrogen-19"
+		}, {
+			"weight": "20.023365807",
+			"rate": "0",
+			"halfRate": "130 ms",
+
+			"hu": "Nitrogén-20",
+			"en": "Nitrogen-20"
+		}, {
+			"weight": "21.02710824",
+			"rate": "0",
+			"halfRate": "87 ms",
+
+			"hu": "Nitrogén-21",
+			"en": "Nitrogen-21"
+		}, {
+			"weight": "22.034394934",
+			"rate": "0",
+			"halfRate": "13.9 ms",
+
+			"hu": "Nitrogén-22",
+			"en": "Nitrogen-22"
+		}, {
+			"weight": "23.041220",
+			"rate": "0",
+			"halfRate": "14.5 ms",
+
+			"hu": "Nitrogén-23",
+			"en": "Nitrogen-23"
+		}, {
+			"weight": "24.051040",
+			"rate": "0",
+			"halfRate": "52 ns",
+
+			"hu": "Nitrogén-24",
+			"en": "Nitrogen-24"
+		}, {
+			"weight": "25.060660",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Nitrogén-25",
+			"en": "Nitrogen-25"
+		}
+	]
   }, {
 	"element": "O",
 	"number": 8,
@@ -148,17 +788,144 @@
 	"consistency": "gas",
 	"discovery": "1774",
 	"electronnegativity": "3.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "022_ea.jpg",
 	"m1": "0xffc28334",
+
 	"hu": "Oxigén",
 	"en": "Oxygen",
+
 	"chargedComponent": "8",
-	"neutron": "8"
+	"neutron": "8",
+
+	"isotopes": [
+		{
+			"weight": "12.034404895",
+			"rate": "0",
+			"halfRate": "0.00000000058 ps",
+
+			"hu": "Oxigén-12",
+			"en": "Oxygen-12"
+		}, {
+			"weight": "13.024812213",
+			"rate": "0",
+			"halfRate": "8.58 ms",
+
+			"hu": "Oxigén-13",
+			"en": "Oxygen-13"
+		}, {
+			"weight": "14.00859625",
+			"rate": "0",
+			"halfRate": "1.1766 min",
+
+			"hu": "Oxigén-14",
+			"en": "Oxygen-14"
+		}, {
+			"weight": "15.003065617",
+			"rate": "0",
+			"halfRate": "2.0373 min",
+
+			"hu": "Oxigén-15",
+			"en": "Oxygen-15"
+		}, {
+			"weight": "15.99491461956",
+			"rate": "99.757",
+			"halfRate": "stable",
+
+			"hu": "Oxigén-16",
+			"en": "Oxygen-16"
+		}, {
+			"weight": "16.999131703",
+			"rate": "0.038",
+			"halfRate": "stable",
+
+			"hu": "Oxigén-17",
+			"en": "Oxygen-17"
+		}, {
+			"weight": "17.999161001",
+			"rate": "0.205",
+			"halfRate": "stable",
+
+			"hu": "Oxigén-18",
+			"en": "Oxygen-18"
+		}, {
+			"weight": "19.00358013",
+			"rate": "0",
+			"halfRate": "26.464 s",
+
+			"hu": "Oxigén-19",
+			"en": "Oxygen-19"
+		}, {
+			"weight": "20.004076742",
+			"rate": "0",
+			"halfRate": "13.51 s",
+
+			"hu": "Oxigén-20",
+			"en": "Oxygen-20"
+		}, {
+			"weight": "21.008655886",
+			"rate": "0",
+			"halfRate": "3.42 s",
+
+			"hu": "Oxigén-21",
+			"en": "Oxygen-21"
+		}, {
+			"weight": "22.009966947",
+			"rate": "0",
+			"halfRate": "2.25 s",
+
+			"hu": "Oxigén-22",
+			"en": "Oxygen-22"
+		}, {
+			"weight": "23.015687659",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Oxigén-23",
+			"en": "Oxygen-23"
+		}, {
+			"weight": "24.020472917",
+			"rate": "0",
+			"halfRate": "65 ms",
+
+			"hu": "Oxigén-24",
+			"en": "Oxygen-24"
+		}, {
+			"weight": "25.029460",
+			"rate": "0",
+			"halfRate": "50 ns",
+
+			"hu": "Oxigén-25",
+			"en": "Oxygen-25"
+		}, {
+			"weight": "26.038340",
+			"rate": "0",
+			"halfRate": "40 ns",
+
+			"hu": "Oxigén-26",
+			"en": "Oxygen-26"
+		}, {
+			"weight": "27.048260",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Oxigén-27",
+			"en": "Oxygen-27"
+		}, {
+			"weight": "28.057810",
+			"rate": "0",
+			"halfRate": "100 ns",
+
+			"hu": "Oxigén-28",
+			"en": "Oxygen-28"
+		}
+	]
   }, {
 	"element": "F",
 	"number": 9,
@@ -168,17 +935,151 @@
 	"consistency": "gas",
 	"discovery": "1886",
 	"electronnegativity": "4.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "031_ar.jpg",
 	"m1": "0xff0042c0",
+
 	"hu": "Fluor",
 	"en": "Fluorine",
+
 	"chargedComponent": "9",
-	"neutron": "10"
+	"neutron": "10",
+
+	"isotopes": [
+		{
+			"weight": "14.035060",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Fluor-14",
+			"en": "Fluorine-14"
+		}, {
+			"weight": "15.018009103",
+			"rate": "0",
+			"halfRate": "0.00000000041 ps",
+
+			"hu": "Fluor-15",
+			"en": "Fluorine-15"
+		}, {
+			"weight": "16.011465724",
+			"rate": "0",
+			"halfRate": "0.000000011 ps",
+
+			"hu": "Fluor-16",
+			"en": "Fluorine-16"
+		}, {
+			"weight": "17.002095237",
+			"rate": "0",
+			"halfRate": "1.075 min",
+
+			"hu": "Fluor-17",
+			"en": "Fluorine-17"
+		}, {
+			"weight": "18.000937956",
+			"rate": "0",
+			"halfRate": "1.82952 h",
+
+			"hu": "Fluor-18",
+			"en": "Fluorine-18"
+		}, {
+			"weight": "18.998403224",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Fluor-19",
+			"en": "Fluorine-19"
+		}, {
+			"weight": "19.999981315",
+			"rate": "0",
+			"halfRate": "11.163 s",
+
+			"hu": "Fluor-20",
+			"en": "Fluorine-20"
+		}, {
+			"weight": "20.999948951",
+			"rate": "0",
+			"halfRate": "4.158 s",
+
+			"hu": "Fluor-21",
+			"en": "Fluorine-21"
+		}, {
+			"weight": "22.002998815",
+			"rate": "0",
+			"halfRate": "4.23 s",
+
+			"hu": "Fluor-22",
+			"en": "Fluorine-22"
+		}, {
+			"weight": "23.003574631",
+			"rate": "0",
+			"halfRate": "2.23 s",
+
+			"hu": "Fluor-23",
+			"en": "Fluorine-23"
+		}, {
+			"weight": "24.008115485",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Fluor-24",
+			"en": "Fluorine-24"
+		}, {
+			"weight": "25.012101747",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Fluor-25",
+			"en": "Fluorine-25"
+		}, {
+			"weight": "26.019615555",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Fluor-26",
+			"en": "Fluorine-26"
+		}, {
+			"weight": "27.026760086",
+			"rate": "0",
+			"halfRate": "4.9 ms",
+
+			"hu": "Fluor-27",
+			"en": "Fluorine-27"
+		}, {
+			"weight": "28.035670",
+			"rate": "0",
+			"halfRate": "40 ns",
+
+			"hu": "Fluor-28",
+			"en": "Fluorine-28"
+		}, {
+			"weight": "29.043260",
+			"rate": "0",
+			"halfRate": "2.6 ns",
+
+			"hu": "Fluor-29",
+			"en": "Fluorine-29"
+		}, {
+			"weight": "30.052500",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Fluor-30",
+			"en": "Fluorine-30"
+		}, {
+			"weight": "31.060429",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Fluor-31",
+			"en": "Fluorine-31"
+		}
+	]
   }, {
 	"element": "Ne",
 	"number": 10,
@@ -188,17 +1089,158 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "106_ar.jpg",
 	"m1": "0xffb7484e",
+
 	"hu": "Neon",
 	"en": "Neon",
+
 	"chargedComponent": "10",
-	"neutron": "10"
+	"neutron": "10",
+
+	"isotopes": [
+		{
+			"weight": "16.025761262",
+			"rate": "0",
+			"halfRate": "0.000000009 ps",
+
+			"hu": "Neon-16",
+			"en": "Neon-16"
+		}, {
+			"weight": "17.017671504",
+			"rate": "0",
+			"halfRate": "109.2 ms",
+
+			"hu": "Neon-17",
+			"en": "Neon-17"
+		}, {
+			"weight": "18.005708213",
+			"rate": "0",
+			"halfRate": "1.672 s",
+
+			"hu": "Neon-18",
+			"en": "Neon-18"
+		}, {
+			"weight": "19.001880248",
+			"rate": "0",
+			"halfRate": "17.296 s",
+
+			"hu": "Neon-19",
+			"en": "Neon-19"
+		}, {
+			"weight": "19.99244017542",
+			"rate": "90.48%",
+			"halfRate": "stable",
+
+			"hu": "Neon-20",
+			"en": "Neon-20"
+		}, {
+			"weight": "20.993846684",
+			"rate": "0.27",
+			"halfRate": "stable",
+
+			"hu": "Neon-21",
+			"en": "Neon-21"
+		}, {
+			"weight": "21.991385113",
+			"rate": "9.25",
+			"halfRate": "stable",
+
+			"hu": "Neon-22",
+			"en": "Neon-22"
+		}, {
+			"weight": "22.994466904",
+			"rate": "0",
+			"halfRate": "37.24 s",
+
+			"hu": "Neon-23",
+			"en": "Neon-23"
+		}, {
+			"weight": "23.993610779",
+			"rate": "0",
+			"halfRate": "3.38 min",
+
+			"hu": "Neon-24",
+			"en": "Neon-24"
+		}, {
+			"weight": "24.997736888",
+			"rate": "0",
+			"halfRate": "602 ms",
+
+			"hu": "Neon-25",
+			"en": "Neon-25"
+		}, {
+			"weight": "26.000461206",
+			"rate": "0",
+			"halfRate": "197 ms",
+
+			"hu": "Neon-26",
+			"en": "Neon-26"
+		}, {
+			"weight": "27.007589903",
+			"rate": "0",
+			"halfRate": "32 ms",
+
+			"hu": "Neon-27",
+			"en": "Neon-27"
+		}, {
+			"weight": "28.012071575",
+			"rate": "0",
+			"halfRate": "18.3 ms",
+
+			"hu": "Neon-28",
+			"en": "Neon-28"
+		}, {
+			"weight": "29.019385933",
+			"rate": "0",
+			"halfRate": "15.6 ms",
+
+			"hu": "Neon-29",
+			"en": "Neon-29"
+		}, {
+			"weight": "30.024801045",
+			"rate": "0",
+			"halfRate": "5.8 ms",
+
+			"hu": "Neon-30",
+			"en": "Neon-30"
+		}, {
+			"weight": "31.033110",
+			"rate": "0",
+			"halfRate": "3.4 ms",
+
+			"hu": "Neon-31",
+			"en": "Neon-31"
+		}, {
+			"weight": "32.040020",
+			"rate": "0",
+			"halfRate": "3.5 ms",
+
+			"hu": "Neon-32",
+			"en": "Neon-32"
+		}, {
+			"weight": "33.049380",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Neon-33",
+			"en": "Neon-33"
+		}, {
+			"weight": "34.057028",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Neon-34",
+			"en": "Neon-34"
+		}
+	]
   }, {
 	"element": "Na",
 	"number": 11,
@@ -208,17 +1250,165 @@
 	"consistency": "solid",
 	"discovery": "1807",
 	"electronnegativity": "0.9",
+
 	"radioactivity": "stable",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "018_di.jpg",
 	"m1": "0xff2d6f92",
+
 	"hu": "Nátrium",
 	"en": "Sodium",
+
 	"chargedComponent": "11",
-	"neutron": "12"
+	"neutron": "12",
+
+	"isotopes": [
+		{
+			"weight": "18.025969",
+			"rate": "0",
+			"halfRate": "0.0000000013 ps",
+
+			"hu": "Nátrium-18",
+			"en": "Sodium-18"
+		}, {
+			"weight": "19.013877499",
+			"rate": "0",
+			"halfRate": "40 ns",
+
+			"hu": "Nátrium-19",
+			"en": "Sodium-19"
+		}, {
+			"weight": "20.007351328",
+			"rate": "0",
+			"halfRate": "447.9 ms",
+
+			"hu": "Nátrium-20",
+			"en": "Sodium-20"
+		}, {
+			"weight": "20.997655206",
+			"rate": "0",
+			"halfRate": "22.49 s",
+
+			"hu": "Nátrium-21",
+			"en": "Sodium-21"
+		}, {
+			"weight": "21.994436425",
+			"rate": "0",
+			"halfRate": "2.6019 y",
+
+			"hu": "Nátrium-22",
+			"en": "Sodium-22"
+		}, {
+			"weight": "22.98976928087",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Nátrium-23",
+			"en": "Sodium-23"
+		}, {
+			"weight": "23.990962782",
+			"rate": "0",
+			"halfRate": "14.959 h",
+
+			"hu": "Nátrium-24",
+			"en": "Sodium-24"
+		}, {
+			"weight": "24.989953968",
+			"rate": "0",
+			"halfRate": "59.1 s",
+
+			"hu": "Nátrium-25",
+			"en": "Sodium-25"
+		}, {
+			"weight": "25.992633",
+			"rate": "0",
+			"halfRate": "1.077 s",
+
+			"hu": "Nátrium-26",
+			"en": "Sodium-26"
+		}, {
+			"weight": "26.994076788",
+			"rate": "0",
+			"halfRate": "301 ms",
+
+			"hu": "Nátrium-27",
+			"en": "Sodium-27"
+		}, {
+			"weight": "27.998938",
+			"rate": "0",
+			"halfRate": "30.5",
+
+			"hu": "Nátrium-28",
+			"en": "Sodium-28"
+		}, {
+			"weight": "29.002861",
+			"rate": "0",
+			"halfRate": "44.9 ms",
+
+			"hu": "Nátrium-29",
+			"en": "Sodium-29"
+		}, {
+			"weight": "30.008976",
+			"rate": "0",
+			"halfRate": "48.4 ms",
+
+			"hu": "Nátrium-30",
+			"en": "Sodium-30"
+		}, {
+			"weight": "31.013585452",
+			"rate": "0",
+			"halfRate": "17 ms",
+
+			"hu": "Nátrium-31",
+			"en": "Sodium-31"
+		}, {
+			"weight": "32.02046656",
+			"rate": "0",
+			"halfRate": "12.9 ms",
+
+			"hu": "Nátrium-32",
+			"en": "Sodium-32"
+		}, {
+			"weight": "33.026719756",
+			"rate": "0",
+			"halfRate": "8.2 ms",
+
+			"hu": "Nátrium-33",
+			"en": "Sodium-33"
+		}, {
+			"weight": "34.035170",
+			"rate": "0",
+			"halfRate": "5.5 ms",
+
+			"hu": "Nátrium-34",
+			"en": "Sodium-34"
+		}, {
+			"weight": "35.042493",
+			"rate": "0",
+			"halfRate": "1.5 ms",
+
+			"hu": "Nátrium-35",
+			"en": "Sodium-35"
+		}, {
+			"weight": "36.051480",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Nátrium-36",
+			"en": "Sodium-36"
+		}, {
+			"weight": "37.059340",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Nátrium-37",
+			"en": "Sodium-37"
+		}
+	]
   }, {
 	"element": "Mg",
 	"number": 12,
@@ -228,17 +1418,179 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "1.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "015_sk.jpg",
 	"m1": "0xff61161b",
+
 	"hu": "Magnézium",
 	"en": "Magnesium",
+
 	"chargedComponent": "12",
-	"neutron": "12"
+	"neutron": "12",
+
+	"isotopes": [
+		{
+			"weight": "19.03547",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Magnézium-19",
+			"en": "Magnesium-19"
+		}, {
+			"weight": "20.018862545",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Magnézium-20",
+			"en": "Magnesium-20"
+		}, {
+			"weight": "21.01171291",
+			"rate": "0",
+			"halfRate": "122 ms",
+
+			"hu": "Magnézium-21",
+			"en": "Magnesium-21"
+		}, {
+			"weight": "21.999573843",
+			"rate": "0",
+			"halfRate": "3.857 s",
+
+			"hu": "Magnézium-22",
+			"en": "Magnesium-22"
+		}, {
+			"weight": "22.994123669",
+			"rate": "0",
+			"halfRate": "11.317 s",
+
+			"hu": "Magnézium-23",
+			"en": "Magnesium-23"
+		}, {
+			"weight": "23.985041699",
+			"rate": "78.99",
+			"halfRate": "stable",
+
+			"hu": "Magnézium-24",
+			"en": "Magnesium-24"
+		}, {
+			"weight": "24.985836917",
+			"rate": "10",
+			"halfRate": "stable",
+
+			"hu": "Magnézium-25",
+			"en": "Magnesium-25"
+		}, {
+			"weight": "25.982592929",
+			"rate": "11.01",
+			"halfRate": "stable",
+
+			"hu": "Magnézium-26",
+			"en": "Magnesium-26"
+		}, {
+			"weight": "26.984340585",
+			"rate": "0",
+			"halfRate": "9.458 min",
+
+			"hu": "Magnézium-27",
+			"en": "Magnesium-27"
+		}, {
+			"weight": "27.983876825",
+			"rate": "0",
+			"halfRate": "20.915 h",
+
+			"hu": "Magnézium-28",
+			"en": "Magnesium-28"
+		}, {
+			"weight": "28.9886",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Magnézium-29",
+			"en": "Magnesium-29"
+		}, {
+			"weight": "29.990434",
+			"rate": "0",
+			"halfRate": "335 ms",
+
+			"hu": "Magnézium-30",
+			"en": "Magnesium-30"
+		}, {
+			"weight": "30.996546",
+			"rate": "0",
+			"halfRate": "230 ms",
+
+			"hu": "Magnézium-31",
+			"en": "Magnesium-31"
+		}, {
+			"weight": "31.998975",
+			"rate": "0",
+			"halfRate": "95 ms",
+
+			"hu": "Magnézium-32",
+			"en": "Magnesium-32"
+		}, {
+			"weight": "33.005254",
+			"rate": "0",
+			"halfRate": "90.5 ms",
+
+			"hu": "Magnézium-33",
+			"en": "Magnesium-33"
+		}, {
+			"weight": "34.009456424",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Magnézium-34",
+			"en": "Magnesium-34"
+		}, {
+			"weight": "35.017340",
+			"rate": "0",
+			"halfRate": "70 ms",
+
+			"hu": "Magnézium-35",
+			"en": "Magnesium-35"
+		}, {
+			"weight": "36.023000",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Magnézium-36",
+			"en": "Magnesium-36"
+		}, {
+			"weight": "37.031400",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Magnézium-37",
+			"en": "Magnesium-37"
+		}, {
+			"weight": "38.037570",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Magnézium-38",
+			"en": "Magnesium-38"
+		}, {
+			"weight": "39.046772",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Magnézium-39",
+			"en": "Magnesium-39"
+		}, {
+			"weight": "40.053930",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Magnézium-40",
+			"en": "Magnesium-40"
+		}
+	]
   }, {
 	"element": "Al",
 	"number": 13,
@@ -248,17 +1600,179 @@
 	"consistency": "solid",
 	"discovery": "1825",
 	"electronnegativity": "1.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "008_pc.jpg",
 	"m1": "0xffb01b23",
+
 	"hu": "Alumínium",
 	"en": "Aluminium",
+
 	"chargedComponent": "13",
-	"neutron": "14"
+	"neutron": "14",
+
+	"isotopes": [
+		{
+			"weight": "21.028040",
+			"rate": "0",
+			"halfRate": "35 ns",
+
+			"hu": "Alumínium-21",
+			"en": "Aluminium-21"
+		}, {
+			"weight": "22.019520",
+			"rate": "0",
+			"halfRate": "59 ms",
+
+			"hu": "Alumínium-22",
+			"en": "Aluminium-22"
+		}, {
+			"weight": "23.007267432",
+			"rate": "0",
+			"halfRate": "470 ms",
+
+			"hu": "Alumínium-23",
+			"en": "Aluminium-23"
+		}, {
+			"weight": "23.999938865",
+			"rate": "0",
+			"halfRate": "2.053 s",
+
+			"hu": "Alumínium-24",
+			"en": "Aluminium-24"
+		}, {
+			"weight": "24.990428095",
+			"rate": "0",
+			"halfRate": "7.183 s",
+
+			"hu": "Alumínium-25",
+			"en": "Aluminium-25"
+		}, {
+			"weight": "25.986891692",
+			"rate": "0",
+			"halfRate": "716000 y",
+
+			"hu": "Alumínium-26",
+			"en": "Aluminium-26"
+		}, {
+			"weight": "26.981538627",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Alumínium-27",
+			"en": "Aluminium-27"
+		}, {
+			"weight": "27.981910306",
+			"rate": "0",
+			"halfRate": "2.2413 min",
+
+			"hu": "Alumínium-28",
+			"en": "Aluminium-28"
+		}, {
+			"weight": "28.980445046",
+			"rate": "0",
+			"halfRate": "6.57 min",
+
+			"hu": "Alumínium-29",
+			"en": "Aluminium-29"
+		}, {
+			"weight": "29.982960256",
+			"rate": "0",
+			"halfRate": "3.6 s",
+
+			"hu": "Alumínium-30",
+			"en": "Aluminium-30"
+		}, {
+			"weight": "30.983946619",
+			"rate": "0",
+			"halfRate": "644 ms",
+
+			"hu": "Alumínium-31",
+			"en": "Aluminium-31"
+		}, {
+			"weight": "31.988124489",
+			"rate": "0",
+			"halfRate": "31.7 ms",
+
+			"hu": "Alumínium-32",
+			"en": "Aluminium-32"
+		}, {
+			"weight": "32.990843336",
+			"rate": "0",
+			"halfRate": "41.7 ms",
+
+			"hu": "Alumínium-33",
+			"en": "Aluminium-33"
+		}, {
+			"weight": "33.996851837",
+			"rate": "0",
+			"halfRate": "56.3 ms",
+
+			"hu": "Alumínium-34",
+			"en": "Aluminium-34"
+		}, {
+			"weight": "34.999860235",
+			"rate": "0",
+			"halfRate": "38.6 ms",
+
+			"hu": "Alumínium-35",
+			"en": "Aluminium-35"
+		}, {
+			"weight": "36.006207204",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Alumínium-36",
+			"en": "Aluminium-36"
+		}, {
+			"weight": "37.01067782",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Alumínium-37",
+			"en": "Aluminium-37"
+		}, {
+			"weight": "38.017231021",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Alumínium-38",
+			"en": "Aluminium-38"
+		}, {
+			"weight": "39.02297",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Alumínium-39",
+			"en": "Aluminium-39"
+		}, {
+			"weight": "40.031450",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Alumínium-40",
+			"en": "Aluminium-40"
+		}, {
+			"weight": "41.038330",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Alumínium-41",
+			"en": "Aluminium-41"
+		}, {
+			"weight": "42.046890",
+			"rate": "0",
+			"halfRate": "1ms",
+
+			"hu": "Alumínium-42",
+			"en": "Aluminium-42"
+		}
+	]
   }, {
 	"element": "Si",
 	"number": 14,
@@ -268,17 +1782,186 @@
 	"consistency": "solid",
 	"discovery": "1823",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "006_ba.jpg",
 	"m1": "0xff635f91",
+
 	"hu": "Szilícium",
 	"en": "Silicon",
+
 	"chargedComponent": "14",
-	"neutron": "14"
+	"neutron": "14",
+
+	"isotopes": [
+		{
+			"weight": "22.034530",
+			"rate": "0",
+			"halfRate": "29 ms",
+
+			"hu": "Szilícium-22",
+			"en": "Silicon-22"
+		}, {
+			"weight": "23.025520",
+			"rate": "0",
+			"halfRate": "42.3 ms",
+
+			"hu": "Szilícium-23",
+			"en": "Silicon-23"
+		}, {
+			"weight": "24.011545616",
+			"rate": "0",
+			"halfRate": "140 ms",
+
+			"hu": "Szilícium-24",
+			"en": "Silicon-24"
+		}, {
+			"weight": "25.004105574",
+			"rate": "0",
+			"halfRate": "220 ms",
+
+			"hu": "Szilícium-25",
+			"en": "Silicon-25"
+		}, {
+			"weight": "25.992329921",
+			"rate": "0",
+			"halfRate": "2.234 s",
+
+			"hu": "Szilícium-26",
+			"en": "Silicon-26"
+		}, {
+			"weight": "26.986704905",
+			"rate": "0",
+			"halfRate": "4.16 s",
+
+			"hu": "Szilícium-27",
+			"en": "Silicon-27"
+		}, {
+			"weight": "27.97692653246",
+			"rate": "92.2297",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-28",
+			"en": "Silicon-28"
+		}, {
+			"weight": "28.9764947",
+			"rate": "4.6832",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-29",
+			"en": "Silicon-29"
+		}, {
+			"weight": "29.973770171",
+			"rate": "3.0872",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-30",
+			"en": "Silicon-30"
+		}, {
+			"weight": "30.975363226999998",
+			"rate": "0",
+			"halfRate": "2.622 h",
+
+			"hu": "Szilícium-31",
+			"en": "Silicon-31"
+		}, {
+			"weight": "31.974148082",
+			"rate": "0",
+			"halfRate": "132 y",
+
+			"hu": "Szilícium-32",
+			"en": "Silicon-32"
+		}, {
+			"weight": "32.97800022",
+			"rate": "0",
+			"halfRate": "6.18 s",
+
+			"hu": "Szilícium-33",
+			"en": "Silicon-33"
+		}, {
+			"weight": "33.978575524",
+			"rate": "0",
+			"halfRate": "2.77 s",
+
+			"hu": "Szilícium-34",
+			"en": "Silicon-34"
+		}, {
+			"weight": "34.984583575",
+			"rate": "0",
+			"halfRate": "780 ms",
+
+			"hu": "Szilícium-35",
+			"en": "Silicon-35"
+		}, {
+			"weight": "35.986599477",
+			"rate": "0",
+			"halfRate": "450 ms",
+
+			"hu": "Szilícium-36",
+			"en": "Silicon-36"
+		}, {
+			"weight": "36.99293608",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-37",
+			"en": "Silicon-37"
+		}, {
+			"weight": "37.995633601",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-38",
+			"en": "Silicon-38"
+		}, {
+			"weight": "39.002070013",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-39",
+			"en": "Silicon-39"
+		}, {
+			"weight": "40.005869121",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Szilícium-40",
+			"en": "Silicon-40"
+		}, {
+			"weight": "41.01456",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Szilícium-41",
+			"en": "Silicon-41"
+		}, {
+			"weight": "42.019790",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Szilícium-42",
+			"en": "Silicon-42"
+		}, {
+			"weight": "43.028660",
+			"rate": "0",
+			"halfRate": "15 ms",
+
+			"hu": "Szilícium-43",
+			"en": "Silicon-43"
+		}, {
+			"weight": "44.035260",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Szilícium-44",
+			"en": "Silicon-44"
+		}
+	]
   }, {
 	"element": "P",
 	"number": 15,
@@ -288,17 +1971,186 @@
 	"consistency": "solid",
 	"discovery": "1669",
 	"electronnegativity": "2.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "035_kg.jpg",
 	"m1": "0xffff5f2b",
+
 	"hu": "Foszfor",
 	"en": "Phosphorus",
+
 	"chargedComponent": "15",
-	"neutron": "16"
+	"neutron": "16",
+
+	"isotopes": [
+		{
+			"weight": "24.034350",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Foszfor-24",
+			"en": "Phosphorus-24"
+		} ,	{
+			"weight": "25.020260",
+			"rate": "0",
+			"halfRate": "30 ns",
+
+			"hu": "Foszfor-25",
+			"en": "Phosphorus-25"
+		}, {
+			"weight": "26.011780",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Foszfor-26",
+			"en": "Phosphorus-26"
+		}, {
+			"weight": "26.999230236",
+			"rate": "0",
+			"halfRate": "260 ms",
+
+			"hu": "Foszfor-27",
+			"en": "Phosphorus-27"
+		}, {
+			"weight": "27.992314761",
+			"rate": "0",
+			"halfRate": "270.3 ms",
+
+			"hu": "Foszfor-28",
+			"en": "Phosphorus-28"
+		}, {
+			"weight": "28.981800606",
+			"rate": "0",
+			"halfRate": "4.142 s",
+
+			"hu": "Foszfor-29",
+			"en": "Phosphorus-29"
+		}, {
+			"weight": "29.978313789",
+			"rate": "0",
+			"halfRate": "2.498 min",
+
+			"hu": "Foszfor-30",
+			"en": "Phosphorus-30"
+		}, {
+			"weight": "30.973761629",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Foszfor-31",
+			"en": "Phosphorus-31"
+		}, {
+			"weight": "31.973907274",
+			"rate": "0",
+			"halfRate": "14.263 d",
+
+			"hu": "Foszfor-32",
+			"en": "Phosphorus-32"
+		}, {
+			"weight": "32.971725543",
+			"rate": "0",
+			"halfRate": "25.34 d",
+
+			"hu": "Foszfor-33",
+			"en": "Phosphorus-33"
+		}, {
+			"weight": "33.973636257",
+			"rate": "0",
+			"halfRate": "12.43 s",
+
+			"hu": "Foszfor-34",
+			"en": "Phosphorus-34"
+		}, {
+			"weight": "34.973314117",
+			"rate": "0",
+			"halfRate": "47.3 s",
+
+			"hu": "Foszfor-35",
+			"en": "Phosphorus-35"
+		}, {
+			"weight": "35.97825968",
+			"rate": "0",
+			"halfRate": "5.6 s",
+
+			"hu": "Foszfor-36",
+			"en": "Phosphorus-36"
+		}, {
+			"weight": "36.979608946",
+			"rate": "0",
+			"halfRate": "2.31 s",
+
+			"hu": "Foszfor-37",
+			"en": "Phosphorus-37"
+		}, {
+			"weight": "37.984156827",
+			"rate": "0",
+			"halfRate": "640 ms",
+
+			"hu": "Foszfor-38",
+			"en": "Phosphorus-38"
+		}, {
+			"weight": "38.986179475",
+			"rate": "0",
+			"halfRate": "190 ms",
+
+			"hu": "Foszfor-39",
+			"en": "Phosphorus-39"
+		}, {
+			"weight": "39.991296951",
+			"rate": "0",
+			"halfRate": "153 ms",
+
+			"hu": "Foszfor-40",
+			"en": "Phosphorus-40"
+		}, {
+			"weight": "40.994335435",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Foszfor-41",
+			"en": "Phosphorus-41"
+		}, {
+			"weight": "42.001007913",
+			"rate": "0",
+			"halfRate": "120 ms",
+
+			"hu": "Foszfor-42",
+			"en": "Phosphorus-42"
+		}, {
+			"weight": "43.00619",
+			"rate": "0",
+			"halfRate": "33 ms",
+
+			"hu": "Foszfor-43",
+			"en": "Phosphorus-43"
+		}, {
+			"weight": "44.012990",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Foszfor-44",
+			"en": "Phosphorus-44"
+		}, {
+			"weight": "45.019220",
+			"rate": "0",
+			"halfRate": "8 ms",
+
+			"hu": "Foszfor-45",
+			"en": "Phosphorus-45"
+		}, {
+			"weight": "46.027380",
+			"rate": "0",
+			"halfRate": "4 ms",
+
+			"hu": "Foszfor-46",
+			"en": "Phosphorus-46"
+		}
+	]
   }, {
 	"element": "S",
 	"number": 16,
@@ -308,17 +2160,32 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "066_nm.jpg",
 	"m1": "0xffe9a117",
+
 	"hu": "Kén",
 	"en": "Sulfur",
+
 	"chargedComponent": "16",
-	"neutron": "16"
+	"neutron": "16",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kén-",
+			"en": "Sulfur-"
+		}
+	]
   }, {
 	"element": "Cl",
 	"number": 17,
@@ -328,17 +2195,32 @@
 	"consistency": "gas",
 	"discovery": "1774",
 	"electronnegativity": "3.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "026_hd.jpg",
 	"m1": "0xff2a5ce5",
+
 	"hu": "Klór",
 	"en": "Chlorine",
+
 	"chargedComponent": "17",
-	"neutron": "18"
+	"neutron": "18",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Klór-",
+			"en": "Chlorine-"
+		}
+	]
   }, {
 	"element": "Ar",
 	"number": 18,
@@ -348,17 +2230,32 @@
 	"consistency": "gas",
 	"discovery": "1894",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "003_dp.jpg",
 	"m1": "0xffd74c87",
+
 	"hu": "Argon",
 	"en": "Argon",
+
 	"chargedComponent": "18",
-	"neutron": "22"
+	"neutron": "22",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Argon-",
+			"en": "Argon-"
+		}
+	]
   }, {
 	"element": "K",
 	"number": 19,
@@ -368,17 +2265,32 @@
 	"consistency": "solid",
 	"discovery": "1807",
 	"electronnegativity": "0.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "032_di.jpg",
 	"m1": "0xffde2324",
+
 	"hu": "Kálium",
 	"en": "Potassium",
+
 	"chargedComponent": "19",
-	"neutron": "20"
+	"neutron": "20",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kálium-",
+			"en": "Potassium-"
+		}
+	]
   }, {
 	"element": "Ca",
 	"number": 20,
@@ -388,17 +2300,32 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "1.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "034_kg.jpg",
 	"m1": "0xff409099",
+
 	"hu": "Kálcium",
 	"en": "Calcium",
+
 	"chargedComponent": "20",
-	"neutron": "20"
+	"neutron": "20",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kálcium-",
+			"en": "Calcium-"
+		}
+	]
   }, {
 	"element": "Sc",
 	"number": 21,
@@ -408,17 +2335,32 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "005_ba.jpg",
 	"m1": "0xff03757f",
+
 	"hu": "Szkandium",
 	"en": "Scandium",
+
 	"chargedComponent": "21",
-	"neutron": "24"
+	"neutron": "24",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Szkandium-",
+			"en": "Scandium-"
+		}
+	]
   }, {
 	"element": "Ti",
 	"number": 22,
@@ -428,17 +2370,32 @@
 	"consistency": "solid",
 	"discovery": "1791",
 	"electronnegativity": "1.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "021_di.jpg",
 	"m1": "0xff5547da",
+
 	"hu": "Titán",
 	"en": "Titanium",
+
 	"chargedComponent": "26",
-	"neutron": "22"
+	"neutron": "22",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Titán-",
+			"en": "Titanium-"
+		}
+	]
   }, {
 	"element": "V",
 	"number": 23,
@@ -448,17 +2405,32 @@
 	"consistency": "solid",
 	"discovery": "1831",
 	"electronnegativity": "1.6",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "019_di.jpg",
 	"m1": "0xff9f3b55",
+
 	"hu": "Vanádium",
 	"en": "Vanadium",
+
 	"chargedComponent": "23",
-	"neutron": "28"
+	"neutron": "28",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Vanádium-",
+			"en": "Vanadium-"
+		}
+	]
   }, {
 	"element": "Cr",
 	"number": 24,
@@ -468,17 +2440,32 @@
 	"consistency": "solid",
 	"discovery": "1797",
 	"electronnegativity": "1.6",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "027_ar.jpg",
 	"m1": "0xff238076",
+
 	"hu": "Króm",
 	"en": "Chromium",
+
 	"chargedComponent": "24",
-	"neutron": "28"
+	"neutron": "28",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-",
+			"en": "Chromium-"
+		}
+	]
   }, {
 	"element": "Mn",
 	"number": 25,
@@ -488,17 +2475,32 @@
 	"consistency": "solid",
 	"discovery": "1774",
 	"electronnegativity": "1.5",
+
 	"radioactivity": "stable",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "036_ar.jpg",
 	"m1": "0xff373bff",
+
 	"hu": "Mangán",
 	"en": "Manganese",
+
 	"chargedComponent": "25",
-	"neutron": "30"
+	"neutron": "30",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Mangán-",
+			"en": "Manganese-"
+		}
+	]
   }, {
 	"element": "Fe",
 	"number": 26,
@@ -508,17 +2510,32 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "024_cj.jpg",
 	"m1": "0xffd8222f",
+
 	"hu": "Vas",
 	"en": "Iron",
+
 	"chargedComponent": "26",
-	"neutron": "30"
+	"neutron": "30",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Vas-",
+			"en": "Iron-"
+		}
+	]
   }, {
 	"element": "Co",
 	"number": 27,
@@ -528,17 +2545,32 @@
 	"consistency": "solid",
 	"discovery": "1735",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "012_mh.jpg",
 	"m1": "0xff088f77",
+
 	"hu": "Kobalt",
 	"en": "Cobalt",
+
 	"chargedComponent": "27",
-	"neutron": "32"
+	"neutron": "32",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kobalt-",
+			"en": "Cobalt-"
+		}
+	]
   }, {
 	"element": "Ni",
 	"number": 28,
@@ -548,17 +2580,32 @@
 	"consistency": "solid",
 	"discovery": "1751",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "072_ac.jpg",
 	"m1": "0xff586ad7",
+
 	"hu": "Nikkel",
 	"en": "Nickel",
+
 	"chargedComponent": "28",
-	"neutron": "31"
+	"neutron": "31",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Nikkel-",
+			"en": "Nickel-"
+		}
+	]
   }, {
 	"element": "Cu",
 	"number": 29,
@@ -568,17 +2615,32 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1.9",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "004_dp.jpg",
 	"m1": "0xff468f65",
+
 	"hu": "Réz",
 	"en": "Copper",
+
 	"chargedComponent": "29",
-	"neutron": "35"
+	"neutron": "35",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Réz-",
+			"en": "Copper-"
+		}
+	]
   }, {
 	"element": "Zn",
 	"number": 30,
@@ -588,17 +2650,32 @@
 	"consistency": "solid",
 	"discovery": "1520",
 	"electronnegativity": "1.6",
+
 	"radioactivity": "stable",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "017_di.jpg",
 	"m1": "0xffd1322b",
+
 	"hu": "Cink",
 	"en": "Zinc",
+
 	"chargedComponent": "35",
-	"neutron": "30"
+	"neutron": "30",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Cink-",
+			"en": "Zinc-"
+		}
+	]
   }, {
 	"element": "Ga",
 	"number": 31,
@@ -608,17 +2685,32 @@
 	"consistency": "solid",
 	"discovery": "1875",
 	"electronnegativity": "1.6",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "039_ar.jpg",
 	"m1": "0xffd97c20",
+
 	"hu": "Gallium",
 	"en": "Gallium",
+
 	"chargedComponent": "31",
-	"neutron": "38"
+	"neutron": "38",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Gallium-",
+			"en": "Gallium-"
+		}
+	]
   }, {
 	"element": "Ge",
 	"number": 32,
@@ -628,17 +2720,32 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "115_di.jpg",
 	"m1": "0xff64979a",
+
 	"hu": "Germánium",
 	"en": "Germanium",
+
 	"chargedComponent": "32",
-	"neutron": "41"
+	"neutron": "41",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Germánium-",
+			"en": "Germanium-"
+		}
+	]
   }, {
 	"element": "As",
 	"number": 33,
@@ -648,17 +2755,32 @@
 	"consistency": "solid",
 	"discovery": "1250",
 	"electronnegativity": "2.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "020_di.jpg",
 	"m1": "0xff903b4d",
+
 	"hu": "Arzén",
 	"en": "Arsenic",
+
 	"chargedComponent": "33",
-	"neutron": "42"
+	"neutron": "42",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Arzén-",
+			"en": "Arsenic-"
+		}
+	]
   }, {
 	"element": "Se",
 	"number": 34,
@@ -668,17 +2790,32 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "2.4",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "028_ar.jpg",
 	"m1": "0xfff9855e",
+
 	"hu": "Szelén",
 	"en": "Selenium",
+
 	"chargedComponent": "34",
-	"neutron": "45"
+	"neutron": "45",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Szelén-",
+			"en": "Selenium-"
+		}
+	]
   }, {
 	"element": "Br",
 	"number": 35,
@@ -688,17 +2825,32 @@
 	"consistency": "fluid",
 	"discovery": "1826",
 	"electronnegativity": "2.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "043_di.jpg",
 	"m1": "0xffbe394a",
+
 	"hu": "Bróm",
 	"en": "Bromine",
+
 	"chargedComponent": "35",
-	"neutron": "45"
+	"neutron": "45",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Bróm-",
+			"en": "Bromine-"
+		}
+	]
   }, {
 	"element": "Kr",
 	"number": 36,
@@ -708,17 +2860,32 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "3.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "002_dp.jpg",
 	"m1": "0xff237ec5",
+
 	"hu": "Kripton",
 	"en": "Krypton",
+
 	"chargedComponent": "36",
-	"neutron": "48"
+	"neutron": "48",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kripton-",
+			"en": "Krypton-"
+		}
+	]
   }, {
 	"element": "Rb",
 	"number": 37,
@@ -728,17 +2895,32 @@
 	"consistency": "solid",
 	"discovery": "1861",
 	"electronnegativity": "0.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "037_ar.jpg",
 	"m1": "0xffe13f3c",
+
 	"hu": "Rubídium",
 	"en": "Rubidium",
+
 	"chargedComponent": "37",
-	"neutron": "48"
+	"neutron": "48",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Rubídium-",
+			"en": "Rubidium-"
+		}
+	]
   }, {
 	"element": "Sr",
 	"number": 38,
@@ -748,17 +2930,32 @@
 	"consistency": "solid",
 	"discovery": "1790",
 	"electronnegativity": "1.0",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": true,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "033_kg.jpg",
 	"m1": "0xff277e78",
+
 	"hu": "Stroncium",
 	"en": "Stroncium",
+
 	"chargedComponent": "38",
-	"neutron": "50"
+	"neutron": "50",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Stroncium-",
+			"en": "Stroncium-"
+		}
+	]
   }, {
 	"element": "Y",
 	"number": 39,
@@ -768,17 +2965,32 @@
 	"consistency": "solid",
 	"discovery": "1794",
 	"electronnegativity": "1.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "013_pc.jpg",
 	"m1": "0xff58ebdb",
+
 	"hu": "Ittrium",
 	"en": "Yttrium",
+
 	"chargedComponent": "39",
-	"neutron": "50"
+	"neutron": "50",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ittrium-",
+			"en": "Yttrium-"
+		}
+	]
   }, {
 	"element": "Zr",
 	"number": 40,
@@ -788,17 +3000,32 @@
 	"consistency": "solid",
 	"discovery": "1791",
 	"electronnegativity": "1.4",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "042_di.jpg",
 	"m1": "0xfff76915",
+
 	"hu": "Cirkónium",
 	"en": "Zirconium",
+
 	"chargedComponent": "40",
-	"neutron": "51"
+	"neutron": "51",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Cirkónium-",
+			"en": "Zirconium-"
+		}
+	]
   }, {
 	"element": "Nb",
 	"number": 41,
@@ -808,17 +3035,32 @@
 	"consistency": "solid",
 	"discovery": "1801",
 	"electronnegativity": "1.6",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "044_lq.jpg",
 	"m1": "0xfffeb300",
+
 	"hu": "Nióbium",
 	"en": "Niobium",
+
 	"chargedComponent": "41",
-	"neutron": "52"
+	"neutron": "52",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Nióbium-",
+			"en": "Niobium-"
+		}
+	]
   }, {
 	"element": "Mo",
 	"number": 42,
@@ -828,17 +3070,32 @@
 	"consistency": "solid",
 	"discovery": "1782",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "090_ac.jpg",
 	"m1": "0xff489ca9",
+
 	"hu": "Molibdén",
 	"en": "Molybdenum",
+
 	"chargedComponent": "42",
-	"neutron": "54"
+	"neutron": "54",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Molibdén-",
+			"en": "Molybdenum-"
+		}
+	]
   }, {
 	"element": "Tc",
 	"number": 43,
@@ -848,17 +3105,32 @@
 	"consistency": "solid",
 	"discovery": "1937",
 	"electronnegativity": "1.9",
+
 	"radioactivity": "radioactive",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "046_pb.jpg",
 	"m1": "0xff00c7b1",
+
 	"hu": "Technécium",
 	"en": "Technetium",
+
 	"chargedComponent": "43",
-	"neutron": "55"
+	"neutron": "55",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Technécium-",
+			"en": "Technetium-"
+		}
+	]
   }, {
 	"element": "Ru",
 	"number": 44,
@@ -868,17 +3140,32 @@
 	"consistency": "solid",
 	"discovery": "1844",
 	"electronnegativity": "2.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "045_ss.jpg",
 	"m1": "0xffc01c25",
+
 	"hu": "Ruténium",
 	"en": "Ruthenium",
+
 	"chargedComponent": "44",
-	"neutron": "57"
+	"neutron": "57",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-",
+			"en": "Ruthenium-"
+		}
+	]
   }, {
 	"element": "Rh",
 	"number": 45,
@@ -888,17 +3175,32 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "2.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "091_va.jpg",
 	"m1": "0xff1eeaa3",
+
 	"hu": "Ródium",
 	"en": "Rhodium",
+
 	"chargedComponent": "45",
-	"neutron": "58"
+	"neutron": "58",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ródium-",
+			"en": "Rhodium-"
+		}
+	]
   }, {
 	"element": "Pd",
 	"number": 46,
@@ -908,17 +3210,32 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "2.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "041_di.jpg",
 	"m1": "0xffd06a68",
+
 	"hu": "Palládium",
 	"en": "Palladium",
+
 	"chargedComponent": "46",
-	"neutron": "60"
+	"neutron": "60",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Palládium-",
+			"en": "Palladium-"
+		}
+	]
   }, {
 	"element": "Ag",
 	"number": 47,
@@ -928,17 +3245,32 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1.9",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "047_ab.jpg",
 	"m1": "0xff376baa",
+
 	"hu": "Ezüst",
 	"en": "Silver",
+
 	"chargedComponent": "47",
-	"neutron": "61"
+	"neutron": "61",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ezüst-",
+			"en": "Silver-"
+		}
+	]
   }, {
 	"element": "Cd",
 	"number": 48,
@@ -948,17 +3280,32 @@
 	"consistency": "solid",
 	"discovery": "1817",
 	"electronnegativity": "1.7",
+
 	"radioactivity": "stable",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "040_di.jpg",
 	"m1": "0xffc16c6f",
+
 	"hu": "Kadmium",
 	"en": "Cadmium",
+
 	"chargedComponent": "48",
-	"neutron": "64"
+	"neutron": "64",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kadmium-",
+			"en": "Cadmium-"
+		}
+	]
   }, {
 	"element": "In",
 	"number": 49,
@@ -968,17 +3315,32 @@
 	"consistency": "solid",
 	"discovery": "1863",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "038_ar.jpg",
 	"m1": "0xffaa1630",
+
 	"hu": "Indium",
 	"en": "Indium",
+
 	"chargedComponent": "49",
-	"neutron": "66"
+	"neutron": "66",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Indium-",
+			"en": "Indium-"
+		}
+	]
   }, {
 	"element": "Sn",
 	"number": 50,
@@ -988,17 +3350,32 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "079_dc.jpg",
 	"m1": "0xff3f6490",
+
 	"hu": "Ón",
 	"en": "Tin",
+
 	"chargedComponent": "50",
-	"neutron": "69"
+	"neutron": "69",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-",
+			"en": "Tin-"
+		}
+	]
   }, {
 	"element": "Sb",
 	"number": 51,
@@ -1008,17 +3385,32 @@
 	"consistency": "solid",
 	"discovery": "1450",
 	"electronnegativity": "1.9",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "085_ah.jpg",
 	"m1": "0xff982b54",
+
 	"hu": "Antimon",
 	"en": "Antimony",
+
 	"chargedComponent": "51",
-	"neutron": "71"
+	"neutron": "71",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Antimon-",
+			"en": "Antimony"
+		}
+	]
   }, {
 	"element": "Te",
 	"number": 52,
@@ -1028,17 +3420,33 @@
 	"consistency": "solid",
 	"discovery": "1782",
 	"electronnegativity": "2.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "065_pc.jpg",
 	"m1": "0xff6cc075",
+
 	"hu": "Tellúr",
 	"en": "Tellurium",
+
 	"chargedComponent": "52",
-	"neutron": "76"
+	"neutron": "76",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Tellúr-",
+			"en": "Tellurium-"
+		}
+	]
+
   }, {
 	"element": "I",
 	"number": 53,
@@ -1048,17 +3456,32 @@
 	"consistency": "solid",
 	"discovery": "1811",
 	"electronnegativity": "2.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "068_pc.jpg",
 	"m1": "0xffcf3e23",
+
 	"hu": "Jód",
 	"en": "Iodine",
+
 	"chargedComponent": "53",
-	"neutron": "75"
+	"neutron": "75",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Jód-",
+			"en": "Iodine-"
+		}
+	]
   }, {
 	"element": "Xe",
 	"number": 54,
@@ -1068,17 +3491,32 @@
 	"consistency": "gas",
 	"discovery": "1898",
 	"electronnegativity": "2.6",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "007_ba.jpg",
 	"m1": "0xff4d6ba7",
+
 	"hu": "Xenon",
 	"en": "Xenon",
+
 	"chargedComponent": "54",
-	"neutron": "77"
+	"neutron": "77",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Xenon-",
+			"en": "Xenon-"
+		}
+	]
   }, {
 	"element": "Cs",
 	"number": 55,
@@ -1088,17 +3526,32 @@
 	"consistency": "solid",
 	"discovery": "1860",
 	"electronnegativity": "0.7",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": true,
+
 	"bg": "069_pc.jpg",
 	"m1": "0xffc2233f",
+
 	"hu": "Cézium",
 	"en": "Caesium",
+
 	"chargedComponent": "55",
-	"neutron": "78"
+	"neutron": "78",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Cézium-",
+			"en": "Caesium-"
+		}
+	]
   }, {
 	"element": "Ba",
 	"number": 56,
@@ -1108,17 +3561,32 @@
 	"consistency": "solid",
 	"discovery": "1808",
 	"electronnegativity": "0.9",
+
 	"radioactivity": "stable",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "073_gr.jpg",
 	"m1": "0xff43a9ae",
+
 	"hu": "Bárium",
 	"en": "Barium",
+
 	"chargedComponent": "86",
-	"neutron": "81"
+	"neutron": "81",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Bárium-",
+			"en": "Barium-"
+		}
+	]
   }, {
 	"element": "La",
 	"number": 57,
@@ -1128,17 +3596,32 @@
 	"consistency": "solid",
 	"discovery": "1839",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "062_pc.jpg",
 	"m1": "0xffe87e30",
+
 	"hu": "Lantán",
 	"en": "Lanthanum",
+
 	"chargedComponent": "57",
-	"neutron": "82"
+	"neutron": "82",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Lantán-",
+			"en": "Lanthanum-"
+		}
+	]
   }, {
 	"element": "Ce",
 	"number": 58,
@@ -1148,17 +3631,32 @@
 	"consistency": "solid",
 	"discovery": "1803",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "092_kb.jpg",
 	"m1": "0xff3a5661",
+
 	"hu": "Cérium",
 	"en": "Cerium",
+
 	"chargedComponent": "58",
-	"neutron": "82"
+	"neutron": "82",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Cérium-",
+			"en": "Cerium-"
+		}
+	]
   }, {
 	"element": "Pr",
 	"number": 59,
@@ -1168,17 +3666,32 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "049_pc.jpg",
 	"m1": "0xffcc6954",
+
 	"hu": "Prazeodímium",
 	"en": "Praseodymium",
+
 	"chargedComponent": "59",
-	"neutron": "82"
+	"neutron": "82",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Prazeodímium-",
+			"en": "Praseodymium-"
+		}
+	]
   }, {
 	"element": "Nd",
 	"number": 60,
@@ -1188,17 +3701,32 @@
 	"consistency": "solid",
 	"discovery": "1885",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "105_ar.jpg",
 	"m1": "0xff297166",
+
 	"hu": "Neodímium",
 	"en": "Neodymium",
+
 	"chargedComponent": "60",
-	"neutron": "84"
+	"neutron": "84",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Neodímium-",
+			"en": "Neodymium-"
+		}
+	]
   }, {
 	"element": "Pm",
 	"number": 61,
@@ -1208,17 +3736,32 @@
 	"consistency": "solid",
 	"discovery": "1945",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "052_pc.jpg",
 	"m1": "0xffc2481e",
+
 	"hu": "Prométium",
 	"en": "Promethium",
+
 	"chargedComponent": "61",
-	"neutron": "84"
+	"neutron": "84",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Prométium-",
+			"en": "Promethium-"
+		}
+	]
   }, {
 	"element": "Sm",
 	"number": 62,
@@ -1228,17 +3771,32 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "050_pc.jpg",
 	"m1": "0xff013b8f",
+
 	"hu": "Szamárium",
 	"en": "Samarium",
+
 	"chargedComponent": "62",
-	"neutron": "88"
+	"neutron": "88",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Szamárium-",
+			"en": "Samarium-"
+		}
+	]
   }, {
 	"element": "Eu",
 	"number": 63,
@@ -1248,17 +3806,32 @@
 	"consistency": "solid",
 	"discovery": "1889",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": true,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "084_mk.jpg",
 	"m1": "0xff1e5f73",
+
 	"hu": "Európium",
 	"en": "Europium",
+
 	"chargedComponent": "63",
-	"neutron": "89"
+	"neutron": "89",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Európium-",
+			"en": "Europium-"
+		}
+	]
   }, {
 	"element": "Gd",
 	"number": 64,
@@ -1268,17 +3841,32 @@
 	"consistency": "solid",
 	"discovery": "1880",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "082_wj.jpg",
 	"m1": "0xff0f7f6f",
+
 	"hu": "Gadolínium",
 	"en": "Gadolinium",
+
 	"chargedComponent": "64",
-	"neutron": "93"
+	"neutron": "93",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Gadolínium-",
+			"en": "Gadolinium-"
+		}
+	]
   }, {
 	"element": "Tb",
 	"number": 65,
@@ -1288,17 +3876,32 @@
 	"consistency": "solid",
 	"discovery": "1843",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "071_ac.jpg",
 	"m1": "0xffa9475a",
+
 	"hu": "Terbium",
 	"en": "Terbium",
+
 	"chargedComponent": "65",
-	"neutron": "94"
+	"neutron": "94",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-",
+			"en": "Terbium-"
+		}
+	]
   }, {
 	"element": "Dy",
 	"number": 66,
@@ -1308,17 +3911,32 @@
 	"consistency": "solid",
 	"discovery": "1886",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "078_lm.jpg",
 	"m1": "0xfffcbc8e",
+
 	"hu": "Diszprózium",
 	"en": "Dysprosium",
+
 	"chargedComponent": "66",
-	"neutron": "97"
+	"neutron": "97",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Diszprózium-",
+			"en": "Dysprosium-"
+		}
+	]
   }, {
 	"element": "Ho",
 	"number": 67,
@@ -1328,17 +3946,32 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "064_pc.jpg",
 	"m1": "0xffda6456",
+
 	"hu": "Holmium",
 	"en": "Holmium",
+
 	"chargedComponent": "67",
-	"neutron": "98"
+	"neutron": "98",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Holmium-",
+			"en": "Holmium-"
+		}
+	]
   }, {
 	"element": "Er",
 	"number": 68,
@@ -1348,17 +3981,32 @@
 	"consistency": "solid",
 	"discovery": "1843",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "093_di.jpg",
 	"m1": "0xff6e65c2",
+
 	"hu": "Erbium",
 	"en": "Erbium",
+
 	"chargedComponent": "68",
-	"neutron": "99"
+	"neutron": "99",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Erbium-",
+			"en": "Erbium-"
+		}
+	]
   }, {
 	"element": "Tm",
 	"number": 69,
@@ -1368,17 +4016,32 @@
 	"consistency": "solid",
 	"discovery": "1879",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "074_nd.jpg",
 	"m1": "0xffeb2f09",
+
 	"hu": "Túlium",
 	"en": "Thulium",
+
 	"chargedComponent": "69",
-	"neutron": "100"
+	"neutron": "100",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Túlium-",
+			"en": "Thulium-"
+		}
+	]
   }, {
 	"element": "Yb",
 	"number": 70,
@@ -1388,17 +4051,32 @@
 	"consistency": "solid",
 	"discovery": "1878",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "107_ar.jpg",
 	"m1": "0xffa70a1d",
+
 	"hu": "Itterbium",
 	"en": "Ytterbium",
+
 	"chargedComponent": "70",
-	"neutron": "103"
+	"neutron": "103",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Itterbium-",
+			"en": "Ytterbium-"
+		}
+	]
   }, {
 	"element": "Lu",
 	"number": 71,
@@ -1408,17 +4086,32 @@
 	"consistency": "solid",
 	"discovery": "1907",
 	"electronnegativity": "1.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "059_pc.jpg",
 	"m1": "0xfff8791a",
+
 	"hu": "Lutécium",
 	"en": "Lutetium",
+
 	"chargedComponent": "71",
-	"neutron": "104"
+	"neutron": "104",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Lutécium-",
+			"en": "Lutetium-"
+		}
+	]
   }, {
 	"element": "Hf",
 	"number": 72,
@@ -1428,17 +4121,32 @@
 	"consistency": "solid",
 	"discovery": "1923",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "116_di.jpg",
 	"m1": "0xff89273e",
+
 	"hu": "Hafnium",
 	"en": "Hafnium",
+
 	"chargedComponent": "72",
-	"neutron": "106"
+	"neutron": "106",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Hafnium-",
+			"en": "Hafnium-"
+		}
+	]
   }, {
 	"element": "Ta",
 	"number": 73,
@@ -1448,17 +4156,32 @@
 	"consistency": "solid",
 	"discovery": "1802",
 	"electronnegativity": "1.5",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "108_pr.jpg",
 	"m1": "0xff2285a4",
+
 	"hu": "Tantál",
 	"en": "Tantalum",
+
 	"chargedComponent": "73",
-	"neutron": "108"
+	"neutron": "108",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Tantál-",
+			"en": "Tantalum-"
+		}
+	]
   }, {
 	"element": "W",
 	"number": 74,
@@ -1468,17 +4191,32 @@
 	"consistency": "solid",
 	"discovery": "1783",
 	"electronnegativity": "1.7",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "068_pc.jpg",
 	"m1": "0xffcf3e23",
+
 	"hu": "Volfrám",
 	"en": "Tungsten",
+
 	"chargedComponent": "74",
-	"neutron": "110"
+	"neutron": "110",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Volfrám-",
+			"en": "Tungsten-"
+		}
+	]
   }, {
 	"element": "Re",
 	"number": 75,
@@ -1488,17 +4226,32 @@
 	"consistency": "solid",
 	"discovery": "1925",
 	"electronnegativity": "1.9",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "088_do.jpg",
 	"m1": "0xffef950b",
+
 	"hu": "Rénium",
 	"en": "Rhenium",
+
 	"chargedComponent": "75",
-	"neutron": "111"
+	"neutron": "111",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Rénium-",
+			"en": "Rhenium-"
+		}
+	]
   }, {
 	"element": "Os",
 	"number": 76,
@@ -1508,17 +4261,32 @@
 	"consistency": "solid",
 	"discovery": "1804",
 	"electronnegativity": "2.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "056_pc.jpg",
 	"m1": "0xff31a1a3",
+
 	"hu": "Ozmium",
 	"en": "Osmium",
+
 	"chargedComponent": "76",
-	"neutron": "114"
+	"neutron": "114",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ozmium",
+			"en": "Osmium"
+		}
+	]
   }, {
 	"element": "Ir",
 	"number": 77,
@@ -1528,17 +4296,32 @@
 	"consistency": "solid",
 	"discovery": "1804",
 	"electronnegativity": "2.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "081_ja.jpg",
 	"m1": "0xff31a1a3",
+
 	"hu": "Irídium",
 	"en": "Iridium",
+
 	"chargedComponent": "77",
-	"neutron": "115"
+	"neutron": "115",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Irídium-",
+			"en": "Iridium-"
+		}
+	]
   }, {
 	"element": "Pt",
 	"number": 78,
@@ -1548,17 +4331,32 @@
 	"consistency": "solid",
 	"discovery": "1741",
 	"electronnegativity": "2.2",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "077_ab.jpg",
 	"m1": "0xffc0756f",
+
 	"hu": "Platina",
 	"en": "Platinum",
+
 	"chargedComponent": "78",
-	"neutron": "117"
+	"neutron": "117",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Platina-",
+			"en": "Platinum-"
+		}
+	]
   }, {
 	"element": "Au",
 	"number": 79,
@@ -1568,17 +4366,32 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "2.4",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "076_sk.jpg",
 	"m1": "0xffcb7b4a",
+
 	"hu": "Arany",
 	"en": "Gold",
+
 	"chargedComponent": "79",
-	"neutron": "118"
+	"neutron": "118",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Arany-",
+			"en": "Gold-"
+		}
+	]
   }, {
 	"element": "Hg",
 	"number": 80,
@@ -1588,17 +4401,32 @@
 	"consistency": "fluid",
 	"discovery": "ancient",
 	"electronnegativity": "1.9",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "055_pc.jpg",
 	"m1": "0xffb4452a",
+
 	"hu": "Higany",
 	"en": "Mercury",
+
 	"chargedComponent": "80",
-	"neutron": "121"
+	"neutron": "121",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Higany-",
+			"en": "Mercury-"
+		}
+	]
   }, {
 	"element": "Tl",
 	"number": 81,
@@ -1608,17 +4436,32 @@
 	"consistency": "solid",
 	"discovery": "1861",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": true,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "054_pc.jpg",
 	"m1": "0xffffae6f",
+
 	"hu": "Tallium",
 	"en": "Thallium",
+
 	"chargedComponent": "81",
-	"neutron": "123"
+	"neutron": "123",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Tallium-",
+			"en": "Thallium-"
+		}
+	]
   }, {
 	"element": "Pb",
 	"number": 82,
@@ -1628,17 +4471,32 @@
 	"consistency": "solid",
 	"discovery": "ancient",
 	"electronnegativity": "1.8",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "053_pc.jpg",
 	"m1": "0xfff5595a",
+
 	"hu": "Ólom",
 	"en": "Lead",
+
 	"chargedComponent": "82",
-	"neutron": "125"
+	"neutron": "125",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ólom-",
+			"en": "Lead-"
+		}
+	]
   }, {
 	"element": "Bi",
 	"number": 83,
@@ -1648,17 +4506,32 @@
 	"consistency": "solid",
 	"discovery": "1740",
 	"electronnegativity": "1.9",
+
 	"radioactivity": "stable",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "010_di.jpg",
 	"m1": "0xff2e8688",
+
 	"hu": "Bizmut",
 	"en": "Bismuth",
+
 	"chargedComponent": "83",
-	"neutron": "126"
+	"neutron": "126",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Bizmut-",
+			"en": "Bismuth-"
+		}
+	]
   }, {
 	"element": "Po",
 	"number": 84,
@@ -1668,17 +4541,32 @@
 	"consistency": "solid",
 	"discovery": "1898",
 	"electronnegativity": "2.0",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": true,
 	"multipleRadiationEmitters": false,
+
 	"bg": "030_di.jpg",
 	"m1": "0xff2a69ca",
+
 	"hu": "Polónium",
 	"en": "Polonium",
+
 	"chargedComponent": "84",
-	"neutron": "125"
+	"neutron": "125",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Polónium-",
+			"en": "Polonium-"
+		}
+	]
   }, {
 	"element": "At",
 	"number": 85,
@@ -1688,17 +4576,32 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "2.2",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "048_ar.jpg",
 	"m1": "0xff4fbfb3",
+
 	"hu": "Asztácium",
 	"en": "Astatine",
+
 	"chargedComponent": "85",
-	"neutron": "125"
+	"neutron": "125",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Asztácium-",
+			"en": "Astatine-"
+		}
+	]
   }, {
 	"element": "Rn",
 	"number": 86,
@@ -1708,17 +4611,32 @@
 	"consistency": "gas",
 	"discovery": "1900",
 	"electronnegativity": "2.4",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "111_sj.jpg",
 	"m1": "0xff07a46f",
+
 	"hu": "Radon",
 	"en": "Radon",
+
 	"chargedComponent": "86",
-	"neutron": "136"
+	"neutron": "136",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Radon-",
+			"en": "Radon-"
+		}
+	]
   }, {
 	"element": "Fr",
 	"number": 87,
@@ -1728,17 +4646,32 @@
 	"consistency": "solid",
 	"discovery": "1939",
 	"electronnegativity": "0.7",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "100_di.jpg",
 	"m1": "0xffa61e32",
+
 	"hu": "Francium",
 	"en": "Francium",
+
 	"chargedComponent": "87",
-	"neutron": "136"
+	"neutron": "136",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Francium-",
+			"en": "Francium-"
+		}
+	]
   }, {
 	"element": "Ra",
 	"number": 88,
@@ -1748,17 +4681,32 @@
 	"consistency": "solid",
 	"discovery": "1898",
 	"electronnegativity": "0.7",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "117_di.jpg",
 	"m1": "0xff8aad69",
+
 	"hu": "Rádium",
 	"en": "Radium",
+
 	"chargedComponent": "88",
-	"neutron": "138"
+	"neutron": "138",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Rádium-",
+			"en": "Radium-"
+		}
+	]
   }, {
 	"element": "Ac",
 	"number": 89,
@@ -1768,17 +4716,32 @@
 	"consistency": "solid",
 	"discovery": "1899",
 	"electronnegativity": "1.1",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "118_ar.jpg",
 	"m1": "0xff0fcaab",
+
 	"hu": "Aktínium",
 	"en": "Actinium",
+
 	"chargedComponent": "89",
-	"neutron": "138"
+	"neutron": "138",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Aktínium-",
+			"en": "Actinium-"
+		}
+	]
   }, {
 	"element": "Th",
 	"number": 90,
@@ -1788,17 +4751,32 @@
 	"consistency": "solid",
 	"discovery": "1828",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "099_di.jpg",
 	"m1": "0xff873c63",
+
 	"hu": "Tórium",
 	"en": "Thorium",
+
 	"chargedComponent": "90",
-	"neutron": "142"
+	"neutron": "142",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Tórium-",
+			"en": "Thorium-"
+		}
+	]
   }, {
 	"element": "Pa",
 	"number": 91,
@@ -1808,17 +4786,32 @@
 	"consistency": "solid",
 	"discovery": "1917",
 	"electronnegativity": "1.5",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "075_ar.jpg",
 	"m1": "0xffba0f6f",
+
 	"hu": "Protaktínium",
 	"en": "Protactinium",
+
 	"chargedComponent": "91",
-	"neutron": "148"
+	"neutron": "148",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Protaktínium-",
+			"en": "Protactinium-"
+		}
+	]
   }, {
 	"element": "U",
 	"number": 92,
@@ -1828,17 +4821,32 @@
 	"consistency": "solid",
 	"discovery": "1789",
 	"electronnegativity": "1.7",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": true,
 	"multipleRadiationEmitters": false,
+
 	"bg": "009_pc.jpg",
 	"m1": "0xff3a8b0b",
+
 	"hu": "Urán",
 	"en": "Uranium",
+
 	"chargedComponent": "92",
-	"neutron": "146"
+	"neutron": "146",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Urán-",
+			"en": "Uranium-"
+		}
+	]
   }, {
 	"element": "Np",
 	"number": 93,
@@ -1848,17 +4856,32 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "102_ar.jpg",
 	"m1": "0xff334c85",
+
 	"hu": "Neptúnium",
 	"en": "Neptunium",
+
 	"chargedComponent": "93",
-	"neutron": "144"
+	"neutron": "144",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Neptúnium-",
+			"en": "Neptunium-"
+		}
+	]
   }, {
 	"element": "Pu",
 	"number": 94,
@@ -1868,17 +4891,32 @@
 	"consistency": "solid",
 	"discovery": "1940",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "089_mj.jpg",
 	"m1": "0xff0493b3",
+
 	"hu": "Plutónium",
 	"en": "Plutonium",
+
 	"chargedComponent": "94",
-	"neutron": "150"
+	"neutron": "150",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Plutónium-",
+			"en": "Plutonium-"
+		}
+	]
   }, {
 	"element": "Am",
 	"number": 95,
@@ -1888,17 +4926,32 @@
 	"consistency": "solid",
 	"discovery": "1944",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": true,
+
 	"bg": "051_pc.jpg",
 	"m1": "0xffb7274a",
+
 	"hu": "Amerícium",
 	"en": "Americium",
+
 	"chargedComponent": "95",
-	"neutron": "148"
+	"neutron": "148",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Amerícium-",
+			"en": "Americium-"
+		}
+	]
   }, {
 	"element": "Cm",
 	"number": 96,
@@ -1908,17 +4961,32 @@
 	"consistency": "solid",
 	"discovery": "1944",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "086_js.jpg",
 	"m1": "0xff3694ac",
+
 	"hu": "Kűrium",
 	"en": "Curium",
+
 	"chargedComponent": "96",
-	"neutron": "151"
+	"neutron": "151",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kűrium-",
+			"en": "Curium-"
+		}
+	]
   }, {
 	"element": "Bk",
 	"number": 97,
@@ -1928,17 +4996,32 @@
 	"consistency": "solid",
 	"discovery": "1949",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "087_js.jpg",
 	"m1": "0xff0d7b84",
+
 	"hu": "Berkélium",
 	"en": "Berkelium",
+
 	"chargedComponent": "97",
-	"neutron": "150"
+	"neutron": "150",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Berkélium-",
+			"en": "Berkelium-"
+		}
+	]
   }, {
 	"element": "Cf",
 	"number": 98,
@@ -1948,17 +5031,32 @@
 	"consistency": "solid",
 	"discovery": "1950",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "094_di.jpg",
 	"m1": "0xff8b2b35",
+
 	"hu": "Kalifornium",
 	"en": "Californium",
+
 	"chargedComponent": "98",
-	"neutron": "153"
+	"neutron": "153",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kalifornium-",
+			"en": "Californium-"
+		}
+	]
   }, {
 	"element": "Es",
 	"number": 99,
@@ -1968,17 +5066,32 @@
 	"consistency": "solid",
 	"discovery": "1952",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "058_pc.jpg",
 	"m1": "0xff0663c5",
+	
 	"hu": "Einsteinium",
 	"en": "Einsteinium",
+
 	"chargedComponent": "99",
-	"neutron": "153"
+	"neutron": "153",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Einsteinium-",
+			"en": "Einsteinium-"
+		}
+	]
   }, {
 	"element": "Fm",
 	"number": 100,
@@ -1988,17 +5101,32 @@
 	"consistency": "solid",
 	"discovery": "1953",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "095_di.jpg",
 	"m1": "0xff4b6acb",
+
 	"hu": "Fermium",
 	"en": "Fermium",
+
 	"chargedComponent": "100",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Fermium-",
+			"en": "Fermium-"
+		}
+	]
   }, {
 	"element": "Md",
 	"number": 101,
@@ -2008,17 +5136,32 @@
 	"consistency": "solid",
 	"discovery": "1955",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "097_di.jpg",
 	"m1": "0xff4db3b6",
+
 	"hu": "Mendelévium",
 	"en": "Mendelevium",
+
 	"chargedComponent": "101",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Mendelévium-",
+			"en": "Mendelevium-"
+		}
+	]
   }, {
 	"element": "No",
 	"number": 102,
@@ -2028,17 +5171,32 @@
 	"consistency": "solid",
 	"discovery": "1958",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "098_di.jpg",
 	"m1": "0xffe28155",
+
 	"hu": "Nobélium",
 	"en": "Nobelium",
+
 	"chargedComponent": "102",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Nobélium",
+			"en": "Nobelium"
+		}
+	]
   }, {
 	"element": "Lr",
 	"number": 103,
@@ -2048,17 +5206,32 @@
 	"consistency": "solid",
 	"discovery": "1961",
 	"electronnegativity": "1.3",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "101_di.jpg",
 	"m1": "0xffc45053",
+
 	"hu": "Laurencium",
 	"en": "Lawrencium",
+
 	"chargedComponent": "103",
-	"neutron": "159"
+	"neutron": "159",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Laurencium-",
+			"en": "Lawrencium-"
+		}
+	]
   }, {
 	"element": "Rf",
 	"number": 104,
@@ -2068,17 +5241,32 @@
 	"consistency": "solid",
 	"discovery": "1966",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "103_ar.jpg",
 	"m1": "0xff3c4d78",
+
 	"hu": "Raderfordium",
 	"en": "Rutherfordium",
+
 	"chargedComponent": "104",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Raderfordium-",
+			"en": "Rutherfordium-"
+		}
+	]
   }, {
 	"element": "Db",
 	"number": 105,
@@ -2088,17 +5276,32 @@
 	"consistency": "solid",
 	"discovery": "1967",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "109_jk.jpg",
 	"m1": "0xff13868d",
+
 	"hu": "Dubnium",
 	"en": "Dubnium",
+
 	"chargedComponent": "105",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Dubnium-",
+			"en": "Dubnium-"
+		}
+	]
   }, {
 	"element": "Sg",
 	"number": 106,
@@ -2108,17 +5311,32 @@
 	"consistency": "solid",
 	"discovery": "1974",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "114_di.jpg",
 	"m1": "0xff2a9ad6",
+
 	"hu": "Sziborgium",
 	"en": "Seaborgium",
+
 	"chargedComponent": "106",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Sziborgium-",
+			"en": "Seaborgium-"
+		}
+	]
   }, {
 	"element": "Bh",
 	"number": 107,
@@ -2128,17 +5346,32 @@
 	"consistency": "solid",
 	"discovery": "1976",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "057_ar.jpg",
 	"m1": "0xff189a6c",
+
 	"hu": "Bohrium",
 	"en": "Bohrium",
+
 	"chargedComponent": "107",
-	"neutron": "155"
+	"neutron": "155",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Bohrium-",
+			"en": "Bohrium-"
+		}
+	]
   }, {
 	"element": "Hs",
 	"number": 108,
@@ -2148,17 +5381,32 @@
 	"consistency": "solid",
 	"discovery": "1984",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "001_di.jpg",
 	"m1": "0xffef4727",
+
 	"hu": "Hasszium",
 	"en": "Hassium",
+
 	"chargedComponent": "108",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Hasszium-",
+			"en": "Hassium-"
+		}
+	]
   }, {
 	"element": "Mt",
 	"number": 109,
@@ -2168,17 +5416,32 @@
 	"consistency": "unknown",
 	"discovery": "1982",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "096_rp.jpg",
 	"m1": "0xffe34e3a",
+
 	"hu": "Meitnérium",
 	"en": "Meittnerium",
+
 	"chargedComponent": "109",
-	"neutron": "157"
+	"neutron": "157",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Meitnérium-",
+			"en": "Meittnerium-"
+		}
+	]
   }, {
 	"element": "Ds",
 	"number": 110,
@@ -2188,17 +5451,32 @@
 	"consistency": "solid",
 	"discovery": "1994",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "067_nm.jpg",
 	"m1": "0xff52899b",
+
 	"hu": "Darmstadtium",
 	"en": "Darmstadtium",
+
 	"chargedComponent": "110",
-	"neutron": "151"
+	"neutron": "151",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Darmstadtium-",
+			"en": "Darmstadtium-"
+		}
+	]
   }, {
 	"element": "Rg",
 	"number": 111,
@@ -2208,17 +5486,32 @@
 	"consistency": "unknown",
 	"discovery": "1994",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "113_na.jpg",
 	"m1": "0xff658a9c",
+
 	"hu": "Röntgénium",
 	"en": "Roentgenium",
+
 	"chargedComponent": "111",
-	"neutron": "161"
+	"neutron": "161",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Röntgénium-",
+			"en": "Röntgénium-"
+		}
+	]
   }, {
 	"element": "Cn",
 	"number": 112,
@@ -2228,17 +5521,32 @@
 	"consistency": "solid",
 	"discovery": "1996",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "110_sj.jpg",
 	"m1": "0xff0034bb",
+
 	"hu": "Kopernícium",
 	"en": "Copernicium",
+
 	"chargedComponent": "112",
-	"neutron": "165"
+	"neutron": "165",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Kopernícium-",
+			"en": "Copernicium-"
+		}
+	]
   }, {
 	"element": "Nh",
 	"number": 113,
@@ -2248,17 +5556,32 @@
 	"consistency": "unknown",
 	"discovery": "2004",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "083_mk.jpg",
 	"m1": "0xff189cc3",
+
 	"hu": "Nihónium",
 	"en": "Nihonium",
+
 	"chargedComponent": "113",
-	"neutron": "173"
+	"neutron": "173",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Nihónium-",
+			"en": "Nihonium-"
+		}
+	]
   }, {
 	"element": "Fl",
 	"number": 114,
@@ -2268,17 +5591,32 @@
 	"consistency": "solid",
 	"discovery": "1999",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "112_fa.jpg",
 	"m1": "0xffeb6123",
+
 	"hu": "Fleróvium",
 	"en": "Flerovium",
+
 	"chargedComponent": "114",
-	"neutron": "175"
+	"neutron": "175",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Fleróvium-",
+			"en": "Flerovium-"
+		}
+	]
   }, {
 	"element": "Mc",
 	"number": 115,
@@ -2288,17 +5626,32 @@
 	"consistency": "unknown",
 	"discovery": "2004",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "061_pc.jpg",
 	"m1": "0xffe52122",
+
 	"hu": "Moszkóvium",
 	"en": "Moscovium",
+
 	"chargedComponent": "115",
-	"neutron": "175"
+	"neutron": "175",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Moszkóvium-",
+			"en": "Moscovium-"
+		}
+	]
   }, {
 	"element": "Lv",
 	"number": 116,
@@ -2308,17 +5661,32 @@
 	"consistency": "unknown",
 	"discovery": "2001",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "070_pc.jpg",
 	"m1": "0xfffe6253",
+
 	"hu": "Livermórium",
 	"en": "Livermorium",
+
 	"chargedComponent": "116",
-	"neutron": "177"
+	"neutron": "177",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Livermórium-",
+			"en": "Livermorium-"
+		}
+	]
   }, {
 	"element": "Ts",
 	"number": 117,
@@ -2328,17 +5696,32 @@
 	"consistency": "unknown",
 	"discovery": "2010",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "060_pc.jpg",
 	"m1": "0xffd8b78e",
+
 	"hu": "Tenesszium",
 	"en": "Tennessie",
+
 	"chargedComponent": "117",
-	"neutron": "177"
+	"neutron": "177",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Tenesszium-",
+			"en": "Tennessie-"
+		}
+	]
   }, {
 	"element": "Og",
 	"number": 118,
@@ -2348,16 +5731,31 @@
 	"consistency": "unknown",
 	"discovery": "2006",
 	"electronnegativity": "unknown",
+
 	"radioactivity": "radioactive",
 	"gamma": false,
 	"beta": false,
 	"alpha": false,
 	"multipleRadiationEmitters": false,
+
 	"bg": "080_rc.jpg",
 	"m1": "0xff88acba",
+
 	"hu": "Oganeszon",
 	"en": "Oganesson",
+
 	"chargedComponent": "118",
-	"neutron": "176"
+	"neutron": "176",
+
+	"isotopes": [
+		{
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Oganeszon-",
+			"en": "Oganesson-"
+		}
+	]
   }
 ]
