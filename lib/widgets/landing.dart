@@ -23,6 +23,11 @@ double en1 = 0;
 double en2 = 4;
 bool en3 = true;
 
+int ae1 = 1;
+int ae2 = 118;
+int an1 = 1;
+int an2 = 118;
+
 // ignore: camel_case_types
 class landing extends StatefulWidget {
   @override
@@ -38,6 +43,13 @@ class _landingState extends State<landing> {
       return roundedValue;
     }
 
+    String percentageModifierNull(double value) {
+      final roundedValue = value.toStringAsFixed(0).toString();
+      return roundedValue;
+    }
+
+    double toDouble(int d) => d / 1;
+
     return SafeArea(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -46,10 +58,7 @@ class _landingState extends State<landing> {
             alignment: Alignment.topLeft,
             child: Padding(
               padding: EdgeInsets.only(
-                  left:
-                          MediaQuery.of(context).size.width
-                       *
-                      .1,
+                  left: MediaQuery.of(context).size.width * .1,
                   top: MediaQuery.of(context).size.height * .02,
                   bottom: MediaQuery.of(context).size.height * .02),
               child: Row(
@@ -63,8 +72,7 @@ class _landingState extends State<landing> {
                           "" + AppLocalizations.of(context).translate("menu"),
                       child: Image(
                           image: AssetImage("lib/icons/right_500.png"),
-                          height: MediaQuery.of(context).size.width *
-                              .105,
+                          height: MediaQuery.of(context).size.width * .105,
                           width: MediaQuery.of(context).size.width * .105),
                     ),
                   ),
@@ -84,12 +92,8 @@ class _landingState extends State<landing> {
             padding: EdgeInsets.only(
                 top: MediaQuery.of(context).size.height * .05,
                 bottom: MediaQuery.of(context).size.height * .05,
-                right:
-                        MediaQuery.of(context).size.width *
-                    .1,
-                left:
-                        MediaQuery.of(context).size.width *
-                    .1),
+                right: MediaQuery.of(context).size.width * .1,
+                left: MediaQuery.of(context).size.width * .1),
             child: Column(
               children: <Widget>[
                 Container(
@@ -99,9 +103,7 @@ class _landingState extends State<landing> {
                     style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
-                      fontSize:
-                              MediaQuery.of(context).size.width *
-                          .12,
+                      fontSize: MediaQuery.of(context).size.width * .12,
                     ),
                   ),
                 ),
@@ -205,11 +207,10 @@ class _landingState extends State<landing> {
                                                         color: Colors.white,
                                                         fontWeight:
                                                             FontWeight.bold,
-                                                        fontSize:
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width *
+                                                        fontSize: MediaQuery.of(
+                                                                    context)
+                                                                .size
+                                                                .width *
                                                             .09,
                                                       ),
                                                     ),
@@ -417,24 +418,24 @@ class _landingState extends State<landing> {
                             );
                           },
                           child: Container(
-                          width: MediaQuery.of(context).size.width,
+                            width: MediaQuery.of(context).size.width,
                             child: Tooltip(
-                            message: AppLocalizations.of(context)
-                                .translate('electronnegativitySelector'),
-                            child: Text(
-                              AppLocalizations.of(context)
-                                  .translate('electronnegativityMinSelector'),
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                height: 1,
-                                fontSize:
-                                        MediaQuery.of(context).size.width
-                                    *
-                                    .1,
-                                color: Colors.white,
+                              message: AppLocalizations.of(context)
+                                  .translate('electronnegativitySelector'),
+                              child:
+                                  Text(
+                                    AppLocalizations.of(context).translate(
+                                        'electronnegativityMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      height: 1,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .1,
+                                      color: Colors.white,
+                                    ),
+                                  ),
                               ),
-                            ),
-                          ),
                           ),
                         ),
                         GestureDetector(
@@ -927,20 +928,286 @@ class _landingState extends State<landing> {
                           child: Container(
                             width: MediaQuery.of(context).size.width,
                             child: Tooltip(
-                            message:
+                              message: AppLocalizations.of(context)
+                                  .translate('types'),
+                              child: Text(
                                 AppLocalizations.of(context).translate('types'),
-                            child: Text(
-                              AppLocalizations.of(context).translate('types'),
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                height: 1,
-                                fontSize:
-                                    MediaQuery.of(context).size.width * .1,
-                                color: Colors.white,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  height: 1,
+                                  fontSize:
+                                      MediaQuery.of(context).size.width * .1,
+                                  color: Colors.white,
+                                ),
                               ),
                             ),
                           ),
                         ),
+                        GestureDetector(
+                          onTap: () {
+                            showModalBottomSheet(
+                              isScrollControlled: true,
+                              context: context,
+                              builder: (context) {
+                                return DraggableScrollableSheet(
+                                  initialChildSize: .95,
+                                  maxChildSize: 1,
+                                  builder:
+                                      (BuildContext context, scrollController) {
+                                    return ClipRRect(
+                                      borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(
+                                            (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .1),
+                                        topRight: Radius.circular(
+                                            (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .1),
+                                      ),
+                                      child: BackdropFilter(
+                                        filter: ImageFilter.blur(
+                                            sigmaX: (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05,
+                                            sigmaY: (MediaQuery.of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05),
+                                        child: SingleChildScrollView(
+                                          controller: scrollController,
+                                          child: Container(
+                                            child: Center(
+                                              child: Column(
+                                                children: <Widget>[
+                                                  Padding(
+                                                    padding: EdgeInsets.only(
+                                                        top: MediaQuery.of(
+                                                            context)
+                                                            .size
+                                                            .height *
+                                                            .04,
+                                                        bottom: MediaQuery.of(
+                                                            context)
+                                                            .size
+                                                            .height *
+                                                            .05),
+                                                    child: Text(
+                                                      AppLocalizations.of(
+                                                          context)
+                                                          .translate(
+                                                          'electronnegativitySelector') +
+                                                          ':',
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                        fontWeight:
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery.of(
+                                                            context)
+                                                            .size
+                                                            .width *
+                                                            .09,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  SleekCircularSlider(
+                                                    initialValue: toDouble(an1),
+                                                    min: toDouble(ae1),
+                                                    max: toDouble(ae2),
+                                                    appearance:
+                                                    CircularSliderAppearance(
+                                                      animationEnabled: false,
+                                                      size: (MediaQuery.of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery.of(
+                                                              context)
+                                                              .size
+                                                              .width) /
+                                                          2 *
+                                                          .4,
+                                                      infoProperties:
+                                                      InfoProperties(
+                                                        modifier:
+                                                        percentageModifierNull,
+                                                        topLabelStyle: TextStyle(
+                                                            fontSize: (MediaQuery.of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery.of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
+                                                                2 *
+                                                                .06,
+                                                            fontWeight:
+                                                            FontWeight.bold,
+                                                            color:
+                                                            Colors.white),
+                                                        mainLabelStyle:
+                                                        TextStyle(
+                                                          fontSize: (MediaQuery.of(
+                                                              context)
+                                                              .size
+                                                              .height +
+                                                              MediaQuery.of(
+                                                                  context)
+                                                                  .size
+                                                                  .width) /
+                                                              2 *
+                                                              .08,
+                                                          color: Colors.white,
+                                                        ),
+                                                        topLabelText:
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMin'),
+                                                      ),
+                                                      customColors:
+                                                      CustomSliderColors(
+                                                        trackColor:
+                                                        Colors.white,
+                                                        hideShadow: true,
+                                                        progressBarColors: <
+                                                            Color>[
+                                                          Color(0xff13547a),
+                                                          Color(0xff62a39c),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                    onChangeEnd: (v) {
+                                                      print(
+                                                          v.toStringAsFixed(0));
+                                                      an1 = num.parse(
+                                                          v.toStringAsFixed(0));
+                                                    },
+                                                  ),
+                                                  SleekCircularSlider(
+                                                    initialValue: toDouble(an2),
+                                                    min: toDouble(ae1),
+                                                    max: toDouble(ae2),
+                                                    appearance:
+                                                    CircularSliderAppearance(
+                                                      animationEnabled: false,
+                                                      size: (MediaQuery.of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery.of(
+                                                              context)
+                                                              .size
+                                                              .width) /
+                                                          2 *
+                                                          .4,
+                                                      infoProperties:
+                                                      InfoProperties(
+                                                        modifier:
+                                                        percentageModifierNull,
+                                                        topLabelStyle: TextStyle(
+                                                            fontWeight:
+                                                            FontWeight.bold,
+                                                            fontSize: (MediaQuery.of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery.of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
+                                                                2 *
+                                                                .06,
+                                                            color:
+                                                            Colors.white),
+                                                        mainLabelStyle: TextStyle(
+                                                            color: Colors.white,
+                                                            fontSize: (MediaQuery.of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery.of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
+                                                                2 *
+                                                                .08),
+                                                        topLabelText:
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMax'),
+                                                      ),
+                                                      customColors:
+                                                      CustomSliderColors(
+                                                        trackColor:
+                                                        Colors.white,
+                                                        hideShadow: true,
+                                                        progressBarColors: <
+                                                            Color>[
+                                                          Color(0xff13547a),
+                                                          Color(0xff62a39c),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                    onChangeEnd: (v) {
+                                                      print(
+                                                          v.toStringAsFixed(0));
+                                                      an2 = num.parse(
+                                                          v.toStringAsFixed(0));
+                                                    },
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            );
+                          },
+                          child: Container(
+                            width: MediaQuery.of(context).size.width,
+                            child: Tooltip(
+                              message: AppLocalizations.of(context)
+                                  .translate('electronnegativitySelector'),
+                              child:
+                              Text(
+                                'Atomic num.',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  height: 1,
+                                  fontSize:
+                                  MediaQuery.of(context).size.width *
+                                      .1,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
                         ),
                       ],
                     ),
@@ -952,66 +1219,67 @@ class _landingState extends State<landing> {
           Tooltip(
             message: AppLocalizations.of(context).translate('searchTooltip'),
             child: GestureDetector(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => searchResults(
-                    cb1: cb1,
-                    cb2: cb2,
-                    cb3: cb3,
-                    cb4: cb4,
-                    cb5: cb5,
-                    cb6: cb6,
-                    cb7: cb7,
-                    cb8: cb8,
-                    cb9: cb9,
-                    cb0: cb0,
-                    en1: en1,
-                    en2: en2,
-                    en3: en3,
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => searchResults(
+                      cb1: cb1,
+                      cb2: cb2,
+                      cb3: cb3,
+                      cb4: cb4,
+                      cb5: cb5,
+                      cb6: cb6,
+                      cb7: cb7,
+                      cb8: cb8,
+                      cb9: cb9,
+                      cb0: cb0,
+                      en1: en1,
+                      en2: en2,
+                      en3: en3,
+                      an1: an1,
+                      an2: an2,
+                    ),
                   ),
-                ),
-              );
-            },
-            child: Padding(
-              padding: EdgeInsets.only(
-                  bottom: 22,
-                  right: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
-                      2 *
-                      .05,
-                  left: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
-                      2 *
-                      .05),
-              child: Container(
-                width: MediaQuery.of(context).size.width * .8,
-                height: MediaQuery.of(context).size.height *
-                    .1,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [
-                    Color(0xff62a39c),
-                    Color(0xff13547a),
-                  ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                  borderRadius: BorderRadius.circular(
-                      (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .02),
-                ),
-                child: Center(
-                  child: Text(
-                    AppLocalizations.of(context).translate('search'),
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: MediaQuery.of(context).size.width * .08),
+                );
+              },
+              child: Padding(
+                padding: EdgeInsets.only(
+                    bottom: 22,
+                    right: (MediaQuery.of(context).size.height +
+                            MediaQuery.of(context).size.width) /
+                        2 *
+                        .05,
+                    left: (MediaQuery.of(context).size.height +
+                            MediaQuery.of(context).size.width) /
+                        2 *
+                        .05),
+                child: Container(
+                  width: MediaQuery.of(context).size.width * .8,
+                  height: MediaQuery.of(context).size.height * .1,
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(colors: [
+                      Color(0xff62a39c),
+                      Color(0xff13547a),
+                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
+                    borderRadius: BorderRadius.circular(
+                        (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .02),
+                  ),
+                  child: Center(
+                    child: Text(
+                      AppLocalizations.of(context).translate('search'),
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: MediaQuery.of(context).size.width * .08),
+                    ),
                   ),
                 ),
               ),
             ),
-          ),
           ),
         ],
       ),

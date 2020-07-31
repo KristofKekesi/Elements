@@ -8,20 +8,23 @@ import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 // ignore: camel_case_types
 class minimalView extends StatelessWidget {
-  final bool cb1;
-  final bool cb2;
-  final bool cb3;
-  final bool cb4;
-  final bool cb5;
-  final bool cb6;
-  final bool cb7;
-  final bool cb8;
-  final bool cb9;
-  final bool cb0;
+  @required final bool cb1;
+  @required final bool cb2;
+  @required final bool cb3;
+  @required final bool cb4;
+  @required final bool cb5;
+  @required final bool cb6;
+  @required final bool cb7;
+  @required final bool cb8;
+  @required final bool cb9;
+  @required final bool cb0;
 
-  final double en1;
-  final double en2;
-  final bool en3;
+  @required final double en1;
+  @required final double en2;
+  @required final bool en3;
+
+  @required final int an1;
+  @required final int an2;
 
   const minimalView({
     Key key,
@@ -37,7 +40,7 @@ class minimalView extends StatelessWidget {
     this.cb0,
     this.en1,
     this.en2,
-    this.en3,
+    this.en3, this.an1, this.an2,
   }) : super(key: key);
 
   @override

@@ -1,3 +1,4 @@
+import 'package:elements_rework/widgets/landing.dart';
 import 'package:flutter/material.dart';
 
 import 'cardView.dart';
@@ -8,23 +9,26 @@ enum viewMarker { cards, minimal }
 
 // ignore: camel_case_types
 class viewSelector extends StatefulWidget {
-  final bool cb1;
-  final bool cb2;
-  final bool cb3;
-  final bool cb4;
-  final bool cb5;
-  final bool cb6;
-  final bool cb7;
-  final bool cb8;
-  final bool cb9;
-  final bool cb0;
+  @required final bool cb1;
+  @required final bool cb2;
+  @required final bool cb3;
+  @required final bool cb4;
+  @required final bool cb5;
+  @required final bool cb6;
+  @required final bool cb7;
+  @required final bool cb8;
+  @required final bool cb9;
+  @required final bool cb0;
 
-  final double en1;
-  final double en2;
-  final bool en3;
+  @required final double en1;
+  @required final double en2;
+  @required final bool en3;
+
+  @required final int an1;
+  @required final int an2;
 
   const viewSelector(
-      {Key key, this.cb1, this.cb2, this.cb3, this.cb4, this.cb5, this.cb6, this.cb7, this.cb8, this.cb9, this.cb0, this.en1, this.en2, this.en3})
+      {Key key, this.cb1, this.cb2, this.cb3, this.cb4, this.cb5, this.cb6, this.cb7, this.cb8, this.cb9, this.cb0, this.en1, this.en2, this.en3, this.an1, this.an2})
       : super(key: key);
 
   @override
@@ -260,9 +264,9 @@ class viewSelectorState extends State<viewSelector> {
   Widget getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3) {
     switch (selectredViewMarker) {
     case viewMarker.cards:
-      return cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,);
+      return cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3, an1: an1, an2: an2,);
     case viewMarker.minimal:
-      return minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,);
+      return minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3, an1: an1, an2: an2,);
     }
     return minimalView(cb1: cb1,
       cb2: cb2,
@@ -276,6 +280,9 @@ class viewSelectorState extends State<viewSelector> {
       cb0: cb0,
       en1: en1,
       en2: en2,
-      en3: en3,);
+      en3: en3,
+      an1: an1,
+      an2: an2,
+    );
     }
 }
