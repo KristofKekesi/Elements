@@ -9,20 +9,23 @@ import 'cardView.dart';
 
 // ignore: camel_case_types
 class searchResults extends StatelessWidget {
-  final bool cb1;
-  final bool cb2;
-  final bool cb3;
-  final bool cb4;
-  final bool cb5;
-  final bool cb6;
-  final bool cb7;
-  final bool cb8;
-  final bool cb9;
-  final bool cb0;
+  @required final bool cb1;
+  @required final bool cb2;
+  @required final bool cb3;
+  @required final bool cb4;
+  @required final bool cb5;
+  @required final bool cb6;
+  @required final bool cb7;
+  @required final bool cb8;
+  @required final bool cb9;
+  @required final bool cb0;
 
-  final double en1;
-  final double en2;
-  final bool en3;
+  @required final double en1;
+  @required final double en2;
+  @required final bool en3;
+
+  @required final int an1;
+  @required final int an2;
 
   const searchResults(
       {Key key,
@@ -38,7 +41,7 @@ class searchResults extends StatelessWidget {
       this.cb0,
       this.en1,
       this.en2,
-      this.en3})
+      this.en3, this.an1, this.an2})
       : super(key: key);
 
   @override
@@ -98,6 +101,8 @@ class searchResults extends StatelessWidget {
               en1: en1,
               en2: en2,
               en3: en3,
+              an1: an1,
+              an2: an2,
             ),
             //cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
             //minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
