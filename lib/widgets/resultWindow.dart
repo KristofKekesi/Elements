@@ -27,6 +27,18 @@ class searchResults extends StatelessWidget {
   @required final int an1;
   @required final int an2;
 
+  @required final int prot1;
+  @required final int prot2;
+
+  @required final int elect1;
+  @required final int elect2;
+
+  @required final int neut1;
+  @required final int neut2;
+
+  @required final double minw;
+  @required final double maxw;
+
   const searchResults(
       {Key key,
       this.cb1,
@@ -41,7 +53,7 @@ class searchResults extends StatelessWidget {
       this.cb0,
       this.en1,
       this.en2,
-      this.en3, this.an1, this.an2})
+      this.en3, this.an1, this.an2, this.prot1, this.prot2, this.elect1, this.elect2, this.neut1, this.neut2, this.minw, this.maxw})
       : super(key: key);
 
   @override
@@ -103,9 +115,15 @@ class searchResults extends StatelessWidget {
               en3: en3,
               an1: an1,
               an2: an2,
+              prot1: prot1,
+              prot2: prot2,
+              elect1: elect1,
+              elect2: elect2,
+              neut1: neut1,
+              neut2: neut2,
+              minw: minw,
+              maxw: maxw,
             ),
-            //cardView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
-            //minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3,),
           ],
         ),
       ),

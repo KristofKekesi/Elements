@@ -26,6 +26,18 @@ class minimalView extends StatelessWidget {
   @required final int an1;
   @required final int an2;
 
+  @required final int prot1;
+  @required final int prot2;
+
+  @required final int elect1;
+  @required final int elect2;
+
+  @required final int neut1;
+  @required final int neut2;
+
+  @required final double minw;
+  @required final double maxw;
+
   const minimalView({
     Key key,
     this.cb1,
@@ -40,7 +52,7 @@ class minimalView extends StatelessWidget {
     this.cb0,
     this.en1,
     this.en2,
-    this.en3, this.an1, this.an2,
+    this.en3, this.an1, this.an2, this.prot1, this.prot2, this.elect1, this.elect2, this.neut1, this.neut2, this.minw, this.maxw,
   }) : super(key: key);
 
   @override
@@ -55,14 +67,14 @@ class minimalView extends StatelessWidget {
           final listElements = <Widget>[];
           for (var index = 0; index < elementList.length; index++) {
             if (en3 == true &&
-                    elementList[index]['electronnegativity'] == 'unknown' ||
+                elementList[index]['electronnegativity'] == 'unknown' ||
                 elementList[index]['electronnegativity'] != 'unknown' &&
                     en1 <=
                         num.parse(elementList[index]['electronnegativity']) &&
                     en2 >=
                         num.parse(elementList[index]['electronnegativity'])) {
               if (cb1 == true &&
-                      elementList[index]['type'] == 'otherNonmetal' ||
+                  elementList[index]['type'] == 'otherNonmetal' ||
                   cb2 == true && elementList[index]['type'] == 'nobleGas' ||
                   cb3 == true && elementList[index]['type'] == 'alkaliMetal' ||
                   cb4 == true &&
@@ -75,6 +87,28 @@ class minimalView extends StatelessWidget {
                   cb8 == true && elementList[index]['type'] == 'lanthanoid' ||
                   cb9 == true && elementList[index]['type'] == 'actinoid' ||
                   cb0 == true && elementList[index]['type'] == 'unknown') {
+                if (an1 <= elementList[index]['number'] &&
+                    an2 >= elementList[index]['number']) {
+                  if (prot1 <=
+                      int.parse(
+                          elementList[index]['chargedComponent']) &&
+                      prot2 >=
+                          int.parse(
+                              elementList[index]['chargedComponent']) &&
+                      elect1 <=
+                          int.parse(
+                              elementList[index]['chargedComponent']) &&
+                      elect2 >=
+                          int.parse(
+                              elementList[index]['chargedComponent']) &&
+                      neut1 <= int.parse(elementList[index]['neutron']) &&
+                      neut2 >= int.parse(elementList[index]['neutron'])) {
+                    if (minw <=
+                        double.parse(
+                            elementList[index]['weight'].replaceAll('(', '').replaceAll(')', '')) &&
+                        maxw >=
+                            double.parse(
+                                elementList[index]['weight'].replaceAll('(', '').replaceAll(')', ''))) {
                 pass++;
 
                 listElements.add(
@@ -774,8 +808,13 @@ class minimalView extends StatelessWidget {
                     ),
                   ),
                 );
-              }
-            }
+                //STARTS HERE
+    }
+    }
+    }
+    }
+    }
+            //ENDS HERE
           }
 
           if (pass == 0) {
