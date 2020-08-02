@@ -259,3 +259,7 @@ Library.
 Google Play and the Google Play logo are trademarks of Google LLC.
 
 Screenshots by [__App Mockup__](https://app-mockup.com/)
+
+##
+
+[article about Elements](https://flutterfix.com/a-flutter-app-to-track-the-chemistry-chemical-elements/)
