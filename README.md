@@ -23,6 +23,10 @@ Latest release: __0.2.2__
 - Bugfixes
   - Minimalview listview
   - True white backgrounds
+-  New Selectors
+   - Weight
+   - Atomic number
+   - Constructors
 
 ## Beta program <img src="https://img.shields.io/badge/Open-green.svg" alt="">
 #### To aply:
