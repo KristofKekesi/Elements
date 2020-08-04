@@ -19,72 +19,87 @@ String percentageModifierNull(double value) {
 }
 
 // types
-bool def_cb1 = true;
-bool def_cb2 = true;
-bool def_cb3 = true;
-bool def_cb4 = true;
-bool def_cb5 = true;
-bool def_cb6 = true;
-bool def_cb7 = true;
-bool def_cb8 = true;
-bool def_cb9 = true;
-bool def_cb0 = true;
+bool defTypesOthernonmetals = true;
+bool defTypesNoblegases = true;
+bool defTypesAlkalimetals = true;
+bool defTypesAlkaliearthmetals = true;
+bool defTypesMetalloids = true;
+bool defTypesPosttransitionmetals = true;
+bool defTypesTransitionMetals = true;
+bool defTypesLantanoids = true;
+bool defTypesActionids = true;
+bool defTypesUnknown = true;
 
-bool cb1 = true;
-bool cb2 = true;
-bool cb3 = true;
-bool cb4 = true;
-bool cb5 = true;
-bool cb6 = true;
-bool cb7 = true;
-bool cb8 = true;
-bool cb9 = true;
-bool cb0 = true;
+bool stateTypes = false;
+bool enabledTypes = false;
+
+bool typesOthernonmetals = true;
+bool typesNoblegases = true;
+bool typesAlkalimetals = true;
+bool typesAlkaliearthmetals = true;
+bool typesMetalloids = true;
+bool typesPosttransitionmetals = true;
+bool typesTransitionmetals = true;
+bool typesLanthanoids = true;
+bool typesActinoids = true;
+bool typesUnknown = true;
 
 // e-
-double def_en1 = 0;
-double def_en2 = 4;
-bool def_en3 = true;
+double defElectronnegativityMin = 0;
+double defElectronnegativityMax = 4;
+bool defElectronnegativityUnknown = true;
 
-double en1 = 0;
-double en2 = 4;
-bool en3 = true;
+bool stateElectronnegativity = false;
+bool enabledElectronnegativity = false;
 
-// atomic num
-int ae1 = 1;
-int ae2 = 118;
+double ElectronnegativityMin = 0;
+double ElectronnegativityMax = 4;
+bool ElectronnegativityUnknown = true;
 
-int def_an1 = 1;
-int def_an2 = 118;
+// atomic number
+int settingAtomicnumMin = 1;
+int settingAtomicnumberMax = 118;
 
-int an1 = 1;
-int an2 = 118;
+int defAtomicnumMin = 1;
+int defAtomicnumMax = 118;
+
+bool stateAtomicnumber = false;
+bool enabledAtomicnumber = false;
+
+int atomicnumMin = 1;
+int atomicnumMax = 118;
 
 // constructors
-int def_elect1 = 0;
-int def_elect2 = 118;
+int defConstructorsElectronMin = 0;
+int defConstructorsElectronMax = 118;
 
-int def_prot1 = 0;
-int def_prot2 = 118;
+int defConstructorsProtonMin = 0;
+int defConstructorsProtonMax = 118;
 
-int def_neut1 = 0;
-int def_neut2 = 177;
+int defConstructorsNeutronMin = 0;
+int defConstructorsNeutronMax = 177;
 
-int elect1 = 0;
-int elect2 = 118;
+bool stateConstructors = false;
+bool enabledConstructors = false;
 
-int prot1 = 0;
-int prot2 = 118;
+int constructorsElectronMin = 0;
+int constructorsElectronMax = 118;
 
-int neut1 = 0;
-int neut2 = 177;
+int constructorsProtonMin = 0;
+int constructorsProtonMax = 118;
+
+int constructorsNeutronMin = 0;
+int constructorsNeutronMax = 177;
 
 // weight
-double def_minw = 1;
-double def_maxw = 294;
+double defWeightMin = 1;
+double defWeightMax = 294;
 
-double minw = 1;
-double maxw = 294;
+bool stateWeight = false;
+bool enabledWeight = false;
+
+double weightMin = 1;
+double weightMax = 294;
 
 // ignore: camel_case_types
 class landing extends StatefulWidget {
@@ -138,8 +153,7 @@ class _landingState extends State<landing> {
           ),
           Padding(
             padding: EdgeInsets.only(
-                top: MediaQuery.of(context).size.height * .05,
-                bottom: MediaQuery.of(context).size.height * .05,
+                bottom: MediaQuery.of(context).size.height * .01,
                 right: MediaQuery.of(context).size.width * .1,
                 left: MediaQuery.of(context).size.width * .1),
             child: Column(
@@ -169,11 +183,23 @@ class _landingState extends State<landing> {
                             .02),
                   ),
                   child: Padding(
-                    padding: EdgeInsets.all(
-                        (MediaQuery.of(context).size.height +
+                    padding: EdgeInsets.only(
+                        left: (MediaQuery.of(context).size.height +
                                 MediaQuery.of(context).size.width) /
                             2 *
-                            .04),
+                            .04,
+                        right: (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .04,
+                        top: (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .02,
+                        bottom: (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .02),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
@@ -264,7 +290,8 @@ class _landingState extends State<landing> {
                                                     ),
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: en1,
+                                                    initialValue:
+                                                        ElectronnegativityMin,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
@@ -333,14 +360,16 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        en1 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                2));
+                                                        ElectronnegativityMin =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    2));
                                                       });
                                                     },
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: en2,
+                                                    initialValue:
+                                                        ElectronnegativityMax,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
@@ -407,9 +436,10 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        en2 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                2));
+                                                        ElectronnegativityMax =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    2));
                                                       });
                                                     },
                                                   ),
@@ -443,12 +473,14 @@ class _landingState extends State<landing> {
                                                         activeColor:
                                                             Color.fromRGBO(255,
                                                                 255, 255, 0),
-                                                        value: en3,
+                                                        value:
+                                                            ElectronnegativityUnknown,
                                                         onChanged:
                                                             (bool value) {
                                                           setState(
                                                             () {
-                                                              en3 = value;
+                                                              ElectronnegativityUnknown =
+                                                                  value;
                                                             },
                                                           );
                                                         },
@@ -472,16 +504,42 @@ class _landingState extends State<landing> {
                             child: Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('electronnegativitySelector'),
-                              child: Text(
-                                AppLocalizations.of(context)
-                                    .translate('electronnegativityMinSelector'),
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  height: 1,
-                                  fontSize:
-                                      MediaQuery.of(context).size.width * .1,
-                                  color: Colors.white,
-                                ),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    AppLocalizations.of(context).translate(
+                                        'electronnegativityMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      //height: MediaQuery.of(context).size.width * .0014,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: StatefulBuilder(
+                                      builder: (BuildContext context,
+                                          StateSetter setState) {
+                                        return Checkbox(
+                                          activeColor:
+                                              Color.fromRGBO(255, 255, 255, 0),
+                                          value: stateElectronnegativity,
+                                          onChanged: enabledElectronnegativity ? (bool value) {
+                                            setState(
+                                              () {
+                                                stateElectronnegativity = value;
+                                              },
+                                            );
+                                          } : null,
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
@@ -600,11 +658,13 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb1,
+                                                      value:
+                                                          typesOthernonmetals,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb1 = value;
+                                                            typesOthernonmetals =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -639,11 +699,12 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb2,
+                                                      value: typesNoblegases,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb2 = value;
+                                                            typesNoblegases =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -678,11 +739,12 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb3,
+                                                      value: typesAlkalimetals,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb3 = value;
+                                                            typesAlkalimetals =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -717,11 +779,13 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb4,
+                                                      value:
+                                                          typesAlkaliearthmetals,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb4 = value;
+                                                            typesAlkaliearthmetals =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -756,11 +820,12 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb5,
+                                                      value: typesMetalloids,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb5 = value;
+                                                            typesMetalloids =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -795,11 +860,13 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb6,
+                                                      value:
+                                                          typesPosttransitionmetals,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb6 = value;
+                                                            typesPosttransitionmetals =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -834,11 +901,13 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb7,
+                                                      value:
+                                                          typesTransitionmetals,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb7 = value;
+                                                            typesTransitionmetals =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -873,11 +942,12 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb8,
+                                                      value: typesLanthanoids,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb8 = value;
+                                                            typesLanthanoids =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -912,11 +982,12 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb9,
+                                                      value: typesActinoids,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb9 = value;
+                                                            typesActinoids =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -951,11 +1022,12 @@ class _landingState extends State<landing> {
                                                       activeColor:
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
-                                                      value: cb0,
+                                                      value: typesUnknown,
                                                       onChanged: (bool value) {
                                                         setState(
                                                           () {
-                                                            cb0 = value;
+                                                            typesUnknown =
+                                                                value;
                                                           },
                                                         );
                                                       },
@@ -978,16 +1050,42 @@ class _landingState extends State<landing> {
                             child: Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('typesSelector'),
-                              child: Text(
-                                AppLocalizations.of(context)
-                                    .translate('typesMinSelector'),
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  height: 1,
-                                  fontSize:
-                                      MediaQuery.of(context).size.width * .1,
-                                  color: Colors.white,
-                                ),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    AppLocalizations.of(context)
+                                        .translate('typesMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      //height: MediaQuery.of(context).size.width * .0014,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: StatefulBuilder(
+                                      builder: (BuildContext context,
+                                          StateSetter setState) {
+                                        return Checkbox(
+                                          activeColor:
+                                              Color.fromRGBO(255, 255, 255, 0),
+                                          value: stateTypes,
+                                          onChanged: enabledTypes ? (bool value) {
+                                            setState(
+                                              () {
+                                                stateTypes = value;
+                                              },
+                                            );
+                                          } : null,
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
@@ -1080,11 +1178,14 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        an1.toString()),
+                                                        atomicnumMin
+                                                            .toString()),
                                                     min: double.parse(
-                                                        ae1.toString()),
+                                                        settingAtomicnumMin
+                                                            .toString()),
                                                     max: double.parse(
-                                                        ae2.toString()),
+                                                        settingAtomicnumberMax
+                                                            .toString()),
                                                     appearance:
                                                         CircularSliderAppearance(
                                                       animationEnabled: false,
@@ -1151,7 +1252,7 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        an1 = num.parse(
+                                                        atomicnumMin = num.parse(
                                                             v.toStringAsFixed(
                                                                 0));
                                                       });
@@ -1159,11 +1260,14 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        an2.toString()),
+                                                        atomicnumMax
+                                                            .toString()),
                                                     min: double.parse(
-                                                        ae1.toString()),
+                                                        settingAtomicnumMin
+                                                            .toString()),
                                                     max: double.parse(
-                                                        ae2.toString()),
+                                                        settingAtomicnumberMax
+                                                            .toString()),
                                                     appearance:
                                                         CircularSliderAppearance(
                                                       animationEnabled: false,
@@ -1228,7 +1332,7 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        an2 = num.parse(
+                                                        atomicnumMax = num.parse(
                                                             v.toStringAsFixed(
                                                                 0));
                                                       });
@@ -1248,20 +1352,45 @@ class _landingState extends State<landing> {
                           },
                           child: Container(
                             width: MediaQuery.of(context).size.width,
-                            child: Tooltip(
-                              message: AppLocalizations.of(context)
-                                  .translate('atomicnumSelector'),
-                              child: Text(
-                                AppLocalizations.of(context)
-                                    .translate('atomicnumMinSelector'),
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  height: 1,
-                                  fontSize:
-                                      MediaQuery.of(context).size.width * .1,
-                                  color: Colors.white,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: <Widget>[
+                                Tooltip(
+                                  message: AppLocalizations.of(context)
+                                      .translate('atomicnumSelector'),
+                                  child: Text(
+                                    AppLocalizations.of(context)
+                                        .translate('atomicnumMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      //height: MediaQuery.of(context).size.width * .0014,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
                                 ),
-                              ),
+                                Container(
+                                  child: StatefulBuilder(
+                                    builder: (BuildContext context,
+                                        StateSetter setState) {
+                                      return Checkbox(
+                                        activeColor:
+                                            Color.fromRGBO(255, 255, 255, 0),
+                                        value: stateAtomicnumber,
+                                        onChanged: enabledAtomicnumber ? (bool value) {
+                                          setState(
+                                            () {
+                                              stateAtomicnumber = value;
+                                            },
+                                          );
+                                        } : null,
+                                      );
+                                    },
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -1383,7 +1512,8 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        prot1.toString()),
+                                                        constructorsProtonMin
+                                                            .toString()),
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
@@ -1452,15 +1582,41 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        prot1 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
+                                                        constructorsProtonMin =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
+                                                      });
+
+                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
+                                                          constructorsProtonMax ==
+                                                              defConstructorsProtonMax &&
+                                                          constructorsElectronMin ==
+                                                              defConstructorsElectronMin &&
+                                                          constructorsElectronMax ==
+                                                              defConstructorsElectronMax &&
+                                                          constructorsNeutronMin ==
+                                                              defConstructorsNeutronMin &&
+                                                          constructorsNeutronMax ==
+                                                              defConstructorsNeutronMax) {
+                                                        stateConstructors =
+                                                            false;
+                                                        enabledConstructors = false;
+                                                      } else {
+                                                        stateConstructors =
+                                                            true;
+                                                        enabledConstructors = true;
+                                                      }
+
+                                                      setState(() {
+
                                                       });
                                                     },
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        prot2.toString()),
+                                                        constructorsProtonMax
+                                                            .toString()),
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
@@ -1527,9 +1683,31 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        prot2 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
+                                                        constructorsProtonMax =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
+
+                                                        if (constructorsProtonMin ==
+                                                                defConstructorsProtonMin &&
+                                                            constructorsProtonMax ==
+                                                                defConstructorsProtonMax &&
+                                                            constructorsElectronMin ==
+                                                                defConstructorsElectronMin &&
+                                                            constructorsElectronMax ==
+                                                                defConstructorsElectronMax &&
+                                                            constructorsNeutronMin ==
+                                                                defConstructorsNeutronMin &&
+                                                            constructorsNeutronMax ==
+                                                                defConstructorsNeutronMax) {
+                                                          stateConstructors =
+                                                              false;
+                                                          enabledConstructors = false;
+                                                        } else {
+                                                          stateConstructors =
+                                                              true;
+                                                          enabledConstructors = true;
+                                                        }
                                                       });
                                                     },
                                                   ),
@@ -1565,7 +1743,8 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        elect1.toString()),
+                                                        constructorsElectronMin
+                                                            .toString()),
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
@@ -1634,15 +1813,37 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        elect1 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
+                                                        constructorsElectronMin =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
                                                       });
+
+                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
+                                                          constructorsProtonMax ==
+                                                              defConstructorsProtonMax &&
+                                                          constructorsElectronMin ==
+                                                              defConstructorsElectronMin &&
+                                                          constructorsElectronMax ==
+                                                              defConstructorsElectronMax &&
+                                                          constructorsNeutronMin ==
+                                                              defConstructorsNeutronMin &&
+                                                          constructorsNeutronMax ==
+                                                              defConstructorsNeutronMax) {
+                                                        stateConstructors =
+                                                            false;
+                                                        enabledConstructors = false;
+                                                      } else {
+                                                        stateConstructors =
+                                                            true;
+                                                        enabledConstructors = true;
+                                                      }
                                                     },
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        elect2.toString()),
+                                                        constructorsElectronMax
+                                                            .toString()),
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
@@ -1709,10 +1910,31 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        elect2 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
+                                                        constructorsElectronMax =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
                                                       });
+
+                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
+                                                          constructorsProtonMax ==
+                                                              defConstructorsProtonMax &&
+                                                          constructorsElectronMin ==
+                                                              defConstructorsElectronMin &&
+                                                          constructorsElectronMax ==
+                                                              defConstructorsElectronMax &&
+                                                          constructorsNeutronMin ==
+                                                              defConstructorsNeutronMin &&
+                                                          constructorsNeutronMax ==
+                                                              defConstructorsNeutronMax) {
+                                                        stateConstructors =
+                                                            false;
+                                                        enabledConstructors = false;
+                                                      } else {
+                                                        stateConstructors =
+                                                            true;
+                                                        enabledConstructors = true;
+                                                      }
                                                     },
                                                   ),
                                                   Padding(
@@ -1747,7 +1969,8 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        neut1.toString()),
+                                                        constructorsNeutronMin
+                                                            .toString()),
                                                     min: 0,
                                                     max: 177,
                                                     appearance:
@@ -1816,15 +2039,37 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        neut1 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
+                                                        constructorsNeutronMin =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
                                                       });
+
+                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
+                                                          constructorsProtonMax ==
+                                                              defConstructorsProtonMax &&
+                                                          constructorsElectronMin ==
+                                                              defConstructorsElectronMin &&
+                                                          constructorsElectronMax ==
+                                                              defConstructorsElectronMax &&
+                                                          constructorsNeutronMin ==
+                                                              defConstructorsNeutronMin &&
+                                                          constructorsNeutronMax ==
+                                                              defConstructorsNeutronMax) {
+                                                        stateConstructors =
+                                                            false;
+                                                        enabledConstructors = false;
+                                                      } else {
+                                                        stateConstructors =
+                                                            true;
+                                                        enabledConstructors = true;
+                                                      }
                                                     },
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        neut2.toString()),
+                                                        constructorsNeutronMax
+                                                            .toString()),
                                                     min: 0,
                                                     max: 177,
                                                     appearance:
@@ -1891,10 +2136,31 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        neut2 = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
+                                                        constructorsNeutronMax =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
                                                       });
+
+                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
+                                                          constructorsProtonMax ==
+                                                              defConstructorsProtonMax &&
+                                                          constructorsElectronMin ==
+                                                              defConstructorsElectronMin &&
+                                                          constructorsElectronMax ==
+                                                              defConstructorsElectronMax &&
+                                                          constructorsNeutronMin ==
+                                                              defConstructorsNeutronMin &&
+                                                          constructorsNeutronMax ==
+                                                              defConstructorsNeutronMax) {
+                                                        stateConstructors =
+                                                            false;
+                                                        enabledConstructors = false;
+                                                      } else {
+                                                        stateConstructors =
+                                                            true;
+                                                        enabledConstructors = true;
+                                                      }
                                                     },
                                                   ),
                                                 ],
@@ -1914,16 +2180,42 @@ class _landingState extends State<landing> {
                             child: Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('constructorsSelector'),
-                              child: Text(
-                                AppLocalizations.of(context)
-                                    .translate('constructorsMinSelector'),
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  height: 1,
-                                  fontSize:
-                                      MediaQuery.of(context).size.width * .1,
-                                  color: Colors.white,
-                                ),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    AppLocalizations.of(context)
+                                        .translate('constructorsMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      //height: MediaQuery.of(context).size.width * .0014,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: StatefulBuilder(
+                                      builder: (BuildContext context,
+                                          StateSetter setState) {
+                                        return Checkbox(
+                                          activeColor:
+                                              Color.fromRGBO(255, 255, 255, 0),
+                                          value: stateConstructors,
+                                          onChanged: enabledConstructors ? (bool value) {
+                                            setState(
+                                              () {
+                                                stateConstructors = value;
+                                              },
+                                            );
+                                          } : null,
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
@@ -2015,7 +2307,7 @@ class _landingState extends State<landing> {
                                                     ),
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: minw,
+                                                    initialValue: weightMin,
                                                     min: 1,
                                                     max: 294,
                                                     appearance:
@@ -2083,13 +2375,13 @@ class _landingState extends State<landing> {
                                                       ),
                                                     ),
                                                     onChangeEnd: (double v) {
-                                                      minw = double.parse(
+                                                      weightMin = double.parse(
                                                           percentageModifier(
                                                               v));
                                                     },
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: maxw,
+                                                    initialValue: weightMax,
                                                     min: 1,
                                                     max: 294,
                                                     appearance:
@@ -2155,7 +2447,7 @@ class _landingState extends State<landing> {
                                                       ),
                                                     ),
                                                     onChangeEnd: (double v) {
-                                                      maxw = double.parse(
+                                                      weightMax = double.parse(
                                                           percentageModifier(
                                                               v));
                                                     },
@@ -2173,20 +2465,46 @@ class _landingState extends State<landing> {
                             );
                           },
                           child: Container(
-                            width: MediaQuery.of(context).size.width,
+                            //width: MediaQuery.of(context).size.width,
                             child: Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('weightSelector'),
-                              child: Text(
-                                AppLocalizations.of(context)
-                                    .translate('weightMinSelector'),
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  height: 1,
-                                  fontSize:
-                                      MediaQuery.of(context).size.width * .1,
-                                  color: Colors.white,
-                                ),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    AppLocalizations.of(context)
+                                        .translate('weightMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      //height: MediaQuery.of(context).size.width * .0014,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: StatefulBuilder(
+                                      builder: (BuildContext context,
+                                          StateSetter setState) {
+                                        return Checkbox(
+                                          activeColor:
+                                              Color.fromRGBO(255, 255, 255, 0),
+                                          value: stateWeight,
+                                          onChanged: enabledWeight ? (bool value) {
+                                            setState(
+                                              () {
+                                                stateWeight = value;
+                                              },
+                                            );
+                                          } : null,
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
@@ -2199,66 +2517,83 @@ class _landingState extends State<landing> {
                   onTap: () {
                     Scaffold.of(context).showSnackBar(
                       SnackBar(
-                        content:
-                          Text('This action will remove changes from selectors.',),
+                        content: Text(
+                          AppLocalizations.of(context)
+                              .translate('resetWarnSelector'),
+                        ),
                         action: SnackBarAction(
-                          label: 'Reset',
+                          label: AppLocalizations.of(context)
+                              .translate('resetWarnLabelSelector'),
                           textColor: Color(0xfff22447),
                           onPressed: () {
-                            cb1 = def_cb1;
-                            cb2 = def_cb2;
-                            cb3 = def_cb3;
-                            cb4 = def_cb4;
-                            cb5 = def_cb5;
-                            cb6 = def_cb6;
-                            cb7 = def_cb7;
-                            cb8 = def_cb8;
-                            cb9 = def_cb9;
-                            cb0 = def_cb0;
+                            typesOthernonmetals = defTypesOthernonmetals;
+                            typesNoblegases = defTypesNoblegases;
+                            typesAlkalimetals = defTypesAlkaliearthmetals;
+                            typesAlkaliearthmetals = defTypesAlkaliearthmetals;
+                            typesMetalloids = defTypesMetalloids;
+                            typesPosttransitionmetals =
+                                defTypesPosttransitionmetals;
+                            typesTransitionmetals = defTypesTransitionMetals;
+                            typesLanthanoids = defTypesLantanoids;
+                            typesActinoids = defTypesActionids;
+                            typesUnknown = defTypesUnknown;
 
-                            en1 = def_en1;
-                            en2 = def_en2;
-                            en3 = def_en3;
+                            ElectronnegativityMin = defElectronnegativityMin;
+                            ElectronnegativityMax = defElectronnegativityMax;
+                            ElectronnegativityUnknown =
+                                defElectronnegativityUnknown;
 
-                            an1 = def_an1;
-                            an2 = def_an2;
+                            atomicnumMin = defAtomicnumMin;
+                            atomicnumMax = defAtomicnumMax;
 
-                            elect1 = def_elect1;
-                            elect2 = def_elect2;
+                            constructorsElectronMin = defConstructorsElectronMin;
+                            constructorsElectronMax = defConstructorsElectronMax;
 
-                            prot1 = def_prot1;
-                            prot2 = def_prot2;
+                            constructorsProtonMin = defConstructorsProtonMin;
+                            constructorsProtonMax = defConstructorsProtonMax;
 
-                            neut1 = def_neut1;
-                            neut2 = def_neut2;
+                            constructorsNeutronMin = defConstructorsNeutronMin;
+                            constructorsNeutronMax = defConstructorsNeutronMax;
 
-                            minw = def_minw;
-                            maxw = def_maxw;
+                            weightMin = defWeightMin;
+                            weightMax = defWeightMax;
+
+                            stateElectronnegativity = false;
+                            stateTypes = false;
+                            stateAtomicnumber = false;
+                            stateConstructors = false;
+                            stateWeight = false;
+
+                            enabledElectronnegativity = false;
+                            enabledTypes = false;
+                            enabledAtomicnumber = false;
+                            enabledConstructors = false;
+                            enabledWeight = false;
+
+                            setState(() {});
 
                             Scaffold.of(context).showSnackBar(
                               SnackBar(
-                                content:
-                                Text('Selectors reseted.',),
+                                content: Text(AppLocalizations.of(context)
+                                    .translate('resetDoneSelector')),
                                 action: SnackBarAction(
-                                  label: 'Ok',
-                                  textColor: Color(0xfffffffff),
-                                  onPressed: () {}
-                            ),),);
+                                    label: AppLocalizations.of(context)
+                                        .translate('resetDoneLabelSelector'),
+                                    textColor: Color(0xfffffffff),
+                                    onPressed: () {}),
+                              ),
+                            );
                           },
                         ),
                       ),
                     );
                   },
-                  child: Padding(
-                    padding: EdgeInsets.only(
-                        top: MediaQuery.of(context).size.height * .01),
-                    child: Text(
-                      'Reset Selectors',
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontSize: MediaQuery.of(context).size.width * .07,
-                      ),
+                  child: Text(
+                    AppLocalizations.of(context).translate('resetSelector'),
+                    style: TextStyle(
+                      color: Colors.black.withOpacity(.7),
+                      fontWeight: FontWeight.bold,
+                      fontSize: MediaQuery.of(context).size.width * .07,
                     ),
                   ),
                 ),
@@ -2273,29 +2608,29 @@ class _landingState extends State<landing> {
                   context,
                   MaterialPageRoute(
                     builder: (context) => searchResults(
-                      cb1: cb1,
-                      cb2: cb2,
-                      cb3: cb3,
-                      cb4: cb4,
-                      cb5: cb5,
-                      cb6: cb6,
-                      cb7: cb7,
-                      cb8: cb8,
-                      cb9: cb9,
-                      cb0: cb0,
-                      en1: en1,
-                      en2: en2,
-                      en3: en3,
-                      an1: an1,
-                      an2: an2,
-                      prot1: prot1,
-                      prot2: prot2,
-                      elect1: elect1,
-                      elect2: elect2,
-                      neut1: neut1,
-                      neut2: neut2,
-                      minw: minw,
-                      maxw: maxw,
+                      cb1: typesOthernonmetals,
+                      cb2: typesNoblegases,
+                      cb3: typesAlkalimetals,
+                      cb4: typesAlkaliearthmetals,
+                      cb5: typesMetalloids,
+                      cb6: typesPosttransitionmetals,
+                      cb7: typesTransitionmetals,
+                      cb8: typesLanthanoids,
+                      cb9: typesActinoids,
+                      cb0: typesUnknown,
+                      en1: ElectronnegativityMin,
+                      en2: ElectronnegativityMax,
+                      en3: ElectronnegativityUnknown,
+                      an1: atomicnumMin,
+                      an2: atomicnumMax,
+                      prot1: constructorsProtonMin,
+                      prot2: constructorsProtonMax,
+                      elect1: constructorsElectronMin,
+                      elect2: constructorsElectronMax,
+                      neut1: constructorsNeutronMin,
+                      neut2: constructorsNeutronMax,
+                      minw: weightMin,
+                      maxw: weightMax,
                     ),
                   ),
                 );

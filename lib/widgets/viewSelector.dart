@@ -81,7 +81,7 @@ class viewSelectorState extends State<viewSelector> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
-        Container(height: MediaQuery.of(context).size.height * .69, child: getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3, an1, an2, prot1, prot2, elect1, elect2, neut1, neut2, minw, maxw),),
+        Container(height: MediaQuery.of(context).size.height * .69, child: getView(typesOthernonmetals, typesNoblegases, typesAlkalimetals, typesAlkaliearthmetals, typesMetalloids, typesPosttransitionmetals, typesTransitionmetals, typesLanthanoids, typesActinoids, typesUnknown, ElectronnegativityMin, ElectronnegativityMax, ElectronnegativityUnknown, atomicnumMin, atomicnumMax, constructorsProtonMin, constructorsProtonMax, constructorsElectronMin, constructorsElectronMax, constructorsNeutronMin, constructorsNeutronMax, weightMin, weightMax),),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[

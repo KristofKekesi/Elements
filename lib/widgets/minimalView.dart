@@ -842,7 +842,10 @@ class minimalView extends StatelessWidget {
               ),
             );
           } else {
-            return new Padding(
+            return Container(
+              decoration: BoxDecoration(color: Color(0xffffffff)),
+              child:
+              Padding(
               padding: EdgeInsets.only(
                   top: MediaQuery
                       .of(context)
@@ -903,13 +906,8 @@ class minimalView extends StatelessWidget {
                             end: Alignment.bottomCenter,
                             stops: [0.0, 1.0],
                             colors: [
-                              Theme
-                                  .of(context)
-                                  .scaffoldBackgroundColor,
-                              Theme
-                                  .of(context)
-                                  .scaffoldBackgroundColor
-                                  .withOpacity(0.0),
+                              Colors.white,
+                              Colors.white.withOpacity(0.0),
                             ],
                           ),
                         ),
@@ -924,7 +922,7 @@ class minimalView extends StatelessWidget {
                       height: MediaQuery
                           .of(context)
                           .size
-                          .height * .05,
+                          .height * .07,
                       child: Container(
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
@@ -932,13 +930,8 @@ class minimalView extends StatelessWidget {
                             end: Alignment.topCenter,
                             stops: [0.0, 1.0],
                             colors: [
-                              Theme
-                                  .of(context)
-                                  .scaffoldBackgroundColor,
-                              Theme
-                                  .of(context)
-                                  .scaffoldBackgroundColor
-                                  .withOpacity(0.0),
+                              Colors.white,
+                              Colors.white.withOpacity(0.0),
                             ],
                           ),
                         ),
@@ -946,6 +939,7 @@ class minimalView extends StatelessWidget {
                     ),
                   ],
                 ),
+              ),
               ),
             );
           }
