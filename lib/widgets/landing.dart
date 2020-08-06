@@ -104,6 +104,14 @@ bool enabledWeight = false;
 double weightMin = 1;
 double weightMax = 294;
 
+void checkResetVisibility() {
+  if (stateElectronnegativity == false && stateTypes == false && stateAtomicnumber && stateConstructors == false && stateConstructors == false && stateWeight == false) {
+    resetVisibility = false;
+  } else {
+    resetVisibility = true;
+  }
+}
+
 // ignore: camel_case_types
 class landing extends StatefulWidget {
   @override
@@ -383,6 +391,8 @@ class _landingState extends State<landing> {
                                                           resetVisibility = true;
                                                         }
                                                       });
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -475,6 +485,8 @@ class _landingState extends State<landing> {
                                                               true;
                                                         }
                                                       });
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   StatefulBuilder(
@@ -1343,6 +1355,8 @@ class _landingState extends State<landing> {
                                                           }
                                                         });
                                                       });
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -1438,6 +1452,8 @@ class _landingState extends State<landing> {
                                                               true;
                                                         }
                                                       });
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                 ],
@@ -1713,6 +1729,8 @@ class _landingState extends State<landing> {
                                                         enabledConstructors =
                                                             true;
                                                       }
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -1811,6 +1829,8 @@ class _landingState extends State<landing> {
                                                           enabledConstructors =
                                                               true;
                                                         }
+
+                                                        checkResetVisibility();
                                                       });
                                                     },
                                                   ),
@@ -1943,6 +1963,8 @@ class _landingState extends State<landing> {
                                                         enabledConstructors =
                                                             true;
                                                       }
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -2042,6 +2064,8 @@ class _landingState extends State<landing> {
                                                         enabledConstructors =
                                                             true;
                                                       }
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   Padding(
@@ -2173,6 +2197,8 @@ class _landingState extends State<landing> {
                                                         enabledConstructors =
                                                             true;
                                                       }
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -2272,6 +2298,8 @@ class _landingState extends State<landing> {
                                                         enabledConstructors =
                                                             true;
                                                       }
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                 ],
@@ -2504,6 +2532,8 @@ class _landingState extends State<landing> {
                                                           enabledWeight = true;
                                                         }
                                                       });
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -2589,6 +2619,8 @@ class _landingState extends State<landing> {
                                                           enabledWeight = true;
                                                         }
                                                       });
+
+                                                      checkResetVisibility();
                                                     },
                                                   ),
                                                 ],
