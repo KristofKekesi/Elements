@@ -18,6 +18,9 @@ String percentageModifierNull(double value) {
   return roundedValue;
 }
 
+// reset visibility
+bool resetVisibility = false;
+
 // types
 bool defTypesOthernonmetals = true;
 bool defTypesNoblegases = true;
@@ -111,8 +114,6 @@ class landing extends StatefulWidget {
 class _landingState extends State<landing> {
   @override
   Widget build(BuildContext context) {
-    //double toDouble(int d) => d / 1;
-
     return SafeArea(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -364,6 +365,23 @@ class _landingState extends State<landing> {
                                                             num.parse(v
                                                                 .toStringAsFixed(
                                                                     2));
+
+                                                        if (ElectronnegativityMin == defElectronnegativityMin &&
+                                                            ElectronnegativityMax ==
+                                                                defElectronnegativityMax &&
+                                                            ElectronnegativityUnknown ==
+                                                                defElectronnegativityUnknown) {
+                                                          stateElectronnegativity =
+                                                              false;
+                                                          enabledElectronnegativity =
+                                                              false;
+                                                        } else {
+                                                          stateElectronnegativity =
+                                                              true;
+                                                          enabledElectronnegativity =
+                                                              true;
+                                                          resetVisibility = true;
+                                                        }
                                                       });
                                                     },
                                                   ),
@@ -440,6 +458,22 @@ class _landingState extends State<landing> {
                                                             num.parse(v
                                                                 .toStringAsFixed(
                                                                     2));
+
+                                                        if (ElectronnegativityMin == defElectronnegativityMin &&
+                                                            ElectronnegativityMax ==
+                                                                defElectronnegativityMax &&
+                                                            ElectronnegativityUnknown ==
+                                                                defElectronnegativityUnknown) {
+                                                          stateElectronnegativity =
+                                                              false;
+                                                          enabledElectronnegativity =
+                                                              false;
+                                                        } else {
+                                                          stateElectronnegativity =
+                                                              true;
+                                                          enabledElectronnegativity =
+                                                              true;
+                                                        }
                                                       });
                                                     },
                                                   ),
@@ -447,7 +481,8 @@ class _landingState extends State<landing> {
                                                     builder: (BuildContext
                                                             context,
                                                         StateSetter setState) {
-                                                      return CheckboxListTile(
+                                                      return
+                                                        CheckboxListTile(
                                                         title: Text(
                                                           Capitalizate(
                                                             AppLocalizations.of(
@@ -481,7 +516,28 @@ class _landingState extends State<landing> {
                                                             () {
                                                               ElectronnegativityUnknown =
                                                                   value;
-                                                            },
+//                                                              if (ElectronnegativityMin == defElectronnegativityMin &&
+//                                                                  ElectronnegativityMax ==
+//                                                                      defElectronnegativityMax &&
+//                                                                  ElectronnegativityUnknown ==
+//                                                                      defElectronnegativityUnknown) {
+//                                                                setState(() {
+//                                                                  stateElectronnegativity =
+//                                                                  false;
+//                                                                  enabledElectronnegativity =
+//                                                                  false;
+//                                                                });
+//                                                                print('hamis');
+//                                                              } else {
+//                                                                setState(() {
+//                                                                  stateElectronnegativity =
+//                                                                  true;
+//                                                                  enabledElectronnegativity =
+//                                                                  true;
+//                                                                });
+//                                                                print('igaz');
+//                                                              }
+                                                              },
                                                           );
                                                         },
                                                       );
@@ -521,22 +577,30 @@ class _landingState extends State<landing> {
                                     ),
                                   ),
                                   Container(
-                                    child: StatefulBuilder(
-                                      builder: (BuildContext context,
-                                          StateSetter setState) {
-                                        return Checkbox(
-                                          activeColor:
-                                              Color.fromRGBO(255, 255, 255, 0),
-                                          value: stateElectronnegativity,
-                                          onChanged: enabledElectronnegativity ? (bool value) {
-                                            setState(
-                                              () {
-                                                stateElectronnegativity = value;
-                                              },
-                                            );
-                                          } : null,
-                                        );
+                                    child: GestureDetector(
+                                      onTap: () {
+                                        print('lol');
                                       },
+                                      child: StatefulBuilder(
+                                        builder: (BuildContext context,
+                                            StateSetter setState) {
+                                          return Checkbox(
+                                            activeColor: Color.fromRGBO(
+                                                255, 255, 255, 0),
+                                            value: stateElectronnegativity,
+                                          onChanged: enabledElectronnegativity
+                                              ? (bool value) {
+                                                  setState(
+                                                    () {
+                                                      stateElectronnegativity =
+                                                          value;
+                                                    },
+                                                  );
+                                                }
+                                              : null,
+                                          );
+                                        },
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -1074,13 +1138,15 @@ class _landingState extends State<landing> {
                                           activeColor:
                                               Color.fromRGBO(255, 255, 255, 0),
                                           value: stateTypes,
-                                          onChanged: enabledTypes ? (bool value) {
-                                            setState(
-                                              () {
-                                                stateTypes = value;
-                                              },
-                                            );
-                                          } : null,
+                                          onChanged: enabledTypes
+                                              ? (bool value) {
+                                                  setState(
+                                                    () {
+                                                      stateTypes = value;
+                                                    },
+                                                  );
+                                                }
+                                              : null,
                                         );
                                       },
                                     ),
@@ -1255,6 +1321,27 @@ class _landingState extends State<landing> {
                                                         atomicnumMin = num.parse(
                                                             v.toStringAsFixed(
                                                                 0));
+
+                                                        setState(() {
+                                                          weightMin = double.parse(
+                                                              percentageModifier(
+                                                                  v));
+
+                                                          if (atomicnumMin ==
+                                                                  defAtomicnumMin &&
+                                                              atomicnumMax ==
+                                                                  defAtomicnumMax) {
+                                                            stateAtomicnumber =
+                                                                false;
+                                                            enabledAtomicnumber =
+                                                                false;
+                                                          } else {
+                                                            stateAtomicnumber =
+                                                                true;
+                                                            enabledAtomicnumber =
+                                                                true;
+                                                          }
+                                                        });
                                                       });
                                                     },
                                                   ),
@@ -1335,6 +1422,21 @@ class _landingState extends State<landing> {
                                                         atomicnumMax = num.parse(
                                                             v.toStringAsFixed(
                                                                 0));
+
+                                                        if (atomicnumMin ==
+                                                                defAtomicnumMin &&
+                                                            atomicnumMax ==
+                                                                defAtomicnumMax) {
+                                                          stateAtomicnumber =
+                                                              false;
+                                                          enabledAtomicnumber =
+                                                              false;
+                                                        } else {
+                                                          stateAtomicnumber =
+                                                              true;
+                                                          enabledAtomicnumber =
+                                                              true;
+                                                        }
                                                       });
                                                     },
                                                   ),
@@ -1379,13 +1481,15 @@ class _landingState extends State<landing> {
                                         activeColor:
                                             Color.fromRGBO(255, 255, 255, 0),
                                         value: stateAtomicnumber,
-                                        onChanged: enabledAtomicnumber ? (bool value) {
-                                          setState(
-                                            () {
-                                              stateAtomicnumber = value;
-                                            },
-                                          );
-                                        } : null,
+                                        onChanged: enabledAtomicnumber
+                                            ? (bool value) {
+                                                setState(
+                                                  () {
+                                                    stateAtomicnumber = value;
+                                                  },
+                                                );
+                                              }
+                                            : null,
                                       );
                                     },
                                   ),
@@ -1601,16 +1705,14 @@ class _landingState extends State<landing> {
                                                               defConstructorsNeutronMax) {
                                                         stateConstructors =
                                                             false;
-                                                        enabledConstructors = false;
+                                                        enabledConstructors =
+                                                            false;
                                                       } else {
                                                         stateConstructors =
                                                             true;
-                                                        enabledConstructors = true;
+                                                        enabledConstructors =
+                                                            true;
                                                       }
-
-                                                      setState(() {
-
-                                                      });
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -1688,8 +1790,7 @@ class _landingState extends State<landing> {
                                                                 .toStringAsFixed(
                                                                     0));
 
-                                                        if (constructorsProtonMin ==
-                                                                defConstructorsProtonMin &&
+                                                        if (constructorsProtonMin == defConstructorsProtonMin &&
                                                             constructorsProtonMax ==
                                                                 defConstructorsProtonMax &&
                                                             constructorsElectronMin ==
@@ -1702,11 +1803,13 @@ class _landingState extends State<landing> {
                                                                 defConstructorsNeutronMax) {
                                                           stateConstructors =
                                                               false;
-                                                          enabledConstructors = false;
+                                                          enabledConstructors =
+                                                              false;
                                                         } else {
                                                           stateConstructors =
                                                               true;
-                                                          enabledConstructors = true;
+                                                          enabledConstructors =
+                                                              true;
                                                         }
                                                       });
                                                     },
@@ -1832,11 +1935,13 @@ class _landingState extends State<landing> {
                                                               defConstructorsNeutronMax) {
                                                         stateConstructors =
                                                             false;
-                                                        enabledConstructors = false;
+                                                        enabledConstructors =
+                                                            false;
                                                       } else {
                                                         stateConstructors =
                                                             true;
-                                                        enabledConstructors = true;
+                                                        enabledConstructors =
+                                                            true;
                                                       }
                                                     },
                                                   ),
@@ -1929,11 +2034,13 @@ class _landingState extends State<landing> {
                                                               defConstructorsNeutronMax) {
                                                         stateConstructors =
                                                             false;
-                                                        enabledConstructors = false;
+                                                        enabledConstructors =
+                                                            false;
                                                       } else {
                                                         stateConstructors =
                                                             true;
-                                                        enabledConstructors = true;
+                                                        enabledConstructors =
+                                                            true;
                                                       }
                                                     },
                                                   ),
@@ -2058,11 +2165,13 @@ class _landingState extends State<landing> {
                                                               defConstructorsNeutronMax) {
                                                         stateConstructors =
                                                             false;
-                                                        enabledConstructors = false;
+                                                        enabledConstructors =
+                                                            false;
                                                       } else {
                                                         stateConstructors =
                                                             true;
-                                                        enabledConstructors = true;
+                                                        enabledConstructors =
+                                                            true;
                                                       }
                                                     },
                                                   ),
@@ -2155,11 +2264,13 @@ class _landingState extends State<landing> {
                                                               defConstructorsNeutronMax) {
                                                         stateConstructors =
                                                             false;
-                                                        enabledConstructors = false;
+                                                        enabledConstructors =
+                                                            false;
                                                       } else {
                                                         stateConstructors =
                                                             true;
-                                                        enabledConstructors = true;
+                                                        enabledConstructors =
+                                                            true;
                                                       }
                                                     },
                                                   ),
@@ -2204,13 +2315,15 @@ class _landingState extends State<landing> {
                                           activeColor:
                                               Color.fromRGBO(255, 255, 255, 0),
                                           value: stateConstructors,
-                                          onChanged: enabledConstructors ? (bool value) {
-                                            setState(
-                                              () {
-                                                stateConstructors = value;
-                                              },
-                                            );
-                                          } : null,
+                                          onChanged: enabledConstructors
+                                              ? (bool value) {
+                                                  setState(
+                                                    () {
+                                                      stateConstructors = value;
+                                                    },
+                                                  );
+                                                }
+                                              : null,
                                         );
                                       },
                                     ),
@@ -2375,9 +2488,22 @@ class _landingState extends State<landing> {
                                                       ),
                                                     ),
                                                     onChangeEnd: (double v) {
-                                                      weightMin = double.parse(
-                                                          percentageModifier(
-                                                              v));
+                                                      setState(() {
+                                                        weightMin = double.parse(
+                                                            percentageModifier(
+                                                                v));
+
+                                                        if (weightMin ==
+                                                                defWeightMin &&
+                                                            weightMax ==
+                                                                defWeightMax) {
+                                                          stateWeight = false;
+                                                          enabledWeight = false;
+                                                        } else {
+                                                          stateWeight = true;
+                                                          enabledWeight = true;
+                                                        }
+                                                      });
                                                     },
                                                   ),
                                                   SleekCircularSlider(
@@ -2447,9 +2573,22 @@ class _landingState extends State<landing> {
                                                       ),
                                                     ),
                                                     onChangeEnd: (double v) {
-                                                      weightMax = double.parse(
-                                                          percentageModifier(
-                                                              v));
+                                                      setState(() {
+                                                        weightMax = double.parse(
+                                                            percentageModifier(
+                                                                v));
+
+                                                        if (weightMin ==
+                                                                defWeightMin &&
+                                                            weightMax ==
+                                                                defWeightMax) {
+                                                          stateWeight = false;
+                                                          enabledWeight = false;
+                                                        } else {
+                                                          stateWeight = true;
+                                                          enabledWeight = true;
+                                                        }
+                                                      });
                                                     },
                                                   ),
                                                 ],
@@ -2493,13 +2632,15 @@ class _landingState extends State<landing> {
                                           activeColor:
                                               Color.fromRGBO(255, 255, 255, 0),
                                           value: stateWeight,
-                                          onChanged: enabledWeight ? (bool value) {
-                                            setState(
-                                              () {
-                                                stateWeight = value;
-                                              },
-                                            );
-                                          } : null,
+                                          onChanged: enabledWeight
+                                              ? (bool value) {
+                                                  setState(
+                                                    () {
+                                                      stateWeight = value;
+                                                    },
+                                                  );
+                                                }
+                                              : null,
                                         );
                                       },
                                     ),
@@ -2513,80 +2654,92 @@ class _landingState extends State<landing> {
                     ),
                   ),
                 ),
+                Opacity(
+                  opacity: resetVisibility ? 1 : 0,
+                  child:
                 GestureDetector(
                   onTap: () {
-                    Scaffold.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(
-                          AppLocalizations.of(context)
-                              .translate('resetWarnSelector'),
+                    if (resetVisibility == true) {
+                      Scaffold.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(
+                            AppLocalizations.of(context)
+                                .translate('resetWarnSelector'),
+                          ),
+                          action: SnackBarAction(
+                            label: AppLocalizations.of(context)
+                                .translate('resetWarnLabelSelector'),
+                            textColor: Color(0xfff22447),
+                            onPressed: () {
+                              typesOthernonmetals = defTypesOthernonmetals;
+                              typesNoblegases = defTypesNoblegases;
+                              typesAlkalimetals = defTypesAlkaliearthmetals;
+                              typesAlkaliearthmetals =
+                                  defTypesAlkaliearthmetals;
+                              typesMetalloids = defTypesMetalloids;
+                              typesPosttransitionmetals =
+                                  defTypesPosttransitionmetals;
+                              typesTransitionmetals = defTypesTransitionMetals;
+                              typesLanthanoids = defTypesLantanoids;
+                              typesActinoids = defTypesActionids;
+                              typesUnknown = defTypesUnknown;
+
+                              ElectronnegativityMin = defElectronnegativityMin;
+                              ElectronnegativityMax = defElectronnegativityMax;
+                              ElectronnegativityUnknown =
+                                  defElectronnegativityUnknown;
+
+                              atomicnumMin = defAtomicnumMin;
+                              atomicnumMax = defAtomicnumMax;
+
+                              constructorsElectronMin =
+                                  defConstructorsElectronMin;
+                              constructorsElectronMax =
+                                  defConstructorsElectronMax;
+
+                              constructorsProtonMin = defConstructorsProtonMin;
+                              constructorsProtonMax = defConstructorsProtonMax;
+
+                              constructorsNeutronMin =
+                                  defConstructorsNeutronMin;
+                              constructorsNeutronMax =
+                                  defConstructorsNeutronMax;
+
+                              weightMin = defWeightMin;
+                              weightMax = defWeightMax;
+
+                              stateElectronnegativity = false;
+                              stateTypes = false;
+                              stateAtomicnumber = false;
+                              stateConstructors = false;
+                              stateWeight = false;
+
+                              enabledElectronnegativity = false;
+                              enabledTypes = false;
+                              enabledAtomicnumber = false;
+                              enabledConstructors = false;
+                              enabledWeight = false;
+
+                              resetVisibility = false;
+
+                              setState(() {});
+
+                              Scaffold.of(context).showSnackBar(
+                                SnackBar(
+                                  content: Text(AppLocalizations.of(context)
+                                      .translate('resetDoneSelector')),
+                                  action: SnackBarAction(
+                                      label: AppLocalizations.of(context)
+                                          .translate('resetDoneLabelSelector'),
+                                      textColor: Color(0xfffffffff),
+                                      onPressed: () {}),
+                                ),
+                              );
+                            },
+                          ),
                         ),
-                        action: SnackBarAction(
-                          label: AppLocalizations.of(context)
-                              .translate('resetWarnLabelSelector'),
-                          textColor: Color(0xfff22447),
-                          onPressed: () {
-                            typesOthernonmetals = defTypesOthernonmetals;
-                            typesNoblegases = defTypesNoblegases;
-                            typesAlkalimetals = defTypesAlkaliearthmetals;
-                            typesAlkaliearthmetals = defTypesAlkaliearthmetals;
-                            typesMetalloids = defTypesMetalloids;
-                            typesPosttransitionmetals =
-                                defTypesPosttransitionmetals;
-                            typesTransitionmetals = defTypesTransitionMetals;
-                            typesLanthanoids = defTypesLantanoids;
-                            typesActinoids = defTypesActionids;
-                            typesUnknown = defTypesUnknown;
-
-                            ElectronnegativityMin = defElectronnegativityMin;
-                            ElectronnegativityMax = defElectronnegativityMax;
-                            ElectronnegativityUnknown =
-                                defElectronnegativityUnknown;
-
-                            atomicnumMin = defAtomicnumMin;
-                            atomicnumMax = defAtomicnumMax;
-
-                            constructorsElectronMin = defConstructorsElectronMin;
-                            constructorsElectronMax = defConstructorsElectronMax;
-
-                            constructorsProtonMin = defConstructorsProtonMin;
-                            constructorsProtonMax = defConstructorsProtonMax;
-
-                            constructorsNeutronMin = defConstructorsNeutronMin;
-                            constructorsNeutronMax = defConstructorsNeutronMax;
-
-                            weightMin = defWeightMin;
-                            weightMax = defWeightMax;
-
-                            stateElectronnegativity = false;
-                            stateTypes = false;
-                            stateAtomicnumber = false;
-                            stateConstructors = false;
-                            stateWeight = false;
-
-                            enabledElectronnegativity = false;
-                            enabledTypes = false;
-                            enabledAtomicnumber = false;
-                            enabledConstructors = false;
-                            enabledWeight = false;
-
-                            setState(() {});
-
-                            Scaffold.of(context).showSnackBar(
-                              SnackBar(
-                                content: Text(AppLocalizations.of(context)
-                                    .translate('resetDoneSelector')),
-                                action: SnackBarAction(
-                                    label: AppLocalizations.of(context)
-                                        .translate('resetDoneLabelSelector'),
-                                    textColor: Color(0xfffffffff),
-                                    onPressed: () {}),
-                              ),
-                            );
-                          },
-                        ),
-                      ),
-                    );
+                      );
+                    }
                   },
                   child: Text(
                     AppLocalizations.of(context).translate('resetSelector'),
@@ -2596,6 +2749,7 @@ class _landingState extends State<landing> {
                       fontSize: MediaQuery.of(context).size.width * .07,
                     ),
                   ),
+                ),
                 ),
               ],
             ),
