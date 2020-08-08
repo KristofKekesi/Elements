@@ -175,8 +175,13 @@ class _landingState extends State<landing> {
 
   void setConstructors() {
     setState(() {
-      if (atomicnumberMin == defAtomicnumberMin &&
-          atomicnumberMax == defAtomicnumberMax) {
+      if (constructorsProtonMin == defConstructorsProtonMin &&
+          constructorsProtonMax == defConstructorsProtonMax &&
+          constructorsElectronMin == defConstructorsElectronMin &&
+          constructorsElectronMax == defConstructorsElectronMax &&
+          constructorsNeutronMin == defConstructorsNeutronMin &&
+          constructorsNeutronMax == defConstructorsNeutronMax
+      ) {
         stateConstructors = false;
         enabledConstructors = false;
       } else {
@@ -187,18 +192,18 @@ class _landingState extends State<landing> {
   }
 
   void setWeight() {
-setState(() {
-  if (weightMin ==
-      defWeightMin &&
-      weightMax ==
-          defWeightMax) {
-    stateWeight = false;
-    enabledWeight = false;
-  } else {
-    stateWeight = true;
-    enabledWeight = true;
-  }
-});
+    setState(() {
+      if (weightMin ==
+          defWeightMin &&
+          weightMax ==
+              defWeightMax) {
+        stateWeight = false;
+        enabledWeight = false;
+      } else {
+        stateWeight = true;
+        enabledWeight = true;
+      }
+    });
   }
 
   @override
@@ -211,9 +216,18 @@ setState(() {
             alignment: Alignment.topLeft,
             child: Padding(
               padding: EdgeInsets.only(
-                  left: MediaQuery.of(context).size.width * .1,
-                  top: MediaQuery.of(context).size.height * .02,
-                  bottom: MediaQuery.of(context).size.height * .02),
+                  left: MediaQuery
+                      .of(context)
+                      .size
+                      .width * .1,
+                  top: MediaQuery
+                      .of(context)
+                      .size
+                      .height * .02,
+                  bottom: MediaQuery
+                      .of(context)
+                      .size
+                      .height * .02),
               child: Row(
                 children: <Widget>[
                   GestureDetector(
@@ -222,11 +236,17 @@ setState(() {
                     },
                     child: Tooltip(
                       message:
-                          "" + AppLocalizations.of(context).translate("menu"),
+                      "" + AppLocalizations.of(context).translate("menu"),
                       child: Image(
                           image: AssetImage("lib/icons/right_500.png"),
-                          height: MediaQuery.of(context).size.width * .105,
-                          width: MediaQuery.of(context).size.width * .105),
+                          height: MediaQuery
+                              .of(context)
+                              .size
+                              .width * .105,
+                          width: MediaQuery
+                              .of(context)
+                              .size
+                              .width * .105),
                     ),
                   ),
                   Text(
@@ -234,7 +254,10 @@ setState(() {
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,
-                        fontSize: MediaQuery.of(context).size.width * .12,
+                        fontSize: MediaQuery
+                            .of(context)
+                            .size
+                            .width * .12,
                         fontWeight: FontWeight.bold),
                   ),
                 ],
@@ -243,51 +266,99 @@ setState(() {
           ),
           Padding(
             padding: EdgeInsets.only(
-                bottom: MediaQuery.of(context).size.height * .01,
-                right: MediaQuery.of(context).size.width * .1,
-                left: MediaQuery.of(context).size.width * .1),
+                bottom: MediaQuery
+                    .of(context)
+                    .size
+                    .height * .01,
+                right: MediaQuery
+                    .of(context)
+                    .size
+                    .width * .1,
+                left: MediaQuery
+                    .of(context)
+                    .size
+                    .width * .1),
             child: Column(
               children: <Widget>[
                 Container(
-                  width: MediaQuery.of(context).size.width,
+                  width: MediaQuery
+                      .of(context)
+                      .size
+                      .width,
                   child: Text(
                     AppLocalizations.of(context).translate('selectorTag'),
                     style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
-                      fontSize: MediaQuery.of(context).size.width * .12,
+                      fontSize: MediaQuery
+                          .of(context)
+                          .size
+                          .width * .12,
                     ),
                   ),
                 ),
                 Container(
-                  width: MediaQuery.of(context).size.width,
+                  width: MediaQuery
+                      .of(context)
+                      .size
+                      .width,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(colors: [
                       Color(0xff62a39c),
                       Color(0xff13547a),
                     ], begin: Alignment.topLeft, end: Alignment.bottomRight),
                     borderRadius: BorderRadius.circular(
-                        (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
+                        (MediaQuery
+                            .of(context)
+                            .size
+                            .height +
+                            MediaQuery
+                                .of(context)
+                                .size
+                                .width) /
                             2 *
                             .02),
                   ),
                   child: Padding(
                     padding: EdgeInsets.only(
-                        left: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
+                        left: (MediaQuery
+                            .of(context)
+                            .size
+                            .height +
+                            MediaQuery
+                                .of(context)
+                                .size
+                                .width) /
                             2 *
                             .04,
-                        right: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
+                        right: (MediaQuery
+                            .of(context)
+                            .size
+                            .height +
+                            MediaQuery
+                                .of(context)
+                                .size
+                                .width) /
                             2 *
                             .04,
-                        top: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
+                        top: (MediaQuery
+                            .of(context)
+                            .size
+                            .height +
+                            MediaQuery
+                                .of(context)
+                                .size
+                                .width) /
                             2 *
                             .02,
-                        bottom: (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
+                        bottom: (MediaQuery
+                            .of(context)
+                            .size
+                            .height +
+                            MediaQuery
+                                .of(context)
+                                .size
+                                .width) /
                             2 *
                             .02),
                     child: Column(
@@ -307,40 +378,48 @@ setState(() {
                                     return ClipRRect(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                         topRight: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                       ),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
-                                            sigmaX: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaX: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05,
-                                            sigmaY: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaY: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05),
                                         child: SingleChildScrollView(
@@ -351,95 +430,104 @@ setState(() {
                                                 children: <Widget>[
                                                   Padding(
                                                     padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        top: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        bottom: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'electronnegativitySelector') +
+                                                          context)
+                                                          .translate(
+                                                          'electronnegativitySelector') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .09,
                                                       ),
                                                     ),
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue:
-                                                        electronnegativityMin,
+                                                    electronnegativityMin,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifier,
+                                                        percentageModifier,
                                                         topLabelStyle: TextStyle(
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle:
-                                                            TextStyle(
-                                                          fontSize: (MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
+                                                        TextStyle(
+                                                          fontSize: (MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height +
+                                                              MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .width) /
                                                               2 *
                                                               .08,
                                                           color: Colors.white,
                                                         ),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMin'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMin'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -453,24 +541,25 @@ setState(() {
                                                         electronnegativityMin =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    2));
+                                                                2));
 
-                                                        if (electronnegativityMin == defElectronnegativityMin &&
+                                                        if (electronnegativityMin ==
+                                                            defElectronnegativityMin &&
                                                             electronnegativityMax ==
                                                                 defElectronnegativityMax &&
                                                             electronnegativityUnknown ==
                                                                 defElectronnegativityUnknown) {
                                                           stateElectronnegativity =
-                                                              false;
+                                                          false;
                                                           enabledElectronnegativity =
-                                                              false;
+                                                          false;
                                                         } else {
                                                           stateElectronnegativity =
-                                                              true;
+                                                          true;
                                                           enabledElectronnegativity =
-                                                              true;
+                                                          true;
                                                           resetVisibility =
-                                                              true;
+                                                          true;
                                                         }
                                                       });
 
@@ -479,63 +568,69 @@ setState(() {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue:
-                                                        electronnegativityMax,
+                                                    electronnegativityMax,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifier,
+                                                        percentageModifier,
                                                         topLabelStyle: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            FontWeight.bold,
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle: TextStyle(
                                                             color: Colors.white,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .08),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMax'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMax'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -549,22 +644,23 @@ setState(() {
                                                         electronnegativityMax =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    2));
+                                                                2));
 
-                                                        if (electronnegativityMin == defElectronnegativityMin &&
+                                                        if (electronnegativityMin ==
+                                                            defElectronnegativityMin &&
                                                             electronnegativityMax ==
                                                                 defElectronnegativityMax &&
                                                             electronnegativityUnknown ==
                                                                 defElectronnegativityUnknown) {
                                                           stateElectronnegativity =
-                                                              false;
+                                                          false;
                                                           enabledElectronnegativity =
-                                                              false;
+                                                          false;
                                                         } else {
                                                           stateElectronnegativity =
-                                                              true;
+                                                          true;
                                                           enabledElectronnegativity =
-                                                              true;
+                                                          true;
                                                         }
                                                       });
 
@@ -573,35 +669,37 @@ setState(() {
                                                   ),
                                                   StatefulBuilder(
                                                     builder: (BuildContext
-                                                            context,
+                                                    context,
                                                         StateSetter setState) {
                                                       return CheckboxListTile(
                                                         title: Text(
                                                           Capitalizate(
-                                                              AppLocalizations.of(
-                                                                      context)
+                                                              AppLocalizations
+                                                                  .of(
+                                                                  context)
                                                                   .translate(
-                                                                      'unknownelectronnegativity')),
+                                                                  'unknownelectronnegativity')),
                                                           style: TextStyle(
                                                               fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
+                                                              FontWeight
+                                                                  .bold,
                                                               color:
-                                                                  Colors.white,
-                                                              fontSize: MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height *
+                                                              Colors.white,
+                                                              fontSize: MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .height *
                                                                   .04),
                                                         ),
                                                         controlAffinity:
-                                                            ListTileControlAffinity
-                                                                .platform,
+                                                        ListTileControlAffinity
+                                                            .platform,
                                                         activeColor:
-                                                            Color.fromRGBO(255,
-                                                                255, 255, 0),
+                                                        Color.fromRGBO(255,
+                                                            255, 255, 0),
                                                         value:
-                                                            electronnegativityUnknown,
+                                                        electronnegativityUnknown,
                                                         onChanged:
                                                             (bool value) {
                                                           setState(() {
@@ -628,13 +726,16 @@ setState(() {
                             );
                           },
                           child: Container(
-                            width: MediaQuery.of(context).size.width,
+                            width: MediaQuery
+                                .of(context)
+                                .size
+                                .width,
                             child: Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('electronnegativitySelector'),
                               child: Row(
                                 mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
                                     AppLocalizations.of(context).translate(
@@ -643,8 +744,11 @@ setState(() {
                                       fontWeight: FontWeight.bold,
                                       //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
-                                          MediaQuery.of(context).size.width *
-                                              .09,
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
                                       color: Colors.white,
                                     ),
                                   ),
@@ -662,13 +766,13 @@ setState(() {
                                             value: stateElectronnegativity,
                                             onChanged: enabledElectronnegativity
                                                 ? (bool value) {
-                                                    setState(
-                                                      () {
-                                                        stateElectronnegativity =
-                                                            value;
-                                                      },
-                                                    );
-                                                  }
+                                              setState(
+                                                    () {
+                                                  stateElectronnegativity =
+                                                      value;
+                                                },
+                                              );
+                                            }
                                                 : null,
                                           );
                                         },
@@ -694,39 +798,47 @@ setState(() {
                                     return ClipRRect(
                                       borderRadius: BorderRadius.only(
                                           topLeft: Radius.circular(
-                                              (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
+                                              (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
                                                   2 *
                                                   .1),
                                           topRight: Radius.circular(
-                                              (MediaQuery.of(context)
-                                                          .size
-                                                          .height +
-                                                      MediaQuery.of(context)
-                                                          .size
-                                                          .width) /
+                                              (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
                                                   2 *
                                                   .1)),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
-                                            sigmaX: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaX: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05,
-                                            sigmaY: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaY: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05),
                                         child: SingleChildScrollView(
@@ -734,71 +846,75 @@ setState(() {
                                           child: Center(
                                             child: Column(
                                               mainAxisAlignment:
-                                                  MainAxisAlignment
-                                                      .spaceBetween,
+                                              MainAxisAlignment
+                                                  .spaceBetween,
                                               children: <Widget>[
                                                 Padding(
                                                   padding: EdgeInsets.only(
                                                       top:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .height *
-                                                              .04,
+                                                      MediaQuery
+                                                          .of(context)
+                                                          .size
+                                                          .height *
+                                                          .04,
                                                       bottom:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .height *
-                                                              .05),
+                                                      MediaQuery
+                                                          .of(context)
+                                                          .size
+                                                          .height *
+                                                          .05),
                                                   child: Text(
                                                     AppLocalizations.of(context)
-                                                            .translate(
-                                                                'typesSelector') +
+                                                        .translate(
+                                                        'typesSelector') +
                                                         ':',
                                                     style: TextStyle(
                                                       color: Colors.white,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery
+                                                          .of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                     ),
                                                   ),
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'otherNonmetals'),
+                                                              'otherNonmetals'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value:
-                                                          typesOthernonmetals,
+                                                      typesOthernonmetals,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesOthernonmetals =
                                                                 value;
                                                           },
@@ -812,36 +928,37 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'nobleGases'),
+                                                              'nobleGases'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value: typesNoblegases,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesNoblegases =
                                                                 value;
                                                           },
@@ -855,36 +972,37 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'alkaliMetals'),
+                                                              'alkaliMetals'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value: typesAlkalimetals,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesAlkalimetals =
                                                                 value;
                                                           },
@@ -898,37 +1016,38 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'alkaliEarthMetals'),
+                                                              'alkaliEarthMetals'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value:
-                                                          typesAlkaliearthmetals,
+                                                      typesAlkaliearthmetals,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesAlkaliearthmetals =
                                                                 value;
                                                           },
@@ -942,36 +1061,37 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'metalloids'),
+                                                              'metalloids'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value: typesMetalloids,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesMetalloids =
                                                                 value;
                                                           },
@@ -985,37 +1105,38 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'post-transitionMetals'),
+                                                              'post-transitionMetals'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value:
-                                                          typesPosttransitionmetals,
+                                                      typesPosttransitionmetals,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesPosttransitionmetals =
                                                                 value;
                                                           },
@@ -1029,37 +1150,38 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'transitionMetals'),
+                                                              'transitionMetals'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value:
-                                                          typesTransitionmetals,
+                                                      typesTransitionmetals,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesTransitionmetals =
                                                                 value;
                                                           },
@@ -1073,36 +1195,37 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'lanthanoids'),
+                                                              'lanthanoids'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value: typesLanthanoids,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesLanthanoids =
                                                                 value;
                                                           },
@@ -1116,36 +1239,37 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'actinoids'),
+                                                              'actinoids'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value: typesActinoids,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesActinoids =
                                                                 value;
                                                           },
@@ -1159,36 +1283,37 @@ setState(() {
                                                 ),
                                                 StatefulBuilder(
                                                   builder: (BuildContext
-                                                          context,
+                                                  context,
                                                       StateSetter setState) {
                                                     return CheckboxListTile(
                                                       title: Text(
                                                         Capitalizate(
                                                           AppLocalizations.of(
-                                                                  context)
+                                                              context)
                                                               .translate(
-                                                                  'unknown'),
+                                                              'unknown'),
                                                         ),
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color: Colors.white,
-                                                            fontSize: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .height *
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
                                                                 .04),
                                                       ),
                                                       controlAffinity:
-                                                          ListTileControlAffinity
-                                                              .platform,
+                                                      ListTileControlAffinity
+                                                          .platform,
                                                       activeColor:
-                                                          Color.fromRGBO(
-                                                              255, 255, 255, 0),
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
                                                       value: typesUnknown,
                                                       onChanged: (bool value) {
                                                         setState(
-                                                          () {
+                                                              () {
                                                             typesUnknown =
                                                                 value;
                                                           },
@@ -1212,13 +1337,16 @@ setState(() {
                             );
                           },
                           child: Container(
-                            width: MediaQuery.of(context).size.width,
+                            width: MediaQuery
+                                .of(context)
+                                .size
+                                .width,
                             child: Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('typesSelector'),
                               child: Row(
                                 mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
                                     AppLocalizations.of(context)
@@ -1227,8 +1355,11 @@ setState(() {
                                       fontWeight: FontWeight.bold,
                                       //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
-                                          MediaQuery.of(context).size.width *
-                                              .09,
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
                                       color: Colors.white,
                                     ),
                                   ),
@@ -1238,16 +1369,16 @@ setState(() {
                                           StateSetter setState) {
                                         return Checkbox(
                                           activeColor:
-                                              Color.fromRGBO(255, 255, 255, 0),
+                                          Color.fromRGBO(255, 255, 255, 0),
                                           value: stateTypes,
                                           onChanged: enabledTypes
                                               ? (bool value) {
-                                                  setState(
-                                                    () {
-                                                      stateTypes = value;
-                                                    },
-                                                  );
-                                                }
+                                            setState(
+                                                  () {
+                                                stateTypes = value;
+                                              },
+                                            );
+                                          }
                                               : null,
                                         );
                                       },
@@ -1272,40 +1403,48 @@ setState(() {
                                     return ClipRRect(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                         topRight: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                       ),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
-                                            sigmaX: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaX: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05,
-                                            sigmaY: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaY: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05),
                                         child: SingleChildScrollView(
@@ -1316,30 +1455,33 @@ setState(() {
                                                 children: <Widget>[
                                                   Padding(
                                                     padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        top: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        bottom: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'atomicnumSelector') +
+                                                          context)
+                                                          .translate(
+                                                          'atomicnumSelector') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .09,
                                                       ),
                                                     ),
@@ -1355,61 +1497,67 @@ setState(() {
                                                         settingAtomicnumberMax
                                                             .toString()),
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle:
-                                                            TextStyle(
-                                                          fontSize: (MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
+                                                        TextStyle(
+                                                          fontSize: (MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height +
+                                                              MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .width) /
                                                               2 *
                                                               .08,
                                                           color: Colors.white,
                                                         ),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMin'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMin'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -1423,12 +1571,13 @@ setState(() {
                                                         atomicnumberMin =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
 
                                                         setState(() {
-                                                          weightMin = double.parse(
-                                                              percentageModifier(
-                                                                  v));
+                                                          weightMin =
+                                                              double.parse(
+                                                                  percentageModifier(
+                                                                      v));
                                                         });
                                                       });
 
@@ -1447,59 +1596,65 @@ setState(() {
                                                         settingAtomicnumberMax
                                                             .toString()),
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            FontWeight.bold,
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle: TextStyle(
                                                             color: Colors.white,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .08),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMax'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMax'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -1513,7 +1668,7 @@ setState(() {
                                                         atomicnumberMax =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
                                                       });
 
                                                       setAtomicnumber();
@@ -1533,7 +1688,10 @@ setState(() {
                             );
                           },
                           child: Container(
-                            width: MediaQuery.of(context).size.width,
+                            width: MediaQuery
+                                .of(context)
+                                .size
+                                .width,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
@@ -1547,8 +1705,11 @@ setState(() {
                                       fontWeight: FontWeight.bold,
                                       //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
-                                          MediaQuery.of(context).size.width *
-                                              .09,
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
                                       color: Colors.white,
                                     ),
                                   ),
@@ -1559,16 +1720,16 @@ setState(() {
                                         StateSetter setState) {
                                       return Checkbox(
                                         activeColor:
-                                            Color.fromRGBO(255, 255, 255, 0),
+                                        Color.fromRGBO(255, 255, 255, 0),
                                         value: stateAtomicnumber,
                                         onChanged: enabledAtomicnumber
                                             ? (bool value) {
-                                                setState(
-                                                  () {
-                                                    stateAtomicnumber = value;
-                                                  },
-                                                );
-                                              }
+                                          setState(
+                                                () {
+                                              stateAtomicnumber = value;
+                                            },
+                                          );
+                                        }
                                             : null,
                                       );
                                     },
@@ -1592,40 +1753,48 @@ setState(() {
                                     return ClipRRect(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                         topRight: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                       ),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
-                                            sigmaX: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaX: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05,
-                                            sigmaY: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaY: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05),
                                         child: SingleChildScrollView(
@@ -1636,60 +1805,66 @@ setState(() {
                                                 children: <Widget>[
                                                   Padding(
                                                     padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        top: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        bottom: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'constructorsSelector') +
+                                                          context)
+                                                          .translate(
+                                                          'constructorsSelector') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .09,
                                                       ),
                                                     ),
                                                   ),
                                                   Padding(
                                                     padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        top: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        bottom: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'constructorsProtons') +
+                                                          context)
+                                                          .translate(
+                                                          'constructorsProtons') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .09,
                                                       ),
                                                     ),
@@ -1701,61 +1876,67 @@ setState(() {
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle:
-                                                            TextStyle(
-                                                          fontSize: (MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
+                                                        TextStyle(
+                                                          fontSize: (MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height +
+                                                              MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .width) /
                                                               2 *
                                                               .08,
                                                           color: Colors.white,
                                                         ),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMin'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMin'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -1769,7 +1950,7 @@ setState(() {
                                                         constructorsProtonMin =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
                                                       });
 
                                                       setConstructors();
@@ -1783,59 +1964,65 @@ setState(() {
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            FontWeight.bold,
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle: TextStyle(
                                                             color: Colors.white,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .08),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMax'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMax'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -1849,7 +2036,7 @@ setState(() {
                                                         constructorsProtonMax =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
 
                                                         setConstructors();
                                                         checkResetVisibility();
@@ -1858,30 +2045,33 @@ setState(() {
                                                   ),
                                                   Padding(
                                                     padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        top: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        bottom: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'constructorsElectrons') +
+                                                          context)
+                                                          .translate(
+                                                          'constructorsElectrons') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .09,
                                                       ),
                                                     ),
@@ -1893,61 +2083,67 @@ setState(() {
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle:
-                                                            TextStyle(
-                                                          fontSize: (MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
+                                                        TextStyle(
+                                                          fontSize: (MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height +
+                                                              MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .width) /
                                                               2 *
                                                               .08,
                                                           color: Colors.white,
                                                         ),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMin'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMin'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -1961,7 +2157,7 @@ setState(() {
                                                         constructorsElectronMin =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
                                                       });
 
                                                       setConstructors();
@@ -1975,59 +2171,65 @@ setState(() {
                                                     min: 0,
                                                     max: 118,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            FontWeight.bold,
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle: TextStyle(
                                                             color: Colors.white,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .08),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMax'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMax'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -2041,7 +2243,7 @@ setState(() {
                                                         constructorsElectronMax =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
                                                       });
 
                                                       setConstructors();
@@ -2050,30 +2252,33 @@ setState(() {
                                                   ),
                                                   Padding(
                                                     padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        top: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        bottom: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'constructorsNeutrons') +
+                                                          context)
+                                                          .translate(
+                                                          'constructorsNeutrons') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .09,
                                                       ),
                                                     ),
@@ -2085,61 +2290,67 @@ setState(() {
                                                     min: 0,
                                                     max: 177,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle:
-                                                            TextStyle(
-                                                          fontSize: (MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
+                                                        TextStyle(
+                                                          fontSize: (MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height +
+                                                              MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .width) /
                                                               2 *
                                                               .08,
                                                           color: Colors.white,
                                                         ),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMin'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMin'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -2153,7 +2364,7 @@ setState(() {
                                                         constructorsNeutronMin =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
                                                       });
 
                                                       setConstructors();
@@ -2167,59 +2378,65 @@ setState(() {
                                                     min: 0,
                                                     max: 177,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifierNull,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            FontWeight.bold,
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle: TextStyle(
                                                             color: Colors.white,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .08),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMax'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMax'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -2233,7 +2450,7 @@ setState(() {
                                                         constructorsNeutronMax =
                                                             num.parse(v
                                                                 .toStringAsFixed(
-                                                                    0));
+                                                                0));
                                                       });
 
                                                       setConstructors();
@@ -2253,13 +2470,16 @@ setState(() {
                             );
                           },
                           child: Container(
-                            width: MediaQuery.of(context).size.width,
+                            width: MediaQuery
+                                .of(context)
+                                .size
+                                .width,
                             child: Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('constructorsSelector'),
                               child: Row(
                                 mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
                                     AppLocalizations.of(context)
@@ -2268,8 +2488,11 @@ setState(() {
                                       fontWeight: FontWeight.bold,
                                       //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
-                                          MediaQuery.of(context).size.width *
-                                              .09,
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
                                       color: Colors.white,
                                     ),
                                   ),
@@ -2279,16 +2502,16 @@ setState(() {
                                           StateSetter setState) {
                                         return Checkbox(
                                           activeColor:
-                                              Color.fromRGBO(255, 255, 255, 0),
+                                          Color.fromRGBO(255, 255, 255, 0),
                                           value: stateConstructors,
                                           onChanged: enabledConstructors
                                               ? (bool value) {
-                                                  setState(
-                                                    () {
-                                                      stateConstructors = value;
-                                                    },
-                                                  );
-                                                }
+                                            setState(
+                                                  () {
+                                                stateConstructors = value;
+                                              },
+                                            );
+                                          }
                                               : null,
                                         );
                                       },
@@ -2313,40 +2536,48 @@ setState(() {
                                     return ClipRRect(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                         topRight: Radius.circular(
-                                            (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .1),
                                       ),
                                       child: BackdropFilter(
                                         filter: ImageFilter.blur(
-                                            sigmaX: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaX: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05,
-                                            sigmaY: (MediaQuery.of(context)
-                                                        .size
-                                                        .height +
-                                                    MediaQuery.of(context)
-                                                        .size
-                                                        .width) /
+                                            sigmaY: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
                                                 2 *
                                                 .05),
                                         child: SingleChildScrollView(
@@ -2357,30 +2588,33 @@ setState(() {
                                                 children: <Widget>[
                                                   Padding(
                                                     padding: EdgeInsets.only(
-                                                        top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        top: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .04,
-                                                        bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                        bottom: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                                  context)
-                                                              .translate(
-                                                                  'weightSelector') +
+                                                          context)
+                                                          .translate(
+                                                          'weightSelector') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                        FontWeight.bold,
+                                                        fontSize: MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .09,
                                                       ),
                                                     ),
@@ -2390,61 +2624,67 @@ setState(() {
                                                     min: 1,
                                                     max: 294,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifier,
+                                                        percentageModifier,
                                                         topLabelStyle: TextStyle(
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             fontWeight:
-                                                                FontWeight.bold,
+                                                            FontWeight.bold,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle:
-                                                            TextStyle(
-                                                          fontSize: (MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
+                                                        TextStyle(
+                                                          fontSize: (MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height +
+                                                              MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .width) /
                                                               2 *
                                                               .08,
                                                           color: Colors.white,
                                                         ),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMin'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMin'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -2455,9 +2695,10 @@ setState(() {
                                                     ),
                                                     onChangeEnd: (double v) {
                                                       setState(() {
-                                                        weightMin = double.parse(
-                                                            percentageModifier(
-                                                                v));
+                                                        weightMin =
+                                                            double.parse(
+                                                                percentageModifier(
+                                                                    v));
                                                       });
 
                                                       setWeight();
@@ -2469,59 +2710,65 @@ setState(() {
                                                     min: 1,
                                                     max: 294,
                                                     appearance:
-                                                        CircularSliderAppearance(
+                                                    CircularSliderAppearance(
                                                       animationEnabled: false,
-                                                      size: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                      size: (MediaQuery
+                                                          .of(
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .4,
                                                       infoProperties:
-                                                          InfoProperties(
+                                                      InfoProperties(
                                                         modifier:
-                                                            percentageModifier,
+                                                        percentageModifier,
                                                         topLabelStyle: TextStyle(
                                                             fontWeight:
-                                                                FontWeight.bold,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            FontWeight.bold,
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .06,
                                                             color:
-                                                                Colors.white),
+                                                            Colors.white),
                                                         mainLabelStyle: TextStyle(
                                                             color: Colors.white,
-                                                            fontSize: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
                                                                 2 *
                                                                 .08),
                                                         topLabelText:
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'sliderMax'),
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'sliderMax'),
                                                       ),
                                                       customColors:
-                                                          CustomSliderColors(
+                                                      CustomSliderColors(
                                                         trackColor:
-                                                            Colors.white,
+                                                        Colors.white,
                                                         hideShadow: true,
                                                         progressBarColors: <
                                                             Color>[
@@ -2532,9 +2779,10 @@ setState(() {
                                                     ),
                                                     onChangeEnd: (double v) {
                                                       setState(() {
-                                                        weightMax = double.parse(
-                                                            percentageModifier(
-                                                                v));
+                                                        weightMax =
+                                                            double.parse(
+                                                                percentageModifier(
+                                                                    v));
                                                       });
 
                                                       setWeight();
@@ -2560,7 +2808,7 @@ setState(() {
                                   .translate('weightSelector'),
                               child: Row(
                                 mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
                                     AppLocalizations.of(context)
@@ -2569,8 +2817,11 @@ setState(() {
                                       fontWeight: FontWeight.bold,
                                       //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
-                                          MediaQuery.of(context).size.width *
-                                              .09,
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
                                       color: Colors.white,
                                     ),
                                   ),
@@ -2580,16 +2831,16 @@ setState(() {
                                           StateSetter setState) {
                                         return Checkbox(
                                           activeColor:
-                                              Color.fromRGBO(255, 255, 255, 0),
+                                          Color.fromRGBO(255, 255, 255, 0),
                                           value: stateWeight,
                                           onChanged: enabledWeight
                                               ? (bool value) {
-                                                  setState(
-                                                    () {
-                                                      stateWeight = value;
-                                                    },
-                                                  );
-                                                }
+                                            setState(
+                                                  () {
+                                                stateWeight = value;
+                                              },
+                                            );
+                                          }
                                               : null,
                                         );
                                       },
@@ -2685,7 +2936,7 @@ setState(() {
                                     action: SnackBarAction(
                                         label: AppLocalizations.of(context)
                                             .translate(
-                                                'resetDoneLabelSelector'),
+                                            'resetDoneLabelSelector'),
                                         textColor: Color(0xfffffffff),
                                         onPressed: () {}),
                                   ),
@@ -2701,7 +2952,10 @@ setState(() {
                       style: TextStyle(
                         color: Colors.black.withOpacity(.7),
                         fontWeight: FontWeight.bold,
-                        fontSize: MediaQuery.of(context).size.width * .07,
+                        fontSize: MediaQuery
+                            .of(context)
+                            .size
+                            .width * .07,
                       ),
                     ),
                   ),
@@ -2716,62 +2970,87 @@ setState(() {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => searchResults(
-                      typesOthernonmetals: typesOthernonmetals,
-                      typesNoblegases: typesNoblegases,
-                      typesAlkalimetals: typesAlkalimetals,
-                      typesAlkaliearthmetals: typesAlkaliearthmetals,
-                      typesMetalloids: typesMetalloids,
-                      typesPosttransitionmetals: typesPosttransitionmetals,
-                      typesTransitionmetals: typesTransitionmetals,
-                      typesLanthanoids: typesLanthanoids,
-                      typesActionids: typesActinoids,
-                      typesUnknown: typesUnknown,
-                      electronnegativityMin: electronnegativityMin,
-                      electronnegativityMax: electronnegativityMax,
-                      electronnegativityUnknown: electronnegativityUnknown,
-                      atomicnumberMin: atomicnumberMin,
-                      atomicnumberMax: atomicnumberMax,
-                      constructorsProtonMin: constructorsProtonMin,
-                      constructorsProtonMax: constructorsProtonMax,
-                      constructorsElectronMin: constructorsElectronMin,
-                      constructorsElectronMax: constructorsElectronMax,
-                      constructorsNeutronMin: constructorsNeutronMin,
-                      constructorsNeutronMax: constructorsNeutronMax,
-                      weightMin: weightMin,
-                      weightMax: weightMax,
+                    builder: (context) =>
+                        searchResults(
+                          typesOthernonmetals: typesOthernonmetals,
+                          typesNoblegases: typesNoblegases,
+                          typesAlkalimetals: typesAlkalimetals,
+                          typesAlkaliearthmetals: typesAlkaliearthmetals,
+                          typesMetalloids: typesMetalloids,
+                          typesPosttransitionmetals: typesPosttransitionmetals,
+                          typesTransitionmetals: typesTransitionmetals,
+                          typesLanthanoids: typesLanthanoids,
+                          typesActionids: typesActinoids,
+                          typesUnknown: typesUnknown,
+                          electronnegativityMin: electronnegativityMin,
+                          electronnegativityMax: electronnegativityMax,
+                          electronnegativityUnknown: electronnegativityUnknown,
+                          atomicnumberMin: atomicnumberMin,
+                          atomicnumberMax: atomicnumberMax,
+                          constructorsProtonMin: constructorsProtonMin,
+                          constructorsProtonMax: constructorsProtonMax,
+                          constructorsElectronMin: constructorsElectronMin,
+                          constructorsElectronMax: constructorsElectronMax,
+                          constructorsNeutronMin: constructorsNeutronMin,
+                          constructorsNeutronMax: constructorsNeutronMax,
+                          weightMin: weightMin,
+                          weightMax: weightMax,
 
-                      stateElectronnegativity: stateElectronnegativity,
-                      stateTypes: stateTypes,
-                      stateAtomicnumber: stateAtomicnumber,
-                      stateConstructors: stateConstructors,
-                      stateWeight: stateWeight,
-                    ),
+                          stateElectronnegativity: stateElectronnegativity,
+                          stateTypes: stateTypes,
+                          stateAtomicnumber: stateAtomicnumber,
+                          stateConstructors: stateConstructors,
+                          stateWeight: stateWeight,
+                        ),
                   ),
                 );
               },
               child: Padding(
                 padding: EdgeInsets.only(
                     bottom: 22,
-                    right: (MediaQuery.of(context).size.height +
-                            MediaQuery.of(context).size.width) /
+                    right: (MediaQuery
+                        .of(context)
+                        .size
+                        .height +
+                        MediaQuery
+                            .of(context)
+                            .size
+                            .width) /
                         2 *
                         .05,
-                    left: (MediaQuery.of(context).size.height +
-                            MediaQuery.of(context).size.width) /
+                    left: (MediaQuery
+                        .of(context)
+                        .size
+                        .height +
+                        MediaQuery
+                            .of(context)
+                            .size
+                            .width) /
                         2 *
                         .05),
                 child: Container(
-                  width: MediaQuery.of(context).size.width * .8,
-                  height: MediaQuery.of(context).size.height * .1,
+                  width: MediaQuery
+                      .of(context)
+                      .size
+                      .width * .8,
+                  height: MediaQuery
+                      .of(context)
+                      .size
+                      .height * .1,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(colors: [
                       Color(0xff62a39c),
                       Color(0xff13547a),
                     ], begin: Alignment.topLeft, end: Alignment.bottomRight),
                     borderRadius: BorderRadius.circular(
-                        (MediaQuery.of(context).size.height +
-                                MediaQuery.of(context).size.width) /
+                        (MediaQuery
+                            .of(context)
+                            .size
+                            .height +
+                            MediaQuery
+                                .of(context)
+                                .size
+                                .width) /
                             2 *
                             .02),
                   ),
@@ -2781,7 +3060,10 @@ setState(() {
                       style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
-                          fontSize: MediaQuery.of(context).size.width * .08),
+                          fontSize: MediaQuery
+                              .of(context)
+                              .size
+                              .width * .08),
                     ),
                   ),
                 ),

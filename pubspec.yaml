@@ -3,7 +3,7 @@ description: A modern app to track the cemistry's elements. Including all 118 el
 
 publish_to: 'none'
 
-version: 0.3.0+9
+version: 0.3.1+10
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

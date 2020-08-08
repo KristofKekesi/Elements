@@ -251,27 +251,27 @@ class viewSelectorState extends State<viewSelector> {
   Widget getView(cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb0, en1, en2, en3, an1, an2,  int prot1, int prot2, int elect1, int elect2, int neut1, int neut2, double minw, double maxw) {
     switch (selectredViewMarker) {
     case viewMarker.cards:
-      return cardView(typesOthernonmetals: cb1, typesNoblegases: cb2, typesAlkalimetals: cb3, typesAlkaliearthmetals: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3, an1: an1, an2: an2, prot1: prot1, prot2: prot2, elect1: elect1, elect2: elect2, neut1: neut1, neut2: neut2, minw: minw, maxw: maxw, stateElectronnegativity: stateElectronnegativity, stateTypes: stateTypes, stateAtomicnumber: stateAtomicnumber, stateConstructors: stateConstructors, stateWeight: stateWeight,);
+      return cardView(typesOthernonmetals: cb1, typesNoblegases: cb2, typesAlkalimetals: cb3, typesAlkaliearthmetals: cb4, typesMetalloids: cb5, typesPosttransitionmetals: cb6, typesTransitionmetals: cb7, typesLanthanoids: cb8, typesActinoids: cb9, typesUnknown: cb0, electronnegativityMin: en1, electronnegativityMax: en2, electronnegativityUnknown: en3, atomicnumberMin: an1, atomicnumberMax: an2, constructorsProtonMin: prot1, constructorsProtonMax: prot2, constructorsElectronMin: elect1, constructorsElectronMax: elect2, constructorsNeutronMin: neut1, constructorsNeutronMax: neut2, weightMin: minw, weightMax: maxw, stateElectronnegativity: stateElectronnegativity, stateTypes: stateTypes, stateAtomicnumber: stateAtomicnumber, stateConstructors: stateConstructors, stateWeight: stateWeight,);
     case viewMarker.minimal:
-      return minimalView(cb1: cb1, cb2: cb2, cb3: cb3, cb4: cb4, cb5: cb5, cb6: cb6, cb7: cb7, cb8: cb8, cb9: cb9, cb0: cb0, en1: en1, en2: en2, en3: en3, an1: an1, an2: an2, prot1: prot1, prot2: prot2, elect1: elect1, elect2: elect2, neut1: neut1, neut2: neut2, minw: minw, maxw: maxw);
+      return minimalView(typesOthernonmetals: cb1, typesNoblegases: cb2, typesAlkalimetals: cb3, typesAlkaliearthmetals: cb4, typesMetalloids: cb5, typesPosttransitionmetals: cb6, typesTransitionmetals: cb7, typesLanthanoids: cb8, typesActinoids: cb9, typesUnknown: cb0, electronnegativityMin: en1, electronnegativityMax: en2, electronnegativityUnknown: en3, atomicnumberMin: an1, atomicnumberMax: an2, constructorsProtonMin: prot1, constructorsProtonMax: prot2, constructorsElectronMin: elect1, constructorsElectronMax: elect2, constructorsNeutronMin: neut1, constructorsNeutronMax: neut2, weightMin: minw, weightMax: maxw);
     }
     return minimalView(
-      cb1: cb1,
-      cb2: cb2,
-      cb3: cb3,
-      cb4: cb4,
-      cb5: cb5,
-      cb6: cb6,
-      cb7: cb7,
-      cb8: cb8,
-      cb9: cb9,
-      cb0: cb0,
-      en1: en1,
-      en2: en2,
-      en3: en3,
-      an1: an1,
-      an2: an2,
-      prot1: prot1, prot2: prot2, elect1: elect1, elect2: elect2, neut1: neut1, neut2: neut2,
+      typesOthernonmetals: cb1,
+      typesNoblegases: cb2,
+      typesAlkalimetals: cb3,
+      typesAlkaliearthmetals: cb4,
+      typesMetalloids: cb5,
+      typesPosttransitionmetals: cb6,
+      typesTransitionmetals: cb7,
+      typesLanthanoids: cb8,
+      typesActinoids: cb9,
+      typesUnknown: cb0,
+      electronnegativityMin: en1,
+      electronnegativityMax: en2,
+      electronnegativityUnknown: en3,
+      atomicnumberMin: an1,
+      atomicnumberMax: an2,
+      constructorsProtonMin: prot1, constructorsProtonMax: prot2, constructorsElectronMin: elect1, constructorsElectronMax: elect2, constructorsNeutronMin: neut1, constructorsNeutronMax: neut2,
     );
     }
 }
