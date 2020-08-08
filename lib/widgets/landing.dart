@@ -30,7 +30,7 @@ bool defTypesMetalloids = true;
 bool defTypesPosttransitionmetals = true;
 bool defTypesTransitionMetals = true;
 bool defTypesLantanoids = true;
-bool defTypesActionids = true;
+bool defTypesActinoids = true;
 bool defTypesUnknown = true;
 
 bool stateTypes = false;
@@ -55,22 +55,22 @@ bool defElectronnegativityUnknown = true;
 bool stateElectronnegativity = false;
 bool enabledElectronnegativity = false;
 
-double ElectronnegativityMin = 0;
-double ElectronnegativityMax = 4;
-bool ElectronnegativityUnknown = true;
+double electronnegativityMin = 0;
+double electronnegativityMax = 4;
+bool electronnegativityUnknown = true;
 
 // atomic number
-int settingAtomicnumMin = 1;
+int settingAtomicnumberMin = 1;
 int settingAtomicnumberMax = 118;
 
-int defAtomicnumMin = 1;
-int defAtomicnumMax = 118;
+int defAtomicnumberMin = 1;
+int defAtomicnumberMax = 118;
 
 bool stateAtomicnumber = false;
 bool enabledAtomicnumber = false;
 
-int atomicnumMin = 1;
-int atomicnumMax = 118;
+int atomicnumberMin = 1;
+int atomicnumberMax = 118;
 
 // constructors
 int defConstructorsElectronMin = 0;
@@ -105,10 +105,15 @@ double weightMin = 1;
 double weightMax = 294;
 
 void checkResetVisibility() {
-  if (stateElectronnegativity == false && stateTypes == false && stateAtomicnumber && stateConstructors == false && stateConstructors == false && stateWeight == false) {
-    resetVisibility = false;
-  } else {
+  if (enabledElectronnegativity == true ||
+      enabledTypes == true ||
+      enabledAtomicnumber == true ||
+      enabledConstructors == true ||
+      enabledConstructors == true ||
+      enabledWeight == true) {
     resetVisibility = true;
+  } else {
+    resetVisibility = false;
   }
 }
 
@@ -120,6 +125,82 @@ class landing extends StatefulWidget {
 
 // ignore: camel_case_types
 class _landingState extends State<landing> {
+  void setElectronnegativity() {
+    setState(() {
+      if (electronnegativityUnknown == defElectronnegativityUnknown &&
+          electronnegativityMin == defElectronnegativityMin &&
+          electronnegativityMax == defElectronnegativityMax) {
+        stateElectronnegativity = false;
+        enabledElectronnegativity = false;
+      } else {
+        stateElectronnegativity = true;
+        enabledElectronnegativity = true;
+      }
+    });
+  }
+
+  void setTypes() {
+    setState(() {
+      if (typesOthernonmetals == defTypesOthernonmetals &&
+          typesNoblegases == defTypesNoblegases &&
+          typesAlkalimetals == defTypesAlkalimetals &&
+          typesAlkaliearthmetals == defTypesAlkaliearthmetals &&
+          typesMetalloids == defTypesMetalloids &&
+          typesPosttransitionmetals == defTypesPosttransitionmetals &&
+          typesTransitionmetals == defTypesTransitionMetals &&
+          typesLanthanoids == defTypesLantanoids &&
+          typesActinoids == defTypesActinoids &&
+          typesUnknown == defTypesUnknown) {
+        stateTypes = false;
+        enabledTypes = false;
+      } else {
+        stateTypes = true;
+        enabledTypes = true;
+      }
+    });
+  }
+
+  void setAtomicnumber() {
+    setState(() {
+      if (atomicnumberMin == defAtomicnumberMin &&
+          atomicnumberMax == defAtomicnumberMax) {
+        stateAtomicnumber = false;
+        enabledAtomicnumber = false;
+      } else {
+        stateAtomicnumber = true;
+        enabledAtomicnumber = true;
+      }
+    });
+  }
+
+  void setConstructors() {
+    setState(() {
+      if (atomicnumberMin == defAtomicnumberMin &&
+          atomicnumberMax == defAtomicnumberMax) {
+        stateConstructors = false;
+        enabledConstructors = false;
+      } else {
+        stateConstructors = true;
+        enabledConstructors = true;
+      }
+    });
+  }
+
+  void setWeight() {
+setState(() {
+  if (weightMin ==
+      defWeightMin &&
+      weightMax ==
+          defWeightMax) {
+    stateWeight = false;
+    enabledWeight = false;
+  } else {
+    stateWeight = true;
+    enabledWeight = true;
+  }
+});
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -300,7 +381,7 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue:
-                                                        ElectronnegativityMin,
+                                                        electronnegativityMin,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
@@ -369,15 +450,15 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        ElectronnegativityMin =
+                                                        electronnegativityMin =
                                                             num.parse(v
                                                                 .toStringAsFixed(
                                                                     2));
 
-                                                        if (ElectronnegativityMin == defElectronnegativityMin &&
-                                                            ElectronnegativityMax ==
+                                                        if (electronnegativityMin == defElectronnegativityMin &&
+                                                            electronnegativityMax ==
                                                                 defElectronnegativityMax &&
-                                                            ElectronnegativityUnknown ==
+                                                            electronnegativityUnknown ==
                                                                 defElectronnegativityUnknown) {
                                                           stateElectronnegativity =
                                                               false;
@@ -388,7 +469,8 @@ class _landingState extends State<landing> {
                                                               true;
                                                           enabledElectronnegativity =
                                                               true;
-                                                          resetVisibility = true;
+                                                          resetVisibility =
+                                                              true;
                                                         }
                                                       });
 
@@ -397,7 +479,7 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue:
-                                                        ElectronnegativityMax,
+                                                        electronnegativityMax,
                                                     min: 0,
                                                     max: 4,
                                                     appearance:
@@ -464,15 +546,15 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        ElectronnegativityMax =
+                                                        electronnegativityMax =
                                                             num.parse(v
                                                                 .toStringAsFixed(
                                                                     2));
 
-                                                        if (ElectronnegativityMin == defElectronnegativityMin &&
-                                                            ElectronnegativityMax ==
+                                                        if (electronnegativityMin == defElectronnegativityMin &&
+                                                            electronnegativityMax ==
                                                                 defElectronnegativityMax &&
-                                                            ElectronnegativityUnknown ==
+                                                            electronnegativityUnknown ==
                                                                 defElectronnegativityUnknown) {
                                                           stateElectronnegativity =
                                                               false;
@@ -493,15 +575,13 @@ class _landingState extends State<landing> {
                                                     builder: (BuildContext
                                                             context,
                                                         StateSetter setState) {
-                                                      return
-                                                        CheckboxListTile(
+                                                      return CheckboxListTile(
                                                         title: Text(
                                                           Capitalizate(
-                                                            AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'unknownelectronnegativity'),
-                                                          ),
+                                                              AppLocalizations.of(
+                                                                      context)
+                                                                  .translate(
+                                                                      'unknownelectronnegativity')),
                                                           style: TextStyle(
                                                               fontWeight:
                                                                   FontWeight
@@ -521,36 +601,16 @@ class _landingState extends State<landing> {
                                                             Color.fromRGBO(255,
                                                                 255, 255, 0),
                                                         value:
-                                                            ElectronnegativityUnknown,
+                                                            electronnegativityUnknown,
                                                         onChanged:
                                                             (bool value) {
-                                                          setState(
-                                                            () {
-                                                              ElectronnegativityUnknown =
-                                                                  value;
-//                                                              if (ElectronnegativityMin == defElectronnegativityMin &&
-//                                                                  ElectronnegativityMax ==
-//                                                                      defElectronnegativityMax &&
-//                                                                  ElectronnegativityUnknown ==
-//                                                                      defElectronnegativityUnknown) {
-//                                                                setState(() {
-//                                                                  stateElectronnegativity =
-//                                                                  false;
-//                                                                  enabledElectronnegativity =
-//                                                                  false;
-//                                                                });
-//                                                                print('hamis');
-//                                                              } else {
-//                                                                setState(() {
-//                                                                  stateElectronnegativity =
-//                                                                  true;
-//                                                                  enabledElectronnegativity =
-//                                                                  true;
-//                                                                });
-//                                                                print('igaz');
-//                                                              }
-                                                              },
-                                                          );
+                                                          setState(() {
+                                                            electronnegativityUnknown =
+                                                                value;
+
+                                                            setElectronnegativity();
+                                                            checkResetVisibility();
+                                                          });
                                                         },
                                                       );
                                                     },
@@ -600,16 +660,16 @@ class _landingState extends State<landing> {
                                             activeColor: Color.fromRGBO(
                                                 255, 255, 255, 0),
                                             value: stateElectronnegativity,
-                                          onChanged: enabledElectronnegativity
-                                              ? (bool value) {
-                                                  setState(
-                                                    () {
-                                                      stateElectronnegativity =
-                                                          value;
-                                                    },
-                                                  );
-                                                }
-                                              : null,
+                                            onChanged: enabledElectronnegativity
+                                                ? (bool value) {
+                                                    setState(
+                                                      () {
+                                                        stateElectronnegativity =
+                                                            value;
+                                                      },
+                                                    );
+                                                  }
+                                                : null,
                                           );
                                         },
                                       ),
@@ -743,6 +803,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -783,6 +846,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -823,6 +889,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -864,6 +933,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -904,6 +976,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -945,6 +1020,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -986,6 +1064,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -1026,6 +1107,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -1066,6 +1150,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -1106,6 +1193,9 @@ class _landingState extends State<landing> {
                                                                 value;
                                                           },
                                                         );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
                                                       },
                                                     );
                                                   },
@@ -1256,10 +1346,10 @@ class _landingState extends State<landing> {
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        atomicnumMin
+                                                        atomicnumberMin
                                                             .toString()),
                                                     min: double.parse(
-                                                        settingAtomicnumMin
+                                                        settingAtomicnumberMin
                                                             .toString()),
                                                     max: double.parse(
                                                         settingAtomicnumberMax
@@ -1330,41 +1420,28 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        atomicnumMin = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
+                                                        atomicnumberMin =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
 
                                                         setState(() {
                                                           weightMin = double.parse(
                                                               percentageModifier(
                                                                   v));
-
-                                                          if (atomicnumMin ==
-                                                                  defAtomicnumMin &&
-                                                              atomicnumMax ==
-                                                                  defAtomicnumMax) {
-                                                            stateAtomicnumber =
-                                                                false;
-                                                            enabledAtomicnumber =
-                                                                false;
-                                                          } else {
-                                                            stateAtomicnumber =
-                                                                true;
-                                                            enabledAtomicnumber =
-                                                                true;
-                                                          }
                                                         });
                                                       });
 
+                                                      setAtomicnumber();
                                                       checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
                                                     initialValue: double.parse(
-                                                        atomicnumMax
+                                                        atomicnumberMax
                                                             .toString()),
                                                     min: double.parse(
-                                                        settingAtomicnumMin
+                                                        settingAtomicnumberMin
                                                             .toString()),
                                                     max: double.parse(
                                                         settingAtomicnumberMax
@@ -1433,26 +1510,13 @@ class _landingState extends State<landing> {
                                                     ),
                                                     onChangeEnd: (v) {
                                                       setState(() {
-                                                        atomicnumMax = num.parse(
-                                                            v.toStringAsFixed(
-                                                                0));
-
-                                                        if (atomicnumMin ==
-                                                                defAtomicnumMin &&
-                                                            atomicnumMax ==
-                                                                defAtomicnumMax) {
-                                                          stateAtomicnumber =
-                                                              false;
-                                                          enabledAtomicnumber =
-                                                              false;
-                                                        } else {
-                                                          stateAtomicnumber =
-                                                              true;
-                                                          enabledAtomicnumber =
-                                                              true;
-                                                        }
+                                                        atomicnumberMax =
+                                                            num.parse(v
+                                                                .toStringAsFixed(
+                                                                    0));
                                                       });
 
+                                                      setAtomicnumber();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -1708,28 +1772,7 @@ class _landingState extends State<landing> {
                                                                     0));
                                                       });
 
-                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
-                                                          constructorsProtonMax ==
-                                                              defConstructorsProtonMax &&
-                                                          constructorsElectronMin ==
-                                                              defConstructorsElectronMin &&
-                                                          constructorsElectronMax ==
-                                                              defConstructorsElectronMax &&
-                                                          constructorsNeutronMin ==
-                                                              defConstructorsNeutronMin &&
-                                                          constructorsNeutronMax ==
-                                                              defConstructorsNeutronMax) {
-                                                        stateConstructors =
-                                                            false;
-                                                        enabledConstructors =
-                                                            false;
-                                                      } else {
-                                                        stateConstructors =
-                                                            true;
-                                                        enabledConstructors =
-                                                            true;
-                                                      }
-
+                                                      setConstructors();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -1808,28 +1851,7 @@ class _landingState extends State<landing> {
                                                                 .toStringAsFixed(
                                                                     0));
 
-                                                        if (constructorsProtonMin == defConstructorsProtonMin &&
-                                                            constructorsProtonMax ==
-                                                                defConstructorsProtonMax &&
-                                                            constructorsElectronMin ==
-                                                                defConstructorsElectronMin &&
-                                                            constructorsElectronMax ==
-                                                                defConstructorsElectronMax &&
-                                                            constructorsNeutronMin ==
-                                                                defConstructorsNeutronMin &&
-                                                            constructorsNeutronMax ==
-                                                                defConstructorsNeutronMax) {
-                                                          stateConstructors =
-                                                              false;
-                                                          enabledConstructors =
-                                                              false;
-                                                        } else {
-                                                          stateConstructors =
-                                                              true;
-                                                          enabledConstructors =
-                                                              true;
-                                                        }
-
+                                                        setConstructors();
                                                         checkResetVisibility();
                                                       });
                                                     },
@@ -1942,28 +1964,7 @@ class _landingState extends State<landing> {
                                                                     0));
                                                       });
 
-                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
-                                                          constructorsProtonMax ==
-                                                              defConstructorsProtonMax &&
-                                                          constructorsElectronMin ==
-                                                              defConstructorsElectronMin &&
-                                                          constructorsElectronMax ==
-                                                              defConstructorsElectronMax &&
-                                                          constructorsNeutronMin ==
-                                                              defConstructorsNeutronMin &&
-                                                          constructorsNeutronMax ==
-                                                              defConstructorsNeutronMax) {
-                                                        stateConstructors =
-                                                            false;
-                                                        enabledConstructors =
-                                                            false;
-                                                      } else {
-                                                        stateConstructors =
-                                                            true;
-                                                        enabledConstructors =
-                                                            true;
-                                                      }
-
+                                                      setConstructors();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -2043,28 +2044,7 @@ class _landingState extends State<landing> {
                                                                     0));
                                                       });
 
-                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
-                                                          constructorsProtonMax ==
-                                                              defConstructorsProtonMax &&
-                                                          constructorsElectronMin ==
-                                                              defConstructorsElectronMin &&
-                                                          constructorsElectronMax ==
-                                                              defConstructorsElectronMax &&
-                                                          constructorsNeutronMin ==
-                                                              defConstructorsNeutronMin &&
-                                                          constructorsNeutronMax ==
-                                                              defConstructorsNeutronMax) {
-                                                        stateConstructors =
-                                                            false;
-                                                        enabledConstructors =
-                                                            false;
-                                                      } else {
-                                                        stateConstructors =
-                                                            true;
-                                                        enabledConstructors =
-                                                            true;
-                                                      }
-
+                                                      setConstructors();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -2176,28 +2156,7 @@ class _landingState extends State<landing> {
                                                                     0));
                                                       });
 
-                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
-                                                          constructorsProtonMax ==
-                                                              defConstructorsProtonMax &&
-                                                          constructorsElectronMin ==
-                                                              defConstructorsElectronMin &&
-                                                          constructorsElectronMax ==
-                                                              defConstructorsElectronMax &&
-                                                          constructorsNeutronMin ==
-                                                              defConstructorsNeutronMin &&
-                                                          constructorsNeutronMax ==
-                                                              defConstructorsNeutronMax) {
-                                                        stateConstructors =
-                                                            false;
-                                                        enabledConstructors =
-                                                            false;
-                                                      } else {
-                                                        stateConstructors =
-                                                            true;
-                                                        enabledConstructors =
-                                                            true;
-                                                      }
-
+                                                      setConstructors();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -2277,28 +2236,7 @@ class _landingState extends State<landing> {
                                                                     0));
                                                       });
 
-                                                      if (constructorsProtonMin == defConstructorsProtonMin &&
-                                                          constructorsProtonMax ==
-                                                              defConstructorsProtonMax &&
-                                                          constructorsElectronMin ==
-                                                              defConstructorsElectronMin &&
-                                                          constructorsElectronMax ==
-                                                              defConstructorsElectronMax &&
-                                                          constructorsNeutronMin ==
-                                                              defConstructorsNeutronMin &&
-                                                          constructorsNeutronMax ==
-                                                              defConstructorsNeutronMax) {
-                                                        stateConstructors =
-                                                            false;
-                                                        enabledConstructors =
-                                                            false;
-                                                      } else {
-                                                        stateConstructors =
-                                                            true;
-                                                        enabledConstructors =
-                                                            true;
-                                                      }
-
+                                                      setConstructors();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -2520,19 +2458,9 @@ class _landingState extends State<landing> {
                                                         weightMin = double.parse(
                                                             percentageModifier(
                                                                 v));
-
-                                                        if (weightMin ==
-                                                                defWeightMin &&
-                                                            weightMax ==
-                                                                defWeightMax) {
-                                                          stateWeight = false;
-                                                          enabledWeight = false;
-                                                        } else {
-                                                          stateWeight = true;
-                                                          enabledWeight = true;
-                                                        }
                                                       });
 
+                                                      setWeight();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -2607,19 +2535,9 @@ class _landingState extends State<landing> {
                                                         weightMax = double.parse(
                                                             percentageModifier(
                                                                 v));
-
-                                                        if (weightMin ==
-                                                                defWeightMin &&
-                                                            weightMax ==
-                                                                defWeightMax) {
-                                                          stateWeight = false;
-                                                          enabledWeight = false;
-                                                        } else {
-                                                          stateWeight = true;
-                                                          enabledWeight = true;
-                                                        }
                                                       });
 
+                                                      setWeight();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -2688,100 +2606,105 @@ class _landingState extends State<landing> {
                 ),
                 Opacity(
                   opacity: resetVisibility ? 1 : 0,
-                  child:
-                GestureDetector(
-                  onTap: () {
-                    if (resetVisibility == true) {
-                      Scaffold.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            AppLocalizations.of(context)
-                                .translate('resetWarnSelector'),
+                  child: GestureDetector(
+                    onTap: () {
+                      if (resetVisibility == true) {
+                        Scaffold.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              AppLocalizations.of(context)
+                                  .translate('resetWarnSelector'),
+                            ),
+                            action: SnackBarAction(
+                              label: AppLocalizations.of(context)
+                                  .translate('resetWarnLabelSelector'),
+                              textColor: Color(0xfff22447),
+                              onPressed: () {
+                                typesOthernonmetals = defTypesOthernonmetals;
+                                typesNoblegases = defTypesNoblegases;
+                                typesAlkalimetals = defTypesAlkaliearthmetals;
+                                typesAlkaliearthmetals =
+                                    defTypesAlkaliearthmetals;
+                                typesMetalloids = defTypesMetalloids;
+                                typesPosttransitionmetals =
+                                    defTypesPosttransitionmetals;
+                                typesTransitionmetals =
+                                    defTypesTransitionMetals;
+                                typesLanthanoids = defTypesLantanoids;
+                                typesActinoids = defTypesActinoids;
+                                typesUnknown = defTypesUnknown;
+
+                                electronnegativityMin =
+                                    defElectronnegativityMin;
+                                electronnegativityMax =
+                                    defElectronnegativityMax;
+                                electronnegativityUnknown =
+                                    defElectronnegativityUnknown;
+
+                                atomicnumberMin = defAtomicnumberMin;
+                                atomicnumberMax = defAtomicnumberMax;
+
+                                constructorsElectronMin =
+                                    defConstructorsElectronMin;
+                                constructorsElectronMax =
+                                    defConstructorsElectronMax;
+
+                                constructorsProtonMin =
+                                    defConstructorsProtonMin;
+                                constructorsProtonMax =
+                                    defConstructorsProtonMax;
+
+                                constructorsNeutronMin =
+                                    defConstructorsNeutronMin;
+                                constructorsNeutronMax =
+                                    defConstructorsNeutronMax;
+
+                                weightMin = defWeightMin;
+                                weightMax = defWeightMax;
+
+                                stateElectronnegativity = false;
+                                stateTypes = false;
+                                stateAtomicnumber = false;
+                                stateConstructors = false;
+                                stateWeight = false;
+
+                                enabledElectronnegativity = false;
+                                enabledTypes = false;
+                                enabledAtomicnumber = false;
+                                enabledConstructors = false;
+                                enabledWeight = false;
+
+                                resetVisibility = false;
+
+                                setState(() {});
+
+                                Scaffold.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text(AppLocalizations.of(context)
+                                        .translate('resetDoneSelector')),
+                                    action: SnackBarAction(
+                                        label: AppLocalizations.of(context)
+                                            .translate(
+                                                'resetDoneLabelSelector'),
+                                        textColor: Color(0xfffffffff),
+                                        onPressed: () {}),
+                                  ),
+                                );
+                              },
+                            ),
                           ),
-                          action: SnackBarAction(
-                            label: AppLocalizations.of(context)
-                                .translate('resetWarnLabelSelector'),
-                            textColor: Color(0xfff22447),
-                            onPressed: () {
-                              typesOthernonmetals = defTypesOthernonmetals;
-                              typesNoblegases = defTypesNoblegases;
-                              typesAlkalimetals = defTypesAlkaliearthmetals;
-                              typesAlkaliearthmetals =
-                                  defTypesAlkaliearthmetals;
-                              typesMetalloids = defTypesMetalloids;
-                              typesPosttransitionmetals =
-                                  defTypesPosttransitionmetals;
-                              typesTransitionmetals = defTypesTransitionMetals;
-                              typesLanthanoids = defTypesLantanoids;
-                              typesActinoids = defTypesActionids;
-                              typesUnknown = defTypesUnknown;
-
-                              ElectronnegativityMin = defElectronnegativityMin;
-                              ElectronnegativityMax = defElectronnegativityMax;
-                              ElectronnegativityUnknown =
-                                  defElectronnegativityUnknown;
-
-                              atomicnumMin = defAtomicnumMin;
-                              atomicnumMax = defAtomicnumMax;
-
-                              constructorsElectronMin =
-                                  defConstructorsElectronMin;
-                              constructorsElectronMax =
-                                  defConstructorsElectronMax;
-
-                              constructorsProtonMin = defConstructorsProtonMin;
-                              constructorsProtonMax = defConstructorsProtonMax;
-
-                              constructorsNeutronMin =
-                                  defConstructorsNeutronMin;
-                              constructorsNeutronMax =
-                                  defConstructorsNeutronMax;
-
-                              weightMin = defWeightMin;
-                              weightMax = defWeightMax;
-
-                              stateElectronnegativity = false;
-                              stateTypes = false;
-                              stateAtomicnumber = false;
-                              stateConstructors = false;
-                              stateWeight = false;
-
-                              enabledElectronnegativity = false;
-                              enabledTypes = false;
-                              enabledAtomicnumber = false;
-                              enabledConstructors = false;
-                              enabledWeight = false;
-
-                              resetVisibility = false;
-
-                              setState(() {});
-
-                              Scaffold.of(context).showSnackBar(
-                                SnackBar(
-                                  content: Text(AppLocalizations.of(context)
-                                      .translate('resetDoneSelector')),
-                                  action: SnackBarAction(
-                                      label: AppLocalizations.of(context)
-                                          .translate('resetDoneLabelSelector'),
-                                      textColor: Color(0xfffffffff),
-                                      onPressed: () {}),
-                                ),
-                              );
-                            },
-                          ),
-                        ),
-                      );
-                    }
-                  },
-                  child: Text(
-                    AppLocalizations.of(context).translate('resetSelector'),
-                    style: TextStyle(
-                      color: Colors.black.withOpacity(.7),
-                      fontWeight: FontWeight.bold,
-                      fontSize: MediaQuery.of(context).size.width * .07,
+                        );
+                      }
+                    },
+                    child: Text(
+                      AppLocalizations.of(context).translate('resetSelector'),
+                      style: TextStyle(
+                        color: Colors.black.withOpacity(.7),
+                        fontWeight: FontWeight.bold,
+                        fontSize: MediaQuery.of(context).size.width * .07,
+                      ),
                     ),
                   ),
-                ),
                 ),
               ],
             ),
@@ -2794,29 +2717,35 @@ class _landingState extends State<landing> {
                   context,
                   MaterialPageRoute(
                     builder: (context) => searchResults(
-                      cb1: typesOthernonmetals,
-                      cb2: typesNoblegases,
-                      cb3: typesAlkalimetals,
-                      cb4: typesAlkaliearthmetals,
-                      cb5: typesMetalloids,
-                      cb6: typesPosttransitionmetals,
-                      cb7: typesTransitionmetals,
-                      cb8: typesLanthanoids,
-                      cb9: typesActinoids,
-                      cb0: typesUnknown,
-                      en1: ElectronnegativityMin,
-                      en2: ElectronnegativityMax,
-                      en3: ElectronnegativityUnknown,
-                      an1: atomicnumMin,
-                      an2: atomicnumMax,
-                      prot1: constructorsProtonMin,
-                      prot2: constructorsProtonMax,
-                      elect1: constructorsElectronMin,
-                      elect2: constructorsElectronMax,
-                      neut1: constructorsNeutronMin,
-                      neut2: constructorsNeutronMax,
-                      minw: weightMin,
-                      maxw: weightMax,
+                      typesOthernonmetals: typesOthernonmetals,
+                      typesNoblegases: typesNoblegases,
+                      typesAlkalimetals: typesAlkalimetals,
+                      typesAlkaliearthmetals: typesAlkaliearthmetals,
+                      typesMetalloids: typesMetalloids,
+                      typesPosttransitionmetals: typesPosttransitionmetals,
+                      typesTransitionmetals: typesTransitionmetals,
+                      typesLanthanoids: typesLanthanoids,
+                      typesActionids: typesActinoids,
+                      typesUnknown: typesUnknown,
+                      electronnegativityMin: electronnegativityMin,
+                      electronnegativityMax: electronnegativityMax,
+                      electronnegativityUnknown: electronnegativityUnknown,
+                      atomicnumberMin: atomicnumberMin,
+                      atomicnumberMax: atomicnumberMax,
+                      constructorsProtonMin: constructorsProtonMin,
+                      constructorsProtonMax: constructorsProtonMax,
+                      constructorsElectronMin: constructorsElectronMin,
+                      constructorsElectronMax: constructorsElectronMax,
+                      constructorsNeutronMin: constructorsNeutronMin,
+                      constructorsNeutronMax: constructorsNeutronMax,
+                      weightMin: weightMin,
+                      weightMax: weightMax,
+
+                      stateElectronnegativity: stateElectronnegativity,
+                      stateTypes: stateTypes,
+                      stateAtomicnumber: stateAtomicnumber,
+                      stateConstructors: stateConstructors,
+                      stateWeight: stateWeight,
                     ),
                   ),
                 );

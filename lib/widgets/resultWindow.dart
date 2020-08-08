@@ -1,3 +1,4 @@
+import 'package:elements_rework/widgets/landing.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -9,51 +10,57 @@ import 'cardView.dart';
 
 // ignore: camel_case_types
 class searchResults extends StatelessWidget {
-  @required final bool cb1;
-  @required final bool cb2;
-  @required final bool cb3;
-  @required final bool cb4;
-  @required final bool cb5;
-  @required final bool cb6;
-  @required final bool cb7;
-  @required final bool cb8;
-  @required final bool cb9;
-  @required final bool cb0;
+  @required final bool typesOthernonmetals;
+  @required final bool typesNoblegases;
+  @required final bool typesAlkalimetals;
+  @required final bool typesAlkaliearthmetals;
+  @required final bool typesMetalloids;
+  @required final bool typesPosttransitionmetals;
+  @required final bool typesTransitionmetals;
+  @required final bool typesLanthanoids;
+  @required final bool typesActionids;
+  @required final bool typesUnknown;
 
-  @required final double en1;
-  @required final double en2;
-  @required final bool en3;
+  @required final double electronnegativityMin;
+  @required final double electronnegativityMax;
+  @required final bool electronnegativityUnknown;
 
-  @required final int an1;
-  @required final int an2;
+  @required final int atomicnumberMin;
+  @required final int atomicnumberMax;
 
-  @required final int prot1;
-  @required final int prot2;
+  @required final int constructorsProtonMin;
+  @required final int constructorsProtonMax;
 
-  @required final int elect1;
-  @required final int elect2;
+  @required final int constructorsElectronMin;
+  @required final int constructorsElectronMax;
 
-  @required final int neut1;
-  @required final int neut2;
+  @required final int constructorsNeutronMin;
+  @required final int constructorsNeutronMax;
 
-  @required final double minw;
-  @required final double maxw;
+  @required final double weightMin;
+  @required final double weightMax;
+
+  @required final bool stateElectronnegativity;
+  @required final bool stateTypes;
+  @required final bool stateAtomicnumber;
+  @required final bool stateConstructors;
+  @required final bool stateWeight;
 
   const searchResults(
       {Key key,
-      this.cb1,
-      this.cb2,
-      this.cb3,
-      this.cb4,
-      this.cb5,
-      this.cb6,
-      this.cb7,
-      this.cb8,
-      this.cb9,
-      this.cb0,
-      this.en1,
-      this.en2,
-      this.en3, this.an1, this.an2, this.prot1, this.prot2, this.elect1, this.elect2, this.neut1, this.neut2, this.minw, this.maxw})
+      this.typesOthernonmetals,
+      this.typesNoblegases,
+      this.typesAlkalimetals,
+      this.typesAlkaliearthmetals,
+      this.typesMetalloids,
+      this.typesPosttransitionmetals,
+      this.typesTransitionmetals,
+      this.typesLanthanoids,
+      this.typesActionids,
+      this.typesUnknown,
+      this.electronnegativityMin,
+      this.electronnegativityMax,
+      this.electronnegativityUnknown, this.atomicnumberMin, this.atomicnumberMax, this.constructorsProtonMin, this.constructorsProtonMax, this.constructorsElectronMin, this.constructorsElectronMax, this.constructorsNeutronMin, this.constructorsNeutronMax, this.weightMin, this.weightMax, this.stateElectronnegativity, this.stateTypes, this.stateAtomicnumber, this.stateConstructors, this.stateWeight})
       : super(key: key);
 
   @override
@@ -100,29 +107,35 @@ class searchResults extends StatelessWidget {
               ),
             ),
             viewSelector(
-              cb1: cb1,
-              cb2: cb2,
-              cb3: cb3,
-              cb4: cb4,
-              cb5: cb5,
-              cb6: cb6,
-              cb7: cb7,
-              cb8: cb8,
-              cb9: cb9,
-              cb0: cb0,
-              en1: en1,
-              en2: en2,
-              en3: en3,
-              an1: an1,
-              an2: an2,
-              prot1: prot1,
-              prot2: prot2,
-              elect1: elect1,
-              elect2: elect2,
-              neut1: neut1,
-              neut2: neut2,
-              minw: minw,
-              maxw: maxw,
+              typesOthernonmetals: typesOthernonmetals,
+              typesNoblegases: typesNoblegases,
+              typesAlkalimetals: typesAlkalimetals,
+              typesAlkaliearthmetals: typesAlkaliearthmetals,
+              typesMetalloids: typesMetalloids,
+              typesPosttransitionmetals: typesPosttransitionmetals,
+              typesTransitionmetals: typesTransitionmetals,
+              typesLanthanoids: typesLanthanoids,
+              typesActinoids: typesActionids,
+              typesUnknown: typesUnknown,
+              electronnegativityMin: electronnegativityMin,
+              electronnegativityMax: electronnegativityMax,
+              electronnegativityUnknown: electronnegativityUnknown,
+              atomicnumberMin: atomicnumberMin,
+              atomicnumberMax: atomicnumberMax,
+              constructorsProtonMin: constructorsProtonMin,
+              constructorsProtonMax: constructorsProtonMax,
+              constructorsElectronMin: constructorsElectronMin,
+              constructorsElectronMax: constructorsElectronMax,
+              constructorsNeutronMin: constructorsNeutronMin,
+              constructorsNeutronMax: constructorsNeutronMax,
+              weightMin: weightMin,
+              weightMax: weightMax,
+
+              stateElectronnegativity: stateElectronnegativity,
+              stateTypes: stateTypes,
+              stateAtomicnumber: stateAtomicnumber,
+              stateConstructors: stateConstructors,
+              stateWeight: stateWeight,
             ),
           ],
         ),
