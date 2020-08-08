@@ -253,7 +253,7 @@ class viewSelectorState extends State<viewSelector> {
     case viewMarker.cards:
       return cardView(typesOthernonmetals: cb1, typesNoblegases: cb2, typesAlkalimetals: cb3, typesAlkaliearthmetals: cb4, typesMetalloids: cb5, typesPosttransitionmetals: cb6, typesTransitionmetals: cb7, typesLanthanoids: cb8, typesActinoids: cb9, typesUnknown: cb0, electronnegativityMin: en1, electronnegativityMax: en2, electronnegativityUnknown: en3, atomicnumberMin: an1, atomicnumberMax: an2, constructorsProtonMin: prot1, constructorsProtonMax: prot2, constructorsElectronMin: elect1, constructorsElectronMax: elect2, constructorsNeutronMin: neut1, constructorsNeutronMax: neut2, weightMin: minw, weightMax: maxw, stateElectronnegativity: stateElectronnegativity, stateTypes: stateTypes, stateAtomicnumber: stateAtomicnumber, stateConstructors: stateConstructors, stateWeight: stateWeight,);
     case viewMarker.minimal:
-      return minimalView(typesOthernonmetals: cb1, typesNoblegases: cb2, typesAlkalimetals: cb3, typesAlkaliearthmetals: cb4, typesMetalloids: cb5, typesPosttransitionmetals: cb6, typesTransitionmetals: cb7, typesLanthanoids: cb8, typesActinoids: cb9, typesUnknown: cb0, electronnegativityMin: en1, electronnegativityMax: en2, electronnegativityUnknown: en3, atomicnumberMin: an1, atomicnumberMax: an2, constructorsProtonMin: prot1, constructorsProtonMax: prot2, constructorsElectronMin: elect1, constructorsElectronMax: elect2, constructorsNeutronMin: neut1, constructorsNeutronMax: neut2, weightMin: minw, weightMax: maxw);
+      return minimalView(typesOthernonmetals: cb1, typesNoblegases: cb2, typesAlkalimetals: cb3, typesAlkaliearthmetals: cb4, typesMetalloids: cb5, typesPosttransitionmetals: cb6, typesTransitionmetals: cb7, typesLanthanoids: cb8, typesActinoids: cb9, typesUnknown: cb0, electronnegativityMin: en1, electronnegativityMax: en2, electronnegativityUnknown: en3, atomicnumberMin: an1, atomicnumberMax: an2, constructorsProtonMin: prot1, constructorsProtonMax: prot2, constructorsElectronMin: elect1, constructorsElectronMax: elect2, constructorsNeutronMin: neut1, constructorsNeutronMax: neut2, weightMin: minw, weightMax: maxw, stateElectronnegativity: stateElectronnegativity, stateTypes: stateTypes, stateAtomicnumber: stateAtomicnumber, stateConstructors: stateConstructors, stateWeight: stateWeight,);
     }
     return minimalView(
       typesOthernonmetals: cb1,
@@ -272,6 +272,7 @@ class viewSelectorState extends State<viewSelector> {
       atomicnumberMin: an1,
       atomicnumberMax: an2,
       constructorsProtonMin: prot1, constructorsProtonMax: prot2, constructorsElectronMin: elect1, constructorsElectronMax: elect2, constructorsNeutronMin: neut1, constructorsNeutronMax: neut2,
+      stateElectronnegativity: stateElectronnegativity, stateTypes: stateTypes, stateAtomicnumber: stateAtomicnumber, stateConstructors: stateConstructors, stateWeight: stateWeight,
     );
     }
 }
