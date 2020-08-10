@@ -10,7 +10,7 @@
 <span style="text-align: justify;">A modern app to track the cemical elements. Including all 118 elements, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat.</span>
 
 ## Download <img src="https://img.shields.io/badge/Play%20Store-green.svg" alt="">
-Latest release: __0.3.0__
+Latest release: __0.3.1__
 
 <a href='https://play.google.com/store/apps/details?id=com.kristofkekesi.elements&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 ## State <img src="https://img.shields.io/badge/Release-green.svg" alt="">
@@ -21,12 +21,7 @@ Latest release: __0.3.0__
 - No result (for selectors)
 - Colored background while loading background images
 - Bugfixes
-  - Minimalview listview
-  - True white backgrounds
--  New Selectors
-   - Weight
-   - Atomic number
-   - Constructors
+-  New UI feautres
 
 ## Beta program <img src="https://img.shields.io/badge/Open-green.svg" alt="">
 #### To aply:
