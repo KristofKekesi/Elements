@@ -2178,12 +2178,173 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "26.027880",
+			"rate": "0",
+			"halfRate": "10 ms",
 
-			"hu": "Kén-",
-			"en": "Sulfur-"
+			"hu": "Kén-26",
+			"en": "Sulfur-26"
+		}, {
+			"weight": "27.018833",
+			"rate": "0",
+			"halfRate": "21 ms",
+
+			"hu": "Kén-27",
+			"en": "Sulfur-27"
+		}, {
+			"weight": "28.004372763",
+			"rate": "0",
+			"halfRate": "125 ms",
+
+			"hu": "Kén-28",
+			"en": "Sulfur-28"
+		}, {
+			"weight": "28.996608049",
+			"rate": "0",
+			"halfRate": "187 ms",
+
+			"hu": "Kén-29",
+			"en": "Sulfur-29"
+		}, {
+			"weight": "29.984903249",
+			"rate": "0",
+			"halfRate": "1.178 s",
+
+			"hu": "Kén-30",
+			"en": "Sulfur-30"
+		}, {
+			"weight": "30.979554728",
+			"rate": "0",
+			"halfRate": "2.572 s",
+
+			"hu": "Kén-31",
+			"en": "Sulfur-31"
+		}, {
+			"weight": "31.972070999",
+			"rate": "94.93",
+			"halfRate": "stable",
+
+			"hu": "Kén-32",
+			"en": "Sulfur-32"
+		}, {
+			"weight": "32.971458759",
+			"rate": "0.76",
+			"halfRate": "stable",
+
+			"hu": "Kén-33",
+			"en": "Sulfur-33"
+		}, {
+			"weight": "33.967866902",
+			"rate": "4.29",
+			"halfRate": "stable",
+
+			"hu": "Kén-34",
+			"en": "Sulfur-34"
+		}, {
+			"weight": "34.969032161",
+			"rate": "0",
+			"halfRate": "87.51 d",
+
+			"hu": "Kén-35",
+			"en": "Sulfur-35"
+		}, {
+			"weight": "35.96708076",
+			"rate": "0.02",
+			"halfRate": "stable",
+
+			"hu": "Kén-36",
+			"en": "Sulfur-36"
+		}, {
+			"weight": "36.971125567",
+			"rate": "0",
+			"halfRate": "5.05 min",
+
+			"hu": "Kén-37",
+			"en": "Sulfur-37"
+		}, {
+			"weight": "37.971163317",
+			"rate": "0",
+			"halfRate": "2.8389 h",
+
+			"hu": "Kén-38",
+			"en": "Sulfur-38"
+		}, {
+			"weight": "38.975134306",
+			"rate": "0",
+			"halfRate": "11.5 s",
+
+			"hu": "Kén-39",
+			"en": "Sulfur-39"
+		}, {
+			"weight": "39.975451728",
+			"rate": "0",
+			"halfRate": "8.8 s",
+
+			"hu": "Kén-40",
+			"en": "Sulfur-40"
+		}, {
+			"weight": "40.979582149",
+			"rate": "0",
+			"halfRate": "1.99 s",
+
+			"hu": "Kén-41",
+			"en": "Sulfur-41"
+		}, {
+			"weight": "41.981022419",
+			"rate": "0",
+			"halfRate": "1.013 s",
+
+			"hu": "Kén-42",
+			"en": "Sulfur-42"
+		}, {
+			"weight": "42.98715479",
+			"rate": "0",
+			"halfRate": "260 ms",
+
+			"hu": "Kén-43",
+			"en": "Sulfur-43"
+		}, {
+			"weight": "43.99021339",
+			"rate": "0",
+			"halfRate": "123 ms",
+
+			"hu": "Kén-44",
+			"en": "Sulfur-44"
+		}, {
+			"weight": "44.996508112",
+			"rate": "0",
+			"halfRate": "82 ms",
+
+			"hu": "Kén-45",
+			"en": "Sulfur-45"
+		}, {
+			"weight": "46.000750",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Kén-46",
+			"en": "Sulfur-46"
+		}, {
+			"weight": "47.008590",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Kén-47",
+			"en": "Sulfur-47"
+		}, {
+			"weight": "48.014170",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Kén-48",
+			"en": "Sulfur-48"
+		}, {
+			"weight": "49.023619",
+			"rate": "0",
+			"halfRate": "200 ns",
+
+			"hu": "Kén-49",
+			"en": "Sulfur-49"
 		}
 	]
   }, {
