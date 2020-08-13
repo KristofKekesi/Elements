@@ -2962,12 +2962,173 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "34.014120",
+			"rate": "0",
+			"halfRate": "35 ns",
 
-			"hu": "Kálcium-",
-			"en": "Calcium-"
+			"hu": "Kálcium-34",
+			"en": "Calcium-34"
+		}, {
+			"weight": "35.004940",
+			"rate": "0",
+			"halfRate": "25.7 ms",
+
+			"hu": "Kálcium-35",
+			"en": "Calcium-35"
+		}, {
+			"weight": "35.993087063",
+			"rate": "0",
+			"halfRate": "102 ms",
+
+			"hu": "Kálcium-36",
+			"en": "Calcium-36"
+		}, {
+			"weight": "36.985870269",
+			"rate": "0",
+			"halfRate": "181.1 ms",
+
+			"hu": "Kálcium-37",
+			"en": "Calcium-37"
+		}, {
+			"weight": "37.976318452",
+			"rate": "0",
+			"halfRate": "440 ms",
+
+			"hu": "Kálcium-38",
+			"en": "Calcium-38"
+		}, {
+			"weight": "38.970719725",
+			"rate": "0",
+			"halfRate": "859.6 ms",
+
+			"hu": "Kálcium-39",
+			"en": "Calcium-39"
+		}, {
+			"weight": "39.962590983",
+			"rate": "96.941",
+			"halfRate": "stable",
+
+			"hu": "Kálcium-40",
+			"en": "Calcium-40"
+		}, {
+			"weight": "40.962278062",
+			"rate": "0",
+			"halfRate": "102000 y",
+
+			"hu": "Kálcium-41",
+			"en": "Calcium-41"
+		}, {
+			"weight": "41.958618014",
+			"rate": "0.647",
+			"halfRate": "stable",
+
+			"hu": "Kálcium-42",
+			"en": "Calcium-42"
+		}, {
+			"weight": "42.958766628",
+			"rate": "0.135",
+			"halfRate": "stable",
+
+			"hu": "Kálcium-43",
+			"en": "Calcium-43"
+		}, {
+			"weight": "43.955481754",
+			"rate": "2.086",
+			"halfRate": "stable",
+
+			"hu": "Kálcium-44",
+			"en": "Calcium-44"
+		}, {
+			"weight": "44.956186566",
+			"rate": "0",
+			"halfRate": "162.67 d",
+
+			"hu": "Kálcium-45",
+			"en": "Calcium-45"
+		}, {
+			"weight": "45.953692587",
+			"rate": "0.004",
+			"halfRate": "stable",
+
+			"hu": "Kálcium-46",
+			"en": "Calcium-46"
+		}, {
+			"weight": "46.954546006",
+			"rate": "0",
+			"halfRate": "4.536 d",
+
+			"hu": "Kálcium-47",
+			"en": "Calcium-47"
+		}, {
+			"weight": "47.952534177",
+			"rate": "0.187",
+			"halfRate": "54000000000000000000 y",
+
+			"hu": "Kálcium-48",
+			"en": "Calcium-48"
+		}, {
+			"weight": "48.955674148",
+			"rate": "0",
+			"halfRate": "8.718 min",
+
+			"hu": "Kálcium-49",
+			"en": "Calcium-49"
+		}, {
+			"weight": "49.957518962",
+			"rate": "0",
+			"halfRate": "13.9 s",
+
+			"hu": "Kálcium-50",
+			"en": "Calcium-50"
+		}, {
+			"weight": "50.961499214",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Kálcium-51",
+			"en": "Calcium-51"
+		}, {
+			"weight": "51.9651",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Kálcium-52",
+			"en": "Calcium-52"
+		}, {
+			"weight": "52.970050",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Kálcium-53",
+			"en": "Calcium-53"
+		}, {
+			"weight": "53.974350",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Kálcium-54",
+			"en": "Calcium-54"
+		}, {
+			"weight": "54.980550",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Kálcium-55",
+			"en": "Calcium-55"
+		}, {
+			"weight": "55.985570",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Kálcium-56",
+			"en": "Calcium-56"
+		}, {
+			"weight": "56.992356",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Kálcium-57",
+			"en": "Calcium-57"
 		}
 	]
   }, {
@@ -2997,12 +3158,180 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "36.014920",
+			"rate": "0",
+			"halfRate": "unknown",
 
-			"hu": "Szkandium-",
-			"en": "Scandium-"
+			"hu": "Szkandium-36",
+			"en": "Scandium-36"
+		}, {
+			"weight": "37.003050",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Szkandium-37",
+			"en": "Scandium-37"
+		}, {
+			"weight": "37.994700",
+			"rate": "0",
+			"halfRate": "300 ns",
+
+			"hu": "Szkandium-38",
+			"en": "Scandium-38"
+		}, {
+			"weight": "38.984790002",
+			"rate": "0",
+			"halfRate": "300 ns",
+
+			"hu": "Szkandium-39",
+			"en": "Scandium-39"
+		}, {
+			"weight": "39.977967407",
+			"rate": "0",
+			"halfRate": "182.3 ms",
+
+			"hu": "Szkandium-40",
+			"en": "Scandium-40"
+		}, {
+			"weight": "40.969251125",
+			"rate": "0",
+			"halfRate": "596.3 ms",
+
+			"hu": "Szkandium-41",
+			"en": "Scandium-41"
+		}, {
+			"weight": "41.965516429",
+			"rate": "0",
+			"halfRate": "681.3 ",
+
+			"hu": "Szkandium-42",
+			"en": "Scandium-42"
+		}, {
+			"weight": "42.961150658",
+			"rate": "0",
+			"halfRate": "3.8917 h",
+
+			"hu": "Szkandium-43",
+			"en": "Scandium-43"
+		}, {
+			"weight": "43.959402752",
+			"rate": "0",
+			"halfRate": "3.97 h",
+
+			"hu": "Szkandium-44",
+			"en": "Scandium-44"
+		}, {
+			"weight": "44.955911909",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Szkandium-45",
+			"en": "Scandium-45"
+		}, {
+			"weight": "45.95517189",
+			"rate": "0",
+			"halfRate": "83.78 d",
+
+			"hu": "Szkandium-46",
+			"en": "Scandium-46"
+		}, {
+			"weight": "46.952407508",
+			"rate": "0",
+			"halfRate": "3.34919 d",
+
+			"hu": "Szkandium-47",
+			"en": "Scandium-47"
+		}, {
+			"weight": "3.34919 ",
+			"rate": "0",
+			"halfRate": "1.819 d",
+
+			"hu": "Szkandium-48",
+			"en": "Scandium-48"
+		}, {
+			"weight": "48.950023975",
+			"rate": "0",
+			"halfRate": "57.17 min",
+
+			"hu": "Szkandium-49",
+			"en": "Scandium-49"
+		}, {
+			"weight": "49.952187685",
+			"rate": "0",
+			"halfRate": "1.708 min",
+
+			"hu": "Szkandium-50",
+			"en": "Scandium-50"
+		}, {
+			"weight": "50.953603368",
+			"rate": "0",
+			"halfRate": "12.4",
+
+			"hu": "Szkandium-51",
+			"en": "Scandium-51"
+		}, {
+			"weight": "51.956675468",
+			"rate": "0",
+			"halfRate": "8.2 s",
+
+			"hu": "Szkandium-52",
+			"en": "Scandium-52"
+		}, {
+			"weight": "52.959610",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Szkandium-53",
+			"en": "Scandium-53"
+		}, {
+			"weight": "53.963264561",
+			"rate": "0",
+			"halfRate": "260 ms",
+
+			"hu": "Szkandium-54",
+			"en": "Scandium-54"
+		}, {
+			"weight": "54.968243949",
+			"rate": "0",
+			"halfRate": "120 ms",
+
+			"hu": "Szkandium-55",
+			"en": "Scandium-55"
+		}, {
+			"weight": "55.972870",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Szkandium-56",
+			"en": "Scandium-56"
+		}, {
+			"weight": "56.977790",
+			"rate": "0",
+			"halfRate": "13 ms",
+
+			"hu": "Szkandium-57",
+			"en": "Scandium-57"
+		}, {
+			"weight": "57.983710",
+			"rate": "0",
+			"halfRate": "12 ms",
+
+			"hu": "Szkandium-58",
+			"en": "Scandium-58"
+		}, {
+			"weight": "58.989220",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Szkandium-59",
+			"en": "Scandium-59"
+		}, {
+			"weight": "59.995710",
+			"rate": "0",
+			"halfRate": "3 ms",
+
+			"hu": "Szkandium-60",
+			"en": "Scandium-60"
 		}
 	]
   }, {
