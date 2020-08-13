@@ -2545,6 +2545,367 @@ class _elementsState extends State<elements> {
                                       (BuildContext context, scrollController) {
                                     return ClipRRect(
                                       borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(
+                                              (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .1),
+                                          topRight: Radius.circular(
+                                              (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .1)),
+                                      child: BackdropFilter(
+                                        filter: ImageFilter.blur(
+                                            sigmaX: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05,
+                                            sigmaY: (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .05),
+                                        child: SingleChildScrollView(
+                                          controller: scrollController,
+                                          child: Center(
+                                            child: Column(
+                                              mainAxisAlignment:
+                                              MainAxisAlignment
+                                                  .spaceBetween,
+                                              children: <Widget>[
+                                                Padding(
+                                                  padding: EdgeInsets.only(
+                                                      top:
+                                                      MediaQuery
+                                                          .of(context)
+                                                          .size
+                                                          .height *
+                                                          .04,
+                                                      bottom:
+                                                      MediaQuery
+                                                          .of(context)
+                                                          .size
+                                                          .height *
+                                                          .05),
+                                                  child: Text(
+                                                    "Radioactivity" +
+                                                        ':',
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                      fontSize:
+                                                      MediaQuery
+                                                          .of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
+                                                      fontWeight:
+                                                      FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                  context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        "Radioactive elements",
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                            FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
+                                                                .04),
+                                                      ),
+                                                      controlAffinity:
+                                                      ListTileControlAffinity
+                                                          .platform,
+                                                      activeColor:
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
+                                                      value:
+                                                      typesOthernonmetals,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                              () {
+                                                            typesOthernonmetals =
+                                                                value;
+                                                          },
+                                                        );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                  context,
+                                                      StateSetter setState) {
+                                                    return Padding(
+                                                        padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .03),
+                                                    child: CheckboxListTile(
+                                                      title: Text(
+                                                        "Alpha radiation",
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                            FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
+                                                                .04),
+                                                      ),
+                                                      controlAffinity:
+                                                      ListTileControlAffinity
+                                                          .platform,
+                                                      activeColor:
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
+                                                      value: typesNoblegases,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                              () {
+                                                            typesNoblegases =
+                                                                value;
+                                                          },
+                                                        );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
+                                                      },
+                                                    ),
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                  context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                          "Beta radiation",
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                            FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
+                                                                .04),
+                                                      ),
+                                                      controlAffinity:
+                                                      ListTileControlAffinity
+                                                          .platform,
+                                                      activeColor:
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
+                                                      value: typesAlkalimetals,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                              () {
+                                                            typesAlkalimetals =
+                                                                value;
+                                                          },
+                                                        );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                  context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                          "Gamma radiation",
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                            FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
+                                                                .04),
+                                                      ),
+                                                      controlAffinity:
+                                                      ListTileControlAffinity
+                                                          .platform,
+                                                      activeColor:
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
+                                                      value:
+                                                      typesAlkaliearthmetals,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                              () {
+                                                            typesAlkaliearthmetals =
+                                                                value;
+                                                          },
+                                                        );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                                StatefulBuilder(
+                                                  builder: (BuildContext
+                                                  context,
+                                                      StateSetter setState) {
+                                                    return CheckboxListTile(
+                                                      title: Text(
+                                                        "Multiple Radiation Emitters",
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                            FontWeight.bold,
+                                                            color: Colors.white,
+                                                            fontSize: MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height *
+                                                                .04),
+                                                      ),
+                                                      controlAffinity:
+                                                      ListTileControlAffinity
+                                                          .platform,
+                                                      activeColor:
+                                                      Color.fromRGBO(
+                                                          255, 255, 255, 0),
+                                                      value:
+                                                      typesAlkaliearthmetals,
+                                                      onChanged: (bool value) {
+                                                        setState(
+                                                              () {
+                                                            typesAlkaliearthmetals =
+                                                                value;
+                                                          },
+                                                        );
+
+                                                        setTypes();
+                                                        checkResetVisibility();
+                                                      },
+                                                    );
+                                                  },
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            );
+                          },
+                          child: Container(
+                            width: MediaQuery
+                                .of(context)
+                                .size
+                                .width,
+                            child: Tooltip(
+                              message: AppLocalizations.of(context)
+                                  .translate('typesSelector'),
+                              child: Row(
+                                mainAxisAlignment:
+                                MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    "Radioactivity",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize:
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: StatefulBuilder(
+                                      builder: (BuildContext context,
+                                          StateSetter setState) {
+                                        return Opacity(
+                                          opacity: enabledTypes ? 1 : 0,
+                                          child: Checkbox(
+                                            activeColor:
+                                            Color.fromRGBO(255, 255, 255, 0),
+                                            value: stateTypes,
+                                            onChanged: enabledTypes
+                                                ? (bool value) {
+                                              setState(
+                                                    () {
+                                                  stateTypes = value;
+                                                },
+                                              );
+                                            }
+                                                : null,
+                                          ),
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () {
+                            showModalBottomSheet(
+                              isScrollControlled: true,
+                              context: context,
+                              builder: (context) {
+                                return DraggableScrollableSheet(
+                                  initialChildSize: .95,
+                                  maxChildSize: 1,
+                                  builder:
+                                      (BuildContext context, scrollController) {
+                                    return ClipRRect(
+                                      borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(
                                             (MediaQuery
                                                 .of(context)
@@ -3020,7 +3381,7 @@ class _elementsState extends State<elements> {
               },
               child: Padding(
                 padding: EdgeInsets.only(
-                    bottom: 22,
+                    bottom: MediaQuery.of(context).size.height * .03,
                     right: (MediaQuery
                         .of(context)
                         .size

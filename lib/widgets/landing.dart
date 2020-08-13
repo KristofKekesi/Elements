@@ -73,7 +73,7 @@ class landing extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.only(
-                    bottom: 22,
+                    bottom: MediaQuery.of(context).size.height * .03,
                     left: (MediaQuery.of(context).size.height +
                             MediaQuery.of(context).size.width) /
                         2 *
@@ -94,7 +94,7 @@ class landing extends StatelessWidget {
                     child: GestureDetector(
                       child: Padding(
                         padding: EdgeInsets.only(
-                            bottom: 22,
+                            bottom: MediaQuery.of(context).size.height * .03,
                             right: (MediaQuery.of(context).size.height +
                                     MediaQuery.of(context).size.width) /
                                 2 *
@@ -152,7 +152,7 @@ class landing extends StatelessWidget {
                     child: GestureDetector(
                       child: Padding(
                         padding: EdgeInsets.only(
-                            bottom: 22,
+                            bottom: MediaQuery.of(context).size.height * .03,
                             right: (MediaQuery.of(context).size.height +
                                     MediaQuery.of(context).size.width) /
                                 2 *
@@ -210,7 +210,7 @@ class landing extends StatelessWidget {
                     child: GestureDetector(
                       child: Padding(
                         padding: EdgeInsets.only(
-                            bottom: 22,
+                            bottom: MediaQuery.of(context).size.height * .03,
                             right: (MediaQuery.of(context).size.height +
                                     MediaQuery.of(context).size.width) /
                                 2 *
@@ -319,7 +319,7 @@ class landing extends StatelessWidget {
                       },
                       child: Padding(
                         padding: EdgeInsets.only(
-                            bottom: 22,
+                            bottom: MediaQuery.of(context).size.height * .03,
                             right: (MediaQuery.of(context).size.height +
                                     MediaQuery.of(context).size.width) /
                                 2 *
