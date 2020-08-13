@@ -2766,12 +2766,173 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "32.021920",
+			"rate": "0",
+			"halfRate": "unknown",
 
-			"hu": "Kálium-",
-			"en": "Potassium-"
+			"hu": "Kálium-32",
+			"en": "Potassium-32"
+		}, {
+			"weight": "33.007260",
+			"rate": "0",
+			"halfRate": "25 ns",
+
+			"hu": "Kálium-33",
+			"en": "Potassium-33"
+		}, {
+			"weight": "33.998410",
+			"rate": "0",
+			"halfRate": "40 ns",
+
+			"hu": "Kálium-34",
+			"en": "Potassium-34"
+		}, {
+			"weight": "34.988009692",
+			"rate": "0",
+			"halfRate": "178 ms",
+
+			"hu": "Kálium-35",
+			"en": "Potassium-35"
+		}, {
+			"weight": "35.981292235",
+			"rate": "0",
+			"halfRate": "342 ms",
+
+			"hu": "Kálium-36",
+			"en": "Potassium-36"
+		}, {
+			"weight": "36.973375889",
+			"rate": "0",
+			"halfRate": "1.226 s",
+
+			"hu": "Kálium-37",
+			"en": "Potassium-37"
+		}, {
+			"weight": "37.969081184",
+			"rate": "0",
+			"halfRate": "7.637 min",
+
+			"hu": "Kálium-38",
+			"en": "Potassium-38"
+		}, {
+			"weight": "38.963706679",
+			"rate": "93.2581",
+			"halfRate": "stable",
+
+			"hu": "Kálium-39",
+			"en": "Potassium-39"
+		}, {
+			"weight": "39.963998475",
+			"rate": "0.0117",
+			"halfRate": "1251000000 y",
+
+			"hu": "Kálium-40",
+			"en": "Potassium-40"
+		}, {
+			"weight": "40.961825762",
+			"rate": "6.7302",
+			"halfRate": "stable",
+
+			"hu": "Kálium-41",
+			"en": "Potassium-41"
+		}, {
+			"weight": "41.96240281",
+			"rate": "0",
+			"halfRate": "12.4 h",
+
+			"hu": "Kálium-42",
+			"en": "Potassium-42"
+		}, {
+			"weight": "42.96071554",
+			"rate": "0",
+			"halfRate": "22.3 h",
+
+			"hu": "Kálium-43",
+			"en": "Potassium-43"
+		}, {
+			"weight": "43.961556804",
+			"rate": "0",
+			"halfRate": "22.13 min",
+
+			"hu": "Kálium-44",
+			"en": "Potassium-44"
+		}, {
+			"weight": "44.960699493",
+			"rate": "0",
+			"halfRate": "17.33 min",
+
+			"hu": "Kálium-45",
+			"en": "Potassium-45"
+		}, {
+			"weight": "45.961976864",
+			"rate": "0",
+			"halfRate": "1.75 min",
+
+			"hu": "Kálium-46",
+			"en": "Potassium-46"
+		}, {
+			"weight": "46.961678473",
+			"rate": "0",
+			"halfRate": "17.5 s",
+
+			"hu": "Kálium-47",
+			"en": "Potassium-47"
+		}, {
+			"weight": "47.965513535",
+			"rate": "0",
+			"halfRate": "6.8 s",
+
+			"hu": "Kálium-48",
+			"en": "Potassium-48"
+		}, {
+			"weight": "48.967450928",
+			"rate": "0",
+			"halfRate": "1.26  s",
+
+			"hu": "Kálium-49",
+			"en": "Potassium-49"
+		}, {
+			"weight": "49.972783355",
+			"rate": "0",
+			"halfRate": "472 ms",
+
+			"hu": "Kálium-50",
+			"en": "Potassium-50"
+		}, {
+			"weight": "50.976380",
+			"rate": "0",
+			"halfRate": "365 ms",
+
+			"hu": "Kálium-51",
+			"en": "Potassium-51"
+		}, {
+			"weight": "51.982610",
+			"rate": "0",
+			"halfRate": "105 ms",
+
+			"hu": "Kálium-52",
+			"en": "Potassium-52"
+		}, {
+			"weight": "52.987120",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Kálium-53",
+			"en": "Potassium-53"
+		}, {
+			"weight": "53.994200",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Kálium-54",
+			"en": "Potassium-54"
+		}, {
+			"weight": "54.999710",
+			"rate": "0",
+			"halfRate": "3 ms",
+
+			"hu": "Kálium-55",
+			"en": "Potassium-55"
 		}
 	]
   }, {
