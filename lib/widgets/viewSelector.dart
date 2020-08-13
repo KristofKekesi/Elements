@@ -1,4 +1,4 @@
-import 'package:elements_rework/widgets/landing.dart';
+import 'package:elements_rework/widgets/elements.dart';
 import 'package:flutter/material.dart';
 
 import 'cardView.dart';

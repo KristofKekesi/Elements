@@ -1,12 +1,8 @@
-import 'package:elements_rework/widgets/landing.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:elements_rework/widgets/viewSelector.dart';
-
-import 'minimalView.dart';
-import 'cardView.dart';
 
 // ignore: camel_case_types
 class searchResults extends StatelessWidget {
