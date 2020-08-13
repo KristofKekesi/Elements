@@ -208,7 +208,7 @@ class _elementsState extends State<elements> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: SafeArea(
+    return Scaffold(body: Builder(builder: (context) => SafeArea(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
@@ -233,7 +233,7 @@ class _elementsState extends State<elements> {
                       .size
                       .height * .02),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   GestureDetector(
                     onTap: () {
@@ -248,7 +248,7 @@ class _elementsState extends State<elements> {
                     ),
                   ),
                   Text(
-                    'Elements',
+                    " " + AppLocalizations.of(context).translate('titleElements'),
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,
@@ -3085,6 +3085,7 @@ class _elementsState extends State<elements> {
           ),
         ],
       ),
+    ),
     ),
     );
   }

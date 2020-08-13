@@ -11,7 +11,7 @@ class Splash extends StatelessWidget {
     return SplashScreen(
       seconds: 2,
       title: Text(
-        'Elements',
+        AppLocalizations.of(context).translate('title'),
         style: TextStyle(
           fontSize: 25,
             color: Colors.white,

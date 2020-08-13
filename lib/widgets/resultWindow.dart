@@ -89,6 +89,9 @@ class searchResults extends StatelessWidget {
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget> [
+                    Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
                     GestureDetector(
                       onTap: () {
@@ -103,12 +106,14 @@ class searchResults extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      AppLocalizations.of(context).translate('title'),
+                      " " + AppLocalizations.of(context).translate('titleElements'),
                       textAlign: TextAlign.left,
                       style: new TextStyle(
                           color: Colors.black,
                           fontSize: MediaQuery.of(context).size.width * .12,
                           fontWeight: FontWeight.bold),
+                    ),
+                    ],
                     ),
                     Padding(
                       padding: EdgeInsets.only(right: MediaQuery.of(context).size.width * .01),
