@@ -220,6 +220,10 @@ class _landingState extends State<landing> {
                       .of(context)
                       .size
                       .width * .1,
+                  right: MediaQuery
+                      .of(context)
+                      .size
+                      .width * .25,
                   top: MediaQuery
                       .of(context)
                       .size
@@ -229,6 +233,7 @@ class _landingState extends State<landing> {
                       .size
                       .height * .02),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   GestureDetector(
                     onTap: () {
@@ -250,7 +255,7 @@ class _landingState extends State<landing> {
                     ),
                   ),
                   Text(
-                    ' Elements',
+                    'Elements',
                     textAlign: TextAlign.left,
                     style: new TextStyle(
                         color: Colors.black,
@@ -760,7 +765,9 @@ class _landingState extends State<landing> {
                                       child: StatefulBuilder(
                                         builder: (BuildContext context,
                                             StateSetter setState) {
-                                          return Checkbox(
+                                          return Opacity(
+                                              opacity: enabledElectronnegativity ? 1 : 0,
+                                              child: Checkbox(
                                             activeColor: Color.fromRGBO(
                                                 255, 255, 255, 0),
                                             value: stateElectronnegativity,
@@ -774,6 +781,7 @@ class _landingState extends State<landing> {
                                               );
                                             }
                                                 : null,
+                                              ),
                                           );
                                         },
                                       ),
@@ -1367,7 +1375,9 @@ class _landingState extends State<landing> {
                                     child: StatefulBuilder(
                                       builder: (BuildContext context,
                                           StateSetter setState) {
-                                        return Checkbox(
+                                        return Opacity(
+                                          opacity: enabledTypes ? 1 : 0,
+                                            child: Checkbox(
                                           activeColor:
                                           Color.fromRGBO(255, 255, 255, 0),
                                           value: stateTypes,
@@ -1380,6 +1390,7 @@ class _landingState extends State<landing> {
                                             );
                                           }
                                               : null,
+                                            ),
                                         );
                                       },
                                     ),
@@ -1718,7 +1729,9 @@ class _landingState extends State<landing> {
                                   child: StatefulBuilder(
                                     builder: (BuildContext context,
                                         StateSetter setState) {
-                                      return Checkbox(
+                                      return Opacity(
+                                          opacity: enabledAtomicnumber ? 1 : 0,
+                                          child: Checkbox(
                                         activeColor:
                                         Color.fromRGBO(255, 255, 255, 0),
                                         value: stateAtomicnumber,
@@ -1731,6 +1744,7 @@ class _landingState extends State<landing> {
                                           );
                                         }
                                             : null,
+                                          ),
                                       );
                                     },
                                   ),
@@ -2500,7 +2514,9 @@ class _landingState extends State<landing> {
                                     child: StatefulBuilder(
                                       builder: (BuildContext context,
                                           StateSetter setState) {
-                                        return Checkbox(
+                                        return Opacity(
+                                            opacity: enabledConstructors ? 1 : 0,
+                                            child: Checkbox(
                                           activeColor:
                                           Color.fromRGBO(255, 255, 255, 0),
                                           value: stateConstructors,
@@ -2513,6 +2529,7 @@ class _landingState extends State<landing> {
                                             );
                                           }
                                               : null,
+                                            ),
                                         );
                                       },
                                     ),
@@ -2829,7 +2846,9 @@ class _landingState extends State<landing> {
                                     child: StatefulBuilder(
                                       builder: (BuildContext context,
                                           StateSetter setState) {
-                                        return Checkbox(
+                                        return Opacity(
+                                            opacity: enabledWeight ? 1 : 0,
+                                            child: Checkbox(
                                           activeColor:
                                           Color.fromRGBO(255, 255, 255, 0),
                                           value: stateWeight,
@@ -2842,6 +2861,7 @@ class _landingState extends State<landing> {
                                             );
                                           }
                                               : null,
+                                            ),
                                         );
                                       },
                                     ),
