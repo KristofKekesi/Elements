@@ -63,6 +63,14 @@ class searchResults extends StatelessWidget {
       this.electronnegativityUnknown, this.atomicnumberMin, this.atomicnumberMax, this.constructorsProtonMin, this.constructorsProtonMax, this.constructorsElectronMin, this.constructorsElectronMax, this.constructorsNeutronMin, this.constructorsNeutronMax, this.weightMin, this.weightMax, this.stateElectronnegativity, this.stateTypes, this.stateAtomicnumber, this.stateConstructors, this.stateWeight})
       : super(key: key);
 
+  double indicatorOpacity() {
+    if (stateElectronnegativity == true || stateTypes == true || stateAtomicnumber == true || stateConstructors == true || stateWeight == true) {
+      return 1;
+    } else {
+      return 0;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -78,9 +86,13 @@ class searchResults extends StatelessWidget {
                     left:
                             MediaQuery.of(context).size.width *
                         .1,
+                  right:
+                  MediaQuery.of(context).size.width *
+                      .1,
                     top: MediaQuery.of(context).size.height * .02,
                 ),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     GestureDetector(
                       onTap: () {
@@ -95,12 +107,30 @@ class searchResults extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      ' ' + AppLocalizations.of(context).translate('title'),
+                      AppLocalizations.of(context).translate('title'),
                       textAlign: TextAlign.left,
                       style: new TextStyle(
                           color: Colors.black,
                           fontSize: MediaQuery.of(context).size.width * .12,
                           fontWeight: FontWeight.bold),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(right: MediaQuery.of(context).size.width * .01),
+                      child:
+                          IgnorePointer(ignoring: stateElectronnegativity == false && stateTypes == false && stateAtomicnumber == false && stateConstructors == false && stateWeight == false,
+                          child:
+                    Opacity(
+                      opacity: indicatorOpacity(),
+                      child:
+                      Tooltip(
+                      message: AppLocalizations.of(context).translate("selectorIndicator"),
+                      child: Image(
+                          image: AssetImage("lib/icons/triangle_yellow_500.png"),
+                          height: MediaQuery.of(context).size.width * .095,
+                          width: MediaQuery.of(context).size.width * .095),
+                    ),
+                    ),
+                          ),
                     ),
                   ],
                 ),

@@ -186,7 +186,8 @@ class minimalView extends StatelessWidget {
               }
             }
 
-            if (passed == true) {
+            if (passed == false) {
+            } else {
               pass++;
 
               listElements.add(

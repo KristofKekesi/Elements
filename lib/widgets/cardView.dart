@@ -6,10 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
-int _stringToInt(String number) => number == null ? null : int.parse(number);
-
-int pageCount(input) => int.parse(input.toString());
-
 // ignore: camel_case_types
 class cardView extends StatelessWidget {
   @required
