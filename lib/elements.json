@@ -3647,107 +3647,107 @@
 			"hu": "Vanádium-50",
 			"en": "Vanadium-50"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "50.943959507",
+			"rate": "99.75",
+			"halfRate": "stable",
 
 			"hu": "Vanádium-51",
 			"en": "Vanadium-51"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "51.944775479",
+			"rate": "0",
+			"halfRate": "3.743 min",
 
 			"hu": "Vanádium-52",
 			"en": "Vanadium-52"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "52.944337979",
+			"rate": "0",
+			"halfRate": "1.6 min"
 
 			"hu": "Vanádium-53",
 			"en": "Vanadium-53"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "53.946439854",
+			"rate": "0",
+			"halfRate": "49.8 s",
 
 			"hu": "Vanádium-54",
 			"en": "Vanadium-54"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "54.947233701",
+			"rate": "0",
+			"halfRate": "6.54 s",
 
 			"hu": "Vanádium-55",
 			"en": "Vanadium-55"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "55.950530966",
+			"rate": "0",
+			"halfRate": "216 ms",
 
 			"hu": "Vanádium-56",
 			"en": "Vanadium-56"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "56.952561432",
+			"rate": "0",
+			"halfRate": "350 ms",
 
 			"hu": "Vanádium-57",
 			"en": "Vanadium-57"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "57.956834136",
+			"rate": "0",
+			"halfRate": "191 ms",
 
 			"hu": "Vanádium-58",
 			"en": "Vanadium-58"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "58.960207407",
+			"rate": "0",
+			"halfRate": "75 ms",
 
 			"hu": "Vanádium-59",
 			"en": "Vanadium-59"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "59.965026862",
+			"rate": "0",
+			"halfRate": "122 ms",
 
 			"hu": "Vanádium-60",
 			"en": "Vanadium-60"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "60.968480",
+			"rate": "0",
+			"halfRate": "47 ms",
 
 			"hu": "Vanádium-61",
 			"en": "Vanadium-61"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "61.973780",
+			"rate": "0",
+			"halfRate": "33.5 ms",
 
 			"hu": "Vanádium-62",
 			"en": "Vanadium-62"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "62.977550",
+			"rate": "0",
+			"halfRate": "17 ms",
 
 			"hu": "Vanádium-63",
 			"en": "Vanadium-63"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "63.983470",
+			"rate": "0",
+			"halfRate": "10 ms",
 
 			"hu": "Vanádium-64",
 			"en": "Vanadium-64"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "64.987920",
+			"rate": "0",
+			"halfRate": "10 ms",
 
 			"hu": "Vanádium-65",
 			"en": "Vanadium-65"
