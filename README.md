@@ -18,10 +18,8 @@ Latest release: __0.3.2__
 
 ## Beta state
 #### New features
-- No result (for selectors)
-- Colored background while loading background images
-- Bugfixes
--  New UI feautres
+- Isotopes
+- New Main screen
 
 ## Beta program <img src="https://img.shields.io/badge/Open-green.svg" alt="">
 #### To aply:
