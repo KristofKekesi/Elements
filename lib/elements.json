@@ -3780,12 +3780,187 @@
 
 	"isotopes": [
 		{
+			"weight": "42.006430",
+			"rate": "0",
+			"halfRate": "14 ms",
+
+			"hu": "Króm-42",
+			"en": "Chromium-42"
+		}, {
+			"weight": "42.997710",
+			"rate": "0",
+			"halfRate": "21.6 ms",
+
+			"hu": "Króm-43",
+			"en": "Chromium-43"
+		}, {
+			"weight": "43.985549",
+			"rate": "0",
+			"halfRate": "54 ms",
+
+			"hu": "Króm-44",
+			"en": "Chromium-44"
+		}, {
+			"weight": "44.97964",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Króm-45",
+			"en": "Chromium-45"
+		}, {
+			"weight": "45.968358635",
+			"rate": "0",
+			"halfRate": "260 ms",
+
+			"hu": "Króm-46",
+			"en": "Chromium-46"
+		}, {
+			"weight": "46.962900046",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Króm-47",
+			"en": "Chromium-47"
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
 
-			"hu": "Króm-",
-			"en": "Chromium-"
+			"hu": "Króm-48",
+			"en": "Chromium-48"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-49",
+			"en": "Chromium-49"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-50",
+			"en": "Chromium-50"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-51",
+			"en": "Chromium-51"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-52",
+			"en": "Chromium-52"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-53",
+			"en": "Chromium-53"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-54",
+			"en": "Chromium-54"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-55",
+			"en": "Chromium-55"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-56",
+			"en": "Chromium-56"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-57",
+			"en": "Chromium-57"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-58",
+			"en": "Chromium-58"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-59",
+			"en": "Chromium-59"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-60",
+			"en": "Chromium-60"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-61",
+			"en": "Chromium-61"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-62",
+			"en": "Chromium-62"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-63",
+			"en": "Chromium-63"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-64",
+			"en": "Chromium-64"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-65",
+			"en": "Chromium-65"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-66",
+			"en": "Chromium-66"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Króm-67",
+			"en": "Chromium-67"
 		}
 	]
   }, {
