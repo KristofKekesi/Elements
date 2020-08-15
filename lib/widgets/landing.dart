@@ -189,7 +189,7 @@ class landing extends StatelessWidget {
                                 MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
-                              'Calculations',
+                              AppLocalizations.of(context).translate('titleCalculations'),
                               //AppLocalizations.of(context).translate('titleCompounds'),
                               style: TextStyle(
                                   color: Colors.white,

@@ -250,8 +250,8 @@ class cardView extends StatelessWidget {
                           fontSize:
                           MediaQuery.of(context)
                               .size
-                              .width *
-                              .07,
+                              .height *
+                              .04,
                         ),),
                         Text(
                           '', style: TextStyle(
@@ -259,8 +259,8 @@ class cardView extends StatelessWidget {
                           fontSize:
                           MediaQuery.of(context)
                               .size
-                              .width *
-                              .06,
+                              .height *
+                              .03,
                         ),),
                         Tooltip(
                           message: AppLocalizations.of(context).translate('isotopeWeight'),
@@ -274,8 +274,8 @@ class cardView extends StatelessWidget {
                           fontSize:
                           MediaQuery.of(context)
                               .size
-                              .width *
-                              .06,
+                              .height *
+                              .03,
                         ),),
                         Text(
                           isotopeWeight(elementList[index]['isotopes'][innerIndex]['weight']), style: TextStyle(
@@ -284,8 +284,8 @@ class cardView extends StatelessWidget {
                           fontSize:
                           MediaQuery.of(context)
                               .size
-                              .width *
-                              .06,
+                              .height *
+                              .03,
                         ),),],),),
                         Text(
                           '', style: TextStyle(
@@ -293,8 +293,8 @@ class cardView extends StatelessWidget {
                           fontSize:
                           MediaQuery.of(context)
                               .size
-                              .width *
-                              .06,
+                              .height *
+                              .03,
                         ),),
                         Tooltip(
                           message: AppLocalizations.of(context).translate('rate'),
@@ -310,8 +310,8 @@ class cardView extends StatelessWidget {
                           fontSize:
                           MediaQuery.of(context)
                               .size
-                              .width *
-                              .06,
+                              .height *
+                              .03,
                         ),),
                         Text(
                           isotopeRate(elementList[index]['isotopes'][innerIndex]['rate']), style: TextStyle(
@@ -320,8 +320,8 @@ class cardView extends StatelessWidget {
                           fontSize:
                           MediaQuery.of(context)
                               .size
-                              .width *
-                              .06,
+                              .height *
+                              .03,
                         ),),
                   ],
                   ),
@@ -996,7 +996,7 @@ class cardView extends StatelessWidget {
                                                     .15,
                                                 ),
                                                 child: Text(
-                                                  "Isotopes",
+                                                  AppLocalizations.of(context).translate('isotopes'),
                                                   style: TextStyle(
                                                     color: Colors.white,
                                                     fontWeight: FontWeight.bold,
@@ -1008,21 +1008,11 @@ class cardView extends StatelessWidget {
                                                   ),
                                                 ),
                                               ),
-                                              Container(
-                                                width: MediaQuery.of(context)
-                                                    .size
-                                                    .width,
-                                                height: MediaQuery.of(context)
-                                                        .size
-                                                        .height *
-                                                    .35,
-                                                child: ListView(
-                                                  shrinkWrap: true,
+                                              SingleChildScrollView(
                                                   scrollDirection:
                                                       Axis.horizontal,
-                                                  children: listIsotopes,
+                                                  child: Row(children: listIsotopes),
                                                 ),
-                                              ),
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)

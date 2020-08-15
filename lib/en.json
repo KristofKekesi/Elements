@@ -86,6 +86,7 @@
   "weightPre": "weight",
   "molarmass": "The molar mass is the sum of the total weight in grams.",
   "_comment_": "ISOTOPES",
+  "isotopes": "Isotopes",
   "weightIsotopes": "Weight:",
   "rateIsotopes": "Rate:",
   "rateSymbolIsotopes": "%",
