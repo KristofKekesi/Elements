@@ -119,6 +119,8 @@
   "type": "Type",
   "block": "Block",
   "weight": "Relative weight",
+  "isotopeTitle": "Isotopes of {elementName}",
+  "isotopeName": "The name of the isotope",
   "isotopeWeight": "The weight of the isotope",
   "rate": "The rate of the isotope",
   "protonnumber": "Numbers of protons",

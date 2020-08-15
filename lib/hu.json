@@ -119,6 +119,8 @@
   "type": "Típus",
   "block": "Elektronpálya",
   "weight": "Relatív tömeg",
+  "isotopeTitle": "{elementName} izotópjai",
+  "isotopeName": "Az izotóp neve",
   "isotopeWeight": "Az izotóp tömege",
   "rate": "Az izotóp gyakorisága",
   "protonnumber": "Protonok száma",
