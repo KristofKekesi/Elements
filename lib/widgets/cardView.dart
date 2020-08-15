@@ -243,7 +243,9 @@ class cardView extends StatelessWidget {
                       child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget> [
-                        Text(
+                        Tooltip(
+                      message: AppLocalizations.of(context).translate('isotopeName'),
+                        child: Text(
                           elementList[index]['isotopes'][innerIndex][AppLocalizations.of(context).translate('key')], style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -251,8 +253,9 @@ class cardView extends StatelessWidget {
                           MediaQuery.of(context)
                               .size
                               .height *
-                              .04,
+                              .035,
                         ),),
+                        ),
                         Text(
                           '', style: TextStyle(
                           fontWeight: FontWeight.bold,
@@ -995,7 +998,9 @@ class cardView extends StatelessWidget {
                                                     .width *
                                                     .15,
                                                 ),
-                                                child: Text(
+                                                child: Tooltip(
+                                                  message: AppLocalizations.of(context).translate('isotopeTitle').replaceAll('{elementName}', elementList[index][AppLocalizations.of(context).translate('key')]),
+                                                  child: Text(
                                                   AppLocalizations.of(context).translate('isotopes'),
                                                   style: TextStyle(
                                                     color: Colors.white,
@@ -1007,6 +1012,7 @@ class cardView extends StatelessWidget {
                                                         .08,
                                                   ),
                                                 ),
+                                              ),
                                               ),
                                               SingleChildScrollView(
                                                   scrollDirection:
