@@ -16,6 +16,9 @@ Latest release: __0.3.2__
 ## State <img src="https://img.shields.io/badge/Release-green.svg" alt="">
 <img src="img/state.png">
 
+## Translate
+#### We are expanding in the localization. If you have intrest cotact me or [join now](https://crwd.in/elementsapp).
+
 ## Beta state
 #### New features
 - Isotopes
