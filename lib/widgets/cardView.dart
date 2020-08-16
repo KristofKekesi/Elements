@@ -104,7 +104,7 @@ class cardView extends StatelessWidget {
     this.stateConstructors,
     this.stateWeight,
   }) : super(key: key);
-
+  
   @override
   Widget build(BuildContext context) {
     int pass = 0;
@@ -219,6 +219,65 @@ class cardView extends StatelessWidget {
                 }
               }
 
+              String isotopeRadioactivity(input) {
+                if(input.contains('unknown')) {
+                  return Capitalizate(AppLocalizations.of(context).translate('unknown'));
+                } else if (input.contains('stable')) {
+                  return Capitalizate(AppLocalizations.of(context).translate('stable'));
+                } else {
+                  return Capitalizate(AppLocalizations.of(context).translate('radioactive'));
+                }
+              }
+
+              double isotopeHalflifeSize(input) {
+                if (input.length < 12) {
+                  return .03;
+                } else {
+                  return .02;
+                }
+              }
+
+              String toTime(input, inner) {
+                if (input.contains('y')) {
+                  //print(elementList[index]['isotopes'][inner]['en'] + ': YEAR');
+                } else if (input.contains('d')) {
+                  //print(elementList[index]['isotopes'][inner]['en'] + ': DAY');
+                } else if (input.contains('h')) {
+                  //print(elementList[index]['isotopes'][inner]['en'] + ': HOUR');
+                } else if (input.contains('min')) {
+                  //print(elementList[index]['isotopes'][inner]['en'] + ': MINUTE');
+                } else if (input.contains('s')) {
+                  //print(elementList[index]['isotopes'][inner]['en'] + ': SEC');
+                } else if (input.contains('ms')) {
+                  //print(elementList[index]['isotopes'][inner]['en'] + ': MS');
+                } else {
+                  print(elementList[index]['isotopes'][inner]['en'] + ': ' +
+                      elementList[index]['isotopes'][inner]['halfRate']);
+                }
+                //print(elementList[index]['isotopes'][inner]['en'] + ': ' + elementList[index]['isotopes'][inner]['halfRate']);
+                return input;
+              }
+
+              bool isotopeHalflifePointer(input) {
+                if(input.contains('unknown')) {
+                  return true;
+                } else if (input.contains('stable')) {
+                  return true;
+                } else {
+                  return false;
+                }
+              }
+
+              double isotopeHalflifeVisibility(input) {
+                if(input.contains('unknown')) {
+                  return 0;
+                } else if (input.contains('stable')) {
+                  return 0;
+                } else {
+                  return 1;
+                }
+              }
+
               final listIsotopes = <Widget>[];
               listIsotopes.add(Container(width: MediaQuery.of(context).size.width * .15 / 2));
               for (var innerIndex = 0;
@@ -329,6 +388,90 @@ class cardView extends StatelessWidget {
                   ],
                   ),
                         ),
+                        Text(
+                          '', style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize:
+                          MediaQuery.of(context)
+                              .size
+                              .height *
+                              .03,
+                        ),),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget> [
+                          Tooltip(
+                            message: AppLocalizations.of(context).translate('isotopeRadioactivity'),
+                            child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: <Widget> [
+                            Padding(
+                              padding: EdgeInsets.only(bottom: MediaQuery.of(context).size.width * .01),
+                              child: Image(
+                                image: AssetImage(
+                                    "lib/icons/radioactive_white_500.png"),
+                                height: MediaQuery.of(
+                                    context)
+                                    .size
+                                    .width *
+                                    .04,
+                                width: MediaQuery.of(
+                                    context)
+                                    .size
+                                    .width *
+                                    .04),),
+                            Text(
+                            " " + isotopeRadioactivity(elementList[index]['isotopes'][innerIndex]['halfRate']),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize:
+                              MediaQuery.of(context)
+                                  .size
+                                  .height *
+                                  .03,
+                            ),),
+                          ],
+                          ),),
+                          IgnorePointer(ignoring: isotopeHalflifePointer(elementList[index]['isotopes'][innerIndex]['halfRate']),
+                          child:
+                          Opacity(
+                            opacity:  isotopeHalflifeVisibility(elementList[index]['isotopes'][innerIndex]['halfRate']),
+                            child: Tooltip(
+                              message: AppLocalizations.of(context).translate('isotopeHalflife'),
+                              child:
+                          Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: <Widget> [
+                              Padding(
+                                padding: EdgeInsets.only(bottom: MediaQuery.of(context).size.width * .01),
+                                child: Image(
+                                    image: AssetImage(
+                                        "lib/icons/halftime_white_500.png"),
+                                    height: MediaQuery.of(
+                                        context)
+                                        .size
+                                        .width *
+                                        .045,
+                                    width: MediaQuery.of(
+                                        context)
+                                        .size
+                                        .width *
+                                        .045),),
+                              Text(' ' + toTime(elementList[index]['isotopes'][innerIndex]['halfRate'], innerIndex), style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize:
+                                MediaQuery.of(context)
+                                    .size
+                                    .height *
+                                    isotopeHalflifeSize(toTime(elementList[index]['isotopes'][innerIndex]['halfRate'], innerIndex)),
+                              ),)
+                            ],
+                          ),
+                          ),),),
+                        ],
+                      ),
                       ],
                     ),
                   ),
@@ -719,12 +862,12 @@ class cardView extends StatelessWidget {
                                                                     context)
                                                                 .size
                                                                 .width *
-                                                            .07,
+                                                            .06,
                                                         width: MediaQuery.of(
                                                                     context)
                                                                 .size
                                                                 .width *
-                                                            .07),
+                                                            .06),
                                                     Text(
                                                       " " +
                                                           radioactivityString(),

@@ -5809,14 +5809,14 @@
 
 			"hu": "Germánium-85",
 			"en": "Germanium-85"
-		}, {
+		},
+		{
 			"weight": "85.946490",
 			"rate": "0",
 			"halfRate": "300 ms",
-
 			"hu": "Germánium-86",
 			"en": "Germanium-86"
-		, {
+		}, {
 			"weight": "86.952510",
 			"rate": "0",
 			"halfRate": "150 ms",
