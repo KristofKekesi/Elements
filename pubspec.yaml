@@ -20,6 +20,7 @@ dependencies:
   splashscreen: ^1.2.0
   sleek_circular_slider: ^1.1.0
   smooth_star_rating: 1.0.4+2
+  characters: ^1.0.0
 
 dev_dependencies:
   flutter_test:

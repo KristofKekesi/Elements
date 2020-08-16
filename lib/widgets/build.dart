@@ -25,9 +25,9 @@ class Splash extends StatelessWidget {
             fontWeight: FontWeight.bold),
       ),
       imageBackground:
-        AssetImage('lib/backgrounds/008_pc.jpg'),
+        AssetImage('lib/backgrounds/086_js.jpg'),
       image: Image(
-        image: AssetImage('lib/icons/logo_white_500.png'),
+        image: AssetImage('lib/icons/logo_500.png'),
       ),
       photoSize: 50,
       loaderColor: Colors.white,

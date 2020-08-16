@@ -36,9 +36,29 @@ class customDrawer extends StatelessWidget {
               ),
             ),
             Padding(
-                padding: EdgeInsets.only(
-                    top: MediaQuery.of(context).size.height * .03),
-           child: GestureDetector(
+              padding: EdgeInsets.only(
+                  top: MediaQuery.of(context).size.height * .03),
+              child: GestureDetector(
+                onTap: () {
+                  _launchURL('https://crwd.in/elementsapp');
+                },
+                child: ListTile(
+                  title: Text(
+                    AppLocalizations.of(context).translate('translate'),
+                    style: TextStyle(
+                        letterSpacing: 2,
+                        fontWeight: FontWeight.bold,
+                        fontSize:
+                        MediaQuery.of(context).size.width *
+                            .07),
+                  ),
+                ),
+              ),
+            ),
+            Divider(
+              thickness: MediaQuery.of(context).size.height * .005,
+            ),
+            GestureDetector(
               onTap: () {
                 _launchURL('https://github.com/KristofKekesi/Elements/blob/master/README.md#contributors-');
               },
@@ -54,7 +74,6 @@ class customDrawer extends StatelessWidget {
                 ),
               ),
            ),
-              ),
             GestureDetector(
               onTap: (){_launchURL('https://github.com/KristofKekesi/Elements/blob/master/README.md#contacts-');},
               child: ListTile(
@@ -133,5 +152,9 @@ void autoAboutDialog(context) {
       context: context,
       applicationVersion: '0.3.2',
       applicationName: 'Elements',
-      applicationLegalese: 'Kristóf Kékesi');
+      applicationLegalese: 'Kristóf Kékesi',
+     applicationIcon: Image.asset('lib/icons/logo_500.png', height: 40, width: 40,
+     ), children: [Padding(
+    padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .05),
+    child: Text(AppLocalizations.of(context).translate('warning'),),),],);
 }
