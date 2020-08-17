@@ -6363,12 +6363,222 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "66.964790",
+			"rate": "0",
+			"halfRate": "unknown",
 
-			"hu": "Bróm-",
-			"en": "Bromine-"
+			"hu": "Bróm-67",
+			"en": "Bromine-67"
+		}, {
+			"weight": "67.958516",
+			"rate": "0",
+			"halfRate": "1.5 µs",
+
+			"hu": "Bróm-68",
+			"en": "Bromine-68"
+		}, {
+			"weight": "68.950106",
+			"rate": "0",
+			"halfRate": "24 ns",
+
+			"hu": "Bróm-69",
+			"en": "Bromine-69"
+		}, {
+			"weight": "69.944792",
+			"rate": "0",
+			"halfRate": "79.1 ms",
+
+			"hu": "Bróm-70",
+			"en": "Bromine-70"
+		}, {
+			"weight": "70.93874",
+			"rate": "0",
+			"halfRate": "21.4 s",
+
+			"hu": "Bróm-71",
+			"en": "Bromine-71"
+		}, {
+			"weight": "71.936644572",
+			"rate": "0",
+			"halfRate": "1.31 min",
+
+			"hu": "Bróm-72",
+			"en": "Bromine-72"
+		}, {
+			"weight": "72.931691524",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Bróm-73",
+			"en": "Bromine-73"
+		}, {
+			"weight": "73.929891034",
+			"rate": "0",
+			"halfRate": "25.33 min",
+
+			"hu": "Bróm-74",
+			"en": "Bromine-74"
+		}, {
+			"weight": "74.925776207",
+			"rate": "0",
+			"halfRate": "1.6 h",
+
+			"hu": "Bróm-75",
+			"en": "Bromine-75"
+		}, {
+			"weight": "75.924541469",
+			"rate": "0",
+			"halfRate": "16.2 h",
+
+			"hu": "Bróm-76",
+			"en": "Bromine-76"
+		}, {
+			"weight": "76.921379082",
+			"rate": "0",
+			"halfRate": "2.37650 d",
+
+			"hu": "Bróm-77",
+			"en": "Bromine-77"
+		}, {
+			"weight": "77.921145706",
+			"rate": "0",
+			"halfRate": "6.47 min",
+
+			"hu": "Bróm-78",
+			"en": "Bromine-78"
+		}, {
+			"weight": "78.918337087",
+			"rate": "50.69",
+			"halfRate": "stable",
+
+			"hu": "Bróm-79",
+			"en": "Bromine-79"
+		}, {
+			"weight": "79.918529296",
+			"rate": "0",
+			"halfRate": "17.68 min",
+
+			"hu": "Bróm-80",
+			"en": "Bromine-80"
+		}, {
+			"weight": "80.916290563",
+			"rate": "49.31",
+			"halfRate": "stable",
+
+			"hu": "Bróm-81",
+			"en": "Bromine-81"
+		}, {
+			"weight": "81.916804119",
+			"rate": "0",
+			"halfRate": "1.47014 d",
+
+			"hu": "Bróm-82",
+			"en": "Bromine-82"
+		}, {
+			"weight": "82.915180421",
+			"rate": "0",
+			"halfRate": "2.4 h",
+
+			"hu": "Bróm-83",
+			"en": "Bromine-83"
+		}, {
+			"weight": "83.916478974",
+			"rate": "0",
+			"halfRate": "31.83 min",
+
+			"hu": "Bróm-84",
+			"en": "Bromine-84"
+		}, {
+			"weight": "84.915608403",
+			"rate": "0",
+			"halfRate": "2.83 min",
+
+			"hu": "Bróm-85",
+			"en": "Bromine-85"
+		}, {
+			"weight": "85.918797577",
+			"rate": "0",
+			"halfRate": "55.1 s",
+
+			"hu": "Bróm-86",
+			"en": "Bromine-86"
+		}, {
+			"weight": "86.920711324",
+			"rate": "0",
+			"halfRate": "55.65 s",
+
+			"hu": "Bróm-87",
+			"en": "Bromine-87"
+		}, {
+			"weight": "87.924065926",
+			"rate": "0",
+			"halfRate": "16.36 s",
+
+			"hu": "Bróm-88",
+			"en": "Bromine-88"
+		}, {
+			"weight": "88.926385334",
+			"rate": "0",
+			"halfRate": "4.4 s",
+
+			"hu": "Bróm-89",
+			"en": "Bromine-89"
+		}, {
+			"weight": "89.930627737",
+			"rate": "0",
+			"halfRate": "1.19 s",
+
+			"hu": "Bróm-90",
+			"en": "Bromine-90"
+		}, {
+			"weight": "90.933968095",
+			"rate": "0",
+			"halfRate": "541 ms",
+
+			"hu": "Bróm-91",
+			"en": "Bromine-91"
+		}, {
+			"weight": "91.939258714",
+			"rate": "0",
+			"halfRate": "343 ms",
+
+			"hu": "Bróm-92",
+			"en": "Bromine-92"
+		}, {
+			"weight": "92.943050",
+			"rate": "0",
+			"halfRate": "102 ms",
+
+			"hu": "Bróm-93",
+			"en": "Bromine-93"
+		}, {
+			"weight": "93.948680",
+			"rate": "0",
+			"halfRate": "70 ms",
+
+			"hu": "Bróm-94",
+			"en": "Bromine-94"
+		}, {
+			"weight": "94.952870",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Bróm-95",
+			"en": "Bromine-95"
+		}, {
+			"weight": "95.958530",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Bróm-96",
+			"en": "Bromine-96"
+		}, {
+			"weight": "96.962800",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Bróm-97",
+			"en": "Bromine-97"
 		}
 	]
   }, {
