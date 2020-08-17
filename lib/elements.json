@@ -6125,12 +6125,215 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "64.964660",
+			"rate": "0",
+			"halfRate": "50 ms",
 
-			"hu": "Szelén-",
-			"en": "Selenium-"
+			"hu": "Szelén-65",
+			"en": "Selenium-65"
+		}, {
+			"weight": "65.955210",
+			"rate": "0",
+			"halfRate": "33 ms",
+
+			"hu": "Szelén-66",
+			"en": "Selenium-66"
+		}, {
+			"weight": "66.950090",
+			"rate": "0",
+			"halfRate": "133 ms",
+
+			"hu": "Szelén-67",
+			"en": "Selenium-67"
+		}, {
+			"weight": "67.941798",
+			"rate": "0",
+			"halfRate": "35.5 s",
+
+			"hu": "Szelén-68",
+			"en": "Selenium-68"
+		}, {
+			"weight": "68.939557817",
+			"rate": "0",
+			"halfRate": "27.4 s",
+
+			"hu": "Szelén-69",
+			"en": "Selenium-69"
+		}, {
+			"weight": "70.932241822",
+			"rate": "0",
+			"halfRate": "4.73 min",
+
+			"hu": "Szelén-70",
+			"en": "Selenium-70"
+		}, {
+			"weight": "71.927112352",
+			"rate": "0",
+			"halfRate": "8.4 d",
+
+			"hu": "Szelén-71",
+			"en": "Selenium-71"
+		}, {
+			"weight": "72.926765345",
+			"rate": "0",
+			"halfRate": "7.14 h",
+
+			"hu": "Szelén-72",
+			"en": "Selenium-72"
+		}, {
+			"weight": "73.922476436",
+			"rate": "0.89",
+			"halfRate": "stable",
+
+			"hu": "Szelén-73",
+			"en": "Selenium-73"
+		}, {
+			"weight": "74.922523368",
+			"rate": "0",
+			"halfRate": "119.779 d",
+
+			"hu": "Szelén-74",
+			"en": "Selenium-74"
+		}, {
+			"weight": "75.919213597",
+			"rate": "9.37",
+			"halfRate": "stable",
+
+			"hu": "Szelén-75",
+			"en": "Selenium-75"
+		}, {
+			"weight": "76.919914038",
+			"rate": "7.63",
+			"halfRate": "stable",
+
+			"hu": "Szelén-76",
+			"en": "Selenium-76"
+		}, {
+			"weight": "76.919914038",
+			"rate": "7.63",
+			"halfRate": "stable",
+
+			"hu": "Szelén-77",
+			"en": "Selenium-77"
+		}, {
+			"weight": "77.91730909",
+			"rate": "23.77",
+			"halfRate": "stable",
+
+			"hu": "Szelén-78",
+			"en": "Selenium-78"
+		}, {
+			"weight": "78.918499098",
+			"rate": "0",
+			"halfRate": "295000 y",
+
+			"hu": "Szelén-79",
+			"en": "Selenium-79"
+		}, {
+			"weight": "79.916521271",
+			"rate": "49.61",
+			"halfRate": "stable",
+
+			"hu": "Szelén-80",
+			"en": "Selenium-80"
+		}, {
+			"weight": "80.917992474",
+			"rate": "0",
+			"halfRate": "18.45 min",
+
+			"hu": "Szelén-81",
+			"en": "Selenium-81"
+		}, {
+			"weight": "81.916699401",
+			"rate": "8.73",
+			"halfRate": "98000000000000000000 y",
+
+			"hu": "Szelén-82",
+			"en": "Selenium-82"
+		}, {
+			"weight": "82.919118473",
+			"rate": "0",
+			"halfRate": "22.33 min",
+
+			"hu": "Szelén-83",
+			"en": "Selenium-83"
+		}, {
+			"weight": "83.918462354",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Szelén-84",
+			"en": "Selenium-84"
+		}, {
+			"weight": "84.922245053",
+			"rate": "0",
+			"halfRate": "31.7 s",
+
+			"hu": "Szelén-85",
+			"en": "Selenium-85"
+		}, {
+			"weight": "85.924271579",
+			"rate": "0",
+			"halfRate": "15.3 s",
+
+			"hu": "Szelén-86",
+			"en": "Selenium-86"
+		}, {
+			"weight": "86.928521358",
+			"rate": "0",
+			"halfRate": "5.5 s",
+
+			"hu": "Szelén-87",
+			"en": "Selenium-87"
+		}, {
+			"weight": "87.931423998",
+			"rate": "0",
+			"halfRate": "1.53 s",
+
+			"hu": "Szelén-88",
+			"en": "Selenium-88"
+		}, {
+			"weight": "88.936450",
+			"rate": "0",
+			"halfRate": "410 ms",
+
+			"hu": "Szelén-89",
+			"en": "Selenium-89"
+		}, {
+			"weight": "89.939960",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Szelén-90",
+			"en": "Selenium-90"
+		}, {
+			"weight": "90.945960",
+			"rate": "0",
+			"halfRate": "270 ms",
+
+			"hu": "Szelén-91",
+			"en": "Selenium-91"
+		}, {
+			"weight": "91.949920",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Szelén-92",
+			"en": "Selenium-92"
+		}, {
+			"weight": "92.956290",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Szelén-93",
+			"en": "Selenium-93"
+		}, {
+			"weight": "93.960490",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Szelén-94",
+			"en": "Selenium-94"
 		}
 	]
   }, {
