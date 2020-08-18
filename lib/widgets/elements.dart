@@ -2976,9 +2976,7 @@ class _elementsState extends State<elements> {
               ],
             ),
           ),
-          Tooltip(
-            message: AppLocalizations.of(context).translate('searchTooltip'),
-            child: GestureDetector(
+          GestureDetector(
               onTap: () {
                 Navigator.push(
                   context,
@@ -3041,7 +3039,9 @@ class _elementsState extends State<elements> {
                             .width) /
                         2 *
                         .05),
-                child: Container(
+                child: Tooltip(
+                  message: AppLocalizations.of(context).translate('searchTooltip'),
+                  child: Container(
                   width: MediaQuery
                       .of(context)
                       .size
