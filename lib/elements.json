@@ -7630,12 +7630,236 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "77.955230",
+			"rate": "0",
+			"halfRate": "50 ms",
 
-			"hu": "Cirkónium-",
-			"en": "Zirconium-"
+			"hu": "Cirkónium-78",
+			"en": "Zirconium-78"
+		}, {
+			"weight": "78.949160",
+			"rate": "0",
+			"halfRate": "56 ms",
+
+			"hu": "Cirkónium-79",
+			"en": "Zirconium-79"
+		}, {
+			"weight": "79.9404",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Cirkónium-80",
+			"en": "Zirconium-80"
+		}, {
+			"weight": "80.937210026",
+			"rate": "0",
+			"halfRate": "5.5 s",
+
+			"hu": "Cirkónium-81",
+			"en": "Zirconium-81"
+		}, {
+			"weight": "81.931087",
+			"rate": "0",
+			"halfRate": "32 s",
+
+			"hu": "Cirkónium-82",
+			"en": "Zirconium-82"
+		}, {
+			"weight": "82.928653801",
+			"rate": "0",
+			"halfRate": "41.6 s",
+
+			"hu": "Cirkónium-83",
+			"en": "Zirconium-83"
+		}, {
+			"weight": "83.923250",
+			"rate": "0",
+			"halfRate": "25.83 min",
+
+			"hu": "Cirkónium-84",
+			"en": "Zirconium-84"
+		}, {
+			"weight": "84.921471182",
+			"rate": "0",
+			"halfRate": "7.87 min",
+
+			"hu": "Cirkónium-85",
+			"en": "Zirconium-85"
+		}, {
+			"weight": "85.916473591",
+			"rate": "0",
+			"halfRate": "16.5 h",
+
+			"hu": "Cirkónium-86",
+			"en": "Zirconium-86"
+		}, {
+			"weight": "86.914816252",
+			"rate": "0",
+			"halfRate": "1.681 h",
+
+			"hu": "Cirkónium-87",
+			"en": "Zirconium-87"
+		}, {
+			"weight": "87.910226904",
+			"rate": "0",
+			"halfRate": "83.4 d",
+
+			"hu": "Cirkónium-88",
+			"en": "Zirconium-88"
+		}, {
+			"weight": "88.9088895",
+			"rate": "0",
+			"halfRate": "3.267 d",
+
+			"hu": "Cirkónium-89",
+			"en": "Zirconium-89"
+		}, {
+			"weight": "89.904704416",
+			"rate": "51.45",
+			"halfRate": "stable",
+
+			"hu": "Cirkónium-90",
+			"en": "Zirconium-90"
+		}, {
+			"weight": "90.905645767",
+			"rate": "11.22",
+			"halfRate": "stable",
+
+			"hu": "Cirkónium-91",
+			"en": "Zirconium-91"
+		}, {
+			"weight": "91.905040847",
+			"rate": "18.15",
+			"halfRate": "stable",
+
+			"hu": "Cirkónium-92",
+			"en": "Zirconium-92"
+		}, {
+			"weight": "92.906476006",
+			"rate": "0",
+			"halfRate": "1530000 y",
+
+			"hu": "Cirkónium-93",
+			"en": "Zirconium-93"
+		}, {
+			"weight": "93.906315192",
+			"rate": "17.38",
+			"halfRate": "stable",
+
+			"hu": "Cirkónium-94",
+			"en": "Zirconium-94"
+		}, {
+			"weight": "94.9080426",
+			"rate": "0",
+			"halfRate": "64.032 d",
+
+			"hu": "Cirkónium-95",
+			"en": "Zirconium-95"
+		}, {
+			"weight": "95.908273386",
+			"rate": "2.8",
+			"halfRate": "24000000000000000000 y",
+
+			"hu": "Cirkónium-96",
+			"en": "Zirconium-96"
+		}, {
+			"weight": "96.910953109",
+			"rate": "0",
+			"halfRate": "16.9 h",
+
+			"hu": "Cirkónium-97",
+			"en": "Zirconium-97"
+		}, {
+			"weight": "97.912734892",
+			"rate": "0",
+			"halfRate": "30.7 s",
+
+			"hu": "Cirkónium-98",
+			"en": "Zirconium-98"
+		}, {
+			"weight": "98.916512106",
+			"rate": "0",
+			"halfRate": "2.1 s",
+
+			"hu": "Cirkónium-99",
+			"en": "Zirconium-99"
+		}, {
+			"weight": "99.917761889",
+			"rate": "0",
+			"halfRate": "7.1 s",
+
+			"hu": "Cirkónium-100",
+			"en": "Zirconium-100"
+		}, {
+			"weight": "100.921140415",
+			"rate": "0",
+			"halfRate": "2.3 s",
+
+			"hu": "Cirkónium-101",
+			"en": "Zirconium-101"
+		}, {
+			"weight": "101.922981285",
+			"rate": "0",
+			"halfRate": "2.9 s",
+
+			"hu": "Cirkónium-102",
+			"en": "Zirconium-102"
+		}, {
+			"weight": "102.926599606",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Cirkónium-103",
+			"en": "Zirconium-103"
+		}, {
+			"weight": "103.928780",
+			"rate": "0",
+			"halfRate": "1.2 s",
+
+			"hu": "Cirkónium-104",
+			"en": "Zirconium-104"
+		}, {
+			"weight": "104.933050",
+			"rate": "0",
+			"halfRate": "600 ms",
+
+			"hu": "Cirkónium-105",
+			"en": "Zirconium-105"
+		}, {
+			"weight": "105.935910",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Cirkónium-106",
+			"en": "Zirconium-106"
+		}, {
+			"weight": "106.940750",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Cirkónium-107",
+			"en": "Zirconium-107"
+		}, {
+			"weight": "107.943960",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Cirkónium-108",
+			"en": "Zirconium-108"
+		}, {
+			"weight": "108.949240",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Cirkónium-109",
+			"en": "Zirconium-109"
+		}, {
+			"weight": "109.952870",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Cirkónium-110",
+			"en": "Zirconium-110"
 		}
 	]
   }, {
@@ -7665,12 +7889,236 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "80.949030",
+			"rate": "0",
+			"halfRate": "44 ns",
 
-			"hu": "Nióbium-",
-			"en": "Niobium-"
+			"hu": "Nióbium-81",
+			"en": "Niobium-81"
+		}, {
+			"weight": "81.943130",
+			"rate": "0",
+			"halfRate": "51 ms",
+
+			"hu": "Nióbium-82",
+			"en": "Niobium-82"
+		}, {
+			"weight": "82.936705382",
+			"rate": "0",
+			"halfRate": "4.1 s",
+
+			"hu": "Nióbium-83",
+			"en": "Niobium-83"
+		}, {
+			"weight": "83.933570",
+			"rate": "0",
+			"halfRate": "9.8 s",
+
+			"hu": "Nióbium-84",
+			"en": "Niobium-84"
+		}, {
+			"weight": "84.927912447",
+			"rate": "0",
+			"halfRate": "20.9 s",
+
+			"hu": "Nióbium-85",
+			"en": "Niobium-85"
+		}, {
+			"weight": "85.925038326",
+			"rate": "0",
+			"halfRate": "1.5 min",
+
+			"hu": "Nióbium-86",
+			"en": "Niobium-86"
+		}, {
+			"weight": "86.920361108",
+			"rate": "0",
+			"halfRate": "3.75 min",
+
+			"hu": "Nióbium-87",
+			"en": "Niobium-87"
+		}, {
+			"weight": "87.918332163",
+			"rate": "0",
+			"halfRate": "14.5 min",
+
+			"hu": "Nióbium-88",
+			"en": "Niobium-88"
+		}, {
+			"weight": "88.913418245",
+			"rate": "0",
+			"halfRate": "2.031 h",
+
+			"hu": "Nióbium-89",
+			"en": "Niobium-89"
+		}, {
+			"weight": "89.911264845",
+			"rate": "0",
+			"halfRate": "14.6 h",
+
+			"hu": "Nióbium-90",
+			"en": "Niobium-90"
+		}, {
+			"weight": "90.906996243",
+			"rate": "0",
+			"halfRate": "681 y",
+
+			"hu": "Nióbium-91",
+			"en": "Niobium-91"
+		}, {
+			"weight": "91.907193888",
+			"rate": "0",
+			"halfRate": "35000000 y",
+
+			"hu": "Nióbium-92",
+			"en": "Niobium-92"
+		}, {
+			"weight": "91.907193888",
+			"rate": "0",
+			"halfRate": "35000000 y",
+
+			"hu": "Nióbium-93",
+			"en": "Niobium-93"
+		}, {
+			"weight": "92.906378058",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Nióbium-94",
+			"en": "Niobium-94"
+		}, {
+			"weight": "94.906835792",
+			"rate": "0",
+			"halfRate": "34.991 d",
+
+			"hu": "Nióbium-95",
+			"en": "Niobium-95"
+		}, {
+			"weight": "95.908100647",
+			"rate": "0",
+			"halfRate": "23.350 h",
+
+			"hu": "Nióbium-96",
+			"en": "Niobium-96"
+		}, {
+			"weight": "96.908098556",
+			"rate": "0",
+			"halfRate": "1.203 h",
+
+			"hu": "Nióbium-97",
+			"en": "Niobium-97"
+		}, {
+			"weight": "97.910328412",
+			"rate": "0",
+			"halfRate": "2.86 s",
+
+			"hu": "Nióbium-98",
+			"en": "Niobium-98"
+		}, {
+			"weight": "98.911618375",
+			"rate": "0",
+			"halfRate": "15 s",
+
+			"hu": "Nióbium-99",
+			"en": "Niobium-99"
+		}, {
+			"weight": "99.914181619",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Nióbium-100",
+			"en": "Niobium-100"
+		}, {
+			"weight": "100.915252025",
+			"rate": "0",
+			"halfRate": "7.1 s",
+
+			"hu": "Nióbium-101",
+			"en": "Niobium-101"
+		}, {
+			"weight": "101.918037614",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Nióbium-102",
+			"en": "Niobium-102"
+		}, {
+			"weight": "102.919143842",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Nióbium-103",
+			"en": "Niobium-103"
+		}, {
+			"weight": "103.922464701",
+			"rate": "0",
+			"halfRate": "4.9 s",
+
+			"hu": "Nióbium-104",
+			"en": "Niobium-104"
+		}, {
+			"weight": "104.923936545",
+			"rate": "0",
+			"halfRate": "2.95 s",
+
+			"hu": "Nióbium-105",
+			"en": "Niobium-105"
+		}, {
+			"weight": "105.92797",
+			"rate": "0",
+			"halfRate": "920 ms",
+
+			"hu": "Nióbium-106",
+			"en": "Niobium-106"
+		}, {
+			"weight": "106.93031",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Nióbium-107",
+			"en": "Niobium-107"
+		}, {
+			"weight": "107.93484",
+			"rate": "0",
+			"halfRate": "193 ms",
+
+			"hu": "Nióbium-108",
+			"en": "Niobium-108"
+		}, {
+			"weight": "108.93763",
+			"rate": "0",
+			"halfRate": "190 ms",
+
+			"hu": "Nióbium-109",
+			"en": "Niobium-109"
+		}, {
+			"weight": "109.942440",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Nióbium-110",
+			"en": "Niobium-110"
+		}, {
+			"weight": "110.945650",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Nióbium-111",
+			"en": "Niobium-111"
+		}, {
+			"weight": "111.950830",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Nióbium-112",
+			"en": "Niobium-112"
+		}, {
+			"weight": "112.954700",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Nióbium-113",
+			"en": "Niobium-113"
 		}
 	]
   }, {
@@ -7700,12 +8148,236 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "82.948740",
+			"rate": "0",
+			"halfRate": "23 ms",
 
-			"hu": "Molibdén-",
-			"en": "Molybdenum-"
+			"hu": "Molibdén-83",
+			"en": "Molybdenum-83"
+		}, {
+			"weight": "83.940090",
+			"rate": "0",
+			"halfRate": "3.8 ms",
+
+			"hu": "Molibdén-84",
+			"en": "Molybdenum-84"
+		}, {
+			"weight": "84.936550",
+			"rate": "0",
+			"halfRate": "3.2 s",
+
+			"hu": "Molibdén-85",
+			"en": "Molybdenum-85"
+		}, {
+			"weight": "85.930695904",
+			"rate": "0",
+			"halfRate": "19.6 s",
+
+			"hu": "Molibdén-86",
+			"en": "Molybdenum-86"
+		}, {
+			"weight": "86.927326502",
+			"rate": "0",
+			"halfRate": "14.05 s",
+
+			"hu": "Molibdén-87",
+			"en": "Molybdenum-87"
+		}, {
+			"weight": "87.921953241",
+			"rate": "0",
+			"halfRate": "8 min",
+
+			"hu": "Molibdén-88",
+			"en": "Molybdenum-88"
+		}, {
+			"weight": "88.919480009",
+			"rate": "0",
+			"halfRate": "2.12 min",
+
+			"hu": "Molibdén-89",
+			"en": "Molybdenum-89"
+		}, {
+			"weight": "89.913936896",
+			"rate": "0",
+			"halfRate": "5.6 h",
+
+			"hu": "Molibdén-90",
+			"en": "Molybdenum-90"
+		}, {
+			"weight": "90.911750194",
+			"rate": "0",
+			"halfRate": "15.49 min",
+
+			"hu": "Molibdén-91",
+			"en": "Molybdenum-91"
+		}, {
+			"weight": "91.906810991",
+			"rate": "14.84",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-92",
+			"en": "Molybdenum-92"
+		}, {
+			"weight": "92.90681261",
+			"rate": "0",
+			"halfRate": "4100 y",
+
+			"hu": "Molibdén-93",
+			"en": "Molybdenum-93"
+		}, {
+			"weight": "93.905088269",
+			"rate": "9.25",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-94",
+			"en": "Molybdenum-94"
+		}, {
+			"weight": "94.905842129",
+			"rate": "15.92",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-95",
+			"en": "Molybdenum-95"
+		}, {
+			"weight": "95.904679477",
+			"rate": "16.68",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-96",
+			"en": "Molybdenum-96"
+		}, {
+			"weight": "96.906021465",
+			"rate": "9.55",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-97",
+			"en": "Molybdenum-97"
+		}, {
+			"weight": "97.905408169",
+			"rate": "24.13",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-98",
+			"en": "Molybdenum-98"
+		}, {
+			"weight": "98.90771187",
+			"rate": "0",
+			"halfRate": "2.748 d",
+
+			"hu": "Molibdén-99",
+			"en": "Molybdenum-99"
+		}, {
+			"weight": "99.907477336",
+			"rate": "9.63",
+			"halfRate": "8600000000000000000 y",
+
+			"hu": "Molibdén-100",
+			"en": "Molybdenum-100"
+		}, {
+			"weight": "100.910347001",
+			"rate": "0",
+			"halfRate": "14.61 min",
+
+			"hu": "Molibdén-101",
+			"en": "Molybdenum-101"
+		}, {
+			"weight": "101.91029736",
+			"rate": "0",
+			"halfRate": "11.3 min",
+
+			"hu": "Molibdén-102",
+			"en": "Molybdenum-102"
+		}, {
+			"weight": "102.913207142",
+			"rate": "0",
+			"halfRate": "1.13 min",
+
+			"hu": "Molibdén-103",
+			"en": "Molybdenum-103"
+		}, {
+			"weight": "103.913763625",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Molibdén-104",
+			"en": "Molybdenum-104"
+		}, {
+			"weight": "104.91697461",
+			"rate": "0",
+			"halfRate": "35.6 s",
+
+			"hu": "Molibdén-105",
+			"en": "Molybdenum-105"
+		}, {
+			"weight": "105.918136802",
+			"rate": "0",
+			"halfRate": "8.73 s",
+
+			"hu": "Molibdén-106",
+			"en": "Molybdenum-106"
+		}, {
+			"weight": "106.921692604",
+			"rate": "0",
+			"halfRate": "3.5 s",
+
+			"hu": "Molibdén-107",
+			"en": "Molybdenum-107"
+		}, {
+			"weight": "107.923453",
+			"rate": "0",
+			"halfRate": "1.09 s",
+
+			"hu": "Molibdén-108",
+			"en": "Molybdenum-108"
+		}, {
+			"weight": "108.927810",
+			"rate": "0",
+			"halfRate": "530 ms",
+
+			"hu": "Molibdén-109",
+			"en": "Molybdenum-109"
+		}, {
+			"weight": "109.929730",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Molibdén-110",
+			"en": "Molybdenum-110"
+		}, {
+			"weight": "110.934410",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Molibdén-111",
+			"en": "Molybdenum-111"
+		}, {
+			"weight": "111.936840",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Molibdén-112",
+			"en": "Molybdenum-112"
+		}, {
+			"weight": "112.941880",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Molibdén-113",
+			"en": "Molybdenum-113"
+		}, {
+			"weight": "113.944920",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Molibdén-114",
+			"en": "Molybdenum-114"
+		}, {
+			"weight": "114.950290",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Molibdén-115",
+			"en": "Molybdenum-115"
 		}
 	]
   }, {
@@ -7735,12 +8407,243 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "84.948830",
+			"rate": "0",
+			"halfRate": "110 ns",
 
-			"hu": "Technécium-",
-			"en": "Technetium-"
+			"hu": "Technécium-85",
+			"en": "Technetium-85"
+		}, {
+			"weight": "85.942880",
+			"rate": "0",
+			"halfRate": "55 ms",
+
+			"hu": "Technécium-86",
+			"en": "Technetium-86"
+		, {
+			"weight": "86.936530",
+			"rate": "0",
+			"halfRate": "2.18 s",
+
+			"hu": "Technécium-87",
+			"en": "Technetium-87"
+		}, {
+			"weight": "87.932678",
+			"rate": "0",
+			"halfRate": "5.8 s",
+
+			"hu": "Technécium-88",
+			"en": "Technetium-88"
+		}, {
+			"weight": "88.927167",
+			"rate": "0",
+			"halfRate": "12.8 s",
+
+			"hu": "Technécium-89",
+			"en": "Technetium-89"
+		}, {
+			"weight": "89.923556564",
+			"rate": "0",
+			"halfRate": "8.7 s",
+
+			"hu": "Technécium-90",
+			"en": "Technetium-90"
+		}, {
+			"weight": "90.918427639",
+			"rate": "0",
+			"halfRate": "3.13 min",
+
+			"hu": "Technécium-91",
+			"en": "Technetium-91"
+		}, {
+			"weight": "91.915260166",
+			"rate": "0",
+			"halfRate": "4.25 min",
+
+			"hu": "Technécium-92",
+			"en": "Technetium-92"
+		}, {
+			"weight": "92.910248984",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Technécium-93",
+			"en": "Technetium-93"
+		}, {
+			"weight": "93.909657002",
+			"rate": "0",
+			"halfRate": "4.89 h",
+
+			"hu": "Technécium-94",
+			"en": "Technetium-94"
+		}, {
+			"weight": "94.907657084",
+			"rate": "0",
+			"halfRate": "20 h",
+
+			"hu": "Technécium-95",
+			"en": "Technetium-95"
+		}, {
+			"weight": "95.907871383",
+			"rate": "0",
+			"halfRate": "4.3 d",
+
+			"hu": "Technécium-96",
+			"en": "Technetium-96"
+		}, {
+			"weight": "96.906365358",
+			"rate": "0",
+			"halfRate": "2600000 y",
+
+			"hu": "Technécium-97",
+			"en": "Technetium-97"
+		}, {
+			"weight": "97.907215966",
+			"rate": "0",
+			"halfRate": "4100000 y",
+
+			"hu": "Technécium-98",
+			"en": "Technetium-98"
+		}, {
+			"weight": "98.906254747",
+			"rate": "0",
+			"halfRate": "211100 y",
+
+			"hu": "Technécium-99",
+			"en": "Technetium-99"
+		}, {
+			"weight": "99.90765778",
+			"rate": "0",
+			"halfRate": "15.8 s",
+
+			"hu": "Technécium-100",
+			"en": "Technetium-100"
+		}, {
+			"weight": "100.907314659",
+			"rate": "0",
+			"halfRate": "14.22 min",
+
+			"hu": "Technécium-101",
+			"en": "Technetium-101"
+		}, {
+			"weight": "101.909215019",
+			"rate": "0",
+			"halfRate": "5.28 s",
+
+			"hu": "Technécium-102",
+			"en": "Technetium-102"
+		}, {
+			"weight": "102.909181351",
+			"rate": "0",
+			"halfRate": "54.2 s",
+
+			"hu": "Technécium-103",
+			"en": "Technetium-103"
+		}, {
+			"weight": "103.911447454",
+			"rate": "0",
+			"halfRate": "18 min",
+
+			"hu": "Technécium-104",
+			"en": "Technetium-104"
+		}, {
+			"weight": "104.911660566",
+			"rate": "0",
+			"halfRate": "7.67 min",
+
+			"hu": "Technécium-105",
+			"en": "Technetium-105"
+		}, {
+			"weight": "105.914357927",
+			"rate": "0",
+			"halfRate": "35.6 s",
+
+			"hu": "Technécium-106",
+			"en": "Technetium-106"
+		}, {
+			"weight": "106.915079572",
+			"rate": "0",
+			"halfRate": "21.2 s",
+
+			"hu": "Technécium-107",
+			"en": "Technetium-107"
+		}, {
+			"weight": "107.918461226",
+			"rate": "0",
+			"halfRate": "5.17 s",
+
+			"hu": "Technécium-108",
+			"en": "Technetium-108"
+		}, {
+			"weight": "108.919982665",
+			"rate": "0",
+			"halfRate": "860 ms",
+
+			"hu": "Technécium-109",
+			"en": "Technetium-109"
+		}, {
+			"weight": "109.923820483",
+			"rate": "0",
+			"halfRate": "920 ms",
+
+			"hu": "Technécium-110",
+			"en": "Technetium-110"
+		}, {
+			"weight": "110.92569283",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Technécium-111",
+			"en": "Technetium-111"
+		}, {
+			"weight": "111.929146493",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Technécium-112",
+			"en": "Technetium-112"
+		}, {
+			"weight": "112.931590",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Technécium-113",
+			"en": "Technetium-113"
+		}, {
+			"weight": "113.935880",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Technécium-114",
+			"en": "Technetium-114"
+		}, {
+			"weight": "114.938690",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Technécium-115",
+			"en": "Technetium-115"
+		}, {
+			"weight": "115.943370",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Technécium-116",
+			"en": "Technetium-116"
+		}, {
+			"weight": "116.946480",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Technécium-117",
+			"en": "Technetium-117"
+		}, {
+			"weight": "117.951480",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Technécium-118",
+			"en": "Technetium-118"
 		}
 	]
   }, {
@@ -7774,8 +8677,239 @@
 			"rate": "",
 			"halfRate": "",
 
-			"hu": "Ruténium-",
-			"en": "Ruthenium-"
+			"hu": "Ruténium-87",
+			"en": "Ruthenium-87"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-88",
+			"en": "Ruthenium-88"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-89",
+			"en": "Ruthenium-89"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-90",
+			"en": "Ruthenium-90"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-91",
+			"en": "Ruthenium-91"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-92",
+			"en": "Ruthenium-92"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-93",
+			"en": "Ruthenium-93"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-94",
+			"en": "Ruthenium-94"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-95",
+			"en": "Ruthenium-95"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-96",
+			"en": "Ruthenium-96"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-97",
+			"en": "Ruthenium-97"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-98",
+			"en": "Ruthenium-98"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-99",
+			"en": "Ruthenium-99"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-100",
+			"en": "Ruthenium-100"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-101",
+			"en": "Ruthenium-101"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-102",
+			"en": "Ruthenium-102"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-103",
+			"en": "Ruthenium-103"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-104",
+			"en": "Ruthenium-104"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-105",
+			"en": "Ruthenium-105"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-106",
+			"en": "Ruthenium-106"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-107",
+			"en": "Ruthenium-107"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-108",
+			"en": "Ruthenium-108"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-109",
+			"en": "Ruthenium-109"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-110",
+			"en": "Ruthenium-110"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-111",
+			"en": "Ruthenium-111"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-112",
+			"en": "Ruthenium-112"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-113",
+			"en": "Ruthenium-113"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-114",
+			"en": "Ruthenium-114"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-115",
+			"en": "Ruthenium-115"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-116",
+			"en": "Ruthenium-116"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-117",
+			"en": "Ruthenium-117"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-118",
+			"en": "Ruthenium-118"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-119",
+			"en": "Ruthenium-119"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ruténium-120",
+			"en": "Ruthenium-120"
 		}
 	]
   }, {
