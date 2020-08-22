@@ -8673,240 +8673,240 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "86.94918",
+			"rate": "0",
+			"halfRate": "50 ms",
 
 			"hu": "Ruténium-87",
 			"en": "Ruthenium-87"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "87.94026",
+			"rate": "0",
+			"halfRate": "1.3 s",
 
 			"hu": "Ruténium-88",
 			"en": "Ruthenium-88"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "88.93611",
+			"rate": "0",
+			"halfRate": "1.38 s",
 
 			"hu": "Ruténium-89",
 			"en": "Ruthenium-89"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "89.92989",
+			"rate": "0",
+			"halfRate": "11 s",
 
 			"hu": "Ruténium-90",
 			"en": "Ruthenium-90"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "90.926292",
+			"rate": "0",
+			"halfRate": "9 s",
 
 			"hu": "Ruténium-91",
 			"en": "Ruthenium-91"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "91.92012",
+			"rate": "0",
+			"halfRate": "3.65 min",
 
 			"hu": "Ruténium-92",
 			"en": "Ruthenium-92"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "92.917052034",
+			"rate": "0",
+			"halfRate": "59.7 s",
 
 			"hu": "Ruténium-93",
 			"en": "Ruthenium-93"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "93.911359711",
+			"rate": "0",
+			"halfRate": "51.83 min",
 
 			"hu": "Ruténium-94",
 			"en": "Ruthenium-94"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "94.910412929",
+			"rate": "0",
+			"halfRate": "1.643 h",
 
 			"hu": "Ruténium-95",
 			"en": "Ruthenium-95"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "95.907597835",
+			"rate": "5.54",
+			"halfRate": "stable",
 
 			"hu": "Ruténium-96",
 			"en": "Ruthenium-96"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "96.9075547",
+			"rate": "0",
+			"halfRate": "2.9 d",
 
 			"hu": "Ruténium-97",
 			"en": "Ruthenium-97"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "97.905287132",
+			"rate": "1.87",
+			"halfRate": "stable",
 
 			"hu": "Ruténium-98",
 			"en": "Ruthenium-98"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "98.905939302",
+			"rate": "12.76",
+			"halfRate": "stable",
 
 			"hu": "Ruténium-99",
 			"en": "Ruthenium-99"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "99.904219476",
+			"rate": "12.6",
+			"halfRate": "stable",
 
 			"hu": "Ruténium-100",
 			"en": "Ruthenium-100"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "100.905582087",
+			"rate": "17.06",
+			"halfRate": "stable",
 
 			"hu": "Ruténium-101",
 			"en": "Ruthenium-101"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "101.904349312",
+			"rate": "31.55",
+			"halfRate": "stable",
 
 			"hu": "Ruténium-102",
 			"en": "Ruthenium-102"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "102.906323847",
+			"rate": "0",
+			"halfRate": "39.26 d",
 
 			"hu": "Ruténium-103",
 			"en": "Ruthenium-103"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "103.905432701",
+			"rate": "18.62",
+			"halfRate": "stable",
 
 			"hu": "Ruténium-104",
 			"en": "Ruthenium-104"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "104.907752866",
+			"rate": "0",
+			"halfRate": "4.4 h",
 
 			"hu": "Ruténium-105",
 			"en": "Ruthenium-105"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "105.907329433",
+			"rate": "0",
+			"halfRate": "1.0228 y",
 
 			"hu": "Ruténium-106",
 			"en": "Ruthenium-106"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "106.909905089",
+			"rate": "0",
+			"halfRate": "3.75 min",
 
 			"hu": "Ruténium-107",
 			"en": "Ruthenium-107"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "107.910173465",
+			"rate": "0",
+			"halfRate": "4.55 min",
 
 			"hu": "Ruténium-108",
 			"en": "Ruthenium-108"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "108.913203233",
+			"rate": "0",
+			"halfRate": "34.5 s",
 
 			"hu": "Ruténium-109",
 			"en": "Ruthenium-109"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "109.914136041",
+			"rate": "0",
+			"halfRate": "11.6 s",
 
 			"hu": "Ruténium-110",
 			"en": "Ruthenium-110"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "110.917696",
+			"rate": "0",
+			"halfRate": "2.12 s",
 
 			"hu": "Ruténium-111",
 			"en": "Ruthenium-111"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "111.918965",
+			"rate": "0",
+			"halfRate": "1.85 s",
 
 			"hu": "Ruténium-112",
 			"en": "Ruthenium-112"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "112.922487194",
+			"rate": "0",
+			"halfRate": "800 ms",
 
 			"hu": "Ruténium-113",
 			"en": "Ruthenium-113"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "113.924281",
+			"rate": "0",
+			"halfRate": "530 ms",
 
 			"hu": "Ruténium-114",
 			"en": "Ruthenium-114"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "114.928686173",
+			"rate": "0",
+			"halfRate": "740 ms",
 
 			"hu": "Ruténium-115",
 			"en": "Ruthenium-115"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "115.930810",
+			"rate": "0",
+			"halfRate": "400 ms",
 
 			"hu": "Ruténium-116",
 			"en": "Ruthenium-116"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "116.935580",
+			"rate": "0",
+			"halfRate": "300 ms",
 
 			"hu": "Ruténium-117",
 			"en": "Ruthenium-117"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "117.937820",
+			"rate": "0",
+			"halfRate": "200 ms",
 
 			"hu": "Ruténium-118",
 			"en": "Ruthenium-118"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "118.942840",
+			"rate": "0",
+			"halfRate": "170 ms",
 
 			"hu": "Ruténium-119",
 			"en": "Ruthenium-119"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "119.945310",
+			"rate": "0",
+			"halfRate": "80 ms",
 
 			"hu": "Ruténium-120",
 			"en": "Ruthenium-120"
@@ -8939,12 +8939,243 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "88.948837",
+			"rate": "0",
+			"halfRate": "10 ms",
 
-			"hu": "Ródium-",
-			"en": "Rhodium-"
+			"hu": "Ródium-89",
+			"en": "Rhodium-89"
+		}, {
+			"weight": "89.942870",
+			"rate": "0",
+			"halfRate": "15 ms",
+
+			"hu": "Ródium-90",
+			"en": "Rhodium-90"
+		}, {
+			"weight": "90.936550",
+			"rate": "0",
+			"halfRate": "1.74 s",
+
+			"hu": "Ródium-91",
+			"en": "Rhodium-91"
+		}, {
+			"weight": "91.931980",
+			"rate": "0",
+			"halfRate": "4.3 s",
+
+			"hu": "Ródium-92",
+			"en": "Rhodium-92"
+		}, {
+			"weight": "92.925740",
+			"rate": "0",
+			"halfRate": "13.9 s",
+
+			"hu": "Ródium-93",
+			"en": "Rhodium-93"
+		}, {
+			"weight": "93.921698",
+			"rate": "0",
+			"halfRate": "1.18 min",
+
+			"hu": "Ródium-94",
+			"en": "Rhodium-94"
+		}, {
+			"weight": "94.91589874",
+			"rate": "0",
+			"halfRate": "5.02 min",
+
+			"hu": "Ródium-95",
+			"en": "Rhodium-95"
+		}, {
+			"weight": "95.914460631",
+			"rate": "0",
+			"halfRate": "9.83 min",
+
+			"hu": "Ródium-96",
+			"en": "Rhodium-96"
+		}, {
+			"weight": "96.911336797",
+			"rate": "0",
+			"halfRate": "30.67 min",
+
+			"hu": "Ródium-97",
+			"en": "Rhodium-97"
+		}, {
+			"weight": "97.910708158",
+			"rate": "0",
+			"halfRate": "8.72 min",
+
+			"hu": "Ródium-98",
+			"en": "Rhodium-98"
+		}, {
+			"weight": "98.908132104",
+			"rate": "0",
+			"halfRate": "16.1 d",
+
+			"hu": "Ródium-99",
+			"en": "Rhodium-99"
+		}, {
+			"weight": "99.90812155",
+			"rate": "0",
+			"halfRate": "20.8 h",
+
+			"hu": "Ródium-100",
+			"en": "Rhodium-100"
+		}, {
+			"weight": "100.906163625",
+			"rate": "0",
+			"halfRate": "3.2 y",
+
+			"hu": "Ródium-101",
+			"en": "Rhodium-101"
+		}, {
+			"weight": "101.906843196",
+			"rate": "0",
+			"halfRate": "207 d",
+
+			"hu": "Ródium-102",
+			"en": "Rhodium-102"
+		}, {
+			"weight": "102.905504292",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Ródium-103",
+			"en": "Rhodium-103"
+		}, {
+			"weight": "103.906655518",
+			"rate": "0",
+			"halfRate": "42.3 s",
+
+			"hu": "Ródium-104",
+			"en": "Rhodium-104"
+		}, {
+			"weight": "104.905693821",
+			"rate": "0",
+			"halfRate": "1.473 d",
+
+			"hu": "Ródium-105",
+			"en": "Rhodium-105"
+		}, {
+			"weight": "105.907287135",
+			"rate": "0",
+			"halfRate": "29.8 s",
+
+			"hu": "Ródium-106",
+			"en": "Rhodium-106"
+		}, {
+			"weight": "106.906748423",
+			"rate": "0",
+			"halfRate": "22 min",
+
+			"hu": "Ródium-107",
+			"en": "Rhodium-107"
+		}, {
+			"weight": "107.908728018",
+			"rate": "0",
+			"halfRate": "16.8 s",
+
+			"hu": "Ródium-108",
+			"en": "Rhodium-108"
+		}, {
+			"weight": "108.908737289",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Ródium-109",
+			"en": "Rhodium-109"
+		}, {
+			"weight": "109.911136411",
+			"rate": "0",
+			"halfRate": "28.5 s",
+
+			"hu": "Ródium-110",
+			"en": "Rhodium-110"
+		}, {
+			"weight": "110.911585913",
+			"rate": "0",
+			"halfRate": "11 s",
+
+			"hu": "Ródium-111",
+			"en": "Rhodium-111"
+		}, {
+			"weight": "111.914394159",
+			"rate": "0",
+			"halfRate": "3.4 s",
+
+			"hu": "Ródium-112",
+			"en": "Rhodium-112"
+		}, {
+			"weight": "112.915530627",
+			"rate": "0",
+			"halfRate": "2.8 s",
+
+			"hu": "Ródium-113",
+			"en": "Rhodium-113"
+		}, {
+			"weight": "113.918806",
+			"rate": "0",
+			"halfRate": "1.85 s",
+
+			"hu": "Ródium-114",
+			"en": "Rhodium-114"
+		}, {
+			"weight": "114.920334",
+			"rate": "0",
+			"halfRate": "990 ms",
+
+			"hu": "Ródium-115",
+			"en": "Rhodium-115"
+		}, {
+			"weight": "115.924062",
+			"rate": "0",
+			"halfRate": "680 ms",
+
+			"hu": "Ródium-116",
+			"en": "Rhodium-116"
+		}, {
+			"weight": "116.92598",
+			"rate": "0",
+			"halfRate": "440 ms",
+
+			"hu": "Ródium-117",
+			"en": "Rhodium-117"
+		}, {
+			"weight": "117.930070",
+			"rate": "0",
+			"halfRate": "310 ms",
+
+			"hu": "Ródium-118",
+			"en": "Rhodium-118"
+		}, {
+			"weight": "118.932110",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Ródium-119",
+			"en": "Rhodium-119"
+		}, {
+			"weight": "119.936410",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Ródium-120",
+			"en": "Rhodium-120"
+		}, {
+			"weight": "120.938720",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Ródium-121",
+			"en": "Rhodium-121"
+		}, {
+			"weight": "120.938720",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Ródium-122",
+			"en": "Rhodium-122"
 		}
 	]
   }, {
@@ -8974,12 +9205,243 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
+			"weight": "90.949110",
+			"rate": "0",
+			"halfRate": "67000000",
+
+			"hu": "Palládium-91",
+			"en": "Palladium-91"
+		}, {
+			"weight": "91.940420",
+			"rate": "0",
+			"halfRate": "1.1 s",
+
+			"hu": "Palládium-92",
+			"en": "Palladium-92"
+		}, {
+			"weight": "92.935910",
+			"rate": "0",
+			"halfRate": "1.07 s",
+
+			"hu": "Palládium-93",
+			"en": "Palladium-93"
+		}, {
+			"weight": "93.928770",
+			"rate": "0",
+			"halfRate": "9 s",
+
+			"hu": "Palládium-94",
+			"en": "Palladium-94"
+		}, {
+			"weight": "94.924690",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Palládium-95",
+			"en": "Palladium-95"
+		}, {
+			"weight": "95.918164359",
+			"rate": "0",
+			"halfRate": "2.03 min",
+
+			"hu": "Palládium-96",
+			"en": "Palladium-96"
+		}, {
+			"weight": "96.916479073",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Palládium-97",
+			"en": "Palladium-97"
+		}, {
+			"weight": "97.912720902",
+			"rate": "0",
+			"halfRate": "17.67 min",
+
+			"hu": "Palládium-98",
+			"en": "Palladium-98"
+		}, {
+			"weight": "98.911767833",
+			"rate": "0",
+			"halfRate": "21.33 min",
+
+			"hu": "Palládium-99",
+			"en": "Palladium-99"
+		}, {
+			"weight": "99.908505886",
+			"rate": "0",
+			"halfRate": "3.63 d",
+
+			"hu": "Palládium-100",
+			"en": "Palladium-100"
+		}, {
+			"weight": "100.908289242",
+			"rate": "0",
+			"halfRate": "8.47 h",
+
+			"hu": "Palládium-101",
+			"en": "Palladium-101"
+		}, {
+			"weight": "101.905608544",
+			"rate": "1.02",
+			"halfRate": "stable",
+
+			"hu": "Palládium-102",
+			"en": "Palladium-102"
+		}, {
+			"weight": "102.906087307",
+			"rate": "0",
+			"halfRate": "16.99 d",
+
+			"hu": "Palládium-103",
+			"en": "Palladium-103"
+		}, {
+			"weight": "103.904035834",
+			"rate": "11.14",
+			"halfRate": "stable",
+
+			"hu": "Palládium-104",
+			"en": "Palladium-104"
+		}, {
+			"weight": "Palládium",
+			"rate": "22.33",
+			"halfRate": "stable",
+
+			"hu": "Palládium-105",
+			"en": "Palladium-105"
+		}, {
+			"weight": "105.903485715",
+			"rate": "27.33",
+			"halfRate": "stable",
+
+			"hu": "Palládium-106",
+			"en": "Palladium-106"
+		}, {
+			"weight": "106.905133481",
+			"rate": "0",
+			"halfRate": "6700000 y",
+
+			"hu": "Palládium-107",
+			"en": "Palladium-107"
+		}, {
+			"weight": "107.903891701",
+			"rate": "26.46",
+			"halfRate": "stable",
+
+			"hu": "Palládium-108",
+			"en": "Palladium-108"
+		}, {
+			"weight": "108.905950451",
+			"rate": "0",
+			"halfRate": "13.7012 h",
+
+			"hu": "Palládium-109",
+			"en": "Palladium-109"
+		}, {
+			"weight": "109.905153254",
+			"rate": "11.72",
+			"halfRate": "stable",
+
+			"hu": "Palládium-110",
+			"en": "Palladium-110"
+		}, {
+			"weight": "110.907670734",
+			"rate": "0",
+			"halfRate": "23 min",
+
+			"hu": "Palládium-111",
+			"en": "Palladium-111"
+		}, {
+			"weight": "111.907314058",
+			"rate": "0",
+			"halfRate": "21.031 h",
+
+			"hu": "Palládium-112",
+			"en": "Palladium-112"
+		}, {
+			"weight": "112.910152908",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Palládium-113",
+			"en": "Palladium-113"
+		}, {
+			"weight": "113.910362638",
+			"rate": "0",
+			"halfRate": "2.42 min",
+
+			"hu": "Palládium-114",
+			"en": "Palladium-114"
+		}, {
+			"weight": "114.913683824",
+			"rate": "0",
+			"halfRate": "25 s",
+
+			"hu": "Palládium-115",
+			"en": "Palladium-115"
+		}, {
+			"weight": "115.914158662",
+			"rate": "0",
+			"halfRate": "11.8 s",
+
+			"hu": "Palládium-116",
+			"en": "Palladium-116"
+		}, {
+			"weight": "116.917841338",
+			"rate": "0",
+			"halfRate": "4.3 s",
+
+			"hu": "Palládium-117",
+			"en": "Palladium-117"
+		}, {
+			"weight": "117.9189843",
+			"rate": "0",
+			"halfRate": "1.9 s",
+
+			"hu": "Palládium-118",
+			"en": "Palladium-118"
+		}, {
+			"weight": "118.923110",
+			"rate": "0",
+			"halfRate": "920 ms",
+
+			"hu": "Palládium-119",
+			"en": "Palladium-119"
+		}, {
+			"weight": "119.924691878",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Palládium-120",
+			"en": "Palladium-120"
+		}, {
+			"weight": "120.928870",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Palládium-121",
+			"en": "Palladium-121"
+		}, {
+			"weight": "121.930550",
+			"rate": "300 ms",
 			"halfRate": "",
 
-			"hu": "Palládium-",
-			"en": "Palladium-"
+			"hu": "Palládium-122",
+			"en": "Palladium-122"
+		}, {
+			"weight": "122.934930",
+			"rate": ""0,
+			"halfRate": "200 ms",
+
+			"hu": "Palládium-123",
+			"en": "Palladium-123"
+		}, {
+			"weight": "123.936880",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Palládium-124",
+			"en": "Palladium-124"
 		}
 	]
   }, {
@@ -9009,12 +9471,271 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "92.949780",
+			"rate": "0",
+			"halfRate": "5 ms",
 
-			"hu": "Ezüst-",
-			"en": "Silver-"
+			"hu": "Ezüst-93",
+			"en": "Silver-93"
+		}, {
+			"weight": "93.942780",
+			"rate": "0",
+			"halfRate": "37 ms",
+
+			"hu": "Ezüst-94",
+			"en": "Silver-94"
+		}, {
+			"weight": "94.935480",
+			"rate": "0",
+			"halfRate": "1.74 s",
+
+			"hu": "Ezüst-95",
+			"en": "Silver-95"
+		}, {
+			"weight": "95.930680",
+			"rate": "0",
+			"halfRate": "4.45 s",
+
+			"hu": "Ezüst-96",
+			"en": "Silver-96"
+		}, {
+			"weight": "96.923972412",
+			"rate": "0",
+			"halfRate": "25.3 s",
+
+			"hu": "Ezüst-97",
+			"en": "Silver-97"
+		}, {
+			"weight": "97.921566201",
+			"rate": "0",
+			"halfRate": "47.5 s",
+
+			"hu": "Ezüst-98",
+			"en": "Silver-98"
+		}, {
+			"weight": "98.917597178",
+			"rate": "0",
+			"halfRate": "2.07 min",
+
+			"hu": "Ezüst-99",
+			"en": "Silver-99"
+		}, {
+			"weight": "99.916104255",
+			"rate": "0",
+			"halfRate": "2.02 min",
+
+			"hu": "Ezüst-100",
+			"en": "Silver-100"
+		}, {
+			"weight": "100.912802233",
+			"rate": "0",
+			"halfRate": "11.1 min",
+
+			"hu": "Ezüst-101",
+			"en": "Silver-101"
+		}, {
+			"weight": "101.911685",
+			"rate": "0",
+			"halfRate": "12.9 min",
+
+			"hu": "Ezüst-102",
+			"en": "Silver-102"
+		}, {
+			"weight": "102.90897272",
+			"rate": "0",
+			"halfRate": "1.094 h",
+
+			"hu": "Ezüst-103",
+			"en": "Silver-103"
+		}, {
+			"weight": "103.908629157",
+			"rate": "0",
+			"halfRate": "1.153 h",
+
+			"hu": "Ezüst-104",
+			"en": "Silver-104"
+		}, {
+			"weight": "104.906528661",
+			"rate": "0",
+			"halfRate": "41.28 d",
+
+			"hu": "Ezüst-105",
+			"en": "Silver-105"
+		}, {
+			"weight": "105.906668921",
+			"rate": "0",
+			"halfRate": "23.97 min",
+
+			"hu": "Ezüst-106",
+			"en": "Silver-106"
+		}, {
+			"weight": "106.90509682",
+			"rate": "51.839",
+			"halfRate": "stable",
+
+			"hu": "Ezüst-107",
+			"en": "Silver-107"
+		}, {
+			"weight": "107.905955556",
+			"rate": "0",
+			"halfRate": "2.37 min",
+
+			"hu": "Ezüst-108",
+			"en": "Silver-108"
+		}, {
+			"weight": "108.904752292",
+			"rate": "48.161",
+			"halfRate": "stable",
+
+			"hu": "Ezüst-109",
+			"en": "Silver-109"
+		}, {
+			"weight": "109.906107231",
+			"rate": "0",
+			"halfRate": "24.6 s",
+
+			"hu": "Ezüst-110",
+			"en": "Silver-110"
+		}, {
+			"weight": "110.905291157",
+			"rate": "0",
+			"halfRate": "7.45 d",
+
+			"hu": "Ezüst-111",
+			"en": "Silver-111"
+		}, {
+			"weight": "111.907004814",
+			"rate": "0",
+			"halfRate": "3.14 h",
+
+			"hu": "Ezüst-112",
+			"en": "Silver-112"
+		}, {
+			"weight": "112.906566579",
+			"rate": "0",
+			"halfRate": "5.36 h",
+
+			"hu": "Ezüst-113",
+			"en": "Silver-113"
+		}, {
+			"weight": "113.908803704",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Ezüst-114",
+			"en": "Silver-114"
+		}, {
+			"weight": "114.908762698",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Ezüst-115",
+			"en": "Silver-115"
+		}, {
+			"weight": "115.911359933",
+			"rate": "0",
+			"halfRate": "2.68 min",
+
+			"hu": "Ezüst-116",
+			"en": "Silver-116"
+		}, {
+			"weight": "116.911684562",
+			"rate": "0",
+			"halfRate": "1.23 min",
+
+			"hu": "Ezüst-117",
+			"en": "Silver-117"
+		}, {
+			"weight": "117.914582768",
+			"rate": "0",
+			"halfRate": "3.76 s",
+
+			"hu": "Ezüst-118",
+			"en": "Silver-118"
+		}, {
+			"weight": "118.915665059",
+			"rate": "0",
+			"halfRate": "6 s",
+
+			"hu": "Ezüst-119",
+			"en": "Silver-119"
+		}, {
+			"weight": "119.918787384",
+			"rate": "0",
+			"halfRate": "1.23 s",
+
+			"hu": "Ezüst-120",
+			"en": "Silver-120"
+		}, {
+			"weight": "120.919848046",
+			"rate": "0",
+			"halfRate": "790 ms",
+
+			"hu": "Ezüst-121",
+			"en": "Silver-121"
+		}, {
+			"weight": "121.923530",
+			"rate": "0",
+			"halfRate": "520 ms",
+
+			"hu": "Ezüst-122",
+			"en": "Silver-122"
+		}, {
+			"weight": "122.924900",
+			"rate": "0",
+			"halfRate": "296 ms",
+
+			"hu": "Ezüst-123",
+			"en": "Silver-123"
+		}, {
+			"weight": "123.92864",
+			"rate": "0",
+			"halfRate": "172 ms",
+
+			"hu": "Ezüst-124",
+			"en": "Silver-124"
+		}, {
+			"weight": "124.93043",
+			"rate": "0",
+			"halfRate": "166 ms",
+
+			"hu": "Ezüst-125",
+			"en": "Silver-125"
+		}, {
+			"weight": "125.9345",
+			"rate": "0",
+			"halfRate": "107 ms",
+
+			"hu": "Ezüst-126",
+			"en": "Silver-126"
+		}, {
+			"weight": "126.93677",
+			"rate": "0",
+			"halfRate": "79 ms",
+
+			"hu": "Ezüst-127",
+			"en": "Silver-127"
+		}, {
+			"weight": "127.94117",
+			"rate": "0",
+			"halfRate": "58 ms",
+
+			"hu": "Ezüst-128",
+			"en": "Silver-128"
+		}, {
+			"weight": "128.94369",
+			"rate": "0",
+			"halfRate": "44 ms",
+
+			"hu": "Ezüst-129",
+			"en": "Silver-129"
+		}, {
+			"weight": "129.950448",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Ezüst-130",
+			"en": "Silver-130"
 		}
 	]
   }, {
