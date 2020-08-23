@@ -10360,12 +10360,278 @@
 
 	"isotopes": [
 		{
+			"weight": "98.949330",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Ón-99",
+			"en": "Tin-99"
+		}, {
+			"weight": "99.939044343",
+			"rate": "0",
+			"halfRate": "1.1 s",
+
+			"hu": "Ón-100",
+			"en": "Tin-100"
+		}, {
+			"weight": "100.936060",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Ón-101",
+			"en": "Tin-101"
+		}, {
+			"weight": "101.930295324",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Ón-102",
+			"en": "Tin-102"
+		}, {
+			"weight": "102.928100",
+			"rate": "0",
+			"halfRate": "7 s",
+
+			"hu": "Ón-103",
+			"en": "Tin-103"
+		}, {
+			"weight": "103.923143223",
+			"rate": "0",
+			"halfRate": "20.8 s",
+
+			"hu": "Ón-104",
+			"en": "Tin-104"
+		}, {
+			"weight": "104.921349437",
+			"rate": "0",
+			"halfRate": "34 s",
+
+			"hu": "Ón-105",
+			"en": "Tin-105"
+		}, {
+			"weight": "105.91688062",
+			"rate": "0",
+			"halfRate": "1.92 min",
+
+			"hu": "Ón-106",
+			"en": "Tin-106"
+		}, {
+			"weight": "105.91688062",
+			"rate": "0",
+			"halfRate": "1.92 min",
+
+			"hu": "Ón-107",
+			"en": "Tin-107"
+		}, {
+			"weight": "107.911925378",
+			"rate": "0",
+			"halfRate": "10.3 min",
+
+			"hu": "Ón-108",
+			"en": "Tin-108"
+		}, {
+			"weight": "108.911283214",
+			"rate": "0",
+			"halfRate": "18 min",
+
+			"hu": "Ón-109",
+			"en": "Tin-109"
+		}, {
+			"weight": "109.907842791",
+			"rate": "0",
+			"halfRate": "4.11 h",
+
+			"hu": "Ón-110",
+			"en": "Tin-110"
+		}, {
+			"weight": "110.90773446",
+			"rate": "0",
+			"halfRate": "35.33 min",
+
+			"hu": "Ón-111",
+			"en": "Tin-111"
+		}, {
+			"weight": "111.904818207",
+			"rate": "0.97",
+			"halfRate": "stable",
+
+			"hu": "Ón-112",
+			"en": "Tin-112"
+		}, {
 			"weight": "",
 			"rate": "",
 			"halfRate": "",
 
-			"hu": "Ón-",
-			"en": "Tin-"
+			"hu": "Ón-113",
+			"en": "Tin-113"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-114",
+			"en": "Tin-114"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-115",
+			"en": "Tin-115"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-116",
+			"en": "Tin-116"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-117",
+			"en": "Tin-117"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-118",
+			"en": "Tin-118"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-119",
+			"en": "Tin-119"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-120",
+			"en": "Tin-120"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-121",
+			"en": "Tin-121"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-122",
+			"en": "Tin-122"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-123",
+			"en": "Tin-123"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-124",
+			"en": "Tin-124"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-125",
+			"en": "Tin-125"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-126",
+			"en": "Tin-126"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-127",
+			"en": "Tin-127"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-128",
+			"en": "Tin-128"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-129",
+			"en": "Tin-129"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-130",
+			"en": "Tin-130"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-131",
+			"en": "Tin-131"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-132",
+			"en": "Tin-132"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-133",
+			"en": "Tin-133"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-134",
+			"en": "Tin-134"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-135",
+			"en": "Tin-135"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-136",
+			"en": "Tin-136"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Ón-137",
+			"en": "Tin-137"
 		}
 	]
   }, {
