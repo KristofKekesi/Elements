@@ -110,6 +110,8 @@ class cardView extends StatelessWidget {
   Widget build(BuildContext context) {
     int pass = 0;
 
+    print(AppLocalizations.of(context).translate('picoseconds'));
+
     return new FutureBuilder(
       future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
       builder: (context, snapshot) {
@@ -240,57 +242,103 @@ class cardView extends StatelessWidget {
               String toTime(input, inner) {
                 if (input.contains('y')) {
                   if (double.parse(input.replaceAll(' y', '')) <= 1) {
-                    return input.replaceAll(' y', ' year');
+                    return input.replaceAll(' y',
+                        ' ' + AppLocalizations.of(context).translate('year'));
                   } else {
-                    return input.replaceAll(' y', ' years');
+                    return input.replaceAll(' y',
+                        ' ' + AppLocalizations.of(context).translate('years'));
                   }
                 } else if (input.contains(' d')) {
                   if (double.parse(input.replaceAll(' d', '')) <= 1) {
-                    return input.replaceAll(' d', ' day');
+                    return input.replaceAll(' d',
+                        ' ' + AppLocalizations.of(context).translate('day'));
                   } else {
-                    return input.replaceAll(' d', ' days');
+                    return input.replaceAll(' d',
+                        ' ' + AppLocalizations.of(context).translate('days'));
                   }
                 } else if (input.contains(' h')) {
                   if (double.parse(input.replaceAll(' h', '')) <= 1) {
-                    return input.replaceAll(' h', ' hour');
+                    return input.replaceAll(' h',
+                        ' ' + AppLocalizations.of(context).translate('hour'));
                   } else {
-                    return input.replaceAll(' h', ' hours');
+                    return input.replaceAll(' h',
+                        ' ' + AppLocalizations.of(context).translate('hours'));
                   }
                 } else if (input.contains(' min')) {
                   if (double.parse(input.replaceAll(' min', '')) <= 1) {
-                    return input.replaceAll(' min', ' minute');
+                    return input.replaceAll(' min',
+                        ' ' + AppLocalizations.of(context).translate('minute'));
                   } else {
-                    return input.replaceAll(' min', ' minutes');
+                    return input.replaceAll(
+                        ' min',
+                        ' ' +
+                            AppLocalizations.of(context).translate('minutes'));
                   }
                 } else if (input.contains(' s')) {
                   if (double.parse(input.replaceAll(' s', '')) <= 1) {
-                    return input.replaceAll(' s', ' second');
+                    return input.replaceAll(' s',
+                        ' ' + AppLocalizations.of(context).translate('second'));
                   } else {
-                    return input.replaceAll(' s', ' seconds');
+                    return input.replaceAll(
+                        ' s',
+                        ' ' +
+                            AppLocalizations.of(context).translate('seconds'));
                   }
                 } else if (input.contains(' ms')) {
                   if (double.parse(input.replaceAll(' ms', '')) <= 1) {
-                    return input.replaceAll(' ms', ' millisecond');
+                    return input.replaceAll(
+                        ' ms',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('millisecond'));
                   } else {
-                    return input.replaceAll(' ms', ' milliseconds');
+                    return input.replaceAll(
+                        ' ms',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('milliseconds'));
                   }
                 } else if (input.contains(' ns')) {
                   if (double.parse(input.replaceAll(' ns', '')) <= 1) {
-                    return input.replaceAll(' ns', ' nanosecond');
+                    return input.replaceAll(
+                        ' ns',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('nanosecond'));
                   } else {
-                    return input.replaceAll(' ns', ' nanoseconds');
+                    return input.replaceAll(
+                        ' ns',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('nanoseconds'));
                   }
                 } else if (input.contains(' ps')) {
                   if (double.parse(input.replaceAll(' ps', '')) <= 1) {
-                    return input.replaceAll(' ps', ' picosecond');
+                    return input.replaceAll(
+                        ' ps',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('picosecond'));
                   } else {
-                    return input.replaceAll(' ps', ' picoseconds');
+                    return input.replaceAll(
+                        ' ps',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('picoseconds'));
                   }
                 } else if (input.contains(' µs')) {
                   if (double.parse(input.replaceAll(' µs', '')) <= 1) {
-                    return input.replaceAll(' µs', ' microsecond');
+                    return input.replaceAll(
+                        ' µs',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('microsecond'));
                   } else {
-                    return input.replaceAll(' µs', ' microseconds');
+                    return input.replaceAll(
+                        ' µs',
+                        ' ' +
+                            AppLocalizations.of(context)
+                                .translate('microseconds'));
                   }
                 } else if (input == 'unknown') {
                   //print(elementList[index]['isotopes'][inner]['en'] + ': UNKNOWN');
@@ -303,6 +351,7 @@ class cardView extends StatelessWidget {
                       ': ' +
                       elementList[index]['isotopes'][inner]['halfRate']);
                 }
+
                 //print(elementList[index]['isotopes'][inner]['en'] + ': ' + elementList[index]['isotopes'][inner]['halfRate']);
                 return input;
               }
@@ -360,7 +409,7 @@ class cardView extends StatelessWidget {
                             Tooltip(
                               message: AppLocalizations.of(context)
                                   .translate('isotopeName'),
-                              child: Text(
+                              child: AutoSizeText(
                                 elementList[index]['isotopes'][innerIndex][
                                     AppLocalizations.of(context)
                                         .translate('key')],
@@ -368,8 +417,9 @@ class cardView extends StatelessWidget {
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   fontSize:
-                                      MediaQuery.of(context).size.height * .035,
+                                      MediaQuery.of(context).size.height * .04,
                                 ),
+                                maxLines: 1,
                               ),
                             ),
                             Text(
@@ -397,7 +447,7 @@ class cardView extends StatelessWidget {
                                               .03,
                                     ),
                                   ),
-                                  Text(
+                                  AutoSizeText(
                                     isotopeWeight(elementList[index]['isotopes']
                                         [innerIndex]['weight']),
                                     style: TextStyle(
@@ -407,6 +457,7 @@ class cardView extends StatelessWidget {
                                           MediaQuery.of(context).size.height *
                                               .03,
                                     ),
+                                    maxLines: 1,
                                   ),
                                 ],
                               ),
@@ -436,7 +487,7 @@ class cardView extends StatelessWidget {
                                               .03,
                                     ),
                                   ),
-                                  Text(
+                                  AutoSizeText(
                                     isotopeRate(elementList[index]['isotopes']
                                         [innerIndex]['rate']),
                                     style: TextStyle(
@@ -446,6 +497,7 @@ class cardView extends StatelessWidget {
                                           MediaQuery.of(context).size.height *
                                               .03,
                                     ),
+                                    maxLines: 1,
                                   ),
                                 ],
                               ),
@@ -537,24 +589,26 @@ class cardView extends StatelessWidget {
                                                     .045),
                                           ),
                                           Expanded(
-                                              child: AutoSizeText(
-                                            ' ' +
-                                                toTime(
-                                                    elementList[index]
-                                                                ['isotopes']
-                                                            [innerIndex]
-                                                        ['halfRate'],
-                                                    innerIndex),
-                                            style: TextStyle(
-                                              color: Colors.white,
-                                              fontWeight: FontWeight.bold,
-                                              fontSize: MediaQuery.of(context)
-                                                      .size
-                                                      .height *
-                                                  .03,
+                                            child: AutoSizeText(
+                                              ' ' +
+                                                  toTime(
+                                                      elementList[index]
+                                                                  ['isotopes']
+                                                              [innerIndex]
+                                                          ['halfRate'],
+                                                      innerIndex),
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    .03,
+                                              ),
+                                              minFontSize: 1,
+                                              maxLines: 1,
                                             ),
-                                            maxLines: 1,
-                                          )),
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -741,7 +795,7 @@ class cardView extends StatelessWidget {
                                                   message: AppLocalizations.of(
                                                           context)
                                                       .translate("elementName"),
-                                                  child: Text(
+                                                  child: AutoSizeText(
                                                     elementList[index][
                                                         AppLocalizations.of(
                                                                 context)
@@ -751,17 +805,13 @@ class cardView extends StatelessWidget {
                                                           FontWeight.bold,
                                                       color: Colors.white,
                                                       height: 1.2,
-                                                      fontSize: MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .width *
-                                                          (1 /
-                                                              int.parse(AppLocalizations
-                                                                      .of(
-                                                                          context)
-                                                                  .translate(
-                                                                      "maxVolume"))),
+                                                      fontSize:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .width *
+                                                              .1,
                                                     ),
+                                                    maxLines: 1,
                                                   ),
                                                 ),
                                               ),
