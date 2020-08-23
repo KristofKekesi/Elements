@@ -1,9 +1,13 @@
 import 'dart:ui';
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:elements_rework/widgets/resultWindow.dart';
+
+import 'calculations.dart';
 import 'elements.dart';
 
+// ignore: camel_case_types
 class landing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -56,7 +60,7 @@ class landing extends StatelessWidget {
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Text(
+                      AutoSizeText(
                         " " + AppLocalizations.of(context).translate('modes'),
                         textAlign: TextAlign.left,
                         style: new TextStyle(
@@ -66,6 +70,7 @@ class landing extends StatelessWidget {
                                 .size
                                 .width * .12,
                             fontWeight: FontWeight.bold),
+                        maxLines: 1,
                       ),
                     ],
                   ),
@@ -88,7 +93,7 @@ class landing extends StatelessWidget {
                             .width) /
                         2 *
                         .05),
-                child: Text(
+                child: AutoSizeText(
                   AppLocalizations.of(context).translate('welcoming'),
                   //AppLocalizations.of(context).translate('title'),
                   style: TextStyle(
@@ -99,6 +104,7 @@ class landing extends StatelessWidget {
                         .size
                         .width * .12,
                   ),
+                  maxLines: 1,
                 ),
               ),
               Padding(
@@ -117,7 +123,7 @@ class landing extends StatelessWidget {
                             .width) /
                         2 *
                         .05),
-                child: Text(
+                child: AutoSizeText(
                   AppLocalizations.of(context).translate('subline'),
                   style: TextStyle(
                     color: Colors.black,
@@ -127,6 +133,7 @@ class landing extends StatelessWidget {
                         .size
                         .width * .07,
                   ),
+                  maxLines: 1,
                 ),
               ),
               Column(
@@ -226,6 +233,13 @@ class landing extends StatelessWidget {
                     ),
                   ),
                   GestureDetector(
+                    onTap: (){
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                          builder: (context) =>
+                      calculations(),),);
+                      },
                       child: Padding(
                         padding: EdgeInsets.only(
                             bottom: MediaQuery

@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/drawer.dart';
@@ -247,7 +248,7 @@ class _elementsState extends State<elements> {
                           width: MediaQuery.of(context).size.width * .105),
                     ),
                   ),
-                  Text(
+                  AutoSizeText(
                     " " + AppLocalizations.of(context).translate('titleElements'),
                     textAlign: TextAlign.left,
                     style: new TextStyle(
@@ -257,6 +258,7 @@ class _elementsState extends State<elements> {
                             .size
                             .width * .12,
                         fontWeight: FontWeight.bold),
+                    maxLines: 1,
                   ),
                 ],
               ),

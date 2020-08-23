@@ -153,7 +153,7 @@ void autoAboutDialog(context) {
       applicationVersion: '0.3.2',
       applicationName: 'Elements',
       applicationLegalese: 'Kristóf Kékesi',
-     applicationIcon: Image.asset('lib/icons/logo_500.png', height: 40, width: 40,
+     applicationIcon: Image.asset('lib/icons/logo_500.png', height: MediaQuery.of(context).size.width * .8, width: MediaQuery.of(context).size.width * .8,
      ), children: [Padding(
     padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .05),
     child: Text(AppLocalizations.of(context).translate('warning'),),),],);
