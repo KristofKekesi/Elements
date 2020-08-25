@@ -24,7 +24,7 @@ class customDrawer extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Container(
-              height: MediaQuery.of(context).size.height * .3,
+              height: MediaQuery.of(context).size.height * .25,
               child: DrawerHeader(
                 child: null,
                 margin: EdgeInsets.zero,
@@ -48,10 +48,22 @@ class customDrawer extends StatelessWidget {
                     style: TextStyle(
                         letterSpacing: 2,
                         fontWeight: FontWeight.bold,
-                        fontSize:
-                        MediaQuery.of(context).size.width *
-                            .07),
+                        fontSize: MediaQuery.of(context).size.width * .07),
                   ),
+                ),
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                _launchURL('https://www.patreon.com/KristofKekesi');
+              },
+              child: ListTile(
+                title: Text(
+                  'Support',
+                  style: TextStyle(
+                      letterSpacing: 2,
+                      fontWeight: FontWeight.bold,
+                      fontSize: MediaQuery.of(context).size.width * .07),
                 ),
               ),
             ),
@@ -60,7 +72,8 @@ class customDrawer extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
-                _launchURL('https://github.com/KristofKekesi/Elements/blob/master/README.md#contributors-');
+                _launchURL(
+                    'https://github.com/KristofKekesi/Elements/blob/master/README.md#contributors-');
               },
               child: ListTile(
                 title: Text(
@@ -68,23 +81,22 @@ class customDrawer extends StatelessWidget {
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize:
-                              MediaQuery.of(context).size.width *
-                          .07),
+                      fontSize: MediaQuery.of(context).size.width * .07),
                 ),
               ),
-           ),
+            ),
             GestureDetector(
-              onTap: (){_launchURL('https://github.com/KristofKekesi/Elements/blob/master/README.md#contacts-');},
+              onTap: () {
+                _launchURL(
+                    'https://github.com/KristofKekesi/Elements/blob/master/README.md#contacts-');
+              },
               child: ListTile(
                 title: Text(
                   AppLocalizations.of(context).translate('contacts'),
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize:
-                              MediaQuery.of(context).size.width *
-                          .07),
+                      fontSize: MediaQuery.of(context).size.width * .07),
                 ),
               ),
             ),
@@ -92,16 +104,17 @@ class customDrawer extends StatelessWidget {
               thickness: MediaQuery.of(context).size.height * .005,
             ),
             GestureDetector(
-              onTap: (){_launchURL('https://github.com/KristofKekesi/Elements/blob/master/README.md#license-');},
+              onTap: () {
+                _launchURL(
+                    'https://github.com/KristofKekesi/Elements/blob/master/README.md#license-');
+              },
               child: ListTile(
                 title: Text(
                   AppLocalizations.of(context).translate('license'),
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize:
-                              MediaQuery.of(context).size.width *
-                          .07),
+                      fontSize: MediaQuery.of(context).size.width * .07),
                 ),
               ),
             ),
@@ -117,8 +130,7 @@ class customDrawer extends StatelessWidget {
                             letterSpacing: 2,
                             fontWeight: FontWeight.bold,
                             fontSize:
-                                    MediaQuery.of(context).size.width *
-                                .07)))),
+                                MediaQuery.of(context).size.width * .07)))),
             Divider(
               thickness: MediaQuery.of(context).size.height * .005,
             ),
@@ -134,9 +146,7 @@ class customDrawer extends StatelessWidget {
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
-                      fontSize:
-                              MediaQuery.of(context).size.width *
-                          .05),
+                      fontSize: MediaQuery.of(context).size.width * .05),
                 ),
               ),
             ),
@@ -149,12 +159,17 @@ class customDrawer extends StatelessWidget {
 
 void autoAboutDialog(context) {
   showAboutDialog(
-      context: context,
-      applicationVersion: '0.3.2',
-      applicationName: 'Elements',
-      applicationLegalese: 'Kristóf Kékesi',
-     applicationIcon: Image.asset('lib/icons/logo_500.png', height: MediaQuery.of(context).size.width * .8, width: MediaQuery.of(context).size.width * .8,
-     ), children: [Padding(
-    padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .05),
-    child: Text(AppLocalizations.of(context).translate('warning'),),),],);
+    context: context,
+    applicationVersion: '0.3.2',
+    applicationName: 'Elements',
+    applicationLegalese: 'Kristóf Kékesi',
+    children: [
+      Padding(
+        padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .05),
+        child: Text(
+          AppLocalizations.of(context).translate('warning'),
+        ),
+      ),
+    ],
+  );
 }
