@@ -135,7 +135,7 @@
   "selectorIndicator": "Active selectors",
   "noResTitle": "No result",
   "noResContent": "Consider modifying the selectors in the main page!",
-  "moreAboutElement": "For more informations tap on the element!",
+  "moreAboutElement": "More Info",
   "num": "The element's number from the Periodic table",
   "symbol": "The element's chemical symbol",
   "elementNumber": "The element's number",
@@ -155,6 +155,6 @@
   "protonnumber": "Numbers of protons",
   "electronnumber": "Numbers of electrons",
   "neutronnumber": "Numbers of neutrons",
-  "cardView": "For the card view tap the button!",
-  "minimalView": "For the minimal view tap the button!"
+  "cardView": "Card view",
+  "minimalView": "Minimal view"
 }

@@ -135,7 +135,7 @@
   "selectorIndicator": "Aktív szűrők",
   "noResTitle": "Nincs találat",
   "noResContent": "Próbálja módosítani a szűrőket a fő oldalon!",
-  "moreAboutElement": "További információkhoz kattincson az elemre!",
+  "moreAboutElement": "Több Infó",
   "num": "Az elem száma a Periódusos rendszerben",
   "symbol": "Az elem vegyjele",
   "elementNumber": "Az elem rendszáma",
@@ -155,6 +155,6 @@
   "protonnumber": "Protonok száma",
   "electronnumber": "Elektronok száma",
   "neutronnumber": "Neutronok száma",
-  "cardView": "Kártya nézethez kattintson a gombra!",
-  "minimalView": "A minimális nézethez kattintson a gombra!"
+  "cardView": "Kártya nézet",
+  "minimalView": "Minimális nézet"
 }
