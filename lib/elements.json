@@ -8413,14 +8413,14 @@
 
 			"hu": "Technécium-85",
 			"en": "Technetium-85"
-		}, {
+		},
+		{
 			"weight": "85.942880",
 			"rate": "0",
 			"halfRate": "55 ms",
-
 			"hu": "Technécium-86",
 			"en": "Technetium-86"
-		, {
+		}, {
 			"weight": "86.936530",
 			"rate": "0",
 			"halfRate": "2.18 s",
@@ -9430,7 +9430,7 @@
 			"en": "Palladium-122"
 		}, {
 			"weight": "122.934930",
-			"rate": ""0,
+			"rate": "0",
 			"halfRate": "200 ms",
 
 			"hu": "Palládium-123",
@@ -9851,7 +9851,7 @@
 		}, {
 			"weight": "106.906617928",
 			"rate": "0",
-			"halfRate": ""6.4 h,
+			"halfRate": "6.4 h",
 
 			"hu": "Kadmium-107",
 			"en": "Cadmium-107"
@@ -12179,7 +12179,7 @@
 			"halfRate": "24 s",
 
 			"hu": "Bárium-120",
-			"en": "Barium-"120
+			"en": "Barium-120"
 		}, {
 			"weight": "120.924054499",
 			"rate": "0",
@@ -12637,7 +12637,7 @@
 			"en": "Lanthanum-144"
 		}, {
 			"weight": "144.921645401",
-			"rate": ""0,
+			"rate": "0",
 			"halfRate": "24.8 s",
 
 			"hu": "Lantán-145",
