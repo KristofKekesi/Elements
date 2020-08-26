@@ -9,6 +9,7 @@ import 'elements.dart';
 
 // ignore: camel_case_types
 class landing extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -139,6 +140,13 @@ class landing extends StatelessWidget {
               Column(
                 children: <Widget>[
                   GestureDetector(
+                    onTap: (){Scaffold.of(context).showSnackBar(
+                      SnackBar(
+                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Text(
+                          'Tests are coming in 2020.'
+                        ),],),
+                      ),),
+                    );},
                       child: Padding(
                         padding: EdgeInsets.only(
                             bottom: MediaQuery
@@ -234,11 +242,19 @@ class landing extends StatelessWidget {
                   ),
                   GestureDetector(
                     onTap: (){
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                          builder: (context) =>
-                      calculations(),),);
+//                      Navigator.push(
+//                          context,
+//                          MaterialPageRoute(
+//                          builder: (context) =>
+//                      calculations(),),);
+
+                      Scaffold.of(context).showSnackBar(
+                        SnackBar(
+                          content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Text(
+                              'Calculatins are coming in 2020.'
+                          ),],),
+                          ),),
+                      );
                       },
                       child: Padding(
                         padding: EdgeInsets.only(
@@ -335,6 +351,13 @@ class landing extends StatelessWidget {
                     ),
                   ),
                   GestureDetector(
+                    onTap: (){Scaffold.of(context).showSnackBar(
+                      SnackBar(
+                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Text(
+                            'Compounds are coming in 2021.'
+                        ),],),
+                        ),),
+                    );},
                       child: Padding(
                         padding: EdgeInsets.only(
                             bottom: MediaQuery

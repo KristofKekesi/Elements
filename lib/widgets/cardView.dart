@@ -110,8 +110,6 @@ class cardView extends StatelessWidget {
   Widget build(BuildContext context) {
     int pass = 0;
 
-    print(AppLocalizations.of(context).translate('picoseconds'));
-
     return new FutureBuilder(
       future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
       builder: (context, snapshot) {
