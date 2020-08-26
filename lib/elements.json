@@ -8417,9 +8417,10 @@
 			"weight": "85.942880",
 			"rate": "0",
 			"halfRate": "55 ms",
+
 			"hu": "Technécium-86",
 			"en": "Technetium-86"
-		}, {
+		, {
 			"weight": "86.936530",
 			"rate": "0",
 			"halfRate": "2.18 s",
@@ -9429,7 +9430,7 @@
 			"en": "Palladium-122"
 		}, {
 			"weight": "122.934930",
-			"rate": "0",
+			"rate": ""0,
 			"halfRate": "200 ms",
 
 			"hu": "Palládium-123",
@@ -9850,7 +9851,7 @@
 		}, {
 			"weight": "106.906617928",
 			"rate": "0",
-			"halfRate": "6.4 h",
+			"halfRate": ""6.4 h,
 
 			"hu": "Kadmium-107",
 			"en": "Cadmium-107"
@@ -12178,7 +12179,7 @@
 			"halfRate": "24 s",
 
 			"hu": "Bárium-120",
-			"en": "Barium-120"
+			"en": "Barium-"120
 		}, {
 			"weight": "120.924054499",
 			"rate": "0",
@@ -12636,7 +12637,7 @@
 			"en": "Lanthanum-144"
 		}, {
 			"weight": "144.921645401",
-			"rate": "0",
+			"rate": ""0,
 			"halfRate": "24.8 s",
 
 			"hu": "Lantán-145",
@@ -13342,268 +13343,267 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "123.952230",
+			"rate": "0",
+			"halfRate": "500 ms",
 
 			"hu": "Neodímium-124",
 			"en": "Neodymium-124"
 		}, {
-			"weight": "",
+			"weight": "124.948880",
 			"rate": "",
-			"halfRate": "",
+			"halfRate": "600 ms",
 
 			"hu": "Neodímium-125",
 			"en": "Neodymium-125"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "125.943220",
+			"rate": "0",
+			"halfRate": "1 s",
 
 			"hu": "Neodímium-126",
 			"en": "Neodymium-126"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "126.940500",
+			"rate": "0",
+			"halfRate": "1.8  s",
 
 			"hu": "Neodímium-127",
 			"en": "Neodymium-127"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "127.935390",
+			"rate": "0",
+			"halfRate": "5 s",
 
 			"hu": "Neodímium-128",
 			"en": "Neodymium-128"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "128.933188",
+			"rate": "0",
+			"halfRate": "4.9 s",
 
 			"hu": "Neodímium-129",
 			"en": "Neodymium-129"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "129.928506",
+			"rate": "0",
+			"halfRate": "21 s",
 
 			"hu": "Neodímium-130",
 			"en": "Neodymium-130"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "130.927247",
+			"rate": "0",
+			"halfRate": "33 s",
 
 			"hu": "Neodímium-131",
 			"en": "Neodymium-131"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "131.923321237",
+			"rate": "0",
+			"halfRate": "1.56 min",
 
 			"hu": "Neodímium-132",
 			"en": "Neodymium-132"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "132.922348",
+			"rate": "0",
+			"halfRate": "1.2 min",
 
 			"hu": "Neodímium-133",
 			"en": "Neodymium-133"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "133.918790181",
+			"rate": "0",
+			"halfRate": "8.5 min",
 
 			"hu": "Neodímium-134",
 			"en": "Neodymium-134"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "134.91818116",
+			"rate": "0",
+			"halfRate": "12.4 min",
 
 			"hu": "Neodímium-135",
 			"en": "Neodymium-135"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "135.914976035",
+			"rate": "0",
+			"halfRate": "50.67 min",
 
 			"hu": "Neodímium-136",
 			"en": "Neodymium-136"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "136.914567137",
+			"rate": "0",
+			"halfRate": "38.5 min",
 
 			"hu": "Neodímium-137",
 			"en": "Neodymium-137"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "137.911949961",
+			"rate": "0",
+			"halfRate": "5.03 h",
 
 			"hu": "Neodímium-138",
 			"en": "Neodymium-138"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "138.911978288",
+			"rate": "0",
+			"halfRate": "29.67 min",
 
 			"hu": "Neodímium-139",
 			"en": "Neodymium-139"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "139.909552",
+			"rate": "0",
+			"halfRate": "3.37 d",
 
 			"hu": "Neodímium-140",
 			"en": "Neodymium-140"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "140.909609854",
+			"rate": "0",
+			"halfRate": "2.489 h",
 
 			"hu": "Neodímium-141",
 			"en": "Neodymium-141"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "141.907723297",
+			"rate": "27.2",
+			"halfRate": "stable",
 
 			"hu": "Neodímium-142",
 			"en": "Neodymium-142"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "142.90981429",
+			"rate": "12.2",
+			"halfRate": "stable",
 
 			"hu": "Neodímium-143",
 			"en": "Neodymium-143"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "143.910087274",
+			"rate": "23.8",
+			"halfRate": "2290000000000000 y",
 
 			"hu": "Neodímium-144",
 			"en": "Neodymium-144"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "144.912573636",
+			"rate": "8.3",
+			"halfRate": "stable",
 
 			"hu": "Neodímium-145",
 			"en": "Neodymium-145"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "145.913116939",
+			"rate": "17.2",
+			"halfRate": "stable",
 
 			"hu": "Neodímium-146",
 			"en": "Neodymium-146"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "146.916100441",
+			"rate": "0",
+			"halfRate": "10.98 d",
 
 			"hu": "Neodímium-147",
 			"en": "Neodymium-147"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
-
+			"weight": "147.916893288",
+			"rate": "5.7",
+			"halfRate": "stable",
 			"hu": "Neodímium-148",
 			"en": "Neodymium-148"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "148.920148842",
+			"rate": "0",
+			"halfRate": "1.728 h",
 
 			"hu": "Neodímium-149",
 			"en": "Neodymium-149"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "149.920890888",
+			"rate": "5.6",
+			"halfRate": "6700000000000000000 y",
 
 			"hu": "Neodímium-150",
 			"en": "Neodymium-150"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "150.923828929",
+			"rate": "0",
+			"halfRate": "12.44 min",
 
 			"hu": "Neodímium-151",
 			"en": "Neodymium-151"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "151.924682219",
+			"rate": "0",
+			"halfRate": "11.4 min",
 
 			"hu": "Neodímium-152",
 			"en": "Neodymium-152"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "152.927698232",
+			"rate": "0",
+			"halfRate": "31.6 s",
 
 			"hu": "Neodímium-153",
 			"en": "Neodymium-153"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "153.929477307",
+			"rate": "0",
+			"halfRate": "25.9 s",
 
 			"hu": "Neodímium-154",
 			"en": "Neodymium-154"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "154.932932",
+			"rate": "0",
+			"halfRate": "8.9 s",
 
 			"hu": "Neodímium-155",
 			"en": "Neodymium-155"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "155.935018114",
+			"rate": "0",
+			"halfRate": "5.49 s",
 
 			"hu": "Neodímium-156",
 			"en": "Neodymium-156"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "156.93903",
+			"rate": "0",
+			"halfRate": "2 s",
 
 			"hu": "Neodímium-157",
 			"en": "Neodymium-157"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "157.9416",
+			"rate": "0",
+			"halfRate": "700 ms",
 
 			"hu": "Neodímium-158",
 			"en": "Neodymium-158"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "158.946090",
+			"rate": "0",
+			"halfRate": "500 ms",
 
 			"hu": "Neodímium-159",
 			"en": "Neodymium-159"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "159.949090",
+			"rate": "0",
+			"halfRate": "300 ms",
 
 			"hu": "Neodímium-160",
 			"en": "Neodymium-160"
 		}, {
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "160.953880",
+			"rate": "0",
+			"halfRate": "200 ms",
 
 			"hu": "Neodímium-161",
 			"en": "Neodymium-161"
@@ -13636,12 +13636,271 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "125.95752",
+			"rate": "0",
+			"halfRate": "500 ms",
 
-			"hu": "Prométium-",
-			"en": "Promethium-"
+			"hu": "Prométium-126",
+			"en": "Promethium-126"
+		}, {
+			"weight": "126.95163",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Prométium-127",
+			"en": "Promethium-127"
+		}, {
+			"weight": "127.94842",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Prométium-128",
+			"en": "Promethium-128"
+		}, {
+			"weight": "128.94316",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Prométium-129",
+			"en": "Promethium-129"
+		}, {
+			"weight": "129.94045",
+			"rate": "0",
+			"halfRate": "2.6 s",
+
+			"hu": "Prométium-130",
+			"en": "Promethium-130"
+		}, {
+			"weight": "130.93587",
+			"rate": "0",
+			"halfRate": "6.3 s",
+
+			"hu": "Prométium-131",
+			"en": "Promethium-131"
+		}, {
+			"weight": "131.93375",
+			"rate": "0",
+			"halfRate": "6.3 s",
+
+			"hu": "Prométium-132",
+			"en": "Promethium-132"
+		}, {
+			"weight": "132.929782",
+			"rate": "0",
+			"halfRate": "15 s",
+
+			"hu": "Prométium-133",
+			"en": "Promethium-133"
+		}, {
+			"weight": "133.928353",
+			"rate": "0",
+			"halfRate": "22 s",
+
+			"hu": "Prométium-134",
+			"en": "Promethium-134"
+		}, {
+			"weight": "134.924876",
+			"rate": "0",
+			"halfRate": "49 s",
+
+			"hu": "Prométium-135",
+			"en": "Promethium-135"
+		}, {
+			"weight": "135.923565829",
+			"rate": "0",
+			"halfRate": "1.78 min",
+
+			"hu": "Prométium-136",
+			"en": "Promethium-136"
+		}, {
+			"weight": "136.920479493",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Prométium-137",
+			"en": "Promethium-137"
+		}, {
+			"weight": "137.919548281",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Prométium-138",
+			"en": "Promethium-138"
+		}, {
+			"weight": "138.916804082",
+			"rate": "0",
+			"halfRate": "4.15 min",
+
+			"hu": "Prométium-139",
+			"en": "Promethium-139"
+		}, {
+			"weight": "139.916041789",
+			"rate": "0",
+			"halfRate": "9.2 s",
+
+			"hu": "Prométium-140",
+			"en": "Promethium-140"
+		}, {
+			"weight": "140.913555054",
+			"rate": "0",
+			"halfRate": "20.83 min",
+
+			"hu": "Prométium-141",
+			"en": "Promethium-141"
+		}, {
+			"weight": "141.912874471",
+			"rate": "0",
+			"halfRate": "40.5 s",
+
+			"hu": "Prométium-142",
+			"en": "Promethium-142"
+		}, {
+			"weight": "142.910932616",
+			"rate": "0",
+			"halfRate": "265 d",
+
+			"hu": "Prométium-143",
+			"en": "Promethium-143"
+		}, {
+			"weight": "143.912590843",
+			"rate": "0",
+			"halfRate": "363 d",
+
+			"hu": "Prométium-144",
+			"en": "Promethium-144"
+		}, {
+			"weight": "144.912749023",
+			"rate": "0",
+			"halfRate": "17.7 y",
+
+			"hu": "Prométium-145",
+			"en": "Promethium-145"
+		}, {
+			"weight": "145.914696305",
+			"rate": "0",
+			"halfRate": "5.55 y",
+
+			"hu": "Prométium-146",
+			"en": "Promethium-146"
+		}, {
+			"weight": "146.915138545",
+			"rate": "0",
+			"halfRate": "2.6234 y",
+
+			"hu": "Prométium-147",
+			"en": "Promethium-147"
+		}, {
+			"weight": "147.917474618",
+			"rate": "0",
+			"halfRate": "5.368 d",
+
+			"hu": "Prométium-148",
+			"en": "Promethium-148"
+		}, {
+			"weight": "148.918334155",
+			"rate": "0",
+			"halfRate": "2.212 d",
+
+			"hu": "Prométium-149",
+			"en": "Promethium-149"
+		}, {
+			"weight": "149.920983561",
+			"rate": "0",
+			"halfRate": "2.681 h",
+
+			"hu": "Prométium-150",
+			"en": "Promethium-150"
+		}, {
+			"weight": "150.921206973",
+			"rate": "0",
+			"halfRate": "1.18 d",
+
+			"hu": "Prométium-151",
+			"en": "Promethium-151"
+		}, {
+			"weight": "151.923496795",
+			"rate": "0",
+			"halfRate": "4.12 min",
+
+			"hu": "Prométium-152",
+			"en": "Promethium-152"
+		}, {
+			"weight": "152.924116889",
+			"rate": "0",
+			"halfRate": "5.25 min",
+
+			"hu": "Prométium-153",
+			"en": "Promethium-153"
+		}, {
+			"weight": "153.926463943",
+			"rate": "0",
+			"halfRate": "1.73 min",
+
+			"hu": "Prométium-154",
+			"en": "Promethium-145"
+		}, {
+			"weight": "154.928101267",
+			"rate": "0",
+			"halfRate": "41.5 s",
+
+			"hu": "Prométium-155",
+			"en": "Promethium-155"
+		}, {
+			"weight": "155.931056736",
+			"rate": "0",
+			"halfRate": "26.7 s",
+
+			"hu": "Prométium-156",
+			"en": "Promethium-156"
+		}, {
+			"weight": "156.933039369",
+			"rate": "0",
+			"halfRate": "10.56 s",
+
+			"hu": "Prométium-157",
+			"en": "Promethium-157"
+		}, {
+			"weight": "157.936561407",
+			"rate": "0",
+			"halfRate": "4.8 s",
+
+			"hu": "Prométium-158",
+			"en": "Promethium-158"
+		}, {
+			"weight": "158.938970",
+			"rate": "0",
+			"halfRate": "1.47 s",
+
+			"hu": "Prométium-159",
+			"en": "Promethium-159"
+		}, {
+			"weight": "159.942990",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Prométium-160",
+			"en": "Promethium-160"
+		}, {
+			"weight": "160.945860",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Prométium-161",
+			"en": "Promethium-161"
+		}, {
+			"weight": "161.950290",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Prométium-162",
+			"en": "Promethium-162"
+		}, {
+			"weight": "162.95368",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Prométium-163",
+			"en": "Promethium-163"
 		}
 	]
   }, {
@@ -13671,12 +13930,271 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "127.958080",
+			"rate": "0",
+			"halfRate": "500 ms",
 
-			"hu": "Szamárium-",
-			"en": "Samarium-"
+			"hu": "Szamárium-128",
+			"en": "Samarium-128"
+		}, {
+			"weight": "128.954640",
+			"rate": "0",
+			"halfRate": "550 ms",
+
+			"hu": "Szamárium-129",
+			"en": "Samarium-129"
+		}, {
+			"weight": "129.948920",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Szamárium-130",
+			"en": "Samarium-130"
+		}, {
+			"weight": "130.946110",
+			"rate": "0",
+			"halfRate": "1.2 s",
+
+			"hu": "Szamárium-131",
+			"en": "Samarium-131"
+		}, {
+			"weight": "131.940690",
+			"rate": "0",
+			"halfRate": "4 s",
+
+			"hu": "Szamárium-132",
+			"en": "Samarium-132"
+		}, {
+			"weight": "132.938670",
+			"rate": "0",
+			"halfRate": "2.9 s",
+
+			"hu": "Szamárium-133",
+			"en": "Samarium-133"
+		}, {
+			"weight": "133.933970",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Szamárium-134",
+			"en": "Samarium-134"
+		}, {
+			"weight": "134.93252",
+			"rate": "0",
+			"halfRate": "10.3 s",
+
+			"hu": "Szamárium-135",
+			"en": "Samarium-135"
+		}, {
+			"weight": "135.928275527",
+			"rate": "0",
+			"halfRate": "47 s",
+
+			"hu": "Szamárium-136",
+			"en": "Samarium-136"
+		}, {
+			"weight": "136.926971746",
+			"rate": "0",
+			"halfRate": "45 s",
+
+			"hu": "Szamárium-137",
+			"en": "Samarium-137"
+		}, {
+			"weight": "137.923243961",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Szamárium-138",
+			"en": "Samarium-138"
+		}, {
+			"weight": "138.922296605",
+			"rate": "0",
+			"halfRate": "2.57 min",
+
+			"hu": "Szamárium-139",
+			"en": "Samarium-139"
+		}, {
+			"weight": "139.918994687",
+			"rate": "0",
+			"halfRate": "14.82 min",
+
+			"hu": "Szamárium-140",
+			"en": "Samarium-140"
+		}, {
+			"weight": "140.918476488",
+			"rate": "0",
+			"halfRate": "10.2 min",
+
+			"hu": "Szamárium-141",
+			"en": "Samarium-141"
+		}, {
+			"weight": "141.915197641",
+			"rate": "0",
+			"halfRate": "1.208 h",
+
+			"hu": "Szamárium-142",
+			"en": "Samarium-142"
+		}, {
+			"weight": "142.914628338",
+			"rate": "0",
+			"halfRate": "8.75 min",
+
+			"hu": "Szamárium-143",
+			"en": "Samarium-143"
+		}, {
+			"weight": "143.911999478",
+			"rate": "3.07",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-144",
+			"en": "Samarium-144"
+		}, {
+			"weight": "144.913410353",
+			"rate": "0",
+			"halfRate": "340 d",
+
+			"hu": "Szamárium-145",
+			"en": "Samarium-145"
+		}, {
+			"weight": "145.9130409",
+			"rate": "0",
+			"halfRate": "103000000 y",
+
+			"hu": "Szamárium-146",
+			"en": "Samarium-146"
+		}, {
+			"weight": "146.914897923",
+			"rate": "14.99",
+			"halfRate": "106000000000 y",
+
+			"hu": "Szamárium-147",
+			"en": "Samarium-147"
+		}, {
+			"weight": "147.914822674",
+			"rate": "11.24",
+			"halfRate": "7000000000000000 y",
+
+			"hu": "Szamárium-148",
+			"en": "Samarium-148"
+		}, {
+			"weight": "148.917184735",
+			"rate": "13.82",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-149",
+			"en": "Samarium-149"
+		}, {
+			"weight": "149.917275539",
+			"rate": "7.38",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-150",
+			"en": "Samarium-150"
+		}, {
+			"weight": "150.919932409",
+			"rate": "0",
+			"halfRate": "89 y",
+
+			"hu": "Szamárium-151",
+			"en": "Samarium-151"
+		}, {
+			"weight": "151.919732425",
+			"rate": "26.75",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-152",
+			"en": "Samarium-152"
+		}, {
+			"weight": "152.922097356",
+			"rate": "0",
+			"halfRate": "1.92847 d",
+
+			"hu": "Szamárium-153",
+			"en": "Samarium-153"
+		}, {
+			"weight": "153.922209273",
+			"rate": "22.75",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-154",
+			"en": "Samarium-154"
+		}, {
+			"weight": "154.924640161",
+			"rate": "0",
+			"halfRate": "22.33 min",
+
+			"hu": "Szamárium-155",
+			"en": "Samarium-155"
+		}, {
+			"weight": "155.925527887",
+			"rate": "0",
+			"halfRate": "9.4 h",
+
+			"hu": "Szamárium-156",
+			"en": "Samarium-156"
+		}, {
+			"weight": "156.928358717",
+			"rate": "0",
+			"halfRate": "8.03 min",
+
+			"hu": "Szamárium-157",
+			"en": "Samarium-157"
+		}, {
+			"weight": "157.929991317",
+			"rate": "0",
+			"halfRate": "5.33 min",
+
+			"hu": "Szamárium-158",
+			"en": "Samarium-158"
+		}, {
+			"weight": "158.933211271",
+			"rate": "0",
+			"halfRate": "11.37 s",
+
+			"hu": "Szamárium-159",
+			"en": "Samarium-159"
+		}, {
+			"weight": "159.935140",
+			"rate": "0",
+			"halfRate": "9.6 s",
+
+			"hu": "Szamárium-160",
+			"en": "Samarium-160"
+		}, {
+			"weight": "160.938830",
+			"rate": "0",
+			"halfRate": "4.8 s",
+
+			"hu": "Szamárium-161",
+			"en": "Samarium-161"
+		}, {
+			"weight": "161.941220",
+			"rate": "0",
+			"halfRate": "2.4 s",
+
+			"hu": "Szamárium-162",
+			"en": "Samarium-162"
+		}, {
+			"weight": "162.945360",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Szamárium-163",
+			"en": "Samarium-163"
+		}, {
+			"weight": "163.948280",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Szamárium-164",
+			"en": "Samarium-164"
+		}, {
+			"weight": "164.952980",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Szamárium-165",
+			"en": "Samarium-165"
 		}
 	]
   }, {
@@ -13706,12 +14224,271 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "129.963569",
+			"rate": "0",
+			"halfRate": "1.1 ms",
 
-			"hu": "Európium-",
-			"en": "Europium-"
+			"hu": "Európium-130",
+			"en": "Europium-130"
+		}, {
+			"weight": "130.957753",
+			"rate": "0",
+			"halfRate": "17.8 ms",
+
+			"hu": "Európium-131",
+			"en": "Europium-131"
+		}, {
+			"weight": "131.954370",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Európium-132",
+			"en": "Europium-132"
+		}, {
+			"weight": "132.949240",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Európium-133",
+			"en": "Europium-133"
+		}, {
+			"weight": "133.946510",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Európium-134",
+			"en": "Europium-134"
+		}, {
+			"weight": "134.941820",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Európium-135",
+			"en": "Europium-135"
+		}, {
+			"weight": "135.939600",
+			"rate": "0",
+			"halfRate": "3.3 s",
+
+			"hu": "Európium-136",
+			"en": "Europium-136"
+		}, {
+			"weight": "136.935570",
+			"rate": "0",
+			"halfRate": "8.4 s",
+
+			"hu": "Európium-137",
+			"en": "Europium-137"
+		}, {
+			"weight": "137.933709",
+			"rate": "0",
+			"halfRate": "12.1 s",
+
+			"hu": "Európium-138",
+			"en": "Europium-138"
+		}, {
+			"weight": "138.92979228",
+			"rate": "0",
+			"halfRate": "17.9 s",
+
+			"hu": "Európium-139",
+			"en": "Europium-139"
+		}, {
+			"weight": "139.928087607",
+			"rate": "0",
+			"halfRate": "1.51 s",
+
+			"hu": "Európium-140",
+			"en": "Europium-140"
+		}, {
+			"weight": "140.92493072",
+			"rate": "0",
+			"halfRate": "40.7 s",
+
+			"hu": "Európium-141",
+			"en": "Europium-141"
+		}, {
+			"weight": "141.923434945",
+			"rate": "0",
+			"halfRate": "2.36 s",
+
+			"hu": "Európium-142",
+			"en": "Europium-142"
+		}, {
+			"weight": "142.920297509",
+			"rate": "0",
+			"halfRate": "2.58 min",
+
+			"hu": "Európium-143",
+			"en": "Europium-143"
+		}, {
+			"weight": "143.918816823",
+			"rate": "0",
+			"halfRate": "10.2 s",
+
+			"hu": "Európium-144",
+			"en": "Europium-144"
+		}, {
+			"weight": "144.916265237",
+			"rate": "0",
+			"halfRate": "5.93 d",
+
+			"hu": "Európium-145",
+			"en": "Europium-145"
+		}, {
+			"weight": "145.917205817",
+			"rate": "0",
+			"halfRate": "4.61 d",
+
+			"hu": "Európium-146",
+			"en": "Europium-146"
+		}, {
+			"weight": "146.916746111",
+			"rate": "0",
+			"halfRate": "24.1 d",
+
+			"hu": "Európium-147",
+			"en": "Europium-147"
+		}, {
+			"weight": "147.918085895",
+			"rate": "0",
+			"halfRate": "54.5 d",
+
+			"hu": "Európium-148",
+			"en": "Europium-148"
+		}, {
+			"weight": "148.917931238",
+			"rate": "0",
+			"halfRate": "93.1 d",
+
+			"hu": "Európium-149",
+			"en": "Europium-149"
+		}, {
+			"weight": "149.919701819",
+			"rate": "0",
+			"halfRate": "36.8 y",
+
+			"hu": "Európium-150",
+			"en": "Europium-150"
+		}, {
+			"weight": "150.919850161",
+			"rate": "47.81",
+			"halfRate": "stable",
+
+			"hu": "Európium-151",
+			"en": "Europium-151"
+		}, {
+			"weight": "151.921744534",
+			"rate": "0",
+			"halfRate": "13.537 y",
+
+			"hu": "Európium-152",
+			"en": "Europium-152"
+		}, {
+			"weight": "152.921230339",
+			"rate": "52.19",
+			"halfRate": "stable",
+
+			"hu": "Európium-153",
+			"en": "Europium-153"
+		}, {
+			"weight": "153.922979237",
+			"rate": "0",
+			"halfRate": "8.594 y",
+
+			"hu": "Európium-154",
+			"en": "Europium-154"
+		}, {
+			"weight": "154.92289326",
+			"rate": "0",
+			"halfRate": "4.7612 y",
+
+			"hu": "Európium-155",
+			"en": "Europium-155"
+		}, {
+			"weight": "155.924752249",
+			"rate": "0",
+			"halfRate": "15.19 d",
+
+			"hu": "Európium-156",
+			"en": "Europium-156"
+		}, {
+			"weight": "156.925423647",
+			"rate": "0",
+			"halfRate": "15.181 h",
+
+			"hu": "Európium-157",
+			"en": "Europium-157"
+		}, {
+			"weight": "157.927845302",
+			"rate": "0",
+			"halfRate": "45.83 min",
+
+			"hu": "Európium-158",
+			"en": "Europium-158"
+		}, {
+			"weight": "158.929088861",
+			"rate": "0",
+			"halfRate": "18.17 min",
+
+			"hu": "Európium-159",
+			"en": "Europium-159"
+		}, {
+			"weight": "159.931971",
+			"rate": "0",
+			"halfRate": "38 s",
+
+			"hu": "Európium-160",
+			"en": "Europium-160"
+		}, {
+			"weight": "160.933680",
+			"rate": "0",
+			"halfRate": "26 s",
+
+			"hu": "Európium-161",
+			"en": "Europium-161"
+		}, {
+			"weight": "161.937040",
+			"rate": "0",
+			"halfRate": "10.6 s",
+
+			"hu": "Európium-162",
+			"en": "Europium-162"
+		}, {
+			"weight": "162.939210",
+			"rate": "0",
+			"halfRate": "6 s",
+
+			"hu": "Európium-163",
+			"en": "Europium-163"
+		}, {
+			"weight": "163.942990",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Európium-164",
+			"en": "Europium-164"
+		}, {
+			"weight": "164.945720",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Európium-165",
+			"en": "Europium-165"
+		}, {
+			"weight": "165.949970",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Európium-166",
+			"en": "Europium-166"
+		}, {
+			"weight": "166.953210",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Európium-167",
+			"en": "Europium-167"
 		}
 	]
   }, {
@@ -13741,12 +14518,257 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "133.955370",
+			"rate": "0",
+			"halfRate": "400 ms",
 
-			"hu": "Gadolínium-",
-			"en": "Gadolinium-"
+			"hu": "Gadolínium-134",
+			"en": "Gadolinium-134"
+		}, {
+			"weight": "134.952570",
+			"rate": "0",
+			"halfRate": "1.1 s",
+
+			"hu": "Gadolínium-135",
+			"en": "Gadolinium-135"
+		}, {
+			"weight": "135.947340",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Gadolínium-136",
+			"en": "Gadolinium-136"
+		}, {
+			"weight": "136.945020",
+			"rate": "0",
+			"halfRate": "2.2 s",
+
+			"hu": "Gadolínium-137",
+			"en": "Gadolinium-137"
+		}, {
+			"weight": "137.940120",
+			"rate": "0",
+			"halfRate": "4.7 s",
+
+			"hu": "Gadolínium-138",
+			"en": "Gadolinium-138"
+		}, {
+			"weight": "138.938240",
+			"rate": "0",
+			"halfRate": "5.7 s",
+
+			"hu": "Gadolínium-139",
+			"en": "Gadolinium-139"
+		}, {
+			"weight": "139.933674",
+			"rate": "0",
+			"halfRate": "15.8 s",
+
+			"hu": "Gadolínium-140",
+			"en": "Gadolinium-140"
+		}, {
+			"weight": "140.932126",
+			"rate": "0",
+			"halfRate": "14 s",
+
+			"hu": "Gadolínium-141",
+			"en": "Gadolinium-141"
+		}, {
+			"weight": "141.928116",
+			"rate": "0",
+			"halfRate": "1.17 min",
+
+			"hu": "Gadolínium-142",
+			"en": "Gadolinium-142"
+		}, {
+			"weight": "142.92674951",
+			"rate": "0",
+			"halfRate": "39 s",
+
+			"hu": "Gadolínium-143",
+			"en": "Gadolinium-143"
+		}, {
+			"weight": "143.922963",
+			"rate": "0",
+			"halfRate": "4.47 min",
+
+			"hu": "Gadolínium-144",
+			"en": "Gadolinium-144"
+		}, {
+			"weight": "144.921709252",
+			"rate": "0",
+			"halfRate": "23 min",
+
+			"hu": "Gadolínium-145",
+			"en": "Gadolinium-145"
+		}, {
+			"weight": "145.918310608",
+			"rate": "0",
+			"halfRate": "48.28 d",
+
+			"hu": "Gadolínium-146",
+			"en": "Gadolinium-146"
+		}, {
+			"weight": "146.91909442",
+			"rate": "0",
+			"halfRate": "1.59 d",
+
+			"hu": "Gadolínium-147",
+			"en": "Gadolinium-147"
+		}, {
+			"weight": "147.918114524",
+			"rate": "0",
+			"halfRate": "74.5 y",
+
+			"hu": "Gadolínium-148",
+			"en": "Gadolinium-148"
+		}, {
+			"weight": "148.919340915",
+			"rate": "0",
+			"halfRate": "9.28 d",
+
+			"hu": "Gadolínium-149",
+			"en": "Gadolinium-149"
+		}, {
+			"weight": "149.918658876",
+			"rate": "0",
+			"halfRate": "1790000 y",
+
+			"hu": "Gadolínium-150",
+			"en": "Gadolinium-150"
+		}, {
+			"weight": "150.920348482",
+			"rate": "0",
+			"halfRate": "124 d",
+
+			"hu": "Gadolínium-151",
+			"en": "Gadolinium-151"
+		}, {
+			"weight": "151.919790996",
+			"rate": "0.2",
+			"halfRate": "008000000000000 y",
+
+			"hu": "Gadolínium-152",
+			"en": "Gadolinium-152"
+		}, {
+			"weight": "152.921749543",
+			"rate": "0",
+			"halfRate": "240.4 d",
+
+			"hu": "Gadolínium-153",
+			"en": "Gadolinium-153"
+		}, {
+			"weight": "153.920865598",
+			"rate": "2.18",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-154",
+			"en": "Gadolinium-145"
+		}, {
+			"weight": "154.922622022",
+			"rate": "14.8",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-155",
+			"en": "Gadolinium-155"
+		}, {
+			"weight": "155.922122743",
+			"rate": "20.47",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-156",
+			"en": "Gadolinium-156"
+		}, {
+			"weight": "156.923960135",
+			"rate": "15.65",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-157",
+			"en": "Gadolinium-157"
+		}, {
+			"weight": "157.924103912",
+			"rate": "24.84",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-158",
+			"en": "Gadolinium-158"
+		}, {
+			"weight": "158.926388658",
+			"rate": "0",
+			"halfRate": "18.479 h",
+
+			"hu": "Gadolínium-159",
+			"en": "Gadolinium-159"
+		}, {
+			"weight": "159.927054146",
+			"rate": "21.86",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-160",
+			"en": "Gadolinium-160"
+		}, {
+			"weight": "160.929669211",
+			"rate": "0",
+			"halfRate": "3.647 min",
+
+			"hu": "Gadolínium-161",
+			"en": "Gadolinium-161"
+		}, {
+			"weight": "161.930984751",
+			"rate": "0",
+			"halfRate": "8.3 min",
+
+			"hu": "Gadolínium-162",
+			"en": "Gadolinium-162"
+		}, {
+			"weight": "162.933990",
+			"rate": "0",
+			"halfRate": "1.1 min",
+
+			"hu": "Gadolínium-163",
+			"en": "Gadolinium-163"
+		}, {
+			"weight": "163.935860",
+			"rate": "0",
+			"halfRate": "45 s",
+
+			"hu": "Gadolínium-164",
+			"en": "Gadolinium-164"
+		}, {
+			"weight": "164.939380",
+			"rate": "0",
+			"halfRate": "10.3 s",
+
+			"hu": "Gadolínium-165",
+			"en": "Gadolinium-165"
+		}, {
+			"weight": "165.941600",
+			"rate": "0",
+			"halfRate": "4.8 s",
+
+			"hu": "Gadolínium-166",
+			"en": "Gadolinium-166"
+		}, {
+			"weight": "166.945570",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Gadolínium-167",
+			"en": "Gadolinium-167"
+		}, {
+			"weight": "167.948360",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Gadolínium-168",
+			"en": "Gadolinium-168"
+		}, {
+			"weight": "168.952870",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Gadolínium-169",
+			"en": "Gadolinium-169"
 		}
 	]
   }, {
@@ -13780,8 +14802,253 @@
 			"rate": "",
 			"halfRate": "",
 
-			"hu": "Terbium-",
-			"en": "Terbium-"
+			"hu": "Terbium-136",
+			"en": "Terbium-136"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-137",
+			"en": "Terbium-137"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-138",
+			"en": "Terbium-138"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-139",
+			"en": "Terbium-139"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-140",
+			"en": "Terbium-140"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-141",
+			"en": "Terbium-141"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-142",
+			"en": "Terbium-142"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-143",
+			"en": "Terbium-143"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-144",
+			"en": "Terbium-144"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-145",
+			"en": "Terbium-145"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-146",
+			"en": "Terbium-146"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-147",
+			"en": "Terbium-147"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-148",
+			"en": "Terbium-148"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-149",
+			"en": "Terbium-149"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-150",
+			"en": "Terbium-150"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-151",
+			"en": "Terbium-151"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-152",
+			"en": "Terbium-152"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-153",
+			"en": "Terbium-153"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-154",
+			"en": "Terbium-154"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-155",
+			"en": "Terbium-155"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-156",
+			"en": "Terbium-156"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-157",
+			"en": "Terbium-157"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-158",
+			"en": "Terbium-158"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-159",
+			"en": "Terbium-159"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-160",
+			"en": "Terbium-160"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-161",
+			"en": "Terbium-161"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-162",
+			"en": "Terbium-162"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-163",
+			"en": "Terbium-163"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-164",
+			"en": "Terbium-164"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-165",
+			"en": "Terbium-165"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-166",
+			"en": "Terbium-166"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-167",
+			"en": "Terbium-167"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-168",
+			"en": "Terbium-168"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-169",
+			"en": "Terbium-169"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-170",
+			"en": "Terbium-170"
+		}, {
+			"weight": "",
+			"rate": "",
+			"halfRate": "",
+
+			"hu": "Terbium-171",
+			"en": "Terbium-171"
 		}
 	]
   }, {
