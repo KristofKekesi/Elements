@@ -16457,12 +16457,250 @@
 
 	"isotopes": [
 		{
-			"weight": "",
-			"rate": "",
-			"halfRate": "",
+			"weight": "149.973228",
+			"rate": "0",
+			"halfRate": "46 ms",
 
-			"hu": "Lutécium-",
-			"en": "Lutetium-"
+			"hu": "Lutécium-150",
+			"en": "Lutetium-150"
+		}, {
+			"weight": "150.967577",
+			"rate": "0",
+			"halfRate": "80.6 ms",
+
+			"hu": "Lutécium-151",
+			"en": "Lutetium-151"
+		}, {
+			"weight": "152.958767331",
+			"rate": "0",
+			"halfRate": "900 ms",
+
+			"hu": "Lutécium-152",
+			"en": "Lutetium-152"
+		}, {
+			"weight": "153.957522",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Lutécium-153",
+			"en": "Lutetium-153"
+		}, {
+			"weight": "153.957522",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Lutécium-154",
+			"en": "Lutetium-154"
+		}, {
+			"weight": "154.954316216",
+			"rate": "0",
+			"halfRate": "68.6 ms",
+
+			"hu": "Lutécium-155",
+			"en": "Lutetium-155"
+		}, {
+			"weight": "155.953032523",
+			"rate": "0",
+			"halfRate": "494 ms",
+
+			"hu": "Lutécium-156",
+			"en": "Lutetium-156"
+		}, {
+			"weight": "156.9500983",
+			"rate": "0",
+			"halfRate": "6.8 s",
+
+			"hu": "Lutécium-157",
+			"en": "Lutetium-157"
+		}, {
+			"weight": "157.949313283",
+			"rate": "0",
+			"halfRate": "10.6 s",
+
+			"hu": "Lutécium-158",
+			"en": "Lutetium-158"
+		}, {
+			"weight": "158.946628776",
+			"rate": "0",
+			"halfRate": "12.1 s",
+
+			"hu": "Lutécium-159",
+			"en": "Lutetium-159"
+		}, {
+			"weight": "159.946033",
+			"rate": "0",
+			"halfRate": "36.1 s",
+
+			"hu": "Lutécium-160",
+			"en": "Lutetium-160"
+		}, {
+			"weight": "160.943572",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Lutécium-161",
+			"en": "Lutetium-161"
+		}, {
+			"weight": "161.943277288",
+			"rate": "0",
+			"halfRate": "1.37 min",
+
+			"hu": "Lutécium-162",
+			"en": "Lutetium-162"
+		}, {
+			"weight": "162.941179",
+			"rate": "0",
+			"halfRate": "3.97 min",
+
+			"hu": "Lutécium-163",
+			"en": "Lutetium-163"
+		}, {
+			"weight": "163.941339",
+			"rate": "0",
+			"halfRate": "3.13 min",
+
+			"hu": "Lutécium-164",
+			"en": "Lutetium-164"
+		}, {
+			"weight": "164.939406724",
+			"rate": "0",
+			"halfRate": "10.74 min",
+
+			"hu": "Lutécium-165",
+			"en": "Lutetium-165"
+		}, {
+			"weight": "165.939859",
+			"rate": "0",
+			"halfRate": "2.65 min",
+
+			"hu": "Lutécium-166",
+			"en": "Lutetium-166"
+		}, {
+			"weight": "166.93827",
+			"rate": "0",
+			"halfRate": "51.5 min",
+
+			"hu": "Lutécium-167",
+			"en": "Lutetium-167"
+		}, {
+			"weight": "167.938739111",
+			"rate": "0",
+			"halfRate": "5.5 min",
+
+			"hu": "Lutécium-168",
+			"en": "Lutetium-168"
+		}, {
+			"weight": "168.937651439",
+			"rate": "0",
+			"halfRate": "1.419 d",
+
+			"hu": "Lutécium-169",
+			"en": "Lutetium-169"
+		}, {
+			"weight": "169.938474968",
+			"rate": "0",
+			"halfRate": "2.012 d",
+
+			"hu": "Lutécium-170",
+			"en": "Lutetium-170"
+		}, {
+			"weight": "170.937913136",
+			"rate": "0",
+			"halfRate": "8.24 d",
+
+			"hu": "Lutécium-171",
+			"en": "Lutetium-171"
+		}, {
+			"weight": "171.939085669",
+			"rate": "0",
+			"halfRate": "6.7 d",
+
+			"hu": "Lutécium-172",
+			"en": "Lutetium-172"
+		}, {
+			"weight": "172.938930602",
+			"rate": "0",
+			"halfRate": "1.37 y",
+
+			"hu": "Lutécium-173",
+			"en": "Lutetium-173"
+		}, {
+			"weight": "173.94033748",
+			"rate": "0",
+			"halfRate": "3.3 y",
+
+			"hu": "Lutécium-174",
+			"en": "Lutetium-174"
+		}, {
+			"weight": "174.940771819",
+			"rate": "97.41",
+			"halfRate": "stable",
+
+			"hu": "Lutécium-175",
+			"en": "Lutetium-175"
+		}, {
+			"weight": "175.94268631",
+			"rate": "2.59",
+			"halfRate": "38300000000 y",
+
+			"hu": "Lutécium-176",
+			"en": "Lutetium-176"
+		}, {
+			"weight": "176.943758055",
+			"rate": "0",
+			"halfRate": "6.647 d",
+
+			"hu": "Lutécium-177",
+			"en": "Lutetium-177"
+		}, {
+			"weight": "177.945954559",
+			"rate": "0",
+			"halfRate": "28 min",
+
+			"hu": "Lutécium-178",
+			"en": "Lutetium-178"
+		}, {
+			"weight": "178.947327443",
+			"rate": "0",
+			"halfRate": "4.58 h",
+
+			"hu": "Lutécium-179",
+			"en": "Lutetium-179"
+		}, {
+			"weight": "179.94988116",
+			"rate": "0",
+			"halfRate": "5.67 min",
+
+			"hu": "Lutécium-180",
+			"en": "Lutetium-180"
+		}, {
+			"weight": "180.951970",
+			"rate": "0",
+			"halfRate": "3.5 min",
+
+			"hu": "Lutécium-181",
+			"en": "Lutetium-181"
+		}, {
+			"weight": "181.955040",
+			"rate": "0",
+			"halfRate": "2 min",
+
+			"hu": "Lutécium-182",
+			"en": "Lutetium-182"
+		}, {
+			"weight": "182.957570",
+			"rate": "0",
+			"halfRate": "58 s",
+
+			"hu": "Lutécium-183",
+			"en": "Lutetium-183"
+		}, {
+			"weight": "183.960910",
+			"rate": "0",
+			"halfRate": "20 s",
+
+			"hu": "Lutécium-184",
+			"en": "Lutetium-184"
 		}
 	]
   }, {
