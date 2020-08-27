@@ -7,6 +7,8 @@ import 'package:elements_rework/widgets/viewSelector.dart';
 
 // ignore: camel_case_types
 class searchResults extends StatelessWidget {
+  @required final double bottomPadding;
+
   @required final bool typesOthernonmetals;
   @required final bool typesNoblegases;
   @required final bool typesAlkalimetals;
@@ -45,6 +47,7 @@ class searchResults extends StatelessWidget {
 
   const searchResults(
       {Key key,
+      this.bottomPadding,
       this.typesOthernonmetals,
       this.typesNoblegases,
       this.typesAlkalimetals,
@@ -73,8 +76,11 @@ class searchResults extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
+        child:
+        Padding(
+          padding: EdgeInsets.only(bottom: bottomPadding * .03),
         child: Column(
-          //mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Align(
               alignment: Alignment.topLeft,
@@ -139,7 +145,10 @@ class searchResults extends StatelessWidget {
                 ),
               ),
             ),
+          Expanded(child:
             viewSelector(
+              bottomPadding: bottomPadding,
+
               typesOthernonmetals: typesOthernonmetals,
               typesNoblegases: typesNoblegases,
               typesAlkalimetals: typesAlkalimetals,
@@ -169,9 +178,9 @@ class searchResults extends StatelessWidget {
               stateAtomicnumber: stateAtomicnumber,
               stateConstructors: stateConstructors,
               stateWeight: stateWeight,
-            ),
+            ),),
           ],
-        ),
+        ),),
       ),
     );
   }

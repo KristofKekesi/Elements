@@ -9207,7 +9207,7 @@
 		{
 			"weight": "90.949110",
 			"rate": "0",
-			"halfRate": "67000000",
+			"halfRate": "10 ms",
 
 			"hu": "Palládium-91",
 			"en": "Palladium-91"
@@ -10782,7 +10782,7 @@
 		}, {
 			"weight": "119.905072427",
 			"rate": "0",
-			"halfRate": "15.89",
+			"halfRate": "15.89 min",
 
 			"hu": "Antimon-120",
 			"en": "Antimony-120"
@@ -10796,7 +10796,7 @@
 		}, {
 			"weight": "121.905173651",
 			"rate": "0",
-			"halfRate": "2.7",
+			"halfRate": "2.72384 d",
 
 			"hu": "Antimon-122",
 			"en": "Antimony-122"
@@ -10831,7 +10831,7 @@
 		}, {
 			"weight": "126.906923609",
 			"rate": "0",
-			"halfRate": "3.85 discovery",
+			"halfRate": "3.85 d",
 
 			"hu": "Antimon-127",
 			"en": "Antimony-127"
