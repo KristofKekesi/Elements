@@ -9,6 +9,8 @@ enum viewMarker { cards, minimal }
 
 // ignore: camel_case_types
 class viewSelector extends StatefulWidget {
+  @required final double bottomPadding;
+
   @required final bool typesOthernonmetals;
   @required final bool typesNoblegases;
   @required final bool typesAlkalimetals;
@@ -46,7 +48,7 @@ class viewSelector extends StatefulWidget {
   @required final bool stateWeight;
 
   const viewSelector(
-      {Key key, this.typesOthernonmetals, this.typesNoblegases, this.typesAlkalimetals, this.typesAlkaliearthmetals, this.typesMetalloids, this.typesPosttransitionmetals, this.typesTransitionmetals, this.typesLanthanoids, this.typesActinoids, this.typesUnknown, this.electronnegativityMin, this.electronnegativityMax, this.electronnegativityUnknown, this.atomicnumberMin, this.atomicnumberMax, this.constructorsProtonMin, this.constructorsProtonMax, this.constructorsElectronMin, this.constructorsElectronMax, this.constructorsNeutronMin, this.constructorsNeutronMax, this.weightMin, this.weightMax, this.stateElectronnegativity, this.stateTypes, this.stateAtomicnumber, this.stateConstructors, this.stateWeight})
+      {Key key, this.bottomPadding, this.typesOthernonmetals, this.typesNoblegases, this.typesAlkalimetals, this.typesAlkaliearthmetals, this.typesMetalloids, this.typesPosttransitionmetals, this.typesTransitionmetals, this.typesLanthanoids, this.typesActinoids, this.typesUnknown, this.electronnegativityMin, this.electronnegativityMax, this.electronnegativityUnknown, this.atomicnumberMin, this.atomicnumberMax, this.constructorsProtonMin, this.constructorsProtonMax, this.constructorsElectronMin, this.constructorsElectronMax, this.constructorsNeutronMin, this.constructorsNeutronMax, this.weightMin, this.weightMax, this.stateElectronnegativity, this.stateTypes, this.stateAtomicnumber, this.stateConstructors, this.stateWeight})
       : super(key: key);
 
   @override
@@ -63,7 +65,7 @@ class viewSelectorState extends State<viewSelector> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
-        Container(height: MediaQuery.of(context).size.height * .69, child: getView(typesOthernonmetals, typesNoblegases, typesAlkalimetals, typesAlkaliearthmetals, typesMetalloids, typesPosttransitionmetals, typesTransitionmetals, typesLanthanoids, typesActinoids, typesUnknown, electronnegativityMin, electronnegativityMax, electronnegativityUnknown, atomicnumberMin, atomicnumberMax, constructorsProtonMin, constructorsProtonMax, constructorsElectronMin, constructorsElectronMax, constructorsNeutronMin, constructorsNeutronMax, weightMin, weightMax),),
+        Expanded(child: getView(typesOthernonmetals, typesNoblegases, typesAlkalimetals, typesAlkaliearthmetals, typesMetalloids, typesPosttransitionmetals, typesTransitionmetals, typesLanthanoids, typesActinoids, typesUnknown, electronnegativityMin, electronnegativityMax, electronnegativityUnknown, atomicnumberMin, atomicnumberMax, constructorsProtonMin, constructorsProtonMax, constructorsElectronMin, constructorsElectronMax, constructorsNeutronMin, constructorsNeutronMax, weightMin, weightMax),),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[

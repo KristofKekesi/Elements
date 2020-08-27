@@ -24,7 +24,7 @@ class customDrawer extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Container(
-              height: MediaQuery.of(context).size.height * .25,
+              height: MediaQuery.of(context).size.height * .2,
               child: DrawerHeader(
                 child: null,
                 margin: EdgeInsets.zero,
@@ -59,7 +59,7 @@ class customDrawer extends StatelessWidget {
               },
               child: ListTile(
                 title: Text(
-                  'Support',
+                  AppLocalizations.of(context).translate('support'),
                   style: TextStyle(
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
@@ -134,10 +134,7 @@ class customDrawer extends StatelessWidget {
             Divider(
               thickness: MediaQuery.of(context).size.height * .005,
             ),
-            Padding(
-              padding: EdgeInsets.only(
-                  top: MediaQuery.of(context).size.height * .02),
-              child: ListTile(
+            ListTile(
                 title: Text(
                   Capitalizate(AppLocalizations.of(context).translate('name')) +
                       ' [' +
@@ -149,7 +146,6 @@ class customDrawer extends StatelessWidget {
                       fontSize: MediaQuery.of(context).size.width * .05),
                 ),
               ),
-            ),
           ],
         ),
       ),
@@ -160,7 +156,7 @@ class customDrawer extends StatelessWidget {
 void autoAboutDialog(context) {
   showAboutDialog(
     context: context,
-    applicationVersion: '0.3.2',
+    applicationVersion: '0.4.0',
     applicationName: 'Elements',
     applicationLegalese: 'Kristóf Kékesi',
     children: [

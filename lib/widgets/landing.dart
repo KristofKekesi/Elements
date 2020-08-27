@@ -4,12 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:elements_rework/widgets/resultWindow.dart';
 
-import 'calculations.dart';
 import 'elements.dart';
 
 // ignore: camel_case_types
 class landing extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -142,9 +140,11 @@ class landing extends StatelessWidget {
                   GestureDetector(
                     onTap: (){Scaffold.of(context).showSnackBar(
                       SnackBar(
-                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Text(
-                          'Tests are coming in 2020.'
-                        ),],),
+                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Expanded(child: AutoSizeText(
+                          AppLocalizations.of(context).translate('noTests'),
+                          maxLines: 1,
+                          minFontSize: 1,
+                        ),),],),
                       ),),
                     );},
                       child: Padding(
@@ -250,9 +250,11 @@ class landing extends StatelessWidget {
 
                       Scaffold.of(context).showSnackBar(
                         SnackBar(
-                          content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Text(
-                              'Calculatins are coming in 2020.'
-                          ),],),
+                          content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Expanded(child: AutoSizeText(
+                            AppLocalizations.of(context).translate('noCalculations'),
+                            maxLines: 1,
+                            minFontSize: 1,
+                          ),),],),
                           ),),
                       );
                       },
@@ -351,11 +353,15 @@ class landing extends StatelessWidget {
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){Scaffold.of(context).showSnackBar(
+                    onTap: (){
+
+                      Scaffold.of(context).showSnackBar(
                       SnackBar(
-                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Text(
-                            'Compounds are coming in 2021.'
-                        ),],),
+                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Expanded(child: AutoSizeText(
+                          AppLocalizations.of(context).translate('noCompounds'),
+                        maxLines: 1,
+                          minFontSize: 1,
+                        ),),],),
                         ),),
                     );},
                       child: Padding(
@@ -457,7 +463,7 @@ class landing extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => elements()),
+                            builder: (context) => elements(bottomPadding: MediaQuery.of(context).size.height)),
                       );
                     },
                     child:
@@ -489,7 +495,7 @@ class landing extends StatelessWidget {
                               .05),
                       child: Tooltip(
                         message: AppLocalizations.of(context)
-                            .translate('tooltipElements'),
+                            .translate('settings'),
                         child: Container(
                         width: MediaQuery
                             .of(context)
@@ -531,6 +537,8 @@ class landing extends StatelessWidget {
                                       MaterialPageRoute(
                                           builder: (context) =>
                                               searchResults(
+                                                bottomPadding: MediaQuery.of(context).size.height,
+
                                                 typesOthernonmetals: typesOthernonmetals,
                                                 typesNoblegases: typesNoblegases,
                                                 typesAlkalimetals: typesAlkalimetals,
@@ -576,7 +584,7 @@ class landing extends StatelessWidget {
                                     );
                                   },
                                   child:
-                                  Container(height: MediaQuery.of(context).size.height * .1, child: Padding(padding: EdgeInsets.only(left: MediaQuery.of(context).size.width * .1, right: MediaQuery.of(context).size.width * .02,), child: Center(child: Text(
+                                  Tooltip(message: AppLocalizations.of(context).translate('tooltipElements'), child: Container(color: Color.fromRGBO(0, 0, 0, 0), height: MediaQuery.of(context).size.height * .1, child: Padding(padding: EdgeInsets.only(left: MediaQuery.of(context).size.width * .1, right: MediaQuery.of(context).size.width * .02,), child: Center(child: Text(
                                     AppLocalizations.of(context)
                                         .translate('titleElements'),
                                     style: TextStyle(
@@ -588,11 +596,8 @@ class landing extends StatelessWidget {
                                             .size
                                             .width *
                                             .08),
-                                  ),),),),),
-                               Tooltip(
-                                    message: AppLocalizations.of(context)
-                                        .translate("settings"),
-                                    child: Padding(padding: EdgeInsets.only(right: MediaQuery
+                                  ),),),),),),
+                               Padding(padding: EdgeInsets.only(right: MediaQuery
         .of(context)
         .size
         .width * .1), child: Image(
@@ -608,7 +613,6 @@ class landing extends StatelessWidget {
                                             .size
                                             .width *
                                             .07),
-                                  ),
                                   ),
                               ],
                             ),

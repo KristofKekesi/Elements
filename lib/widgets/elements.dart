@@ -120,6 +120,10 @@ void checkResetVisibility() {
 
 // ignore: camel_case_types
 class elements extends StatefulWidget {
+  final double bottomPadding;
+
+  const elements({Key key, this.bottomPadding}) : super(key: key);
+
   @override
   _elementsState createState() => _elementsState();
 }
@@ -2985,6 +2989,8 @@ class _elementsState extends State<elements> {
                   MaterialPageRoute(
                     builder: (context) =>
                         searchResults(
+                          bottomPadding: widget.bottomPadding,
+
                           typesOthernonmetals: typesOthernonmetals,
                           typesNoblegases: typesNoblegases,
                           typesAlkalimetals: typesAlkalimetals,
