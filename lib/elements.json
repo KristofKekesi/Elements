@@ -18111,7 +18111,7 @@
 		{
 			"weight": "163.992201",
 			"rate": "0",
-			"halfRate": "1 msk",
+			"halfRate": "1 ms",
 
 			"hu": "Irídium-164",
 			"en": "Iridium-164"
@@ -19031,7 +19031,7 @@
 			"halfRate": "2.56 s",
 
 			"hu": "Higany-180",
-			"en": "Mercury-180
+			"en": "Mercury-180"
 		}, {
 			"weight": "180.977819311",
 			"rate": "0",
@@ -20077,7 +20077,7 @@
 			"en": "Bismuth-215"
 		}, {
 			"weight": "216.006305943",
-			"rate": 0"",
+			"rate": "0",
 			"halfRate": "2.17 min",
 
 			"hu": "Bizmut-216",
@@ -20148,7 +20148,7 @@
 		}, {
 			"weight": "189.995101185",
 			"rate": "0",
-			"halfRate": "2-46 ms",
+			"halfRate": "2.46 ms",
 
 			"hu": "Polónium-190",
 			"en": "Polonium-190"
@@ -20767,7 +20767,7 @@
 			"halfRate": "19.5 ms",
 
 			"hu": "Radon-213",
-			"en": "Radon-213
+			"en": "Radon-213"
 		}, {
 			"weight": "213.995362554",
 			"rate": "0",
@@ -20994,7 +20994,7 @@
 			"en": "Francium-211"
 		}, {
 			"weight": "211.996202244",
-			"rate": 0
+			"rate": "0",
 			"halfRate": "20 min",
 
 			"hu": "Francium-212",
@@ -21222,7 +21222,7 @@
 			"halfRate": "4.6 s",
 
 			"hu": "Rádium-209",
-			"en": "Radium-209
+			"en": "Radium-209"
 		}, {
 			"weight": "210.000494978",
 			"rate": "0",
@@ -21474,7 +21474,7 @@
 			"halfRate": "920 ms",
 
 			"hu": "Aktínium-212",
-			"en": "Actinium-212
+			"en": "Actinium-212"
 		}, {
 			"weight": "213.006607643",
 			"rate": "0",
@@ -21911,7 +21911,7 @@
 	"isotopes": [
 		{
 			"weight": "212.023204138",
-			"rate": "0",8 ms
+			"rate": "8 ms",
 			"halfRate": "",
 
 			"hu": "Protaktínium-212",
@@ -22142,7 +22142,7 @@
 	"isotopes": [
 		{
 			"weight": "217.024368791",
-			"rate": 0"",
+			"rate": "0",
 			"halfRate": "26 ms",
 
 			"hu": "Urán-217",
@@ -22514,7 +22514,7 @@
 		}, {
 			"weight": "246.070204627",
 			"rate": "0",
-			"halfRate": "10.84",
+			"halfRate": "10.84 d",
 
 			"hu": "Plutónium-246",
 			"en": "Plutonium-246"
@@ -22785,7 +22785,7 @@
 			"hu": "Kűrium-242",
 			"en": "Curium-242"
 		}, {
-			"weight": 243.061389114"",
+			"weight": "243.061389114",
 			"rate": "0",
 			"halfRate": "29.1 y",
 
@@ -23129,7 +23129,7 @@
 			"en": "Californium-247"
 		}, {
 			"weight": "248.072184861",
-			"rate": ""0,
+			"rate": "0",
 			"halfRate": "334 d",
 
 			"hu": "Kalifornium-248",
@@ -23469,7 +23469,7 @@
 			"halfRate": "3.25 h",
 
 			"hu": "Fermium-254",
-			"en": "Fermium-254",
+			"en": "Fermium-254"
 		}, {
 			"weight": "255.089962202",
 			"rate": "0",
@@ -24358,7 +24358,7 @@
 			"halfRate": "1.9 h",
 
 			"hu": "Sziborgium-271",
-			"en": "Seaborgium-271
+			"en": "Seaborgium-271"
 		}, {
 			"weight": "272.135158",
 			"rate": "0",

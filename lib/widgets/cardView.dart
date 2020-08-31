@@ -1641,8 +1641,9 @@ class cardView extends StatelessWidget {
               ),
             );
           }
-        }
-        return SleekCircularSlider(
+        } else {
+          return
+          SleekCircularSlider(
           appearance: CircularSliderAppearance(
             spinnerMode: true,
             size: (MediaQuery.of(context).size.height +
@@ -1659,6 +1660,7 @@ class cardView extends StatelessWidget {
             ),
           ),
         );
+        }
       },
     );
   }

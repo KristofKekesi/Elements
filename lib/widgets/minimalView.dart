@@ -1616,23 +1616,31 @@ class minimalView extends StatelessWidget {
             );
           }
         }
-        return SleekCircularSlider(
-          appearance: CircularSliderAppearance(
-            spinnerMode: true,
-            size: (MediaQuery.of(context).size.height +
-                    MediaQuery.of(context).size.width) /
-                2 *
-                .4,
-            customColors: CustomSliderColors(
-              trackColor: Color(0x00000000),
-              hideShadow: true,
-              progressBarColors: <Color>[
-                Color(0xff62a39c),
-                Color(0xff13547a),
-              ],
+        else {
+          return SleekCircularSlider(
+            appearance: CircularSliderAppearance(
+              spinnerMode: true,
+              size: (MediaQuery
+                  .of(context)
+                  .size
+                  .height +
+                  MediaQuery
+                      .of(context)
+                      .size
+                      .width) /
+                  2 *
+                  .4,
+              customColors: CustomSliderColors(
+                trackColor: Color(0x00000000),
+                hideShadow: true,
+                progressBarColors: <Color>[
+                  Color(0xff62a39c),
+                  Color(0xff13547a),
+                ],
+              ),
             ),
-          ),
-        );
+          );
+        }
       },
     );
   }
