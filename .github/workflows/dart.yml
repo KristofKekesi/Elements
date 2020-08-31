@@ -17,7 +17,7 @@ jobs:
     - uses: subosito/flutter-action@v1
       with:
         flutter-version: '1.9.1+hotfix.6'
-    - run: flutter updgrade
+    - run: flutter upgrade
     - run: flutter pub get
     - run: flutter test
     - run: flutter run
