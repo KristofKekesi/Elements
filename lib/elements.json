@@ -259,7 +259,7 @@
 			"hu": "Lítium-11",
 			"en": "Lithium-11"
 		}, {
-			"weight": "12.053780",
+			"weight": "12.05378",
 			"rate": "0",
 			"halfRate": "10 ns",
 
@@ -294,7 +294,7 @@
 
 	"isotopes": [
 		{
-			"weight": "5.040790",
+			"weight": "5.04079",
 			"rate": "0",
 			"halfRate": "unknown",
 
@@ -364,14 +364,14 @@
 			"hu": "Berillium-14",
 			"en": "Beryllium-14"
 		}, {
-			"weight": "15.053460",
+			"weight": "15.05346",
 			"rate": "0",
 			"halfRate": "200 ns",
 
 			"hu": "Berillium-15",
 			"en": "Beryllium-15"
 		}, {
-			"weight": "16.061920",
+			"weight": "16.06192",
 			"rate": "0",
 			"halfRate": "200 ns",
 
@@ -406,7 +406,7 @@
 
 	"isotopes": [
 		{
-			"weight": "6.046810",
+			"weight": "6.04681",
 			"rate": "0",
 			"halfRate": "unknown",
 
@@ -415,7 +415,7 @@
 		}, {
 			"weight": "7.029917901",
 			"rate": "0",
-			"halfRate": "0.00000000350 ps",
+			"halfRate": "0.0000000035 ps",
 
 			"hu": "Bór-7",
 			"en": "Boron-7"
@@ -490,14 +490,14 @@
 			"hu": "Bór-17",
 			"en": "Boron-17"
 		}, {
-			"weight": "18.056170",
+			"weight": "18.05617",
 			"rate": "0",
 			"halfRate": "26 ns",
 
 			"hu": "Bór-18",
 			"en": "Boron-18"
 		}, {
-			"weight": "19.063730",
+			"weight": "19.06373",
 			"rate": "0",
 			"halfRate": "2.92 ms",
 
@@ -623,14 +623,14 @@
 			"hu": "Szén-20",
 			"en": "Carbon-20"
 		}, {
-			"weight": "21.049340",
+			"weight": "21.04934",
 			"rate": "0",
 			"halfRate": "30 ns",
 
 			"hu": "Szén-21",
 			"en": "Carbon-21"
 		}, {
-			"weight": "22.057200",
+			"weight": "22.0572",
 			"rate": "0",
 			"halfRate": "6.2 ms",
 
@@ -756,21 +756,21 @@
 			"hu": "Nitrogén-22",
 			"en": "Nitrogen-22"
 		}, {
-			"weight": "23.041220",
+			"weight": "23.04122",
 			"rate": "0",
 			"halfRate": "14.5 ms",
 
 			"hu": "Nitrogén-23",
 			"en": "Nitrogen-23"
 		}, {
-			"weight": "24.051040",
+			"weight": "24.05104",
 			"rate": "0",
 			"halfRate": "52 ns",
 
 			"hu": "Nitrogén-24",
 			"en": "Nitrogen-24"
 		}, {
-			"weight": "25.060660",
+			"weight": "25.06066",
 			"rate": "0",
 			"halfRate": "260 ns",
 
@@ -896,28 +896,28 @@
 			"hu": "Oxigén-24",
 			"en": "Oxygen-24"
 		}, {
-			"weight": "25.029460",
+			"weight": "25.02946",
 			"rate": "0",
 			"halfRate": "50 ns",
 
 			"hu": "Oxigén-25",
 			"en": "Oxygen-25"
 		}, {
-			"weight": "26.038340",
+			"weight": "26.03834",
 			"rate": "0",
 			"halfRate": "40 ns",
 
 			"hu": "Oxigén-26",
 			"en": "Oxygen-26"
 		}, {
-			"weight": "27.048260",
+			"weight": "27.04826",
 			"rate": "0",
 			"halfRate": "260 ns",
 
 			"hu": "Oxigén-27",
 			"en": "Oxygen-27"
 		}, {
-			"weight": "28.057810",
+			"weight": "28.05781",
 			"rate": "0",
 			"halfRate": "100 ns",
 
@@ -952,7 +952,7 @@
 
 	"isotopes": [
 		{
-			"weight": "14.035060",
+			"weight": "14.03506",
 			"rate": "0",
 			"halfRate": "unknown",
 
@@ -1050,21 +1050,21 @@
 			"hu": "Fluor-27",
 			"en": "Fluorine-27"
 		}, {
-			"weight": "28.035670",
+			"weight": "28.03567",
 			"rate": "0",
 			"halfRate": "40 ns",
 
 			"hu": "Fluor-28",
 			"en": "Fluorine-28"
 		}, {
-			"weight": "29.043260",
+			"weight": "29.04326",
 			"rate": "0",
 			"halfRate": "2.6 ns",
 
 			"hu": "Fluor-29",
 			"en": "Fluorine-29"
 		}, {
-			"weight": "30.052500",
+			"weight": "30.0525",
 			"rate": "0",
 			"halfRate": "260 ns",
 
@@ -1082,7 +1082,7 @@
   }, {
 	"element": "Ne",
 	"number": 10,
-	"weight": "20.180",
+	"weight": "20.18",
 	"type": "nobleGas",
 	"block": "p",
 	"consistency": "gas",
@@ -1211,21 +1211,21 @@
 			"hu": "Neon-30",
 			"en": "Neon-30"
 		}, {
-			"weight": "31.033110",
+			"weight": "31.03311",
 			"rate": "0",
 			"halfRate": "3.4 ms",
 
 			"hu": "Neon-31",
 			"en": "Neon-31"
 		}, {
-			"weight": "32.040020",
+			"weight": "32.04002",
 			"rate": "0",
 			"halfRate": "3.5 ms",
 
 			"hu": "Neon-32",
 			"en": "Neon-32"
 		}, {
-			"weight": "33.049380",
+			"weight": "33.04938",
 			"rate": "0",
 			"halfRate": "260 ns",
 
@@ -1243,7 +1243,7 @@
   }, {
 	"element": "Na",
 	"number": 11,
-	"weight": "22.990",
+	"weight": "22.99",
 	"type": "alkaliMetal",
 	"block": "s",
 	"consistency": "solid",
@@ -1379,7 +1379,7 @@
 			"hu": "Nátrium-33",
 			"en": "Sodium-33"
 		}, {
-			"weight": "34.035170",
+			"weight": "34.03517",
 			"rate": "0",
 			"halfRate": "5.5 ms",
 
@@ -1393,14 +1393,14 @@
 			"hu": "Nátrium-35",
 			"en": "Sodium-35"
 		}, {
-			"weight": "36.051480",
+			"weight": "36.05148",
 			"rate": "0",
 			"halfRate": "260 ns",
 
 			"hu": "Nátrium-36",
 			"en": "Sodium-36"
 		}, {
-			"weight": "37.059340",
+			"weight": "37.05934",
 			"rate": "0",
 			"halfRate": "1 ms",
 
@@ -1547,28 +1547,28 @@
 			"hu": "Magnézium-34",
 			"en": "Magnesium-34"
 		}, {
-			"weight": "35.017340",
+			"weight": "35.01734",
 			"rate": "0",
 			"halfRate": "70 ms",
 
 			"hu": "Magnézium-35",
 			"en": "Magnesium-35"
 		}, {
-			"weight": "36.023000",
+			"weight": "36.023",
 			"rate": "0",
 			"halfRate": "5 ms",
 
 			"hu": "Magnézium-36",
 			"en": "Magnesium-36"
 		}, {
-			"weight": "37.031400",
+			"weight": "37.0314",
 			"rate": "0",
 			"halfRate": "40 ms",
 
 			"hu": "Magnézium-37",
 			"en": "Magnesium-37"
 		}, {
-			"weight": "38.037570",
+			"weight": "38.03757",
 			"rate": "0",
 			"halfRate": "1 ms",
 
@@ -1582,7 +1582,7 @@
 			"hu": "Magnézium-39",
 			"en": "Magnesium-39"
 		}, {
-			"weight": "40.053930",
+			"weight": "40.05393",
 			"rate": "0",
 			"halfRate": "1 ms",
 
@@ -1617,14 +1617,14 @@
 
 	"isotopes": [
 		{
-			"weight": "21.028040",
+			"weight": "21.02804",
 			"rate": "0",
 			"halfRate": "35 ns",
 
 			"hu": "Alumínium-21",
 			"en": "Aluminium-21"
 		}, {
-			"weight": "22.019520",
+			"weight": "22.01952",
 			"rate": "0",
 			"halfRate": "59 ms",
 
@@ -1750,21 +1750,21 @@
 			"hu": "Alumínium-39",
 			"en": "Aluminium-39"
 		}, {
-			"weight": "40.031450",
+			"weight": "40.03145",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Alumínium-40",
 			"en": "Aluminium-40"
 		}, {
-			"weight": "41.038330",
+			"weight": "41.03833",
 			"rate": "0",
 			"halfRate": "2 ms",
 
 			"hu": "Alumínium-41",
 			"en": "Aluminium-41"
 		}, {
-			"weight": "42.046890",
+			"weight": "42.04689",
 			"rate": "0",
 			"halfRate": "1 ms",
 
@@ -1799,14 +1799,14 @@
 
 	"isotopes": [
 		{
-			"weight": "22.034530",
+			"weight": "22.03453",
 			"rate": "0",
 			"halfRate": "29 ms",
 
 			"hu": "Szilícium-22",
 			"en": "Silicon-22"
 		}, {
-			"weight": "23.025520",
+			"weight": "23.02552",
 			"rate": "0",
 			"halfRate": "42.3 ms",
 
@@ -1939,21 +1939,21 @@
 			"hu": "Szilícium-41",
 			"en": "Silicon-41"
 		}, {
-			"weight": "42.019790",
+			"weight": "42.01979",
 			"rate": "0",
 			"halfRate": "5 ms",
 
 			"hu": "Szilícium-42",
 			"en": "Silicon-42"
 		}, {
-			"weight": "43.028660",
+			"weight": "43.02866",
 			"rate": "0",
 			"halfRate": "15 ms",
 
 			"hu": "Szilícium-43",
 			"en": "Silicon-43"
 		}, {
-			"weight": "44.035260",
+			"weight": "44.03526",
 			"rate": "0",
 			"halfRate": "10 ms",
 
@@ -1988,21 +1988,21 @@
 
 	"isotopes": [
 		{
-			"weight": "24.034350",
+			"weight": "24.03435",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Foszfor-24",
 			"en": "Phosphorus-24"
 		} ,	{
-			"weight": "25.020260",
+			"weight": "25.02026",
 			"rate": "0",
 			"halfRate": "30 ns",
 
 			"hu": "Foszfor-25",
 			"en": "Phosphorus-25"
 		}, {
-			"weight": "26.011780",
+			"weight": "26.01178",
 			"rate": "0",
 			"halfRate": "30 ms",
 
@@ -2128,21 +2128,21 @@
 			"hu": "Foszfor-43",
 			"en": "Phosphorus-43"
 		}, {
-			"weight": "44.012990",
+			"weight": "44.01299",
 			"rate": "0",
 			"halfRate": "30 ms",
 
 			"hu": "Foszfor-44",
 			"en": "Phosphorus-44"
 		}, {
-			"weight": "45.019220",
+			"weight": "45.01922",
 			"rate": "0",
 			"halfRate": "8 ms",
 
 			"hu": "Foszfor-45",
 			"en": "Phosphorus-45"
 		}, {
-			"weight": "46.027380",
+			"weight": "46.02738",
 			"rate": "0",
 			"halfRate": "4 ms",
 
@@ -2177,7 +2177,7 @@
 
 	"isotopes": [
 		{
-			"weight": "26.027880",
+			"weight": "26.02788",
 			"rate": "0",
 			"halfRate": "10 ms",
 
@@ -2317,21 +2317,21 @@
 			"hu": "Kén-45",
 			"en": "Sulfur-45"
 		}, {
-			"weight": "46.000750",
+			"weight": "46.00075",
 			"rate": "0",
 			"halfRate": "30 ms",
 
 			"hu": "Kén-46",
 			"en": "Sulfur-46"
 		}, {
-			"weight": "47.008590",
+			"weight": "47.00859",
 			"rate": "0",
 			"halfRate": "20 ms",
 
 			"hu": "Kén-47",
 			"en": "Sulfur-47"
 		}, {
-			"weight": "48.014170",
+			"weight": "48.01417",
 			"rate": "0",
 			"halfRate": "10 ms",
 
@@ -2373,21 +2373,21 @@
 
 	"isotopes": [
 		{
-			"weight": "28.028510",
+			"weight": "28.02851",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Klór-28",
 			"en": "Chlorine-28"
 		}, {
-			"weight": "29.014110",
+			"weight": "29.01411",
 			"rate": "0",
 			"halfRate": "20 ns",
 
 			"hu": "Klór-29",
 			"en": "Chlorine-29"
 		}, {
-			"weight": "30.004770",
+			"weight": "30.00477",
 			"rate": "0",
 			"halfRate": "30 ns",
 
@@ -2506,35 +2506,35 @@
 			"hu": "Klór-46",
 			"en": "Chlorine-46"
 		}, {
-			"weight": "46.988710",
+			"weight": "46.98871",
 			"rate": "0",
 			"halfRate": "200 ms",
 
 			"hu": "Klór-47",
 			"en": "Chlorine-47"
 		}, {
-			"weight": "47.994950",
+			"weight": "47.99495",
 			"rate": "0",
 			"halfRate": "100 ms",
 
 			"hu": "Klór-48",
 			"en": "Chlorine-48"
 		}, {
-			"weight": "49.000320",
+			"weight": "49.00032",
 			"rate": "0",
 			"halfRate": "50 ms",
 
 			"hu": "Klór-49",
 			"en": "Chlorine-49"
 		}, {
-			"weight": "50.007840",
+			"weight": "50.00784",
 			"rate": "0",
 			"halfRate": "20 ms",
 
 			"hu": "Klór-50",
 			"en": "Chlorine-50"
 		}, {
-			"weight": "51.014490",
+			"weight": "51.01449",
 			"rate": "0",
 			"halfRate": "2 ms",
 
@@ -2569,7 +2569,7 @@
 
 	"isotopes": [
 		{
-			"weight": "30.021560",
+			"weight": "30.02156",
 			"rate": "0",
 			"halfRate": "20 ns",
 
@@ -2695,42 +2695,42 @@
 			"hu": "Argon-47",
 			"en": "Argon-47"
 		}, {
-			"weight": "47.974540",
+			"weight": "47.97454",
 			"rate": "0",
 			"halfRate": "500 ms",
 
 			"hu": "Argon-48",
 			"en": "Argon-48"
 		}, {
-			"weight": "48.980520",
+			"weight": "48.98052",
 			"rate": "0",
 			"halfRate": "170 ms",
 
 			"hu": "Argon-49",
 			"en": "Argon-49"
 		}, {
-			"weight": "49.984430",
+			"weight": "49.98443",
 			"rate": "00",
 			"halfRate": "85 ms",
 
 			"hu": "Argon-50",
 			"en": "Argon-50"
 		}, {
-			"weight": "50.991630",
+			"weight": "50.99163",
 			"rate": "0",
 			"halfRate": "60 ms",
 
 			"hu": "Argon-51",
 			"en": "Argon-51"
 		}, {
-			"weight": "51.996780",
+			"weight": "51.99678",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Argon-52",
 			"en": "Argon-52"
 		}, {
-			"weight": "53.004940",
+			"weight": "53.00494",
 			"rate": "0",
 			"halfRate": "3 ms",
 
@@ -2765,21 +2765,21 @@
 
 	"isotopes": [
 		{
-			"weight": "32.021920",
+			"weight": "32.02192",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Kálium-32",
 			"en": "Potassium-32"
 		}, {
-			"weight": "33.007260",
+			"weight": "33.00726",
 			"rate": "0",
 			"halfRate": "25 ns",
 
 			"hu": "Kálium-33",
 			"en": "Potassium-33"
 		}, {
-			"weight": "33.998410",
+			"weight": "33.99841",
 			"rate": "0",
 			"halfRate": "40 ns",
 
@@ -2898,35 +2898,35 @@
 			"hu": "Kálium-50",
 			"en": "Potassium-50"
 		}, {
-			"weight": "50.976380",
+			"weight": "50.97638",
 			"rate": "0",
 			"halfRate": "365 ms",
 
 			"hu": "Kálium-51",
 			"en": "Potassium-51"
 		}, {
-			"weight": "51.982610",
+			"weight": "51.98261",
 			"rate": "0",
 			"halfRate": "105 ms",
 
 			"hu": "Kálium-52",
 			"en": "Potassium-52"
 		}, {
-			"weight": "52.987120",
+			"weight": "52.98712",
 			"rate": "0",
 			"halfRate": "30 ms",
 
 			"hu": "Kálium-53",
 			"en": "Potassium-53"
 		}, {
-			"weight": "53.994200",
+			"weight": "53.9942",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Kálium-54",
 			"en": "Potassium-54"
 		}, {
-			"weight": "54.999710",
+			"weight": "54.99971",
 			"rate": "0",
 			"halfRate": "3 ms",
 
@@ -2961,14 +2961,14 @@
 
 	"isotopes": [
 		{
-			"weight": "34.014120",
+			"weight": "34.01412",
 			"rate": "0",
 			"halfRate": "35 ns",
 
 			"hu": "Kálcium-34",
 			"en": "Calcium-34"
 		}, {
-			"weight": "35.004940",
+			"weight": "35.00494",
 			"rate": "0",
 			"halfRate": "25.7 ms",
 
@@ -3094,28 +3094,28 @@
 			"hu": "Kálcium-52",
 			"en": "Calcium-52"
 		}, {
-			"weight": "52.970050",
+			"weight": "52.97005",
 			"rate": "0",
 			"halfRate": "90 ms",
 
 			"hu": "Kálcium-53",
 			"en": "Calcium-53"
 		}, {
-			"weight": "53.974350",
+			"weight": "53.97435",
 			"rate": "0",
 			"halfRate": "50 ms",
 
 			"hu": "Kálcium-54",
 			"en": "Calcium-54"
 		}, {
-			"weight": "54.980550",
+			"weight": "54.98055",
 			"rate": "0",
 			"halfRate": "30 ms",
 
 			"hu": "Kálcium-55",
 			"en": "Calcium-55"
 		}, {
-			"weight": "55.985570",
+			"weight": "55.98557",
 			"rate": "0",
 			"halfRate": "10 ms",
 
@@ -3157,21 +3157,21 @@
 
 	"isotopes": [
 		{
-			"weight": "36.014920",
+			"weight": "36.01492",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Szkandium-36",
 			"en": "Scandium-36"
 		}, {
-			"weight": "37.003050",
+			"weight": "37.00305",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Szkandium-37",
 			"en": "Scandium-37"
 		}, {
-			"weight": "37.994700",
+			"weight": "37.9947",
 			"rate": "0",
 			"halfRate": "300 ns",
 
@@ -3276,7 +3276,7 @@
 			"hu": "Szkandium-52",
 			"en": "Scandium-52"
 		}, {
-			"weight": "52.959610",
+			"weight": "52.95961",
 			"rate": "0",
 			"halfRate": "3 s",
 
@@ -3297,35 +3297,35 @@
 			"hu": "Szkandium-55",
 			"en": "Scandium-55"
 		}, {
-			"weight": "55.972870",
+			"weight": "55.97287",
 			"rate": "0",
 			"halfRate": "80 ms",
 
 			"hu": "Szkandium-56",
 			"en": "Scandium-56"
 		}, {
-			"weight": "56.977790",
+			"weight": "56.97779",
 			"rate": "0",
 			"halfRate": "13 ms",
 
 			"hu": "Szkandium-57",
 			"en": "Scandium-57"
 		}, {
-			"weight": "57.983710",
+			"weight": "57.98371",
 			"rate": "0",
 			"halfRate": "12 ms",
 
 			"hu": "Szkandium-58",
 			"en": "Scandium-58"
 		}, {
-			"weight": "58.989220",
+			"weight": "58.98922",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Szkandium-59",
 			"en": "Scandium-59"
 		}, {
-			"weight": "59.995710",
+			"weight": "59.99571",
 			"rate": "0",
 			"halfRate": "3 ms",
 
@@ -3360,14 +3360,14 @@
 
 	"isotopes": [
 		{
-			"weight": "38.009770",
+			"weight": "38.00977",
 			"rate": "0",
 			"halfRate": "120 ns",
 
 			"hu": "Titán-38",
 			"en": "Titanium-38"
 		}, {
-			"weight": "39.001610",
+			"weight": "39.00161",
 			"rate": "0",
 			"halfRate": "31 ms",
 
@@ -3472,7 +3472,7 @@
 			"hu": "Titán-53",
 			"en": "Titanium-53"
 		}, {
-			"weight": "53.951052401",
+			"weight": "53.95105241",
 			"rate": "0",
 			"halfRate": "1.5 s",
 
@@ -3500,7 +3500,7 @@
 			"hu": "Titán-57",
 			"en": "Titanium-57"
 		}, {
-			"weight": "57.966970",
+			"weight": "57.96697",
 			"rate": "0",
 			"halfRate": "54 ms",
 
