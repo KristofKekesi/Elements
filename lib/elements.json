@@ -3507,35 +3507,35 @@
 			"hu": "Titán-58",
 			"en": "Titanium-58"
 		}, {
-			"weight": "58.972930",
+			"weight": "58.97293",
 			"rate": "0",
 			"halfRate": "30 ms",
 
 			"hu": "Titán-59",
 			"en": "Titanium-59"
 		}, {
-			"weight": "59.976760",
+			"weight": "59.97676",
 			"rate": "0",
 			"halfRate": "22 ms",
 
 			"hu": "Titán-60",
 			"en": "Titanium-60"
 		}, {
-			"weight": "60.983200",
+			"weight": "60.9832",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Titán-61",
 			"en": "Titanium-61"
 		}, {
-			"weight": "61.987490",
+			"weight": "61.98749",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Titán-62",
 			"en": "Titanium-62"
 		}, {
-			"weight": "62.994420",
+			"weight": "62.99442",
 			"rate": "0",
 			"halfRate": "3 ms",
 
@@ -3570,28 +3570,28 @@
 
 	"isotopes": [
 		{
-			"weight": "40.011090",
+			"weight": "40.01109",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Vanádium-40",
 			"en": "Vanadium-40"
 		}, {
-			"weight": "40.999780",
+			"weight": "40.99978",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Vanádium-41",
 			"en": "Vanadium-41"
 		}, {
-			"weight": "41.991230",
+			"weight": "41.99123",
 			"rate": "0",
 			"halfRate": "55 ns",
 
 			"hu": "Vanádium-42",
 			"en": "Vanadium-42"
 		}, {
-			"weight": "42.980650",
+			"weight": "42.98065",
 			"rate": "0",
 			"halfRate": "80 ms",
 
@@ -3628,7 +3628,7 @@
 		}, {
 			"weight": "47.952253707",
 			"rate": "0",
-			"halfRate": "15.97350 d",
+			"halfRate": "15.9735 d",
 
 			"hu": "Vanádium-48",
 			"en": "Vanadium-48"
@@ -3717,35 +3717,35 @@
 			"hu": "Vanádium-60",
 			"en": "Vanadium-60"
 		}, {
-			"weight": "60.968480",
+			"weight": "60.96848",
 			"rate": "0",
 			"halfRate": "47 ms",
 
 			"hu": "Vanádium-61",
 			"en": "Vanadium-61"
 		}, {
-			"weight": "61.973780",
+			"weight": "61.97378",
 			"rate": "0",
 			"halfRate": "33.5 ms",
 
 			"hu": "Vanádium-62",
 			"en": "Vanadium-62"
 		}, {
-			"weight": "62.977550",
+			"weight": "62.97755",
 			"rate": "0",
 			"halfRate": "17 ms",
 
 			"hu": "Vanádium-63",
 			"en": "Vanadium-63"
 		}, {
-			"weight": "63.983470",
+			"weight": "63.98347",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Vanádium-64",
 			"en": "Vanadium-64"
 		}, {
-			"weight": "64.987920",
+			"weight": "64.98792",
 			"rate": "0",
 			"halfRate": "10 ms",
 
@@ -3780,14 +3780,14 @@
 
 	"isotopes": [
 		{
-			"weight": "42.006430",
+			"weight": "42.00643",
 			"rate": "0",
 			"halfRate": "14 ms",
 
 			"hu": "Króm-42",
 			"en": "Chromium-42"
 		}, {
-			"weight": "42.997710",
+			"weight": "42.99771",
 			"rate": "0",
 			"halfRate": "21.6 ms",
 
@@ -3927,35 +3927,35 @@
 			"hu": "Króm-62",
 			"en": "Chromium-62"
 		}, {
-			"weight": "62.961860",
+			"weight": "62.96186",
 			"rate": "0",
 			"halfRate": "129 ms",
 
 			"hu": "Króm-63",
 			"en": "Chromium-63"
 		}, {
-			"weight": "63.964410",
+			"weight": "63.96441",
 			"rate": "0",
 			"halfRate": "43 ms",
 
 			"hu": "Króm-64",
 			"en": "Chromium-64"
 		}, {
-			"weight": "64.970160",
+			"weight": "64.97016",
 			"rate": "0",
 			"halfRate": "27 ms",
 
 			"hu": "Króm-65",
 			"en": "Chromium-65"
 		}, {
-			"weight": "65.973380",
+			"weight": "65.97338",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Króm-66",
 			"en": "Chromium-66"
 		}, {
-			"weight": "66.979550",
+			"weight": "66.97955",
 			"rate": "0",
 			"halfRate": "10 ms",
 
@@ -3990,28 +3990,28 @@
 
 	"isotopes": [
 		{
-			"weight": "44.006870",
+			"weight": "44.00687",
 			"rate": "0",
 			"halfRate": "105 ns",
 
 			"hu": "Mangán-44",
 			"en": "Manganese-44"
 		}, {
-			"weight": "44.994510",
+			"weight": "44.99451",
 			"rate": "0",
 			"halfRate": "70 ns",
 
 			"hu": "Mangán-45",
 			"en": "Manganese-45"
 		}, {
-			"weight": "45.986720",
+			"weight": "45.98672",
 			"rate": "0",
 			"halfRate": "37 ms",
 
 			"hu": "Mangán-46",
 			"en": "Manganese-46"
 		}, {
-			"weight": "46.976100",
+			"weight": "46.9761",
 			"rate": "0",
 			"halfRate": "100 ms",
 
@@ -4144,28 +4144,28 @@
 			"hu": "Mangán-65",
 			"en": "Manganese-65"
 		}, {
-			"weight": "65.961080",
+			"weight": "65.96108",
 			"rate": "0",
 			"halfRate": "64.4 ms",
 
 			"hu": "Mangán-66",
 			"en": "Manganese-66"
 		}, {
-			"weight": "66.964140",
+			"weight": "66.96414",
 			"rate": "0",
 			"halfRate": "45 ms",
 
 			"hu": "Mangán-67",
 			"en": "Manganese-67"
 		}, {
-			"weight": "67.969300",
+			"weight": "67.9693",
 			"rate": "0",
 			"halfRate": "28 ms",
 
 			"hu": "Mangán-68",
 			"en": "Manganese-68"
 		}, {
-			"weight": "68.972840",
+			"weight": "68.97284",
 			"rate": "0",
 			"halfRate": "14 ms",
 
@@ -4207,14 +4207,14 @@
 			"hu": "Vas-45",
 			"en": "Iron-45"
 		}, {
-			"weight": "46.000810",
+			"weight": "46.00081",
 			"rate": "0",
 			"halfRate": "9 ms",
 
 			"hu": "Vas-46",
 			"en": "Iron-46"
 		}, {
-			"weight": "46.992890",
+			"weight": "46.99289",
 			"rate": "0",
 			"halfRate": "21.8 ms",
 
@@ -4228,7 +4228,7 @@
 			"hu": "Vas-48",
 			"en": "Iron-48"
 		}, {
-			"weight": "48.973610",
+			"weight": "48.97361",
 			"rate": "0",
 			"halfRate": "70 ms",
 
@@ -4368,28 +4368,28 @@
 			"hu": "Vas-68",
 			"en": "Iron-68"
 		}, {
-			"weight": "68.958780",
+			"weight": "68.95878",
 			"rate": "0",
 			"halfRate": "109 ms",
 
 			"hu": "Vas-69",
 			"en": "Iron-69"
 		}, {
-			"weight": "69.961460",
+			"weight": "69.96146",
 			"rate": "0",
 			"halfRate": "94 ms",
 
 			"hu": "Vas-70",
 			"en": "Iron-70"
 		}, {
-			"weight": "70.966720",
+			"weight": "70.96672",
 			"rate": "0",
 			"halfRate": "30 ms",
 
 			"hu": "Vas-71",
 			"en": "Iron-71"
 		}, {
-			"weight": "71.969620",
+			"weight": "71.96962",
 			"rate": "0",
 			"halfRate": "10 ms",
 
@@ -4424,42 +4424,42 @@
 
 	"isotopes": [
 		{
-			"weight": "47.011490",
+			"weight": "47.01149",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Kobalt-47",
 			"en": "Cobalt-47"
 		}, {
-			"weight": "48.001760",
+			"weight": "48.00176",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Kobalt-48",
 			"en": "Cobalt-48"
 		}, {
-			"weight": "48.989720",
+			"weight": "48.98972",
 			"rate": "0",
 			"halfRate": "35 ns",
 
 			"hu": "Kobalt-49",
 			"en": "Cobalt-49"
 		}, {
-			"weight": "49.981540",
+			"weight": "49.98154",
 			"rate": "0",
 			"halfRate": "44 ms",
 
 			"hu": "Kobalt-50",
 			"en": "Cobalt-50"
 		}, {
-			"weight": "50.970720",
+			"weight": "50.97072",
 			"rate": "0",
 			"halfRate": "60 ms",
 
 			"hu": "Kobalt-51",
 			"en": "Cobalt-51"
 		}, {
-			"weight": "51.963590",
+			"weight": "51.96359",
 			"rate": "0",
 			"halfRate": "115 ms",
 
@@ -4599,7 +4599,7 @@
 			"hu": "Kobalt-71",
 			"en": "Cobalt-71"
 		}, {
-			"weight": "71.957810",
+			"weight": "71.95781",
 			"rate": "0",
 			"halfRate": "90 ms",
 
@@ -4613,14 +4613,14 @@
 			"hu": "Kobalt-73",
 			"en": "Cobalt-73"
 		}, {
-			"weight": "73.965380",
+			"weight": "73.96538",
 			"rate": "0",
 			"halfRate": "50 ms",
 
 			"hu": "Kobalt-74",
 			"en": "Cobalt-74"
 		}, {
-			"weight": "74.968330",
+			"weight": "74.96833",
 			"rate": "0",
 			"halfRate": "40 ms",
 
@@ -4655,42 +4655,42 @@
 
 	"isotopes": [
 		{
-			"weight": "48.019750",
+			"weight": "48.01975",
 			"rate": "0",
 			"halfRate": "10 ms",
 
 			"hu": "Nikkel-48",
 			"en": "Nickel-48"
 		}, {
-			"weight": "49.009660",
+			"weight": "49.00966",
 			"rate": "0",
 			"halfRate": "13 ms",
 
 			"hu": "Nikkel-49",
 			"en": "Nickel-49"
 		}, {
-			"weight": "49.995930",
+			"weight": "49.99593",
 			"rate": "0",
 			"halfRate": "9.1 ms",
 
 			"hu": "Nikkel-50",
 			"en": "Nickel-50"
 		}, {
-			"weight": "50.987720",
+			"weight": "50.98772",
 			"rate": "0",
 			"halfRate": "30 ms",
 
 			"hu": "Nikkel-51",
 			"en": "Nickel-51"
 		}, {
-			"weight": "51.975680",
+			"weight": "51.97568",
 			"rate": "0",
 			"halfRate": "38 ms",
 
 			"hu": "Nikkel-52",
 			"en": "Nickel-52"
 		}, {
-			"weight": "52.968470",
+			"weight": "52.96847",
 			"rate": "0",
 			"halfRate": "45 ms",
 
@@ -4830,42 +4830,42 @@
 			"hu": "Nikkel-72",
 			"en": "Nickel-72"
 		}, {
-			"weight": "72.946470",
+			"weight": "72.94647",
 			"rate": "0",
 			"halfRate": "840 ms",
 
 			"hu": "Nikkel-73",
 			"en": "Nickel-73"
 		}, {
-			"weight": "73.948070",
+			"weight": "73.94807",
 			"rate": "0",
 			"halfRate": "680 ms",
 
 			"hu": "Nikkel-74",
 			"en": "Nickel-74"
 		}, {
-			"weight": "74.952870",
+			"weight": "74.95287",
 			"rate": "0",
 			"halfRate": "600 ms",
 
 			"hu": "Nikkel-75",
 			"en": "Nickel-75"
 		}, {
-			"weight": "75.955330",
+			"weight": "75.95533",
 			"rate": "0",
 			"halfRate": "470 ms",
 
 			"hu": "Nikkel-76",
 			"en": "Nickel-76"
 		}, {
-			"weight": "76.960550",
+			"weight": "76.96055",
 			"rate": "0",
 			"halfRate": "300 ms",
 
 			"hu": "Nikkel-77",
 			"en": "Nickel-77"
 		}, {
-			"weight": "75.955330",
+			"weight": "75.95533",
 			"rate": "0",
 			"halfRate": "470 ms",
 
@@ -4900,35 +4900,35 @@
 
 	"isotopes": [
 		{
-			"weight": "51.997180",
+			"weight": "51.99718",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Réz-52",
 			"en": "Copper-52"
 		}, {
-			"weight": "52.985550",
+			"weight": "52.98555",
 			"rate": "0",
 			"halfRate": "300 ns",
 
 			"hu": "Réz-53",
 			"en": "Copper-53"
 		}, {
-			"weight": "53.976710",
+			"weight": "53.97671",
 			"rate": "0",
 			"halfRate": "75 ns",
 
 			"hu": "Réz-54",
 			"en": "Copper-54"
 		}, {
-			"weight": "54.966050",
+			"weight": "54.96605",
 			"rate": "0",
 			"halfRate": "40 ms",
 
 			"hu": "Réz-55",
 			"en": "Copper-55"
 		}, {
-			"weight": "55.958560",
+			"weight": "55.95856",
 			"rate": "0",
 			"halfRate": "93 ms",
 
@@ -5075,28 +5075,28 @@
 			"hu": "Réz-76",
 			"en": "Copper-76"
 		}, {
-			"weight": "76.947850",
+			"weight": "76.94785",
 			"rate": "0",
 			"halfRate": "469 ms",
 
 			"hu": "Réz-77",
 			"en": "Copper-77"
 		}, {
-			"weight": "77.951960",
+			"weight": "77.95196",
 			"rate": "0",
 			"halfRate": "342 ms",
 
 			"hu": "Réz-78",
 			"en": "Copper-78"
 		}, {
-			"weight": "78.954560",
+			"weight": "78.95456",
 			"rate": "0",
 			"halfRate": "188 ms",
 
 			"hu": "Réz-79",
 			"en": "Copper-79"
 		}, {
-			"weight": "79.960870",
+			"weight": "79.96087",
 			"rate": "0",
 			"halfRate": "100 ms",
 
@@ -5131,21 +5131,21 @@
 
 	"isotopes": [
 		{
-			"weight": "53.992950",
+			"weight": "53.99295",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Cink-54",
 			"en": "Zinc-54"
 		}, {
-			"weight": "54.983980",
+			"weight": "54.98398",
 			"rate": "0",
 			"halfRate": "20 ms",
 
 			"hu": "Cink-55",
 			"en": "Zinc-55"
 		}, {
-			"weight": "55.972380",
+			"weight": "55.97238",
 			"rate": "0",
 			"halfRate": "36 ms",
 
@@ -5320,21 +5320,21 @@
 			"hu": "Cink-80",
 			"en": "Zinc-80"
 		}, {
-			"weight": "80.950480",
+			"weight": "80.95048",
 			"rate": "0",
 			"halfRate": "290 ms",
 
 			"hu": "Cink-81",
 			"en": "Zinc-81"
 		}, {
-			"weight": "81.954420",
+			"weight": "81.95442",
 			"rate": "0",
 			"halfRate": "100 ms",
 
 			"hu": "Cink-82",
 			"en": "Zinc-82"
 		}, {
-			"weight": "82.961030",
+			"weight": "82.96103",
 			"rate": "0",
 			"halfRate": "80 ms",
 
@@ -5369,35 +5369,35 @@
 
 	"isotopes": [
 		{
-			"weight": "55.994910",
+			"weight": "55.99491",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Gallium-56",
 			"en": "Gallium-56"
 		}, {
-			"weight": "56.982930",
+			"weight": "56.98293",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Gallium-57",
 			"en": "Gallium-57"
 		}, {
-			"weight": "57.974250",
+			"weight": "57.97425",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Gallium-58",
 			"en": "Gallium-58"
 		}, {
-			"weight": "58.963370",
+			"weight": "58.96337",
 			"rate": "0",
 			"halfRate": "unknown",
 
 			"hu": "Gallium-59",
 			"en": "Gallium-59"
 		}, {
-			"weight": "59.957060",
+			"weight": "59.95706",
 			"rate": "0",
 			"halfRate": "70 ms",
 
@@ -5551,7 +5551,7 @@
 			"hu": "Gallium-81",
 			"en": "Gallium-81"
 		}, {
-			"weight": "81.942990",
+			"weight": "81.94299",
 			"rate": "0",
 			"halfRate": "599 ms",
 
