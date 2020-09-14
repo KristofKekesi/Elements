@@ -265,3 +265,5 @@ Screenshots by [__App Mockup__](https://app-mockup.com/)
 [article about Elements [1]](https://flutterfix.com/a-flutter-app-to-track-the-chemistry-chemical-elements/)
 
 [article about Elements [2]](https://morioh.com/p/20193610819c)
+
+[article about Elements [3]](https://flutterawesome.com/a-modern-app-made-with-flutter-to-track-the-chemistrys-element/)
