@@ -51,7 +51,7 @@ Send an email to kristofkekesiofficial@gmail.com with your name and email addres
 </table>
  
 ## Made with <img src="https://img.shields.io/badge/Flutter-blue.svg" alt=""> <img src="https://img.shields.io/badge/Android Studio-green.svg" alt="">
-Made with __Flutter SDK__ in __Dart__ in __Flutter__. Programmed in __Android Studio__. 
+Made with __Flutter SDK__ in __Dart__. Programmed in __Android Studio__. 
 
 ## Contributors <img src="https://img.shields.io/badge/45-blue.svg" alt="">
 [![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/0)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/0)[![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/1)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/1)[![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/2)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/2)[![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/3)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/3)[![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/4)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/4)[![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/5)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/5)[![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/6)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/6)[![](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/images/7)](https://sourcerer.io/fame/KristofKekesi/KristofKekesi/Elements/links/7)
