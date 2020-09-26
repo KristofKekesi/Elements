@@ -156,7 +156,7 @@ class customDrawer extends StatelessWidget {
 void autoAboutDialog(context) {
   showAboutDialog(
     context: context,
-    applicationVersion: '0.4.0',
+    applicationVersion: '0.4.1',
     applicationName: 'Elements',
     applicationLegalese: 'Kristóf Kékesi',
     children: [

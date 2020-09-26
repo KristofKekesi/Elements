@@ -300,6 +300,8 @@ class landing extends StatelessWidget {
                                 colors: [
                                   Color(0xfff22447),
                                   Color(0xffb80733),
+//                                  Color(0xffffcf1b),
+//                                  Color(0xffff881b),
                                 ],
                                 begin: Alignment.topLeft,
                                 end: Alignment.bottomRight),
@@ -343,112 +345,6 @@ class landing extends StatelessWidget {
                                             .of(context)
                                             .size
                                             .width * .08),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  GestureDetector(
-                    onTap: (){
-
-                      Scaffold.of(context).showSnackBar(
-                      SnackBar(
-                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Expanded(child: AutoSizeText(
-                          AppLocalizations.of(context).translate('noCompounds'),
-                        maxLines: 1,
-                          minFontSize: 1,
-                        ),),],),
-                        ),),
-                    );},
-                      child: Padding(
-                        padding: EdgeInsets.only(
-                            bottom: MediaQuery
-                                .of(context)
-                                .size
-                                .height * .03,
-                            right: (MediaQuery
-                                .of(context)
-                                .size
-                                .height +
-                                MediaQuery
-                                    .of(context)
-                                    .size
-                                    .width) /
-                                2 *
-                                .05,
-                            left: (MediaQuery
-                                .of(context)
-                                .size
-                                .height +
-                                MediaQuery
-                                    .of(context)
-                                    .size
-                                    .width) /
-                                2 *
-                                .05),
-                        child: Tooltip(
-                          message: AppLocalizations.of(context).translate('soon'),
-                          child: Container(
-                          width: MediaQuery
-                              .of(context)
-                              .size
-                              .width * .8,
-                          height: MediaQuery
-                              .of(context)
-                              .size
-                              .height * .1,
-                          decoration: BoxDecoration(
-                            gradient: LinearGradient(
-                                colors: [
-                                  Color(0xffffcf1b),
-                                  Color(0xffff881b),
-                                ],
-                                begin: Alignment.topLeft,
-                                end: Alignment.bottomRight),
-                            borderRadius: BorderRadius.circular(
-                                (MediaQuery
-                                    .of(context)
-                                    .size
-                                    .height +
-                                    MediaQuery
-                                        .of(context)
-                                        .size
-                                        .width) /
-                                    2 *
-                                    .02),
-                          ),
-                          child: Center(
-                            child: Padding(
-                              padding: EdgeInsets.only(
-                                  left: MediaQuery
-                                      .of(context)
-                                      .size
-                                      .width * .1,
-                                  right:
-                                  MediaQuery
-                                      .of(context)
-                                      .size
-                                      .width * .1),
-                              child: Row(
-                                mainAxisAlignment:
-                                MainAxisAlignment.spaceBetween,
-                                children: <Widget>[
-                                  Text(
-                                    AppLocalizations.of(context)
-                                        .translate('titleCompounds'),
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize:
-                                        MediaQuery
-                                            .of(context)
-                                            .size
-                                            .width *
-                                            .08),
                                   ),
                                 ],
                               ),
