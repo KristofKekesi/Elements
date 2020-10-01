@@ -1,1 +1,103 @@
- 
+{
+		"isotopes": [
+		{
+			"weight": "6.04681",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Bór-6",
+			"en": "Boron-6"
+		}, {
+			"weight": "7.029917901",
+			"rate": "0",
+			"halfRate": "0.0000000035 ps",
+
+			"hu": "Bór-7",
+			"en": "Boron-7"
+		}, {
+			"weight": "8.024607233",
+			"rate": "0",
+			"halfRate": "770 ms",
+
+			"hu": "Bór-8",
+			"en": "Boron-8"
+		}, {
+			"weight": "9.013328782",
+			"rate": "0",
+			"halfRate": "0.0000008 ps",
+
+			"hu": "Bór-9",
+			"en": "Boron-9"
+		}, {
+			"weight": "10.012936992",
+			"rate": "19.9",
+			"halfRate": "stable",
+
+			"hu": "Bór-10",
+			"en": "Boron-10"
+		}, {
+			"weight": "11.009305406",
+			"rate": "80.1",
+			"halfRate": "stable",
+
+			"hu": "Bór-11",
+			"en": "Boron-11"
+		}, {
+			"weight": "12.014352104",
+			"rate": "0",
+			"halfRate": "20.2 ms",
+
+			"hu": "Bór-12",
+			"en": "Boron-12"
+		}, {
+			"weight": "13.017780217",
+			"rate": "0",
+			"halfRate": "17.33 ms",
+
+			"hu": "Bór-13",
+			"en": "Boron-13"
+		}, {
+			"weight": "14.025404009",
+			"rate": "0",
+			"halfRate": "12.5 ms",
+
+			"hu": "Bór-14",
+			"en": "Boron-14"
+		}, {
+			"weight": "15.031103021",
+			"rate": "0",
+			"halfRate": "9.87 ms",
+
+			"hu": "Bór-15",
+			"en": "Boron-15"
+		}, {
+			"weight": "16.039808829",
+			"rate": "0",
+			"halfRate": "190 ps",
+
+			"hu": "Bór-16",
+			"en": "Boron-16"
+		}, {
+			"weight": "17.046989906",
+			"rate": "0",
+			"halfRate": "5.08 ms",
+
+			"hu": "Bór-17",
+			"en": "Boron-17"
+		}, {
+			"weight": "18.05617",
+			"rate": "0",
+			"halfRate": "26 ns",
+
+			"hu": "Bór-18",
+			"en": "Boron-18"
+		}, {
+			"weight": "19.06373",
+			"rate": "0",
+			"halfRate": "2.92 ms",
+
+			"hu": "Bór-19",
+			"en": "Boron-19"
+		}
+		]
+}

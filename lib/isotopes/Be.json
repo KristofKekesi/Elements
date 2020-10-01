@@ -1,1 +1,89 @@
- 
+ {
+ "isotopes": [
+		{
+			"weight": "5.04079",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Berillium-5",
+			"en": "Beryllium-5"
+		}, {
+			"weight": "6.019726317",
+			"rate": "0",
+			"halfRate": "0.000000005 ps",
+
+			"hu": "Berillium-6",
+			"en": "Beryllium-6"
+		}, {
+			"weight": "7.016929828",
+			"rate": "0",
+			"halfRate": "53.22 d",
+
+			"hu": "Berillium-7",
+			"en": "Beryllium-7"
+		}, {
+			"weight": "8.005305103",
+			"rate": "0",
+			"halfRate": "0.000067 ps",
+
+			"hu": "Berillium-8",
+			"en": "Beryllium-8"
+		}, {
+			"weight": "9.012182201",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Berillium-9",
+			"en": "Beryllium-9"
+		}, {
+			"weight": "10.013533818",
+			"rate": "0",
+			"halfRate": "1510000 y",
+
+			"hu": "Berillium-10",
+			"en": "Beryllium-10"
+		}, {
+			"weight": "11.021657749",
+			"rate": "0",
+			"halfRate": "13.81 s",
+
+			"hu": "Berillium-11",
+			"en": "Beryllium-11"
+		}, {
+			"weight": "12.026920737",
+			"rate": "0",
+			"halfRate": "21.5 ms",
+
+			"hu": "Berillium-12",
+			"en": "Beryllium-12"
+		}, {
+			"weight": "13.035693007",
+			"rate": "0",
+			"halfRate": "500 ps",
+
+			"hu": "Berillium-13",
+			"en": "Beryllium-13"
+		}, {
+			"weight": "14.04289292",
+			"rate": "0",
+			"halfRate": "4.35 ms",
+
+			"hu": "Berillium-14",
+			"en": "Beryllium-14"
+		}, {
+			"weight": "15.05346",
+			"rate": "0",
+			"halfRate": "200 ns",
+
+			"hu": "Berillium-15",
+			"en": "Beryllium-15"
+		}, {
+			"weight": "16.06192",
+			"rate": "0",
+			"halfRate": "200 ns",
+
+			"hu": "Berillium-16",
+			"en": "Beryllium-16"
+		}
+	]
+ }

@@ -1,1 +1,68 @@
- 
+ {
+ "isotopes": [
+		{
+			"weight": "unknown",
+			"rate": "unknown",
+			"halfRate": "unknown",
+
+			"hu": "Hélium-2",
+			"en": "Helium-2"
+		}, {
+			"weight": "3.01602931914",
+			"rate": "0.000137",
+			"halfRate": "stable",
+
+			"hu": "Hélium-3",
+			"en": "Helium-3"
+		}, {
+			"weight": "4.00260325415",
+			"rate": "99.9999",
+			"halfRate": "stable",
+
+			"hu": "Hélium-4",
+			"en": "Helium-4"
+		}, {
+			"weight": "5.012223624",
+			"rate": "0",
+			"halfRate": "0.0000000007 ps",
+
+			"hu": "Hélium-5",
+			"en": "Helium-5"
+		}, {
+			"weight": "6.018889124",
+			"rate": "0",
+			"halfRate": "806.7 ms",
+
+			"hu": "Hélium-6",
+			"en": "Helium-6"
+		}, {
+			"weight": "7.028020618",
+			"rate": "0",
+			"halfRate": "0.0000000029 ps",
+
+			"hu": "Hélium-7",
+			"en": "Helium-7"
+		}, {
+			"weight": "8.033921897",
+			"rate": "0",
+			"halfRate": "119 ms",
+
+			"hu": "Hélium-8",
+			"en": "Helium-8"
+		}, {
+			"weight": "9.043950286",
+			"rate": "0",
+			"halfRate": "0.000000007 ps",
+
+			"hu": "Hélium-9",
+			"en": "Helium-9"
+		}, {
+			"weight": "10.052398837",
+			"rate": "0",
+			"halfRate": "0.0000000027 ps",
+
+			"hu": "Hélium-10",
+			"en": "Helium-10"
+		}
+	]
+ }

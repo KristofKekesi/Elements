@@ -1,1 +1,75 @@
- 
+ {
+ "isotopes": [
+		{
+			"weight": "3.030775",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Lítium-3",
+			"en": "Lithium-3"
+		}, {
+			"weight": "4.027185558",
+			"rate": "0",
+			"halfRate": "0.000000000091 ps",
+
+			"hu": "Lítium-4",
+			"en": "Lithium-4"
+		}, {
+			"weight": "5.0125378",
+			"rate": "0",
+			"halfRate": "0.000000000037 ps",
+
+			"hu": "Lítium-5",
+			"en": "Lithium-5"
+		}, {
+			"weight": "6.015122794",
+			"rate": "7.59",
+			"halfRate": "stable",
+
+			"hu": "Lítium-6",
+			"en": "Lithium-6"
+		}, {
+			"weight": "7.016004548",
+			"rate": "92.41",
+			"halfRate": "stable",
+
+			"hu": "Lítium-7",
+			"en": "Lithium-7"
+		}, {
+			"weight": "8.022487362",
+			"rate": "0",
+			"halfRate": "840.3 ms",
+
+			"hu": "Lítium-8",
+			"en": "Lithium-8"
+		}, {
+			"weight": "9.026789505",
+			"rate": "0",
+			"halfRate": "178.3 ms",
+
+			"hu": "Lítium-9",
+			"en": "Lithium-9"
+		}, {
+			"weight": "10.035481259",
+			"rate": "0",
+			"halfRate": "0.000000009 ps",
+
+			"hu": "Lítium-10",
+			"en": "Lithium-10"
+		}, {
+			"weight": "11.043797715",
+			"rate": "0",
+			"halfRate": "8.75 ms",
+
+			"hu": "Lítium-11",
+			"en": "Lithium-11"
+		}, {
+			"weight": "12.05378",
+			"rate": "0",
+			"halfRate": "10 ns",
+
+			"hu": "Lítium-12",
+			"en": "Lithium-12"
+		}
+	]
+ }

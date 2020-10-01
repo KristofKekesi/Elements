@@ -1,1 +1,110 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "8.037675025",
+			"rate": "0",
+			"halfRate": "0.000000002 ps",
+
+			"hu": "Szén-8",
+			"en": "Carbon-8"
+		}, {
+			"weight": "9.031036689",
+			"rate": "0",
+			"halfRate": "126.5 ms",
+
+			"hu": "Szén-9",
+			"en": "Carbon-9"
+		}, {
+			"weight": "10.016853228",
+			"rate": "0",
+			"halfRate": "19.29 s",
+
+			"hu": "Szén-10",
+			"en": "Carbon-10"
+		}, {
+			"weight": "11.011433613",
+			"rate": "0",
+			"halfRate": "20.38 min",
+
+			"hu": "Szén-11",
+			"en": "Carbon-11"
+		}, {
+			"weight": "12",
+			"rate": "98.93",
+			"halfRate": "stable",
+
+			"hu": "Szén-12",
+			"en": "Carbon-12"
+		}, {
+			"weight": "13.00335483778",
+			"rate": "1.07",
+			"halfRate": "stable",
+
+			"hu": "Szén-13",
+			"en": "Carbon-13"
+		}, {
+			"weight": "14.0032419887",
+			"rate": "0",
+			"halfRate": "5700 y",
+
+			"hu": "Szén-14",
+			"en": "Carbon-14"
+		}, {
+			"weight": "15.010599256",
+			"rate": "0",
+			"halfRate": "2.449 s",
+
+			"hu": "Szén-15",
+			"en": "Carbon-15"
+		}, {
+			"weight": "16.014701252",
+			"rate": "0",
+			"halfRate": "747 ms",
+
+			"hu": "Szén-16",
+			"en": "Carbon-16"
+		}, {
+			"weight": "17.022586116",
+			"rate": "0",
+			"halfRate": "193 ms",
+
+			"hu": "Szén-17",
+			"en": "Carbon-17"
+		}, {
+			"weight": "18.026759354",
+			"rate": "0",
+			"halfRate": "92 ms",
+
+			"hu": "Szén-18",
+			"en": "Carbon-18"
+		}, {
+			"weight": "19.034805018",
+			"rate": "0",
+			"halfRate": "42.2 ms",
+
+			"hu": "Szén-19",
+			"en": "Carbon-19"
+		}, {
+			"weight": "20.040319754",
+			"rate": "0",
+			"halfRate": "16 ms",
+
+			"hu": "Szén-20",
+			"en": "Carbon-20"
+		}, {
+			"weight": "21.04934",
+			"rate": "0",
+			"halfRate": "30 ns",
+
+			"hu": "Szén-21",
+			"en": "Carbon-21"
+		}, {
+			"weight": "22.0572",
+			"rate": "0",
+			"halfRate": "6.2 ms",
+
+			"hu": "Szén-22",
+			"en": "Carbon-22"
+		}
+	]
+}

@@ -1,1 +1,54 @@
- 
+{
+"isotopes": [
+		{
+			"weight": "1.00782503207",
+			"rate": "99.9885",
+			"halfRate": "stable",
+
+			"hu": "Hidrogén-1",
+			"en": "Hydrogen-1"
+		}, {
+			"weight": "2.01410177785",
+			"rate": "0.0115",
+			"halfRate": "stable",
+
+			"hu": "Hidrogén-2",
+			"en": "Hydrogen-2"
+		}, {
+			"weight": "3.01604927767",
+			"rate": "0",
+			"halfRate": "12.32 y",
+
+			"hu": "Hidrogén-3",
+			"en": "Hydrogen-3"
+		}, {
+			"weight": "4.027806424",
+			"rate": "0",
+			"halfRate": "0.000000000139 ps",
+
+			"hu": "Hidrogén-4",
+			"en": "Hydrogen-4"
+		}, {
+			"weight": "5.035311488",
+			"rate": "0",
+			"halfRate": "0.00000000091 ps",
+
+			"hu": "Hidrogén-5",
+			"en": "Hydrogen-5"
+		}, {
+			"weight": "6.044942594",
+			"rate": "0",
+			"halfRate": "0.00000000029 ps",
+
+			"hu": "Hidrogén-6",
+			"en": "Hydrogen-6"
+		}, {
+			"weight": "7.052749",
+			"rate": "0",
+			"halfRate": "0.000000000023 ps",
+
+			"hu": "Hidrogén-7",
+			"en": "Hydrogen-7"
+		}
+	]
+}
