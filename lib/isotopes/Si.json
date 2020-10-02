@@ -1,1 +1,166 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "22.03453",
+			"rate": "0",
+			"halfRate": "29 ms",
+
+			"hu": "Szilícium-22",
+			"en": "Silicon-22"
+		}, {
+			"weight": "23.02552",
+			"rate": "0",
+			"halfRate": "42.3 ms",
+
+			"hu": "Szilícium-23",
+			"en": "Silicon-23"
+		}, {
+			"weight": "24.011545616",
+			"rate": "0",
+			"halfRate": "140 ms",
+
+			"hu": "Szilícium-24",
+			"en": "Silicon-24"
+		}, {
+			"weight": "25.004105574",
+			"rate": "0",
+			"halfRate": "220 ms",
+
+			"hu": "Szilícium-25",
+			"en": "Silicon-25"
+		}, {
+			"weight": "25.992329921",
+			"rate": "0",
+			"halfRate": "2.234 s",
+
+			"hu": "Szilícium-26",
+			"en": "Silicon-26"
+		}, {
+			"weight": "26.986704905",
+			"rate": "0",
+			"halfRate": "4.16 s",
+
+			"hu": "Szilícium-27",
+			"en": "Silicon-27"
+		}, {
+			"weight": "27.97692653246",
+			"rate": "92.2297",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-28",
+			"en": "Silicon-28"
+		}, {
+			"weight": "28.9764947",
+			"rate": "4.6832",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-29",
+			"en": "Silicon-29"
+		}, {
+			"weight": "29.973770171",
+			"rate": "3.0872",
+			"halfRate": "stable",
+
+			"hu": "Szilícium-30",
+			"en": "Silicon-30"
+		}, {
+			"weight": "30.975363226999998",
+			"rate": "0",
+			"halfRate": "2.622 h",
+
+			"hu": "Szilícium-31",
+			"en": "Silicon-31"
+		}, {
+			"weight": "31.974148082",
+			"rate": "0",
+			"halfRate": "132 y",
+
+			"hu": "Szilícium-32",
+			"en": "Silicon-32"
+		}, {
+			"weight": "32.97800022",
+			"rate": "0",
+			"halfRate": "6.18 s",
+
+			"hu": "Szilícium-33",
+			"en": "Silicon-33"
+		}, {
+			"weight": "33.978575524",
+			"rate": "0",
+			"halfRate": "2.77 s",
+
+			"hu": "Szilícium-34",
+			"en": "Silicon-34"
+		}, {
+			"weight": "34.984583575",
+			"rate": "0",
+			"halfRate": "780 ms",
+
+			"hu": "Szilícium-35",
+			"en": "Silicon-35"
+		}, {
+			"weight": "35.986599477",
+			"rate": "0",
+			"halfRate": "450 ms",
+
+			"hu": "Szilícium-36",
+			"en": "Silicon-36"
+		}, {
+			"weight": "36.99293608",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-37",
+			"en": "Silicon-37"
+		}, {
+			"weight": "37.995633601",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-38",
+			"en": "Silicon-38"
+		}, {
+			"weight": "39.002070013",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Szilícium-39",
+			"en": "Silicon-39"
+		}, {
+			"weight": "40.005869121",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Szilícium-40",
+			"en": "Silicon-40"
+		}, {
+			"weight": "41.01456",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Szilícium-41",
+			"en": "Silicon-41"
+		}, {
+			"weight": "42.01979",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Szilícium-42",
+			"en": "Silicon-42"
+		}, {
+			"weight": "43.02866",
+			"rate": "0",
+			"halfRate": "15 ms",
+
+			"hu": "Szilícium-43",
+			"en": "Silicon-43"
+		}, {
+			"weight": "44.03526",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Szilícium-44",
+			"en": "Silicon-44"
+		}
+	]
+}

@@ -1,1 +1,173 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "28.02851",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Klór-28",
+			"en": "Chlorine-28"
+		}, {
+			"weight": "29.01411",
+			"rate": "0",
+			"halfRate": "20 ns",
+
+			"hu": "Klór-29",
+			"en": "Chlorine-29"
+		}, {
+			"weight": "30.00477",
+			"rate": "0",
+			"halfRate": "30 ns",
+
+			"hu": "Klór-30",
+			"en": "Chlorine-30"
+		}, {
+			"weight": "30.992413086",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Klór-31",
+			"en": "Chlorine-31"
+		}, {
+			"weight": "31.985689901",
+			"rate": "0",
+			"halfRate": "298 ms",
+
+			"hu": "Klór-32",
+			"en": "Chlorine-32"
+		}, {
+			"weight": "32.977451887",
+			"rate": "0",
+			"halfRate": "2.511 s",
+
+			"hu": "Klór-33",
+			"en": "Chlorine-33"
+		}, {
+			"weight": "33.973762819",
+			"rate": "0",
+			"halfRate": "1.5264 s",
+
+			"hu": "Klór-34",
+			"en": "Chlorine-34"
+		}, {
+			"weight": "34.968852682",
+			"rate": "75.78",
+			"halfRate": "stable",
+
+			"hu": "Klór-35",
+			"en": "Chlorine-35"
+		}, {
+			"weight": "35.968306981",
+			"rate": "0",
+			"halfRate": "300000 y",
+
+			"hu": "Klór-36",
+			"en": "Chlorine-36"
+		}, {
+			"weight": "36.965902591",
+			"rate": "24.22",
+			"halfRate": "stable",
+
+			"hu": "Klór-37",
+			"en": "Chlorine-37"
+		}, {
+			"weight": "37.968010425",
+			"rate": "0",
+			"halfRate": "37.23 min",
+
+			"hu": "Klór-38",
+			"en": "Chlorine-38"
+		}, {
+			"weight": "38.968008164",
+			"rate": "0",
+			"halfRate": "55.67 min",
+
+			"hu": "Klór-39",
+			"en": "Chlorine-39"
+		}, {
+			"weight": "39.970415472",
+			"rate": "0",
+			"halfRate": "1.35 min",
+
+			"hu": "Klór-40",
+			"en": "Chlorine-40"
+		}, {
+			"weight": "40.970684525",
+			"rate": "0",
+			"halfRate": "38.4 s",
+
+			"hu": "Klór-41",
+			"en": "Chlorine-41"
+		}, {
+			"weight": "41.973254804",
+			"rate": "0",
+			"halfRate": "6.8 s",
+
+			"hu": "Klór-42",
+			"en": "Chlorine-42"
+		}, {
+			"weight": "42.974054403",
+			"rate": "0",
+			"halfRate": "3.07 s",
+
+			"hu": "Klór-43",
+			"en": "Chlorine-43"
+		}, {
+			"weight": "43.978281071",
+			"rate": "0",
+			"halfRate": "560 ns",
+
+			"hu": "Klór-44",
+			"en": "Chlorine-44"
+		}, {
+			"weight": "44.980286886",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Klór-45",
+			"en": "Chlorine-45"
+		}, {
+			"weight": "45.98421004",
+			"rate": "0",
+			"halfRate": "220 ms",
+
+			"hu": "Klór-46",
+			"en": "Chlorine-46"
+		}, {
+			"weight": "46.98871",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Klór-47",
+			"en": "Chlorine-47"
+		}, {
+			"weight": "47.99495",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Klór-48",
+			"en": "Chlorine-48"
+		}, {
+			"weight": "49.00032",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Klór-49",
+			"en": "Chlorine-49"
+		}, {
+			"weight": "50.00784",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Klór-50",
+			"en": "Chlorine-50"
+		}, {
+			"weight": "51.01449",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Klór-51",
+			"en": "Chlorine-51"
+		}
+	]
+}

@@ -1,1 +1,124 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "12.034404895",
+			"rate": "0",
+			"halfRate": "0.00000000058 ps",
+
+			"hu": "Oxigén-12",
+			"en": "Oxygen-12"
+		}, {
+			"weight": "13.024812213",
+			"rate": "0",
+			"halfRate": "8.58 ms",
+
+			"hu": "Oxigén-13",
+			"en": "Oxygen-13"
+		}, {
+			"weight": "14.00859625",
+			"rate": "0",
+			"halfRate": "1.1766 min",
+
+			"hu": "Oxigén-14",
+			"en": "Oxygen-14"
+		}, {
+			"weight": "15.003065617",
+			"rate": "0",
+			"halfRate": "2.0373 min",
+
+			"hu": "Oxigén-15",
+			"en": "Oxygen-15"
+		}, {
+			"weight": "15.99491461956",
+			"rate": "99.757",
+			"halfRate": "stable",
+
+			"hu": "Oxigén-16",
+			"en": "Oxygen-16"
+		}, {
+			"weight": "16.999131703",
+			"rate": "0.038",
+			"halfRate": "stable",
+
+			"hu": "Oxigén-17",
+			"en": "Oxygen-17"
+		}, {
+			"weight": "17.999161001",
+			"rate": "0.205",
+			"halfRate": "stable",
+
+			"hu": "Oxigén-18",
+			"en": "Oxygen-18"
+		}, {
+			"weight": "19.00358013",
+			"rate": "0",
+			"halfRate": "26.464 s",
+
+			"hu": "Oxigén-19",
+			"en": "Oxygen-19"
+		}, {
+			"weight": "20.004076742",
+			"rate": "0",
+			"halfRate": "13.51 s",
+
+			"hu": "Oxigén-20",
+			"en": "Oxygen-20"
+		}, {
+			"weight": "21.008655886",
+			"rate": "0",
+			"halfRate": "3.42 s",
+
+			"hu": "Oxigén-21",
+			"en": "Oxygen-21"
+		}, {
+			"weight": "22.009966947",
+			"rate": "0",
+			"halfRate": "2.25 s",
+
+			"hu": "Oxigén-22",
+			"en": "Oxygen-22"
+		}, {
+			"weight": "23.015687659",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Oxigén-23",
+			"en": "Oxygen-23"
+		}, {
+			"weight": "24.020472917",
+			"rate": "0",
+			"halfRate": "65 ms",
+
+			"hu": "Oxigén-24",
+			"en": "Oxygen-24"
+		}, {
+			"weight": "25.02946",
+			"rate": "0",
+			"halfRate": "50 ns",
+
+			"hu": "Oxigén-25",
+			"en": "Oxygen-25"
+		}, {
+			"weight": "26.03834",
+			"rate": "0",
+			"halfRate": "40 ns",
+
+			"hu": "Oxigén-26",
+			"en": "Oxygen-26"
+		}, {
+			"weight": "27.04826",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Oxigén-27",
+			"en": "Oxygen-27"
+		}, {
+			"weight": "28.05781",
+			"rate": "0",
+			"halfRate": "100 ns",
+
+			"hu": "Oxigén-28",
+			"en": "Oxygen-28"
+		}
+	]
+}

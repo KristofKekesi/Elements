@@ -1,1 +1,131 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "14.03506",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Fluor-14",
+			"en": "Fluorine-14"
+		}, {
+			"weight": "15.018009103",
+			"rate": "0",
+			"halfRate": "0.00000000041 ps",
+
+			"hu": "Fluor-15",
+			"en": "Fluorine-15"
+		}, {
+			"weight": "16.011465724",
+			"rate": "0",
+			"halfRate": "0.000000011 ps",
+
+			"hu": "Fluor-16",
+			"en": "Fluorine-16"
+		}, {
+			"weight": "17.002095237",
+			"rate": "0",
+			"halfRate": "1.075 min",
+
+			"hu": "Fluor-17",
+			"en": "Fluorine-17"
+		}, {
+			"weight": "18.000937956",
+			"rate": "0",
+			"halfRate": "1.82952 h",
+
+			"hu": "Fluor-18",
+			"en": "Fluorine-18"
+		}, {
+			"weight": "18.998403224",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Fluor-19",
+			"en": "Fluorine-19"
+		}, {
+			"weight": "19.999981315",
+			"rate": "0",
+			"halfRate": "11.163 s",
+
+			"hu": "Fluor-20",
+			"en": "Fluorine-20"
+		}, {
+			"weight": "20.999948951",
+			"rate": "0",
+			"halfRate": "4.158 s",
+
+			"hu": "Fluor-21",
+			"en": "Fluorine-21"
+		}, {
+			"weight": "22.002998815",
+			"rate": "0",
+			"halfRate": "4.23 s",
+
+			"hu": "Fluor-22",
+			"en": "Fluorine-22"
+		}, {
+			"weight": "23.003574631",
+			"rate": "0",
+			"halfRate": "2.23 s",
+
+			"hu": "Fluor-23",
+			"en": "Fluorine-23"
+		}, {
+			"weight": "24.008115485",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Fluor-24",
+			"en": "Fluorine-24"
+		}, {
+			"weight": "25.012101747",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Fluor-25",
+			"en": "Fluorine-25"
+		}, {
+			"weight": "26.019615555",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Fluor-26",
+			"en": "Fluorine-26"
+		}, {
+			"weight": "27.026760086",
+			"rate": "0",
+			"halfRate": "4.9 ms",
+
+			"hu": "Fluor-27",
+			"en": "Fluorine-27"
+		}, {
+			"weight": "28.03567",
+			"rate": "0",
+			"halfRate": "40 ns",
+
+			"hu": "Fluor-28",
+			"en": "Fluorine-28"
+		}, {
+			"weight": "29.04326",
+			"rate": "0",
+			"halfRate": "2.6 ns",
+
+			"hu": "Fluor-29",
+			"en": "Fluorine-29"
+		}, {
+			"weight": "30.0525",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Fluor-30",
+			"en": "Fluorine-30"
+		}, {
+			"weight": "31.060429",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Fluor-31",
+			"en": "Fluorine-31"
+		}
+	]
+}

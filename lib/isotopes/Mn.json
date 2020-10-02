@@ -1,1 +1,187 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "44.00687",
+			"rate": "0",
+			"halfRate": "105 ns",
+
+			"hu": "Mangán-44",
+			"en": "Manganese-44"
+		}, {
+			"weight": "44.99451",
+			"rate": "0",
+			"halfRate": "70 ns",
+
+			"hu": "Mangán-45",
+			"en": "Manganese-45"
+		}, {
+			"weight": "45.98672",
+			"rate": "0",
+			"halfRate": "37 ms",
+
+			"hu": "Mangán-46",
+			"en": "Manganese-46"
+		}, {
+			"weight": "46.9761",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Mangán-47",
+			"en": "Manganese-47"
+		}, {
+			"weight": "47.96852",
+			"rate": "0",
+			"halfRate": "158.1 ms",
+
+			"hu": "Mangán-48",
+			"en": "Manganese-48"
+		}, {
+			"weight": "48.959618005",
+			"rate": "0",
+			"halfRate": "382 ms",
+
+			"hu": "Mangán-49",
+			"en": "Manganese-49"
+		}, {
+			"weight": "49.95423823",
+			"rate": "0",
+			"halfRate": "283.9 ms",
+
+			"hu": "Mangán-50",
+			"en": "Manganese-50"
+		}, {
+			"weight": "50.948210787",
+			"rate": "0",
+			"halfRate": "46.17 min",
+
+			"hu": "Mangán-51",
+			"en": "Manganese-51"
+		}, {
+			"weight": "51.945565464",
+			"rate": "0",
+			"halfRate": "5.591 d",
+
+			"hu": "Mangán-52",
+			"en": "Manganese-52"
+		}, {
+			"weight": "52.941290117",
+			"rate": "0",
+			"halfRate": "3800000 y",
+
+			"hu": "Mangán-53",
+			"en": "Manganese-53"
+		}, {
+			"weight": "53.940358854",
+			"rate": "0",
+			"halfRate": "312.03 d",
+
+			"hu": "Mangán-54",
+			"en": "Manganese-54"
+		}, {
+			"weight": "54.938045141",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Mangán-55",
+			"en": "Manganese-55"
+		}, {
+			"weight": "55.93890491",
+			"rate": "0",
+			"halfRate": "2.5789 h",
+
+			"hu": "Mangán-56",
+			"en": "Manganese-56"
+		}, {
+			"weight": "56.938285378",
+			"rate": "0",
+			"halfRate": "1.42 min",
+
+			"hu": "Mangán-57",
+			"en": "Manganese-57"
+		}, {
+			"weight": "57.939981549",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Mangán-58",
+			"en": "Manganese-58"
+		}, {
+			"weight": "58.940440237",
+			"rate": "0",
+			"halfRate": "4.59 s",
+
+			"hu": "Mangán-59",
+			"en": "Manganese-59"
+		}, {
+			"weight": "59.942911246",
+			"rate": "0",
+			"halfRate": "51 s",
+
+			"hu": "Mangán-60",
+			"en": "Manganese-60"
+		}, {
+			"weight": "60.944652638",
+			"rate": "0",
+			"halfRate": "670 ms",
+
+			"hu": "Mangán-61",
+			"en": "Manganese-61"
+		}, {
+			"weight": "61.94842822",
+			"rate": "0",
+			"halfRate": "671 ms",
+
+			"hu": "Mangán-62",
+			"en": "Manganese-62"
+		}, {
+			"weight": "62.95023999",
+			"rate": "0",
+			"halfRate": "275 ms",
+
+			"hu": "Mangán-63",
+			"en": "Manganese-63"
+		}, {
+			"weight": "63.95424909",
+			"rate": "0",
+			"halfRate": "88.8 ms",
+
+			"hu": "Mangán-64",
+			"en": "Manganese-64"
+		}, {
+			"weight": "64.956336065",
+			"rate": "0",
+			"halfRate": "92 ms",
+
+			"hu": "Mangán-65",
+			"en": "Manganese-65"
+		}, {
+			"weight": "65.96108",
+			"rate": "0",
+			"halfRate": "64.4 ms",
+
+			"hu": "Mangán-66",
+			"en": "Manganese-66"
+		}, {
+			"weight": "66.96414",
+			"rate": "0",
+			"halfRate": "45 ms",
+
+			"hu": "Mangán-67",
+			"en": "Manganese-67"
+		}, {
+			"weight": "67.9693",
+			"rate": "0",
+			"halfRate": "28 ms",
+
+			"hu": "Mangán-68",
+			"en": "Manganese-68"
+		}, {
+			"weight": "68.97284",
+			"rate": "0",
+			"halfRate": "14 ms",
+
+			"hu": "Mangán-69",
+			"en": "Manganese-69"
+		}
+	]
+}

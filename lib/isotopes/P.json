@@ -1,1 +1,166 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "24.03435",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Foszfor-24",
+			"en": "Phosphorus-24"
+		} ,	{
+			"weight": "25.02026",
+			"rate": "0",
+			"halfRate": "30 ns",
+
+			"hu": "Foszfor-25",
+			"en": "Phosphorus-25"
+		}, {
+			"weight": "26.01178",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Foszfor-26",
+			"en": "Phosphorus-26"
+		}, {
+			"weight": "26.999230236",
+			"rate": "0",
+			"halfRate": "260 ms",
+
+			"hu": "Foszfor-27",
+			"en": "Phosphorus-27"
+		}, {
+			"weight": "27.992314761",
+			"rate": "0",
+			"halfRate": "270.3 ms",
+
+			"hu": "Foszfor-28",
+			"en": "Phosphorus-28"
+		}, {
+			"weight": "28.981800606",
+			"rate": "0",
+			"halfRate": "4.142 s",
+
+			"hu": "Foszfor-29",
+			"en": "Phosphorus-29"
+		}, {
+			"weight": "29.978313789",
+			"rate": "0",
+			"halfRate": "2.498 min",
+
+			"hu": "Foszfor-30",
+			"en": "Phosphorus-30"
+		}, {
+			"weight": "30.973761629",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Foszfor-31",
+			"en": "Phosphorus-31"
+		}, {
+			"weight": "31.973907274",
+			"rate": "0",
+			"halfRate": "14.263 d",
+
+			"hu": "Foszfor-32",
+			"en": "Phosphorus-32"
+		}, {
+			"weight": "32.971725543",
+			"rate": "0",
+			"halfRate": "25.34 d",
+
+			"hu": "Foszfor-33",
+			"en": "Phosphorus-33"
+		}, {
+			"weight": "33.973636257",
+			"rate": "0",
+			"halfRate": "12.43 s",
+
+			"hu": "Foszfor-34",
+			"en": "Phosphorus-34"
+		}, {
+			"weight": "34.973314117",
+			"rate": "0",
+			"halfRate": "47.3 s",
+
+			"hu": "Foszfor-35",
+			"en": "Phosphorus-35"
+		}, {
+			"weight": "35.97825968",
+			"rate": "0",
+			"halfRate": "5.6 s",
+
+			"hu": "Foszfor-36",
+			"en": "Phosphorus-36"
+		}, {
+			"weight": "36.979608946",
+			"rate": "0",
+			"halfRate": "2.31 s",
+
+			"hu": "Foszfor-37",
+			"en": "Phosphorus-37"
+		}, {
+			"weight": "37.984156827",
+			"rate": "0",
+			"halfRate": "640 ms",
+
+			"hu": "Foszfor-38",
+			"en": "Phosphorus-38"
+		}, {
+			"weight": "38.986179475",
+			"rate": "0",
+			"halfRate": "190 ms",
+
+			"hu": "Foszfor-39",
+			"en": "Phosphorus-39"
+		}, {
+			"weight": "39.991296951",
+			"rate": "0",
+			"halfRate": "153 ms",
+
+			"hu": "Foszfor-40",
+			"en": "Phosphorus-40"
+		}, {
+			"weight": "40.994335435",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Foszfor-41",
+			"en": "Phosphorus-41"
+		}, {
+			"weight": "42.001007913",
+			"rate": "0",
+			"halfRate": "120 ms",
+
+			"hu": "Foszfor-42",
+			"en": "Phosphorus-42"
+		}, {
+			"weight": "43.00619",
+			"rate": "0",
+			"halfRate": "33 ms",
+
+			"hu": "Foszfor-43",
+			"en": "Phosphorus-43"
+		}, {
+			"weight": "44.01299",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Foszfor-44",
+			"en": "Phosphorus-44"
+		}, {
+			"weight": "45.01922",
+			"rate": "0",
+			"halfRate": "8 ms",
+
+			"hu": "Foszfor-45",
+			"en": "Phosphorus-45"
+		}, {
+			"weight": "46.02738",
+			"rate": "0",
+			"halfRate": "4 ms",
+
+			"hu": "Foszfor-46",
+			"en": "Phosphorus-46"
+		}
+	]
+}

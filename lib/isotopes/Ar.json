@@ -1,1 +1,173 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "30.02156",
+			"rate": "0",
+			"halfRate": "20 ns",
+
+			"hu": "Argon-30",
+			"en": "Argon-30"
+		}, {
+			"weight": "31.012123",
+			"rate": "0",
+			"halfRate": "14.4 ms",
+
+			"hu": "Argon-31",
+			"en": "Argon-31"
+		}, {
+			"weight": "31.997637984",
+			"rate": "0",
+			"halfRate": "98 ms",
+
+			"hu": "Argon-32",
+			"en": "Argon-32"
+		}, {
+			"weight": "32.989925709",
+			"rate": "0",
+			"halfRate": "173 ms",
+
+			"hu": "Argon-33",
+			"en": "Argon-33"
+		}, {
+			"weight": "33.980271244",
+			"rate": "0",
+			"halfRate": "845 ms",
+
+			"hu": "Argon-34",
+			"en": "Argon-34"
+		}, {
+			"weight": "34.975257585",
+			"rate": "0",
+			"halfRate": "1.775 s",
+
+			"hu": "Argon-35",
+			"en": "Argon-35"
+		}, {
+			"weight": "35.967545105",
+			"rate": "0.3365",
+			"halfRate": "stable",
+
+			"hu": "Argon-36",
+			"en": "Argon-36"
+		}, {
+			"weight": "36.96677632",
+			"rate": "0",
+			"halfRate": "845 ms",
+
+			"hu": "Argon-37",
+			"en": "Argon-37"
+		}, {
+			"weight": "37.962732394",
+			"rate": "0.0632",
+			"halfRate": "stable",
+
+			"hu": "Argon-38",
+			"en": "Argon-38"
+		}, {
+			"weight": "38.964313231",
+			"rate": "0",
+			"halfRate": "269 y",
+
+			"hu": "Argon-39",
+			"en": "Argon-39"
+		}, {
+			"weight": "39.96238312251",
+			"rate": "99.6003",
+			"halfRate": "stable",
+
+			"hu": "Argon-40",
+			"en": "Argon-40"
+		}, {
+			"weight": "40.964500611",
+			"rate": "0",
+			"halfRate": "1.8268 h",
+
+			"hu": "Argon-41",
+			"en": "Argon-41"
+		}, {
+			"weight": "41.963045736",
+			"rate": "0",
+			"halfRate": "33 y",
+
+			"hu": "Argon-42",
+			"en": "Argon-42"
+		}, {
+			"weight": "42.965636056",
+			"rate": "0",
+			"halfRate": "5.37 min",
+
+			"hu": "Argon-43",
+			"en": "Argon-43"
+		}, {
+			"weight": "43.964924033",
+			"rate": "0",
+			"halfRate": "11.87 min",
+
+			"hu": "Argon-44",
+			"en": "Argon-44"
+		}, {
+			"weight": "44.968039956",
+			"rate": "0",
+			"halfRate": "21.48 s",
+
+			"hu": "Argon-45",
+			"en": "Argon-45"
+		}, {
+			"weight": "45.968094129",
+			"rate": "0",
+			"halfRate": "8.4 s",
+
+			"hu": "Argon-46",
+			"en": "Argon-46"
+		}, {
+			"weight": "46.972186792",
+			"rate": "0",
+			"halfRate": "580 ms",
+
+			"hu": "Argon-47",
+			"en": "Argon-47"
+		}, {
+			"weight": "47.97454",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Argon-48",
+			"en": "Argon-48"
+		}, {
+			"weight": "48.98052",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Argon-49",
+			"en": "Argon-49"
+		}, {
+			"weight": "49.98443",
+			"rate": "00",
+			"halfRate": "85 ms",
+
+			"hu": "Argon-50",
+			"en": "Argon-50"
+		}, {
+			"weight": "50.99163",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Argon-51",
+			"en": "Argon-51"
+		}, {
+			"weight": "51.99678",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Argon-52",
+			"en": "Argon-52"
+		}, {
+			"weight": "53.00494",
+			"rate": "0",
+			"halfRate": "3 ms",
+
+			"hu": "Argon-53",
+			"en": "Argon-53"
+		}
+	]
+}

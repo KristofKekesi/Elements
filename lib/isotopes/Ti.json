@@ -1,1 +1,187 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "38.00977",
+			"rate": "0",
+			"halfRate": "120 ns",
+
+			"hu": "Titán-38",
+			"en": "Titanium-38"
+		}, {
+			"weight": "39.00161",
+			"rate": "0",
+			"halfRate": "31 ms",
+
+			"hu": "Titán-39",
+			"en": "Titanium-39"
+		}, {
+			"weight": "39.990498838",
+			"rate": "0",
+			"halfRate": "53.3 ms",
+
+			"hu": "Titán-40",
+			"en": "Titanium-40"
+		}, {
+			"weight": "40.983145",
+			"rate": "0",
+			"halfRate": "80.9 ms",
+
+			"hu": "Titán-41",
+			"en": "Titanium-41"
+		}, {
+			"weight": "41.973030902",
+			"rate": "0",
+			"halfRate": "199 ms",
+
+			"hu": "Titán-42",
+			"en": "Titanium-42"
+		}, {
+			"weight": "42.968522499",
+			"rate": "0",
+			"halfRate": "509 ms",
+
+			"hu": "Titán-43",
+			"en": "Titanium-43"
+		}, {
+			"weight": "43.959690069",
+			"rate": "0",
+			"halfRate": "60 y",
+
+			"hu": "Titán-44",
+			"en": "Titanium-44"
+		}, {
+			"weight": "44.958125616",
+			"rate": "0",
+			"halfRate": "3.0806 h",
+
+			"hu": "Titán-45",
+			"en": "Titanium-45"
+		}, {
+			"weight": "45.952631555",
+			"rate": "8.25",
+			"halfRate": "stable",
+
+			"hu": "Titán-46",
+			"en": "Titanium-46"
+		}, {
+			"weight": "46.951763088",
+			"rate": "7.44",
+			"halfRate": "stable",
+
+			"hu": "Titán-47",
+			"en": "Titanium-47"
+		}, {
+			"weight": "47.947946281",
+			"rate": "73.72%",
+			"halfRate": "stable",
+
+			"hu": "Titán-48",
+			"en": "Titanium-48"
+		}, {
+			"weight": "48.947869982",
+			"rate": "5.41",
+			"halfRate": "stable",
+
+			"hu": "Titán-49",
+			"en": "Titanium-49"
+		}, {
+			"weight": "49.944791194",
+			"rate": "5.18",
+			"halfRate": "stable",
+
+			"hu": "Titán-50",
+			"en": "Titanium-50"
+		}, {
+			"weight": "50.946614955",
+			"rate": "0",
+			"halfRate": "5.77 min",
+
+			"hu": "Titán-51",
+			"en": "Titanium-51"
+		}, {
+			"weight": "51.946897311",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Titán-52",
+			"en": "Titanium-52"
+		}, {
+			"weight": "52.949727171",
+			"rate": "0",
+			"halfRate": "32.7 s",
+
+			"hu": "Titán-53",
+			"en": "Titanium-53"
+		}, {
+			"weight": "53.95105241",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Titán-54",
+			"en": "Titanium-54"
+		}, {
+			"weight": "54.955265056",
+			"rate": "0",
+			"halfRate": "490 ms",
+
+			"hu": "Titán-55",
+			"en": "Titanium-55"
+		}, {
+			"weight": "55.958199639",
+			"rate": "0",
+			"halfRate": "164 ms",
+
+			"hu": "Titán-56",
+			"en": "Titanium-56"
+		}, {
+			"weight": "56.963989137",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Titán-57",
+			"en": "Titanium-57"
+		}, {
+			"weight": "57.96697",
+			"rate": "0",
+			"halfRate": "54 ms",
+
+			"hu": "Titán-58",
+			"en": "Titanium-58"
+		}, {
+			"weight": "58.97293",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Titán-59",
+			"en": "Titanium-59"
+		}, {
+			"weight": "59.97676",
+			"rate": "0",
+			"halfRate": "22 ms",
+
+			"hu": "Titán-60",
+			"en": "Titanium-60"
+		}, {
+			"weight": "60.9832",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Titán-61",
+			"en": "Titanium-61"
+		}, {
+			"weight": "61.98749",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Titán-62",
+			"en": "Titanium-62"
+		}, {
+			"weight": "62.99442",
+			"rate": "0",
+			"halfRate": "3 ms",
+
+			"hu": "Titán-63",
+			"en": "Titanium-63"
+		}
+	]
+}

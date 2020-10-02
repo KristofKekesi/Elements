@@ -1,1 +1,145 @@
- 
+{
+"isotopes": [
+		{
+			"weight": "18.025969",
+			"rate": "0",
+			"halfRate": "0.0000000013 ps",
+
+			"hu": "Nátrium-18",
+			"en": "Sodium-18"
+		}, {
+			"weight": "19.013877499",
+			"rate": "0",
+			"halfRate": "40 ns",
+
+			"hu": "Nátrium-19",
+			"en": "Sodium-19"
+		}, {
+			"weight": "20.007351328",
+			"rate": "0",
+			"halfRate": "447.9 ms",
+
+			"hu": "Nátrium-20",
+			"en": "Sodium-20"
+		}, {
+			"weight": "20.997655206",
+			"rate": "0",
+			"halfRate": "22.49 s",
+
+			"hu": "Nátrium-21",
+			"en": "Sodium-21"
+		}, {
+			"weight": "21.994436425",
+			"rate": "0",
+			"halfRate": "2.6019 y",
+
+			"hu": "Nátrium-22",
+			"en": "Sodium-22"
+		}, {
+			"weight": "22.98976928087",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Nátrium-23",
+			"en": "Sodium-23"
+		}, {
+			"weight": "23.990962782",
+			"rate": "0",
+			"halfRate": "14.959 h",
+
+			"hu": "Nátrium-24",
+			"en": "Sodium-24"
+		}, {
+			"weight": "24.989953968",
+			"rate": "0",
+			"halfRate": "59.1 s",
+
+			"hu": "Nátrium-25",
+			"en": "Sodium-25"
+		}, {
+			"weight": "25.992633",
+			"rate": "0",
+			"halfRate": "1.077 s",
+
+			"hu": "Nátrium-26",
+			"en": "Sodium-26"
+		}, {
+			"weight": "26.994076788",
+			"rate": "0",
+			"halfRate": "301 ms",
+
+			"hu": "Nátrium-27",
+			"en": "Sodium-27"
+		}, {
+			"weight": "27.998938",
+			"rate": "0",
+			"halfRate": "30.5 ms",
+
+			"hu": "Nátrium-28",
+			"en": "Sodium-28"
+		}, {
+			"weight": "29.002861",
+			"rate": "0",
+			"halfRate": "44.9 ms",
+
+			"hu": "Nátrium-29",
+			"en": "Sodium-29"
+		}, {
+			"weight": "30.008976",
+			"rate": "0",
+			"halfRate": "48.4 ms",
+
+			"hu": "Nátrium-30",
+			"en": "Sodium-30"
+		}, {
+			"weight": "31.013585452",
+			"rate": "0",
+			"halfRate": "17 ms",
+
+			"hu": "Nátrium-31",
+			"en": "Sodium-31"
+		}, {
+			"weight": "32.02046656",
+			"rate": "0",
+			"halfRate": "12.9 ms",
+
+			"hu": "Nátrium-32",
+			"en": "Sodium-32"
+		}, {
+			"weight": "33.026719756",
+			"rate": "0",
+			"halfRate": "8.2 ms",
+
+			"hu": "Nátrium-33",
+			"en": "Sodium-33"
+		}, {
+			"weight": "34.03517",
+			"rate": "0",
+			"halfRate": "5.5 ms",
+
+			"hu": "Nátrium-34",
+			"en": "Sodium-34"
+		}, {
+			"weight": "35.042493",
+			"rate": "0",
+			"halfRate": "1.5 ms",
+
+			"hu": "Nátrium-35",
+			"en": "Sodium-35"
+		}, {
+			"weight": "36.05148",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Nátrium-36",
+			"en": "Sodium-36"
+		}, {
+			"weight": "37.05934",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Nátrium-37",
+			"en": "Sodium-37"
+		}
+	]
+}

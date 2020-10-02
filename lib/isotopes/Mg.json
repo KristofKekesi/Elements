@@ -1,1 +1,159 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "19.03547",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Magnézium-19",
+			"en": "Magnesium-19"
+		}, {
+			"weight": "20.018862545",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Magnézium-20",
+			"en": "Magnesium-20"
+		}, {
+			"weight": "21.01171291",
+			"rate": "0",
+			"halfRate": "122 ms",
+
+			"hu": "Magnézium-21",
+			"en": "Magnesium-21"
+		}, {
+			"weight": "21.999573843",
+			"rate": "0",
+			"halfRate": "3.857 s",
+
+			"hu": "Magnézium-22",
+			"en": "Magnesium-22"
+		}, {
+			"weight": "22.994123669",
+			"rate": "0",
+			"halfRate": "11.317 s",
+
+			"hu": "Magnézium-23",
+			"en": "Magnesium-23"
+		}, {
+			"weight": "23.985041699",
+			"rate": "78.99",
+			"halfRate": "stable",
+
+			"hu": "Magnézium-24",
+			"en": "Magnesium-24"
+		}, {
+			"weight": "24.985836917",
+			"rate": "10",
+			"halfRate": "stable",
+
+			"hu": "Magnézium-25",
+			"en": "Magnesium-25"
+		}, {
+			"weight": "25.982592929",
+			"rate": "11.01",
+			"halfRate": "stable",
+
+			"hu": "Magnézium-26",
+			"en": "Magnesium-26"
+		}, {
+			"weight": "26.984340585",
+			"rate": "0",
+			"halfRate": "9.458 min",
+
+			"hu": "Magnézium-27",
+			"en": "Magnesium-27"
+		}, {
+			"weight": "27.983876825",
+			"rate": "0",
+			"halfRate": "20.915 h",
+
+			"hu": "Magnézium-28",
+			"en": "Magnesium-28"
+		}, {
+			"weight": "28.9886",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Magnézium-29",
+			"en": "Magnesium-29"
+		}, {
+			"weight": "29.990434",
+			"rate": "0",
+			"halfRate": "335 ms",
+
+			"hu": "Magnézium-30",
+			"en": "Magnesium-30"
+		}, {
+			"weight": "30.996546",
+			"rate": "0",
+			"halfRate": "230 ms",
+
+			"hu": "Magnézium-31",
+			"en": "Magnesium-31"
+		}, {
+			"weight": "31.998975",
+			"rate": "0",
+			"halfRate": "95 ms",
+
+			"hu": "Magnézium-32",
+			"en": "Magnesium-32"
+		}, {
+			"weight": "33.005254",
+			"rate": "0",
+			"halfRate": "90.5 ms",
+
+			"hu": "Magnézium-33",
+			"en": "Magnesium-33"
+		}, {
+			"weight": "34.009456424",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Magnézium-34",
+			"en": "Magnesium-34"
+		}, {
+			"weight": "35.01734",
+			"rate": "0",
+			"halfRate": "70 ms",
+
+			"hu": "Magnézium-35",
+			"en": "Magnesium-35"
+		}, {
+			"weight": "36.023",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Magnézium-36",
+			"en": "Magnesium-36"
+		}, {
+			"weight": "37.0314",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Magnézium-37",
+			"en": "Magnesium-37"
+		}, {
+			"weight": "38.03757",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Magnézium-38",
+			"en": "Magnesium-38"
+		}, {
+			"weight": "39.046772",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Magnézium-39",
+			"en": "Magnesium-39"
+		}, {
+			"weight": "40.05393",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Magnézium-40",
+			"en": "Magnesium-40"
+		}
+	]
+}

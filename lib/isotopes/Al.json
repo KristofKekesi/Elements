@@ -1,1 +1,159 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "21.02804",
+			"rate": "0",
+			"halfRate": "35 ns",
+
+			"hu": "Alumínium-21",
+			"en": "Aluminium-21"
+		}, {
+			"weight": "22.01952",
+			"rate": "0",
+			"halfRate": "59 ms",
+
+			"hu": "Alumínium-22",
+			"en": "Aluminium-22"
+		}, {
+			"weight": "23.007267432",
+			"rate": "0",
+			"halfRate": "470 ms",
+
+			"hu": "Alumínium-23",
+			"en": "Aluminium-23"
+		}, {
+			"weight": "23.999938865",
+			"rate": "0",
+			"halfRate": "2.053 s",
+
+			"hu": "Alumínium-24",
+			"en": "Aluminium-24"
+		}, {
+			"weight": "24.990428095",
+			"rate": "0",
+			"halfRate": "7.183 s",
+
+			"hu": "Alumínium-25",
+			"en": "Aluminium-25"
+		}, {
+			"weight": "25.986891692",
+			"rate": "0",
+			"halfRate": "716000 y",
+
+			"hu": "Alumínium-26",
+			"en": "Aluminium-26"
+		}, {
+			"weight": "26.981538627",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Alumínium-27",
+			"en": "Aluminium-27"
+		}, {
+			"weight": "27.981910306",
+			"rate": "0",
+			"halfRate": "2.2413 min",
+
+			"hu": "Alumínium-28",
+			"en": "Aluminium-28"
+		}, {
+			"weight": "28.980445046",
+			"rate": "0",
+			"halfRate": "6.57 min",
+
+			"hu": "Alumínium-29",
+			"en": "Aluminium-29"
+		}, {
+			"weight": "29.982960256",
+			"rate": "0",
+			"halfRate": "3.6 s",
+
+			"hu": "Alumínium-30",
+			"en": "Aluminium-30"
+		}, {
+			"weight": "30.983946619",
+			"rate": "0",
+			"halfRate": "644 ms",
+
+			"hu": "Alumínium-31",
+			"en": "Aluminium-31"
+		}, {
+			"weight": "31.988124489",
+			"rate": "0",
+			"halfRate": "31.7 ms",
+
+			"hu": "Alumínium-32",
+			"en": "Aluminium-32"
+		}, {
+			"weight": "32.990843336",
+			"rate": "0",
+			"halfRate": "41.7 ms",
+
+			"hu": "Alumínium-33",
+			"en": "Aluminium-33"
+		}, {
+			"weight": "33.996851837",
+			"rate": "0",
+			"halfRate": "56.3 ms",
+
+			"hu": "Alumínium-34",
+			"en": "Aluminium-34"
+		}, {
+			"weight": "34.999860235",
+			"rate": "0",
+			"halfRate": "38.6 ms",
+
+			"hu": "Alumínium-35",
+			"en": "Aluminium-35"
+		}, {
+			"weight": "36.006207204",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Alumínium-36",
+			"en": "Aluminium-36"
+		}, {
+			"weight": "37.01067782",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Alumínium-37",
+			"en": "Aluminium-37"
+		}, {
+			"weight": "38.017231021",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Alumínium-38",
+			"en": "Aluminium-38"
+		}, {
+			"weight": "39.02297",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Alumínium-39",
+			"en": "Aluminium-39"
+		}, {
+			"weight": "40.03145",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Alumínium-40",
+			"en": "Aluminium-40"
+		}, {
+			"weight": "41.03833",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Alumínium-41",
+			"en": "Aluminium-41"
+		}, {
+			"weight": "42.04689",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Alumínium-42",
+			"en": "Aluminium-42"
+		}
+	]
+}

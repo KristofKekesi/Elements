@@ -1,1 +1,138 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "16.025761262",
+			"rate": "0",
+			"halfRate": "0.000000009 ps",
+
+			"hu": "Neon-16",
+			"en": "Neon-16"
+		}, {
+			"weight": "17.017671504",
+			"rate": "0",
+			"halfRate": "109.2 ms",
+
+			"hu": "Neon-17",
+			"en": "Neon-17"
+		}, {
+			"weight": "18.005708213",
+			"rate": "0",
+			"halfRate": "1.672 s",
+
+			"hu": "Neon-18",
+			"en": "Neon-18"
+		}, {
+			"weight": "19.001880248",
+			"rate": "0",
+			"halfRate": "17.296 s",
+
+			"hu": "Neon-19",
+			"en": "Neon-19"
+		}, {
+			"weight": "19.99244017542",
+			"rate": "90.48%",
+			"halfRate": "stable",
+
+			"hu": "Neon-20",
+			"en": "Neon-20"
+		}, {
+			"weight": "20.993846684",
+			"rate": "0.27",
+			"halfRate": "stable",
+
+			"hu": "Neon-21",
+			"en": "Neon-21"
+		}, {
+			"weight": "21.991385113",
+			"rate": "9.25",
+			"halfRate": "stable",
+
+			"hu": "Neon-22",
+			"en": "Neon-22"
+		}, {
+			"weight": "22.994466904",
+			"rate": "0",
+			"halfRate": "37.24 s",
+
+			"hu": "Neon-23",
+			"en": "Neon-23"
+		}, {
+			"weight": "23.993610779",
+			"rate": "0",
+			"halfRate": "3.38 min",
+
+			"hu": "Neon-24",
+			"en": "Neon-24"
+		}, {
+			"weight": "24.997736888",
+			"rate": "0",
+			"halfRate": "602 ms",
+
+			"hu": "Neon-25",
+			"en": "Neon-25"
+		}, {
+			"weight": "26.000461206",
+			"rate": "0",
+			"halfRate": "197 ms",
+
+			"hu": "Neon-26",
+			"en": "Neon-26"
+		}, {
+			"weight": "27.007589903",
+			"rate": "0",
+			"halfRate": "32 ms",
+
+			"hu": "Neon-27",
+			"en": "Neon-27"
+		}, {
+			"weight": "28.012071575",
+			"rate": "0",
+			"halfRate": "18.3 ms",
+
+			"hu": "Neon-28",
+			"en": "Neon-28"
+		}, {
+			"weight": "29.019385933",
+			"rate": "0",
+			"halfRate": "15.6 ms",
+
+			"hu": "Neon-29",
+			"en": "Neon-29"
+		}, {
+			"weight": "30.024801045",
+			"rate": "0",
+			"halfRate": "5.8 ms",
+
+			"hu": "Neon-30",
+			"en": "Neon-30"
+		}, {
+			"weight": "31.03311",
+			"rate": "0",
+			"halfRate": "3.4 ms",
+
+			"hu": "Neon-31",
+			"en": "Neon-31"
+		}, {
+			"weight": "32.04002",
+			"rate": "0",
+			"halfRate": "3.5 ms",
+
+			"hu": "Neon-32",
+			"en": "Neon-32"
+		}, {
+			"weight": "33.04938",
+			"rate": "0",
+			"halfRate": "260 ns",
+
+			"hu": "Neon-33",
+			"en": "Neon-33"
+		}, {
+			"weight": "34.057028",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Neon-34",
+			"en": "Neon-34"
+		}
+	]
+}
