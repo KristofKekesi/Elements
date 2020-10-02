@@ -1,1 +1,236 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "82.94874",
+			"rate": "0",
+			"halfRate": "23 ms",
+
+			"hu": "Molibdén-83",
+			"en": "Molybdenum-83"
+		}, {
+			"weight": "83.94009",
+			"rate": "0",
+			"halfRate": "3.8 ms",
+
+			"hu": "Molibdén-84",
+			"en": "Molybdenum-84"
+		}, {
+			"weight": "84.93655",
+			"rate": "0",
+			"halfRate": "3.2 s",
+
+			"hu": "Molibdén-85",
+			"en": "Molybdenum-85"
+		}, {
+			"weight": "85.930695904",
+			"rate": "0",
+			"halfRate": "19.6 s",
+
+			"hu": "Molibdén-86",
+			"en": "Molybdenum-86"
+		}, {
+			"weight": "86.927326502",
+			"rate": "0",
+			"halfRate": "14.05 s",
+
+			"hu": "Molibdén-87",
+			"en": "Molybdenum-87"
+		}, {
+			"weight": "87.921953241",
+			"rate": "0",
+			"halfRate": "8 min",
+
+			"hu": "Molibdén-88",
+			"en": "Molybdenum-88"
+		}, {
+			"weight": "88.919480009",
+			"rate": "0",
+			"halfRate": "2.12 min",
+
+			"hu": "Molibdén-89",
+			"en": "Molybdenum-89"
+		}, {
+			"weight": "89.913936896",
+			"rate": "0",
+			"halfRate": "5.6 h",
+
+			"hu": "Molibdén-90",
+			"en": "Molybdenum-90"
+		}, {
+			"weight": "90.911750194",
+			"rate": "0",
+			"halfRate": "15.49 min",
+
+			"hu": "Molibdén-91",
+			"en": "Molybdenum-91"
+		}, {
+			"weight": "91.906810991",
+			"rate": "14.84",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-92",
+			"en": "Molybdenum-92"
+		}, {
+			"weight": "92.90681261",
+			"rate": "0",
+			"halfRate": "4100 y",
+
+			"hu": "Molibdén-93",
+			"en": "Molybdenum-93"
+		}, {
+			"weight": "93.905088269",
+			"rate": "9.25",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-94",
+			"en": "Molybdenum-94"
+		}, {
+			"weight": "94.905842129",
+			"rate": "15.92",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-95",
+			"en": "Molybdenum-95"
+		}, {
+			"weight": "95.904679477",
+			"rate": "16.68",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-96",
+			"en": "Molybdenum-96"
+		}, {
+			"weight": "96.906021465",
+			"rate": "9.55",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-97",
+			"en": "Molybdenum-97"
+		}, {
+			"weight": "97.905408169",
+			"rate": "24.13",
+			"halfRate": "stable",
+
+			"hu": "Molibdén-98",
+			"en": "Molybdenum-98"
+		}, {
+			"weight": "98.90771187",
+			"rate": "0",
+			"halfRate": "2.748 d",
+
+			"hu": "Molibdén-99",
+			"en": "Molybdenum-99"
+		}, {
+			"weight": "99.907477336",
+			"rate": "9.63",
+			"halfRate": "8600000000000000000 y",
+
+			"hu": "Molibdén-100",
+			"en": "Molybdenum-100"
+		}, {
+			"weight": "100.910347001",
+			"rate": "0",
+			"halfRate": "14.61 min",
+
+			"hu": "Molibdén-101",
+			"en": "Molybdenum-101"
+		}, {
+			"weight": "101.91029736",
+			"rate": "0",
+			"halfRate": "11.3 min",
+
+			"hu": "Molibdén-102",
+			"en": "Molybdenum-102"
+		}, {
+			"weight": "102.913207142",
+			"rate": "0",
+			"halfRate": "1.13 min",
+
+			"hu": "Molibdén-103",
+			"en": "Molybdenum-103"
+		}, {
+			"weight": "103.913763625",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Molibdén-104",
+			"en": "Molybdenum-104"
+		}, {
+			"weight": "104.91697461",
+			"rate": "0",
+			"halfRate": "35.6 s",
+
+			"hu": "Molibdén-105",
+			"en": "Molybdenum-105"
+		}, {
+			"weight": "105.918136802",
+			"rate": "0",
+			"halfRate": "8.73 s",
+
+			"hu": "Molibdén-106",
+			"en": "Molybdenum-106"
+		}, {
+			"weight": "106.921692604",
+			"rate": "0",
+			"halfRate": "3.5 s",
+
+			"hu": "Molibdén-107",
+			"en": "Molybdenum-107"
+		}, {
+			"weight": "107.923453",
+			"rate": "0",
+			"halfRate": "1.09 s",
+
+			"hu": "Molibdén-108",
+			"en": "Molybdenum-108"
+		}, {
+			"weight": "108.92781",
+			"rate": "0",
+			"halfRate": "530 ms",
+
+			"hu": "Molibdén-109",
+			"en": "Molybdenum-109"
+		}, {
+			"weight": "109.92973",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Molibdén-110",
+			"en": "Molybdenum-110"
+		}, {
+			"weight": "110.93441",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Molibdén-111",
+			"en": "Molybdenum-111"
+		}, {
+			"weight": "111.93684",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Molibdén-112",
+			"en": "Molybdenum-112"
+		}, {
+			"weight": "112.94188",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Molibdén-113",
+			"en": "Molybdenum-113"
+		}, {
+			"weight": "113.94492",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Molibdén-114",
+			"en": "Molybdenum-114"
+		}, {
+			"weight": "114.95029",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Molibdén-115",
+			"en": "Molybdenum-115"
+		}
+	]
+}

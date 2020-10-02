@@ -1,1 +1,222 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "48.01975",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Nikkel-48",
+			"en": "Nickel-48"
+		}, {
+			"weight": "49.00966",
+			"rate": "0",
+			"halfRate": "13 ms",
+
+			"hu": "Nikkel-49",
+			"en": "Nickel-49"
+		}, {
+			"weight": "49.99593",
+			"rate": "0",
+			"halfRate": "9.1 ms",
+
+			"hu": "Nikkel-50",
+			"en": "Nickel-50"
+		}, {
+			"weight": "50.98772",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Nikkel-51",
+			"en": "Nickel-51"
+		}, {
+			"weight": "51.97568",
+			"rate": "0",
+			"halfRate": "38 ms",
+
+			"hu": "Nikkel-52",
+			"en": "Nickel-52"
+		}, {
+			"weight": "52.96847",
+			"rate": "0",
+			"halfRate": "45 ms",
+
+			"hu": "Nikkel-53",
+			"en": "Nickel-53"
+		}, {
+			"weight": "53.957905495",
+			"rate": "0",
+			"halfRate": "104 ms",
+
+			"hu": "Nikkel-54",
+			"en": "Nickel-54"
+		}, {
+			"weight": "54.951330251",
+			"rate": "0",
+			"halfRate": "204.7 ms",
+
+			"hu": "Nikkel-55",
+			"en": "Nickel-55"
+		}, {
+			"weight": "55.942132022",
+			"rate": "0",
+			"halfRate": "6.075 d",
+
+			"hu": "Nikkel-56",
+			"en": "Nickel-56"
+		}, {
+			"weight": "56.939793526",
+			"rate": "0",
+			"halfRate": "1.48 d",
+
+			"hu": "Nikkel-57",
+			"en": "Nickel-57"
+		}, {
+			"weight": "57.935342907",
+			"rate": "68.0769",
+			"halfRate": "stable",
+
+			"hu": "Nikkel-58",
+			"en": "Nickel-58"
+		}, {
+			"weight": "58.934346705",
+			"rate": "0",
+			"halfRate": "101000 y",
+
+			"hu": "Nikkel-59",
+			"en": "Nickel-59"
+		}, {
+			"weight": "59.930786372",
+			"rate": "26.2231",
+			"halfRate": "stable",
+
+			"hu": "Nikkel-60",
+			"en": "Nickel-60"
+		}, {
+			"weight": "60.931056033",
+			"rate": "1.1399",
+			"halfRate": "stable",
+
+			"hu": "Nikkel-61",
+			"en": "Nickel-61"
+		}, {
+			"weight": "61.928345115",
+			"rate": "3.6345",
+			"halfRate": "stable",
+
+			"hu": "Nikkel-62",
+			"en": "Nickel-62"
+		}, {
+			"weight": "62.929669374",
+			"rate": "0",
+			"halfRate": "100.1 y",
+
+			"hu": "Nikkel-63",
+			"en": "Nickel-63"
+		}, {
+			"weight": "63.927965959",
+			"rate": "0.9256",
+			"halfRate": "stable",
+
+			"hu": "Nikkel-64",
+			"en": "Nickel-64"
+		}, {
+			"weight": "64.930084304",
+			"rate": "0",
+			"halfRate": "2.5172 h",
+
+			"hu": "Nikkel-65",
+			"en": "Nickel-65"
+		}, {
+			"weight": "65.929139334",
+			"rate": "0",
+			"halfRate": "2.28 d",
+
+			"hu": "Nikkel-66",
+			"en": "Nickel-66"
+		}, {
+			"weight": "66.931569414",
+			"rate": "0",
+			"halfRate": "21 s",
+
+			"hu": "Nikkel-67",
+			"en": "Nickel-67"
+		}, {
+			"weight": "67.931868789",
+			"rate": "0",
+			"halfRate": "29 s",
+
+			"hu": "Nikkel-68",
+			"en": "Nickel-68"
+		}, {
+			"weight": "68.935610269",
+			"rate": "0",
+			"halfRate": "11.5 s",
+
+			"hu": "Nikkel-69",
+			"en": "Nickel-69"
+		}, {
+			"weight": "69.9365",
+			"rate": "0",
+			"halfRate": "6 s",
+
+			"hu": "Nikkel-70",
+			"en": "Nickel-70"
+		}, {
+			"weight": "70.940736283",
+			"rate": "0",
+			"halfRate": "2.56 s",
+
+			"hu": "Nikkel-71",
+			"en": "Nickel-71"
+		}, {
+			"weight": "71.942092682",
+			"rate": "0",
+			"halfRate": "1.57 s",
+
+			"hu": "Nikkel-72",
+			"en": "Nickel-72"
+		}, {
+			"weight": "72.94647",
+			"rate": "0",
+			"halfRate": "840 ms",
+
+			"hu": "Nikkel-73",
+			"en": "Nickel-73"
+		}, {
+			"weight": "73.94807",
+			"rate": "0",
+			"halfRate": "680 ms",
+
+			"hu": "Nikkel-74",
+			"en": "Nickel-74"
+		}, {
+			"weight": "74.95287",
+			"rate": "0",
+			"halfRate": "600 ms",
+
+			"hu": "Nikkel-75",
+			"en": "Nickel-75"
+		}, {
+			"weight": "75.95533",
+			"rate": "0",
+			"halfRate": "470 ms",
+
+			"hu": "Nikkel-76",
+			"en": "Nickel-76"
+		}, {
+			"weight": "76.96055",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Nikkel-77",
+			"en": "Nickel-77"
+		}, {
+			"weight": "75.95533",
+			"rate": "0",
+			"halfRate": "470 ms",
+
+			"hu": "Nikkel-78",
+			"en": "Nickel-78"
+		}
+	]
+}

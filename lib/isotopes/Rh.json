@@ -1,1 +1,243 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "88.948837",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Ródium-89",
+			"en": "Rhodium-89"
+		}, {
+			"weight": "89.94287",
+			"rate": "0",
+			"halfRate": "15 ms",
+
+			"hu": "Ródium-90",
+			"en": "Rhodium-90"
+		}, {
+			"weight": "90.93655",
+			"rate": "0",
+			"halfRate": "1.74 s",
+
+			"hu": "Ródium-91",
+			"en": "Rhodium-91"
+		}, {
+			"weight": "91.93198",
+			"rate": "0",
+			"halfRate": "4.3 s",
+
+			"hu": "Ródium-92",
+			"en": "Rhodium-92"
+		}, {
+			"weight": "92.92574",
+			"rate": "0",
+			"halfRate": "13.9 s",
+
+			"hu": "Ródium-93",
+			"en": "Rhodium-93"
+		}, {
+			"weight": "93.921698",
+			"rate": "0",
+			"halfRate": "1.18 min",
+
+			"hu": "Ródium-94",
+			"en": "Rhodium-94"
+		}, {
+			"weight": "94.91589874",
+			"rate": "0",
+			"halfRate": "5.02 min",
+
+			"hu": "Ródium-95",
+			"en": "Rhodium-95"
+		}, {
+			"weight": "95.914460631",
+			"rate": "0",
+			"halfRate": "9.83 min",
+
+			"hu": "Ródium-96",
+			"en": "Rhodium-96"
+		}, {
+			"weight": "96.911336797",
+			"rate": "0",
+			"halfRate": "30.67 min",
+
+			"hu": "Ródium-97",
+			"en": "Rhodium-97"
+		}, {
+			"weight": "97.910708158",
+			"rate": "0",
+			"halfRate": "8.72 min",
+
+			"hu": "Ródium-98",
+			"en": "Rhodium-98"
+		}, {
+			"weight": "98.908132104",
+			"rate": "0",
+			"halfRate": "16.1 d",
+
+			"hu": "Ródium-99",
+			"en": "Rhodium-99"
+		}, {
+			"weight": "99.90812155",
+			"rate": "0",
+			"halfRate": "20.8 h",
+
+			"hu": "Ródium-100",
+			"en": "Rhodium-100"
+		}, {
+			"weight": "100.906163625",
+			"rate": "0",
+			"halfRate": "3.2 y",
+
+			"hu": "Ródium-101",
+			"en": "Rhodium-101"
+		}, {
+			"weight": "101.906843196",
+			"rate": "0",
+			"halfRate": "207 d",
+
+			"hu": "Ródium-102",
+			"en": "Rhodium-102"
+		}, {
+			"weight": "102.905504292",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Ródium-103",
+			"en": "Rhodium-103"
+		}, {
+			"weight": "103.906655518",
+			"rate": "0",
+			"halfRate": "42.3 s",
+
+			"hu": "Ródium-104",
+			"en": "Rhodium-104"
+		}, {
+			"weight": "104.905693821",
+			"rate": "0",
+			"halfRate": "1.473 d",
+
+			"hu": "Ródium-105",
+			"en": "Rhodium-105"
+		}, {
+			"weight": "105.907287135",
+			"rate": "0",
+			"halfRate": "29.8 s",
+
+			"hu": "Ródium-106",
+			"en": "Rhodium-106"
+		}, {
+			"weight": "106.906748423",
+			"rate": "0",
+			"halfRate": "22 min",
+
+			"hu": "Ródium-107",
+			"en": "Rhodium-107"
+		}, {
+			"weight": "107.908728018",
+			"rate": "0",
+			"halfRate": "16.8 s",
+
+			"hu": "Ródium-108",
+			"en": "Rhodium-108"
+		}, {
+			"weight": "108.908737289",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Ródium-109",
+			"en": "Rhodium-109"
+		}, {
+			"weight": "109.911136411",
+			"rate": "0",
+			"halfRate": "28.5 s",
+
+			"hu": "Ródium-110",
+			"en": "Rhodium-110"
+		}, {
+			"weight": "110.911585913",
+			"rate": "0",
+			"halfRate": "11 s",
+
+			"hu": "Ródium-111",
+			"en": "Rhodium-111"
+		}, {
+			"weight": "111.914394159",
+			"rate": "0",
+			"halfRate": "3.4 s",
+
+			"hu": "Ródium-112",
+			"en": "Rhodium-112"
+		}, {
+			"weight": "112.915530627",
+			"rate": "0",
+			"halfRate": "2.8 s",
+
+			"hu": "Ródium-113",
+			"en": "Rhodium-113"
+		}, {
+			"weight": "113.918806",
+			"rate": "0",
+			"halfRate": "1.85 s",
+
+			"hu": "Ródium-114",
+			"en": "Rhodium-114"
+		}, {
+			"weight": "114.920334",
+			"rate": "0",
+			"halfRate": "990 ms",
+
+			"hu": "Ródium-115",
+			"en": "Rhodium-115"
+		}, {
+			"weight": "115.924062",
+			"rate": "0",
+			"halfRate": "680 ms",
+
+			"hu": "Ródium-116",
+			"en": "Rhodium-116"
+		}, {
+			"weight": "116.92598",
+			"rate": "0",
+			"halfRate": "440 ms",
+
+			"hu": "Ródium-117",
+			"en": "Rhodium-117"
+		}, {
+			"weight": "117.93007",
+			"rate": "0",
+			"halfRate": "310 ms",
+
+			"hu": "Ródium-118",
+			"en": "Rhodium-118"
+		}, {
+			"weight": "118.93211",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Ródium-119",
+			"en": "Rhodium-119"
+		}, {
+			"weight": "119.93641",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Ródium-120",
+			"en": "Rhodium-120"
+		}, {
+			"weight": "120.93872",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Ródium-121",
+			"en": "Rhodium-121"
+		}, {
+			"weight": "120.93872",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Ródium-122",
+			"en": "Rhodium-122"
+		}
+	]
+}

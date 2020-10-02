@@ -1,1 +1,222 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "55.99491",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Gallium-56",
+			"en": "Gallium-56"
+		}, {
+			"weight": "56.98293",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Gallium-57",
+			"en": "Gallium-57"
+		}, {
+			"weight": "57.97425",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Gallium-58",
+			"en": "Gallium-58"
+		}, {
+			"weight": "58.96337",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Gallium-59",
+			"en": "Gallium-59"
+		}, {
+			"weight": "59.95706",
+			"rate": "0",
+			"halfRate": "70 ms",
+
+			"hu": "Gallium-60",
+			"en": "Gallium-60"
+		}, {
+			"weight": "60.949446287",
+			"rate": "0",
+			"halfRate": "168 ms",
+
+			"hu": "Gallium-61",
+			"en": "Gallium-61"
+		}, {
+			"weight": "61.944175238",
+			"rate": "0",
+			"halfRate": "115.99 ms",
+
+			"hu": "Gallium-62",
+			"en": "Gallium-62"
+		}, {
+			"weight": "62.939294196",
+			"rate": "0",
+			"halfRate": "32.4 s",
+
+			"hu": "Gallium-63",
+			"en": "Gallium-63"
+		}, {
+			"weight": "63.936838747",
+			"rate": "0",
+			"halfRate": "2.627 min",
+
+			"hu": "Gallium-64",
+			"en": "Gallium-64"
+		}, {
+			"weight": "64.932734754",
+			"rate": "0",
+			"halfRate": "15.2 min",
+
+			"hu": "Gallium-65",
+			"en": "Gallium-65"
+		}, {
+			"weight": "65.93158901",
+			"rate": "0",
+			"halfRate": "9.5 h",
+
+			"hu": "Gallium-66",
+			"en": "Gallium-66"
+		}, {
+			"weight": "66.928201703",
+			"rate": "0",
+			"halfRate": "3.26123 d",
+
+			"hu": "Gallium-67",
+			"en": "Gallium-67"
+		}, {
+			"weight": "67.927980084",
+			"rate": "0",
+			"halfRate": "1.129 h",
+
+			"hu": "Gallium-68",
+			"en": "Gallium-68"
+		}, {
+			"weight": "68.925573587",
+			"rate": "60.108",
+			"halfRate": "stable",
+
+			"hu": "Gallium-69",
+			"en": "Gallium-69"
+		}, {
+			"weight": "69.926021972",
+			"rate": "0",
+			"halfRate": "21.13 min",
+
+			"hu": "Gallium-70",
+			"en": "Gallium-70"
+		}, {
+			"weight": "70.924701349",
+			"rate": "39.892",
+			"halfRate": "stable",
+
+			"hu": "Gallium-71",
+			"en": "Gallium-71"
+		}, {
+			"weight": "71.926366268",
+			"rate": "0",
+			"halfRate": "14.1 h",
+
+			"hu": "Gallium-72",
+			"en": "Gallium-72"
+		}, {
+			"weight": "72.925174682",
+			"rate": "0",
+			"halfRate": "4.86 h",
+
+			"hu": "Gallium-73",
+			"en": "Gallium-73"
+		}, {
+			"weight": "73.926945762",
+			"rate": "0",
+			"halfRate": "8.12 min",
+
+			"hu": "Gallium-74",
+			"en": "Gallium-74"
+		}, {
+			"weight": "74.926500246",
+			"rate": "0",
+			"halfRate": "2.1 min",
+
+			"hu": "Gallium-75",
+			"en": "Gallium-75"
+		}, {
+			"weight": "75.928827626",
+			"rate": "0",
+			"halfRate": "32.6 s",
+
+			"hu": "Gallium-76",
+			"en": "Gallium-76"
+		}, {
+			"weight": "75.928827626",
+			"rate": "0",
+			"halfRate": "13.2 s",
+
+			"hu": "Gallium-77",
+			"en": "Gallium-77"
+		}, {
+			"weight": "77.93160818",
+			"rate": "0",
+			"halfRate": "5.09 s",
+
+			"hu": "Gallium-78",
+			"en": "Gallium-78"
+		}, {
+			"weight": "78.93289326",
+			"rate": "0",
+			"halfRate": "2.847 s",
+
+			"hu": "Gallium-79",
+			"en": "Gallium-79"
+		}, {
+			"weight": "79.936515781",
+			"rate": "0",
+			"halfRate": "1.697 s",
+
+			"hu": "Gallium-80",
+			"en": "Gallium-80"
+		}, {
+			"weight": "80.937752355",
+			"rate": "0",
+			"halfRate": "1.217 s",
+
+			"hu": "Gallium-81",
+			"en": "Gallium-81"
+		}, {
+			"weight": "81.94299",
+			"rate": "0",
+			"halfRate": "599 ms",
+
+			"hu": "Gallium-82",
+			"en": "Gallium-82"
+		}, {
+			"weight": "82.94698",
+			"rate": "0",
+			"halfRate": "308 ms",
+
+			"hu": "Gallium-83",
+			"en": "Gallium-83"
+		}, {
+			"weight": "83.95265",
+			"rate": "0",
+			"halfRate": "85 ms",
+
+			"hu": "Gallium-84",
+			"en": "Gallium-84"
+		}, {
+			"weight": "84.957",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Gallium-85",
+			"en": "Gallium-85"
+		}, {
+			"weight": "Gallium-86",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Gallium-86",
+			"en": "Gallium-86"
+		}
+	]
+}

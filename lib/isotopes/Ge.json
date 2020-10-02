@@ -1,1 +1,229 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "57.99101",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Germánium-58",
+			"en": "Germanium-58"
+		}, {
+			"weight": "58.98175",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Germánium-59",
+			"en": "Germanium-59"
+		}, {
+			"weight": "59.97019",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Germánium-60",
+			"en": "Germanium-60"
+		}, {
+			"weight": "60.96379",
+			"rate": "0",
+			"halfRate": "39 ms",
+
+			"hu": "Germánium-61",
+			"en": "Germanium-61"
+		}, {
+			"weight": "61.95465",
+			"rate": "0",
+			"halfRate": "130 ms",
+
+			"hu": "Germánium-62",
+			"en": "Germanium-62"
+		}, {
+			"weight": "62.94964",
+			"rate": "0",
+			"halfRate": "142 ms",
+
+			"hu": "Germánium-63",
+			"en": "Germanium-63"
+		}, {
+			"weight": "63.941653",
+			"rate": "0",
+			"halfRate": "1.06 min",
+
+			"hu": "Germánium-64",
+			"en": "Germanium-64"
+		}, {
+			"weight": "64.939436406",
+			"rate": "0",
+			"halfRate": "30.9 s",
+
+			"hu": "Germánium-65",
+			"en": "Germanium-65"
+		}, {
+			"weight": "65.933843453",
+			"rate": "0",
+			"halfRate": "2.261 h",
+
+			"hu": "Germánium-66",
+			"en": "Germanium-66"
+		}, {
+			"weight": "66.93273407",
+			"rate": "0",
+			"halfRate": "18.83 min",
+
+			"hu": "Germánium-67",
+			"en": "Germanium-67"
+		}, {
+			"weight": "67.92809424",
+			"rate": "0",
+			"halfRate": "270.9 d",
+
+			"hu": "Germánium-68",
+			"en": "Germanium-68"
+		}, {
+			"weight": "68.927964533",
+			"rate": "0",
+			"halfRate": "1.627 d",
+
+			"hu": "Germánium-69",
+			"en": "Germanium-69"
+		}, {
+			"weight": "69.924247381",
+			"rate": "20.84",
+			"halfRate": "stable",
+
+			"hu": "Germánium-70",
+			"en": "Germanium-70"
+		}, {
+			"weight": "70.924950954",
+			"rate": "0",
+			"halfRate": "11.43 d",
+
+			"hu": "Germánium-71",
+			"en": "Germanium-71"
+		}, {
+			"weight": "71.922075815",
+			"rate": "27.54",
+			"halfRate": "stable",
+
+			"hu": "Germánium-72",
+			"en": "Germanium-72"
+		}, {
+			"weight": "72.923458945",
+			"rate": "7.73",
+			"halfRate": "stable",
+
+			"hu": "Germánium-73",
+			"en": "Germanium-73"
+		}, {
+			"weight": "73.921177767",
+			"rate": "36.28",
+			"halfRate": "stable",
+
+			"hu": "Germánium-74",
+			"en": "Germanium-74"
+		}, {
+			"weight": "74.922858948",
+			"rate": "0",
+			"halfRate": "1.380 h",
+
+			"hu": "Germánium-75",
+			"en": "Germanium-75"
+		}, {
+			"weight": "75.921402557",
+			"rate": "7.61",
+			"halfRate": "1580000000000000000000 y",
+
+			"hu": "Germánium-76",
+			"en": "Germanium-76"
+		}, {
+			"weight": "76.923548591",
+			"rate": "0",
+			"halfRate": "11.3 h",
+
+			"hu": "Germánium-77",
+			"en": "Germanium-77"
+		}, {
+			"weight": "77.922852739",
+			"rate": "0",
+			"halfRate": "1.5 h",
+
+			"hu": "Germánium-78",
+			"en": "Germanium-78"
+		}, {
+			"weight": "78.925400995",
+			"rate": "0",
+			"halfRate": "18.98 s",
+
+			"hu": "Germánium-79",
+			"en": "Germanium-79"
+		}, {
+			"weight": "79.925372392",
+			"rate": "0",
+			"halfRate": "29.5 s",
+
+			"hu": "Germánium-80",
+			"en": "Germanium-80"
+		}, {
+			"weight": "80.928820467",
+			"rate": "0",
+			"halfRate": "8 s",
+
+			"hu": "Germánium-81",
+			"en": "Germanium-81"
+		}, {
+			"weight": "81.929549725",
+			"rate": "0",
+			"halfRate": "4.55 s",
+
+			"hu": "Germánium-82",
+			"en": "Germanium-82"
+		}, {
+			"weight": "82.93462",
+			"rate": "0",
+			"halfRate": "1.85 s",
+
+			"hu": "Germánium-83",
+			"en": "Germanium-83"
+		}, {
+			"weight": "83.93747",
+			"rate": "0",
+			"halfRate": "954 ms",
+
+			"hu": "Germánium-84",
+			"en": "Germanium-84"
+		}, {
+			"weight": "84.94303",
+			"rate": "0",
+			"halfRate": "540 ms",
+
+			"hu": "Germánium-85",
+			"en": "Germanium-85"
+		},
+		{
+			"weight": "85.94649",
+			"rate": "0",
+			"halfRate": "300 ms",
+			"hu": "Germánium-86",
+			"en": "Germanium-86"
+		}, {
+			"weight": "86.95251",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Germánium-87",
+			"en": "Germanium-87"
+		}, {
+			"weight": "87.95691",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Germánium-88",
+			"en": "Germanium-88"
+		}, {
+			"weight": "88.96383",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Germánium-89",
+			"en": "Germanium-89"
+		}
+	]
+}

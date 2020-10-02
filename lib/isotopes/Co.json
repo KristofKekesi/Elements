@@ -1,1 +1,208 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "47.01149",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Kobalt-47",
+			"en": "Cobalt-47"
+		}, {
+			"weight": "48.00176",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Kobalt-48",
+			"en": "Cobalt-48"
+		}, {
+			"weight": "48.98972",
+			"rate": "0",
+			"halfRate": "35 ns",
+
+			"hu": "Kobalt-49",
+			"en": "Cobalt-49"
+		}, {
+			"weight": "49.98154",
+			"rate": "0",
+			"halfRate": "44 ms",
+
+			"hu": "Kobalt-50",
+			"en": "Cobalt-50"
+		}, {
+			"weight": "50.97072",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Kobalt-51",
+			"en": "Cobalt-51"
+		}, {
+			"weight": "51.96359",
+			"rate": "0",
+			"halfRate": "115 ms",
+
+			"hu": "Kobalt-52",
+			"en": "Cobalt-52"
+		}, {
+			"weight": "52.954218896",
+			"rate": "0",
+			"halfRate": "242 ms",
+
+			"hu": "Kobalt-53",
+			"en": "Cobalt-53"
+		}, {
+			"weight": "53.948459635",
+			"rate": "0",
+			"halfRate": "173.23 ms",
+
+			"hu": "Kobalt-54",
+			"en": "Cobalt-54"
+		}, {
+			"weight": "54.941999029",
+			"rate": "0",
+			"halfRate": "17.531 h",
+
+			"hu": "Kobalt-55",
+			"en": "Cobalt-55"
+		}, {
+			"weight": "55.939839278",
+			"rate": "0",
+			"halfRate": "77.23 d",
+
+			"hu": "Kobalt-56",
+			"en": "Cobalt-56"
+		}, {
+			"weight": "56.936291373",
+			"rate": "0",
+			"halfRate": "271.74 d",
+
+			"hu": "Kobalt-57",
+			"en": "Cobalt-57"
+		}, {
+			"weight": "57.935752814",
+			"rate": "0",
+			"halfRate": "70.86 d",
+
+			"hu": "Kobalt-58",
+			"en": "Cobalt-58"
+		}, {
+			"weight": "58.933195048",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Kobalt-59",
+			"en": "Cobalt-59"
+		}, {
+			"weight": "59.933817059",
+			"rate": "0",
+			"halfRate": "5.2714 y",
+
+			"hu": "Kobalt-60",
+			"en": "Cobalt-60"
+		}, {
+			"weight": "60.932475763",
+			"rate": "0",
+			"halfRate": "1.65 h",
+
+			"hu": "Kobalt-61",
+			"en": "Cobalt-61"
+		}, {
+			"weight": "61.934050563",
+			"rate": "0",
+			"halfRate": "1.5 min",
+
+			"hu": "Kobalt-62",
+			"en": "Cobalt-62"
+		}, {
+			"weight": "62.933611611",
+			"rate": "0",
+			"halfRate": "26.9 s",
+
+			"hu": "Kobalt-63",
+			"en": "Cobalt-63"
+		}, {
+			"weight": "63.935809908",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Kobalt-64",
+			"en": "Cobalt-64"
+		}, {
+			"weight": "64.93647846",
+			"rate": "0",
+			"halfRate": "1.2 s",
+
+			"hu": "Kobalt-65",
+			"en": "Cobalt-65"
+		}, {
+			"weight": "65.939762004",
+			"rate": "0",
+			"halfRate": "194 ms",
+
+			"hu": "Kobalt-66",
+			"en": "Cobalt-66"
+		}, {
+			"weight": "66.940889529",
+			"rate": "0",
+			"halfRate": "425 ms",
+
+			"hu": "Kobalt-67",
+			"en": "Cobalt-67"
+		}, {
+			"weight": "67.944873058",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Kobalt-68",
+			"en": "Cobalt-68"
+		}, {
+			"weight": "68.94632",
+			"rate": "0",
+			"halfRate": "227 ms",
+
+			"hu": "Kobalt-69",
+			"en": "Cobalt-69"
+		}, {
+			"weight": "69.951",
+			"rate": "0",
+			"halfRate": "125 ms",
+
+			"hu": "Kobalt-70",
+			"en": "Cobalt-70"
+		}, {
+			"weight": "70.9529",
+			"rate": "0",
+			"halfRate": "97 ms",
+
+			"hu": "Kobalt-71",
+			"en": "Cobalt-71"
+		}, {
+			"weight": "71.95781",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Kobalt-72",
+			"en": "Cobalt-72"
+		}, {
+			"weight": "72.960240",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Kobalt-73",
+			"en": "Cobalt-73"
+		}, {
+			"weight": "73.96538",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Kobalt-74",
+			"en": "Cobalt-74"
+		}, {
+			"weight": "74.96833",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Kobalt-75",
+			"en": "Cobalt-75"
+		}
+	]
+}

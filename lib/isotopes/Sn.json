@@ -1,1 +1,278 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "98.94933",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Ón-99",
+			"en": "Tin-99"
+		}, {
+			"weight": "99.939044343",
+			"rate": "0",
+			"halfRate": "1.1 s",
+
+			"hu": "Ón-100",
+			"en": "Tin-100"
+		}, {
+			"weight": "100.93606",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Ón-101",
+			"en": "Tin-101"
+		}, {
+			"weight": "101.930295324",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Ón-102",
+			"en": "Tin-102"
+		}, {
+			"weight": "102.9281",
+			"rate": "0",
+			"halfRate": "7 s",
+
+			"hu": "Ón-103",
+			"en": "Tin-103"
+		}, {
+			"weight": "103.923143223",
+			"rate": "0",
+			"halfRate": "20.8 s",
+
+			"hu": "Ón-104",
+			"en": "Tin-104"
+		}, {
+			"weight": "104.921349437",
+			"rate": "0",
+			"halfRate": "34 s",
+
+			"hu": "Ón-105",
+			"en": "Tin-105"
+		}, {
+			"weight": "105.91688062",
+			"rate": "0",
+			"halfRate": "1.92 min",
+
+			"hu": "Ón-106",
+			"en": "Tin-106"
+		}, {
+			"weight": "105.91688062",
+			"rate": "0",
+			"halfRate": "1.92 min",
+
+			"hu": "Ón-107",
+			"en": "Tin-107"
+		}, {
+			"weight": "107.911925378",
+			"rate": "0",
+			"halfRate": "10.3 min",
+
+			"hu": "Ón-108",
+			"en": "Tin-108"
+		}, {
+			"weight": "108.911283214",
+			"rate": "0",
+			"halfRate": "18 min",
+
+			"hu": "Ón-109",
+			"en": "Tin-109"
+		}, {
+			"weight": "109.907842791",
+			"rate": "0",
+			"halfRate": "4.11 h",
+
+			"hu": "Ón-110",
+			"en": "Tin-110"
+		}, {
+			"weight": "110.90773446",
+			"rate": "0",
+			"halfRate": "35.33 min",
+
+			"hu": "Ón-111",
+			"en": "Tin-111"
+		}, {
+			"weight": "111.904818207",
+			"rate": "0.97",
+			"halfRate": "stable",
+
+			"hu": "Ón-112",
+			"en": "Tin-112"
+		}, {
+			"weight": "112.905170577",
+			"rate": "0",
+			"halfRate": "115.09 d",
+
+			"hu": "Ón-113",
+			"en": "Tin-113"
+		}, {
+			"weight": "113.902778869",
+			"rate": "0.66",
+			"halfRate": "stable",
+
+			"hu": "Ón-114",
+			"en": "Tin-114"
+		}, {
+			"weight": "114.903342397",
+			"rate": "0.34",
+			"halfRate": "stable",
+
+			"hu": "Ón-115",
+			"en": "Tin-115"
+		}, {
+			"weight": "115.90174053",
+			"rate": "14.54",
+			"halfRate": "stable",
+
+			"hu": "Ón-116",
+			"en": "Tin-116"
+		}, {
+			"weight": "116.902951656",
+			"rate": "7.68",
+			"halfRate": "stable",
+
+			"hu": "Ón-117",
+			"en": "Tin-117"
+		}, {
+			"weight": "117.901603167",
+			"rate": "24.22",
+			"halfRate": "stable",
+
+			"hu": "Ón-118",
+			"en": "Tin-118"
+		}, {
+			"weight": "118.90330763",
+			"rate": "8.59",
+			"halfRate": "stable",
+
+			"hu": "Ón-119",
+			"en": "Tin-119"
+		}, {
+			"weight": "119.902194676",
+			"rate": "32.58",
+			"halfRate": "stable",
+
+			"hu": "Ón-120",
+			"en": "Tin-120"
+		}, {
+			"weight": "120.90423548",
+			"rate": "0",
+			"halfRate": "1.1263 d",
+
+			"hu": "Ón-121",
+			"en": "Tin-121"
+		}, {
+			"weight": "121.903439046",
+			"rate": "4.63",
+			"halfRate": "stable",
+
+			"hu": "Ón-122",
+			"en": "Tin-122"
+		}, {
+			"weight": "122.905720838",
+			"rate": "0",
+			"halfRate": "129.2 d",
+
+			"hu": "Ón-123",
+			"en": "Tin-123"
+		}, {
+			"weight": "123.905273946",
+			"rate": "5.79",
+			"halfRate": "stable",
+
+			"hu": "Ón-124",
+			"en": "Tin-124"
+		}, {
+			"weight": "124.907784125",
+			"rate": "0",
+			"halfRate": "9.64 d",
+
+			"hu": "Ón-125",
+			"en": "Tin-125"
+		}, {
+			"weight": "125.90765328",
+			"rate": "0",
+			"halfRate": "230000 y",
+
+			"hu": "Ón-126",
+			"en": "Tin-126"
+		}, {
+			"weight": "126.910360024",
+			"rate": "0",
+			"halfRate": "2.1 h",
+
+			"hu": "Ón-127",
+			"en": "Tin-127"
+		}, {
+			"weight": "127.910536624",
+			"rate": "0",
+			"halfRate": "59.07 min",
+
+			"hu": "Ón-128",
+			"en": "Tin-128"
+		}, {
+			"weight": "128.913479",
+			"rate": "0",
+			"halfRate": "2.23 min",
+
+			"hu": "Ón-129",
+			"en": "Tin-129"
+		}, {
+			"weight": "129.913967295",
+			"rate": "0",
+			"halfRate": "3.72 min",
+
+			"hu": "Ón-130",
+			"en": "Tin-130"
+		}, {
+			"weight": "130.916999769",
+			"rate": "0",
+			"halfRate": "56 s",
+
+			"hu": "Ón-131",
+			"en": "Tin-131"
+		}, {
+			"weight": "131.917815713",
+			"rate": "0",
+			"halfRate": "39.7 s",
+
+			"hu": "Ón-132",
+			"en": "Tin-132"
+		}, {
+			"weight": "132.923829249",
+			"rate": "0",
+			"halfRate": "1.45 s",
+
+			"hu": "Ón-133",
+			"en": "Tin-133"
+		}, {
+			"weight": "133.928291765",
+			"rate": "0",
+			"halfRate": "1.12 s",
+
+			"hu": "Ón-134",
+			"en": "Tin-134"
+		}, {
+			"weight": "134.93473",
+			"rate": "0",
+			"halfRate": "530 ms",
+
+			"hu": "Ón-135",
+			"en": "Tin-135"
+		}, {
+			"weight": "135.93934",
+			"rate": "0",
+			"halfRate": "250 ms",
+
+			"hu": "Ón-136",
+			"en": "Tin-136"
+		}, {
+			"weight": "136.94599",
+			"rate": "0",
+			"halfRate": "190 ms",
+
+			"hu": "Ón-137",
+			"en": "Tin-137"
+		}
+	]
+}

@@ -1,1 +1,215 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "53.99295",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Cink-54",
+			"en": "Zinc-54"
+		}, {
+			"weight": "54.98398",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Cink-55",
+			"en": "Zinc-55"
+		}, {
+			"weight": "55.97238",
+			"rate": "0",
+			"halfRate": "36 ms",
+
+			"hu": "Cink-56",
+			"en": "Zinc-56"
+		}, {
+			"weight": "56.964788",
+			"rate": "0",
+			"halfRate": "38 ms",
+
+			"hu": "Cink-57",
+			"en": "Zinc-57"
+		}, {
+			"weight": "57.954591555",
+			"rate": "0",
+			"halfRate": "84 ms",
+
+			"hu": "Cink-58",
+			"en": "Zinc-58"
+		}, {
+			"weight": "58.949263764",
+			"rate": "0",
+			"halfRate": "182 ms",
+
+			"hu": "Cink-59",
+			"en": "Zinc-59"
+		}, {
+			"weight": "59.941827035",
+			"rate": "0",
+			"halfRate": "2.38 min",
+
+			"hu": "Cink-60",
+			"en": "Zinc-60"
+		}, {
+			"weight": "60.939510635",
+			"rate": "0",
+			"halfRate": "1.48 min",
+
+			"hu": "Cink-61",
+			"en": "Zinc-61"
+		}, {
+			"weight": "61.934329764",
+			"rate": "0",
+			"halfRate": "9.1861 h",
+
+			"hu": "Cink-62",
+			"en": "Zinc-62"
+		}, {
+			"weight": "62.933211566",
+			"rate": "0",
+			"halfRate": "38.47 min",
+
+			"hu": "Cink-63",
+			"en": "Zinc-63"
+		}, {
+			"weight": "63.929142222",
+			"rate": "48.63",
+			"halfRate": "stable",
+
+			"hu": "Cink-64",
+			"en": "Zinc-64"
+		}, {
+			"weight": "64.929240984",
+			"rate": "0",
+			"halfRate": "244.06 d",
+
+			"hu": "Cink-65",
+			"en": "Zinc-65"
+		}, {
+			"weight": "65.926033419",
+			"rate": "27.9",
+			"halfRate": "stable",
+
+			"hu": "Cink-66",
+			"en": "Zinc-66"
+		}, {
+			"weight": "66.927127345",
+			"rate": "4.1",
+			"halfRate": "stable",
+
+			"hu": "Cink-67",
+			"en": "Zinc-67"
+		}, {
+			"weight": "67.924844154",
+			"rate": "18.75",
+			"halfRate": "stable",
+
+			"hu": "Cink-68",
+			"en": "Zinc-68"
+		}, {
+			"weight": "68.926550281",
+			"rate": "0",
+			"halfRate": "56.33 min",
+
+			"hu": "Cink-69",
+			"en": "Zinc-69"
+		}, {
+			"weight": "69.925319274",
+			"rate": "0.62",
+			"halfRate": "stable",
+
+			"hu": "Cink-70",
+			"en": "Zinc-70"
+		}, {
+			"weight": "70.927721599",
+			"rate": "0",
+			"halfRate": "2.45 min",
+
+			"hu": "Cink-71",
+			"en": "Zinc-71"
+		}, {
+			"weight": "71.926857951",
+			"rate": "0",
+			"halfRate": "1.93 d",
+
+			"hu": "Cink-72",
+			"en": "Zinc-72"
+		}, {
+			"weight": "72.929779104",
+			"rate": "0",
+			"halfRate": "23.5 s",
+
+			"hu": "Cink-73",
+			"en": "Zinc-73"
+		}, {
+			"weight": "73.929458609",
+			"rate": "0",
+			"halfRate": "1.59 min",
+
+			"hu": "Cink-74",
+			"en": "Zinc-74"
+		}, {
+			"weight": "74.932936741",
+			"rate": "0",
+			"halfRate": "10.2 s",
+
+			"hu": "Cink-75",
+			"en": "Zinc-75"
+		}, {
+			"weight": "75.93329357",
+			"rate": "0",
+			"halfRate": "5.7 s",
+
+			"hu": "Cink-76",
+			"en": "Zinc-76"
+		}, {
+			"weight": "76.936958967",
+			"rate": "0",
+			"halfRate": "2.08 s",
+
+			"hu": "Cink-77",
+			"en": "Zinc-77"
+		}, {
+			"weight": "77.938440216",
+			"rate": "0",
+			"halfRate": "1.47 s",
+
+			"hu": "Cink-78",
+			"en": "Zinc-78"
+		}, {
+			"weight": "78.942652",
+			"rate": "0",
+			"halfRate": "995 ms",
+
+			"hu": "Cink-79",
+			"en": "Zinc-79"
+		}, {
+			"weight": "79.944342348",
+			"rate": "0",
+			"halfRate": "545 ms",
+
+			"hu": "Cink-80",
+			"en": "Zinc-80"
+		}, {
+			"weight": "80.95048",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Cink-81",
+			"en": "Zinc-81"
+		}, {
+			"weight": "81.95442",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Cink-82",
+			"en": "Zinc-82"
+		}, {
+			"weight": "82.96103",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Cink-83",
+			"en": "Zinc-83"
+		}
+	]
+}

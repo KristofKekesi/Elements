@@ -1,1 +1,229 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "70.96532",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Rubídium-71",
+			"en": "Rubidium-71"
+		}, {
+			"weight": "71.95908",
+			"rate": "0",
+			"halfRate": "1.5 µs",
+
+			"hu": "Rubídium-72",
+			"en": "Rubidium-72"
+		}, {
+			"weight": "72.950561",
+			"rate": "0",
+			"halfRate": "30 ns",
+
+			"hu": "Rubídium-73",
+			"en": "Rubidium-73"
+		}, {
+			"weight": "73.944264751",
+			"rate": "0",
+			"halfRate": "64.76 ms",
+
+			"hu": "Rubídium-74",
+			"en": "Rubidium-74"
+		}, {
+			"weight": "74.93857",
+			"rate": "0",
+			"halfRate": "19 s",
+
+			"hu": "Rubídium-75",
+			"en": "Rubidium-75"
+		}, {
+			"weight": "75.935072226",
+			"rate": "0",
+			"halfRate": "36.5 s",
+
+			"hu": "Rubídium-76",
+			"en": "Rubidium-76"
+		}, {
+			"weight": "76.930408",
+			"rate": "0",
+			"halfRate": "3.77 min",
+
+			"hu": "Rubídium-77",
+			"en": "Rubidium-77"
+		}, {
+			"weight": "77.928141",
+			"rate": "0",
+			"halfRate": "17.67 min",
+
+			"hu": "Rubídium-78",
+			"en": "Rubidium-78"
+		}, {
+			"weight": "78.92398946",
+			"rate": "0",
+			"halfRate": "22.83 min",
+
+			"hu": "Rubídium-79",
+			"en": "Rubidium-79"
+		}, {
+			"weight": "79.92251925",
+			"rate": "0",
+			"halfRate": "33.4 s",
+
+			"hu": "Rubídium-80",
+			"en": "Rubidium-80"
+		}, {
+			"weight": "80.918995913",
+			"rate": "0",
+			"halfRate": "4.575 h",
+
+			"hu": "Rubídium-81",
+			"en": "Rubidium-81"
+		}, {
+			"weight": "81.918208598",
+			"rate": "0",
+			"halfRate": "1.273 min",
+
+			"hu": "Rubídium-82",
+			"en": "Rubidium-82"
+		}, {
+			"weight": "82.915109701",
+			"rate": "0",
+			"halfRate": "86.2 d",
+
+			"hu": "Rubídium-83",
+			"en": "Rubidium-83"
+		}, {
+			"weight": "83.914384821",
+			"rate": "0",
+			"halfRate": "32.77 d",
+
+			"hu": "Rubídium-84",
+			"en": "Rubidium-84"
+		}, {
+			"weight": "84.911789737",
+			"rate": "72.17",
+			"halfRate": "stable",
+
+			"hu": "Rubídium-85",
+			"en": "Rubidium-85"
+		}, {
+			"weight": "85.911167419",
+			"rate": "0",
+			"halfRate": "18.642 d",
+
+			"hu": "Rubídium-86",
+			"en": "Rubidium-86"
+		}, {
+			"weight": "86.909180526",
+			"rate": "27.83",
+			"halfRate": "49240000000 y",
+
+			"hu": "Rubídium-87",
+			"en": "Rubidium-87"
+		}, {
+			"weight": "87.911315588",
+			"rate": "0",
+			"halfRate": "17.78 min",
+
+			"hu": "Rubídium-88",
+			"en": "Rubidium-88"
+		}, {
+			"weight": "88.912278016",
+			"rate": "0",
+			"halfRate": "15.15 min",
+
+			"hu": "Rubídium-89",
+			"en": "Rubidium-89"
+		}, {
+			"weight": "89.914801694",
+			"rate": "0",
+			"halfRate": "2.63 min",
+
+			"hu": "Rubídium-90",
+			"en": "Rubidium-90"
+		}, {
+			"weight": "90.916536958",
+			"rate": "0",
+			"halfRate": "58.4 s",
+
+			"hu": "Rubídium-91",
+			"en": "Rubidium-91"
+		}, {
+			"weight": "91.9197289",
+			"rate": "0",
+			"halfRate": "4.492 s",
+
+			"hu": "Rubídium-92",
+			"en": "Rubidium-92"
+		}, {
+			"weight": "92.922041876",
+			"rate": "0",
+			"halfRate": "5.84 s",
+
+			"hu": "Rubídium-93",
+			"en": "Rubidium-93"
+		}, {
+			"weight": "93.926404946",
+			"rate": "0",
+			"halfRate": "2.702 s",
+
+			"hu": "Rubídium-94",
+			"en": "Rubidium-94"
+		}, {
+			"weight": "94.929302889",
+			"rate": "0",
+			"halfRate": "377.5 ms",
+
+			"hu": "Rubídium-95",
+			"en": "Rubidium-95"
+		}, {
+			"weight": "95.934272637",
+			"rate": "0",
+			"halfRate": "203 ms",
+
+			"hu": "Rubídium-96",
+			"en": "Rubidium-96"
+		}, {
+			"weight": "96.937351916",
+			"rate": "0",
+			"halfRate": "169.9 ms",
+
+			"hu": "Rubídium-97",
+			"en": "Rubidium-97"
+		}, {
+			"weight": "97.941790668",
+			"rate": "0",
+			"halfRate": "114 ms",
+
+			"hu": "Rubídium-98",
+			"en": "Rubidium-98"
+		}, {
+			"weight": "98.945379283",
+			"rate": "0",
+			"halfRate": "50.3 ms",
+
+			"hu": "Rubídium-99",
+			"en": "Rubidium-99"
+		}, {
+			"weight": "99.94987",
+			"rate": "0",
+			"halfRate": "51 ms",
+
+			"hu": "Rubídium-100",
+			"en": "Rubidium-100"
+		}, {
+			"weight": "100.953196445",
+			"rate": "0",
+			"halfRate": "32 ms",
+
+			"hu": "Rubídium-101",
+			"en": "Rubidium-101"
+		}, {
+			"weight": "101.95887",
+			"rate": "0",
+			"halfRate": "37 ms",
+
+			"hu": "Rubídium-102",
+			"en": "Rubidium-102"
+		}
+	]
+}

@@ -1,1 +1,278 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "96.94954",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Indium-97",
+			"en": "Indium-97"
+		}, {
+			"weight": "97.94214",
+			"rate": "0",
+			"halfRate": "45 ms",
+
+			"hu": "Indium-98",
+			"en": "Indium-98"
+		}, {
+			"weight": "98.93422",
+			"rate": "0",
+			"halfRate": "3.1 s",
+
+			"hu": "Indium-99",
+			"en": "Indium-99"
+		}, {
+			"weight": "99.931110851",
+			"rate": "0",
+			"halfRate": "5.9 s",
+
+			"hu": "Indium-100",
+			"en": "Indium-100"
+		}, {
+			"weight": "100.92634",
+			"rate": "0",
+			"halfRate": "15.1 s",
+
+			"hu": "Indium-101",
+			"en": "Indium-101"
+		}, {
+			"weight": "101.924090238",
+			"rate": "0",
+			"halfRate": "23.3 s",
+
+			"hu": "Indium-102",
+			"en": "Indium-102"
+		}, {
+			"weight": "102.919914188",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Indium-103",
+			"en": "Indium-103"
+		}, {
+			"weight": "103.918296171",
+			"rate": "0",
+			"halfRate": "1.83 min",
+
+			"hu": "Indium-104",
+			"en": "Indium-104"
+		}, {
+			"weight": "104.91467354",
+			"rate": "0",
+			"halfRate": "5.07 min",
+
+			"hu": "Indium-105",
+			"en": "Indium-105"
+		}, {
+			"weight": "105.913465411",
+			"rate": "0",
+			"halfRate": "6.17 min",
+
+			"hu": "Indium-106",
+			"en": "Indium-106"
+		}, {
+			"weight": "106.9102951",
+			"rate": "0",
+			"halfRate": "32.33 min",
+
+			"hu": "Indium-107",
+			"en": "Indium-107"
+		}, {
+			"weight": "107.90969818",
+			"rate": "0",
+			"halfRate": "58 min",
+
+			"hu": "Indium-108",
+			"en": "Indium-108"
+		}, {
+			"weight": "108.907150507",
+			"rate": "0",
+			"halfRate": "4.2 h",
+
+			"hu": "Indium-109",
+			"en": "Indium-109"
+		}, {
+			"weight": "109.907165274",
+			"rate": "0",
+			"halfRate": "5 h",
+
+			"hu": "Indium-110",
+			"en": "Indium-110"
+		}, {
+			"weight": "110.905103278",
+			"rate": "0",
+			"halfRate": "2.80475 d",
+
+			"hu": "Indium-111",
+			"en": "Indium-111"
+		}, {
+			"weight": "111.905532331",
+			"rate": "0",
+			"halfRate": "14.97 min",
+
+			"hu": "Indium-112",
+			"en": "Indium-112"
+		}, {
+			"weight": "112.904057761",
+			"rate": "4.29 stable",
+			"halfRate": "",
+
+			"hu": "Indium-113",
+			"en": "Indium-113"
+		}, {
+			"weight": "113.904913876",
+			"rate": "0",
+			"halfRate": "1.2 min",
+
+			"hu": "Indium-114",
+			"en": "Indium-114"
+		}, {
+			"weight": "114.903878484",
+			"rate": "95.71",
+			"halfRate": "440000000000000 y",
+
+			"hu": "Indium-115",
+			"en": "Indium-115"
+		}, {
+			"weight": "115.905259703",
+			"rate": "0",
+			"halfRate": "14.1 s",
+
+			"hu": "Indium-116",
+			"en": "Indium-116"
+		}, {
+			"weight": "116.904513564",
+			"rate": "0",
+			"halfRate": "43.17 min",
+
+			"hu": "Indium-117",
+			"en": "Indium-117"
+		}, {
+			"weight": "117.906354367",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Indium-118",
+			"en": "Indium-118"
+		}, {
+			"weight": "118.90584535",
+			"rate": "0",
+			"halfRate": "2.33 min",
+
+			"hu": "Indium-119",
+			"en": "Indium-119"
+		}, {
+			"weight": "119.907959608",
+			"rate": "0",
+			"halfRate": "3.08 s",
+
+			"hu": "Indium-120",
+			"en": "Indium-120"
+		}, {
+			"weight": "120.907845822",
+			"rate": "0",
+			"halfRate": "23.1 s",
+
+			"hu": "Indium-121",
+			"en": "Indium-121"
+		}, {
+			"weight": "121.91027601",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Indium-122",
+			"en": "Indium-122"
+		}, {
+			"weight": "122.910438276",
+			"rate": "0",
+			"halfRate": "5.98 s",
+
+			"hu": "Indium-123",
+			"en": "Indium-123"
+		}, {
+			"weight": "123.913175231",
+			"rate": "0",
+			"halfRate": "3.11 s",
+
+			"hu": "Indium-124",
+			"en": "Indium-124"
+		}, {
+			"weight": "124.913600588",
+			"rate": "0",
+			"halfRate": "2.36 s",
+
+			"hu": "Indium-125",
+			"en": "Indium-125"
+		}, {
+			"weight": "125.916463857",
+			"rate": "0",
+			"halfRate": "1.53 d",
+
+			"hu": "Indium-126",
+			"en": "Indium-126"
+		}, {
+			"weight": "126.917353091",
+			"rate": "0",
+			"halfRate": "1.09 s",
+
+			"hu": "Indium-127",
+			"en": "Indium-127"
+		}, {
+			"weight": "127.920172328",
+			"rate": "0",
+			"halfRate": "840 ms",
+
+			"hu": "Indium-128",
+			"en": "Indium-128"
+		}, {
+			"weight": "128.92169698",
+			"rate": "0",
+			"halfRate": "611 ms",
+
+			"hu": "Indium-129",
+			"en": "Indium-129"
+		}, {
+			"weight": "129.924970049",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Indium-130",
+			"en": "Indium-130"
+		}, {
+			"weight": "130.926851767",
+			"rate": "0",
+			"halfRate": "280 ms",
+
+			"hu": "Indium-131",
+			"en": "Indium-131"
+		}, {
+			"weight": "131.93299026",
+			"rate": "0",
+			"halfRate": "206 ms",
+
+			"hu": "Indium-132",
+			"en": "Indium-132"
+		}, {
+			"weight": "132.93781",
+			"rate": "0",
+			"halfRate": "165 ms",
+
+			"hu": "Indium-133",
+			"en": "Indium-133"
+		}, {
+			"weight": "133.94415",
+			"rate": "0",
+			"halfRate": "140 ms",
+
+			"hu": "Indium-134",
+			"en": "Indium-134"
+		}, {
+			"weight": "134.94933",
+			"rate": "0",
+			"halfRate": "92 ms",
+
+			"hu": "Indium-135",
+			"en": "Indium-135"
+		}
+	]
+}

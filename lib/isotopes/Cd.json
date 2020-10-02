@@ -1,1 +1,271 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "94.94987",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Kadmium-95",
+			"en": "Cadmium-95"
+		}, {
+			"weight": "95.93977",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Kadmium-96",
+			"en": "Cadmium-96"
+		}, {
+			"weight": "96.93494",
+			"rate": "0",
+			"halfRate": "2.8 s",
+
+			"hu": "Kadmium-97",
+			"en": "Cadmium-97"
+		}, {
+			"weight": "97.927395546",
+			"rate": "0",
+			"halfRate": "9.2 s",
+
+			"hu": "Kadmium-98",
+			"en": "Cadmium-98"
+		}, {
+			"weight": "98.92501",
+			"rate": "0",
+			"halfRate": "16 s",
+
+			"hu": "Kadmium-99",
+			"en": "Cadmium-99"
+		}, {
+			"weight": "99.920289525",
+			"rate": "0",
+			"halfRate": "49.1 s",
+
+			"hu": "Kadmium-100",
+			"en": "Cadmium-100"
+		}, {
+			"weight": "100.918681538",
+			"rate": "0",
+			"halfRate": "1.36 min",
+
+			"hu": "Kadmium-101",
+			"en": "Cadmium-101"
+		}, {
+			"weight": "101.914462258",
+			"rate": "0",
+			"halfRate": "5.5 min",
+
+			"hu": "Kadmium-102",
+			"en": "Cadmium-102"
+		}, {
+			"weight": "102.913419246",
+			"rate": "0",
+			"halfRate": "7.33 min",
+
+			"hu": "Kadmium-103",
+			"en": "Cadmium-103"
+		}, {
+			"weight": "103.909849475",
+			"rate": "0",
+			"halfRate": "57.67 min",
+
+			"hu": "Kadmium-104",
+			"en": "Cadmium-104"
+		}, {
+			"weight": "104.909467905",
+			"rate": "0",
+			"halfRate": "55.5 min",
+
+			"hu": "Kadmium-105",
+			"en": "Cadmium-105"
+		}, {
+			"weight": "105.90645941",
+			"rate": "1.25",
+			"halfRate": "stable",
+
+			"hu": "Kadmium-106",
+			"en": "Cadmium-106"
+		}, {
+			"weight": "106.906617928",
+			"rate": "0",
+			"halfRate": "6.4 h",
+
+			"hu": "Kadmium-107",
+			"en": "Cadmium-107"
+		}, {
+			"weight": "107.904183683",
+			"rate": "0.89",
+			"halfRate": "stable",
+
+			"hu": "Kadmium-108",
+			"en": "Cadmium-108"
+		}, {
+			"weight": "108.904982293",
+			"rate": "0",
+			"halfRate": "1.263 y",
+
+			"hu": "Kadmium-109",
+			"en": "Cadmium-109"
+		}, {
+			"weight": "109.90300207",
+			"rate": "12.49",
+			"halfRate": "stable",
+
+			"hu": "Kadmium-110",
+			"en": "Cadmium-110"
+		}, {
+			"weight": "110.904178107",
+			"rate": "12.8",
+			"halfRate": "stable",
+
+			"hu": "Kadmium-111",
+			"en": "Cadmium-111"
+		}, {
+			"weight": "111.902757809",
+			"rate": "24.13",
+			"halfRate": "stable",
+
+			"hu": "Kadmium-112",
+			"en": "Cadmium-112"
+		}, {
+			"weight": "112.904401662",
+			"rate": "12.22",
+			"halfRate": "7600000000000000 y",
+
+			"hu": "Kadmium-113",
+			"en": "Cadmium-113"
+		}, {
+			"weight": "113.90335854",
+			"rate": "28.73",
+			"halfRate": "stable",
+
+			"hu": "Kadmium-114",
+			"en": "Cadmium-114"
+		}, {
+			"weight": "114.905430969",
+			"rate": "0",
+			"halfRate": "2.228 d",
+
+			"hu": "Kadmium-115",
+			"en": "Cadmium-115"
+		}, {
+			"weight": "115.904755809",
+			"rate": "7.49",
+			"halfRate": "30000000000000000000 y",
+
+			"hu": "Kadmium-116",
+			"en": "Cadmium-116"
+		}, {
+			"weight": "116.907218618",
+			"rate": "0",
+			"halfRate": "2.489 h",
+
+			"hu": "Kadmium-117",
+			"en": "Cadmium-117"
+		}, {
+			"weight": "117.90691453",
+			"rate": "0",
+			"halfRate": "50.33 min",
+
+			"hu": "Kadmium-118",
+			"en": "Cadmium-118"
+		}, {
+			"weight": "118.909921597",
+			"rate": "0",
+			"halfRate": "2.68 min",
+
+			"hu": "Kadmium-119",
+			"en": "Cadmium-119"
+		}, {
+			"weight": "119.909850129",
+			"rate": "0",
+			"halfRate": "50.8 s",
+
+			"hu": "Kadmium-120",
+			"en": "Cadmium-120"
+		}, {
+			"weight": "120.912977363",
+			"rate": "0",
+			"halfRate": "13.5 s",
+
+			"hu": "Kadmium-121",
+			"en": "Cadmium-121"
+		}, {
+			"weight": "121.913332432",
+			"rate": "0",
+			"halfRate": "5.24 s",
+
+			"hu": "Kadmium-122",
+			"en": "Cadmium-122"
+		}, {
+			"weight": "122.917002999",
+			"rate": "0",
+			"halfRate": "2.1 s",
+
+			"hu": "Kadmium-123",
+			"en": "Cadmium-123"
+		}, {
+			"weight": "123.917647616",
+			"rate": "0",
+			"halfRate": "1.25 s",
+
+			"hu": "Kadmium-124",
+			"en": "Cadmium-124"
+		}, {
+			"weight": "124.92124637",
+			"rate": "0",
+			"halfRate": "650 ms",
+
+			"hu": "Kadmium-125",
+			"en": "Cadmium-125"
+		}, {
+			"weight": "125.922353321",
+			"rate": "0",
+			"halfRate": "515 ms",
+
+			"hu": "Kadmium-126",
+			"en": "Cadmium-126"
+		}, {
+			"weight": "126.926443864",
+			"rate": "0",
+			"halfRate": "370 ms",
+
+			"hu": "Kadmium-127",
+			"en": "Cadmium-127"
+		}, {
+			"weight": "127.927762285",
+			"rate": "0",
+			"halfRate": "280 ms",
+
+			"hu": "Kadmium-128",
+			"en": "Cadmium-128"
+		}, {
+			"weight": "128.93215",
+			"rate": "0",
+			"halfRate": "242 ms",
+
+			"hu": "Kadmium-129",
+			"en": "Cadmium-129"
+		}, {
+			"weight": "129.933901937",
+			"rate": "0",
+			"halfRate": "162 ms",
+
+			"hu": "Kadmium-130",
+			"en": "Cadmium-130"
+		}, {
+			"weight": "130.94067",
+			"rate": "0",
+			"halfRate": "68 ms",
+
+			"hu": "Kadmium-131",
+			"en": "Cadmium-131"
+		}, {
+			"weight": "131.94555",
+			"rate": "0",
+			"halfRate": "97 ms",
+
+			"hu": "Kadmium-132",
+			"en": "Cadmium-132"
+		}
+	]
+}

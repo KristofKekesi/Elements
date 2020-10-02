@@ -1,1 +1,271 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "109.944278068",
+			"rate": "0",
+			"halfRate": "310 ms",
+
+			"hu": "Xenon-110",
+			"en": "Xenon-110"
+		}, {
+			"weight": "110.941602",
+			"rate": "0",
+			"halfRate": "740 ms",
+
+			"hu": "Xenon-111",
+			"en": "Xenon-111"
+		}, {
+			"weight": "111.935623112",
+			"rate": "0",
+			"halfRate": "2.7 s",
+
+			"hu": "Xenon-112",
+			"en": "Xenon-112"
+		}, {
+			"weight": "112.933341174",
+			"rate": "0",
+			"halfRate": "2.74 s",
+
+			"hu": "Xenon-113",
+			"en": "Xenon-113"
+		}, {
+			"weight": "113.927980306",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Xenon-114",
+			"en": "Xenon-114"
+		}, {
+			"weight": "114.92629392",
+			"rate": "0",
+			"halfRate": "18 s",
+
+			"hu": "Xenon-115",
+			"en": "Xenon-115"
+		}, {
+			"weight": "115.921581087",
+			"rate": "0",
+			"halfRate": "59 s",
+
+			"hu": "Xenon-116",
+			"en": "Xenon-116"
+		}, {
+			"weight": "116.920358735",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Xenon-117",
+			"en": "Xenon-117"
+		}, {
+			"weight": "117.916178655",
+			"rate": "0",
+			"halfRate": "3.83 min",
+
+			"hu": "Xenon-118",
+			"en": "Xenon-118"
+		}, {
+			"weight": "118.915410688",
+			"rate": "0",
+			"halfRate": "5.83 min",
+
+			"hu": "Xenon-119",
+			"en": "Xenon-119"
+		}, {
+			"weight": "119.911784244",
+			"rate": "0",
+			"halfRate": "40 min",
+
+			"hu": "Xenon-120",
+			"en": "Xenon-120"
+		}, {
+			"weight": "120.911461829",
+			"rate": "0",
+			"halfRate": "40.17 min",
+
+			"hu": "Xenon-121",
+			"en": "Xenon-121"
+		}, {
+			"weight": "121.908367632",
+			"rate": "0",
+			"halfRate": "20.1 h",
+
+			"hu": "Xenon-122",
+			"en": "Xenon-122"
+		}, {
+			"weight": "122.90848191",
+			"rate": "0",
+			"halfRate": "2.081 h",
+
+			"hu": "Xenon-123",
+			"en": "Xenon-123"
+		}, {
+			"weight": "122.90848191",
+			"rate": "0",
+			"halfRate": "2.081 h",
+
+			"hu": "Xenon-124",
+			"en": "Xenon-124"
+		}, {
+			"weight": "124.906395464",
+			"rate": "0",
+			"halfRate": "16.9 h",
+
+			"hu": "Xenon-125",
+			"en": "Xenon-125"
+		}, {
+			"weight": "125.904273634",
+			"rate": "0.09",
+			"halfRate": "stable",
+
+			"hu": "Xenon-126",
+			"en": "Xenon-126"
+		}, {
+			"weight": "126.905183723",
+			"rate": "0",
+			"halfRate": "36.345 d",
+
+			"hu": "Xenon-127",
+			"en": "Xenon-127"
+		}, {
+			"weight": "127.903531275",
+			"rate": "1.92",
+			"halfRate": "stable",
+
+			"hu": "Xenon-128",
+			"en": "Xenon-128"
+		}, {
+			"weight": "128.904779435",
+			"rate": "26.44",
+			"halfRate": "stable",
+
+			"hu": "Xenon-129",
+			"en": "Xenon-129"
+		}, {
+			"weight": "129.903508007",
+			"rate": "4.08",
+			"halfRate": "stable",
+
+			"hu": "Xenon-130",
+			"en": "Xenon-130"
+		}, {
+			"weight": "130.905082362",
+			"rate": "21.18",
+			"halfRate": "stable",
+
+			"hu": "Xenon-131",
+			"en": "Xenon-131"
+		}, {
+			"weight": "131.904153457",
+			"rate": "26.89",
+			"halfRate": "stable",
+
+			"hu": "Xenon-132",
+			"en": "Xenon-132"
+		}, {
+			"weight": "132.905910722",
+			"rate": "0",
+			"halfRate": "5.24745 d",
+
+			"hu": "Xenon-133",
+			"en": "Xenon-133"
+		}, {
+			"weight": "133.905394464",
+			"rate": "10.44",
+			"halfRate": "stable",
+
+			"hu": "Xenon-134",
+			"en": "Xenon-134"
+		}, {
+			"weight": "134.907227495",
+			"rate": "0",
+			"halfRate": "9.14 h",
+
+			"hu": "Xenon-135",
+			"en": "Xenon-135"
+		}, {
+			"weight": "135.907218794",
+			"rate": "8.87",
+			"halfRate": "stable",
+
+			"hu": "Xenon-136",
+			"en": "Xenon-136"
+		}, {
+			"weight": "136.911562125",
+			"rate": "0",
+			"halfRate": "3.818 min",
+
+			"hu": "Xenon-137",
+			"en": "Xenon-137"
+		}, {
+			"weight": "137.913954475",
+			"rate": "0",
+			"halfRate": "14.08 min",
+
+			"hu": "Xenon-138",
+			"en": "Xenon-138"
+		}, {
+			"weight": "138.918792936",
+			"rate": "0",
+			"halfRate": "39.68 s",
+
+			"hu": "Xenon-139",
+			"en": "Xenon-139"
+		}, {
+			"weight": "139.921640943",
+			"rate": "0",
+			"halfRate": "13.6 s",
+
+			"hu": "Xenon-140",
+			"en": "Xenon-140"
+		}, {
+			"weight": "140.926648049",
+			"rate": "0",
+			"halfRate": "1.73 s",
+
+			"hu": "Xenon-141",
+			"en": "Xenon-141"
+		}, {
+			"weight": "141.92970959",
+			"rate": "0",
+			"halfRate": "1.22 s",
+
+			"hu": "Xenon-142",
+			"en": "Xenon-142"
+		}, {
+			"weight": "142.93511",
+			"rate": "0",
+			"halfRate": "511 ms",
+
+			"hu": "Xenon-143",
+			"en": "Xenon-143"
+		}, {
+			"weight": "143.93851",
+			"rate": "0",
+			"halfRate": "388 ms",
+
+			"hu": "Xenon-144",
+			"en": "Xenon-144"
+		}, {
+			"weight": "144.94407",
+			"rate": "0",
+			"halfRate": "188 ms",
+
+			"hu": "Xenon-145",
+			"en": "Xenon-145"
+		}, {
+			"weight": "145.94775",
+			"rate": "0",
+			"halfRate": "146 ms",
+
+			"hu": "Xenon-146",
+			"en": "Xenon-146"
+		}, {
+			"weight": "146.95356",
+			"rate": "0",
+			"halfRate": "130 ms",
+
+			"hu": "Xenon-147",
+			"en": "Xenon-147"
+		}
+	]
+}

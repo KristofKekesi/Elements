@@ -1,1 +1,285 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "113.950675405",
+			"rate": "0",
+			"halfRate": "530 ms",
+
+			"hu": "Bárium-114",
+			"en": "Barium-114"
+		}, {
+			"weight": "114.94737",
+			"rate": "0",
+			"halfRate": "450 ms",
+
+			"hu": "Bárium-115",
+			"en": "Barium-115"
+		}, {
+			"weight": "115.94138",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Bárium-116",
+			"en": "Barium-116"
+		}, {
+			"weight": "116.938499",
+			"rate": "0",
+			"halfRate": "1.75 s",
+
+			"hu": "Bárium-117",
+			"en": "Barium-117"
+		}, {
+			"weight": "117.93304",
+			"rate": "0",
+			"halfRate": "5.2 s",
+
+			"hu": "Bárium-118",
+			"en": "Barium-118"
+		}, {
+			"weight": "118.930659661",
+			"rate": "0",
+			"halfRate": "5.4 s",
+
+			"hu": "Bárium-119",
+			"en": "Barium-119"
+		}, {
+			"weight": "119.926044974",
+			"rate": "0",
+			"halfRate": "24 s",
+
+			"hu": "Bárium-120",
+			"en": "Barium-120"
+		}, {
+			"weight": "120.924054499",
+			"rate": "0",
+			"halfRate": "29.7 s",
+
+			"hu": "Bárium-121",
+			"en": "Barium-121"
+		}, {
+			"weight": "121.919904",
+			"rate": "0",
+			"halfRate": "1.95 min",
+
+			"hu": "Bárium-122",
+			"en": "Barium-122"
+		}, {
+			"weight": "122.918781036",
+			"rate": "0",
+			"halfRate": "2.67 min",
+
+			"hu": "Bárium-123",
+			"en": "Barium-123"
+		}, {
+			"weight": "123.915093603",
+			"rate": "0",
+			"halfRate": "11 min",
+
+			"hu": "Bárium-124",
+			"en": "Barium-124"
+		}, {
+			"weight": "124.914472912",
+			"rate": "0",
+			"halfRate": "3.5 min",
+
+			"hu": "Bárium-125",
+			"en": "Barium-125"
+		}, {
+			"weight": "125.911250177",
+			"rate": "0",
+			"halfRate": "1.7 h",
+
+			"hu": "Bárium-126",
+			"en": "Barium-126"
+		}, {
+			"weight": "126.911093797",
+			"rate": "0",
+			"halfRate": "12.7 min",
+
+			"hu": "Bárium-127",
+			"en": "Barium-127"
+		}, {
+			"weight": "127.908317698",
+			"rate": "0",
+			"halfRate": "2.4 d",
+
+			"hu": "Bárium-128",
+			"en": "Barium-128"
+		}, {
+			"weight": "128.908679439",
+			"rate": "0",
+			"halfRate": "2.231 h",
+
+			"hu": "Bárium-129",
+			"en": "Barium-129"
+		}, {
+			"weight": "129.906320811",
+			"rate": "0.106",
+			"halfRate": "stable",
+
+			"hu": "Bárium-130",
+			"en": "Barium-130"
+		}, {
+			"weight": "130.906941118",
+			"rate": "0",
+			"halfRate": "11.5 d",
+
+			"hu": "Bárium-131",
+			"en": "Barium-131"
+		}, {
+			"weight": "131.905061288",
+			"rate": "0.1001",
+			"halfRate": "stable",
+
+			"hu": "Bárium-132",
+			"en": "Barium-132"
+		}, {
+			"weight": "132.90600749",
+			"rate": "0",
+			"halfRate": "10.51 y",
+
+			"hu": "Bárium-133",
+			"en": "Barium-133"
+		}, {
+			"weight": "133.904508383",
+			"rate": "2.417",
+			"halfRate": "stable",
+
+			"hu": "Bárium-134",
+			"en": "Barium-134"
+		}, {
+			"weight": "134.905688591",
+			"rate": "6.592",
+			"halfRate": "stable",
+
+			"hu": "Bárium-135",
+			"en": "Barium-135"
+		}, {
+			"weight": "135.904575945",
+			"rate": "7.854",
+			"halfRate": "stable",
+
+			"hu": "Bárium-136",
+			"en": "Barium-136"
+		}, {
+			"weight": "136.905827384",
+			"rate": "11.232",
+			"halfRate": "stable",
+
+			"hu": "Bárium-137",
+			"en": "Barium-137"
+		}, {
+			"weight": "137.905247237",
+			"rate": "71.698",
+			"halfRate": "stable",
+
+			"hu": "Bárium-138",
+			"en": "Barium-138"
+		}, {
+			"weight": "138.908841341",
+			"rate": "0",
+			"halfRate": "1.386 h",
+
+			"hu": "Bárium-139",
+			"en": "Barium-139"
+		}, {
+			"weight": "139.910604505",
+			"rate": "0",
+			"halfRate": "12.752 d",
+
+			"hu": "Bárium-140",
+			"en": "Barium-140"
+		}, {
+			"weight": "140.914411009",
+			"rate": "0",
+			"halfRate": "18.27 min",
+
+			"hu": "Bárium-141",
+			"en": "Barium-141"
+		}, {
+			"weight": "141.91645341",
+			"rate": "0",
+			"halfRate": "10.6 min",
+
+			"hu": "Bárium-142",
+			"en": "Barium-142"
+		}, {
+			"weight": "142.920626719",
+			"rate": "0",
+			"halfRate": "14.5 s",
+
+			"hu": "Bárium-143",
+			"en": "Barium-143"
+		}, {
+			"weight": "143.922952853",
+			"rate": "0",
+			"halfRate": "11.5 s",
+
+			"hu": "Bárium-144",
+			"en": "Barium-144"
+		}, {
+			"weight": "144.927627032",
+			"rate": "0",
+			"halfRate": "4.31 s",
+
+			"hu": "Bárium-145",
+			"en": "Barium-145"
+		}, {
+			"weight": "145.930219572",
+			"rate": "0",
+			"halfRate": "2.22 s",
+
+			"hu": "Bárium-146",
+			"en": "Barium-146"
+		}, {
+			"weight": "146.934945",
+			"rate": "0",
+			"halfRate": "893 ms",
+
+			"hu": "Bárium-147",
+			"en": "Barium-147"
+		}, {
+			"weight": "147.937720047",
+			"rate": "0",
+			"halfRate": "612 ms",
+
+			"hu": "Bárium-148",
+			"en": "Barium-148"
+		}, {
+			"weight": "148.94258",
+			"rate": "0",
+			"halfRate": "344 ms",
+
+			"hu": "Bárium-149",
+			"en": "Barium-149"
+		}, {
+			"weight": "149.94568",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Bárium-150",
+			"en": "Barium-150"
+		}, {
+			"weight": "150.95081",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Bárium-151",
+			"en": "Barium-151"
+		}, {
+			"weight": "151.95427",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Bárium-152",
+			"en": "Barium-152"
+		}, {
+			"weight": "152.95961",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Bárium-153",
+			"en": "Barium-153"
+		}
+	]
+}

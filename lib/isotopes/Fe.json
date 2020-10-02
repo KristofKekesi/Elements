@@ -1,1 +1,201 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "45.014578",
+			"rate": "0",
+			"halfRate": "4.9 ms",
+
+			"hu": "Vas-45",
+			"en": "Iron-45"
+		}, {
+			"weight": "46.00081",
+			"rate": "0",
+			"halfRate": "9 ms",
+
+			"hu": "Vas-46",
+			"en": "Iron-46"
+		}, {
+			"weight": "46.99289",
+			"rate": "0",
+			"halfRate": "21.8 ms",
+
+			"hu": "Vas-47",
+			"en": "Iron-47"
+		}, {
+			"weight": "47.980504",
+			"rate": "0",
+			"halfRate": "44 ms",
+
+			"hu": "Vas-48",
+			"en": "Iron-48"
+		}, {
+			"weight": "48.97361",
+			"rate": "0",
+			"halfRate": "70 ms",
+
+			"hu": "Vas-49",
+			"en": "Iron-49"
+		}, {
+			"weight": "49.962988982",
+			"rate": "0",
+			"halfRate": "155 ms",
+
+			"hu": "Vas-50",
+			"en": "Iron-50"
+		}, {
+			"weight": "50.956819538",
+			"rate": "0",
+			"halfRate": "305 ms",
+
+			"hu": "Vas-51",
+			"en": "Iron-51"
+		}, {
+			"weight": "51.948113875",
+			"rate": "0",
+			"halfRate": "8.275 h",
+
+			"hu": "Vas-52",
+			"en": "Iron-52"
+		}, {
+			"weight": "52.945307942",
+			"rate": "0",
+			"halfRate": "8.52 min",
+
+			"hu": "Vas-53",
+			"en": "Iron-53"
+		}, {
+			"weight": "53.939610501",
+			"rate": "5.845",
+			"halfRate": "stable",
+
+			"hu": "Vas-54",
+			"en": "Iron-54"
+		}, {
+			"weight": "54.938293357",
+			"rate": "0",
+			"halfRate": "2.737 y",
+
+			"hu": "Vas-55",
+			"en": "Iron-55"
+		}, {
+			"weight": "55.934937475",
+			"rate": "91.754",
+			"halfRate": "stable",
+
+			"hu": "Vas-56",
+			"en": "Iron-56"
+		}, {
+			"weight": "56.935393969",
+			"rate": "2.119",
+			"halfRate": "stable",
+
+			"hu": "Vas-57",
+			"en": "Iron-57"
+		}, {
+			"weight": "57.933275558",
+			"rate": "0.282",
+			"halfRate": "stable",
+
+			"hu": "Vas-58",
+			"en": "Iron-58"
+		}, {
+			"weight": "58.934875464",
+			"rate": "0",
+			"halfRate": "44.495 d",
+
+			"hu": "Vas-59",
+			"en": "Iron-59"
+		}, {
+			"weight": "59.934071683",
+			"rate": "0",
+			"halfRate": "1500000 y",
+
+			"hu": "Vas-60",
+			"en": "Iron-60"
+		}, {
+			"weight": "60.936745281",
+			"rate": "0",
+			"halfRate": "5.98 min",
+
+			"hu": "Vas-61",
+			"en": "Iron-61"
+		}, {
+			"weight": "61.936767442",
+			"rate": "0",
+			"halfRate": "1.1 min",
+
+			"hu": "Vas-62",
+			"en": "Iron-62"
+		}, {
+			"weight": "62.940369091",
+			"rate": "0",
+			"halfRate": "6.1 s",
+
+			"hu": "Vas-63",
+			"en": "Iron-63"
+		}, {
+			"weight": "63.941201265",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Vas-64",
+			"en": "Iron-64"
+		}, {
+			"weight": "64.94538027",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Vas-65",
+			"en": "Iron-65"
+		}, {
+			"weight": "65.946780638",
+			"rate": "0",
+			"halfRate": "440 ms",
+
+			"hu": "Vas-66",
+			"en": "Iron-66"
+		}, {
+			"weight": "66.950947244",
+			"rate": "0",
+			"halfRate": "394 ms",
+
+			"hu": "Vas-67",
+			"en": "Iron-67"
+		}, {
+			"weight": "67.9537",
+			"rate": "0",
+			"halfRate": "187 ms",
+
+			"hu": "Vas-68",
+			"en": "Iron-68"
+		}, {
+			"weight": "68.95878",
+			"rate": "0",
+			"halfRate": "109 ms",
+
+			"hu": "Vas-69",
+			"en": "Iron-69"
+		}, {
+			"weight": "69.96146",
+			"rate": "0",
+			"halfRate": "94 ms",
+
+			"hu": "Vas-70",
+			"en": "Iron-70"
+		}, {
+			"weight": "70.96672",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Vas-71",
+			"en": "Iron-71"
+		}, {
+			"weight": "71.96962",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Vas-72",
+			"en": "Iron-72"
+		}
+	]
+}

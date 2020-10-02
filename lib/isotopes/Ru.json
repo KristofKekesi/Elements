@@ -1,1 +1,243 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "86.94918",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Ruténium-87",
+			"en": "Ruthenium-87"
+		}, {
+			"weight": "87.94026",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Ruténium-88",
+			"en": "Ruthenium-88"
+		}, {
+			"weight": "88.93611",
+			"rate": "0",
+			"halfRate": "1.38 s",
+
+			"hu": "Ruténium-89",
+			"en": "Ruthenium-89"
+		}, {
+			"weight": "89.92989",
+			"rate": "0",
+			"halfRate": "11 s",
+
+			"hu": "Ruténium-90",
+			"en": "Ruthenium-90"
+		}, {
+			"weight": "90.926292",
+			"rate": "0",
+			"halfRate": "9 s",
+
+			"hu": "Ruténium-91",
+			"en": "Ruthenium-91"
+		}, {
+			"weight": "91.92012",
+			"rate": "0",
+			"halfRate": "3.65 min",
+
+			"hu": "Ruténium-92",
+			"en": "Ruthenium-92"
+		}, {
+			"weight": "92.917052034",
+			"rate": "0",
+			"halfRate": "59.7 s",
+
+			"hu": "Ruténium-93",
+			"en": "Ruthenium-93"
+		}, {
+			"weight": "93.911359711",
+			"rate": "0",
+			"halfRate": "51.83 min",
+
+			"hu": "Ruténium-94",
+			"en": "Ruthenium-94"
+		}, {
+			"weight": "94.910412929",
+			"rate": "0",
+			"halfRate": "1.643 h",
+
+			"hu": "Ruténium-95",
+			"en": "Ruthenium-95"
+		}, {
+			"weight": "95.907597835",
+			"rate": "5.54",
+			"halfRate": "stable",
+
+			"hu": "Ruténium-96",
+			"en": "Ruthenium-96"
+		}, {
+			"weight": "96.9075547",
+			"rate": "0",
+			"halfRate": "2.9 d",
+
+			"hu": "Ruténium-97",
+			"en": "Ruthenium-97"
+		}, {
+			"weight": "97.905287132",
+			"rate": "1.87",
+			"halfRate": "stable",
+
+			"hu": "Ruténium-98",
+			"en": "Ruthenium-98"
+		}, {
+			"weight": "98.905939302",
+			"rate": "12.76",
+			"halfRate": "stable",
+
+			"hu": "Ruténium-99",
+			"en": "Ruthenium-99"
+		}, {
+			"weight": "99.904219476",
+			"rate": "12.6",
+			"halfRate": "stable",
+
+			"hu": "Ruténium-100",
+			"en": "Ruthenium-100"
+		}, {
+			"weight": "100.905582087",
+			"rate": "17.06",
+			"halfRate": "stable",
+
+			"hu": "Ruténium-101",
+			"en": "Ruthenium-101"
+		}, {
+			"weight": "101.904349312",
+			"rate": "31.55",
+			"halfRate": "stable",
+
+			"hu": "Ruténium-102",
+			"en": "Ruthenium-102"
+		}, {
+			"weight": "102.906323847",
+			"rate": "0",
+			"halfRate": "39.26 d",
+
+			"hu": "Ruténium-103",
+			"en": "Ruthenium-103"
+		}, {
+			"weight": "103.905432701",
+			"rate": "18.62",
+			"halfRate": "stable",
+
+			"hu": "Ruténium-104",
+			"en": "Ruthenium-104"
+		}, {
+			"weight": "104.907752866",
+			"rate": "0",
+			"halfRate": "4.4 h",
+
+			"hu": "Ruténium-105",
+			"en": "Ruthenium-105"
+		}, {
+			"weight": "105.907329433",
+			"rate": "0",
+			"halfRate": "1.0228 y",
+
+			"hu": "Ruténium-106",
+			"en": "Ruthenium-106"
+		}, {
+			"weight": "106.909905089",
+			"rate": "0",
+			"halfRate": "3.75 min",
+
+			"hu": "Ruténium-107",
+			"en": "Ruthenium-107"
+		}, {
+			"weight": "107.910173465",
+			"rate": "0",
+			"halfRate": "4.55 min",
+
+			"hu": "Ruténium-108",
+			"en": "Ruthenium-108"
+		}, {
+			"weight": "108.913203233",
+			"rate": "0",
+			"halfRate": "34.5 s",
+
+			"hu": "Ruténium-109",
+			"en": "Ruthenium-109"
+		}, {
+			"weight": "109.914136041",
+			"rate": "0",
+			"halfRate": "11.6 s",
+
+			"hu": "Ruténium-110",
+			"en": "Ruthenium-110"
+		}, {
+			"weight": "110.917696",
+			"rate": "0",
+			"halfRate": "2.12 s",
+
+			"hu": "Ruténium-111",
+			"en": "Ruthenium-111"
+		}, {
+			"weight": "111.918965",
+			"rate": "0",
+			"halfRate": "1.85 s",
+
+			"hu": "Ruténium-112",
+			"en": "Ruthenium-112"
+		}, {
+			"weight": "112.922487194",
+			"rate": "0",
+			"halfRate": "800 ms",
+
+			"hu": "Ruténium-113",
+			"en": "Ruthenium-113"
+		}, {
+			"weight": "113.924281",
+			"rate": "0",
+			"halfRate": "530 ms",
+
+			"hu": "Ruténium-114",
+			"en": "Ruthenium-114"
+		}, {
+			"weight": "114.928686173",
+			"rate": "0",
+			"halfRate": "740 ms",
+
+			"hu": "Ruténium-115",
+			"en": "Ruthenium-115"
+		}, {
+			"weight": "115.93081",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Ruténium-116",
+			"en": "Ruthenium-116"
+		}, {
+			"weight": "116.93558",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Ruténium-117",
+			"en": "Ruthenium-117"
+		}, {
+			"weight": "117.93782",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Ruténium-118",
+			"en": "Ruthenium-118"
+		}, {
+			"weight": "118.94284",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Ruténium-119",
+			"en": "Ruthenium-119"
+		}, {
+			"weight": "119.94531",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Ruténium-120",
+			"en": "Ruthenium-120"
+		}
+	]
+}

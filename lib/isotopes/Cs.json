@@ -1,1 +1,285 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "111.950301",
+			"rate": "0",
+			"halfRate": "500 µs",
+
+			"hu": "Cézium-112",
+			"en": "Caesium-112"
+		}, {
+			"weight": "112.944493274",
+			"rate": "0",
+			"halfRate": "16.7 µs",
+
+			"hu": "Cézium-113",
+			"en": "Caesium-113"
+		}, {
+			"weight": "113.94145",
+			"rate": "0",
+			"halfRate": "570 ms",
+
+			"hu": "Cézium-114",
+			"en": "Caesium-114"
+		}, {
+			"weight": "114.93591",
+			"rate": "0",
+			"halfRate": "1.4 s",
+
+			"hu": "Cézium-115",
+			"en": "Caesium-115"
+		}, {
+			"weight": "115.933367",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Cézium-116",
+			"en": "Caesium-116"
+		}, {
+			"weight": "116.928670701",
+			"rate": "0",
+			"halfRate": "8.4 s",
+
+			"hu": "Cézium-117",
+			"en": "Caesium-117"
+		}, {
+			"weight": "117.926559494",
+			"rate": "0",
+			"halfRate": "14 s",
+
+			"hu": "Cézium-118",
+			"en": "Caesium-118"
+		}, {
+			"weight": "118.922377304",
+			"rate": "0",
+			"halfRate": "43 s",
+
+			"hu": "Cézium-119",
+			"en": "Caesium-119"
+		}, {
+			"weight": "119.920677253",
+			"rate": "0",
+			"halfRate": "1.02 min",
+
+			"hu": "Cézium-120",
+			"en": "Caesium-120"
+		}, {
+			"weight": "120.917229209",
+			"rate": "0",
+			"halfRate": "2.58 min",
+
+			"hu": "Cézium-121",
+			"en": "Caesium-121"
+		}, {
+			"weight": "121.916113434",
+			"rate": "0",
+			"halfRate": "21.18 s",
+
+			"hu": "Cézium-122",
+			"en": "Caesium-122"
+		}, {
+			"weight": "122.912996036",
+			"rate": "0",
+			"halfRate": "5.87 min",
+
+			"hu": "Cézium-123",
+			"en": "Caesium-123"
+		}, {
+			"weight": "123.912257798",
+			"rate": "0",
+			"halfRate": "30.9 s",
+
+			"hu": "Cézium-124",
+			"en": "Caesium-124"
+		}, {
+			"weight": "124.90972827",
+			"rate": "0",
+			"halfRate": "45 min",
+
+			"hu": "Cézium-125",
+			"en": "Caesium-125"
+		}, {
+			"weight": "125.909451977",
+			"rate": "0",
+			"halfRate": "1.64 min",
+
+			"hu": "Cézium-126",
+			"en": "Caesium-126"
+		}, {
+			"weight": "126.907417525",
+			"rate": "0",
+			"halfRate": "6.25 h",
+
+			"hu": "Cézium-127",
+			"en": "Caesium-127"
+		}, {
+			"weight": "127.907748866",
+			"rate": "0",
+			"halfRate": "3.63 min",
+
+			"hu": "Cézium-128",
+			"en": "Caesium-128"
+		}, {
+			"weight": "128.906064426",
+			"rate": "0",
+			"halfRate": "1.336 d",
+
+			"hu": "Cézium-129",
+			"en": "Caesium-129"
+		}, {
+			"weight": "129.906708552",
+			"rate": "0",
+			"halfRate": "29.22 min",
+
+			"hu": "Cézium-130",
+			"en": "Caesium-130"
+		}, {
+			"weight": "130.905463926",
+			"rate": "0",
+			"halfRate": "9.689 d",
+
+			"hu": "Cézium-131",
+			"en": "Caesium-131"
+		}, {
+			"weight": "131.90643426",
+			"rate": "0",
+			"halfRate": "6.479 d",
+
+			"hu": "Cézium-132",
+			"en": "Caesium-132"
+		}, {
+			"weight": "132.905451932",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Cézium-133",
+			"en": "Caesium-133"
+		}, {
+			"weight": "133.906718475",
+			"rate": "0",
+			"halfRate": "2.0648 y",
+
+			"hu": "Cézium-134",
+			"en": "Caesium-134"
+		}, {
+			"weight": "134.905977008",
+			"rate": "0",
+			"halfRate": "2300000 y",
+
+			"hu": "Cézium-135",
+			"en": "Caesium-135"
+		}, {
+			"weight": "135.907311576",
+			"rate": "0",
+			"halfRate": "13.16 d",
+
+			"hu": "Cézium-136",
+			"en": "Caesium-136"
+		}, {
+			"weight": "136.907089473",
+			"rate": "0",
+			"halfRate": "30.1671 y",
+
+			"hu": "Cézium-137",
+			"en": "Caesium-137"
+		}, {
+			"weight": "137.911016704",
+			"rate": "0",
+			"halfRate": "33.42 min",
+
+			"hu": "Cézium-138",
+			"en": "Caesium-138"
+		}, {
+			"weight": "138.913363999",
+			"rate": "0",
+			"halfRate": "9.27 min",
+
+			"hu": "Cézium-139",
+			"en": "Caesium-139"
+		}, {
+			"weight": "139.917282354",
+			"rate": "0",
+			"halfRate": "1.06 min",
+
+			"hu": "Cézium-140",
+			"en": "Caesium-140"
+		}, {
+			"weight": "140.920045752",
+			"rate": "0",
+			"halfRate": "24.84 s",
+
+			"hu": "Cézium-141",
+			"en": "Caesium-141"
+		}, {
+			"weight": "141.924298927",
+			"rate": "0",
+			"halfRate": "1.689 s",
+
+			"hu": "Cézium-142",
+			"en": "Caesium-142"
+		}, {
+			"weight": "142.92735175",
+			"rate": "0",
+			"halfRate": "1.791 s",
+
+			"hu": "Cézium-143",
+			"en": "Caesium-143"
+		}, {
+			"weight": "143.932076914",
+			"rate": "0",
+			"halfRate": "994 ms",
+
+			"hu": "Cézium-144",
+			"en": "Caesium-144"
+		}, {
+			"weight": "144.93552617",
+			"rate": "0",
+			"halfRate": "582 ms",
+
+			"hu": "Cézium-145",
+			"en": "Caesium-145"
+		}, {
+			"weight": "145.940289423",
+			"rate": "0",
+			"halfRate": "323 ms",
+
+			"hu": "Cézium-146",
+			"en": "Caesium-146"
+		}, {
+			"weight": "146.944155008",
+			"rate": "0",
+			"halfRate": "225 ms",
+
+			"hu": "Cézium-147",
+			"en": "Caesium-147"
+		}, {
+			"weight": "147.949218153",
+			"rate": "0",
+			"halfRate": "146 ms",
+
+			"hu": "Cézium-148",
+			"en": "Caesium-148"
+		}, {
+			"weight": "148.95293",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Cézium-149",
+			"en": "Caesium-149"
+		}, {
+			"weight": "149.95817",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Cézium-150",
+			"en": "Caesium-150"
+		}, {
+			"weight": "150.96219",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Cézium-151",
+			"en": "Caesium-151"
+		}
+	]
+}

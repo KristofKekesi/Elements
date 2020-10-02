@@ -1,1 +1,271 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "92.94978",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Ezüst-93",
+			"en": "Silver-93"
+		}, {
+			"weight": "93.94278",
+			"rate": "0",
+			"halfRate": "37 ms",
+
+			"hu": "Ezüst-94",
+			"en": "Silver-94"
+		}, {
+			"weight": "94.93548",
+			"rate": "0",
+			"halfRate": "1.74 s",
+
+			"hu": "Ezüst-95",
+			"en": "Silver-95"
+		}, {
+			"weight": "95.93068",
+			"rate": "0",
+			"halfRate": "4.45 s",
+
+			"hu": "Ezüst-96",
+			"en": "Silver-96"
+		}, {
+			"weight": "96.923972412",
+			"rate": "0",
+			"halfRate": "25.3 s",
+
+			"hu": "Ezüst-97",
+			"en": "Silver-97"
+		}, {
+			"weight": "97.921566201",
+			"rate": "0",
+			"halfRate": "47.5 s",
+
+			"hu": "Ezüst-98",
+			"en": "Silver-98"
+		}, {
+			"weight": "98.917597178",
+			"rate": "0",
+			"halfRate": "2.07 min",
+
+			"hu": "Ezüst-99",
+			"en": "Silver-99"
+		}, {
+			"weight": "99.916104255",
+			"rate": "0",
+			"halfRate": "2.02 min",
+
+			"hu": "Ezüst-100",
+			"en": "Silver-100"
+		}, {
+			"weight": "100.912802233",
+			"rate": "0",
+			"halfRate": "11.1 min",
+
+			"hu": "Ezüst-101",
+			"en": "Silver-101"
+		}, {
+			"weight": "101.911685",
+			"rate": "0",
+			"halfRate": "12.9 min",
+
+			"hu": "Ezüst-102",
+			"en": "Silver-102"
+		}, {
+			"weight": "102.90897272",
+			"rate": "0",
+			"halfRate": "1.094 h",
+
+			"hu": "Ezüst-103",
+			"en": "Silver-103"
+		}, {
+			"weight": "103.908629157",
+			"rate": "0",
+			"halfRate": "1.153 h",
+
+			"hu": "Ezüst-104",
+			"en": "Silver-104"
+		}, {
+			"weight": "104.906528661",
+			"rate": "0",
+			"halfRate": "41.28 d",
+
+			"hu": "Ezüst-105",
+			"en": "Silver-105"
+		}, {
+			"weight": "105.906668921",
+			"rate": "0",
+			"halfRate": "23.97 min",
+
+			"hu": "Ezüst-106",
+			"en": "Silver-106"
+		}, {
+			"weight": "106.90509682",
+			"rate": "51.839",
+			"halfRate": "stable",
+
+			"hu": "Ezüst-107",
+			"en": "Silver-107"
+		}, {
+			"weight": "107.905955556",
+			"rate": "0",
+			"halfRate": "2.37 min",
+
+			"hu": "Ezüst-108",
+			"en": "Silver-108"
+		}, {
+			"weight": "108.904752292",
+			"rate": "48.161",
+			"halfRate": "stable",
+
+			"hu": "Ezüst-109",
+			"en": "Silver-109"
+		}, {
+			"weight": "109.906107231",
+			"rate": "0",
+			"halfRate": "24.6 s",
+
+			"hu": "Ezüst-110",
+			"en": "Silver-110"
+		}, {
+			"weight": "110.905291157",
+			"rate": "0",
+			"halfRate": "7.45 d",
+
+			"hu": "Ezüst-111",
+			"en": "Silver-111"
+		}, {
+			"weight": "111.907004814",
+			"rate": "0",
+			"halfRate": "3.14 h",
+
+			"hu": "Ezüst-112",
+			"en": "Silver-112"
+		}, {
+			"weight": "112.906566579",
+			"rate": "0",
+			"halfRate": "5.36 h",
+
+			"hu": "Ezüst-113",
+			"en": "Silver-113"
+		}, {
+			"weight": "113.908803704",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Ezüst-114",
+			"en": "Silver-114"
+		}, {
+			"weight": "114.908762698",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Ezüst-115",
+			"en": "Silver-115"
+		}, {
+			"weight": "115.911359933",
+			"rate": "0",
+			"halfRate": "2.68 min",
+
+			"hu": "Ezüst-116",
+			"en": "Silver-116"
+		}, {
+			"weight": "116.911684562",
+			"rate": "0",
+			"halfRate": "1.23 min",
+
+			"hu": "Ezüst-117",
+			"en": "Silver-117"
+		}, {
+			"weight": "117.914582768",
+			"rate": "0",
+			"halfRate": "3.76 s",
+
+			"hu": "Ezüst-118",
+			"en": "Silver-118"
+		}, {
+			"weight": "118.915665059",
+			"rate": "0",
+			"halfRate": "6 s",
+
+			"hu": "Ezüst-119",
+			"en": "Silver-119"
+		}, {
+			"weight": "119.918787384",
+			"rate": "0",
+			"halfRate": "1.23 s",
+
+			"hu": "Ezüst-120",
+			"en": "Silver-120"
+		}, {
+			"weight": "120.919848046",
+			"rate": "0",
+			"halfRate": "790 ms",
+
+			"hu": "Ezüst-121",
+			"en": "Silver-121"
+		}, {
+			"weight": "121.92353",
+			"rate": "0",
+			"halfRate": "520 ms",
+
+			"hu": "Ezüst-122",
+			"en": "Silver-122"
+		}, {
+			"weight": "122.9249",
+			"rate": "0",
+			"halfRate": "296 ms",
+
+			"hu": "Ezüst-123",
+			"en": "Silver-123"
+		}, {
+			"weight": "123.92864",
+			"rate": "0",
+			"halfRate": "172 ms",
+
+			"hu": "Ezüst-124",
+			"en": "Silver-124"
+		}, {
+			"weight": "124.93043",
+			"rate": "0",
+			"halfRate": "166 ms",
+
+			"hu": "Ezüst-125",
+			"en": "Silver-125"
+		}, {
+			"weight": "125.9345",
+			"rate": "0",
+			"halfRate": "107 ms",
+
+			"hu": "Ezüst-126",
+			"en": "Silver-126"
+		}, {
+			"weight": "126.93677",
+			"rate": "0",
+			"halfRate": "79 ms",
+
+			"hu": "Ezüst-127",
+			"en": "Silver-127"
+		}, {
+			"weight": "127.94117",
+			"rate": "0",
+			"halfRate": "58 ms",
+
+			"hu": "Ezüst-128",
+			"en": "Silver-128"
+		}, {
+			"weight": "128.94369",
+			"rate": "0",
+			"halfRate": "44 ms",
+
+			"hu": "Ezüst-129",
+			"en": "Silver-129"
+		}, {
+			"weight": "129.950448",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Ezüst-130",
+			"en": "Silver-130"
+		}
+	]
+}

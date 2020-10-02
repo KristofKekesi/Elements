@@ -1,1 +1,264 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "102.93969",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Antimon-103",
+			"en": "Antimony-103"
+		}, {
+			"weight": "103.936472",
+			"rate": "0",
+			"halfRate": "470 ms",
+
+			"hu": "Antimon-104",
+			"en": "Antimony-104"
+		}, {
+			"weight": "104.931486348",
+			"rate": "0",
+			"halfRate": "1.12 s",
+
+			"hu": "Antimon-105",
+			"en": "Antimony-105"
+		}, {
+			"weight": "105.928791",
+			"rate": "0",
+			"halfRate": "600 ms",
+
+			"hu": "Antimon-106",
+			"en": "Antimony-106"
+		}, {
+			"weight": "106.92415",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Antimon-107",
+			"en": "Antimony-107"
+		}, {
+			"weight": "107.92216",
+			"rate": "0",
+			"halfRate": "7.4 s",
+
+			"hu": "Antimon-108",
+			"en": "Antimony-108"
+		}, {
+			"weight": "108.918132426",
+			"rate": "0",
+			"halfRate": "17 s",
+
+			"hu": "Antimon-109",
+			"en": "Antimony-109"
+		}, {
+			"weight": "109.916753",
+			"rate": "0",
+			"halfRate": "23 s",
+
+			"hu": "Antimon-110",
+			"en": "Antimony-110"
+		}, {
+			"weight": "110.913163",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Antimon-111",
+			"en": "Antimony-111"
+		}, {
+			"weight": "111.912398009",
+			"rate": "0",
+			"halfRate": "51.4 s",
+
+			"hu": "Antimon-112",
+			"en": "Antimony-112"
+		}, {
+			"weight": "112.909371672",
+			"rate": "0",
+			"halfRate": "6.7 min",
+
+			"hu": "Antimon-113",
+			"en": "Antimony-113"
+		}, {
+			"weight": "113.909269",
+			"rate": "0",
+			"halfRate": "3.48 min",
+
+			"hu": "Antimon-114",
+			"en": "Antimony-114"
+		}, {
+			"weight": "114.906598",
+			"rate": "0",
+			"halfRate": "32.17 min",
+
+			"hu": "Antimon-115",
+			"en": "Antimony-115"
+		}, {
+			"weight": "115.906793629",
+			"rate": "0",
+			"halfRate": "15.8 min",
+
+			"hu": "Antimon-116",
+			"en": "Antimony-116"
+		}, {
+			"weight": "116.904835941",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Antimon-117",
+			"en": "Antimony-117"
+		}, {
+			"weight": "117.905528731",
+			"rate": "0",
+			"halfRate": "3.67 min",
+
+			"hu": "Antimon-118",
+			"en": "Antimony-118"
+		}, {
+			"weight": "118.903942009",
+			"rate": "0",
+			"halfRate": "1.591 d",
+
+			"hu": "Antimon-119",
+			"en": "Antimony-119"
+		}, {
+			"weight": "119.905072427",
+			"rate": "0",
+			"halfRate": "15.89 min",
+
+			"hu": "Antimon-120",
+			"en": "Antimony-120"
+		}, {
+			"weight": "120.903815686",
+			"rate": "57.21",
+			"halfRate": "stable",
+
+			"hu": "Antimon-121",
+			"en": "Antimony-121"
+		}, {
+			"weight": "121.905173651",
+			"rate": "0",
+			"halfRate": "2.72384 d",
+
+			"hu": "Antimon-122",
+			"en": "Antimony-122"
+		}, {
+			"weight": "122.90421397",
+			"rate": "42.79",
+			"halfRate": "stable",
+
+			"hu": "Antimon-123",
+			"en": "Antimony-123"
+		}, {
+			"weight": "123.905935743",
+			"rate": "0",
+			"halfRate": "60 d",
+
+			"hu": "Antimon-124",
+			"en": "Antimony-124"
+		}, {
+			"weight": "124.905253818",
+			"rate": "0",
+			"halfRate": "2.75856 y",
+
+			"hu": "Antimon-125",
+			"en": "Antimony-125"
+		}, {
+			"weight": "125.90724748",
+			"rate": "0",
+			"halfRate": "12.35 d",
+
+			"hu": "Antimon-126",
+			"en": "Antimony-126"
+		}, {
+			"weight": "126.906923609",
+			"rate": "0",
+			"halfRate": "3.85 d",
+
+			"hu": "Antimon-127",
+			"en": "Antimony-127"
+		}, {
+			"weight": "127.909169001",
+			"rate": "0",
+			"halfRate": "9 h",
+
+			"hu": "Antimon-128",
+			"en": "Antimony-128"
+		}, {
+			"weight": "128.909148442",
+			"rate": "0",
+			"halfRate": "4.4 h",
+
+			"hu": "Antimon-129",
+			"en": "Antimony-129"
+		}, {
+			"weight": "129.911656324",
+			"rate": "0",
+			"halfRate": "39.5 min",
+
+			"hu": "Antimon-130",
+			"en": "Antimony-130"
+		}, {
+			"weight": "130.911982275",
+			"rate": "0",
+			"halfRate": "23.03 min",
+
+			"hu": "Antimon-131",
+			"en": "Antimony-131"
+		}, {
+			"weight": "131.914466896",
+			"rate": "0",
+			"halfRate": "2.78 min",
+
+			"hu": "Antimon-132",
+			"en": "Antimony-132"
+		}, {
+			"weight": "132.91525163",
+			"rate": "0",
+			"halfRate": "2.5 min",
+
+			"hu": "Antimon-133",
+			"en": "Antimony-133"
+		}, {
+			"weight": "133.920379744",
+			"rate": "0",
+			"halfRate": "750 ms",
+
+			"hu": "Antimon-134",
+			"en": "Antimony-134"
+		}, {
+			"weight": "134.925165771",
+			"rate": "0",
+			"halfRate": "1.68 s",
+
+			"hu": "Antimon-135",
+			"en": "Antimony-135"
+		}, {
+			"weight": "135.93035",
+			"rate": "0",
+			"halfRate": "923 ms",
+
+			"hu": "Antimon-136",
+			"en": "Antimony-136"
+		}, {
+			"weight": "136.93531",
+			"rate": "0",
+			"halfRate": "450 ms",
+
+			"hu": "Antimon-137",
+			"en": "Antimony-137"
+		}, {
+			"weight": "137.94079",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Antimon-138",
+			"en": "Antimony-138"
+		}, {
+			"weight": "138.94598",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Antimon-139",
+			"en": "Antimony-139"
+		}
+	]
+}

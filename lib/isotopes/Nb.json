@@ -1,1 +1,236 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "80.94903",
+			"rate": "0",
+			"halfRate": "44 ns",
+
+			"hu": "Nióbium-81",
+			"en": "Niobium-81"
+		}, {
+			"weight": "81.94313",
+			"rate": "0",
+			"halfRate": "51 ms",
+
+			"hu": "Nióbium-82",
+			"en": "Niobium-82"
+		}, {
+			"weight": "82.936705382",
+			"rate": "0",
+			"halfRate": "4.1 s",
+
+			"hu": "Nióbium-83",
+			"en": "Niobium-83"
+		}, {
+			"weight": "83.93357",
+			"rate": "0",
+			"halfRate": "9.8 s",
+
+			"hu": "Nióbium-84",
+			"en": "Niobium-84"
+		}, {
+			"weight": "84.927912447",
+			"rate": "0",
+			"halfRate": "20.9 s",
+
+			"hu": "Nióbium-85",
+			"en": "Niobium-85"
+		}, {
+			"weight": "85.925038326",
+			"rate": "0",
+			"halfRate": "1.5 min",
+
+			"hu": "Nióbium-86",
+			"en": "Niobium-86"
+		}, {
+			"weight": "86.920361108",
+			"rate": "0",
+			"halfRate": "3.75 min",
+
+			"hu": "Nióbium-87",
+			"en": "Niobium-87"
+		}, {
+			"weight": "87.918332163",
+			"rate": "0",
+			"halfRate": "14.5 min",
+
+			"hu": "Nióbium-88",
+			"en": "Niobium-88"
+		}, {
+			"weight": "88.913418245",
+			"rate": "0",
+			"halfRate": "2.031 h",
+
+			"hu": "Nióbium-89",
+			"en": "Niobium-89"
+		}, {
+			"weight": "89.911264845",
+			"rate": "0",
+			"halfRate": "14.6 h",
+
+			"hu": "Nióbium-90",
+			"en": "Niobium-90"
+		}, {
+			"weight": "90.906996243",
+			"rate": "0",
+			"halfRate": "681 y",
+
+			"hu": "Nióbium-91",
+			"en": "Niobium-91"
+		}, {
+			"weight": "91.907193888",
+			"rate": "0",
+			"halfRate": "35000000 y",
+
+			"hu": "Nióbium-92",
+			"en": "Niobium-92"
+		}, {
+			"weight": "91.907193888",
+			"rate": "0",
+			"halfRate": "35000000 y",
+
+			"hu": "Nióbium-93",
+			"en": "Niobium-93"
+		}, {
+			"weight": "92.906378058",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Nióbium-94",
+			"en": "Niobium-94"
+		}, {
+			"weight": "94.906835792",
+			"rate": "0",
+			"halfRate": "34.991 d",
+
+			"hu": "Nióbium-95",
+			"en": "Niobium-95"
+		}, {
+			"weight": "95.908100647",
+			"rate": "0",
+			"halfRate": "23.35 h",
+
+			"hu": "Nióbium-96",
+			"en": "Niobium-96"
+		}, {
+			"weight": "96.908098556",
+			"rate": "0",
+			"halfRate": "1.203 h",
+
+			"hu": "Nióbium-97",
+			"en": "Niobium-97"
+		}, {
+			"weight": "97.910328412",
+			"rate": "0",
+			"halfRate": "2.86 s",
+
+			"hu": "Nióbium-98",
+			"en": "Niobium-98"
+		}, {
+			"weight": "98.911618375",
+			"rate": "0",
+			"halfRate": "15 s",
+
+			"hu": "Nióbium-99",
+			"en": "Niobium-99"
+		}, {
+			"weight": "99.914181619",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Nióbium-100",
+			"en": "Niobium-100"
+		}, {
+			"weight": "100.915252025",
+			"rate": "0",
+			"halfRate": "7.1 s",
+
+			"hu": "Nióbium-101",
+			"en": "Niobium-101"
+		}, {
+			"weight": "101.918037614",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Nióbium-102",
+			"en": "Niobium-102"
+		}, {
+			"weight": "102.919143842",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Nióbium-103",
+			"en": "Niobium-103"
+		}, {
+			"weight": "103.922464701",
+			"rate": "0",
+			"halfRate": "4.9 s",
+
+			"hu": "Nióbium-104",
+			"en": "Niobium-104"
+		}, {
+			"weight": "104.923936545",
+			"rate": "0",
+			"halfRate": "2.95 s",
+
+			"hu": "Nióbium-105",
+			"en": "Niobium-105"
+		}, {
+			"weight": "105.92797",
+			"rate": "0",
+			"halfRate": "920 ms",
+
+			"hu": "Nióbium-106",
+			"en": "Niobium-106"
+		}, {
+			"weight": "106.93031",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Nióbium-107",
+			"en": "Niobium-107"
+		}, {
+			"weight": "107.93484",
+			"rate": "0",
+			"halfRate": "193 ms",
+
+			"hu": "Nióbium-108",
+			"en": "Niobium-108"
+		}, {
+			"weight": "108.93763",
+			"rate": "0",
+			"halfRate": "190 ms",
+
+			"hu": "Nióbium-109",
+			"en": "Niobium-109"
+		}, {
+			"weight": "109.94244",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Nióbium-110",
+			"en": "Niobium-110"
+		}, {
+			"weight": "110.94565",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Nióbium-111",
+			"en": "Niobium-111"
+		}, {
+			"weight": "111.95083",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Nióbium-112",
+			"en": "Niobium-112"
+		}, {
+			"weight": "112.9547",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Nióbium-113",
+			"en": "Niobium-113"
+		}
+	]
+}

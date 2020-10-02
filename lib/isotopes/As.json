@@ -1,1 +1,236 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "59.99313",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Arzén-60",
+			"en": "Arsenic-60"
+		}, {
+			"weight": "60.98062",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Arzén-61",
+			"en": "Arsenic-61"
+		}, {
+			"weight": "61.9732",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Arzén-62",
+			"en": "Arsenic-62"
+		}, {
+			"weight": "62.96369",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Arzén-63",
+			"en": "Arsenic-63"
+		}, {
+			"weight": "63.957572",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Arzén-64",
+			"en": "Arsenic-64"
+		}, {
+			"weight": "64.949564",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Arzén-65",
+			"en": "Arsenic-65"
+		}, {
+			"weight": "65.94471",
+			"rate": "0",
+			"halfRate": "95.77 ms",
+
+			"hu": "Arzén-66",
+			"en": "Arsenic-66"
+		}, {
+			"weight": "66.939186071",
+			"rate": "0",
+			"halfRate": "42.5 s",
+
+			"hu": "Arzén-67",
+			"en": "Arsenic-67"
+		}, {
+			"weight": "67.936769069",
+			"rate": "0",
+			"halfRate": "2.527 min",
+
+			"hu": "Arzén-68",
+			"en": "Arsenic-68"
+		}, {
+			"weight": "68.932273675",
+			"rate": "0",
+			"halfRate": "15.2 min",
+
+			"hu": "Arzén-69",
+			"en": "Arsenic-69"
+		}, {
+			"weight": "69.930924826",
+			"rate": "0",
+			"halfRate": "52.67 min",
+
+			"hu": "Arzén-70",
+			"en": "Arsenic-70"
+		}, {
+			"weight": "70.927112428",
+			"rate": "0",
+			"halfRate": "2.72 d",
+
+			"hu": "Arzén-71",
+			"en": "Arsenic-71"
+		}, {
+			"weight": "71.926752283",
+			"rate": "0",
+			"halfRate": "1.1 d",
+
+			"hu": "Arzén-72",
+			"en": "Arsenic-72"
+		}, {
+			"weight": "72.923824844",
+			"rate": "0",
+			"halfRate": "80.3 d",
+
+			"hu": "Arzén-73",
+			"en": "Arsenic-73"
+		}, {
+			"weight": "73.923928692",
+			"rate": "0",
+			"halfRate": "17.77 d",
+
+			"hu": "Arzén-74",
+			"en": "Arsenic-74"
+		}, {
+			"weight": "74.921596478",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Arzén-75",
+			"en": "Arsenic-75"
+		}, {
+			"weight": "75.922394021",
+			"rate": "0",
+			"halfRate": "1.0778 d",
+
+			"hu": "Arzén-76",
+			"en": "Arsenic-76"
+		}, {
+			"weight": "76.920647286",
+			"rate": "0",
+			"halfRate": "1.618 d",
+
+			"hu": "Arzén-77",
+			"en": "Arsenic-77"
+		}, {
+			"weight": "77.921827281",
+			"rate": "0",
+			"halfRate": "1.511 h",
+
+			"hu": "Arzén-78",
+			"en": "Arsenic-78"
+		}, {
+			"weight": "78.920947934",
+			"rate": "0",
+			"halfRate": "9.02 min",
+
+			"hu": "Arzén-79",
+			"en": "Arsenic-79"
+		}, {
+			"weight": "79.922533816",
+			"rate": "0",
+			"halfRate": "15.2 s",
+
+			"hu": "Arzén-80",
+			"en": "Arsenic-80"
+		}, {
+			"weight": "80.922132287",
+			"rate": "0",
+			"halfRate": "33.3 s",
+
+			"hu": "Arzén-81",
+			"en": "Arsenic-81"
+		}, {
+			"weight": "81.924504067",
+			"rate": "0",
+			"halfRate": "19.1 s",
+
+			"hu": "Arzén-82",
+			"en": "Arsenic-82"
+		}, {
+			"weight": "82.924980024",
+			"rate": "0",
+			"halfRate": "13.4 s",
+
+			"hu": "Arzén-83",
+			"en": "Arsenic-83"
+		}, {
+			"weight": "83.929058",
+			"rate": "0",
+			"halfRate": "4.02 s",
+
+			"hu": "Arzén-84",
+			"en": "Arsenic-84"
+		}, {
+			"weight": "84.93202",
+			"rate": "0",
+			"halfRate": "2.021 s",
+
+			"hu": "Arzén-85",
+			"en": "Arsenic-85"
+		}, {
+			"weight": "85.9365",
+			"rate": "0",
+			"halfRate": "945 ms",
+
+			"hu": "Arzén-86",
+			"en": "Arsenic-86"
+		}, {
+			"weight": "86.9399",
+			"rate": "0",
+			"halfRate": "610 ms",
+
+			"hu": "Arzén-87",
+			"en": "Arsenic-87"
+		}, {
+			"weight": "87.94494",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Arzén-88",
+			"en": "Arsenic-88"
+		}, {
+			"weight": "88.94939",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Arzén-89",
+			"en": "Arsenic-89"
+		}, {
+			"weight": "89.9555",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Arzén-90",
+			"en": "Arsenic-90"
+		}, {
+			"weight": "90.96043",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Arzén-91",
+			"en": "Arsenic-91"
+		}, {
+			"weight": "91.9668",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Arzén-92",
+			"en": "Arsenic-92"
+		}
+	]
+}

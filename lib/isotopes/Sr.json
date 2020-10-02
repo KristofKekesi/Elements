@@ -1,1 +1,236 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "72.96597",
+			"rate": "0",
+			"halfRate": "25 ms",
+
+			"hu": "Stroncium-73",
+			"en": "Stroncium-73"
+		}, {
+			"weight": "73.95631",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Stroncium-74",
+			"en": "Stroncium-74"
+		}, {
+			"weight": "74.949949568",
+			"rate": "0",
+			"halfRate": "88 ms",
+
+			"hu": "Stroncium-75",
+			"en": "Stroncium-75"
+		}, {
+			"weight": "75.941766782",
+			"rate": "0",
+			"halfRate": "8.9 s",
+
+			"hu": "Stroncium-76",
+			"en": "Stroncium-76"
+		}, {
+			"weight": "76.937944782",
+			"rate": "0",
+			"halfRate": "9 s",
+
+			"hu": "Stroncium-77",
+			"en": "Stroncium-77"
+		}, {
+			"weight": "77.93218",
+			"rate": "0",
+			"halfRate": "2.65 min",
+
+			"hu": "Stroncium-78",
+			"en": "Stroncium-78"
+		}, {
+			"weight": "78.929708",
+			"rate": "0",
+			"halfRate": "2.25 min",
+
+			"hu": "Stroncium-79",
+			"en": "Stroncium-79"
+		}, {
+			"weight": "79.924521013",
+			"rate": "0",
+			"halfRate": "1.772 h",
+
+			"hu": "Stroncium-80",
+			"en": "Stroncium-80"
+		}, {
+			"weight": "80.923211846",
+			"rate": "0",
+			"halfRate": "22.33 min",
+
+			"hu": "Stroncium-81",
+			"en": "Stroncium-81"
+		}, {
+			"weight": "81.918401639",
+			"rate": "0",
+			"halfRate": "25.36 d",
+
+			"hu": "Stroncium-82",
+			"en": "Stroncium-82"
+		}, {
+			"weight": "82.917556701",
+			"rate": "0",
+			"halfRate": "1.351 d",
+
+			"hu": "Stroncium-83",
+			"en": "Stroncium-83"
+		}, {
+			"weight": "83.913425275",
+			"rate": "0.56",
+			"halfRate": "stable",
+
+			"hu": "Stroncium-84",
+			"en": "Stroncium-84"
+		}, {
+			"weight": "84.912932803",
+			"rate": "0",
+			"halfRate": "64.853 d",
+
+			"hu": "Stroncium-85",
+			"en": "Stroncium-85"
+		}, {
+			"weight": "85.909260204",
+			"rate": "9.86",
+			"halfRate": "stable",
+
+			"hu": "Stroncium-86",
+			"en": "Stroncium-86"
+		}, {
+			"weight": "86.908877124",
+			"rate": "7",
+			"halfRate": "stable",
+
+			"hu": "Stroncium-87",
+			"en": "Stroncium-87"
+		}, {
+			"weight": "87.905612124",
+			"rate": "82.58",
+			"halfRate": "stable",
+
+			"hu": "Stroncium-88",
+			"en": "Stroncium-88"
+		}, {
+			"weight": "88.907450675",
+			"rate": "0",
+			"halfRate": "50.53 d",
+
+			"hu": "Stroncium-89",
+			"en": "Stroncium-89"
+		}, {
+			"weight": "89.907737888",
+			"rate": "0",
+			"halfRate": "28.79 y",
+
+			"hu": "Stroncium-90",
+			"en": "Stroncium-90"
+		}, {
+			"weight": "90.910203095",
+			"rate": "0",
+			"halfRate": "9.64 h",
+
+			"hu": "Stroncium-91",
+			"en": "Stroncium-91"
+		}, {
+			"weight": "91.911037858",
+			"rate": "0",
+			"halfRate": "2.661 h",
+
+			"hu": "Stroncium-92",
+			"en": "Stroncium-92"
+		}, {
+			"weight": "92.914025634",
+			"rate": "0",
+			"halfRate": "7.423 min",
+
+			"hu": "Stroncium-93",
+			"en": "Stroncium-93"
+		}, {
+			"weight": "93.915361312",
+			"rate": "0",
+			"halfRate": "1.25 min",
+
+			"hu": "Stroncium-94",
+			"en": "Stroncium-94"
+		}, {
+			"weight": "94.919358766",
+			"rate": "0",
+			"halfRate": "23.9 s",
+
+			"hu": "Stroncium-95",
+			"en": "Stroncium-95"
+		}, {
+			"weight": "95.921696802",
+			"rate": "0",
+			"halfRate": "1.07 s",
+
+			"hu": "Stroncium-96",
+			"en": "Stroncium-96"
+		}, {
+			"weight": "96.926152923",
+			"rate": "0",
+			"halfRate": "429 ms",
+
+			"hu": "Stroncium-97",
+			"en": "Stroncium-97"
+		}, {
+			"weight": "97.928452934",
+			"rate": "0",
+			"halfRate": "653 ms",
+
+			"hu": "Stroncium-98",
+			"en": "Stroncium-98"
+		}, {
+			"weight": "98.933240926",
+			"rate": "0",
+			"halfRate": "269 ms",
+
+			"hu": "Stroncium-99",
+			"en": "Stroncium-99"
+		}, {
+			"weight": "99.935351911",
+			"rate": "0",
+			"halfRate": "202 ms",
+
+			"hu": "Stroncium-100",
+			"en": "Stroncium-100"
+		}, {
+			"weight": "100.940517888",
+			"rate": "0",
+			"halfRate": "118 ms",
+
+			"hu": "Stroncium-101",
+			"en": "Stroncium-101"
+		}, {
+			"weight": "101.943018987",
+			"rate": "0",
+			"halfRate": "69 ms",
+
+			"hu": "Stroncium-102",
+			"en": "Stroncium-102"
+		}, {
+			"weight": "102.94895",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Stroncium-103",
+			"en": "Stroncium-103"
+		}, {
+			"weight": "103.95233",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Stroncium-104",
+			"en": "Stroncium-104"
+		}, {
+			"weight": "104.95858",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Stroncium-105",
+			"en": "Stroncium-105"
+		}
+	]
+}

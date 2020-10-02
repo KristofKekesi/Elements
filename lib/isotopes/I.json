@@ -1,1 +1,264 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "107.943475",
+			"rate": "0",
+			"halfRate": "36 ms",
+
+			"hu": "Jód-108",
+			"en": "Iodine-108"
+		}, {
+			"weight": "108.938149417",
+			"rate": "0",
+			"halfRate": "103 µs",
+
+			"hu": "Jód-109",
+			"en": "Iodine-109"
+		}, {
+			"weight": "109.935242",
+			"rate": "0",
+			"halfRate": "650 ms",
+
+			"hu": "Jód-110",
+			"en": "Iodine-110"
+		}, {
+			"weight": "110.930276",
+			"rate": "0",
+			"halfRate": "2.5 s",
+
+			"hu": "Jód-111",
+			"en": "Iodine-111"
+		}, {
+			"weight": "111.92797",
+			"rate": "0",
+			"halfRate": "3.14 s",
+
+			"hu": "Jód-112",
+			"en": "Iodine-112"
+		}, {
+			"weight": "112.923640583",
+			"rate": "0",
+			"halfRate": "6.6 s",
+
+			"hu": "Jód-113",
+			"en": "Iodine-113"
+		}, {
+			"weight": "113.92185",
+			"rate": "0",
+			"halfRate": "2.1 s",
+
+			"hu": "Jód-114",
+			"en": "Iodine-114"
+		}, {
+			"weight": "114.918048",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Jód-115",
+			"en": "Iodine-115"
+		}, {
+			"weight": "115.916808633",
+			"rate": "0",
+			"halfRate": "2.91 s",
+
+			"hu": "Jód-116",
+			"en": "Iodine-116"
+		}, {
+			"weight": "116.91365",
+			"rate": "0",
+			"halfRate": "2.22 min",
+
+			"hu": "Jód-117",
+			"en": "Iodine-117"
+		}, {
+			"weight": "117.913074",
+			"rate": "0",
+			"halfRate": "13.7 min",
+
+			"hu": "Jód-118",
+			"en": "Iodine-118"
+		}, {
+			"weight": "118.910074",
+			"rate": "0",
+			"halfRate": "19.17 min",
+
+			"hu": "Jód-119",
+			"en": "Iodine-119"
+		}, {
+			"weight": "119.910048173",
+			"rate": "0",
+			"halfRate": "1.4 h",
+
+			"hu": "Jód-120",
+			"en": "Iodine-120"
+		}, {
+			"weight": "120.907366811",
+			"rate": "0",
+			"halfRate": "2.119 h",
+
+			"hu": "Jód-121",
+			"en": "Iodine-121"
+		}, {
+			"weight": "121.907589284",
+			"rate": "0",
+			"halfRate": "3.63 min",
+
+			"hu": "Jód-122",
+			"en": "Iodine-122"
+		}, {
+			"weight": "122.905588965",
+			"rate": "0",
+			"halfRate": "13.2235 h",
+
+			"hu": "Jód-123",
+			"en": "Iodine-123"
+		}, {
+			"weight": "123.906209852",
+			"rate": "0",
+			"halfRate": "4.176 d",
+
+			"hu": "Jód-124",
+			"en": "Iodine-124"
+		}, {
+			"weight": "124.904630164",
+			"rate": "0",
+			"halfRate": "59.4 d",
+
+			"hu": "Jód-125",
+			"en": "Iodine-125"
+		}, {
+			"weight": "125.905624153",
+			"rate": "0",
+			"halfRate": "12.93 d",
+
+			"hu": "Jód-126",
+			"en": "Iodine-126"
+		}, {
+			"weight": "126.904472681",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Jód-127",
+			"en": "Iodine-127"
+		}, {
+			"weight": "127.905809443",
+			"rate": "0",
+			"halfRate": "24.98 min",
+
+			"hu": "Jód-128",
+			"en": "Iodine-128"
+		}, {
+			"weight": "128.904987722",
+			"rate": "0",
+			"halfRate": "15700000 y",
+
+			"hu": "Jód-129",
+			"en": "Iodine-129"
+		}, {
+			"weight": "129.906674247",
+			"rate": "0",
+			"halfRate": "12.4 h",
+
+			"hu": "Jód-130",
+			"en": "Iodine-130"
+		}, {
+			"weight": "130.906124609",
+			"rate": "0",
+			"halfRate": "8.02072 d",
+
+			"hu": "Jód-131",
+			"en": "Iodine-131"
+		}, {
+			"weight": "131.907997381",
+			"rate": "0",
+			"halfRate": "2.295 h",
+
+			"hu": "Jód-132",
+			"en": "Iodine-132"
+		}, {
+			"weight": "132.907796939",
+			"rate": "0",
+			"halfRate": "20.8 h",
+
+			"hu": "Jód-133",
+			"en": "Iodine-133"
+		}, {
+			"weight": "133.909744465",
+			"rate": "0",
+			"halfRate": "52.5 min",
+
+			"hu": "Jód-134",
+			"en": "Iodine-134"
+		}, {
+			"weight": "134.910048121",
+			"rate": "0",
+			"halfRate": "6.58 h",
+
+			"hu": "Jód-135",
+			"en": "Iodine-135"
+		}, {
+			"weight": "135.914653993",
+			"rate": "0",
+			"halfRate": "1.39 min",
+
+			"hu": "Jód-136",
+			"en": "Iodine-136"
+		}, {
+			"weight": "136.91787084",
+			"rate": "0",
+			"halfRate": "24.13 s",
+
+			"hu": "Jód-137",
+			"en": "Iodine-137"
+		}, {
+			"weight": "137.922349591",
+			"rate": "0",
+			"halfRate": "6.23 s",
+
+			"hu": "Jód-138",
+			"en": "Iodine-138"
+		}, {
+			"weight": "138.926099478",
+			"rate": "0",
+			"halfRate": "2.282 s",
+
+			"hu": "Jód-139",
+			"en": "Iodine-139"
+		}, {
+			"weight": "139.931",
+			"rate": "0",
+			"halfRate": "860 ms",
+
+			"hu": "Jód-140",
+			"en": "Iodine-140"
+		}, {
+			"weight": "140.93503",
+			"rate": "0",
+			"halfRate": "430 ms",
+
+			"hu": "Jód-141",
+			"en": "Iodine-141"
+		}, {
+			"weight": "141.94018",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Jód-142",
+			"en": "Iodine-142"
+		}, {
+			"weight": "142.94456",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Jód-143",
+			"en": "Iodine-143"
+		}, {
+			"weight": "143.94999",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Jód-144",
+			"en": "Iodine-144"
+		}
+	]
+}

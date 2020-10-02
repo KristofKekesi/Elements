@@ -1,1 +1,236 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "75.95845",
+			"rate": "0",
+			"halfRate": "500 ns",
+
+			"hu": "Ittrium-76",
+			"en": "Yttrium-76"
+		}, {
+			"weight": "76.949645",
+			"rate": "0",
+			"halfRate": "63 ms",
+
+			"hu": "Ittrium-77",
+			"en": "Yttrium-77"
+		}, {
+			"weight": "77.94361",
+			"rate": "0",
+			"halfRate": "54 ms",
+
+			"hu": "Ittrium-78",
+			"en": "Yttrium-78"
+		}, {
+			"weight": "78.937351634",
+			"rate": "0",
+			"halfRate": "14.8 s",
+
+			"hu": "Ittrium-79",
+			"en": "Yttrium-79"
+		}, {
+			"weight": "79.93428",
+			"rate": "0",
+			"halfRate": "30.1 s",
+
+			"hu": "Ittrium-80",
+			"en": "Yttrium-80"
+		}, {
+			"weight": "80.929127468",
+			"rate": "0",
+			"halfRate": "1.17 min",
+
+			"hu": "Ittrium-81",
+			"en": "Yttrium-81"
+		}, {
+			"weight": "81.926792451",
+			"rate": "0",
+			"halfRate": "8.3 s",
+
+			"hu": "Ittrium-82",
+			"en": "Yttrium-82"
+		}, {
+			"weight": "82.922354243",
+			"rate": "0",
+			"halfRate": "7.08 min",
+
+			"hu": "Ittrium-83",
+			"en": "Yttrium-83"
+		}, {
+			"weight": "83.920388264",
+			"rate": "0",
+			"halfRate": "4.6 s",
+
+			"hu": "Ittrium-84",
+			"en": "Yttrium-84"
+		}, {
+			"weight": "84.916433039",
+			"rate": "0",
+			"halfRate": "2.681 h",
+
+			"hu": "Ittrium-85",
+			"en": "Yttrium-85"
+		}, {
+			"weight": "85.914885576",
+			"rate": "0",
+			"halfRate": "14.739 h",
+
+			"hu": "Ittrium-86",
+			"en": "Yttrium-86"
+		}, {
+			"weight": "86.91087573",
+			"rate": "0",
+			"halfRate": "3.32 d",
+
+			"hu": "Ittrium-87",
+			"en": "Yttrium-87"
+		}, {
+			"weight": "87.909501146",
+			"rate": "0",
+			"halfRate": "106.65 d",
+
+			"hu": "Ittrium-88",
+			"en": "Yttrium-88"
+		}, {
+			"weight": "88.905848295",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Ittrium-89",
+			"en": "Yttrium-89"
+		}, {
+			"weight": "89.907151886",
+			"rate": "0",
+			"halfRate": "2.7 d",
+
+			"hu": "Ittrium-90",
+			"en": "Yttrium-90"
+		}, {
+			"weight": "90.907304791",
+			"rate": "0",
+			"halfRate": "58.51 d",
+
+			"hu": "Ittrium-91",
+			"en": "Yttrium-91"
+		}, {
+			"weight": "91.908949143",
+			"rate": "0",
+			"halfRate": "3.53 h",
+
+			"hu": "Ittrium-92",
+			"en": "Yttrium-92"
+		}, {
+			"weight": "92.909582713",
+			"rate": "0",
+			"halfRate": "10.181 h",
+
+			"hu": "Ittrium-93",
+			"en": "Yttrium-93"
+		}, {
+			"weight": "93.911595245",
+			"rate": "0",
+			"halfRate": "18.67 min",
+
+			"hu": "Ittrium-94",
+			"en": "Yttrium-94"
+		}, {
+			"weight": "94.912820621",
+			"rate": "0",
+			"halfRate": "10.3 min",
+
+			"hu": "Ittrium-95",
+			"en": "Yttrium-95"
+		}, {
+			"weight": "95.915891343",
+			"rate": "0",
+			"halfRate": "5.34 s",
+
+			"hu": "Ittrium-96",
+			"en": "Yttrium-96"
+		}, {
+			"weight": "96.918133995",
+			"rate": "0",
+			"halfRate": "3.75 s",
+
+			"hu": "Ittrium-97",
+			"en": "Yttrium-97"
+		}, {
+			"weight": "97.92220302",
+			"rate": "0",
+			"halfRate": "548 ms",
+
+			"hu": "Ittrium-98",
+			"en": "Yttrium-98"
+		}, {
+			"weight": "98.924636204",
+			"rate": "0",
+			"halfRate": "1.47 s",
+
+			"hu": "Ittrium-99",
+			"en": "Yttrium-99"
+		}, {
+			"weight": "99.927756586",
+			"rate": "0",
+			"halfRate": "735 ms",
+
+			"hu": "Ittrium-100",
+			"en": "Yttrium-100"
+		}, {
+			"weight": "100.93031385",
+			"rate": "0",
+			"halfRate": "426 ms",
+
+			"hu": "Ittrium-101",
+			"en": "Yttrium-101"
+		}, {
+			"weight": "101.933555695",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Ittrium-102",
+			"en": "Yttrium-102"
+		}, {
+			"weight": "102.93673",
+			"rate": "0",
+			"halfRate": "224 ms",
+
+			"hu": "Ittrium-103",
+			"en": "Yttrium-103"
+		}, {
+			"weight": "103.94105",
+			"rate": "0",
+			"halfRate": "180 ms",
+
+			"hu": "Ittrium-104",
+			"en": "Yttrium-104"
+		}, {
+			"weight": "104.94487",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Ittrium-105",
+			"en": "Yttrium-105"
+		}, {
+			"weight": "105.94979",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Ittrium-106",
+			"en": "Yttrium-106"
+		}, {
+			"weight": "106.95414",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Ittrium-107",
+			"en": "Yttrium-107"
+		}, {
+			"weight": "107.95948",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Ittrium-108",
+			"en": "Yttrium-108"
+		}
+	]
+}

@@ -1,1 +1,243 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "90.94911",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Palládium-91",
+			"en": "Palladium-91"
+		}, {
+			"weight": "91.94042",
+			"rate": "0",
+			"halfRate": "1.1 s",
+
+			"hu": "Palládium-92",
+			"en": "Palladium-92"
+		}, {
+			"weight": "92.93591",
+			"rate": "0",
+			"halfRate": "1.07 s",
+
+			"hu": "Palládium-93",
+			"en": "Palladium-93"
+		}, {
+			"weight": "93.92877",
+			"rate": "0",
+			"halfRate": "9 s",
+
+			"hu": "Palládium-94",
+			"en": "Palladium-94"
+		}, {
+			"weight": "94.92469",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Palládium-95",
+			"en": "Palladium-95"
+		}, {
+			"weight": "95.918164359",
+			"rate": "0",
+			"halfRate": "2.03 min",
+
+			"hu": "Palládium-96",
+			"en": "Palladium-96"
+		}, {
+			"weight": "96.916479073",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Palládium-97",
+			"en": "Palladium-97"
+		}, {
+			"weight": "97.912720902",
+			"rate": "0",
+			"halfRate": "17.67 min",
+
+			"hu": "Palládium-98",
+			"en": "Palladium-98"
+		}, {
+			"weight": "98.911767833",
+			"rate": "0",
+			"halfRate": "21.33 min",
+
+			"hu": "Palládium-99",
+			"en": "Palladium-99"
+		}, {
+			"weight": "99.908505886",
+			"rate": "0",
+			"halfRate": "3.63 d",
+
+			"hu": "Palládium-100",
+			"en": "Palladium-100"
+		}, {
+			"weight": "100.908289242",
+			"rate": "0",
+			"halfRate": "8.47 h",
+
+			"hu": "Palládium-101",
+			"en": "Palladium-101"
+		}, {
+			"weight": "101.905608544",
+			"rate": "1.02",
+			"halfRate": "stable",
+
+			"hu": "Palládium-102",
+			"en": "Palladium-102"
+		}, {
+			"weight": "102.906087307",
+			"rate": "0",
+			"halfRate": "16.99 d",
+
+			"hu": "Palládium-103",
+			"en": "Palladium-103"
+		}, {
+			"weight": "103.904035834",
+			"rate": "11.14",
+			"halfRate": "stable",
+
+			"hu": "Palládium-104",
+			"en": "Palladium-104"
+		}, {
+			"weight": "Palládium",
+			"rate": "22.33",
+			"halfRate": "stable",
+
+			"hu": "Palládium-105",
+			"en": "Palladium-105"
+		}, {
+			"weight": "105.903485715",
+			"rate": "27.33",
+			"halfRate": "stable",
+
+			"hu": "Palládium-106",
+			"en": "Palladium-106"
+		}, {
+			"weight": "106.905133481",
+			"rate": "0",
+			"halfRate": "6700000 y",
+
+			"hu": "Palládium-107",
+			"en": "Palladium-107"
+		}, {
+			"weight": "107.903891701",
+			"rate": "26.46",
+			"halfRate": "stable",
+
+			"hu": "Palládium-108",
+			"en": "Palladium-108"
+		}, {
+			"weight": "108.905950451",
+			"rate": "0",
+			"halfRate": "13.7012 h",
+
+			"hu": "Palládium-109",
+			"en": "Palladium-109"
+		}, {
+			"weight": "109.905153254",
+			"rate": "11.72",
+			"halfRate": "stable",
+
+			"hu": "Palládium-110",
+			"en": "Palladium-110"
+		}, {
+			"weight": "110.907670734",
+			"rate": "0",
+			"halfRate": "23 min",
+
+			"hu": "Palládium-111",
+			"en": "Palladium-111"
+		}, {
+			"weight": "111.907314058",
+			"rate": "0",
+			"halfRate": "21.031 h",
+
+			"hu": "Palládium-112",
+			"en": "Palladium-112"
+		}, {
+			"weight": "112.910152908",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Palládium-113",
+			"en": "Palladium-113"
+		}, {
+			"weight": "113.910362638",
+			"rate": "0",
+			"halfRate": "2.42 min",
+
+			"hu": "Palládium-114",
+			"en": "Palladium-114"
+		}, {
+			"weight": "114.913683824",
+			"rate": "0",
+			"halfRate": "25 s",
+
+			"hu": "Palládium-115",
+			"en": "Palladium-115"
+		}, {
+			"weight": "115.914158662",
+			"rate": "0",
+			"halfRate": "11.8 s",
+
+			"hu": "Palládium-116",
+			"en": "Palladium-116"
+		}, {
+			"weight": "116.917841338",
+			"rate": "0",
+			"halfRate": "4.3 s",
+
+			"hu": "Palládium-117",
+			"en": "Palladium-117"
+		}, {
+			"weight": "117.9189843",
+			"rate": "0",
+			"halfRate": "1.9 s",
+
+			"hu": "Palládium-118",
+			"en": "Palladium-118"
+		}, {
+			"weight": "118.92311",
+			"rate": "0",
+			"halfRate": "920 ms",
+
+			"hu": "Palládium-119",
+			"en": "Palladium-119"
+		}, {
+			"weight": "119.924691878",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Palládium-120",
+			"en": "Palladium-120"
+		}, {
+			"weight": "120.92887",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Palládium-121",
+			"en": "Palladium-121"
+		}, {
+			"weight": "121.93055",
+			"rate": "300 ms",
+			"halfRate": "",
+
+			"hu": "Palládium-122",
+			"en": "Palladium-122"
+		}, {
+			"weight": "122.93493",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Palládium-123",
+			"en": "Palladium-123"
+		}, {
+			"weight": "123.93688",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Palládium-124",
+			"en": "Palladium-124"
+		}
+	]
+}

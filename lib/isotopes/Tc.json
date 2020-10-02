@@ -1,1 +1,243 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "84.94883",
+			"rate": "0",
+			"halfRate": "110 ns",
+
+			"hu": "Technécium-85",
+			"en": "Technetium-85"
+		},
+		{
+			"weight": "85.94288",
+			"rate": "0",
+			"halfRate": "55 ms",
+			"hu": "Technécium-86",
+			"en": "Technetium-86"
+		}, {
+			"weight": "86.93653",
+			"rate": "0",
+			"halfRate": "2.18 s",
+
+			"hu": "Technécium-87",
+			"en": "Technetium-87"
+		}, {
+			"weight": "87.932678",
+			"rate": "0",
+			"halfRate": "5.8 s",
+
+			"hu": "Technécium-88",
+			"en": "Technetium-88"
+		}, {
+			"weight": "88.927167",
+			"rate": "0",
+			"halfRate": "12.8 s",
+
+			"hu": "Technécium-89",
+			"en": "Technetium-89"
+		}, {
+			"weight": "89.923556564",
+			"rate": "0",
+			"halfRate": "8.7 s",
+
+			"hu": "Technécium-90",
+			"en": "Technetium-90"
+		}, {
+			"weight": "90.918427639",
+			"rate": "0",
+			"halfRate": "3.13 min",
+
+			"hu": "Technécium-91",
+			"en": "Technetium-91"
+		}, {
+			"weight": "91.915260166",
+			"rate": "0",
+			"halfRate": "4.25 min",
+
+			"hu": "Technécium-92",
+			"en": "Technetium-92"
+		}, {
+			"weight": "92.910248984",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Technécium-93",
+			"en": "Technetium-93"
+		}, {
+			"weight": "93.909657002",
+			"rate": "0",
+			"halfRate": "4.89 h",
+
+			"hu": "Technécium-94",
+			"en": "Technetium-94"
+		}, {
+			"weight": "94.907657084",
+			"rate": "0",
+			"halfRate": "20 h",
+
+			"hu": "Technécium-95",
+			"en": "Technetium-95"
+		}, {
+			"weight": "95.907871383",
+			"rate": "0",
+			"halfRate": "4.3 d",
+
+			"hu": "Technécium-96",
+			"en": "Technetium-96"
+		}, {
+			"weight": "96.906365358",
+			"rate": "0",
+			"halfRate": "2600000 y",
+
+			"hu": "Technécium-97",
+			"en": "Technetium-97"
+		}, {
+			"weight": "97.907215966",
+			"rate": "0",
+			"halfRate": "4100000 y",
+
+			"hu": "Technécium-98",
+			"en": "Technetium-98"
+		}, {
+			"weight": "98.906254747",
+			"rate": "0",
+			"halfRate": "211100 y",
+
+			"hu": "Technécium-99",
+			"en": "Technetium-99"
+		}, {
+			"weight": "99.90765778",
+			"rate": "0",
+			"halfRate": "15.8 s",
+
+			"hu": "Technécium-100",
+			"en": "Technetium-100"
+		}, {
+			"weight": "100.907314659",
+			"rate": "0",
+			"halfRate": "14.22 min",
+
+			"hu": "Technécium-101",
+			"en": "Technetium-101"
+		}, {
+			"weight": "101.909215019",
+			"rate": "0",
+			"halfRate": "5.28 s",
+
+			"hu": "Technécium-102",
+			"en": "Technetium-102"
+		}, {
+			"weight": "102.909181351",
+			"rate": "0",
+			"halfRate": "54.2 s",
+
+			"hu": "Technécium-103",
+			"en": "Technetium-103"
+		}, {
+			"weight": "103.911447454",
+			"rate": "0",
+			"halfRate": "18 min",
+
+			"hu": "Technécium-104",
+			"en": "Technetium-104"
+		}, {
+			"weight": "104.911660566",
+			"rate": "0",
+			"halfRate": "7.67 min",
+
+			"hu": "Technécium-105",
+			"en": "Technetium-105"
+		}, {
+			"weight": "105.914357927",
+			"rate": "0",
+			"halfRate": "35.6 s",
+
+			"hu": "Technécium-106",
+			"en": "Technetium-106"
+		}, {
+			"weight": "106.915079572",
+			"rate": "0",
+			"halfRate": "21.2 s",
+
+			"hu": "Technécium-107",
+			"en": "Technetium-107"
+		}, {
+			"weight": "107.918461226",
+			"rate": "0",
+			"halfRate": "5.17 s",
+
+			"hu": "Technécium-108",
+			"en": "Technetium-108"
+		}, {
+			"weight": "108.919982665",
+			"rate": "0",
+			"halfRate": "860 ms",
+
+			"hu": "Technécium-109",
+			"en": "Technetium-109"
+		}, {
+			"weight": "109.923820483",
+			"rate": "0",
+			"halfRate": "920 ms",
+
+			"hu": "Technécium-110",
+			"en": "Technetium-110"
+		}, {
+			"weight": "110.92569283",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Technécium-111",
+			"en": "Technetium-111"
+		}, {
+			"weight": "111.929146493",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Technécium-112",
+			"en": "Technetium-112"
+		}, {
+			"weight": "112.93159",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Technécium-113",
+			"en": "Technetium-113"
+		}, {
+			"weight": "113.93588",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Technécium-114",
+			"en": "Technetium-114"
+		}, {
+			"weight": "114.93869",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Technécium-115",
+			"en": "Technetium-115"
+		}, {
+			"weight": "115.94337",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Technécium-116",
+			"en": "Technetium-116"
+		}, {
+			"weight": "116.94648",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Technécium-117",
+			"en": "Technetium-117"
+		}, {
+			"weight": "117.95148",
+			"rate": "0",
+			"halfRate": "30 ms",
+
+			"hu": "Technécium-118",
+			"en": "Technetium-118"
+		}
+	]
+}

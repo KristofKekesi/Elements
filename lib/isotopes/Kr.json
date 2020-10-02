@@ -1,1 +1,229 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "68.96518",
+			"rate": "0",
+			"halfRate": "32 ms",
+
+			"hu": "Kripton-69",
+			"en": "Krypton-69"
+		}, {
+			"weight": "69.955259",
+			"rate": "0",
+			"halfRate": "57 ms",
+
+			"hu": "Kripton-70",
+			"en": "Krypton-70"
+		}, {
+			"weight": "70.949625738",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Kripton-71",
+			"en": "Krypton-71"
+		}, {
+			"weight": "71.942092038",
+			"rate": "0",
+			"halfRate": "17.16 s",
+
+			"hu": "Kripton-72",
+			"en": "Krypton-72"
+		}, {
+			"weight": "72.939289195",
+			"rate": "0",
+			"halfRate": "28.6 s",
+
+			"hu": "Kripton-73",
+			"en": "Krypton-73"
+		}, {
+			"weight": "73.933084369",
+			"rate": "0",
+			"halfRate": "11.5 min",
+
+			"hu": "Kripton-74",
+			"en": "Krypton-74"
+		}, {
+			"weight": "74.930945746",
+			"rate": "0",
+			"halfRate": "4.28 min",
+
+			"hu": "Kripton-75",
+			"en": "Krypton-75"
+		}, {
+			"weight": "75.925910078",
+			"rate": "0",
+			"halfRate": "14.8 h",
+
+			"hu": "Kripton-76",
+			"en": "Krypton-76"
+		}, {
+			"weight": "76.92467",
+			"rate": "0",
+			"halfRate": "1.239 h",
+
+			"hu": "Kripton-77",
+			"en": "Krypton-77"
+		}, {
+			"weight": "77.920364783",
+			"rate": "0.35",
+			"halfRate": "stable",
+
+			"hu": "Kripton-78",
+			"en": "Krypton-78"
+		}, {
+			"weight": "78.920082431",
+			"rate": "0",
+			"halfRate": "1.459 d",
+
+			"hu": "Kripton-79",
+			"en": "Krypton-79"
+		}, {
+			"weight": "79.916378965",
+			"rate": "2.28",
+			"halfRate": "stable",
+
+			"hu": "Kripton-80",
+			"en": "Krypton-80"
+		}, {
+			"weight": "80.916592015",
+			"rate": "0",
+			"halfRate": "229000 y",
+
+			"hu": "Kripton-81",
+			"en": "Krypton-81"
+		}, {
+			"weight": "81.9134836",
+			"rate": "11.58",
+			"halfRate": "stable",
+
+			"hu": "Kripton-82",
+			"en": "Krypton-82"
+		}, {
+			"weight": "82.914136099",
+			"rate": "11.49",
+			"halfRate": "stable",
+
+			"hu": "Kripton-83",
+			"en": "Krypton-83"
+		}, {
+			"weight": "83.911506687",
+			"rate": "57",
+			"halfRate": "stable",
+
+			"hu": "Kripton-84",
+			"en": "Krypton-84"
+		}, {
+			"weight": "84.912527331",
+			"rate": "0",
+			"halfRate": "10.776 y",
+
+			"hu": "Kripton-85",
+			"en": "Krypton-85"
+		}, {
+			"weight": "85.910610729",
+			"rate": "17.3",
+			"halfRate": "stable",
+
+			"hu": "Kripton-86",
+			"en": "Krypton-86"
+		}, {
+			"weight": "86.913354862",
+			"rate": "0",
+			"halfRate": "1.272 h",
+
+			"hu": "Kripton-87",
+			"en": "Krypton-87"
+		}, {
+			"weight": "87.914446969",
+			"rate": "0",
+			"halfRate": "2.83 h",
+
+			"hu": "Kripton-88",
+			"en": "Krypton-88"
+		}, {
+			"weight": "88.917630581",
+			"rate": "0",
+			"halfRate": "3.15 min",
+
+			"hu": "Kripton-89",
+			"en": "Krypton-89"
+		}, {
+			"weight": "89.919516555",
+			"rate": "0",
+			"halfRate": "32.32 s",
+
+			"hu": "Kripton-90",
+			"en": "Krypton-90"
+		}, {
+			"weight": "90.923445215",
+			"rate": "0",
+			"halfRate": "8.57 s",
+
+			"hu": "Kripton-91",
+			"en": "Krypton-91"
+		}, {
+			"weight": "91.92615621",
+			"rate": "0",
+			"halfRate": "1.84 s",
+
+			"hu": "Kripton-92",
+			"en": "Krypton-92"
+		}, {
+			"weight": "92.931274357",
+			"rate": "0",
+			"halfRate": "1.286 s",
+
+			"hu": "Kripton-93",
+			"en": "Krypton-93"
+		}, {
+			"weight": "93.93436",
+			"rate": "0",
+			"halfRate": "210 ms",
+
+			"hu": "Kripton-94",
+			"en": "Krypton-94"
+		}, {
+			"weight": "94.93984",
+			"rate": "0",
+			"halfRate": "114 ms",
+
+			"hu": "Kripton-95",
+			"en": "Krypton-95"
+		}, {
+			"weight": "95.94307",
+			"rate": "0",
+			"halfRate": "80 ms",
+
+			"hu": "Kripton-96",
+			"en": "Krypton-96"
+		}, {
+			"weight": "96.94856",
+			"rate": "0",
+			"halfRate": "63 ms",
+
+			"hu": "Kripton-97",
+			"en": "Krypton-97"
+		}, {
+			"weight": "97.95191",
+			"rate": "0",
+			"halfRate": "46 ms",
+
+			"hu": "Kripton-98",
+			"en": "Krypton-98"
+		}, {
+			"weight": "98.9576",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Kripton-99",
+			"en": "Krypton-99"
+		}, {
+			"weight": "99.96114",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Kripton-100",
+			"en": "Krypton-100"
+		}
+	]
+}

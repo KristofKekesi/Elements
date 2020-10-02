@@ -1,1 +1,278 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "116.950068",
+			"rate": "0",
+			"halfRate": "23.5 ms",
+
+			"hu": "Lantán-117",
+			"en": "Lanthanum-117"
+		}, {
+			"weight": "117.94673",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Lantán-118",
+			"en": "Lanthanum-118"
+		}, {
+			"weight": "118.94099",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Lantán-119",
+			"en": "Lanthanum-119"
+		}, {
+			"weight": "119.93807",
+			"rate": "0",
+			"halfRate": "2.8 s",
+
+			"hu": "Lantán-120",
+			"en": "Lanthanum-120"
+		}, {
+			"weight": "120.93301",
+			"rate": "0",
+			"halfRate": "5.3 s",
+
+			"hu": "Lantán-121",
+			"en": "Lanthanum-121"
+		}, {
+			"weight": "121.93071",
+			"rate": "0",
+			"halfRate": "8.7 s",
+
+			"hu": "Lantán-122",
+			"en": "Lanthanum-122"
+		}, {
+			"weight": "122.92624",
+			"rate": "0",
+			"halfRate": "17 s",
+
+			"hu": "Lantán-123",
+			"en": "Lanthanum-123"
+		}, {
+			"weight": "123.924574275",
+			"rate": "0",
+			"halfRate": "29.21 s",
+
+			"hu": "Lantán-124",
+			"en": "Lanthanum-124"
+		}, {
+			"weight": "124.920816034",
+			"rate": "0",
+			"halfRate": "1.08 min",
+
+			"hu": "Lantán-125",
+			"en": "Lanthanum-125"
+		}, {
+			"weight": "125.919512667",
+			"rate": "0",
+			"halfRate": "54 s",
+
+			"hu": "Lantán-126",
+			"en": "Lanthanum-126"
+		}, {
+			"weight": "126.916375448",
+			"rate": "0",
+			"halfRate": "5.17 min",
+
+			"hu": "Lantán-127",
+			"en": "Lanthanum-127"
+		}, {
+			"weight": "127.915585177",
+			"rate": "0",
+			"halfRate": "5.18 min",
+
+			"hu": "Lantán-128",
+			"en": "Lanthanum-128"
+		}, {
+			"weight": "128.912692815",
+			"rate": "0",
+			"halfRate": "11.6 min",
+
+			"hu": "Lantán-129",
+			"en": "Lanthanum-129"
+		}, {
+			"weight": "129.912368724",
+			"rate": "0",
+			"halfRate": "8.67 min",
+
+			"hu": "Lantán-130",
+			"en": "Lanthanum-130"
+		}, {
+			"weight": "130.91007",
+			"rate": "0",
+			"halfRate": "58 min",
+
+			"hu": "Lantán-131",
+			"en": "Lanthanum-131"
+		}, {
+			"weight": "131.910101145",
+			"rate": "0",
+			"halfRate": "4.7 h",
+
+			"hu": "Lantán-132",
+			"en": "Lanthanum-132"
+		}, {
+			"weight": "132.908218",
+			"rate": "0",
+			"halfRate": "3.9111 h",
+
+			"hu": "Lantán-133",
+			"en": "Lanthanum-133"
+		}, {
+			"weight": "133.908514011",
+			"rate": "0",
+			"halfRate": "6.45 min",
+
+			"hu": "Lantán-134",
+			"en": "Lanthanum-134"
+		}, {
+			"weight": "134.906976844",
+			"rate": "0",
+			"halfRate": "19.5 h",
+
+			"hu": "Lantán-135",
+			"en": "Lanthanum-135"
+		}, {
+			"weight": "135.907635536",
+			"rate": "0",
+			"halfRate": "9.87 min",
+
+			"hu": "Lantán-136",
+			"en": "Lanthanum-136"
+		}, {
+			"weight": "136.906493598",
+			"rate": "0",
+			"halfRate": "60000 y",
+
+			"hu": "Lantán-137",
+			"en": "Lanthanum-137"
+		}, {
+			"weight": "137.90711193",
+			"rate": "0.009",
+			"halfRate": "102000000000 y",
+
+			"hu": "Lantán-138",
+			"en": "Lanthanum-138"
+		}, {
+			"weight": "138.906353267",
+			"rate": "99.91",
+			"halfRate": "stable",
+
+			"hu": "Lantán-139",
+			"en": "Lanthanum-139"
+		}, {
+			"weight": "139.909477645",
+			"rate": "0",
+			"halfRate": "1.67813 d",
+
+			"hu": "Lantán-140",
+			"en": "Lanthanum-140"
+		}, {
+			"weight": "140.910962152",
+			"rate": "0",
+			"halfRate": "3.92 h",
+
+			"hu": "Lantán-141",
+			"en": "Lanthanum-141"
+		}, {
+			"weight": "141.91407913",
+			"rate": "0",
+			"halfRate": "1.519 h",
+
+			"hu": "Lantán-142",
+			"en": "Lanthanum-124"
+		}, {
+			"weight": "142.91606272",
+			"rate": "0",
+			"halfRate": "14.2 min",
+
+			"hu": "Lantán-143",
+			"en": "Lanthanum-143"
+		}, {
+			"weight": "143.919599647",
+			"rate": "0",
+			"halfRate": "40.8 s",
+
+			"hu": "Lantán-144",
+			"en": "Lanthanum-144"
+		}, {
+			"weight": "144.921645401",
+			"rate": "0",
+			"halfRate": "24.8 s",
+
+			"hu": "Lantán-145",
+			"en": "Lanthanum-145"
+		}, {
+			"weight": "145.92579346",
+			"rate": "0",
+			"halfRate": "6.27 s",
+
+			"hu": "Lantán-146",
+			"en": "Lanthanum-146"
+		}, {
+			"weight": "146.928235284",
+			"rate": "0",
+			"halfRate": "4.015 s",
+
+			"hu": "Lantán-147",
+			"en": "Lanthanum-147"
+		}, {
+			"weight": "147.932228868",
+			"rate": "0",
+			"halfRate": "1.26 s",
+
+			"hu": "Lantán-148",
+			"en": "Lanthanum-148"
+		}, {
+			"weight": "148.934734",
+			"rate": "0",
+			"halfRate": "1.05 s",
+
+			"hu": "Lantán-149",
+			"en": "Lanthanum-149"
+		}, {
+			"weight": "149.93877",
+			"rate": "0",
+			"halfRate": "510 ms",
+
+			"hu": "Lantán-150",
+			"en": "Lanthanum-150"
+		}, {
+			"weight": "150.94172",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Lantán-151",
+			"en": "Lanthanum-151"
+		}, {
+			"weight": "151.94625",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Lantán-152",
+			"en": "Lanthanum-152"
+		}, {
+			"weight": "152.94962",
+			"rate": "0",
+			"halfRate": "150 ms",
+
+			"hu": "Lantán-153",
+			"en": "Lanthanum-153"
+		}, {
+			"weight": "153.9545",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Lantán-154",
+			"en": "Lanthanum-154"
+		}, {
+			"weight": "154.95835",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Lantán-155",
+			"en": "Lanthanum-155"
+		}
+	]
+}
