@@ -1,1 +1,215 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "209.017715682",
+			"rate": "0",
+			"halfRate": "7 ms",
+
+			"hu": "Tórium-209",
+			"en": "Thorium-209"
+		}, {
+			"weight": "210.015075342",
+			"rate": "0",
+			"halfRate": "17 ms",
+
+			"hu": "Tórium-210",
+			"en": "Thorium-210"
+		}, {
+			"weight": "211.014928413",
+			"rate": "0",
+			"halfRate": "48 ms",
+
+			"hu": "Tórium-211",
+			"en": "Thorium-211"
+		}, {
+			"weight": "212.012980288",
+			"rate": "0",
+			"halfRate": "36 ms",
+
+			"hu": "Tórium-212",
+			"en": "Thorium-212"
+		}, {
+			"weight": "213.01301014",
+			"rate": "0",
+			"halfRate": "140 ms",
+
+			"hu": "Tórium-213",
+			"en": "Thorium-213"
+		}, {
+			"weight": "214.01149977",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Tórium-214",
+			"en": "Thorium-214"
+		}, {
+			"weight": "215.01173033",
+			"rate": "0",
+			"halfRate": "1.2 s",
+
+			"hu": "Tórium-215",
+			"en": "Thorium-215"
+		}, {
+			"weight": "216.011062115",
+			"rate": "0",
+			"halfRate": "26.8 ms",
+
+			"hu": "Tórium-216",
+			"en": "Thorium-216"
+		}, {
+			"weight": "217.013114328",
+			"rate": "0",
+			"halfRate": "240 µs",
+
+			"hu": "Tórium-217",
+			"en": "Thorium-217"
+		}, {
+			"weight": "218.013284499",
+			"rate": "0",
+			"halfRate": "109 ns",
+
+			"hu": "Tórium-218",
+			"en": "Thorium-218"
+		}, {
+			"weight": "219.015536895",
+			"rate": "0",
+			"halfRate": "1.05 µs",
+
+			"hu": "Tórium-219",
+			"en": "Thorium-219"
+		}, {
+			"weight": "220.015747762",
+			"rate": "0",
+			"halfRate": "9.7 µs",
+
+			"hu": "Tórium-220",
+			"en": "Thorium-220"
+		}, {
+			"weight": "221.018183674",
+			"rate": "0",
+			"halfRate": "1.68 ms",
+
+			"hu": "Tórium-221",
+			"en": "Thorium-221"
+		}, {
+			"weight": "222.018468121",
+			"rate": "0",
+			"halfRate": "2.05 ms",
+
+			"hu": "Tórium-222",
+			"en": "Thorium-222"
+		}, {
+			"weight": "223.020811448",
+			"rate": "0",
+			"halfRate": "600 ms",
+
+			"hu": "Tórium-223",
+			"en": "Thorium-223"
+		}, {
+			"weight": "224.021466895",
+			"rate": "0",
+			"halfRate": "1.05 s",
+
+			"hu": "Tórium-224",
+			"en": "Thorium-224"
+		}, {
+			"weight": "225.023951021",
+			"rate": "0",
+			"halfRate": "8.72 min",
+
+			"hu": "Tórium-225",
+			"en": "Thorium-225"
+		}, {
+			"weight": "226.024903069",
+			"rate": "0",
+			"halfRate": "30.87 min",
+
+			"hu": "Tórium-226",
+			"en": "Thorium-226"
+		}, {
+			"weight": "227.02770407",
+			"rate": "0",
+			"halfRate": "18.68 d",
+
+			"hu": "Tórium-227",
+			"en": "Thorium-227"
+		}, {
+			"weight": "228.028741127",
+			"rate": "0",
+			"halfRate": "1.9116 y",
+
+			"hu": "Tórium-228",
+			"en": "Thorium-228"
+		}, {
+			"weight": "229.03176243",
+			"rate": "0",
+			"halfRate": "7350 y",
+
+			"hu": "Tórium-229",
+			"en": "Thorium-229"
+		}, {
+			"weight": "230.033133843",
+			"rate": "0",
+			"halfRate": "75390 y",
+
+			"hu": "Tórium-230",
+			"en": "Thorium-230"
+		}, {
+			"weight": "231.036304343",
+			"rate": "0",
+			"halfRate": "1.0633 d",
+
+			"hu": "Tórium-231",
+			"en": "Thorium-231"
+		}, {
+			"weight": "232.038055325",
+			"rate": "100",
+			"halfRate": "14050000000 y",
+
+			"hu": "Tórium-232",
+			"en": "Thorium-232"
+		}, {
+			"weight": "233.041581843",
+			"rate": "0",
+			"halfRate": "22.33 min",
+
+			"hu": "Tórium-233",
+			"en": "Thorium-233"
+		}, {
+			"weight": "234.04360123",
+			"rate": "0",
+			"halfRate": "24.1 d",
+
+			"hu": "Tórium-234",
+			"en": "Thorium-234"
+		}, {
+			"weight": "235.047510074",
+			"rate": "0",
+			"halfRate": "7.17 min",
+
+			"hu": "Tórium-235",
+			"en": "Thorium-235"
+		}, {
+			"weight": "236.04987",
+			"rate": "0",
+			"halfRate": "37.5 min",
+
+			"hu": "Tórium-236",
+			"en": "Thorium-236"
+		}, {
+			"weight": "237.053894",
+			"rate": "0",
+			"halfRate": "4.83 min",
+
+			"hu": "Tórium-237",
+			"en": "Thorium-237"
+		}, {
+			"weight": "238.056496",
+			"rate": "0",
+			"halfRate": "9.33 min",
+
+			"hu": "Tórium-238",
+			"en": "Thorium-238"
+		}
+	]
+}

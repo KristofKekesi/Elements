@@ -1,1 +1,110 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "265.136151",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Meitnérium-265",
+			"en": "Meittnerium-265"
+		}, {
+			"weight": "266.137299",
+			"rate": "0",
+			"halfRate": "1.2 ms",
+
+			"hu": "Meitnérium-266",
+			"en": "Meittnerium-266"
+		}, {
+			"weight": "267.137307",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Meitnérium-267",
+			"en": "Meittnerium-267"
+		}, {
+			"weight": "268.138728",
+			"rate": "0",
+			"halfRate": "53 ms",
+
+			"hu": "Meitnérium-268",
+			"en": "Meittnerium-268"
+		}, {
+			"weight": "269.139055",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Meitnérium-269",
+			"en": "Meittnerium-269"
+		}, {
+			"weight": "270.140657",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Meitnérium-270",
+			"en": "Meittnerium-270"
+		}, {
+			"weight": "271.141139",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Meitnérium-271",
+			"en": "Meittnerium-271"
+		}, {
+			"weight": "272.143738",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Meitnérium-272",
+			"en": "Meittnerium-272"
+		}, {
+			"weight": "273.144913",
+			"rate": "0",
+			"halfRate": "20 s",
+
+			"hu": "Meitnérium-273",
+			"en": "Meittnerium-273"
+		}, {
+			"weight": "274.147492",
+			"rate": "0",
+			"halfRate": "20 s",
+
+			"hu": "Meitnérium-274",
+			"en": "Meittnerium-274"
+		}, {
+			"weight": "275.148647",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Meitnérium-275",
+			"en": "Meittnerium-275"
+		}, {
+			"weight": "276.151156",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Meitnérium-276",
+			"en": "Meittnerium-276"
+		}, {
+			"weight": "277.15242",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Meitnérium-277",
+			"en": "Meittnerium-277"
+		}, {
+			"weight": "278.154812",
+			"rate": "0",
+			"halfRate": "30 min",
+
+			"hu": "Meitnérium-278",
+			"en": "Meittnerium-278"
+		}, {
+			"weight": "279.156193",
+			"rate": "0",
+			"halfRate": "6.7 min",
+
+			"hu": "Meitnérium-279",
+			"en": "Meittnerium-279"
+		}
+	]
+}

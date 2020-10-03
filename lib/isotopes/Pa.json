@@ -1,1 +1,208 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "212.023204138",
+			"rate": "8 ms",
+			"halfRate": "",
+
+			"hu": "Protaktínium-212",
+			"en": "Protactinium-212"
+		}, {
+			"weight": "213.02110934",
+			"rate": "0",
+			"halfRate": "7 ms",
+
+			"hu": "Protaktínium-213",
+			"en": "Protactinium-213"
+		}, {
+			"weight": "214.020918417",
+			"rate": "0",
+			"halfRate": "17 ms",
+
+			"hu": "Protaktínium-214",
+			"en": "Protactinium-214"
+		}, {
+			"weight": "215.019185865",
+			"rate": "0",
+			"halfRate": "14 ms",
+
+			"hu": "Protaktínium-215",
+			"en": "Protactinium-215"
+		}, {
+			"weight": "216.019109564",
+			"rate": "0",
+			"halfRate": "105 ms",
+
+			"hu": "Protaktínium-216",
+			"en": "Protactinium-216"
+		}, {
+			"weight": "217.018323986",
+			"rate": "0",
+			"halfRate": "3.48 ms",
+
+			"hu": "Protaktínium-217",
+			"en": "Protactinium-217"
+		}, {
+			"weight": "218.020041889",
+			"rate": "0",
+			"halfRate": "113 µs",
+
+			"hu": "Protaktínium-218",
+			"en": "Protactinium-218"
+		}, {
+			"weight": "219.019883143",
+			"rate": "0",
+			"halfRate": "53 ns",
+
+			"hu": "Protaktínium-219",
+			"en": "Protactinium-219"
+		}, {
+			"weight": "220.021875303",
+			"rate": "0",
+			"halfRate": "780 ns",
+
+			"hu": "Protaktínium-220",
+			"en": "Protactinium-220"
+		}, {
+			"weight": "221.021877983",
+			"rate": "0",
+			"halfRate": "5.9 µs",
+
+			"hu": "Protaktínium-221",
+			"en": "Protactinium-221"
+		}, {
+			"weight": "222.023742",
+			"rate": "0",
+			"halfRate": "3.2 ms",
+
+			"hu": "Protaktínium-222",
+			"en": "Protactinium-222"
+		}, {
+			"weight": "223.023962273",
+			"rate": "0",
+			"halfRate": "5.1 ms",
+
+			"hu": "Protaktínium-223",
+			"en": "Protactinium-223"
+		}, {
+			"weight": "224.025625738",
+			"rate": "0",
+			"halfRate": "844 ms",
+
+			"hu": "Protaktínium-224",
+			"en": "Protactinium-224"
+		}, {
+			"weight": "225.026130678",
+			"rate": "0",
+			"halfRate": "1.7 s",
+
+			"hu": "Protaktínium-225",
+			"en": "Protactinium-225"
+		}, {
+			"weight": "226.027947753",
+			"rate": "0",
+			"halfRate": "1.83 min",
+
+			"hu": "Protaktínium-226",
+			"en": "Protactinium-226"
+		}, {
+			"weight": "227.028805072",
+			"rate": "0",
+			"halfRate": "38 min",
+
+			"hu": "Protaktínium-227",
+			"en": "Protactinium-227"
+		}, {
+			"weight": "228.031051376",
+			"rate": "0",
+			"halfRate": "22 h",
+
+			"hu": "Protaktínium-228",
+			"en": "Protactinium-228"
+		}, {
+			"weight": "229.032096793",
+			"rate": "0",
+			"halfRate": "1.5 d",
+
+			"hu": "Protaktínium-229",
+			"en": "Protactinium-229"
+		}, {
+			"weight": "230.034540754",
+			"rate": "0",
+			"halfRate": "17 d",
+
+			"hu": "Protaktínium-230",
+			"en": "Protactinium-230"
+		}, {
+			"weight": "231.03588399",
+			"rate": "0",
+			"halfRate": "3.2770 y",
+
+			"hu": "Protaktínium-231",
+			"en": "Protactinium-231"
+		}, {
+			"weight": "232.038591592",
+			"rate": "0",
+			"halfRate": "1.31 d",
+
+			"hu": "Protaktínium-232",
+			"en": "Protactinium-232"
+		}, {
+			"weight": "233.040247277",
+			"rate": "0",
+			"halfRate": "26.966 d",
+
+			"hu": "Protaktínium-233",
+			"en": "Protactinium-233"
+		}, {
+			"weight": "234.043308058",
+			"rate": "0",
+			"halfRate": "6.7 h",
+
+			"hu": "Protaktínium-234",
+			"en": "Protactinium-234"
+		}, {
+			"weight": "235.045443615",
+			"rate": "0",
+			"halfRate": "24.43 min",
+
+			"hu": "Protaktínium-235",
+			"en": "Protactinium-235"
+		}, {
+			"weight": "236.048681284",
+			"rate": "0",
+			"halfRate": "9.17 min",
+
+			"hu": "Protaktínium-236",
+			"en": "Protactinium-236"
+		}, {
+			"weight": "237.051145659",
+			"rate": "0",
+			"halfRate": "8.67 min",
+
+			"hu": "Protaktínium-237",
+			"en": "Protactinium-237"
+		}, {
+			"weight": "238.05450271",
+			"rate": "0",
+			"halfRate": "2.27 min",
+
+			"hu": "Protaktínium-238",
+			"en": "Protactinium-238"
+		}, {
+			"weight": "239.057260",
+			"rate": "0",
+			"halfRate": "1.8 h",
+
+			"hu": "Protaktínium-239",
+			"en": "Protactinium-239"
+		}, {
+			"weight": "240.060980",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Protaktínium-240",
+			"en": "Protactinium-240"
+		}
+	]
+}

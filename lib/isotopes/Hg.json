@@ -1,1 +1,285 @@
- 
+{
+		"isotopes": [
+		{
+			"weight": "171.00376",
+			"rate": "0",
+			"halfRate": "80 µs",
+
+			"hu": "Higany-171",
+			"en": "Mercury-171"
+		}, {
+			"weight": "171.998832686",
+			"rate": "0",
+			"halfRate": "420 µs",
+
+			"hu": "Higany-172",
+			"en": "Mercury-172"
+		}, {
+			"weight": "172.997242",
+			"rate": "0",
+			"halfRate": "1.1 ms",
+
+			"hu": "Higany-173",
+			"en": "Mercury-173"
+		}, {
+			"weight": "173.992863695",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Higany-174",
+			"en": "Mercury-174"
+		}, {
+			"weight": "174.99142327",
+			"rate": "0",
+			"halfRate": "10.8 ms",
+
+			"hu": "Higany-175",
+			"en": "Mercury-175"
+		}, {
+			"weight": "175.98735458",
+			"rate": "0",
+			"halfRate": "20.4 ms",
+
+			"hu": "Higany-176",
+			"en": "Mercury-176"
+		}, {
+			"weight": "176.986279158",
+			"rate": "0",
+			"halfRate": "127.3 ms",
+
+			"hu": "Higany-177",
+			"en": "Mercury-177"
+		}, {
+			"weight": "177.982483143",
+			"rate": "0",
+			"halfRate": "269 ms",
+
+			"hu": "Higany-178",
+			"en": "Mercury-178"
+		}, {
+			"weight": "178.981833861",
+			"rate": "0",
+			"halfRate": "1.09 s",
+
+			"hu": "Higany-179",
+			"en": "Mercury-179"
+		}, {
+			"weight": "179.978266394",
+			"rate": "0",
+			"halfRate": "2.56 s",
+
+			"hu": "Higany-180",
+			"en": "Mercury-180"
+		}, {
+			"weight": "180.977819311",
+			"rate": "0",
+			"halfRate": "3.6 s",
+
+			"hu": "Higany-181",
+			"en": "Mercury-181"
+		}, {
+			"weight": "181.974689964",
+			"rate": "0",
+			"halfRate": "10.83 s",
+
+			"hu": "Higany-182",
+			"en": "Mercury-182"
+		}, {
+			"weight": "182.974449841",
+			"rate": "0",
+			"halfRate": "9.4 s",
+
+			"hu": "Higany-183",
+			"en": "Mercury-183"
+		}, {
+			"weight": "183.971713051",
+			"rate": "0",
+			"halfRate": "30.6 s",
+
+			"hu": "Higany-184",
+			"en": "Mercury-184"
+		}, {
+			"weight": "184.971899086",
+			"rate": "0",
+			"halfRate": "49.1 s",
+
+			"hu": "Higany-185",
+			"en": "Mercury-185"
+		}, {
+			"weight": "185.96936179",
+			"rate": "0",
+			"halfRate": "1.38 min",
+
+			"hu": "Higany-186",
+			"en": "Mercury-186"
+		}, {
+			"weight": "186.969814236",
+			"rate": "0",
+			"halfRate": "1.83 min",
+
+			"hu": "Higany-187",
+			"en": "Mercury-187"
+		}, {
+			"weight": "187.967577049",
+			"rate": "0",
+			"halfRate": "3.25 min",
+
+			"hu": "Higany-188",
+			"en": "Mercury-188"
+		}, {
+			"weight": "188.968190034",
+			"rate": "0",
+			"halfRate": "7.67 min",
+
+			"hu": "Higany-189",
+			"en": "Mercury-189"
+		}, {
+			"weight": "189.966322449",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Higany-190",
+			"en": "Mercury-190"
+		}, {
+			"weight": "190.967157105",
+			"rate": "0",
+			"halfRate": "48 min",
+
+			"hu": "Higany-191",
+			"en": "Mercury-191"
+		}, {
+			"weight": "191.965634327",
+			"rate": "0",
+			"halfRate": "4.86 h",
+
+			"hu": "Higany-192",
+			"en": "Mercury-192"
+		}, {
+			"weight": "192.966665421",
+			"rate": "0",
+			"halfRate": "3.9 h",
+
+			"hu": "Higany-193",
+			"en": "Mercury-193"
+		}, {
+			"weight": "193.965439409",
+			"rate": "0",
+			"halfRate": "440 y",
+
+			"hu": "Higany-194",
+			"en": "Mercury-194"
+		}, {
+			"weight": "194.966720113",
+			"rate": "0",
+			"halfRate": "10.531 h",
+
+			"hu": "Higany-195",
+			"en": "Mercury-195"
+		}, {
+			"weight": "195.965832649",
+			"rate": "0.15",
+			"halfRate": "stable",
+
+			"hu": "Higany-196",
+			"en": "Mercury-196"
+		}, {
+			"weight": "196.967212908",
+			"rate": "0",
+			"halfRate": "2.706 d",
+
+			"hu": "Higany-197",
+			"en": "Mercury-197"
+		}, {
+			"weight": "197.966769032",
+			"rate": "9.97",
+			"halfRate": "stable",
+
+			"hu": "Higany-198",
+			"en": "Mercury-198"
+		}, {
+			"weight": "198.968279932",
+			"rate": "16.87",
+			"halfRate": "stable",
+
+			"hu": "Higany-199",
+			"en": "Mercury-199"
+		}, {
+			"weight": "199.968326004",
+			"rate": "23.1",
+			"halfRate": "stable",
+
+			"hu": "Higany-200",
+			"en": "Mercury-200"
+		}, {
+			"weight": "200.970302268",
+			"rate": "13.18",
+			"halfRate": "stable",
+
+			"hu": "Higany-201",
+			"en": "Mercury-201"
+		}, {
+			"weight": "201.970643011",
+			"rate": "29.86",
+			"halfRate": "stable",
+
+			"hu": "Higany-202",
+			"en": "Mercury-202"
+		}, {
+			"weight": "202.972872484",
+			"rate": "0",
+			"halfRate": "46.612 d",
+
+			"hu": "Higany-203",
+			"en": "Mercury-203"
+		}, {
+			"weight": "203.973493933",
+			"rate": "6.87",
+			"halfRate": "stable",
+
+			"hu": "Higany-204",
+			"en": "Mercury-204"
+		}, {
+			"weight": "204.976073386",
+			"rate": "0",
+			"halfRate": "5.17 min",
+
+			"hu": "Higany-205",
+			"en": "Mercury-205"
+		}, {
+			"weight": "205.977514066",
+			"rate": "0",
+			"halfRate": "8.15 min",
+
+			"hu": "Higany-206",
+			"en": "Mercury-206"
+		}, {
+			"weight": "206.982588545",
+			"rate": "0",
+			"halfRate": "2.83 min",
+
+			"hu": "Higany-207",
+			"en": "Mercury-207"
+		}, {
+			"weight": "207.98594",
+			"rate": "0",
+			"halfRate": "42 min",
+
+			"hu": "Higany-208",
+			"en": "Mercury-208"
+		}, {
+			"weight": "208.99104",
+			"rate": "0",
+			"halfRate": "37 s",
+
+			"hu": "Higany-209",
+			"en": "Mercury-209"
+		}, {
+			"weight": "209.99451",
+			"rate": "0",
+			"halfRate": "10 min",
+
+			"hu": "Higany-210",
+			"en": "Mercury-210"
+		}
+	]
+}

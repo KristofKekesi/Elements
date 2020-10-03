@@ -1,1 +1,117 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "258.113168",
+			"rate": "0",
+			"halfRate": "3.3 ms",
+
+			"hu": "Sziborgium-258",
+			"en": "Seaborgium-258"
+		}, {
+			"weight": "259.1145",
+			"rate": "0",
+			"halfRate": "580 ms",
+
+			"hu": "Sziborgium-259",
+			"en": "Seaborgium-259"
+		}, {
+			"weight": "260.114422071",
+			"rate": "0",
+			"halfRate": "3.8 ms",
+
+			"hu": "Sziborgium-260",
+			"en": "Seaborgium-260"
+		}, {
+			"weight": "261.116117",
+			"rate": "0",
+			"halfRate": "230 ms",
+
+			"hu": "Sziborgium-261",
+			"en": "Seaborgium-261"
+		}, {
+			"weight": "262.116398",
+			"rate": "0",
+			"halfRate": "8 ms",
+
+			"hu": "Sziborgium-262",
+			"en": "Seaborgium-262"
+		}, {
+			"weight": "263.118322",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Sziborgium-263",
+			"en": "Seaborgium-263"
+		}, {
+			"weight": "264.118931",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Sziborgium-264",
+			"en": "Seaborgium-264"
+		}, {
+			"weight": "265.121114693",
+			"rate": "0",
+			"halfRate": "8 s",
+
+			"hu": "Sziborgium-265",
+			"en": "Seaborgium-265"
+		}, {
+			"weight": "266.122065",
+			"rate": "0",
+			"halfRate": "21 s",
+
+			"hu": "Sziborgium-266",
+			"en": "Seaborgium-266"
+		}, {
+			"weight": "267.124425",
+			"rate": "0",
+			"halfRate": "19 ms",
+
+			"hu": "Sziborgium-267",
+			"en": "Seaborgium-267"
+		}, {
+			"weight": "268.125606",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Sziborgium-268",
+			"en": "Seaborgium-268"
+		}, {
+			"weight": "269.128755",
+			"rate": "0",
+			"halfRate": "35 s",
+
+			"hu": "Sziborgium-269",
+			"en": "Seaborgium-269"
+		}, {
+			"weight": "270.130329",
+			"rate": "0",
+			"halfRate": "10 min",
+
+			"hu": "Sziborgium-270",
+			"en": "Seaborgium-270"
+		}, {
+			"weight": "271.133472",
+			"rate": "0",
+			"halfRate": "1.9 h",
+
+			"hu": "Sziborgium-271",
+			"en": "Seaborgium-271"
+		}, {
+			"weight": "272.135158",
+			"rate": "0",
+			"halfRate": "1.1 h",
+
+			"hu": "Sziborgium-272",
+			"en": "Seaborgium-272"
+		}, {
+			"weight": "273.13822",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Sziborgium-273",
+			"en": "Seaborgium-273"
+		}
+	]
+}

@@ -1,1 +1,117 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "251.09436",
+			"rate": "0",
+			"halfRate": "150 µs",
+
+			"hu": "Laurencium-251",
+			"en": "Lawrencium-251"
+		}, {
+			"weight": "252.095371",
+			"rate": "0",
+			"halfRate": "390 ms",
+
+			"hu": "Laurencium-252",
+			"en": "Lawrencium-252"
+		}, {
+			"weight": "253.09521",
+			"rate": "0",
+			"halfRate": "580 ms",
+
+			"hu": "Laurencium-253",
+			"en": "Lawrencium-253"
+		}, {
+			"weight": "254.096454",
+			"rate": "0",
+			"halfRate": "13 s",
+
+			"hu": "Laurencium-254",
+			"en": "Lawrencium-254"
+		}, {
+			"weight": "255.096681",
+			"rate": "0",
+			"halfRate": "22 s",
+
+			"hu": "Laurencium-255",
+			"en": "Lawrencium-255"
+		}, {
+			"weight": "256.098629",
+			"rate": "0",
+			"halfRate": "27 s",
+
+			"hu": "Laurencium-256",
+			"en": "Lawrencium-256"
+		}, {
+			"weight": "257.099555",
+			"rate": "0",
+			"halfRate": "646 ms",
+
+			"hu": "Laurencium-257",
+			"en": "Lawrencium-257"
+		}, {
+			"weight": "258.101814",
+			"rate": "0",
+			"halfRate": "4.1 s",
+
+			"hu": "Laurencium-258",
+			"en": "Lawrencium-258"
+		}, {
+			"weight": "259.102901",
+			"rate": "0",
+			"halfRate": "6.2 s",
+
+			"hu": "Laurencium-259",
+			"en": "Lawrencium-259"
+		}, {
+			"weight": "260.105504",
+			"rate": "0",
+			"halfRate": "3 min",
+
+			"hu": "Laurencium-260",
+			"en": "Lawrencium-260"
+		}, {
+			"weight": "261.106883",
+			"rate": "0",
+			"halfRate": "38 min",
+
+			"hu": "Laurencium-261",
+			"en": "Lawrencium-261"
+		}, {
+			"weight": "262.109634",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Laurencium-262",
+			"en": "Lawrencium-262"
+		}, {
+			"weight": "263.111293",
+			"rate": "0",
+			"halfRate": "5.6 h",
+
+			"hu": "Laurencium-263",
+			"en": "Lawrencium-263"
+		}, {
+			"weight": "264.114038",
+			"rate": "0",
+			"halfRate": "10 h",
+
+			"hu": "Laurencium-264",
+			"en": "Lawrencium-264"
+		}, {
+			"weight": "265.115839",
+			"rate": "0",
+			"halfRate": "10 h",
+
+			"hu": "Laurencium-265",
+			"en": "Lawrencium-265"
+		}, {
+			"weight": "266.119305",
+			"rate": "0",
+			"halfRate": "1.1 h",
+
+			"hu": "Laurencium-266",
+			"en": "Lawrencium-266"
+		}
+	]
+}

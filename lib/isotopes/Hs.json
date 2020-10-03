@@ -1,1 +1,110 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "263.128558",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Hasszium-263",
+			"en": "Hassium-263"
+		}, {
+			"weight": "264.128394885",
+			"rate": "0",
+			"halfRate": "540 µs",
+
+			"hu": "Hasszium-264",
+			"en": "Hassium-264"
+		}, {
+			"weight": "265.130085",
+			"rate": "0",
+			"halfRate": "2.1 ms",
+
+			"hu": "Hasszium-265",
+			"en": "Hassium-265"
+		}, {
+			"weight": "266.130097",
+			"rate": "0",
+			"halfRate": "2.7 ms",
+
+			"hu": "Hasszium-266",
+			"en": "Hassium-266"
+		}, {
+			"weight": "267.131789",
+			"rate": "0",
+			"halfRate": "32 ms",
+
+			"hu": "Hasszium-267",
+			"en": "Hassium-267"
+		}, {
+			"weight": "268.132162",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Hasszium-268",
+			"en": "Hassium-268"
+		}, {
+			"weight": "269.134056",
+			"rate": "0",
+			"halfRate": "27 s",
+
+			"hu": "Hasszium-269",
+			"en": "Hassium-269"
+		}, {
+			"weight": "270.13465",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Hasszium-270",
+			"en": "Hassium-270"
+		}, {
+			"weight": "271.137657",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Hasszium-271",
+			"en": "Hassium-271"
+		}, {
+			"weight": "272.139052",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Hasszium-72",
+			"en": "Hassium-272"
+		}, {
+			"weight": "273.141986",
+			"rate": "0",
+			"halfRate": "50 s",
+
+			"hu": "Hasszium-273",
+			"en": "Hassium-273"
+		}, {
+			"weight": "274.143131",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Hasszium-274",
+			"en": "Hassium-274"
+		}, {
+			"weight": "275.145952",
+			"rate": "0",
+			"halfRate": "30 min",
+
+			"hu": "Hasszium-275",
+			"en": "Hassium-275"
+		}, {
+			"weight": "276.147208",
+			"rate": "0",
+			"halfRate": "1.1 h",
+
+			"hu": "Hasszium-276",
+			"en": "Hassium-276"
+		}, {
+			"weight": "277.149841",
+			"rate": "0",
+			"halfRate": "40 min",
+
+			"hu": "Hasszium-277",
+			"en": "Hassium-277"
+		}
+	]
+}

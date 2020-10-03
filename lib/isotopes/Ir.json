@@ -1,1 +1,257 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "163.992201",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Irídium-164",
+			"en": "Iridium-164"
+		}, {
+			"weight": "164.98752",
+			"rate": "0",
+			"halfRate": "1 µs",
+
+			"hu": "Irídium-165",
+			"en": "Iridium-165"
+		}, {
+			"weight": "165.985824",
+			"rate": "0",
+			"halfRate": "10.5 ms",
+
+			"hu": "Irídium-166",
+			"en": "Iridium-166"
+		}, {
+			"weight": "166.981665156",
+			"rate": "0",
+			"halfRate": "35.2 ms",
+
+			"hu": "Irídium-167",
+			"en": "Iridium-167"
+		}, {
+			"weight": "167.979881",
+			"rate": "0",
+			"halfRate": "161 ms",
+
+			"hu": "Irídium-168",
+			"en": "Iridium-168"
+		}, {
+			"weight": "168.976294942",
+			"rate": "0",
+			"halfRate": "780 ms",
+
+			"hu": "Irídium-169",
+			"en": "Iridium-169"
+		}, {
+			"weight": "169.974965",
+			"rate": "0",
+			"halfRate": "910 ms",
+
+			"hu": "Irídium-170",
+			"en": "Iridium-170"
+		}, {
+			"weight": "170.971626042",
+			"rate": "0",
+			"halfRate": "3.6 s",
+
+			"hu": "Irídium-171",
+			"en": "Iridium-171"
+		}, {
+			"weight": "171.970456",
+			"rate": "0",
+			"halfRate": "4.4 s",
+
+			"hu": "Irídium-172",
+			"en": "Iridium-172"
+		}, {
+			"weight": "172.967501739",
+			"rate": "0",
+			"halfRate": "9 s",
+
+			"hu": "Irídium-173",
+			"en": "Iridium-173"
+		}, {
+			"weight": "173.966861045",
+			"rate": "0",
+			"halfRate": "7.9 s",
+
+			"hu": "Irídium-174",
+			"en": "Iridium-174"
+		}, {
+			"weight": "174.964112895",
+			"rate": "0",
+			"halfRate": "9 s",
+
+			"hu": "Irídium-175",
+			"en": "Iridium-175"
+		}, {
+			"weight": "175.963648688",
+			"rate": "0",
+			"halfRate": "8.3 s",
+
+			"hu": "Irídium-176",
+			"en": "Iridium-176"
+		}, {
+			"weight": "176.9613015",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Irídium-177",
+			"en": "Iridium-177"
+		}, {
+			"weight": "177.961082",
+			"rate": "0",
+			"halfRate": "12 s",
+
+			"hu": "Irídium-178",
+			"en": "Iridium-178"
+		}, {
+			"weight": "178.959122266",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Irídium-179",
+			"en": "Iridium-179"
+		}, {
+			"weight": "179.959229446",
+			"rate": "0",
+			"halfRate": "1.5 min",
+
+			"hu": "Irídium-180",
+			"en": "Iridium-180"
+		}, {
+			"weight": "180.957625297",
+			"rate": "0",
+			"halfRate": "4.83 min",
+
+			"hu": "Irídium-181",
+			"en": "Iridium-181"
+		}, {
+			"weight": "181.958076296",
+			"rate": "0",
+			"halfRate": "15 min",
+
+			"hu": "Irídium-182",
+			"en": "Iridium-182"
+		}, {
+			"weight": "182.956846458",
+			"rate": "0",
+			"halfRate": "58 min",
+
+			"hu": "Irídium-183",
+			"en": "Iridium-183"
+		}, {
+			"weight": "183.957476",
+			"rate": "0",
+			"halfRate": "3.08 h",
+
+			"hu": "Irídium-184",
+			"en": "Iridium-184"
+		}, {
+			"weight": "184.956698",
+			"rate": "0",
+			"halfRate": "14.4 h",
+
+			"hu": "Irídium-185",
+			"en": "Iridium-185"
+		}, {
+			"weight": "185.957946104",
+			"rate": "0",
+			"halfRate": "16.6 h",
+
+			"hu": "Irídium-186",
+			"en": "Iridium-186"
+		}, {
+			"weight": "186.957363361",
+			"rate": "0",
+			"halfRate": "10.5 h",
+
+			"hu": "Irídium-187",
+			"en": "Iridium-187"
+		}, {
+			"weight": "187.958853121",
+			"rate": "0",
+			"halfRate": "1.72 d",
+
+			"hu": "Irídium-188",
+			"en": "Iridium-188"
+		}, {
+			"weight": "188.958718935",
+			"rate": "0",
+			"halfRate": "13.2 d",
+
+			"hu": "Irídium-189",
+			"en": "Iridium-189"
+		}, {
+			"weight": "189.960545968",
+			"rate": "0",
+			"halfRate": "11.78 d",
+
+			"hu": "Irídium-190",
+			"en": "Iridium-190"
+		}, {
+			"weight": "190.960594046",
+			"rate": "37.3",
+			"halfRate": "stable",
+
+			"hu": "Irídium-191",
+			"en": "Iridium-191"
+		}, {
+			"weight": "191.962605012",
+			"rate": "0",
+			"halfRate": "73.828 d",
+
+			"hu": "Irídium-192",
+			"en": "Iridium-192"
+		}, {
+			"weight": "192.96292643",
+			"rate": "62.7",
+			"halfRate": "stable",
+
+			"hu": "Irídium-193",
+			"en": "Iridium-193"
+		}, {
+			"weight": "193.965078378",
+			"rate": "0",
+			"halfRate": "19.281 h",
+
+			"hu": "Irídium-194",
+			"en": "Iridium-194"
+		}, {
+			"weight": "194.965979573",
+			"rate": "0",
+			"halfRate": "2.5 h",
+
+			"hu": "Irídium-195",
+			"en": "Iridium-195"
+		}, {
+			"weight": "195.968396542",
+			"rate": "0",
+			"halfRate": "52 s",
+
+			"hu": "Irídium-196",
+			"en": "Iridium-196"
+		}, {
+			"weight": "196.969653285",
+			"rate": "0",
+			"halfRate": "5.83 min",
+
+			"hu": "Irídium-197",
+			"en": "Iridium-197"
+		}, {
+			"weight": "197.97228",
+			"rate": "0",
+			"halfRate": "8 s",
+
+			"hu": "Irídium-198",
+			"en": "Iridium-198"
+		}, {
+			"weight": "198.973804583",
+			"rate": "0",
+			"halfRate": "20 s",
+
+			"hu": "Irídium-199",
+			"en": "Iridium-199"
+		}
+	]
+}

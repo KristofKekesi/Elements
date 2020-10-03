@@ -1,1 +1,138 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "242.07343",
+			"rate": "0",
+			"halfRate": "800 µs",
+
+			"hu": "Fermium-242",
+			"en": "Fermium-242"
+		}, {
+			"weight": "243.074353",
+			"rate": "0",
+			"halfRate": "210 ms",
+
+			"hu": "Fermium-243",
+			"en": "Fermium-243"
+		}, {
+			"weight": "244.074084",
+			"rate": "0",
+			"halfRate": "3.3 ms",
+
+			"hu": "Fermium-244",
+			"en": "Fermium-244"
+		}, {
+			"weight": "245.075385",
+			"rate": "0",
+			"halfRate": "4.2 s",
+
+			"hu": "Fermium-245",
+			"en": "Fermium-245"
+		}, {
+			"weight": "246.075299023",
+			"rate": "0",
+			"halfRate": "1.1 s",
+
+			"hu": "Fermium-246",
+			"en": "Fermium-246"
+		}, {
+			"weight": "247.076847",
+			"rate": "0",
+			"halfRate": "35 s",
+
+			"hu": "Fermium-247",
+			"en": "Fermium-247"
+		}, {
+			"weight": "248.077194714",
+			"rate": "0",
+			"halfRate": "36 s",
+
+			"hu": "Fermium-248",
+			"en": "Fermium-248"
+		}, {
+			"weight": "249.079034",
+			"rate": "0",
+			"halfRate": "2.67 min",
+
+			"hu": "Fermium-249",
+			"en": "Fermium-249"
+		}, {
+			"weight": "250.079521264",
+			"rate": "0",
+			"halfRate": "30 min",
+
+			"hu": "Fermium-250",
+			"en": "Fermium-250"
+		}, {
+			"weight": "251.081575017",
+			"rate": "0",
+			"halfRate": "5.3 h",
+
+			"hu": "Fermium-251",
+			"en": "Fermium-251"
+		}, {
+			"weight": "252.082466855",
+			"rate": "0",
+			"halfRate": "1.06 d",
+
+			"hu": "Fermium-252",
+			"en": "Fermium-252"
+		}, {
+			"weight": "253.085185236",
+			"rate": "0",
+			"halfRate": "3 d",
+
+			"hu": "Fermium-253",
+			"en": "Fermium-253"
+		}, {
+			"weight": "254.08685422",
+			"rate": "0",
+			"halfRate": "3.25 h",
+
+			"hu": "Fermium-254",
+			"en": "Fermium-254"
+		}, {
+			"weight": "255.089962202",
+			"rate": "0",
+			"halfRate": "20.069 h",
+
+			"hu": "Fermium-255",
+			"en": "Fermium-255"
+		}, {
+			"weight": "256.091773117",
+			"rate": "0",
+			"halfRate": "2.627 h",
+
+			"hu": "Fermium-256",
+			"en": "Fermium-256"
+		}, {
+			"weight": "257.095104724",
+			"rate": "0",
+			"halfRate": "100.5 d",
+
+			"hu": "Fermium-257",
+			"en": "Fermium-257"
+		}, {
+			"weight": "258.097076",
+			"rate": "0",
+			"halfRate": "370 µs",
+
+			"hu": "Fermium-258",
+			"en": "Fermium-258"
+		}, {
+			"weight": "259.100595",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Fermium-259",
+			"en": "Fermium-259"
+		}, {
+			"weight": "260.102678",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Fermium-260",
+			"en": "Fermium-260"
+		}
+	]
+}

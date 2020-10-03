@@ -1,1 +1,187 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "217.024368791",
+			"rate": "0",
+			"halfRate": "26 ms",
+
+			"hu": "Urán-217",
+			"en": "Uranium-217"
+		}, {
+			"weight": "218.023535671",
+			"rate": "0",
+			"halfRate": "6 ms",
+
+			"hu": "Urán-218",
+			"en": "Uranium-218"
+		}, {
+			"weight": "219.02491916",
+			"rate": "0",
+			"halfRate": "55 µs",
+
+			"hu": "Urán-219",
+			"en": "Uranium-219"
+		}, {
+			"weight": "220.024723",
+			"rate": "0",
+			"halfRate": "60 ns",
+
+			"hu": "Urán-220",
+			"en": "Uranium-220"
+		}, {
+			"weight": "221.026399",
+			"rate": "0",
+			"halfRate": "700 ns",
+
+			"hu": "Urán-221",
+			"en": "Uranium-221"
+		}, {
+			"weight": "222.026086",
+			"rate": "0",
+			"halfRate": "1.4 µs",
+
+			"hu": "Urán-222",
+			"en": "Uranium-222"
+		}, {
+			"weight": "223.0277386",
+			"rate": "0",
+			"halfRate": "21 µs",
+
+			"hu": "Urán-223",
+			"en": "Uranium-223"
+		}, {
+			"weight": "224.027604778",
+			"rate": "0",
+			"halfRate": "940 µs",
+
+			"hu": "Urán-224",
+			"en": "Uranium-224"
+		}, {
+			"weight": "225.029390717",
+			"rate": "0",
+			"halfRate": "61 ms",
+
+			"hu": "Urán-225",
+			"en": "Uranium-225"
+		}, {
+			"weight": "226.029338702",
+			"rate": "0",
+			"halfRate": "269 ms",
+
+			"hu": "Urán-226",
+			"en": "Uranium-226"
+		}, {
+			"weight": "227.031156367",
+			"rate": "0",
+			"halfRate": "1.1 min",
+
+			"hu": "Urán-227",
+			"en": "Uranium-227"
+		}, {
+			"weight": "228.031374006",
+			"rate": "0",
+			"halfRate": "9.17 min",
+
+			"hu": "Urán-228",
+			"en": "Uranium-228"
+		}, {
+			"weight": "229.033505939",
+			"rate": "0",
+			"halfRate": "58 min",
+
+			"hu": "Urán-229",
+			"en": "Uranium-229"
+		}, {
+			"weight": "230.033939784",
+			"rate": "0",
+			"halfRate": "21 d",
+
+			"hu": "Urán-230",
+			"en": "Uranium-230"
+		}, {
+			"weight": "231.036293704",
+			"rate": "0",
+			"halfRate": "4.2 d",
+
+			"hu": "Urán-231",
+			"en": "Uranium-231"
+		}, {
+			"weight": "232.037156152",
+			"rate": "0",
+			"halfRate": "68.8 y",
+
+			"hu": "Urán-232",
+			"en": "Uranium-232"
+		}, {
+			"weight": "233.039635207",
+			"rate": "0",
+			"halfRate": "159200 y",
+
+			"hu": "Urán-233",
+			"en": "Uranium-233"
+		}, {
+			"weight": "234.040952088",
+			"rate": "0",
+			"halfRate": "245500 y",
+
+			"hu": "Urán-234",
+			"en": "Uranium-234"
+		}, {
+			"weight": "235.043929918",
+			"rate": "0.72",
+			"halfRate": "703000000 y",
+
+			"hu": "Urán-235",
+			"en": "Uranium-235"
+		}, {
+			"weight": "236.045568006",
+			"rate": "0",
+			"halfRate": "23420000 y",
+
+			"hu": "Urán-236",
+			"en": "Uranium-236"
+		}, {
+			"weight": "237.048730184",
+			"rate": "0",
+			"halfRate": "6.75 d",
+
+			"hu": "Urán-237",
+			"en": "Uranium-237"
+		}, {
+			"weight": "238.050788247",
+			"rate": "99.2745",
+			"halfRate": "4470000000 y",
+
+			"hu": "Urán-238",
+			"en": "Uranium-238"
+		}, {
+			"weight": "239.054293299",
+			"rate": "0",
+			"halfRate": "23.45 min",
+
+			"hu": "Urán-239",
+			"en": "Uranium-239"
+		}, {
+			"weight": "240.056591988",
+			"rate": "0",
+			"halfRate": "14.1 h",
+
+			"hu": "Urán-240",
+			"en": "Uranium-240"
+		}, {
+			"weight": "241.060330",
+			"rate": "0",
+			"halfRate": "5 min",
+
+			"hu": "Urán-241",
+			"en": "Uranium-241"
+		}, {
+			"weight": "242.062931",
+			"rate": "0",
+			"halfRate": "16.83 min",
+
+			"hu": "Urán-242",
+			"en": "Uranium-242"
+		}
+	]
+}

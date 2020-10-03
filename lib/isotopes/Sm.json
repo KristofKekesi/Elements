@@ -1,1 +1,271 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "127.95808",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Szamárium-128",
+			"en": "Samarium-128"
+		}, {
+			"weight": "128.95464",
+			"rate": "0",
+			"halfRate": "550 ms",
+
+			"hu": "Szamárium-129",
+			"en": "Samarium-129"
+		}, {
+			"weight": "129.94892",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Szamárium-130",
+			"en": "Samarium-130"
+		}, {
+			"weight": "130.94611",
+			"rate": "0",
+			"halfRate": "1.2 s",
+
+			"hu": "Szamárium-131",
+			"en": "Samarium-131"
+		}, {
+			"weight": "131.94069",
+			"rate": "0",
+			"halfRate": "4 s",
+
+			"hu": "Szamárium-132",
+			"en": "Samarium-132"
+		}, {
+			"weight": "132.93867",
+			"rate": "0",
+			"halfRate": "2.9 s",
+
+			"hu": "Szamárium-133",
+			"en": "Samarium-133"
+		}, {
+			"weight": "133.93397",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Szamárium-134",
+			"en": "Samarium-134"
+		}, {
+			"weight": "134.93252",
+			"rate": "0",
+			"halfRate": "10.3 s",
+
+			"hu": "Szamárium-135",
+			"en": "Samarium-135"
+		}, {
+			"weight": "135.928275527",
+			"rate": "0",
+			"halfRate": "47 s",
+
+			"hu": "Szamárium-136",
+			"en": "Samarium-136"
+		}, {
+			"weight": "136.926971746",
+			"rate": "0",
+			"halfRate": "45 s",
+
+			"hu": "Szamárium-137",
+			"en": "Samarium-137"
+		}, {
+			"weight": "137.923243961",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Szamárium-138",
+			"en": "Samarium-138"
+		}, {
+			"weight": "138.922296605",
+			"rate": "0",
+			"halfRate": "2.57 min",
+
+			"hu": "Szamárium-139",
+			"en": "Samarium-139"
+		}, {
+			"weight": "139.918994687",
+			"rate": "0",
+			"halfRate": "14.82 min",
+
+			"hu": "Szamárium-140",
+			"en": "Samarium-140"
+		}, {
+			"weight": "140.918476488",
+			"rate": "0",
+			"halfRate": "10.2 min",
+
+			"hu": "Szamárium-141",
+			"en": "Samarium-141"
+		}, {
+			"weight": "141.915197641",
+			"rate": "0",
+			"halfRate": "1.208 h",
+
+			"hu": "Szamárium-142",
+			"en": "Samarium-142"
+		}, {
+			"weight": "142.914628338",
+			"rate": "0",
+			"halfRate": "8.75 min",
+
+			"hu": "Szamárium-143",
+			"en": "Samarium-143"
+		}, {
+			"weight": "143.911999478",
+			"rate": "3.07",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-144",
+			"en": "Samarium-144"
+		}, {
+			"weight": "144.913410353",
+			"rate": "0",
+			"halfRate": "340 d",
+
+			"hu": "Szamárium-145",
+			"en": "Samarium-145"
+		}, {
+			"weight": "145.9130409",
+			"rate": "0",
+			"halfRate": "103000000 y",
+
+			"hu": "Szamárium-146",
+			"en": "Samarium-146"
+		}, {
+			"weight": "146.914897923",
+			"rate": "14.99",
+			"halfRate": "106000000000 y",
+
+			"hu": "Szamárium-147",
+			"en": "Samarium-147"
+		}, {
+			"weight": "147.914822674",
+			"rate": "11.24",
+			"halfRate": "7000000000000000 y",
+
+			"hu": "Szamárium-148",
+			"en": "Samarium-148"
+		}, {
+			"weight": "148.917184735",
+			"rate": "13.82",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-149",
+			"en": "Samarium-149"
+		}, {
+			"weight": "149.917275539",
+			"rate": "7.38",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-150",
+			"en": "Samarium-150"
+		}, {
+			"weight": "150.919932409",
+			"rate": "0",
+			"halfRate": "89 y",
+
+			"hu": "Szamárium-151",
+			"en": "Samarium-151"
+		}, {
+			"weight": "151.919732425",
+			"rate": "26.75",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-152",
+			"en": "Samarium-152"
+		}, {
+			"weight": "152.922097356",
+			"rate": "0",
+			"halfRate": "1.92847 d",
+
+			"hu": "Szamárium-153",
+			"en": "Samarium-153"
+		}, {
+			"weight": "153.922209273",
+			"rate": "22.75",
+			"halfRate": "stable",
+
+			"hu": "Szamárium-154",
+			"en": "Samarium-154"
+		}, {
+			"weight": "154.924640161",
+			"rate": "0",
+			"halfRate": "22.33 min",
+
+			"hu": "Szamárium-155",
+			"en": "Samarium-155"
+		}, {
+			"weight": "155.925527887",
+			"rate": "0",
+			"halfRate": "9.4 h",
+
+			"hu": "Szamárium-156",
+			"en": "Samarium-156"
+		}, {
+			"weight": "156.928358717",
+			"rate": "0",
+			"halfRate": "8.03 min",
+
+			"hu": "Szamárium-157",
+			"en": "Samarium-157"
+		}, {
+			"weight": "157.929991317",
+			"rate": "0",
+			"halfRate": "5.33 min",
+
+			"hu": "Szamárium-158",
+			"en": "Samarium-158"
+		}, {
+			"weight": "158.933211271",
+			"rate": "0",
+			"halfRate": "11.37 s",
+
+			"hu": "Szamárium-159",
+			"en": "Samarium-159"
+		}, {
+			"weight": "159.93514",
+			"rate": "0",
+			"halfRate": "9.6 s",
+
+			"hu": "Szamárium-160",
+			"en": "Samarium-160"
+		}, {
+			"weight": "160.93883",
+			"rate": "0",
+			"halfRate": "4.8 s",
+
+			"hu": "Szamárium-161",
+			"en": "Samarium-161"
+		}, {
+			"weight": "161.94122",
+			"rate": "0",
+			"halfRate": "2.4 s",
+
+			"hu": "Szamárium-162",
+			"en": "Samarium-162"
+		}, {
+			"weight": "162.94536",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Szamárium-163",
+			"en": "Samarium-163"
+		}, {
+			"weight": "163.94828",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Szamárium-164",
+			"en": "Samarium-164"
+		}, {
+			"weight": "164.95298",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Szamárium-165",
+			"en": "Samarium-165"
+		}
+	]
+}

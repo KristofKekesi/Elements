@@ -1,1 +1,222 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "206.01450498",
+			"rate": "0",
+			"halfRate": "25 ms",
+
+			"hu": "Aktínium-206",
+			"en": "Actinium-206"
+		}, {
+			"weight": "207.011949748",
+			"rate": "0",
+			"halfRate": "31 ms",
+
+			"hu": "Aktínium-207",
+			"en": "Actinium-207"
+		}, {
+			"weight": "208.011551551",
+			"rate": "0",
+			"halfRate": "97 ms",
+
+			"hu": "Aktínium-208",
+			"en": "Actinium-208"
+		}, {
+			"weight": "209.009494863",
+			"rate": "0",
+			"halfRate": "92 ms",
+
+			"hu": "Aktínium-209",
+			"en": "Actinium-209"
+		}, {
+			"weight": "210.009435986",
+			"rate": "0",
+			"halfRate": "350 ms",
+
+			"hu": "Aktínium-210",
+			"en": "Actinium-210"
+		}, {
+			"weight": "211.007734835",
+			"rate": "0",
+			"halfRate": "231 ms",
+
+			"hu": "Aktínium-211",
+			"en": "Actinium-211"
+		}, {
+			"weight": "212.007813822",
+			"rate": "0",
+			"halfRate": "920 ms",
+
+			"hu": "Aktínium-212",
+			"en": "Actinium-212"
+		}, {
+			"weight": "213.006607643",
+			"rate": "0",
+			"halfRate": "731 ms",
+
+			"hu": "Aktínium-213",
+			"en": "Actinium-213"
+		}, {
+			"weight": "214.006901798",
+			"rate": "0",
+			"halfRate": "8.2 s",
+
+			"hu": "Aktínium-214",
+			"en": "Actinium-214"
+		}, {
+			"weight": "215.006453625",
+			"rate": "0",
+			"halfRate": "170 ms",
+
+			"hu": "Aktínium-215",
+			"en": "Actinium-215"
+		}, {
+			"weight": "216.008720075",
+			"rate": "0",
+			"halfRate": "440 µs",
+
+			"hu": "Aktínium-216",
+			"en": "Actinium-216"
+		}, {
+			"weight": "217.009346914",
+			"rate": "0",
+			"halfRate": "69 ns",
+
+			"hu": "Aktínium-217",
+			"en": "Actinium-217"
+		}, {
+			"weight": "218.011641453",
+			"rate": "0",
+			"halfRate": "1.08 µs",
+
+			"hu": "Aktínium-218",
+			"en": "Actinium-218"
+		}, {
+			"weight": "219.012420389",
+			"rate": "0",
+			"halfRate": "11.8 µs",
+
+			"hu": "Aktínium-219",
+			"en": "Actinium-219"
+		}, {
+			"weight": "220.014762979",
+			"rate": "0",
+			"halfRate": "26.36 ms",
+
+			"hu": "Aktínium-220",
+			"en": "Actinium-220"
+		}, {
+			"weight": "221.015591248",
+			"rate": "0",
+			"halfRate": "52 ms",
+
+			"hu": "Aktínium-221",
+			"en": "Actinium-221"
+		}, {
+			"weight": "222.017843851",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Aktínium-222",
+			"en": "Actinium-222"
+		}, {
+			"weight": "223.019137468",
+			"rate": "0",
+			"halfRate": "2.17 min",
+
+			"hu": "Aktínium-223",
+			"en": "Actinium-223"
+		}, {
+			"weight": "224.021722866",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Aktínium-224",
+			"en": "Actinium-224"
+		}, {
+			"weight": "225.023229585",
+			"rate": "0",
+			"halfRate": "10 d",
+
+			"hu": "Aktínium-225",
+			"en": "Actinium-225"
+		}, {
+			"weight": "226.026098089",
+			"rate": "0",
+			"halfRate": "1.223 d",
+
+			"hu": "Aktínium-226",
+			"en": "Actinium-226"
+		}, {
+			"weight": "227.027752127",
+			"rate": "0",
+			"halfRate": "21.772 y",
+
+			"hu": "Aktínium-227",
+			"en": "Actinium-227"
+		}, {
+			"weight": "228.031021112",
+			"rate": "0",
+			"halfRate": "6.14 h",
+
+			"hu": "Aktínium-228",
+			"en": "Actinium-228"
+		}, {
+			"weight": "229.033015243",
+			"rate": "0",
+			"halfRate": "1.044 h",
+
+			"hu": "Aktínium-229",
+			"en": "Actinium-229"
+		}, {
+			"weight": "230.036294178",
+			"rate": "0",
+			"halfRate": "2.03 min",
+
+			"hu": "Aktínium-230",
+			"en": "Actinium-230"
+		}, {
+			"weight": "231.038558786",
+			"rate": "0",
+			"halfRate": "7.5 min",
+
+			"hu": "Aktínium-231",
+			"en": "Actinium-231"
+		}, {
+			"weight": "232.042027438",
+			"rate": "0",
+			"halfRate": "1.98 min",
+
+			"hu": "Aktínium-232",
+			"en": "Actinium-232"
+		}, {
+			"weight": "233.04455",
+			"rate": "0",
+			"halfRate": "2.42 min",
+
+			"hu": "Aktínium-233",
+			"en": "Actinium-233"
+		}, {
+			"weight": "234.04842",
+			"rate": "0",
+			"halfRate": "44 s",
+
+			"hu": "Aktínium-234",
+			"en": "Actinium-234"
+		}, {
+			"weight": "235.051232",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Aktínium-235",
+			"en": "Actinium-235"
+		}, {
+			"weight": "236.055296",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Aktínium-236",
+			"en": "Actinium-236"
+		}
+	]
+}

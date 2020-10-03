@@ -1,1 +1,257 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "133.95537",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Gadolínium-134",
+			"en": "Gadolinium-134"
+		}, {
+			"weight": "134.95257",
+			"rate": "0",
+			"halfRate": "1.1 s",
+
+			"hu": "Gadolínium-135",
+			"en": "Gadolinium-135"
+		}, {
+			"weight": "135.94734",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Gadolínium-136",
+			"en": "Gadolinium-136"
+		}, {
+			"weight": "136.94502",
+			"rate": "0",
+			"halfRate": "2.2 s",
+
+			"hu": "Gadolínium-137",
+			"en": "Gadolinium-137"
+		}, {
+			"weight": "137.94012",
+			"rate": "0",
+			"halfRate": "4.7 s",
+
+			"hu": "Gadolínium-138",
+			"en": "Gadolinium-138"
+		}, {
+			"weight": "138.93824",
+			"rate": "0",
+			"halfRate": "5.7 s",
+
+			"hu": "Gadolínium-139",
+			"en": "Gadolinium-139"
+		}, {
+			"weight": "139.933674",
+			"rate": "0",
+			"halfRate": "15.8 s",
+
+			"hu": "Gadolínium-140",
+			"en": "Gadolinium-140"
+		}, {
+			"weight": "140.932126",
+			"rate": "0",
+			"halfRate": "14 s",
+
+			"hu": "Gadolínium-141",
+			"en": "Gadolinium-141"
+		}, {
+			"weight": "141.928116",
+			"rate": "0",
+			"halfRate": "1.17 min",
+
+			"hu": "Gadolínium-142",
+			"en": "Gadolinium-142"
+		}, {
+			"weight": "142.92674951",
+			"rate": "0",
+			"halfRate": "39 s",
+
+			"hu": "Gadolínium-143",
+			"en": "Gadolinium-143"
+		}, {
+			"weight": "143.922963",
+			"rate": "0",
+			"halfRate": "4.47 min",
+
+			"hu": "Gadolínium-144",
+			"en": "Gadolinium-144"
+		}, {
+			"weight": "144.921709252",
+			"rate": "0",
+			"halfRate": "23 min",
+
+			"hu": "Gadolínium-145",
+			"en": "Gadolinium-145"
+		}, {
+			"weight": "145.918310608",
+			"rate": "0",
+			"halfRate": "48.28 d",
+
+			"hu": "Gadolínium-146",
+			"en": "Gadolinium-146"
+		}, {
+			"weight": "146.91909442",
+			"rate": "0",
+			"halfRate": "1.59 d",
+
+			"hu": "Gadolínium-147",
+			"en": "Gadolinium-147"
+		}, {
+			"weight": "147.918114524",
+			"rate": "0",
+			"halfRate": "74.5 y",
+
+			"hu": "Gadolínium-148",
+			"en": "Gadolinium-148"
+		}, {
+			"weight": "148.919340915",
+			"rate": "0",
+			"halfRate": "9.28 d",
+
+			"hu": "Gadolínium-149",
+			"en": "Gadolinium-149"
+		}, {
+			"weight": "149.918658876",
+			"rate": "0",
+			"halfRate": "1790000 y",
+
+			"hu": "Gadolínium-150",
+			"en": "Gadolinium-150"
+		}, {
+			"weight": "150.920348482",
+			"rate": "0",
+			"halfRate": "124 d",
+
+			"hu": "Gadolínium-151",
+			"en": "Gadolinium-151"
+		}, {
+			"weight": "151.919790996",
+			"rate": "0.2",
+			"halfRate": "008000000000000 y",
+
+			"hu": "Gadolínium-152",
+			"en": "Gadolinium-152"
+		}, {
+			"weight": "152.921749543",
+			"rate": "0",
+			"halfRate": "240.4 d",
+
+			"hu": "Gadolínium-153",
+			"en": "Gadolinium-153"
+		}, {
+			"weight": "153.920865598",
+			"rate": "2.18",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-154",
+			"en": "Gadolinium-145"
+		}, {
+			"weight": "154.922622022",
+			"rate": "14.8",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-155",
+			"en": "Gadolinium-155"
+		}, {
+			"weight": "155.922122743",
+			"rate": "20.47",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-156",
+			"en": "Gadolinium-156"
+		}, {
+			"weight": "156.923960135",
+			"rate": "15.65",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-157",
+			"en": "Gadolinium-157"
+		}, {
+			"weight": "157.924103912",
+			"rate": "24.84",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-158",
+			"en": "Gadolinium-158"
+		}, {
+			"weight": "158.926388658",
+			"rate": "0",
+			"halfRate": "18.479 h",
+
+			"hu": "Gadolínium-159",
+			"en": "Gadolinium-159"
+		}, {
+			"weight": "159.927054146",
+			"rate": "21.86",
+			"halfRate": "stable",
+
+			"hu": "Gadolínium-160",
+			"en": "Gadolinium-160"
+		}, {
+			"weight": "160.929669211",
+			"rate": "0",
+			"halfRate": "3.647 min",
+
+			"hu": "Gadolínium-161",
+			"en": "Gadolinium-161"
+		}, {
+			"weight": "161.930984751",
+			"rate": "0",
+			"halfRate": "8.3 min",
+
+			"hu": "Gadolínium-162",
+			"en": "Gadolinium-162"
+		}, {
+			"weight": "162.93399",
+			"rate": "0",
+			"halfRate": "1.1 min",
+
+			"hu": "Gadolínium-163",
+			"en": "Gadolinium-163"
+		}, {
+			"weight": "163.93586",
+			"rate": "0",
+			"halfRate": "45 s",
+
+			"hu": "Gadolínium-164",
+			"en": "Gadolinium-164"
+		}, {
+			"weight": "164.93938",
+			"rate": "0",
+			"halfRate": "10.3 s",
+
+			"hu": "Gadolínium-165",
+			"en": "Gadolinium-165"
+		}, {
+			"weight": "165.9416",
+			"rate": "0",
+			"halfRate": "4.8 s",
+
+			"hu": "Gadolínium-166",
+			"en": "Gadolinium-166"
+		}, {
+			"weight": "166.94557",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Gadolínium-167",
+			"en": "Gadolinium-167"
+		}, {
+			"weight": "167.94836",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Gadolínium-168",
+			"en": "Gadolinium-168"
+		}, {
+			"weight": "168.95287",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Gadolínium-169",
+			"en": "Gadolinium-169"
+		}
+	]
+}

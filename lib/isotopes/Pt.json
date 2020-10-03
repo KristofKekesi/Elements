@@ -1,1 +1,264 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "165.994855",
+			"rate": "0",
+			"halfRate": "300 µs",
+
+			"hu": "Platina-166",
+			"en": "Platinum-166"
+		}, {
+			"weight": "166.992979",
+			"rate": "0",
+			"halfRate": "700 µs",
+
+			"hu": "Platina-167",
+			"en": "Platinum-167"
+		}, {
+			"weight": "167.988150742",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Platina-168",
+			"en": "Platinum-168"
+		}, {
+			"weight": "168.986715",
+			"rate": "0",
+			"halfRate": "3.7 ms",
+
+			"hu": "Platina-169",
+			"en": "Platinum-169"
+		}, {
+			"weight": "169.982495289",
+			"rate": "0",
+			"halfRate": "13.8 ms",
+
+			"hu": "Platina-170",
+			"en": "Platinum-170"
+		}, {
+			"weight": "170.981244542",
+			"rate": "0",
+			"halfRate": "44 ms",
+
+			"hu": "Platina-171",
+			"en": "Platinum-171"
+		}, {
+			"weight": "171.977347128",
+			"rate": "0",
+			"halfRate": "98.4 ms",
+
+			"hu": "Platina-172",
+			"en": "Platinum-172"
+		}, {
+			"weight": "172.976444754",
+			"rate": "0",
+			"halfRate": "365 ms",
+
+			"hu": "Platina-173",
+			"en": "Platinum-173"
+		}, {
+			"weight": "173.972818767",
+			"rate": "0",
+			"halfRate": "889 ms",
+
+			"hu": "Platina-174",
+			"en": "Platinum-174"
+		}, {
+			"weight": "174.972420552",
+			"rate": "0",
+			"halfRate": "2.52 s",
+
+			"hu": "Platina-175",
+			"en": "Platinum-175"
+		}, {
+			"weight": "175.968944622",
+			"rate": "0",
+			"halfRate": "6.33 s",
+
+			"hu": "Platina-176",
+			"en": "Platinum-176"
+		}, {
+			"weight": "176.968469481",
+			"rate": "0",
+			"halfRate": "10.6 s",
+
+			"hu": "Platina-177",
+			"en": "Platinum-177"
+		}, {
+			"weight": "177.965648724",
+			"rate": "0",
+			"halfRate": "21.1 s",
+
+			"hu": "Platina-178",
+			"en": "Platinum-178"
+		}, {
+			"weight": "178.965363404",
+			"rate": "0",
+			"halfRate": "21.2 s",
+
+			"hu": "Platina-179",
+			"en": "Platinum-179"
+		}, {
+			"weight": "179.963031477",
+			"rate": "0",
+			"halfRate": "52 s",
+
+			"hu": "Platina-180",
+			"en": "Platinum-180"
+		}, {
+			"weight": "180.963097285",
+			"rate": "0",
+			"halfRate": "52 s",
+
+			"hu": "Platina-181",
+			"en": "Platinum-181"
+		}, {
+			"weight": "181.961170656",
+			"rate": "0",
+			"halfRate": "2.17 min",
+
+			"hu": "Platina-182",
+			"en": "Platinum-182"
+		}, {
+			"weight": "182.961596703",
+			"rate": "0",
+			"halfRate": "6.5 min",
+
+			"hu": "Platina-183",
+			"en": "Platinum-183"
+		}, {
+			"weight": "183.959922251",
+			"rate": "0",
+			"halfRate": "17.33 min",
+
+			"hu": "Platina-184",
+			"en": "Platinum-184"
+		}, {
+			"weight": "184.960619",
+			"rate": "0",
+			"halfRate": "1.181 h",
+
+			"hu": "Platina-185",
+			"en": "Platinum-185"
+		}, {
+			"weight": "185.959350813",
+			"rate": "0",
+			"halfRate": "2.081 h",
+
+			"hu": "Platina-186",
+			"en": "Platinum-186"
+		}, {
+			"weight": "186.960587",
+			"rate": "0",
+			"halfRate": "2.35 h",
+
+			"hu": "Platina-187",
+			"en": "Platinum-187"
+		}, {
+			"weight": "187.959395391",
+			"rate": "0",
+			"halfRate": "10.2 d",
+
+			"hu": "Platina-188",
+			"en": "Platinum-188"
+		}, {
+			"weight": "188.960833686",
+			"rate": "0",
+			"halfRate": "10.869 h",
+
+			"hu": "Platina-189",
+			"en": "Platinum-189"
+		}, {
+			"weight": "189.959931655",
+			"rate": "0.014",
+			"halfRate": "650000000000 y",
+
+			"hu": "Platina-190",
+			"en": "Platinum-190"
+		}, {
+			"weight": "190.961676661",
+			"rate": "0",
+			"halfRate": "2.802 d",
+
+			"hu": "Platina-191",
+			"en": "Platinum-191"
+		}, {
+			"weight": "191.961038005",
+			"rate": "0.782",
+			"halfRate": "stable",
+
+			"hu": "Platina-192",
+			"en": "Platinum-192"
+		}, {
+			"weight": "192.962987401",
+			"rate": "0",
+			"halfRate": "51 y",
+
+			"hu": "Platina-193",
+			"en": "Platinum-193"
+		}, {
+			"weight": "193.962680253",
+			"rate": "32.967",
+			"halfRate": "stable",
+
+			"hu": "Platina-194",
+			"en": "Platinum-194"
+		}, {
+			"weight": "194.964791134",
+			"rate": "33.832",
+			"halfRate": "stable",
+
+			"hu": "Platina-195",
+			"en": "Platinum-195"
+		}, {
+			"weight": "195.964951521",
+			"rate": "25.242",
+			"halfRate": "stable",
+
+			"hu": "Platina-196",
+			"en": "Platinum-196"
+		}, {
+			"weight": "196.967340182",
+			"rate": "0",
+			"halfRate": "19.8915 h",
+
+			"hu": "Platina-197",
+			"en": "Platinum-197"
+		}, {
+			"weight": "197.96789279",
+			"rate": "7.163",
+			"halfRate": "stable",
+
+			"hu": "Platina-198",
+			"en": "Platinum-198"
+		}, {
+			"weight": "198.970593094",
+			"rate": "0",
+			"halfRate": "30.83 min",
+
+			"hu": "Platina-199",
+			"en": "Platinum-199"
+		}, {
+			"weight": "199.971440677",
+			"rate": "0",
+			"halfRate": "13 h",
+
+			"hu": "Platina-200",
+			"en": "Platinum-200"
+		}, {
+			"weight": "200.974512868",
+			"rate": "0",
+			"halfRate": "2.5 min",
+
+			"hu": "Platina-201",
+			"en": "Platinum-201"
+		}, {
+			"weight": "201.97574",
+			"rate": "0",
+			"halfRate": "1.9 d",
+
+			"hu": "Platina-202",
+			"en": "Platinum-202"
+		}
+	]
+}

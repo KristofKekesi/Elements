@@ -1,1 +1,257 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "137.96249",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Diszprózium-138",
+			"en": "Dysprosium-138"
+		}, {
+			"weight": "138.95954",
+			"rate": "0",
+			"halfRate": "600 ms",
+
+			"hu": "Diszprózium-139",
+			"en": "Dysprosium-139"
+		}, {
+			"weight": "139.95401",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Diszprózium-140",
+			"en": "Dysprosium-140"
+		}, {
+			"weight": "140.95135",
+			"rate": "0",
+			"halfRate": "900 ms",
+
+			"hu": "Diszprózium-141",
+			"en": "Dysprosium-141"
+		}, {
+			"weight": "141.946366",
+			"rate": "0",
+			"halfRate": "2.3 s",
+
+			"hu": "Diszprózium-142",
+			"en": "Dysprosium-142"
+		}, {
+			"weight": "142.94383",
+			"rate": "0",
+			"halfRate": "5.6 s",
+
+			"hu": "Diszprózium-143",
+			"en": "Dysprosium-143"
+		}, {
+			"weight": "143.939254",
+			"rate": "0",
+			"halfRate": "9.1 s",
+
+			"hu": "Diszprózium-144",
+			"en": "Dysprosium-144"
+		}, {
+			"weight": "144.937425",
+			"rate": "0",
+			"halfRate": "9.5 s",
+
+			"hu": "Diszprózium-145",
+			"en": "Dysprosium-145"
+		}, {
+			"weight": "145.932845369",
+			"rate": "0",
+			"halfRate": "33.2 s",
+
+			"hu": "Diszprózium-146",
+			"en": "Dysprosium-146"
+		}, {
+			"weight": "146.9310915",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Diszprózium-147",
+			"en": "Dysprosium-147"
+		}, {
+			"weight": "147.927149831",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Diszprózium-148",
+			"en": "Dysprosium-148"
+		}, {
+			"weight": "148.927304787",
+			"rate": "0",
+			"halfRate": "4.17 min",
+
+			"hu": "Diszprózium-149",
+			"en": "Dysprosium-149"
+		}, {
+			"weight": "149.925585184",
+			"rate": "0",
+			"halfRate": "7.17 min",
+
+			"hu": "Diszprózium-150",
+			"en": "Dysprosium-150"
+		}, {
+			"weight": "150.926184601",
+			"rate": "0",
+			"halfRate": "17.83 min",
+
+			"hu": "Diszprózium-151",
+			"en": "Dysprosium-151"
+		}, {
+			"weight": "151.9247183",
+			"rate": "0",
+			"halfRate": "2.381 h",
+
+			"hu": "Diszprózium-152",
+			"en": "Dysprosium-152"
+		}, {
+			"weight": "152.92576467",
+			"rate": "0",
+			"halfRate": "6.4 h",
+
+			"hu": "Diszprózium-153",
+			"en": "Dysprosium-153"
+		}, {
+			"weight": "153.924424457",
+			"rate": "0",
+			"halfRate": "3000000 y",
+
+			"hu": "Diszprózium-154",
+			"en": "Dysprosium-154"
+		}, {
+			"weight": "154.925753775",
+			"rate": "0",
+			"halfRate": "10 h",
+
+			"hu": "Diszprózium-155",
+			"en": "Dysprosium-155"
+		}, {
+			"weight": "155.92428311",
+			"rate": "0.06",
+			"halfRate": "stable",
+
+			"hu": "Diszprózium-156",
+			"en": "Dysprosium-156"
+		}, {
+			"weight": "156.925466095",
+			"rate": "0",
+			"halfRate": "8.14 h",
+
+			"hu": "Diszprózium-157",
+			"en": "Dysprosium-157"
+		}, {
+			"weight": "157.924409487",
+			"rate": "0.1",
+			"halfRate": "stable",
+
+			"hu": "Diszprózium-158",
+			"en": "Dysprosium-158"
+		}, {
+			"weight": "158.925739214",
+			"rate": "0",
+			"halfRate": "144.4 d",
+
+			"hu": "Diszprózium-159",
+			"en": "Dysprosium-159"
+		}, {
+			"weight": "159.925197517",
+			"rate": "2.34",
+			"halfRate": "stable",
+
+			"hu": "Diszprózium-160",
+			"en": "Dysprosium-160"
+		}, {
+			"weight": "160.926933364",
+			"rate": "18.91",
+			"halfRate": "stable",
+
+			"hu": "Diszprózium-161",
+			"en": "Dysprosium-161"
+		}, {
+			"weight": "161.926798447",
+			"rate": "25.51",
+			"halfRate": "stable",
+
+			"hu": "Diszprózium-162",
+			"en": "Dysprosium-162"
+		}, {
+			"weight": "162.928731159",
+			"rate": "24.9",
+			"halfRate": "stable",
+
+			"hu": "Diszprózium-163",
+			"en": "Dysprosium-163"
+		}, {
+			"weight": "163.929174751",
+			"rate": "28.18",
+			"halfRate": "stable",
+
+			"hu": "Diszprózium-164",
+			"en": "Dysprosium-164"
+		}, {
+			"weight": "164.931703333",
+			"rate": "0",
+			"halfRate": "2.334 h",
+
+			"hu": "Diszprózium-165",
+			"en": "Dysprosium-165"
+		}, {
+			"weight": "165.932806741",
+			"rate": "0",
+			"halfRate": "3.4 d",
+
+			"hu": "Diszprózium-166",
+			"en": "Dysprosium-166"
+		}, {
+			"weight": "166.935655462",
+			"rate": "0",
+			"halfRate": "6.17 min",
+
+			"hu": "Diszprózium-167",
+			"en": "Dysprosium-167"
+		}, {
+			"weight": "167.937128769",
+			"rate": "0",
+			"halfRate": "8.67 min",
+
+			"hu": "Diszprózium-168",
+			"en": "Dysprosium-168"
+		}, {
+			"weight": "168.940307614",
+			"rate": "0",
+			"halfRate": "39 s",
+
+			"hu": "Diszprózium-169",
+			"en": "Dysprosium-169"
+		}, {
+			"weight": "169.94239",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Diszprózium-170",
+			"en": "Dysprosium-170"
+		}, {
+			"weight": "170.9462",
+			"rate": "0",
+			"halfRate": "6 s",
+
+			"hu": "Diszprózium-171",
+			"en": "Dysprosium-171"
+		}, {
+			"weight": "171.948760",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Diszprózium-172",
+			"en": "Dysprosium-172"
+		}, {
+			"weight": "172.953",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Diszprózium-173",
+			"en": "Dysprosium-173"
+		}
+	]
+}

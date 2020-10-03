@@ -1,1 +1,89 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "272.153615",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Röntgénium-272",
+			"en": "Röntgénium-272"
+		}, {
+			"weight": "273.153682",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Röntgénium-273",
+			"en": "Röntgénium-273"
+		}, {
+			"weight": "274.155713",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Röntgénium-274",
+			"en": "Röntgénium-274"
+		}, {
+			"weight": "275.156142",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Röntgénium-275",
+			"en": "Röntgénium-275"
+		}, {
+			"weight": "276.158493",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Röntgénium-276",
+			"en": "Röntgénium-276"
+		}, {
+			"weight": "277.159519",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Röntgénium-277",
+			"en": "Röntgénium-277"
+		}, {
+			"weight": "278.161604",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Röntgénium-278",
+			"en": "Röntgénium-278"
+		}, {
+			"weight": "279.162468",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Röntgénium-279",
+			"en": "Röntgénium-279"
+		}, {
+			"weight": "280.164473",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Röntgénium-280",
+			"en": "Röntgénium-280"
+		}, {
+			"weight": "281.165372",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Röntgénium-281",
+			"en": "Röntgénium-281"
+		}, {
+			"weight": "282.167486",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Röntgénium-282",
+			"en": "Röntgénium-282"
+		}, {
+			"weight": "283.168415",
+			"rate": "0",
+			"halfRate": "10 min",
+
+			"hu": "Röntgénium-283",
+			"en": "Röntgénium-283"
+		}
+	]
+}

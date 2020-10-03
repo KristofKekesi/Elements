@@ -1,1 +1,271 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "178.003830191",
+			"rate": "0",
+			"halfRate": "230 µs",
+
+			"hu": "Ólom-178",
+			"en": "Lead-178"
+		}, {
+			"weight": "179.00215",
+			"rate": "0",
+			"halfRate": "3 ms",
+
+			"hu": "Ólom-179",
+			"en": "Lead-179"
+		}, {
+			"weight": "179.997918173",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Ólom-180",
+			"en": "Lead-180"
+		}, {
+			"weight": "180.996623958",
+			"rate": "0",
+			"halfRate": "45 ms",
+
+			"hu": "Ólom-181",
+			"en": "Lead-181"
+		}, {
+			"weight": "181.992671842",
+			"rate": "0",
+			"halfRate": "60 ms",
+
+			"hu": "Ólom-182",
+			"en": "Lead-182"
+		}, {
+			"weight": "182.991874629",
+			"rate": "0",
+			"halfRate": "535 ms",
+
+			"hu": "Ólom-183",
+			"en": "Lead-183"
+		}, {
+			"weight": "183.988142339",
+			"rate": "0",
+			"halfRate": "490 ms",
+
+			"hu": "Ólom-184",
+			"en": "Lead-184"
+		}, {
+			"weight": "184.987609944",
+			"rate": "0",
+			"halfRate": "6.3 s",
+
+			"hu": "Ólom-185",
+			"en": "Lead-185"
+		}, {
+			"weight": "185.984238945",
+			"rate": "0",
+			"halfRate": "4.82 s",
+
+			"hu": "Ólom-186",
+			"en": "Lead-186"
+		}, {
+			"weight": "186.98391837",
+			"rate": "0",
+			"halfRate": "15.2 s",
+
+			"hu": "Ólom-187",
+			"en": "Lead-187"
+		}, {
+			"weight": "187.980874338",
+			"rate": "0",
+			"halfRate": "25.5 s",
+
+			"hu": "Ólom-188",
+			"en": "Lead-188"
+		}, {
+			"weight": "188.980807",
+			"rate": "0",
+			"halfRate": "51 s",
+
+			"hu": "Ólom-189",
+			"en": "Lead-189"
+		}, {
+			"weight": "189.978081517",
+			"rate": "0",
+			"halfRate": "1.2 min",
+
+			"hu": "Ólom-190",
+			"en": "Lead-190"
+		}, {
+			"weight": "190.978265",
+			"rate": "0",
+			"halfRate": "1.33 min",
+
+			"hu": "Ólom-191",
+			"en": "Lead-191"
+		}, {
+			"weight": "191.975785171",
+			"rate": "0",
+			"halfRate": "3.5 min",
+
+			"hu": "Ólom-192",
+			"en": "Lead-192"
+		}, {
+			"weight": "192.976173234",
+			"rate": "0",
+			"halfRate": "5 min",
+
+			"hu": "Ólom-193",
+			"en": "Lead-193"
+		}, {
+			"weight": "193.97401207",
+			"rate": "0",
+			"halfRate": "12 min",
+
+			"hu": "Ólom-194",
+			"en": "Lead-194"
+		}, {
+			"weight": "194.97454205",
+			"rate": "0",
+			"halfRate": "15 min",
+
+			"hu": "Ólom-195",
+			"en": "Lead-195"
+		}, {
+			"weight": "195.972774109",
+			"rate": "0",
+			"halfRate": "37 min",
+
+			"hu": "Ólom-196",
+			"en": "Lead-196"
+		}, {
+			"weight": "196.973431124",
+			"rate": "0",
+			"halfRate": "8 min",
+
+			"hu": "Ólom-197",
+			"en": "Lead-197"
+		}, {
+			"weight": "197.972033959",
+			"rate": "0",
+			"halfRate": "2.4 h",
+
+			"hu": "Ólom-198",
+			"en": "Lead-198"
+		}, {
+			"weight": "198.97291665",
+			"rate": "0",
+			"halfRate": "1.5 h",
+
+			"hu": "Ólom-199",
+			"en": "Lead-199"
+		}, {
+			"weight": "199.971826675",
+			"rate": "0",
+			"halfRate": "21.5 h",
+
+			"hu": "Ólom-200",
+			"en": "Lead-200"
+		}, {
+			"weight": "200.972884511",
+			"rate": "0",
+			"halfRate": "9.33 h",
+
+			"hu": "Ólom-201",
+			"en": "Lead-201"
+		}, {
+			"weight": "201.972159133",
+			"rate": "0",
+			"halfRate": "52600 y",
+
+			"hu": "Ólom-202",
+			"en": "Lead-202"
+		}, {
+			"weight": "202.973390521",
+			"rate": "0",
+			"halfRate": "2.16134 d",
+
+			"hu": "Ólom-203",
+			"en": "Lead-203"
+		}, {
+			"weight": "203.973043589",
+			"rate": "1.4",
+			"halfRate": "stable",
+
+			"hu": "Ólom-204",
+			"en": "Lead-204"
+		}, {
+			"weight": "204.974481755",
+			"rate": "0",
+			"halfRate": "15300000 y",
+
+			"hu": "Ólom-205",
+			"en": "Lead-205"
+		}, {
+			"weight": "205.974465278",
+			"rate": "24.1",
+			"halfRate": "stable",
+
+			"hu": "Ólom-206",
+			"en": "Lead-206"
+		}, {
+			"weight": "206.975896887",
+			"rate": "22.1",
+			"halfRate": "stable",
+
+			"hu": "Ólom-207",
+			"en": "Lead-207"
+		}, {
+			"weight": "207.976652071",
+			"rate": "52.4",
+			"halfRate": "stable",
+
+			"hu": "Ólom-208",
+			"en": "Lead-208"
+		}, {
+			"weight": "208.98109012",
+			"rate": "0",
+			"halfRate": "3.2528 h",
+
+			"hu": "Ólom-209",
+			"en": "Lead-209"
+		}, {
+			"weight": "209.984188527",
+			"rate": "0",
+			"halfRate": "22.2 y",
+
+			"hu": "Ólom-210",
+			"en": "Lead-210"
+		}, {
+			"weight": "210.988736964",
+			"rate": "0",
+			"halfRate": "36.17 min",
+
+			"hu": "Ólom-211",
+			"en": "Lead-211"
+		}, {
+			"weight": "211.991897543",
+			"rate": "0",
+			"halfRate": "10.6 h",
+
+			"hu": "Ólom-212",
+			"en": "Lead-212"
+		}, {
+			"weight": "212.996581499",
+			"rate": "0",
+			"halfRate": "10.2 min",
+
+			"hu": "Ólom-213",
+			"en": "Lead-213"
+		}, {
+			"weight": "213.999805408",
+			"rate": "0",
+			"halfRate": "26.83 min",
+
+			"hu": "Ólom-214",
+			"en": "Lead-214"
+		}, {
+			"weight": "215.004807",
+			"rate": "0",
+			"halfRate": "36 s",
+
+			"hu": "Ólom-215",
+			"en": "Lead-215"
+		}
+	]
+}

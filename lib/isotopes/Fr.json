@@ -1,1 +1,243 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "199.007258147",
+			"rate": "0",
+			"halfRate": "16 ms",
+
+			"hu": "Francium-199",
+			"en": "Francium-199"
+		}, {
+			"weight": "200.00657249",
+			"rate": "0",
+			"halfRate": "24 ms",
+
+			"hu": "Francium-200",
+			"en": "Francium-200"
+		}, {
+			"weight": "201.003860867",
+			"rate": "0",
+			"halfRate": "61 ms",
+
+			"hu": "Francium-201",
+			"en": "Francium-201"
+		}, {
+			"weight": "202.003372847",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Francium-202",
+			"en": "Francium-202"
+		}, {
+			"weight": "203.000924647",
+			"rate": "0",
+			"halfRate": "550 ms",
+
+			"hu": "Francium-203",
+			"en": "Francium-203"
+		}, {
+			"weight": "204.000653204",
+			"rate": "0",
+			"halfRate": "1.7 s",
+
+			"hu": "Francium-204",
+			"en": "Francium-204"
+		}, {
+			"weight": "204.99859396",
+			"rate": "0",
+			"halfRate": "3.85 s",
+
+			"hu": "Francium-205",
+			"en": "Francium-205"
+		}, {
+			"weight": "205.998666066",
+			"rate": "0",
+			"halfRate": "16 s",
+
+			"hu": "Francium-206",
+			"en": "Francium-206"
+		}, {
+			"weight": "206.996949414",
+			"rate": "0",
+			"halfRate": "14.8 s",
+
+			"hu": "Francium-207",
+			"en": "Francium-207"
+		}, {
+			"weight": "207.997138783",
+			"rate": "0",
+			"halfRate": "59.1 s",
+
+			"hu": "Francium-208",
+			"en": "Francium-208"
+		}, {
+			"weight": "208.995953555",
+			"rate": "0",
+			"halfRate": "50 s",
+
+			"hu": "Francium-209",
+			"en": "Francium-209"
+		}, {
+			"weight": "209.996407738",
+			"rate": "0",
+			"halfRate": "3.18 min",
+
+			"hu": "Francium-210",
+			"en": "Francium-210"
+		}, {
+			"weight": "210.995536544",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Francium-211",
+			"en": "Francium-211"
+		}, {
+			"weight": "211.996202244",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Francium-212",
+			"en": "Francium-212"
+		}, {
+			"weight": "212.996189081",
+			"rate": "0",
+			"halfRate": "34.6 s",
+
+			"hu": "Francium-213",
+			"en": "Francium-213"
+		}, {
+			"weight": "213.998971145",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Francium-214",
+			"en": "Francium-214"
+		}, {
+			"weight": "215.000341497",
+			"rate": "0",
+			"halfRate": "86 ns",
+
+			"hu": "Francium-215",
+			"en": "Francium-215"
+		}, {
+			"weight": "216.00319799",
+			"rate": "0",
+			"halfRate": "700 ns",
+
+			"hu": "Francium-216",
+			"en": "Francium-216"
+		}, {
+			"weight": "217.004631951",
+			"rate": "0",
+			"halfRate": "16.8 µs",
+
+			"hu": "Francium-217",
+			"en": "Francium-217"
+		}, {
+			"weight": "218.007578322",
+			"rate": "0",
+			"halfRate": "1 ms",
+
+			"hu": "Francium-218",
+			"en": "Francium-218"
+		}, {
+			"weight": "219.009252149",
+			"rate": "0",
+			"halfRate": "20 ms",
+
+			"hu": "Francium-219",
+			"en": "Francium-219"
+		}, {
+			"weight": "220.012327405",
+			"rate": "0",
+			"halfRate": "27.4 s",
+
+			"hu": "Francium-220",
+			"en": "Francium-220"
+		}, {
+			"weight": "221.014254762",
+			"rate": "0",
+			"halfRate": "4.83 min",
+
+			"hu": "Francium-221",
+			"en": "Francium-221"
+		}, {
+			"weight": "222.01755173",
+			"rate": "0",
+			"halfRate": "14.2 min",
+
+			"hu": "Francium-222",
+			"en": "Francium-222"
+		}, {
+			"weight": "223.019735857",
+			"rate": "0",
+			"halfRate": "22 min",
+
+			"hu": "Francium-223",
+			"en": "Francium-223"
+		}, {
+			"weight": "224.023249951",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Francium-224",
+			"en": "Francium-224"
+		}, {
+			"weight": "225.025565414",
+			"rate": "0",
+			"halfRate": "4 min",
+
+			"hu": "Francium-225",
+			"en": "Francium-225"
+		}, {
+			"weight": "226.029386231",
+			"rate": "0",
+			"halfRate": "49 s",
+
+			"hu": "Francium-226",
+			"en": "Francium-226"
+		}, {
+			"weight": "227.031835938",
+			"rate": "0",
+			"halfRate": "2.47 min",
+
+			"hu": "Francium-227",
+			"en": "Francium-227"
+		}, {
+			"weight": "228.035729",
+			"rate": "0",
+			"halfRate": "38 s",
+
+			"hu": "Francium-228",
+			"en": "Francium-228"
+		}, {
+			"weight": "229.038450228",
+			"rate": "0",
+			"halfRate": "50.2 s",
+
+			"hu": "Francium-229",
+			"en": "Francium-229"
+		}, {
+			"weight": "230.04251",
+			"rate": "0",
+			"halfRate": "19.1 s",
+
+			"hu": "Francium-230",
+			"en": "Francium-230"
+		}, {
+			"weight": "231.04544",
+			"rate": "0",
+			"halfRate": "17.6 s",
+
+			"hu": "Francium-231",
+			"en": "Francium-231"
+		}, {
+			"weight": "232.049772",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Francium-232",
+			"en": "Francium-232"
+		}
+	]
+}

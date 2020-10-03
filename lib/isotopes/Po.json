@@ -1,1 +1,236 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "187.999422048",
+			"rate": "0",
+			"halfRate": "430 µs",
+
+			"hu": "Polónium-188",
+			"en": "Polonium-188"
+		}, {
+			"weight": "188.998480562",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Polónium-189",
+			"en": "Polonium-189"
+		}, {
+			"weight": "189.995101185",
+			"rate": "0",
+			"halfRate": "2.46 ms",
+
+			"hu": "Polónium-190",
+			"en": "Polonium-190"
+		}, {
+			"weight": "190.994574485",
+			"rate": "0",
+			"halfRate": "22 ms",
+
+			"hu": "Polónium-191",
+			"en": "Polonium-191"
+		}, {
+			"weight": "191.991335149",
+			"rate": "0",
+			"halfRate": "32.2 ms",
+
+			"hu": "Polónium-192",
+			"en": "Polonium-192"
+		}, {
+			"weight": "192.991025275",
+			"rate": "0",
+			"halfRate": "420 ms",
+
+			"hu": "Polónium-193",
+			"en": "Polonium-193"
+		}, {
+			"weight": "193.988185606",
+			"rate": "0",
+			"halfRate": "392 ms",
+
+			"hu": "Polónium-194",
+			"en": "Polonium-194"
+		}, {
+			"weight": "194.988110728",
+			"rate": "0",
+			"halfRate": "4.64 s",
+
+			"hu": "Polónium-195",
+			"en": "Polonium-195"
+		}, {
+			"weight": "195.98553458",
+			"rate": "0",
+			"halfRate": "5.56 s",
+
+			"hu": "Polónium-196",
+			"en": "Polonium-196"
+		}, {
+			"weight": "196.98565963",
+			"rate": "0",
+			"halfRate": "53.6 s",
+
+			"hu": "Polónium-197",
+			"en": "Polonium-197"
+		}, {
+			"weight": "197.983388616",
+			"rate": "0",
+			"halfRate": "1.77 min",
+
+			"hu": "Polónium-198",
+			"en": "Polonium-198"
+		}, {
+			"weight": "198.983666063",
+			"rate": "0",
+			"halfRate": "5.48 min",
+
+			"hu": "Polónium-199",
+			"en": "Polonium-199"
+		}, {
+			"weight": "199.981798604",
+			"rate": "0",
+			"halfRate": "11.5 min",
+
+			"hu": "Polónium-200",
+			"en": "Polonium-200"
+		}, {
+			"weight": "200.982259764",
+			"rate": "0",
+			"halfRate": "15.3 min",
+
+			"hu": "Polónium-201",
+			"en": "Polonium-201"
+		}, {
+			"weight": "201.980757541",
+			"rate": "0",
+			"halfRate": "44.67 min",
+
+			"hu": "Polónium-202",
+			"en": "Polonium-202"
+		}, {
+			"weight": "202.981420103",
+			"rate": "0",
+			"halfRate": "37 min",
+
+			"hu": "Polónium-203",
+			"en": "Polonium-203"
+		}, {
+			"weight": "203.980318121",
+			"rate": "0",
+			"halfRate": "3.53 h",
+
+			"hu": "Polónium-204",
+			"en": "Polonium-204"
+		}, {
+			"weight": "204.981203322",
+			"rate": "0",
+			"halfRate": "1.661 h",
+
+			"hu": "Polónium-205",
+			"en": "Polonium-205"
+		}, {
+			"weight": "205.980481099",
+			"rate": "0",
+			"halfRate": "8.8 d",
+
+			"hu": "Polónium-206",
+			"en": "Polonium-206"
+		}, {
+			"weight": "206.981593173",
+			"rate": "0",
+			"halfRate": "5.8 h",
+
+			"hu": "Polónium-207",
+			"en": "Polonium-207"
+		}, {
+			"weight": "207.981245702",
+			"rate": "0",
+			"halfRate": "2.898 y",
+
+			"hu": "Polónium-208",
+			"en": "Polonium-208"
+		}, {
+			"weight": "208.982430435",
+			"rate": "0",
+			"halfRate": "102 y",
+
+			"hu": "Polónium-209",
+			"en": "Polonium-209"
+		}, {
+			"weight": "209.982873673",
+			"rate": "0",
+			"halfRate": "138.376 d",
+
+			"hu": "Polónium-210",
+			"en": "Polonium-210"
+		}, {
+			"weight": "210.986653154",
+			"rate": "0",
+			"halfRate": "516 ms",
+
+			"hu": "Polónium-211",
+			"en": "Polonium-211"
+		}, {
+			"weight": "211.988867969",
+			"rate": "0",
+			"halfRate": "299 ns",
+
+			"hu": "Polónium-212",
+			"en": "Polonium-212"
+		}, {
+			"weight": "212.99285728",
+			"rate": "0",
+			"halfRate": "4.2 µs",
+
+			"hu": "Polónium-213",
+			"en": "Polonium-213"
+		}, {
+			"weight": "213.99520135",
+			"rate": "0",
+			"halfRate": "164.3 µs",
+
+			"hu": "Polónium-214",
+			"en": "Polonium-214"
+		}, {
+			"weight": "214.999419988",
+			"rate": "0",
+			"halfRate": "1.781 ms",
+
+			"hu": "Polónium-215",
+			"en": "Polonium-215"
+		}, {
+			"weight": "216.001915035",
+			"rate": "0",
+			"halfRate": "145 ms",
+
+			"hu": "Polónium-216",
+			"en": "Polonium-216"
+		}, {
+			"weight": "217.006334796",
+			"rate": "0",
+			"halfRate": "1.47 s",
+
+			"hu": "Polónium-217",
+			"en": "Polonium-217"
+		}, {
+			"weight": "218.008973037",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Polónium-218",
+			"en": "Polonium-218"
+		}, {
+			"weight": "219.013744",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Polónium-219",
+			"en": "Polonium-219"
+		}, {
+			"weight": "220.016602",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Polónium-220",
+			"en": "Polonium-220"
+		}
+	]
+}

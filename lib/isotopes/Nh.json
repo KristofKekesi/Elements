@@ -1,1 +1,40 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "283.176451",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Nihónium-283",
+			"en": "Nihonium-283"
+		}, {
+			"weight": "284.17808",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Nihónium-284",
+			"en": "Nihonium-284"
+		}, {
+			"weight": "285.178732",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Nihónium-285",
+			"en": "Nihonium-285"
+		}, {
+			"weight": "286.180481",
+			"rate": "0",
+			"halfRate": "5 min",
+
+			"hu": "Nihónium-286",
+			"en": "Nihonium-286"
+		}, {
+			"weight": "287.181045",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Nihónium-267",
+			"en": "Nihonium-267"
+		}
+	]
+}

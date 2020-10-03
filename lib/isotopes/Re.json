@@ -1,1 +1,250 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "159.982115",
+			"rate": "0",
+			"halfRate": "860 µs",
+
+			"hu": "Rénium-160",
+			"en": "Rhenium-160"
+		}, {
+			"weight": "160.977589119",
+			"rate": "0",
+			"halfRate": "370 µs",
+
+			"hu": "Rénium-161",
+			"en": "Rhenium-161"
+		}, {
+			"weight": "161.976002",
+			"rate": "0",
+			"halfRate": "107 ms",
+
+			"hu": "Rénium-162",
+			"en": "Rhenium-162"
+		}, {
+			"weight": "162.972080535",
+			"rate": "0",
+			"halfRate": "390 ms",
+
+			"hu": "Rénium-163",
+			"en": "Rhenium-163"
+		}, {
+			"weight": "163.970323",
+			"rate": "0",
+			"halfRate": "unknown",
+
+			"hu": "Rénium-164",
+			"en": "Rhenium-164"
+		}, {
+			"weight": "164.967088557",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Rénium-165",
+			"en": "Rhenium-165"
+		}, {
+			"weight": "165.965808",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Rénium-166",
+			"en": "Rhenium-166"
+		}, {
+			"weight": "166.962601",
+			"rate": "0",
+			"halfRate": "3.4 s",
+
+			"hu": "Rénium-167",
+			"en": "Rhenium-167"
+		}, {
+			"weight": "167.961572608",
+			"rate": "0",
+			"halfRate": "4.4 s",
+
+			"hu": "Rénium-168",
+			"en": "Rhenium-168"
+		}, {
+			"weight": "168.958791096",
+			"rate": "0",
+			"halfRate": "8.1 s",
+
+			"hu": "Rénium-169",
+			"en": "Rhenium-169"
+		}, {
+			"weight": "169.958220071",
+			"rate": "0",
+			"halfRate": "9.2 s",
+
+			"hu": "Rénium-170",
+			"en": "Rhenium-170"
+		}, {
+			"weight": "170.955716",
+			"rate": "0",
+			"halfRate": "15.2 s",
+
+			"hu": "Rénium-171",
+			"en": "Rhenium-171"
+		}, {
+			"weight": "171.955422961",
+			"rate": "0",
+			"halfRate": "15 s",
+
+			"hu": "Rénium-172",
+			"en": "Rhenium-172"
+		}, {
+			"weight": "172.953243",
+			"rate": "0",
+			"halfRate": "2 min",
+
+			"hu": "Rénium-173",
+			"en": "Rhenium-173"
+		}, {
+			"weight": "173.953115",
+			"rate": "0",
+			"halfRate": "2.33 min",
+
+			"hu": "Rénium-174",
+			"en": "Rhenium-174"
+		}, {
+			"weight": "174.951381",
+			"rate": "0",
+			"halfRate": "5.88 min",
+
+			"hu": "Rénium-175",
+			"en": "Rhenium-175"
+		}, {
+			"weight": "175.951623",
+			"rate": "0",
+			"halfRate": "5.33 min",
+
+			"hu": "Rénium-176",
+			"en": "Rhenium-176"
+		}, {
+			"weight": "176.950328",
+			"rate": "0",
+			"halfRate": "14 min",
+
+			"hu": "Rénium-177",
+			"en": "Rhenium-177"
+		}, {
+			"weight": "177.950989",
+			"rate": "0",
+			"halfRate": "13.2 min",
+
+			"hu": "Rénium-178",
+			"en": "Rhenium-178"
+		}, {
+			"weight": "178.949987641",
+			"rate": "0",
+			"halfRate": "19.5 min",
+
+			"hu": "Rénium-179",
+			"en": "Rhenium-179"
+		}, {
+			"weight": "179.950789084",
+			"rate": "0",
+			"halfRate": "2.43 min",
+
+			"hu": "Rénium-180",
+			"en": "Rhenium-180"
+		}, {
+			"weight": "180.950067916",
+			"rate": "0",
+			"halfRate": "19.9 h",
+
+			"hu": "Rénium-181",
+			"en": "Rhenium-181"
+		}, {
+			"weight": "181.95121008",
+			"rate": "0",
+			"halfRate": "2.7 d",
+
+			"hu": "Rénium-182",
+			"en": "Rhenium-182"
+		}, {
+			"weight": "182.950819841",
+			"rate": "0",
+			"halfRate": "69 d",
+
+			"hu": "Rénium-183",
+			"en": "Rhenium-183"
+		}, {
+			"weight": "183.952520756",
+			"rate": "0",
+			"halfRate": "38 d",
+
+			"hu": "Rénium-184",
+			"en": "Rhenium-184"
+		}, {
+			"weight": "184.952954982",
+			"rate": "37.4",
+			"halfRate": "stable",
+
+			"hu": "Rénium-185",
+			"en": "Rhenium-185"
+		}, {
+			"weight": "185.954986084",
+			"rate": "0",
+			"halfRate": "3.71829 d",
+
+			"hu": "Rénium-186",
+			"en": "Rhenium-186"
+		}, {
+			"weight": "186.955753109",
+			"rate": "62.6",
+			"halfRate": "41000000000 y",
+
+			"hu": "Rénium-187",
+			"en": "Rhenium-187"
+		}, {
+			"weight": "187.958114438",
+			"rate": "0",
+			"halfRate": "17.004 h",
+
+			"hu": "Rénium-188",
+			"en": "Rhenium-188"
+		}, {
+			"weight": "188.959229007",
+			"rate": "0",
+			"halfRate": "1.01 d",
+
+			"hu": "Rénium-189",
+			"en": "Rhenium-189"
+		}, {
+			"weight": "189.961817977",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Rénium-190",
+			"en": "Rhenium-190"
+		}, {
+			"weight": "190.963125242",
+			"rate": "0",
+			"halfRate": "9.83 min",
+
+			"hu": "Rénium-191",
+			"en": "Rhenium-191"
+		}, {
+			"weight": "191.96596",
+			"rate": "0",
+			"halfRate": "16 s",
+
+			"hu": "Rénium-192",
+			"en": "Rhenium-192"
+		}, {
+			"weight": "192.96747",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Rénium-193",
+			"en": "Rhenium-193"
+		}, {
+			"weight": "193.97042",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Rénium-194",
+			"en": "Rhenium-194"
+		}
+	]
+}

@@ -1,1 +1,250 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "144.970073",
+			"rate": "0",
+			"halfRate": "3.1 µs",
+
+			"hu": "Túlium-145",
+			"en": "Thulium-145"
+		}, {
+			"weight": "145.966425",
+			"rate": "0",
+			"halfRate": "240 ms",
+
+			"hu": "Túlium-146",
+			"en": "Thulium-146"
+		}, {
+			"weight": "146.960961",
+			"rate": "0",
+			"halfRate": "580 ms",
+
+			"hu": "Túlium-147",
+			"en": "Thulium-147"
+		}, {
+			"weight": "147.95784",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Túlium-148",
+			"en": "Thulium-148"
+		}, {
+			"weight": "148.95272",
+			"rate": "0",
+			"halfRate": "900 ms",
+
+			"hu": "Túlium-149",
+			"en": "Thulium-149"
+		}, {
+			"weight": "149.94996",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Túlium-150",
+			"en": "Thulium-150"
+		}, {
+			"weight": "150.94548349",
+			"rate": "0",
+			"halfRate": "4.17 s",
+
+			"hu": "Túlium-151",
+			"en": "Thulium-151"
+		}, {
+			"weight": "151.944422",
+			"rate": "0",
+			"halfRate": "8 s",
+
+			"hu": "Túlium-152",
+			"en": "Thulium-152"
+		}, {
+			"weight": "152.942012112",
+			"rate": "0",
+			"halfRate": "1.48 s",
+
+			"hu": "Túlium-153",
+			"en": "Thulium-153"
+		}, {
+			"weight": "153.941567808",
+			"rate": "0",
+			"halfRate": "8.1 s",
+
+			"hu": "Túlium-154",
+			"en": "Thulium-154"
+		}, {
+			"weight": "154.939199459",
+			"rate": "0",
+			"halfRate": "21.6 s",
+
+			"hu": "Túlium-155",
+			"en": "Thulium-155"
+		}, {
+			"weight": "155.938979933",
+			"rate": "0",
+			"halfRate": "1.4 min",
+
+			"hu": "Túlium-156",
+			"en": "Thulium-156"
+		}, {
+			"weight": "156.936973",
+			"rate": "0",
+			"halfRate": "3.63 min",
+
+			"hu": "Túlium-157",
+			"en": "Thulium-157"
+		}, {
+			"weight": "157.936979525",
+			"rate": "0",
+			"halfRate": "3.98 min",
+
+			"hu": "Túlium-158",
+			"en": "Thulium-158"
+		}, {
+			"weight": "158.934975",
+			"rate": "0",
+			"halfRate": "9.13 min",
+
+			"hu": "Túlium-159",
+			"en": "Thulium-159"
+		}, {
+			"weight": "159.935262801",
+			"rate": "0",
+			"halfRate": "9.33 min",
+
+			"hu": "Túlium-160",
+			"en": "Thulium-160"
+		}, {
+			"weight": "160.933549",
+			"rate": "0",
+			"halfRate": "30.17 min",
+
+			"hu": "Túlium-161",
+			"en": "Thulium-161"
+		}, {
+			"weight": "161.933994682",
+			"rate": "0",
+			"halfRate": "22 min",
+
+			"hu": "Túlium-162",
+			"en": "Thulium-162"
+		}, {
+			"weight": "162.932651124",
+			"rate": "0",
+			"halfRate": "1.811 h",
+
+			"hu": "Túlium-163",
+			"en": "Thulium-163"
+		}, {
+			"weight": "163.93356",
+			"rate": "0",
+			"halfRate": "2 min",
+
+			"hu": "Túlium-164",
+			"en": "Thulium-164"
+		}, {
+			"weight": "164.932435492",
+			"rate": "0",
+			"halfRate": "1.252 d",
+
+			"hu": "Túlium-165",
+			"en": "Thulium-165"
+		}, {
+			"weight": "165.933554131",
+			"rate": "0",
+			"halfRate": "7.8 h",
+
+			"hu": "Túlium-166",
+			"en": "Thulium-166"
+		}, {
+			"weight": "166.932851622",
+			"rate": "0",
+			"halfRate": "9.25 d",
+
+			"hu": "Túlium-167",
+			"en": "Thulium-167"
+		}, {
+			"weight": "167.934172776",
+			"rate": "0",
+			"halfRate": "93.1 d",
+
+			"hu": "Túlium-168",
+			"en": "Thulium-168"
+		}, {
+			"weight": "168.93421325",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Túlium-169",
+			"en": "Thulium-169"
+		}, {
+			"weight": "169.935801397",
+			"rate": "0",
+			"halfRate": "128.6 d",
+
+			"hu": "Túlium-170",
+			"en": "Thulium-170"
+		}, {
+			"weight": "170.93642944",
+			"rate": "0",
+			"halfRate": "1.92 y",
+
+			"hu": "Túlium-171",
+			"en": "Thulium-171"
+		}, {
+			"weight": "171.938400044",
+			"rate": "0",
+			"halfRate": "2.65 d",
+
+			"hu": "Túlium-172",
+			"en": "Thulium-172"
+		}, {
+			"weight": "172.939603607",
+			"rate": "0",
+			"halfRate": "8.25 h",
+
+			"hu": "Túlium-173",
+			"en": "Thulium-173"
+		}, {
+			"weight": "173.942168605",
+			"rate": "0",
+			"halfRate": "5.33 min",
+
+			"hu": "Túlium-174",
+			"en": "Thulium-174"
+		}, {
+			"weight": "174.943836853",
+			"rate": "0",
+			"halfRate": "15.2 min",
+
+			"hu": "Túlium-175",
+			"en": "Thulium-175"
+		}, {
+			"weight": "175.946994685",
+			"rate": "0",
+			"halfRate": "1.85 min",
+
+			"hu": "Túlium-176",
+			"en": "Thulium-176"
+		}, {
+			"weight": "176.94904",
+			"rate": "0",
+			"halfRate": "1.5 min",
+
+			"hu": "Túlium-177",
+			"en": "Thulium-177"
+		}, {
+			"weight": "177.95264",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Túlium-178",
+			"en": "Thulium-178"
+		}, {
+			"weight": "178.95534",
+			"rate": "0",
+			"halfRate": "20 s",
+
+			"hu": "Túlium-179",
+			"en": "Thulium-179"
+		}
+	]
+}

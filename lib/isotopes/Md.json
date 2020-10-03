@@ -1,1 +1,131 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "245.080829",
+			"rate": "0",
+			"halfRate": "900 µs",
+
+			"hu": "Mendelévium-245",
+			"en": "Mendelevium-245"
+		}, {
+			"weight": "246.081886",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Mendelévium-246",
+			"en": "Mendelevium-246"
+		}, {
+			"weight": "247.081635",
+			"rate": "0",
+			"halfRate": "270 ms",
+
+			"hu": "Mendelévium-247",
+			"en": "Mendelevium-247"
+		}, {
+			"weight": "248.082823",
+			"rate": "0",
+			"halfRate": "7 s",
+
+			"hu": "Mendelévium-248",
+			"en": "Mendelevium-248"
+		}, {
+			"weight": "249.083013",
+			"rate": "0",
+			"halfRate": "24 s",
+
+			"hu": "Mendelévium-249",
+			"en": "Mendelevium-249"
+		}, {
+			"weight": "250.08442",
+			"rate": "0",
+			"halfRate": "52 s",
+
+			"hu": "Mendelévium-250",
+			"en": "Mendelevium-250"
+		}, {
+			"weight": "251.084839",
+			"rate": "0",
+			"halfRate": "4 min",
+
+			"hu": "Mendelévium-251",
+			"en": "Mendelevium-251"
+		}, {
+			"weight": "252.08656",
+			"rate": "0",
+			"halfRate": "2.33 min",
+
+			"hu": "Mendelévium-252",
+			"en": "Mendelevium-252"
+		}, {
+			"weight": "253.08728",
+			"rate": "0",
+			"halfRate": "12 min",
+
+			"hu": "Mendelévium-253",
+			"en": "Mendelevium-253"
+		}, {
+			"weight": "254.089656",
+			"rate": "0",
+			"halfRate": "10 min",
+
+			"hu": "Mendelévium-254",
+			"en": "Mendelevium-254"
+		}, {
+			"weight": "255.091082705",
+			"rate": "0",
+			"halfRate": "27 min",
+
+			"hu": "Mendelévium-255",
+			"en": "Mendelevium-255"
+		}, {
+			"weight": "256.094059025",
+			"rate": "0",
+			"halfRate": "1.3 h",
+
+			"hu": "Mendelévium-256",
+			"en": "Mendelevium-256"
+		}, {
+			"weight": "257.095541368",
+			"rate": "0",
+			"halfRate": "5.53 h",
+
+			"hu": "Mendelévium-257",
+			"en": "Mendelevium-257"
+		}, {
+			"weight": "258.098431319",
+			"rate": "0",
+			"halfRate": "51.5 d",
+
+			"hu": "Mendelévium-258",
+			"en": "Mendelevium-258"
+		}, {
+			"weight": "259.100509",
+			"rate": "0",
+			"halfRate": "1.6 h",
+
+			"hu": "Mendelévium-259",
+			"en": "Mendelevium-259"
+		}, {
+			"weight": "260.103652",
+			"rate": "0",
+			"halfRate": "28 d",
+
+			"hu": "Mendelévium-260",
+			"en": "Mendelevium-260"
+		}, {
+			"weight": "261.105721",
+			"rate": "0",
+			"halfRate": "40 min",
+
+			"hu": "Mendelévium-261",
+			"en": "Mendelevium-261"
+		}, {
+			"weight": "262.108865",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Mendelévium-262",
+			"en": "Mendelevium-262"
+		}
+	]
+}

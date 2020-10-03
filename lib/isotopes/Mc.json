@@ -1,1 +1,40 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "287.191186",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Moszkóvium-287",
+			"en": "Moscovium-287"
+		}, {
+			"weight": "288.192492",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Moszkóvium-288",
+			"en": "Moscovium-288"
+		}, {
+			"weight": "289.192715",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Moszkóvium-289",
+			"en": "Moscovium-289"
+		}, {
+			"weight": "290.194141",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Moszkóvium-290",
+			"en": "Moscovium-290"
+		}, {
+			"weight": "291.194384",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Moszkóvium-291",
+			"en": "Moscovium-291"
+		}
+	]
+}

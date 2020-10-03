@@ -1,1 +1,250 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "157.974562",
+			"rate": "0",
+			"halfRate": "1.37 ms",
+
+			"hu": "Volfrám-158",
+			"en": "Tungsten-158"
+		}, {
+			"weight": "158.972918",
+			"rate": "0",
+			"halfRate": "8.2 ms",
+
+			"hu": "Volfrám-159",
+			"en": "Tungsten-159"
+		}, {
+			"weight": "159.968478805",
+			"rate": "0",
+			"halfRate": "90 ms",
+
+			"hu": "Volfrám-160",
+			"en": "Tungsten-160"
+		}, {
+			"weight": "160.967357",
+			"rate": "0",
+			"halfRate": "409 ms",
+
+			"hu": "Volfrám-161",
+			"en": "Tungsten-161"
+		}, {
+			"weight": "161.963497417",
+			"rate": "0",
+			"halfRate": "1.36 s",
+
+			"hu": "Volfrám-162",
+			"en": "Tungsten-162"
+		}, {
+			"weight": "162.962523542",
+			"rate": "0",
+			"halfRate": "2.8 s",
+
+			"hu": "Volfrám-163",
+			"en": "Tungsten-163"
+		}, {
+			"weight": "163.958954382",
+			"rate": "0",
+			"halfRate": "6.3 s",
+
+			"hu": "Volfrám-164",
+			"en": "Tungsten-164"
+		}, {
+			"weight": "164.958279949",
+			"rate": "0",
+			"halfRate": "5.1 s",
+
+			"hu": "Volfrám-165",
+			"en": "Tungsten-165"
+		}, {
+			"weight": "165.955027253",
+			"rate": "0",
+			"halfRate": "19.2 s",
+
+			"hu": "Volfrám-166",
+			"en": "Tungsten-166"
+		}, {
+			"weight": "166.954816014",
+			"rate": "0",
+			"halfRate": "19.9 s",
+
+			"hu": "Volfrám-167",
+			"en": "Tungsten-167"
+		}, {
+			"weight": "167.951808394",
+			"rate": "0",
+			"halfRate": "51 s",
+
+			"hu": "Volfrám-168",
+			"en": "Tungsten-168"
+		}, {
+			"weight": "168.95177879",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Volfrám-169",
+			"en": "Tungsten-169"
+		}, {
+			"weight": "169.949228482",
+			"rate": "0",
+			"halfRate": "2.42 min",
+
+			"hu": "Volfrám-170",
+			"en": "Tungsten-170"
+		}, {
+			"weight": "170.949451",
+			"rate": "0",
+			"halfRate": "2.38 min",
+
+			"hu": "Volfrám-171",
+			"en": "Tungsten-171"
+		}, {
+			"weight": "171.947292",
+			"rate": "0",
+			"halfRate": "6.7 min",
+
+			"hu": "Volfrám-172",
+			"en": "Tungsten-172"
+		}, {
+			"weight": "172.947689",
+			"rate": "0",
+			"halfRate": "7.67 min",
+
+			"hu": "Volfrám-173",
+			"en": "Tungsten-173"
+		}, {
+			"weight": "173.946079",
+			"rate": "0",
+			"halfRate": "333.17 min",
+
+			"hu": "Volfrám-174",
+			"en": "Tungsten-174"
+		}, {
+			"weight": "174.946717",
+			"rate": "0",
+			"halfRate": "35.17 min",
+
+			"hu": "Volfrám-175",
+			"en": "Tungsten-175"
+		}, {
+			"weight": "175.945634",
+			"rate": "0",
+			"halfRate": "2.5 h",
+
+			"hu": "Volfrám-176",
+			"en": "Tungsten-176"
+		}, {
+			"weight": "176.946643",
+			"rate": "0",
+			"halfRate": "2.2 h",
+
+			"hu": "Volfrám-177",
+			"en": "Tungsten-177"
+		}, {
+			"weight": "177.945876236",
+			"rate": "0",
+			"halfRate": "21.6 d",
+
+			"hu": "Volfrám-178",
+			"en": "Tungsten-178"
+		}, {
+			"weight": "178.947070447",
+			"rate": "0",
+			"halfRate": "37.05 min",
+
+			"hu": "Volfrám-179",
+			"en": "Tungsten-179"
+		}, {
+			"weight": "179.946704459",
+			"rate": "0.12",
+			"halfRate": "stable",
+
+			"hu": "Volfrám-180",
+			"en": "Tungsten-180"
+		}, {
+			"weight": "180.948197248",
+			"rate": "0",
+			"halfRate": "121.2 d",
+
+			"hu": "Volfrám-181",
+			"en": "Tungsten-181"
+		}, {
+			"weight": "181.948204156",
+			"rate": "26.5",
+			"halfRate": "stable",
+
+			"hu": "Volfrám-182",
+			"en": "Tungsten-182"
+		}, {
+			"weight": "182.950222951",
+			"rate": "14.31",
+			"halfRate": "stable",
+
+			"hu": "Volfrám-183",
+			"en": "Tungsten-183"
+		}, {
+			"weight": "183.950931188",
+			"rate": "30.64",
+			"halfRate": "stable",
+
+			"hu": "Volfrám-184",
+			"en": "Tungsten-184"
+		}, {
+			"weight": "184.953419264",
+			"rate": "0",
+			"halfRate": "75.1 d",
+
+			"hu": "Volfrám-185",
+			"en": "Tungsten-185"
+		}, {
+			"weight": "185.954364127",
+			"rate": "28.43",
+			"halfRate": "stable",
+
+			"hu": "Volfrám-186",
+			"en": "Tungsten-186"
+		}, {
+			"weight": "186.957160466",
+			"rate": "0",
+			"halfRate": "23.719 h",
+
+			"hu": "Volfrám-187",
+			"en": "Tungsten-187"
+		}, {
+			"weight": "187.958489105",
+			"rate": "0",
+			"halfRate": "69.78 d",
+
+			"hu": "Volfrám-188",
+			"en": "Tungsten-188"
+		}, {
+			"weight": "188.961912868",
+			"rate": "0",
+			"halfRate": "11.6 min",
+
+			"hu": "Volfrám-189",
+			"en": "Tungsten-189"
+		}, {
+			"weight": "189.963181378",
+			"rate": "0",
+			"halfRate": "30 min",
+
+			"hu": "Volfrám-190",
+			"en": "Tungsten-190"
+		}, {
+			"weight": "190.9666",
+			"rate": "0",
+			"halfRate": "20 s",
+
+			"hu": "Volfrám-191",
+			"en": "Tungsten-191"
+		}, {
+			"weight": "191.96817",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Volfrám-192",
+			"en": "Tungsten-192"
+		}
+	]
+}

@@ -1,1 +1,124 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "248.086596",
+			"rate": "0",
+			"halfRate": "2 µs",
+
+			"hu": "Nobélium-248",
+			"en": "Nobelium-248"
+		}, {
+			"weight": "249.087833",
+			"rate": "0",
+			"halfRate": "57 µs",
+
+			"hu": "Nobélium-249",
+			"en": "Nobelium-249"
+		}, {
+			"weight": "250.08751",
+			"rate": "0",
+			"halfRate": "5.7 µs",
+
+			"hu": "Nobélium-250",
+			"en": "Nobelium-250"
+		}, {
+			"weight": "251.089012",
+			"rate": "0",
+			"halfRate": "760 ms",
+
+			"hu": "Nobélium-251",
+			"en": "Nobelium-251"
+		}, {
+			"weight": "252.088976521",
+			"rate": "0",
+			"halfRate": "2.44 s",
+
+			"hu": "Nobélium-252",
+			"en": "Nobelium-252"
+		}, {
+			"weight": "253.090678",
+			"rate": "0",
+			"halfRate": "1.62 min",
+
+			"hu": "Nobélium-253",
+			"en": "Nobelium-253"
+		}, {
+			"weight": "254.090955253",
+			"rate": "0",
+			"halfRate": "51 s",
+
+			"hu": "Nobélium-254",
+			"en": "Nobelium-254"
+		}, {
+			"weight": "255.093241131",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Nobélium-255",
+			"en": "Nobelium-255"
+		}, {
+			"weight": "256.094282666",
+			"rate": "0",
+			"halfRate": "2.91 s",
+
+			"hu": "Nobélium-256",
+			"en": "Nobelium-256"
+		}, {
+			"weight": "257.09687719",
+			"rate": "0",
+			"halfRate": "25 s",
+
+			"hu": "Nobélium-257",
+			"en": "Nobelium-257"
+		}, {
+			"weight": "258.098207",
+			"rate": "0",
+			"halfRate": "1.2 ms",
+
+			"hu": "Nobélium-258",
+			"en": "Nobelium-258"
+		}, {
+			"weight": "259.101031",
+			"rate": "0",
+			"halfRate": "58 min",
+
+			"hu": "Nobélium-259",
+			"en": "Nobelium-259"
+		}, {
+			"weight": "260.102643",
+			"rate": "0",
+			"halfRate": "106 ms",
+
+			"hu": "Nobélium-260",
+			"en": "Nobelium-260"
+		}, {
+			"weight": "261.105749",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Nobélium-261",
+			"en": "Nobelium-261"
+		}, {
+			"weight": "262.107301",
+			"rate": "0",
+			"halfRate": "5 ms",
+
+			"hu": "Nobélium-262",
+			"en": "Nobelium-262"
+		}, {
+			"weight": "263.110552",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Nobélium-263",
+			"en": "Nobelium-263"
+		}, {
+			"weight": "264.112345",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Nobélium-264",
+			"en": "Nobelium-264"
+		}
+	]
+}

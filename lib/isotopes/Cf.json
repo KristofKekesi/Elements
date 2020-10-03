@@ -1,1 +1,145 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "237.06207",
+			"rate": "0",
+			"halfRate": "2.1 s",
+
+			"hu": "Kalifornium-237",
+			"en": "Californium-237"
+		}, {
+			"weight": "238.06141",
+			"rate": "0",
+			"halfRate": "21.1 ms",
+
+			"hu": "Kalifornium-238",
+			"en": "Californium-238"
+		}, {
+			"weight": "239.062422",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Kalifornium-239",
+			"en": "Californium-239"
+		}, {
+			"weight": "240.062302",
+			"rate": "0",
+			"halfRate": "1.06 min",
+
+			"hu": "Kalifornium-240",
+			"en": "Californium-240"
+		}, {
+			"weight": "241.063726",
+			"rate": "0",
+			"halfRate": "3.83 min",
+
+			"hu": "Kalifornium-241",
+			"en": "Californium-241"
+		}, {
+			"weight": "242.063701552",
+			"rate": "0",
+			"halfRate": "3.48 min",
+
+			"hu": "Kalifornium-242",
+			"en": "Californium-242"
+		}, {
+			"weight": "243.065427",
+			"rate": "0",
+			"halfRate": "10.7 min",
+
+			"hu": "Kalifornium-243",
+			"en": "Californium-243"
+		}, {
+			"weight": "244.066000689",
+			"rate": "0",
+			"halfRate": "19.33 min",
+
+			"hu": "Kalifornium-244",
+			"en": "Californium-244"
+		}, {
+			"weight": "245.068048612",
+			"rate": "0",
+			"halfRate": "45 min",
+
+			"hu": "Kalifornium-245",
+			"en": "Californium-245"
+		}, {
+			"weight": "246.068805309",
+			"rate": "0",
+			"halfRate": "1.49 d",
+
+			"hu": "Kalifornium-246",
+			"en": "Californium-246"
+		}, {
+			"weight": "247.071000589",
+			"rate": "0",
+			"halfRate": "3.11 h",
+
+			"hu": "Kalifornium-247",
+			"en": "Californium-247"
+		}, {
+			"weight": "248.072184861",
+			"rate": "0",
+			"halfRate": "334 d",
+
+			"hu": "Kalifornium-248",
+			"en": "Californium-248"
+		}, {
+			"weight": "249.074853537",
+			"rate": "0",
+			"halfRate": "352 y",
+
+			"hu": "Kalifornium-249",
+			"en": "Californium-249"
+		}, {
+			"weight": "250.076406066",
+			"rate": "0",
+			"halfRate": "13.08 y",
+
+			"hu": "Kalifornium-250",
+			"en": "Californium-250"
+		}, {
+			"weight": "251.079586788",
+			"rate": "0",
+			"halfRate": "900 y",
+
+			"hu": "Kalifornium-251",
+			"en": "Californium-251"
+		}, {
+			"weight": "252.081625846",
+			"rate": "0",
+			"halfRate": "2.645 y",
+
+			"hu": "Kalifornium-252",
+			"en": "Californium-252"
+		}, {
+			"weight": "253.085133145",
+			"rate": "0",
+			"halfRate": "17.81 d",
+
+			"hu": "Kalifornium-253",
+			"en": "Californium-253"
+		}, {
+			"weight": "254.087322909",
+			"rate": "0",
+			"halfRate": "60.5 d",
+
+			"hu": "Kalifornium-254",
+			"en": "Californium-254"
+		}, {
+			"weight": "255.091046",
+			"rate": "0",
+			"halfRate": "1.4 h",
+
+			"hu": "Kalifornium-255",
+			"en": "Californium-255"
+		}, {
+			"weight": "256.09344",
+			"rate": "0",
+			"halfRate": "12.3 min",
+
+			"hu": "Kalifornium-256",
+			"en": "Californium-256"
+		}
+	]
+}

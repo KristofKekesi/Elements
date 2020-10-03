@@ -1,1 +1,117 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "255.107398",
+			"rate": "0",
+			"halfRate": "1.7 s",
+
+			"hu": "Dubnium-255",
+			"en": "Dubnium-255"
+		}, {
+			"weight": "256.108127",
+			"rate": "0",
+			"halfRate": "1.9 s",
+
+			"hu": "Dubnium-256",
+			"en": "Dubnium-256"
+		}, {
+			"weight": "257.107722",
+			"rate": "0",
+			"halfRate": "1.53 s",
+
+			"hu": "Dubnium-257",
+			"en": "Dubnium-257"
+		}, {
+			"weight": "258.109231",
+			"rate": "0",
+			"halfRate": "4.5 s",
+
+			"hu": "Dubnium-258",
+			"en": "Dubnium-258"
+		}, {
+			"weight": "259.10961",
+			"rate": "0",
+			"halfRate": "510 ms",
+
+			"hu": "Dubnium-259",
+			"en": "Dubnium-259"
+		}, {
+			"weight": "260.1113",
+			"rate": "0",
+			"halfRate": "1.52 s",
+
+			"hu": "Dubnium-260",
+			"en": "Dubnium-260"
+		}, {
+			"weight": "261.112056",
+			"rate": "0",
+			"halfRate": "1.8 s",
+
+			"hu": "Dubnium-261",
+			"en": "Dubnium-261"
+		}, {
+			"weight": "262.114084",
+			"rate": "0",
+			"halfRate": "35 s",
+
+			"hu": "Dubnium-262",
+			"en": "Dubnium-262"
+		}, {
+			"weight": "263.114988",
+			"rate": "0",
+			"halfRate": "29 s",
+
+			"hu": "Dubnium-263",
+			"en": "Dubnium-263"
+		}, {
+			"weight": "264.117404",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Dubnium-264",
+			"en": "Dubnium-264"
+		}, {
+			"weight": "265.118601",
+			"rate": "0",
+			"halfRate": "15 min",
+
+			"hu": "Dubnium-265",
+			"en": "Dubnium-265"
+		}, {
+			"weight": "266.121029",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Dubnium-266",
+			"en": "Dubnium-266"
+		}, {
+			"weight": "267.122377",
+			"rate": "0",
+			"halfRate": "1.9 h",
+
+			"hu": "Dubnium-267",
+			"en": "Dubnium-267"
+		}, {
+			"weight": "268.125445",
+			"rate": "0",
+			"halfRate": "5.6 h",
+
+			"hu": "Dubnium-268",
+			"en": "Dubnium-268"
+		}, {
+			"weight": "269.12746",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Dubnium-269",
+			"en": "Dubnium-269"
+		}, {
+			"weight": "270.130712",
+			"rate": "0",
+			"halfRate": "1.1 h",
+
+			"hu": "Dubnium-270",
+			"en": "Dubnium-270"
+		}
+	]
+}

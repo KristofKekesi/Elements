@@ -1,1 +1,222 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "192.999843112",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Asztácium-193",
+			"en": "Astatine-193"
+		}, {
+			"weight": "193.998725085",
+			"rate": "0",
+			"halfRate": "40 ms",
+
+			"hu": "Asztácium-194",
+			"en": "Astatine-194"
+		}, {
+			"weight": "194.996268098",
+			"rate": "0",
+			"halfRate": "328 ms",
+
+			"hu": "Asztácium-195",
+			"en": "Astatine-195"
+		}, {
+			"weight": "195.995788077",
+			"rate": "0",
+			"halfRate": "253 ms",
+
+			"hu": "Asztácium-196",
+			"en": "Astatine-196"
+		}, {
+			"weight": "196.993189215",
+			"rate": "0",
+			"halfRate": "350 ms",
+
+			"hu": "Asztácium-197",
+			"en": "Astatine-197"
+		}, {
+			"weight": "197.992837202",
+			"rate": "0",
+			"halfRate": "4.2 s",
+
+			"hu": "Asztácium-198",
+			"en": "Astatine-198"
+		}, {
+			"weight": "198.990532254",
+			"rate": "0",
+			"halfRate": "7.2 s",
+
+			"hu": "Asztácium-199",
+			"en": "Astatine-199"
+		}, {
+			"weight": "199.990351264",
+			"rate": "0",
+			"halfRate": "43.2 s",
+
+			"hu": "Asztácium-200",
+			"en": "Astatine-200"
+		}, {
+			"weight": "200.988416999",
+			"rate": "0",
+			"halfRate": "1.4 min",
+
+			"hu": "Asztácium-201",
+			"en": "Astatine-201"
+		}, {
+			"weight": "201.988630236",
+			"rate": "0",
+			"halfRate": "3.07 min",
+
+			"hu": "Asztácium-202",
+			"en": "Astatine-202"
+		}, {
+			"weight": "202.986941984",
+			"rate": "0",
+			"halfRate": "7.33 min",
+
+			"hu": "Asztácium-203",
+			"en": "Astatine-203"
+		}, {
+			"weight": "203.987251326",
+			"rate": "0",
+			"halfRate": "9.17 min",
+
+			"hu": "Asztácium-204",
+			"en": "Astatine-204"
+		}, {
+			"weight": "204.986074483",
+			"rate": "0",
+			"halfRate": "26.17 min",
+
+			"hu": "Asztácium-205",
+			"en": "Astatine-205"
+		}, {
+			"weight": "205.986667036",
+			"rate": "0",
+			"halfRate": "30.67 min",
+
+			"hu": "Asztácium-206",
+			"en": "Astatine-206"
+		}, {
+			"weight": "206.985783502",
+			"rate": "0",
+			"halfRate": "1.8 h",
+
+			"hu": "Asztácium-207",
+			"en": "Astatine-207"
+		}, {
+			"weight": "207.986589977",
+			"rate": "0",
+			"halfRate": "1.631 h",
+
+			"hu": "Asztácium-208",
+			"en": "Astatine-208"
+		}, {
+			"weight": "208.986173143",
+			"rate": "0",
+			"halfRate": "5.42 h",
+
+			"hu": "Asztácium-209",
+			"en": "Astatine-209"
+		}, {
+			"weight": "209.98714771",
+			"rate": "0",
+			"halfRate": "8.1 h",
+
+			"hu": "Asztácium-210",
+			"en": "Astatine-210"
+		}, {
+			"weight": "210.987496271",
+			"rate": "0",
+			"halfRate": "7.2139 h",
+
+			"hu": "Asztácium-211",
+			"en": "Astatine-211"
+		}, {
+			"weight": "211.990744771",
+			"rate": "0",
+			"halfRate": "314 ms",
+
+			"hu": "Asztácium-212",
+			"en": "Astatine-212"
+		}, {
+			"weight": "212.992936646",
+			"rate": "0",
+			"halfRate": "125 ns",
+
+			"hu": "Asztácium-213",
+			"en": "Astatine-213"
+		}, {
+			"weight": "213.996371733",
+			"rate": "0",
+			"halfRate": "558 ns",
+
+			"hu": "Asztácium-214",
+			"en": "Astatine-214"
+		}, {
+			"weight": "214.99865257",
+			"rate": "0",
+			"halfRate": "100 µs",
+
+			"hu": "Asztácium-215",
+			"en": "Astatine-215"
+		}, {
+			"weight": "216.002423257",
+			"rate": "0",
+			"halfRate": "300 µs",
+
+			"hu": "Asztácium-216",
+			"en": "Astatine-216"
+		}, {
+			"weight": "217.004718822",
+			"rate": "0",
+			"halfRate": "32.3 ms",
+
+			"hu": "Asztácium-217",
+			"en": "Astatine-217"
+		}, {
+			"weight": "218.008694336",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Asztácium-218",
+			"en": "Astatine-218"
+		}, {
+			"weight": "219.011161691",
+			"rate": "0",
+			"halfRate": "56 s",
+
+			"hu": "Asztácium-219",
+			"en": "Astatine-219"
+		}, {
+			"weight": "220.015407682",
+			"rate": "0",
+			"halfRate": "3.72 min",
+
+			"hu": "Asztácium-220",
+			"en": "Astatine-220"
+		}, {
+			"weight": "221.01805",
+			"rate": "0",
+			"halfRate": "2.33 min",
+
+			"hu": "Asztácium-221",
+			"en": "Astatine-221"
+		}, {
+			"weight": "222.02233",
+			"rate": "0",
+			"halfRate": "54 s",
+
+			"hu": "Asztácium-222",
+			"en": "Astatine-222"
+		}, {
+			"weight": "223.02519",
+			"rate": "0",
+			"halfRate": "50 s",
+
+			"hu": "Asztácium-223",
+			"en": "Astatine-223"
+		}
+	]
+}

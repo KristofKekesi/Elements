@@ -1,1 +1,250 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "147.96742",
+			"rate": "0",
+			"halfRate": "250 ms",
+
+			"hu": "Itterbium-148",
+			"en": "Ytterbium-148"
+		}, {
+			"weight": "148.96404",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Itterbium-149",
+			"en": "Ytterbium-149"
+		}, {
+			"weight": "149.95842",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Itterbium-150",
+			"en": "Ytterbium-150"
+		}, {
+			"weight": "150.955400769",
+			"rate": "0",
+			"halfRate": "1.6 s",
+
+			"hu": "Itterbium-151",
+			"en": "Ytterbium-151"
+		}, {
+			"weight": "151.950288919",
+			"rate": "0",
+			"halfRate": "3.04 s",
+
+			"hu": "Itterbium-152",
+			"en": "Ytterbium-152"
+		}, {
+			"weight": "152.94948",
+			"rate": "0",
+			"halfRate": "4.2 s",
+
+			"hu": "Itterbium-153",
+			"en": "Ytterbium-153"
+		}, {
+			"weight": "153.946393928",
+			"rate": "0",
+			"halfRate": "409 ms",
+
+			"hu": "Itterbium-154",
+			"en": "Ytterbium-154"
+		}, {
+			"weight": "154.945782332",
+			"rate": "0",
+			"halfRate": "1.793 s",
+
+			"hu": "Itterbium-155",
+			"en": "Ytterbium-155"
+		}, {
+			"weight": "155.942818215",
+			"rate": "0",
+			"halfRate": "26.1 s",
+
+			"hu": "Itterbium-156",
+			"en": "Ytterbium-156"
+		}, {
+			"weight": "156.942627848",
+			"rate": "0",
+			"halfRate": "38.6 s",
+
+			"hu": "Itterbium-157",
+			"en": "Ytterbium-157"
+		}, {
+			"weight": "157.939865617",
+			"rate": "0",
+			"halfRate": "1.49 min",
+
+			"hu": "Itterbium-158",
+			"en": "Ytterbium-158"
+		}, {
+			"weight": "158.940050099",
+			"rate": "0",
+			"halfRate": "1.72 min",
+
+			"hu": "Itterbium-159",
+			"en": "Ytterbium-159"
+		}, {
+			"weight": "159.937552344",
+			"rate": "0",
+			"halfRate": "4.83 min",
+
+			"hu": "Itterbium-160",
+			"en": "Ytterbium-160"
+		}, {
+			"weight": "160.937901678",
+			"rate": "0",
+			"halfRate": "4.17 min",
+
+			"hu": "Itterbium-161",
+			"en": "Ytterbium-161"
+		}, {
+			"weight": "161.93576821",
+			"rate": "0",
+			"halfRate": "18.87 min",
+
+			"hu": "Itterbium-162",
+			"en": "Ytterbium-162"
+		}, {
+			"weight": "162.936334305",
+			"rate": "0",
+			"halfRate": "11.05 min",
+
+			"hu": "Itterbium-163",
+			"en": "Ytterbium-163"
+		}, {
+			"weight": "163.934489416",
+			"rate": "0",
+			"halfRate": "1.264 h",
+
+			"hu": "Itterbium-164",
+			"en": "Ytterbium-164"
+		}, {
+			"weight": "164.935279",
+			"rate": "0",
+			"halfRate": "9.83 min",
+
+			"hu": "Itterbium-165",
+			"en": "Ytterbium-165"
+		}, {
+			"weight": "165.933882042",
+			"rate": "0",
+			"halfRate": "2.36 d",
+
+			"hu": "Itterbium-166",
+			"en": "Ytterbium-166"
+		}, {
+			"weight": "166.934949605",
+			"rate": "0",
+			"halfRate": "17.5 min",
+
+			"hu": "Itterbium-167",
+			"en": "Ytterbium-167"
+		}, {
+			"weight": "167.933896895",
+			"rate": "0.13",
+			"halfRate": "stable",
+
+			"hu": "Itterbium-168",
+			"en": "Ytterbium-168"
+		}, {
+			"weight": "168.935189802",
+			"rate": "0",
+			"halfRate": "32.03 d",
+
+			"hu": "Itterbium-169",
+			"en": "Ytterbium-169"
+		}, {
+			"weight": "169.934761837",
+			"rate": "3.04",
+			"halfRate": "stable",
+
+			"hu": "Itterbium-170",
+			"en": "Ytterbium-170"
+		}, {
+			"weight": "170.936325799",
+			"rate": "14.28",
+			"halfRate": "stable",
+
+			"hu": "Itterbium-171",
+			"en": "Ytterbium-171"
+		}, {
+			"weight": "171.936381469",
+			"rate": "21.83",
+			"halfRate": "stable",
+
+			"hu": "Itterbium-172",
+			"en": "Ytterbium-172"
+		}, {
+			"weight": "172.938210787",
+			"rate": "16.13",
+			"halfRate": "stable",
+
+			"hu": "Itterbium-173",
+			"en": "Ytterbium-173"
+		}, {
+			"weight": "173.938862089",
+			"rate": "31.83",
+			"halfRate": "stable",
+
+			"hu": "Itterbium-174",
+			"en": "Ytterbium-174"
+		}, {
+			"weight": "174.94127645",
+			"rate": "0",
+			"halfRate": "4.185 d",
+
+			"hu": "Itterbium-175",
+			"en": "Ytterbium-175"
+		}, {
+			"weight": "175.942571683",
+			"rate": "12.76",
+			"halfRate": "stable",
+
+			"hu": "Itterbium-176",
+			"en": "Ytterbium-176"
+		}, {
+			"weight": "176.945260822",
+			"rate": "0",
+			"halfRate": "1.911 h",
+
+			"hu": "Itterbium-177",
+			"en": "Ytterbium-177"
+		}, {
+			"weight": "177.94664668",
+			"rate": "0",
+			"halfRate": "1.2 h",
+
+			"hu": "Itterbium-178",
+			"en": "Ytterbium-178"
+		}, {
+			"weight": "178.95017",
+			"rate": "0",
+			"halfRate": "8 min",
+
+			"hu": "Itterbium-179",
+			"en": "Ytterbium-179"
+		}, {
+			"weight": "179.95233",
+			"rate": "0",
+			"halfRate": "2.33 min",
+
+			"hu": "Itterbium-180",
+			"en": "Ytterbium-180"
+		}, {
+			"weight": "180.95615",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Itterbium-181",
+			"en": "Ytterbium-181"
+		}, {
+			"weight": "unknown",
+			"rate": "unknown",
+			"halfRate": "unknown",
+
+			"hu": "Itterbium-182",
+			"en": "Ytterbium-182"
+		}
+	]
+}

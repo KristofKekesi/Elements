@@ -1,1 +1,264 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "176.00059",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Tallium-176",
+			"en": "Thallium-176"
+		}, {
+			"weight": "176.996427286",
+			"rate": "0",
+			"halfRate": "18 ms",
+
+			"hu": "Tallium-177",
+			"en": "Thallium-177"
+		}, {
+			"weight": "177.994897",
+			"rate": "0",
+			"halfRate": "255 ms",
+
+			"hu": "Tallium-178",
+			"en": "Thallium-178"
+		}, {
+			"weight": "178.991089082",
+			"rate": "0",
+			"halfRate": "270 ms",
+
+			"hu": "Tallium-179",
+			"en": "Thallium-179"
+		}, {
+			"weight": "179.989906",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Tallium-180",
+			"en": "Thallium-180"
+		}, {
+			"weight": "180.986257447",
+			"rate": "0",
+			"halfRate": "3.2 s",
+
+			"hu": "Tallium-181",
+			"en": "Thallium-181"
+		}, {
+			"weight": "181.985667104",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Tallium-182",
+			"en": "Thallium-182"
+		}, {
+			"weight": "182.982192802",
+			"rate": "0",
+			"halfRate": "6.9 s",
+
+			"hu": "Tallium-183",
+			"en": "Thallium-183"
+		}, {
+			"weight": "183.981873122",
+			"rate": "0",
+			"halfRate": "9.7 s",
+
+			"hu": "Tallium-184",
+			"en": "Thallium-184"
+		}, {
+			"weight": "184.978791305",
+			"rate": "0",
+			"halfRate": "19.5 s",
+
+			"hu": "Tallium-185",
+			"en": "Thallium-185"
+		}, {
+			"weight": "185.978325",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Tallium-186",
+			"en": "Thallium-186"
+		}, {
+			"weight": "186.975905897",
+			"rate": "0",
+			"halfRate": "51 s",
+
+			"hu": "Tallium-187",
+			"en": "Thallium-187"
+		}, {
+			"weight": "187.976009782",
+			"rate": "0",
+			"halfRate": "1.2 min",
+
+			"hu": "Tallium-188",
+			"en": "Thallium-188"
+		}, {
+			"weight": "188.973588428",
+			"rate": "0",
+			"halfRate": "2.33 min",
+
+			"hu": "Tallium-189",
+			"en": "Thallium-189"
+		}, {
+			"weight": "189.973877149",
+			"rate": "0",
+			"halfRate": "2.67 min",
+
+			"hu": "Tallium-190",
+			"en": "Thallium-190"
+		}, {
+			"weight": "190.971786154",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Tallium-191",
+			"en": "Thallium-191"
+		}, {
+			"weight": "191.972225",
+			"rate": "0",
+			"halfRate": "9.67 min",
+
+			"hu": "Tallium-192",
+			"en": "Thallium-192"
+		}, {
+			"weight": "192.970672",
+			"rate": "0",
+			"halfRate": "22 min",
+
+			"hu": "Tallium-193",
+			"en": "Thallium-193"
+		}, {
+			"weight": "193.9712",
+			"rate": "0",
+			"halfRate": "33 min",
+
+			"hu": "Tallium-194",
+			"en": "Thallium-194"
+		}, {
+			"weight": "194.969774335",
+			"rate": "0",
+			"halfRate": "1.161 h",
+
+			"hu": "Tallium-195",
+			"en": "Thallium-195"
+		}, {
+			"weight": "195.970481151",
+			"rate": "0",
+			"halfRate": "1.839 h",
+
+			"hu": "Tallium-196",
+			"en": "Thallium-196"
+		}, {
+			"weight": "196.969574511",
+			"rate": "0",
+			"halfRate": "2.83 h",
+
+			"hu": "Tallium-197",
+			"en": "Thallium-197"
+		}, {
+			"weight": "197.970483495",
+			"rate": "0",
+			"halfRate": "5.3 h",
+
+			"hu": "Tallium-198",
+			"en": "Thallium-198"
+		}, {
+			"weight": "198.969877",
+			"rate": "0",
+			"halfRate": "7.42 h",
+
+			"hu": "Tallium-199",
+			"en": "Thallium-199"
+		}, {
+			"weight": "199.970962672",
+			"rate": "0",
+			"halfRate": "1.1 d",
+
+			"hu": "Tallium-200",
+			"en": "Thallium-200"
+		}, {
+			"weight": "200.970818891",
+			"rate": "0",
+			"halfRate": "3.03796 d",
+
+			"hu": "Tallium-201",
+			"en": "Thallium-201"
+		}, {
+			"weight": "201.972105808",
+			"rate": "0",
+			"halfRate": "12.23 d",
+
+			"hu": "Tallium-202",
+			"en": "Thallium-202"
+		}, {
+			"weight": "202.97234422",
+			"rate": "29.524",
+			"halfRate": "stable",
+
+			"hu": "Tallium-203",
+			"en": "Thallium-203"
+		}, {
+			"weight": "203.973863522",
+			"rate": "0",
+			"halfRate": "3.77 y",
+
+			"hu": "Tallium-204",
+			"en": "Thallium-204"
+		}, {
+			"weight": "204.974427541",
+			"rate": "70.476",
+			"halfRate": "stable",
+
+			"hu": "Tallium-205",
+			"en": "Thallium-205"
+		}, {
+			"weight": "205.97611032",
+			"rate": "0",
+			"halfRate": "4.17 min",
+
+			"hu": "Tallium-206",
+			"en": "Thallium-206"
+		}, {
+			"weight": "206.977419429",
+			"rate": "0",
+			"halfRate": "4.77 min",
+
+			"hu": "Tallium-207",
+			"en": "Thallium-207"
+		}, {
+			"weight": "207.9820187",
+			"rate": "0",
+			"halfRate": "3.053 min",
+
+			"hu": "Tallium-208",
+			"en": "Thallium-208"
+		}, {
+			"weight": "208.985358952",
+			"rate": "0",
+			"halfRate": "2.162 min",
+
+			"hu": "Tallium-209",
+			"en": "Thallium-209"
+		}, {
+			"weight": "209.990073689",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Tallium-210",
+			"en": "Thallium-210"
+		}, {
+			"weight": "210.993477",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Tallium-211",
+			"en": "Thallium-211"
+		}, {
+			"weight": "211.998228",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Tallium-212",
+			"en": "Thallium-212"
+		}
+	]
+}

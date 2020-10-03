@@ -1,1 +1,33 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "289.198862",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Livermórium-289",
+			"en": "Livermorium-289"
+		}, {
+			"weight": "290.19859",
+			"rate": "0",
+			"halfRate": "50 ms",
+
+			"hu": "Livermórium-290",
+			"en": "Livermorium-290"
+		}, {
+			"weight": "291.200011",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Livermórium-291",
+			"en": "Livermorium-291"
+		}, {
+			"weight": "292.199786",
+			"rate": "0",
+			"halfRate": "120 ms",
+
+			"hu": "Livermórium-292",
+			"en": "Livermorium-292"
+		}
+	]
+}

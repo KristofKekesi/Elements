@@ -1,1 +1,117 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "253.100689",
+			"rate": "0",
+			"halfRate": "13 ms",
+
+			"hu": "Raderfordium-253",
+			"en": "Rutherfordium-253"
+		}, {
+			"weight": "254.100184",
+			"rate": "0",
+			"halfRate": "23 µs",
+
+			"hu": "Raderfordium-254",
+			"en": "Rutherfordium-254"
+		}, {
+			"weight": "255.10134",
+			"rate": "0",
+			"halfRate": "1.64 s",
+
+			"hu": "Raderfordium-255",
+			"en": "Rutherfordium-255"
+		}, {
+			"weight": "256.101166194",
+			"rate": "0",
+			"halfRate": "6.45 ms",
+
+			"hu": "Raderfordium-256",
+			"en": "Rutherfordium-256"
+		}, {
+			"weight": "257.10299",
+			"rate": "0",
+			"halfRate": "4.7 s",
+
+			"hu": "Raderfordium-257",
+			"en": "Rutherfordium-257"
+		}, {
+			"weight": "258.103489",
+			"rate": "0",
+			"halfRate": "12 ms",
+
+			"hu": "Raderfordium-258",
+			"en": "Rutherfordium-258"
+		}, {
+			"weight": "259.105637",
+			"rate": "0",
+			"halfRate": "2.8 s",
+
+			"hu": "Raderfordium-259",
+			"en": "Rutherfordium-259"
+		}, {
+			"weight": "260.10644",
+			"rate": "0",
+			"halfRate": "21 ms",
+
+			"hu": "Raderfordium-260",
+			"en": "Rutherfordium-260"
+		}, {
+			"weight": "261.108766556",
+			"rate": "0",
+			"halfRate": "5.5 s",
+
+			"hu": "Raderfordium-261",
+			"en": "Rutherfordium-261"
+		}, {
+			"weight": "262.109925",
+			"rate": "0",
+			"halfRate": "2.3 s",
+
+			"hu": "Raderfordium-262",
+			"en": "Rutherfordium-262"
+		}, {
+			"weight": "263.112547",
+			"rate": "0",
+			"halfRate": "11 min",
+
+			"hu": "Raderfordium-263",
+			"en": "Rutherfordium-263"
+		}, {
+			"weight": "264.113985",
+			"rate": "0",
+			"halfRate": "1.1 h",
+
+			"hu": "Raderfordium-264",
+			"en": "Rutherfordium-264"
+		}, {
+			"weight": "265.116704",
+			"rate": "0",
+			"halfRate": "13 h",
+
+			"hu": "Raderfordium-265",
+			"en": "Rutherfordium-265"
+		}, {
+			"weight": "266.117956",
+			"rate": "0",
+			"halfRate": "10 h",
+
+			"hu": "Raderfordium-266",
+			"en": "Rutherfordium-266"
+		}, {
+			"weight": "267.121529",
+			"rate": "0",
+			"halfRate": "5.6 h",
+
+			"hu": "Raderfordium-267",
+			"en": "Rutherfordium-267"
+		}, {
+			"weight": "268.123644",
+			"rate": "0",
+			"halfRate": "1.1 h",
+
+			"hu": "Raderfordium-268",
+			"en": "Rutherfordium-268"
+		}
+	]
+}

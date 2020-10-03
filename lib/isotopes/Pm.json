@@ -1,1 +1,271 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "125.95752",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Prométium-126",
+			"en": "Promethium-126"
+		}, {
+			"weight": "126.95163",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Prométium-127",
+			"en": "Promethium-127"
+		}, {
+			"weight": "127.94842",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Prométium-128",
+			"en": "Promethium-128"
+		}, {
+			"weight": "128.94316",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Prométium-129",
+			"en": "Promethium-129"
+		}, {
+			"weight": "129.94045",
+			"rate": "0",
+			"halfRate": "2.6 s",
+
+			"hu": "Prométium-130",
+			"en": "Promethium-130"
+		}, {
+			"weight": "130.93587",
+			"rate": "0",
+			"halfRate": "6.3 s",
+
+			"hu": "Prométium-131",
+			"en": "Promethium-131"
+		}, {
+			"weight": "131.93375",
+			"rate": "0",
+			"halfRate": "6.3 s",
+
+			"hu": "Prométium-132",
+			"en": "Promethium-132"
+		}, {
+			"weight": "132.929782",
+			"rate": "0",
+			"halfRate": "15 s",
+
+			"hu": "Prométium-133",
+			"en": "Promethium-133"
+		}, {
+			"weight": "133.928353",
+			"rate": "0",
+			"halfRate": "22 s",
+
+			"hu": "Prométium-134",
+			"en": "Promethium-134"
+		}, {
+			"weight": "134.924876",
+			"rate": "0",
+			"halfRate": "49 s",
+
+			"hu": "Prométium-135",
+			"en": "Promethium-135"
+		}, {
+			"weight": "135.923565829",
+			"rate": "0",
+			"halfRate": "1.78 min",
+
+			"hu": "Prométium-136",
+			"en": "Promethium-136"
+		}, {
+			"weight": "136.920479493",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Prométium-137",
+			"en": "Promethium-137"
+		}, {
+			"weight": "137.919548281",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Prométium-138",
+			"en": "Promethium-138"
+		}, {
+			"weight": "138.916804082",
+			"rate": "0",
+			"halfRate": "4.15 min",
+
+			"hu": "Prométium-139",
+			"en": "Promethium-139"
+		}, {
+			"weight": "139.916041789",
+			"rate": "0",
+			"halfRate": "9.2 s",
+
+			"hu": "Prométium-140",
+			"en": "Promethium-140"
+		}, {
+			"weight": "140.913555054",
+			"rate": "0",
+			"halfRate": "20.83 min",
+
+			"hu": "Prométium-141",
+			"en": "Promethium-141"
+		}, {
+			"weight": "141.912874471",
+			"rate": "0",
+			"halfRate": "40.5 s",
+
+			"hu": "Prométium-142",
+			"en": "Promethium-142"
+		}, {
+			"weight": "142.910932616",
+			"rate": "0",
+			"halfRate": "265 d",
+
+			"hu": "Prométium-143",
+			"en": "Promethium-143"
+		}, {
+			"weight": "143.912590843",
+			"rate": "0",
+			"halfRate": "363 d",
+
+			"hu": "Prométium-144",
+			"en": "Promethium-144"
+		}, {
+			"weight": "144.912749023",
+			"rate": "0",
+			"halfRate": "17.7 y",
+
+			"hu": "Prométium-145",
+			"en": "Promethium-145"
+		}, {
+			"weight": "145.914696305",
+			"rate": "0",
+			"halfRate": "5.55 y",
+
+			"hu": "Prométium-146",
+			"en": "Promethium-146"
+		}, {
+			"weight": "146.915138545",
+			"rate": "0",
+			"halfRate": "2.6234 y",
+
+			"hu": "Prométium-147",
+			"en": "Promethium-147"
+		}, {
+			"weight": "147.917474618",
+			"rate": "0",
+			"halfRate": "5.368 d",
+
+			"hu": "Prométium-148",
+			"en": "Promethium-148"
+		}, {
+			"weight": "148.918334155",
+			"rate": "0",
+			"halfRate": "2.212 d",
+
+			"hu": "Prométium-149",
+			"en": "Promethium-149"
+		}, {
+			"weight": "149.920983561",
+			"rate": "0",
+			"halfRate": "2.681 h",
+
+			"hu": "Prométium-150",
+			"en": "Promethium-150"
+		}, {
+			"weight": "150.921206973",
+			"rate": "0",
+			"halfRate": "1.18 d",
+
+			"hu": "Prométium-151",
+			"en": "Promethium-151"
+		}, {
+			"weight": "151.923496795",
+			"rate": "0",
+			"halfRate": "4.12 min",
+
+			"hu": "Prométium-152",
+			"en": "Promethium-152"
+		}, {
+			"weight": "152.924116889",
+			"rate": "0",
+			"halfRate": "5.25 min",
+
+			"hu": "Prométium-153",
+			"en": "Promethium-153"
+		}, {
+			"weight": "153.926463943",
+			"rate": "0",
+			"halfRate": "1.73 min",
+
+			"hu": "Prométium-154",
+			"en": "Promethium-145"
+		}, {
+			"weight": "154.928101267",
+			"rate": "0",
+			"halfRate": "41.5 s",
+
+			"hu": "Prométium-155",
+			"en": "Promethium-155"
+		}, {
+			"weight": "155.931056736",
+			"rate": "0",
+			"halfRate": "26.7 s",
+
+			"hu": "Prométium-156",
+			"en": "Promethium-156"
+		}, {
+			"weight": "156.933039369",
+			"rate": "0",
+			"halfRate": "10.56 s",
+
+			"hu": "Prométium-157",
+			"en": "Promethium-157"
+		}, {
+			"weight": "157.936561407",
+			"rate": "0",
+			"halfRate": "4.8 s",
+
+			"hu": "Prométium-158",
+			"en": "Promethium-158"
+		}, {
+			"weight": "158.93897",
+			"rate": "0",
+			"halfRate": "1.47 s",
+
+			"hu": "Prométium-159",
+			"en": "Promethium-159"
+		}, {
+			"weight": "159.94299",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Prométium-160",
+			"en": "Promethium-160"
+		}, {
+			"weight": "160.94586",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Prométium-161",
+			"en": "Promethium-161"
+		}, {
+			"weight": "161.95029",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Prométium-162",
+			"en": "Promethium-162"
+		}, {
+			"weight": "162.95368",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Prométium-163",
+			"en": "Promethium-163"
+		}
+	]
+}

@@ -1,1 +1,145 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "235.05658",
+			"rate": "0",
+			"halfRate": "20 s",
+
+			"hu": "Berkélium-235",
+			"en": "Berkelium-235"
+		}, {
+			"weight": "236.05733",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Berkélium-236",
+			"en": "Berkelium-236"
+		}, {
+			"weight": "237.057003",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Berkélium-237",
+			"en": "Berkelium-237"
+		}, {
+			"weight": "238.058281",
+			"rate": "0",
+			"halfRate": "2.33 min",
+
+			"hu": "Berkélium-238",
+			"en": "Berkelium-238"
+		}, {
+			"weight": "239.058279",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Berkélium-239",
+			"en": "Berkelium-239"
+		}, {
+			"weight": "240.059759",
+			"rate": "0",
+			"halfRate": "4.83 min",
+
+			"hu": "Berkélium-240",
+			"en": "Berkelium-240"
+		}, {
+			"weight": "241.06023",
+			"rate": "0",
+			"halfRate": "4.67 min",
+
+			"hu": "Berkélium-241",
+			"en": "Berkelium-241"
+		}, {
+			"weight": "242.061981",
+			"rate": "0",
+			"halfRate": "7 min",
+
+			"hu": "Berkélium-242",
+			"en": "Berkelium-242"
+		}, {
+			"weight": "243.063007572",
+			"rate": "0",
+			"halfRate": "4.4 h",
+
+			"hu": "Berkélium-243",
+			"en": "Berkelium-243"
+		}, {
+			"weight": "244.065180774",
+			"rate": "0",
+			"halfRate": "4.36 h",
+
+			"hu": "Berkélium-244",
+			"en": "Berkelium-244"
+		}, {
+			"weight": "245.066361616",
+			"rate": "0",
+			"halfRate": "4.94 d",
+
+			"hu": "Berkélium-245",
+			"en": "Berkelium-245"
+		}, {
+			"weight": "246.068672947",
+			"rate": "0",
+			"halfRate": "1.9 d",
+
+			"hu": "Berkélium-246",
+			"en": "Berkelium-246"
+		}, {
+			"weight": "247.07030708",
+			"rate": "0",
+			"halfRate": "1.380 y",
+
+			"hu": "Berkélium-247",
+			"en": "Berkelium-247"
+		}, {
+			"weight": "248.073086",
+			"rate": "0",
+			"halfRate": "9.5 y",
+
+			"hu": "Berkélium-248",
+			"en": "Berkelium-248"
+		}, {
+			"weight": "249.074986657",
+			"rate": "0",
+			"halfRate": "330 d",
+
+			"hu": "Berkélium-249",
+			"en": "Berkelium-249"
+		}, {
+			"weight": "250.07831652",
+			"rate": "0",
+			"halfRate": "3.2111 h",
+
+			"hu": "Berkélium-250",
+			"en": "Berkelium-250"
+		}, {
+			"weight": "251.080760172",
+			"rate": "0",
+			"halfRate": "55.67 min",
+
+			"hu": "Berkélium-251",
+			"en": "Berkelium-251"
+		}, {
+			"weight": "252.08431",
+			"rate": "0",
+			"halfRate": "1.83 min",
+
+			"hu": "Berkélium-252",
+			"en": "Berkelium-252"
+		}, {
+			"weight": "253.08688",
+			"rate": "0",
+			"halfRate": "10 min",
+
+			"hu": "Berkélium-253",
+			"en": "Berkelium-253"
+		}, {
+			"weight": "254.0906",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Berkélium-254",
+			"en": "Berkelium-254"
+		}
+	]
+}

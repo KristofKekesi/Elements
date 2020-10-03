@@ -1,1 +1,138 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "231.04556",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Amerícium-231",
+			"en": "Americium-231"
+		}, {
+			"weight": "232.04659",
+			"rate": "0",
+			"halfRate": "1.31 min",
+
+			"hu": "Amerícium-232",
+			"en": "Americium-232"
+		}, {
+			"weight": "233.046348",
+			"rate": "0",
+			"halfRate": "3.17 min",
+
+			"hu": "Amerícium-233",
+			"en": "Americium-233"
+		}, {
+			"weight": "234.047809",
+			"rate": "0",
+			"halfRate": "2.32 min",
+
+			"hu": "Amerícium-234",
+			"en": "Americium-234"
+		}, {
+			"weight": "235.047946",
+			"rate": "0",
+			"halfRate": "9.83 min",
+
+			"hu": "Amerícium-235",
+			"en": "Americium-235"
+		}, {
+			"weight": "236.049579",
+			"rate": "0",
+			"halfRate": "30 min",
+
+			"hu": "Amerícium-236",
+			"en": "Americium-236"
+		}, {
+			"weight": "237.049996",
+			"rate": "0",
+			"halfRate": "1.2 h",
+
+			"hu": "Amerícium-237",
+			"en": "Americium-237"
+		}, {
+			"weight": "238.051984324",
+			"rate": "0",
+			"halfRate": "1.6 h",
+
+			"hu": "Amerícium-238",
+			"en": "Americium-238"
+		}, {
+			"weight": "239.053024479",
+			"rate": "0",
+			"halfRate": "11.9 h",
+
+			"hu": "Amerícium-239",
+			"en": "Americium-239"
+		}, {
+			"weight": "240.055300179",
+			"rate": "0",
+			"halfRate": "2.12 d",
+
+			"hu": "Amerícium-240",
+			"en": "Americium-240"
+		}, {
+			"weight": "241.056829144",
+			"rate": "0",
+			"halfRate": "432.2 y",
+
+			"hu": "Amerícium-241",
+			"en": "Americium-241"
+		}, {
+			"weight": "242.059549159",
+			"rate": "0",
+			"halfRate": "16.019 h",
+
+			"hu": "Amerícium-242",
+			"en": "Americium-242"
+		}, {
+			"weight": "243.06138108",
+			"rate": "0",
+			"halfRate": "7380 y",
+
+			"hu": "Amerícium-243",
+			"en": "Americium-243"
+		}, {
+			"weight": "244.064284847",
+			"rate": "0",
+			"halfRate": "10.1 h",
+
+			"hu": "Amerícium-244",
+			"en": "Americium-244"
+		}, {
+			"weight": "245.066452114",
+			"rate": "0",
+			"halfRate": "2.05 h",
+
+			"hu": "Amerícium-245",
+			"en": "Americium-245"
+		}, {
+			"weight": "246.069774619",
+			"rate": "0",
+			"halfRate": "38 min",
+
+			"hu": "Amerícium-246",
+			"en": "Americium-246"
+		}, {
+			"weight": "247.072093",
+			"rate": "0",
+			"halfRate": "23 min",
+
+			"hu": "Amerícium-247",
+			"en": "Americium-247"
+		}, {
+			"weight": "248.075752",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Amerícium-248",
+			"en": "Americium-248"
+		}, {
+			"weight": "249.07848",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Amerícium-249",
+			"en": "Americium-249"
+		}
+	]
+}

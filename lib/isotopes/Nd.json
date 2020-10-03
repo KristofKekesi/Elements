@@ -1,1 +1,270 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "123.95223",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Neodímium-124",
+			"en": "Neodymium-124"
+		}, {
+			"weight": "124.94888",
+			"rate": "",
+			"halfRate": "600 ms",
+
+			"hu": "Neodímium-125",
+			"en": "Neodymium-125"
+		}, {
+			"weight": "125.94322",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Neodímium-126",
+			"en": "Neodymium-126"
+		}, {
+			"weight": "126.9405",
+			"rate": "0",
+			"halfRate": "1.8  s",
+
+			"hu": "Neodímium-127",
+			"en": "Neodymium-127"
+		}, {
+			"weight": "127.93539",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Neodímium-128",
+			"en": "Neodymium-128"
+		}, {
+			"weight": "128.933188",
+			"rate": "0",
+			"halfRate": "4.9 s",
+
+			"hu": "Neodímium-129",
+			"en": "Neodymium-129"
+		}, {
+			"weight": "129.928506",
+			"rate": "0",
+			"halfRate": "21 s",
+
+			"hu": "Neodímium-130",
+			"en": "Neodymium-130"
+		}, {
+			"weight": "130.927247",
+			"rate": "0",
+			"halfRate": "33 s",
+
+			"hu": "Neodímium-131",
+			"en": "Neodymium-131"
+		}, {
+			"weight": "131.923321237",
+			"rate": "0",
+			"halfRate": "1.56 min",
+
+			"hu": "Neodímium-132",
+			"en": "Neodymium-132"
+		}, {
+			"weight": "132.922348",
+			"rate": "0",
+			"halfRate": "1.2 min",
+
+			"hu": "Neodímium-133",
+			"en": "Neodymium-133"
+		}, {
+			"weight": "133.918790181",
+			"rate": "0",
+			"halfRate": "8.5 min",
+
+			"hu": "Neodímium-134",
+			"en": "Neodymium-134"
+		}, {
+			"weight": "134.91818116",
+			"rate": "0",
+			"halfRate": "12.4 min",
+
+			"hu": "Neodímium-135",
+			"en": "Neodymium-135"
+		}, {
+			"weight": "135.914976035",
+			"rate": "0",
+			"halfRate": "50.67 min",
+
+			"hu": "Neodímium-136",
+			"en": "Neodymium-136"
+		}, {
+			"weight": "136.914567137",
+			"rate": "0",
+			"halfRate": "38.5 min",
+
+			"hu": "Neodímium-137",
+			"en": "Neodymium-137"
+		}, {
+			"weight": "137.911949961",
+			"rate": "0",
+			"halfRate": "5.03 h",
+
+			"hu": "Neodímium-138",
+			"en": "Neodymium-138"
+		}, {
+			"weight": "138.911978288",
+			"rate": "0",
+			"halfRate": "29.67 min",
+
+			"hu": "Neodímium-139",
+			"en": "Neodymium-139"
+		}, {
+			"weight": "139.909552",
+			"rate": "0",
+			"halfRate": "3.37 d",
+
+			"hu": "Neodímium-140",
+			"en": "Neodymium-140"
+		}, {
+			"weight": "140.909609854",
+			"rate": "0",
+			"halfRate": "2.489 h",
+
+			"hu": "Neodímium-141",
+			"en": "Neodymium-141"
+		}, {
+			"weight": "141.907723297",
+			"rate": "27.2",
+			"halfRate": "stable",
+
+			"hu": "Neodímium-142",
+			"en": "Neodymium-142"
+		}, {
+			"weight": "142.90981429",
+			"rate": "12.2",
+			"halfRate": "stable",
+
+			"hu": "Neodímium-143",
+			"en": "Neodymium-143"
+		}, {
+			"weight": "143.910087274",
+			"rate": "23.8",
+			"halfRate": "2290000000000000 y",
+
+			"hu": "Neodímium-144",
+			"en": "Neodymium-144"
+		}, {
+			"weight": "144.912573636",
+			"rate": "8.3",
+			"halfRate": "stable",
+
+			"hu": "Neodímium-145",
+			"en": "Neodymium-145"
+		}, {
+			"weight": "145.913116939",
+			"rate": "17.2",
+			"halfRate": "stable",
+
+			"hu": "Neodímium-146",
+			"en": "Neodymium-146"
+		}, {
+			"weight": "146.916100441",
+			"rate": "0",
+			"halfRate": "10.98 d",
+
+			"hu": "Neodímium-147",
+			"en": "Neodymium-147"
+		}, {
+			"weight": "147.916893288",
+			"rate": "5.7",
+			"halfRate": "stable",
+			"hu": "Neodímium-148",
+			"en": "Neodymium-148"
+		}, {
+			"weight": "148.920148842",
+			"rate": "0",
+			"halfRate": "1.728 h",
+
+			"hu": "Neodímium-149",
+			"en": "Neodymium-149"
+		}, {
+			"weight": "149.920890888",
+			"rate": "5.6",
+			"halfRate": "6700000000000000000 y",
+
+			"hu": "Neodímium-150",
+			"en": "Neodymium-150"
+		}, {
+			"weight": "150.923828929",
+			"rate": "0",
+			"halfRate": "12.44 min",
+
+			"hu": "Neodímium-151",
+			"en": "Neodymium-151"
+		}, {
+			"weight": "151.924682219",
+			"rate": "0",
+			"halfRate": "11.4 min",
+
+			"hu": "Neodímium-152",
+			"en": "Neodymium-152"
+		}, {
+			"weight": "152.927698232",
+			"rate": "0",
+			"halfRate": "31.6 s",
+
+			"hu": "Neodímium-153",
+			"en": "Neodymium-153"
+		}, {
+			"weight": "153.929477307",
+			"rate": "0",
+			"halfRate": "25.9 s",
+
+			"hu": "Neodímium-154",
+			"en": "Neodymium-154"
+		}, {
+			"weight": "154.932932",
+			"rate": "0",
+			"halfRate": "8.9 s",
+
+			"hu": "Neodímium-155",
+			"en": "Neodymium-155"
+		}, {
+			"weight": "155.935018114",
+			"rate": "0",
+			"halfRate": "5.49 s",
+
+			"hu": "Neodímium-156",
+			"en": "Neodymium-156"
+		}, {
+			"weight": "156.93903",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Neodímium-157",
+			"en": "Neodymium-157"
+		}, {
+			"weight": "157.9416",
+			"rate": "0",
+			"halfRate": "700 ms",
+
+			"hu": "Neodímium-158",
+			"en": "Neodymium-158"
+		}, {
+			"weight": "158.94609",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Neodímium-159",
+			"en": "Neodymium-159"
+		}, {
+			"weight": "159.94909",
+			"rate": "0",
+			"halfRate": "300 ms",
+
+			"hu": "Neodímium-160",
+			"en": "Neodymium-160"
+		}, {
+			"weight": "160.95388",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Neodímium-161",
+			"en": "Neodymium-161"
+		}
+	]
+}

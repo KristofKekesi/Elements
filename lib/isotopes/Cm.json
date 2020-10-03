@@ -1,1 +1,145 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "233.050771232",
+			"rate": "0",
+			"halfRate": "1 min",
+
+			"hu": "Kűrium-233",
+			"en": "Curium-233"
+		}, {
+			"weight": "234.050159841",
+			"rate": "0",
+			"halfRate": "51 s",
+
+			"hu": "Kűrium-234",
+			"en": "Curium-234"
+		}, {
+			"weight": "235.051434",
+			"rate": "0",
+			"halfRate": "5 min",
+
+			"hu": "Kűrium-235",
+			"en": "Curium-235"
+		}, {
+			"weight": "236.051413",
+			"rate": "0",
+			"halfRate": "10 min",
+
+			"hu": "Kűrium-236",
+			"en": "Curium-236"
+		}, {
+			"weight": "237.052901",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Kűrium-237",
+			"en": "Curium-237"
+		}, {
+			"weight": "238.053028697",
+			"rate": "0",
+			"halfRate": "2.4 h",
+
+			"hu": "Kűrium-238",
+			"en": "Curium-238"
+		}, {
+			"weight": "239.054957",
+			"rate": "0",
+			"halfRate": "2.8 h",
+
+			"hu": "Kűrium-239",
+			"en": "Curium-239"
+		}, {
+			"weight": "240.055529539",
+			"rate": "0",
+			"halfRate": "27 d",
+
+			"hu": "Kűrium-240",
+			"en": "Curium-240"
+		}, {
+			"weight": "241.057653001",
+			"rate": "0",
+			"halfRate": "32.8 d",
+
+			"hu": "Kűrium-241",
+			"en": "Curium-241"
+		}, {
+			"weight": "242.058835824",
+			"rate": "0",
+			"halfRate": "162.8 d",
+
+			"hu": "Kűrium-242",
+			"en": "Curium-242"
+		}, {
+			"weight": "243.061389114",
+			"rate": "0",
+			"halfRate": "29.1 y",
+
+			"hu": "Kűrium-243",
+			"en": "Curium-243"
+		}, {
+			"weight": "244.062752578",
+			"rate": "0",
+			"halfRate": "18.1 y",
+
+			"hu": "Kűrium-244",
+			"en": "Curium-244"
+		}, {
+			"weight": "245.065491249",
+			"rate": "0",
+			"halfRate": "8300 y",
+
+			"hu": "Kűrium-245",
+			"en": "Curium-245"
+		}, {
+			"weight": "246.067223662",
+			"rate": "0",
+			"halfRate": "4800 y",
+
+			"hu": "Kűrium-246",
+			"en": "Curium-246"
+		}, {
+			"weight": "247.07035354",
+			"rate": "0",
+			"halfRate": "15600000 y",
+
+			"hu": "Kűrium-247",
+			"en": "Curium-247"
+		}, {
+			"weight": "248.072348508",
+			"rate": "0",
+			"halfRate": "350000 y",
+
+			"hu": "Kűrium-248",
+			"en": "Curium-248"
+		}, {
+			"weight": "249.075953413",
+			"rate": "0",
+			"halfRate": "1.069 h",
+
+			"hu": "Kűrium-249",
+			"en": "Curium-249"
+		}, {
+			"weight": "250.078356959",
+			"rate": "0",
+			"halfRate": "8299 y",
+
+			"hu": "Kűrium-250",
+			"en": "Curium-250"
+		}, {
+			"weight": "251.082284605",
+			"rate": "0",
+			"halfRate": "16.83 min",
+
+			"hu": "Kűrium-251",
+			"en": "Curium-251"
+		}, {
+			"weight": "252.084870",
+			"rate": "0",
+			"halfRate": "1 d",
+
+			"hu": "Kűrium-252",
+			"en": "Curium-252"
+		}
+	]
+}

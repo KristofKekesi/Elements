@@ -1,1 +1,257 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "184.001124",
+			"rate": "0",
+			"halfRate": "6.6 ms",
+
+			"hu": "Bizmut-184",
+			"en": "Bismuth-184"
+		}, {
+			"weight": "184.997625",
+			"rate": "0",
+			"halfRate": "2 ms",
+
+			"hu": "Bizmut-185",
+			"en": "Bismuth-185"
+		}, {
+			"weight": "185.996597625",
+			"rate": "0",
+			"halfRate": "14.8 ms",
+
+			"hu": "Bizmut-186",
+			"en": "Bismuth-186"
+		}, {
+			"weight": "186.993157835",
+			"rate": "0",
+			"halfRate": "32 ms",
+
+			"hu": "Bizmut-187",
+			"en": "Bismuth-187"
+		}, {
+			"weight": "187.992265154",
+			"rate": "0",
+			"halfRate": "44 ms",
+
+			"hu": "Bizmut-188",
+			"en": "Bismuth-188"
+		}, {
+			"weight": "188.989199012",
+			"rate": "0",
+			"halfRate": "674 ms",
+
+			"hu": "Bizmut-189",
+			"en": "Bismuth-189"
+		}, {
+			"weight": "189.988295129",
+			"rate": "0",
+			"halfRate": "6.3 s",
+
+			"hu": "Bizmut-190",
+			"en": "Bismuth-190"
+		}, {
+			"weight": "190.985786119",
+			"rate": "0",
+			"halfRate": "12.3 s",
+
+			"hu": "Bizmut-191",
+			"en": "Bismuth-191"
+		}, {
+			"weight": "191.985457954",
+			"rate": "0",
+			"halfRate": "34.6 s",
+
+			"hu": "Bizmut-192",
+			"en": "Bismuth-192"
+		}, {
+			"weight": "192.982959771",
+			"rate": "0",
+			"halfRate": "1.1 min",
+
+			"hu": "Bizmut-193",
+			"en": "Bismuth-193"
+		}, {
+			"weight": "193.98283396",
+			"rate": "0",
+			"halfRate": "1.6 min",
+
+			"hu": "Bizmut-194",
+			"en": "Bismuth-194"
+		}, {
+			"weight": "194.980650737",
+			"rate": "0",
+			"halfRate": "3.05 min",
+
+			"hu": "Bizmut-195",
+			"en": "Bismuth-195"
+		}, {
+			"weight": "195.980666509",
+			"rate": "0",
+			"halfRate": "5.17 min",
+
+			"hu": "Bizmut-196",
+			"en": "Bismuth-196"
+		}, {
+			"weight": "196.978864454",
+			"rate": "0",
+			"halfRate": "9.33 min",
+
+			"hu": "Bizmut-197",
+			"en": "Bismuth-197"
+		}, {
+			"weight": "197.979206",
+			"rate": "0",
+			"halfRate": "10.3 min",
+
+			"hu": "Bizmut-198",
+			"en": "Bismuth-198"
+		}, {
+			"weight": "198.977671961",
+			"rate": "0",
+			"halfRate": "27 min",
+
+			"hu": "Bizmut-199",
+			"en": "Bismuth-199"
+		}, {
+			"weight": "199.978131829",
+			"rate": "0",
+			"halfRate": "36.33 min",
+
+			"hu": "Bizmut-200",
+			"en": "Bismuth-200"
+		}, {
+			"weight": "200.977009036",
+			"rate": "0",
+			"halfRate": "1.8 h",
+
+			"hu": "Bizmut-201",
+			"en": "Bismuth-201"
+		}, {
+			"weight": "201.977742324",
+			"rate": "0",
+			"halfRate": "1.719 h",
+
+			"hu": "Bizmut-202",
+			"en": "Bismuth-202"
+		}, {
+			"weight": "202.976876001",
+			"rate": "0",
+			"halfRate": "11.761 h",
+
+			"hu": "Bizmut-203",
+			"en": "Bismuth-203"
+		}, {
+			"weight": "203.977812736",
+			"rate": "0",
+			"halfRate": "11.219 h",
+
+			"hu": "Bizmut-204",
+			"en": "Bismuth-204"
+		}, {
+			"weight": "204.977389366",
+			"rate": "0",
+			"halfRate": "15.31 d",
+
+			"hu": "Bizmut-205",
+			"en": "Bismuth-205"
+		}, {
+			"weight": "205.97849913",
+			"rate": "0",
+			"halfRate": "6.243 d",
+
+			"hu": "Bizmut-206",
+			"en": "Bismuth-206"
+		}, {
+			"weight": "206.978470679",
+			"rate": "0",
+			"halfRate": "33 y",
+
+			"hu": "Bizmut-207",
+			"en": "Bismuth-207"
+		}, {
+			"weight": "207.979742196",
+			"rate": "0",
+			"halfRate": "368000 y",
+
+			"hu": "Bizmut-208",
+			"en": "Bismuth-208"
+		}, {
+			"weight": "208.980398734",
+			"rate": "100",
+			"halfRate": "19000000000000000000 y",
+
+			"hu": "Bizmut-209",
+			"en": "Bismuth-209"
+		}, {
+			"weight": "209.984120371",
+			"rate": "0",
+			"halfRate": "5.01 d",
+
+			"hu": "Bizmut-210",
+			"en": "Bismuth-210"
+		}, {
+			"weight": "210.98726946",
+			"rate": "0",
+			"halfRate": "2.13 min",
+
+			"hu": "Bizmut-211",
+			"en": "Bismuth-211"
+		}, {
+			"weight": "211.991285724",
+			"rate": "0",
+			"halfRate": "1.009 h",
+
+			"hu": "Bizmut-212",
+			"en": "Bismuth-212"
+		}, {
+			"weight": "212.994384666",
+			"rate": "0",
+			"halfRate": "45.58 min",
+
+			"hu": "Bizmut-213",
+			"en": "Bismuth-213"
+		}, {
+			"weight": "213.998711539",
+			"rate": "0",
+			"halfRate": "19.83 min",
+
+			"hu": "Bizmut-214",
+			"en": "Bismuth-214"
+		}, {
+			"weight": "215.001769776",
+			"rate": "0",
+			"halfRate": "7.67 min",
+
+			"hu": "Bizmut-215",
+			"en": "Bismuth-215"
+		}, {
+			"weight": "216.006305943",
+			"rate": "0",
+			"halfRate": "2.17 min",
+
+			"hu": "Bizmut-216",
+			"en": "Bismuth-216"
+		}, {
+			"weight": "217.00947",
+			"rate": "0",
+			"halfRate": "1.6 min",
+
+			"hu": "Bizmut-217",
+			"en": "Bismuth-217"
+		}, {
+			"weight": "218.014316",
+			"rate": "0",
+			"halfRate": "33 s",
+
+			"hu": "Bizmut-218",
+			"en": "Bismuth-218"
+		}, {
+			"weight": "unknown",
+			"rate": "unknown",
+			"halfRate": "unknown",
+
+			"hu": "Bizmut-219",
+			"en": "Bismuth-219"
+		}
+	]
+}

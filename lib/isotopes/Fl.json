@@ -1,1 +1,40 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "285.183698",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Fleróvium-285",
+			"en": "Flerovium-285"
+		}, {
+			"weight": "286.183855",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Fleróvium-286",
+			"en": "Flerovium-286"
+		}, {
+			"weight": "287.185599",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Fleróvium-287",
+			"en": "Flerovium-287"
+		}, {
+			"weight": "288.185689",
+			"rate": "0",
+			"halfRate": "2.8 s",
+
+			"hu": "Fleróvium-288",
+			"en": "Flerovium-288"
+		}, {
+			"weight": "289.187279",
+			"rate": "0",
+			"halfRate": "1.3 min",
+
+			"hu": "Fleróvium-289",
+			"en": "Flerovium-289"
+		}
+	]
+}

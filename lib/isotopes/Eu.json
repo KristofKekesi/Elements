@@ -1,1 +1,271 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "129.963569",
+			"rate": "0",
+			"halfRate": "1.1 ms",
+
+			"hu": "Európium-130",
+			"en": "Europium-130"
+		}, {
+			"weight": "130.957753",
+			"rate": "0",
+			"halfRate": "17.8 ms",
+
+			"hu": "Európium-131",
+			"en": "Europium-131"
+		}, {
+			"weight": "131.95437",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Európium-132",
+			"en": "Europium-132"
+		}, {
+			"weight": "132.94924",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Európium-133",
+			"en": "Europium-133"
+		}, {
+			"weight": "133.94651",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Európium-134",
+			"en": "Europium-134"
+		}, {
+			"weight": "134.94182",
+			"rate": "0",
+			"halfRate": "1.5 s",
+
+			"hu": "Európium-135",
+			"en": "Europium-135"
+		}, {
+			"weight": "135.9396",
+			"rate": "0",
+			"halfRate": "3.3 s",
+
+			"hu": "Európium-136",
+			"en": "Europium-136"
+		}, {
+			"weight": "136.93557",
+			"rate": "0",
+			"halfRate": "8.4 s",
+
+			"hu": "Európium-137",
+			"en": "Europium-137"
+		}, {
+			"weight": "137.933709",
+			"rate": "0",
+			"halfRate": "12.1 s",
+
+			"hu": "Európium-138",
+			"en": "Europium-138"
+		}, {
+			"weight": "138.92979228",
+			"rate": "0",
+			"halfRate": "17.9 s",
+
+			"hu": "Európium-139",
+			"en": "Europium-139"
+		}, {
+			"weight": "139.928087607",
+			"rate": "0",
+			"halfRate": "1.51 s",
+
+			"hu": "Európium-140",
+			"en": "Europium-140"
+		}, {
+			"weight": "140.92493072",
+			"rate": "0",
+			"halfRate": "40.7 s",
+
+			"hu": "Európium-141",
+			"en": "Europium-141"
+		}, {
+			"weight": "141.923434945",
+			"rate": "0",
+			"halfRate": "2.36 s",
+
+			"hu": "Európium-142",
+			"en": "Europium-142"
+		}, {
+			"weight": "142.920297509",
+			"rate": "0",
+			"halfRate": "2.58 min",
+
+			"hu": "Európium-143",
+			"en": "Europium-143"
+		}, {
+			"weight": "143.918816823",
+			"rate": "0",
+			"halfRate": "10.2 s",
+
+			"hu": "Európium-144",
+			"en": "Europium-144"
+		}, {
+			"weight": "144.916265237",
+			"rate": "0",
+			"halfRate": "5.93 d",
+
+			"hu": "Európium-145",
+			"en": "Europium-145"
+		}, {
+			"weight": "145.917205817",
+			"rate": "0",
+			"halfRate": "4.61 d",
+
+			"hu": "Európium-146",
+			"en": "Europium-146"
+		}, {
+			"weight": "146.916746111",
+			"rate": "0",
+			"halfRate": "24.1 d",
+
+			"hu": "Európium-147",
+			"en": "Europium-147"
+		}, {
+			"weight": "147.918085895",
+			"rate": "0",
+			"halfRate": "54.5 d",
+
+			"hu": "Európium-148",
+			"en": "Europium-148"
+		}, {
+			"weight": "148.917931238",
+			"rate": "0",
+			"halfRate": "93.1 d",
+
+			"hu": "Európium-149",
+			"en": "Europium-149"
+		}, {
+			"weight": "149.919701819",
+			"rate": "0",
+			"halfRate": "36.8 y",
+
+			"hu": "Európium-150",
+			"en": "Europium-150"
+		}, {
+			"weight": "150.919850161",
+			"rate": "47.81",
+			"halfRate": "stable",
+
+			"hu": "Európium-151",
+			"en": "Europium-151"
+		}, {
+			"weight": "151.921744534",
+			"rate": "0",
+			"halfRate": "13.537 y",
+
+			"hu": "Európium-152",
+			"en": "Europium-152"
+		}, {
+			"weight": "152.921230339",
+			"rate": "52.19",
+			"halfRate": "stable",
+
+			"hu": "Európium-153",
+			"en": "Europium-153"
+		}, {
+			"weight": "153.922979237",
+			"rate": "0",
+			"halfRate": "8.594 y",
+
+			"hu": "Európium-154",
+			"en": "Europium-154"
+		}, {
+			"weight": "154.92289326",
+			"rate": "0",
+			"halfRate": "4.7612 y",
+
+			"hu": "Európium-155",
+			"en": "Europium-155"
+		}, {
+			"weight": "155.924752249",
+			"rate": "0",
+			"halfRate": "15.19 d",
+
+			"hu": "Európium-156",
+			"en": "Europium-156"
+		}, {
+			"weight": "156.925423647",
+			"rate": "0",
+			"halfRate": "15.181 h",
+
+			"hu": "Európium-157",
+			"en": "Europium-157"
+		}, {
+			"weight": "157.927845302",
+			"rate": "0",
+			"halfRate": "45.83 min",
+
+			"hu": "Európium-158",
+			"en": "Europium-158"
+		}, {
+			"weight": "158.929088861",
+			"rate": "0",
+			"halfRate": "18.17 min",
+
+			"hu": "Európium-159",
+			"en": "Europium-159"
+		}, {
+			"weight": "159.931971",
+			"rate": "0",
+			"halfRate": "38 s",
+
+			"hu": "Európium-160",
+			"en": "Europium-160"
+		}, {
+			"weight": "160.93368",
+			"rate": "0",
+			"halfRate": "26 s",
+
+			"hu": "Európium-161",
+			"en": "Europium-161"
+		}, {
+			"weight": "161.93704",
+			"rate": "0",
+			"halfRate": "10.6 s",
+
+			"hu": "Európium-162",
+			"en": "Europium-162"
+		}, {
+			"weight": "162.93921",
+			"rate": "0",
+			"halfRate": "6 s",
+
+			"hu": "Európium-163",
+			"en": "Europium-163"
+		}, {
+			"weight": "163.94299",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Európium-164",
+			"en": "Europium-164"
+		}, {
+			"weight": "164.94572",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Európium-165",
+			"en": "Europium-165"
+		}, {
+			"weight": "165.94997",
+			"rate": "0",
+			"halfRate": "400 ms",
+
+			"hu": "Európium-166",
+			"en": "Europium-166"
+		}, {
+			"weight": "166.95321",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Európium-167",
+			"en": "Europium-167"
+		}
+	]
+}

@@ -1,1 +1,243 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "195.005437696",
+			"rate": "0",
+			"halfRate": "6 s",
+
+			"hu": "Radon-195",
+			"en": "Radon-195"
+		}, {
+			"weight": "196.002115223",
+			"rate": "0",
+			"halfRate": "4.7 ms",
+
+			"hu": "Radon-196",
+			"en": "Radon-196"
+		}, {
+			"weight": "197.001584351",
+			"rate": "0",
+			"halfRate": "66 ms",
+
+			"hu": "Radon-197",
+			"en": "Radon-197"
+		}, {
+			"weight": "197.998678663",
+			"rate": "0",
+			"halfRate": "65 ms",
+
+			"hu": "Radon-198",
+			"en": "Radon-198"
+		}, {
+			"weight": "198.998370297",
+			"rate": "0",
+			"halfRate": "620 ms",
+
+			"hu": "Radon-199",
+			"en": "Radon-199"
+		}, {
+			"weight": "199.9956993",
+			"rate": "0",
+			"halfRate": "1.03 s",
+
+			"hu": "Radon-200",
+			"en": "Radon-200"
+		}, {
+			"weight": "200.995628335",
+			"rate": "0",
+			"halfRate": "7 s",
+
+			"hu": "Radon-201",
+			"en": "Radon-201"
+		}, {
+			"weight": "201.993263492",
+			"rate": "0",
+			"halfRate": "9.94 s",
+
+			"hu": "Radon-202",
+			"en": "Radon-202"
+		}, {
+			"weight": "202.993386687",
+			"rate": "0",
+			"halfRate": "43.5 s",
+
+			"hu": "Radon-203",
+			"en": "Radon-203"
+		}, {
+			"weight": "203.99142874",
+			"rate": "0",
+			"halfRate": "1.24 min",
+
+			"hu": "Radon-204",
+			"en": "Radon-204"
+		}, {
+			"weight": "204.991718799",
+			"rate": "0",
+			"halfRate": "2.83 min",
+
+			"hu": "Radon-205",
+			"en": "Radon-205"
+		}, {
+			"weight": "205.990214104",
+			"rate": "0",
+			"halfRate": "5.67 min",
+
+			"hu": "Radon-206",
+			"en": "Radon-206"
+		}, {
+			"weight": "206.990734225",
+			"rate": "0",
+			"halfRate": "9.25 min",
+
+			"hu": "Radon-207",
+			"en": "Radon-207"
+		}, {
+			"weight": "207.98964247",
+			"rate": "0",
+			"halfRate": "24.35 min",
+
+			"hu": "Radon-208",
+			"en": "Radon-208"
+		}, {
+			"weight": "208.990414742",
+			"rate": "0",
+			"halfRate": "28.5 min",
+
+			"hu": "Radon-209",
+			"en": "Radon-209"
+		}, {
+			"weight": "209.989696216",
+			"rate": "0",
+			"halfRate": "2.4 h",
+
+			"hu": "Radon-210",
+			"en": "Radon-210"
+		}, {
+			"weight": "210.990600523",
+			"rate": "0",
+			"halfRate": "14.6 h",
+
+			"hu": "Radon-211",
+			"en": "Radon-211"
+		}, {
+			"weight": "211.990703529",
+			"rate": "0",
+			"halfRate": "23.83 min",
+
+			"hu": "Radon-212",
+			"en": "Radon-212"
+		}, {
+			"weight": "212.993882668",
+			"rate": "0",
+			"halfRate": "19.5 ms",
+
+			"hu": "Radon-213",
+			"en": "Radon-213"
+		}, {
+			"weight": "213.995362554",
+			"rate": "0",
+			"halfRate": "270 ns",
+
+			"hu": "Radon-214",
+			"en": "Radon-214"
+		}, {
+			"weight": "214.998745483",
+			"rate": "0",
+			"halfRate": "2.3 µs",
+
+			"hu": "Radon-215",
+			"en": "Radon-215"
+		}, {
+			"weight": "216.00027437",
+			"rate": "0",
+			"halfRate": "45 µs",
+
+			"hu": "Radon-216",
+			"en": "Radon-216"
+		}, {
+			"weight": "217.003927675",
+			"rate": "0",
+			"halfRate": "540 µs",
+
+			"hu": "Radon-217",
+			"en": "Radon-217"
+		}, {
+			"weight": "218.005601256",
+			"rate": "0",
+			"halfRate": "35 ms",
+
+			"hu": "Radon-218",
+			"en": "Radon-218"
+		}, {
+			"weight": "219.009480204",
+			"rate": "0",
+			"halfRate": "3.96 s",
+
+			"hu": "Radon-219",
+			"en": "Radon-219"
+		}, {
+			"weight": "220.011393981",
+			"rate": "0",
+			"halfRate": "55.6 s",
+
+			"hu": "Radon-220",
+			"en": "Radon-220"
+		}, {
+			"weight": "221.015536782",
+			"rate": "0",
+			"halfRate": "25 min",
+
+			"hu": "Radon-221",
+			"en": "Radon-221"
+		}, {
+			"weight": "222.017577738",
+			"rate": "0",
+			"halfRate": "3.8235 d",
+
+			"hu": "Radon-222",
+			"en": "Radon-222"
+		}, {
+			"weight": "223.02179",
+			"rate": "0",
+			"halfRate": "24.33 min",
+
+			"hu": "Radon-223",
+			"en": "Radon-223"
+		}, {
+			"weight": "224.02409",
+			"rate": "0",
+			"halfRate": "1.783 h",
+
+			"hu": "Radon-224",
+			"en": "Radon-224"
+		}, {
+			"weight": "225.02844",
+			"rate": "0",
+			"halfRate": "4.67 min",
+
+			"hu": "Radon-225",
+			"en": "Radon-225"
+		}, {
+			"weight": "226.03089",
+			"rate": "0",
+			"halfRate": "7.33 min",
+
+			"hu": "Radon-226",
+			"en": "Radon-226"
+		}, {
+			"weight": "227.03547",
+			"rate": "0",
+			"halfRate": "20.8 s",
+
+			"hu": "Radon-227",
+			"en": "Radon-227"
+		}, {
+			"weight": "228.037986",
+			"rate": "0",
+			"halfRate": "1.1 min",
+
+			"hu": "Radon-228",
+			"en": "Radon-228"
+		}
+	]
+}

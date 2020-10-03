@@ -1,1 +1,145 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "225.033913933",
+			"rate": "0",
+			"halfRate": "3 ms",
+
+			"hu": "Neptúnium-225",
+			"en": "Neptunium-225"
+		}, {
+			"weight": "226.035145",
+			"rate": "0",
+			"halfRate": "35 ms",
+
+			"hu": "Neptúnium-226",
+			"en": "Neptunium-226"
+		}, {
+			"weight": "227.034956789",
+			"rate": "0",
+			"halfRate": "510 ms",
+
+			"hu": "Neptúnium-227",
+			"en": "Neptunium-227"
+		}, {
+			"weight": "228.036180",
+			"rate": "0",
+			"halfRate": "1.02 min",
+
+			"hu": "Neptúnium-228",
+			"en": "Neptunium-228"
+		}, {
+			"weight": "229.036263808",
+			"rate": "0",
+			"halfRate": "4 min",
+
+			"hu": "Neptúnium-229",
+			"en": "Neptunium-229"
+		}, {
+			"weight": "230.037827597",
+			"rate": "0",
+			"halfRate": "4.67 min",
+
+			"hu": "Neptúnium-230",
+			"en": "Neptunium-230"
+		}, {
+			"weight": "231.038245085",
+			"rate": "0",
+			"halfRate": "48.83 min",
+
+			"hu": "Neptúnium-231",
+			"en": "Neptunium-231"
+		}, {
+			"weight": "232.040108",
+			"rate": "0",
+			"halfRate": "14.7 min",
+
+			"hu": "Neptúnium-232",
+			"en": "Neptunium-232"
+		}, {
+			"weight": "233.040740546",
+			"rate": "0",
+			"halfRate": "36.17 min",
+
+			"hu": "Neptúnium-233",
+			"en": "Neptunium-233"
+		}, {
+			"weight": "234.042895038",
+			"rate": "0",
+			"halfRate": "4.4 d",
+
+			"hu": "Neptúnium-234",
+			"en": "Neptunium-234"
+		}, {
+			"weight": "235.044063267",
+			"rate": "0",
+			"halfRate": "1.084 y",
+
+			"hu": "Neptúnium-235",
+			"en": "Neptunium-235"
+		}, {
+			"weight": "236.0465696",
+			"rate": "0",
+			"halfRate": "154000 y",
+
+			"hu": "Neptúnium-236",
+			"en": "Neptunium-236"
+		}, {
+			"weight": "237.048173444",
+			"rate": "0",
+			"halfRate": "2144000 y",
+
+			"hu": "Neptúnium-237",
+			"en": "Neptunium-237"
+		}, {
+			"weight": "238.050946405",
+			"rate": "0",
+			"halfRate": "2.117 d",
+
+			"hu": "Neptúnium-238",
+			"en": "Neptunium-238"
+		}, {
+			"weight": "239.052939025",
+			"rate": "0",
+			"halfRate": "2.356 d",
+
+			"hu": "Neptúnium-239",
+			"en": "Neptunium-239"
+		}, {
+			"weight": "240.056162182",
+			"rate": "0",
+			"halfRate": "1.031 h",
+
+			"hu": "Neptúnium-240",
+			"en": "Neptunium-240"
+		}, {
+			"weight": "241.058252431",
+			"rate": "0",
+			"halfRate": "13.9 min",
+
+			"hu": "Neptúnium-241",
+			"en": "Neptunium-241"
+		}, {
+			"weight": "242.06164118",
+			"rate": "0",
+			"halfRate": "2.17 min",
+
+			"hu": "Neptúnium-242",
+			"en": "Neptunium-242"
+		}, {
+			"weight": "243.064279",
+			"rate": "0",
+			"halfRate": "1.85 min",
+
+			"hu": "Neptúnium-243",
+			"en": "Neptunium-243"
+		}, {
+			"weight": "244.067850",
+			"rate": "0",
+			"halfRate": "2.28 min",
+
+			"hu": "Neptúnium-244",
+			"en": "Neptunium-244"
+		}
+	]
+}

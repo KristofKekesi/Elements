@@ -1,1 +1,145 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "228.038742328",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Plutónium-228",
+			"en": "Plutonium-228"
+		}, {
+			"weight": "229.040150212",
+			"rate": "0",
+			"halfRate": "2 min",
+
+			"hu": "Plutónium-229",
+			"en": "Plutonium-229"
+		}, {
+			"weight": "230.039649886",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Plutónium-230",
+			"en": "Plutonium-230"
+		}, {
+			"weight": "231.041101107",
+			"rate": "0",
+			"halfRate": "8.67 min",
+
+			"hu": "Plutónium-231",
+			"en": "Plutonium-231"
+		}, {
+			"weight": "232.041187097",
+			"rate": "0",
+			"halfRate": "33.67 min",
+
+			"hu": "Plutónium-232",
+			"en": "Plutonium-232"
+		}, {
+			"weight": "233.042997375",
+			"rate": "0",
+			"halfRate": "20.83 min",
+
+			"hu": "Plutónium-233",
+			"en": "Plutonium-233"
+		}, {
+			"weight": "234.043317076",
+			"rate": "0",
+			"halfRate": "8.9 h",
+
+			"hu": "Plutónium-234",
+			"en": "Plutonium-234"
+		}, {
+			"weight": "235.04528605",
+			"rate": "0",
+			"halfRate": "25.33 min",
+
+			"hu": "Plutónium-235",
+			"en": "Plutonium-235"
+		}, {
+			"weight": "236.046057964",
+			"rate": "0",
+			"halfRate": "2.858 y",
+
+			"hu": "Plutónium-236",
+			"en": "Plutonium-236"
+		}, {
+			"weight": "237.048409658",
+			"rate": "0",
+			"halfRate": "45.3 d",
+
+			"hu": "Plutónium-237",
+			"en": "Plutonium-237"
+		}, {
+			"weight": "238.049559894",
+			"rate": "0",
+			"halfRate": "87.8 y",
+
+			"hu": "Plutónium-238",
+			"en": "Plutonium-238"
+		}, {
+			"weight": "239.052163381",
+			"rate": "0",
+			"halfRate": "24110 y",
+
+			"hu": "Plutónium-239",
+			"en": "Plutonium-239"
+		}, {
+			"weight": "240.053813545",
+			"rate": "0",
+			"halfRate": "6563 y",
+
+			"hu": "Plutónium-240",
+			"en": "Plutonium-240"
+		}, {
+			"weight": "241.056851456",
+			"rate": "0",
+			"halfRate": "14.35 y",
+
+			"hu": "Plutónium-241",
+			"en": "Plutonium-241"
+		}, {
+			"weight": "242.058742611",
+			"rate": "0",
+			"halfRate": "374000 y",
+
+			"hu": "Plutónium-242",
+			"en": "Plutonium-242"
+		}, {
+			"weight": "243.062003092",
+			"rate": "0",
+			"halfRate": "4.9556 h",
+
+			"hu": "Plutónium-243",
+			"en": "Plutonium-243"
+		}, {
+			"weight": "244.064203907",
+			"rate": "0",
+			"halfRate": "79000000 y",
+
+			"hu": "Plutónium-244",
+			"en": "Plutonium-244"
+		}, {
+			"weight": "245.067747154",
+			"rate": "0",
+			"halfRate": "10.5 h",
+
+			"hu": "Plutónium-245",
+			"en": "Plutonium-245"
+		}, {
+			"weight": "246.070204627",
+			"rate": "0",
+			"halfRate": "10.84 d",
+
+			"hu": "Plutónium-246",
+			"en": "Plutonium-246"
+		}, {
+			"weight": "247.07407",
+			"rate": "0",
+			"halfRate": "2.27 d",
+
+			"hu": "Plutónium-247",
+			"en": "Plutonium-247"
+		}
+	]
+}

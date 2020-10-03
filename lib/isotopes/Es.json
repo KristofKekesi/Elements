@@ -1,1 +1,138 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "240.06892",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Einsteinium-240",
+			"en": "Einsteinium-240"
+		}, {
+			"weight": "241.068538",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Einsteinium-241",
+			"en": "Einsteinium-241"
+		}, {
+			"weight": "242.069745",
+			"rate": "0",
+			"halfRate": "13.5 s",
+
+			"hu": "Einsteinium-242",
+			"en": "Einsteinium-242"
+		}, {
+			"weight": "243.069548",
+			"rate": "0",
+			"halfRate": "21 s",
+
+			"hu": "Einsteinium-243",
+			"en": "Einsteinium-243"
+		}, {
+			"weight": "244.070883",
+			"rate": "0",
+			"halfRate": "37 s",
+
+			"hu": "Einsteinium-244",
+			"en": "Einsteinium-244"
+		}, {
+			"weight": "245.071324",
+			"rate": "0",
+			"halfRate": "1.1 min",
+
+			"hu": "Einsteinium-245",
+			"en": "Einsteinium-245"
+		}, {
+			"weight": "246.072896",
+			"rate": "0",
+			"halfRate": "7.67 min",
+
+			"hu": "Einsteinium-246",
+			"en": "Einsteinium-246"
+		}, {
+			"weight": "247.073656",
+			"rate": "0",
+			"halfRate": "4.67 min",
+
+			"hu": "Einsteinium-247",
+			"en": "Einsteinium-247"
+		}, {
+			"weight": "248.075471",
+			"rate": "0",
+			"halfRate": "27 min",
+
+			"hu": "Einsteinium-248",
+			"en": "Einsteinium-248"
+		}, {
+			"weight": "249.076411",
+			"rate": "0",
+			"halfRate": "1.703 h",
+
+			"hu": "Einsteinium-249",
+			"en": "Einsteinium-249"
+		}, {
+			"weight": "250.078612",
+			"rate": "0",
+			"halfRate": "8.6 h",
+
+			"hu": "Einsteinium-250",
+			"en": "Einsteinium-250"
+		}, {
+			"weight": "251.079992142",
+			"rate": "0",
+			"halfRate": "1.4 d",
+
+			"hu": "Einsteinium-251",
+			"en": "Einsteinium-251"
+		}, {
+			"weight": "252.082978512",
+			"rate": "0",
+			"halfRate": "1.291 y",
+
+			"hu": "Einsteinium-252",
+			"en": "Einsteinium-252"
+		}, {
+			"weight": "253.084824697",
+			"rate": "0",
+			"halfRate": "20.47 d",
+
+			"hu": "Einsteinium-253",
+			"en": "Einsteinium-253"
+		}, {
+			"weight": "254.088022021",
+			"rate": "0",
+			"halfRate": "275.7 d",
+
+			"hu": "Einsteinium-254",
+			"en": "Einsteinium-254"
+		}, {
+			"weight": "255.090273122",
+			"rate": "0",
+			"halfRate": "39.8 d",
+
+			"hu": "Einsteinium-255",
+			"en": "Einsteinium-255"
+		}, {
+			"weight": "256.093598",
+			"rate": "0",
+			"halfRate": "25.33 min",
+
+			"hu": "Einsteinium-256",
+			"en": "Einsteinium-256"
+		}, {
+			"weight": "257.095979",
+			"rate": "0",
+			"halfRate": "7.8 d",
+
+			"hu": "Einsteinium-257",
+			"en": "Einsteinium-257"
+		}, {
+			"weight": "258.09952",
+			"rate": "0",
+			"halfRate": "3.3 min",
+
+			"hu": "Einsteinium-258",
+			"en": "Einsteinium-258"
+		}
+	]
+}

@@ -1,1 +1,117 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "260.12197",
+			"rate": "0",
+			"halfRate": "300 µs",
+
+			"hu": "Bohrium-260",
+			"en": "Bohrium-260"
+		}, {
+			"weight": "261.121664",
+			"rate": "0",
+			"halfRate": "13 ms",
+
+			"hu": "Bohrium-261",
+			"en": "Bohrium-261"
+		}, {
+			"weight": "262.122892",
+			"rate": "0",
+			"halfRate": "290 ms",
+
+			"hu": "Bohrium-262",
+			"en": "Bohrium-262"
+		}, {
+			"weight": "263.123035",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Bohrium-263",
+			"en": "Bohrium-263"
+		}, {
+			"weight": "264.124604",
+			"rate": "0",
+			"halfRate": "1.3 s",
+
+			"hu": "Bohrium-264",
+			"en": "Bohrium-264"
+		}, {
+			"weight": "265.125147",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Bohrium-265",
+			"en": "Bohrium-265"
+		}, {
+			"weight": "266.126942",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Bohrium-266",
+			"en": "Bohrium-266"
+		}, {
+			"weight": "267.12765",
+			"rate": "0",
+			"halfRate": "22 s",
+
+			"hu": "Bohrium-267",
+			"en": "Bohrium-267"
+		}, {
+			"weight": "268.129755",
+			"rate": "0",
+			"halfRate": "25 s",
+
+			"hu": "Bohrium-268",
+			"en": "Bohrium-268"
+		}, {
+			"weight": "269.130694",
+			"rate": "0",
+			"halfRate": "25 s",
+
+			"hu": "Bohrium-269",
+			"en": "Bohrium-269"
+		}, {
+			"weight": "270.133616",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Bohrium-270",
+			"en": "Bohrium-270"
+		}, {
+			"weight": "271.135179",
+			"rate": "0",
+			"halfRate": "40 s",
+
+			"hu": "Bohrium-271",
+			"en": "Bohrium-271"
+		}, {
+			"weight": "272.138032",
+			"rate": "0",
+			"halfRate": "1.7 min",
+
+			"hu": "Bohrium-272",
+			"en": "Bohrium-272"
+		}, {
+			"weight": "273.139618",
+			"rate": "0",
+			"halfRate": "1.5 h",
+
+			"hu": "Bohrium-273",
+			"en": "Bohrium-273"
+		}, {
+			"weight": "274.14244",
+			"rate": "0",
+			"halfRate": "1.5 h",
+
+			"hu": "Bohrium-274",
+			"en": "Bohrium-274"
+		}, {
+			"weight": "275.14425",
+			"rate": "0",
+			"halfRate": "40 min",
+
+			"hu": "Bohrium-275",
+			"en": "Bohrium-275"
+		}
+	]
+}

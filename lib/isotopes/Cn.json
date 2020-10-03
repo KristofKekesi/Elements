@@ -1,1 +1,68 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "277.163943",
+			"rate": "0",
+			"halfRate": "1.1 ms",
+
+			"hu": "Kopernícium-277",
+			"en": "Copernicium-277"
+		}, {
+			"weight": "278.164312",
+			"rate": "0",
+			"halfRate": "10 ms",
+
+			"hu": "Kopernícium-278",
+			"en": "Copernicium-278"
+		}, {
+			"weight": "279.166546",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Kopernícium-279",
+			"en": "Copernicium-279"
+		}, {
+			"weight": "280.167039",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Kopernícium-280",
+			"en": "Copernicium-280"
+		}, {
+			"weight": "281.169286",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Kopernícium-281",
+			"en": "Copernicium-281"
+		}, {
+			"weight": "282.169765",
+			"rate": "0",
+			"halfRate": "30 s",
+
+			"hu": "Kopernícium-282",
+			"en": "Copernicium-282"
+		}, {
+			"weight": "283.171792",
+			"rate": "0",
+			"halfRate": "4.17 min",
+
+			"hu": "Kopernícium-283",
+			"en": "Copernicium-283"
+		}, {
+			"weight": "284.172384",
+			"rate": "0",
+			"halfRate": "31 s",
+
+			"hu": "Kopernícium-284",
+			"en": "Copernicium-284"
+		}, {
+			"weight": "285.174105",
+			"rate": "0",
+			"halfRate": "40 min",
+
+			"hu": "Kopernícium-285",
+			"en": "Copernicium-285"
+		}
+	]
+}

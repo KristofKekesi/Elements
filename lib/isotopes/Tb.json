@@ -1,1 +1,257 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "135.96138",
+			"rate": "0",
+			"halfRate": "200 ms",
+
+			"hu": "Terbium-136",
+			"en": "Terbium-136"
+		}, {
+			"weight": "136.95598",
+			"rate": "0",
+			"halfRate": "600 ms",
+
+			"hu": "Terbium-137",
+			"en": "Terbium-137"
+		}, {
+			"weight": "137.95316",
+			"rate": "0",
+			"halfRate": "800 ms",
+
+			"hu": "Terbium-138",
+			"en": "Terbium-138"
+		}, {
+			"weight": "138.94829",
+			"rate": "0",
+			"halfRate": "1.6 s",
+
+			"hu": "Terbium-139",
+			"en": "Terbium-139"
+		}, {
+			"weight": "139.945805049",
+			"rate": "0",
+			"halfRate": "2.4 s",
+
+			"hu": "Terbium-140",
+			"en": "Terbium-140"
+		}, {
+			"weight": "140.941448",
+			"rate": "0",
+			"halfRate": "3.5 s",
+
+			"hu": "Terbium-141",
+			"en": "Terbium-141"
+		}, {
+			"weight": "141.938744",
+			"rate": "0",
+			"halfRate": "597 ms",
+
+			"hu": "Terbium-142",
+			"en": "Terbium-142"
+		}, {
+			"weight": "142.935121",
+			"rate": "0",
+			"halfRate": "12 s",
+
+			"hu": "Terbium-143",
+			"en": "Terbium-143"
+		}, {
+			"weight": "143.933045",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Terbium-144",
+			"en": "Terbium-144"
+		}, {
+			"weight": "144.929274",
+			"rate": "0",
+			"halfRate": "20 min",
+
+			"hu": "Terbium-145",
+			"en": "Terbium-145"
+		}, {
+			"weight": "145.927246584",
+			"rate": "0",
+			"halfRate": "8 s",
+
+			"hu": "Terbium-146",
+			"en": "Terbium-146"
+		}, {
+			"weight": "146.924044585",
+			"rate": "0",
+			"halfRate": "1.6 h",
+
+			"hu": "Terbium-147",
+			"en": "Terbium-147"
+		}, {
+			"weight": "147.924271701",
+			"rate": "0",
+			"halfRate": "1 h",
+
+			"hu": "Terbium-148",
+			"en": "Terbium-148"
+		}, {
+			"weight": "148.923245909",
+			"rate": "0",
+			"halfRate": "4.1167 h",
+
+			"hu": "Terbium-149",
+			"en": "Terbium-149"
+		}, {
+			"weight": "149.923659686",
+			"rate": "0",
+			"halfRate": "3.47 h",
+
+			"hu": "Terbium-150",
+			"en": "Terbium-150"
+		}, {
+			"weight": "150.923102543",
+			"rate": "0",
+			"halfRate": "17.609 h",
+
+			"hu": "Terbium-151",
+			"en": "Terbium-151"
+		}, {
+			"weight": "151.924074438",
+			"rate": "0",
+			"halfRate": "18 h",
+
+			"hu": "Terbium-152",
+			"en": "Terbium-152"
+		}, {
+			"weight": "152.923434588",
+			"rate": "0",
+			"halfRate": "2.34 d",
+
+			"hu": "Terbium-153",
+			"en": "Terbium-153"
+		}, {
+			"weight": "153.924678019",
+			"rate": "0",
+			"halfRate": "21.5 h",
+
+			"hu": "Terbium-154",
+			"en": "Terbium-154"
+		}, {
+			"weight": "154.923505236",
+			"rate": "0",
+			"halfRate": "5.3 d",
+
+			"hu": "Terbium-155",
+			"en": "Terbium-155"
+		}, {
+			"weight": "155.924747213",
+			"rate": "0",
+			"halfRate": "5.35 d",
+
+			"hu": "Terbium-156",
+			"en": "Terbium-156"
+		}, {
+			"weight": "156.924024604",
+			"rate": "0",
+			"halfRate": "70 y",
+
+			"hu": "Terbium-157",
+			"en": "Terbium-157"
+		}, {
+			"weight": "157.925413137",
+			"rate": "0",
+			"halfRate": "180 y",
+
+			"hu": "Terbium-158",
+			"en": "Terbium-158"
+		}, {
+			"weight": "158.925346757",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Terbium-159",
+			"en": "Terbium-159"
+		}, {
+			"weight": "159.927167606",
+			"rate": "0",
+			"halfRate": "72.3 d",
+
+			"hu": "Terbium-160",
+			"en": "Terbium-160"
+		}, {
+			"weight": "160.927569919",
+			"rate": "0",
+			"halfRate": "6.906 d",
+
+			"hu": "Terbium-161",
+			"en": "Terbium-161"
+		}, {
+			"weight": "161.929488234",
+			"rate": "0",
+			"halfRate": "7.67 min",
+
+			"hu": "Terbium-162",
+			"en": "Terbium-162"
+		}, {
+			"weight": "162.930647536",
+			"rate": "0",
+			"halfRate": "19.5 min",
+
+			"hu": "Terbium-163",
+			"en": "Terbium-163"
+		}, {
+			"weight": "163.933350838",
+			"rate": "0",
+			"halfRate": "3 min",
+
+			"hu": "Terbium-164",
+			"en": "Terbium-164"
+		}, {
+			"weight": "164.934880",
+			"rate": "0",
+			"halfRate": "2.12 min",
+
+			"hu": "Terbium-165",
+			"en": "Terbium-165"
+		}, {
+			"weight": "165.937991959",
+			"rate": "0",
+			"halfRate": "25.6 s",
+
+			"hu": "Terbium-166",
+			"en": "Terbium-166"
+		}, {
+			"weight": "166.94005",
+			"rate": "0",
+			"halfRate": "19 s",
+
+			"hu": "Terbium-167",
+			"en": "Terbium-167"
+		}, {
+			"weight": "167.94364",
+			"rate": "0",
+			"halfRate": "8.2 s",
+
+			"hu": "Terbium-168",
+			"en": "Terbium-168"
+		}, {
+			"weight": "168.94622",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Terbium-169",
+			"en": "Terbium-169"
+		}, {
+			"weight": "169.95025",
+			"rate": "0",
+			"halfRate": "3 s",
+
+			"hu": "Terbium-170",
+			"en": "Terbium-170"
+		}, {
+			"weight": "170.9533",
+			"rate": "0",
+			"halfRate": "500 ms",
+
+			"hu": "Terbium-171",
+			"en": "Terbium-171"
+		}
+	]
+}

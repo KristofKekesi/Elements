@@ -1,1 +1,264 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "168.99808",
+			"rate": "0",
+			"halfRate": "150 µs",
+
+			"hu": "Arany-169",
+			"en": "Gold-169"
+		}, {
+			"weight": "169.996122",
+			"rate": "0",
+			"halfRate": "310 µs",
+
+			"hu": "Arany-170",
+			"en": "Gold-170"
+		}, {
+			"weight": "170.991878881",
+			"rate": "0",
+			"halfRate": "30 µs",
+
+			"hu": "Arany-171",
+			"en": "Gold-171"
+		}, {
+			"weight": "171.990035",
+			"rate": "0",
+			"halfRate": "4.7 ms",
+
+			"hu": "Arany-172",
+			"en": "Gold-172"
+		}, {
+			"weight": "172.98623738",
+			"rate": "0",
+			"halfRate": "25 ms",
+
+			"hu": "Arany-173",
+			"en": "Gold-173"
+		}, {
+			"weight": "173.984761",
+			"rate": "0",
+			"halfRate": "139 ms",
+
+			"hu": "Arany-174",
+			"en": "Gold-174"
+		}, {
+			"weight": "174.981274107",
+			"rate": "0",
+			"halfRate": "100 ms",
+
+			"hu": "Arany-175",
+			"en": "Gold-175"
+		}, {
+			"weight": "175.980099",
+			"rate": "0",
+			"halfRate": "1.08 s",
+
+			"hu": "Arany-176",
+			"en": "Gold-176"
+		}, {
+			"weight": "176.976864908",
+			"rate": "0",
+			"halfRate": "1.46 s",
+
+			"hu": "Arany-177",
+			"en": "Gold-177"
+		}, {
+			"weight": "177.97603192",
+			"rate": "0",
+			"halfRate": "2.6 s",
+
+			"hu": "Arany-178",
+			"en": "Gold-178"
+		}, {
+			"weight": "178.973212812",
+			"rate": "0",
+			"halfRate": "7.1 s",
+
+			"hu": "Arany-179",
+			"en": "Gold-179"
+		}, {
+			"weight": "179.972521124",
+			"rate": "0",
+			"halfRate": "8.1 s",
+
+			"hu": "Arany-180",
+			"en": "Gold-180"
+		}, {
+			"weight": "180.970079048",
+			"rate": "0",
+			"halfRate": "13.7 s",
+
+			"hu": "Arany-181",
+			"en": "Gold-181"
+		}, {
+			"weight": "181.969617874",
+			"rate": "0",
+			"halfRate": "15.5 s",
+
+			"hu": "Arany-182",
+			"en": "Gold-182"
+		}, {
+			"weight": "182.967593034",
+			"rate": "0",
+			"halfRate": "42.8 s",
+
+			"hu": "Arany-183",
+			"en": "Gold-183"
+		}, {
+			"weight": "183.967451524",
+			"rate": "0",
+			"halfRate": "20.6 s",
+
+			"hu": "Arany-184",
+			"en": "Gold-184"
+		}, {
+			"weight": "184.965789411",
+			"rate": "0",
+			"halfRate": "4.25 min",
+
+			"hu": "Arany-185",
+			"en": "Gold-185"
+		}, {
+			"weight": "185.965952703",
+			"rate": "0",
+			"halfRate": "10.7 min",
+
+			"hu": "Arany-186",
+			"en": "Gold-186"
+		}, {
+			"weight": "186.964567541",
+			"rate": "0",
+			"halfRate": "8.3 min",
+
+			"hu": "Arany-187",
+			"en": "Gold-187"
+		}, {
+			"weight": "187.965323661",
+			"rate": "0",
+			"halfRate": "8.83 min",
+
+			"hu": "Arany-188",
+			"en": "Gold-188"
+		}, {
+			"weight": "188.963948286",
+			"rate": "0",
+			"halfRate": "28.67 min",
+
+			"hu": "Arany-189",
+			"en": "Gold-189"
+		}, {
+			"weight": "189.964700339",
+			"rate": "0",
+			"halfRate": "42.83 min",
+
+			"hu": "Arany-190",
+			"en": "Gold-190"
+		}, {
+			"weight": "190.963704225",
+			"rate": "0",
+			"halfRate": "3.17 h",
+
+			"hu": "Arany-191",
+			"en": "Gold-191"
+		}, {
+			"weight": "191.964812953",
+			"rate": "0",
+			"halfRate": "4.94 h",
+
+			"hu": "Arany-192",
+			"en": "Gold-192"
+		}, {
+			"weight": "192.964149715",
+			"rate": "0",
+			"halfRate": "17.65 h",
+
+			"hu": "Arany-193",
+			"en": "Gold-193"
+		}, {
+			"weight": "193.96536525",
+			"rate": "0",
+			"halfRate": "1.584 d",
+
+			"hu": "Arany-194",
+			"en": "Gold-194"
+		}, {
+			"weight": "194.96503464",
+			"rate": "0",
+			"halfRate": "186.1 d",
+
+			"hu": "Arany-195",
+			"en": "Gold-195"
+		}, {
+			"weight": "195.966569813",
+			"rate": "0",
+			"halfRate": "6.1669 d",
+
+			"hu": "Arany-196",
+			"en": "Gold-196"
+		}, {
+			"weight": "196.966568662",
+			"rate": "100",
+			"halfRate": "stable",
+
+			"hu": "Arany-197",
+			"en": "Gold-197"
+		}, {
+			"weight": "197.968242303",
+			"rate": "0",
+			"halfRate": "2.69517 d",
+
+			"hu": "Arany-198",
+			"en": "Gold-198"
+		}, {
+			"weight": "198.968765193",
+			"rate": "0",
+			"halfRate": "3.139 d",
+
+			"hu": "Arany-199",
+			"en": "Gold-199"
+		}, {
+			"weight": "199.970725647",
+			"rate": "0",
+			"halfRate": "48 min",
+
+			"hu": "Arany-200",
+			"en": "Gold-200"
+		}, {
+			"weight": "200.97165724",
+			"rate": "0",
+			"halfRate": "27 min",
+
+			"hu": "Arany-201",
+			"en": "Gold-201"
+		}, {
+			"weight": "201.973805838",
+			"rate": "0",
+			"halfRate": "28.8 s",
+
+			"hu": "Arany-202",
+			"en": "Gold-202"
+		}, {
+			"weight": "202.975154542",
+			"rate": "0",
+			"halfRate": "53 s",
+
+			"hu": "Arany-203",
+			"en": "Gold-203"
+		}, {
+			"weight": "203.977724",
+			"rate": "0",
+			"halfRate": "39.8 s",
+
+			"hu": "Arany-204",
+			"en": "Gold-204"
+		}, {
+			"weight": "204.97987",
+			"rate": "0",
+			"halfRate": "31 s",
+
+			"hu": "Arany-205",
+			"en": "Gold-205"
+		}
+	]
+}

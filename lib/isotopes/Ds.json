@@ -1,1 +1,110 @@
- 
+{
+	"isotopes": [
+		{
+			"weight": "267.144341",
+			"rate": "0",
+			"halfRate": "10 µs",
+
+			"hu": "Darmstadtium-267",
+			"en": "Darmstadtium-267"
+		}, {
+			"weight": "268.143795",
+			"rate": "0",
+			"halfRate": "100 µs",
+
+			"hu": "Darmstadtium-268",
+			"en": "Darmstadtium-268"
+		}, {
+			"weight": "269.145124",
+			"rate": "0",
+			"halfRate": "230 µs",
+
+			"hu": "Darmstadtium-269",
+			"en": "Darmstadtium-269"
+		}, {
+			"weight": "270.14472",
+			"rate": "0",
+			"halfRate": "160 µs",
+
+			"hu": "Darmstadtium-270",
+			"en": "Darmstadtium-270"
+		}, {
+			"weight": "271.146062",
+			"rate": "0",
+			"halfRate": "210 ms",
+
+			"hu": "Darmstadtium-271",
+			"en": "Darmstadtium-271"
+		}, {
+			"weight": "272.146317",
+			"rate": "0",
+			"halfRate": "1 s",
+
+			"hu": "Darmstadtium-272",
+			"en": "Darmstadtium-272"
+		}, {
+			"weight": "273.148863",
+			"rate": "0",
+			"halfRate": "360 µs",
+
+			"hu": "Darmstadtium-273",
+			"en": "Darmstadtium-273"
+		}, {
+			"weight": "274.149492",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Darmstadtium-274",
+			"en": "Darmstadtium-274"
+		}, {
+			"weight": "275.152176",
+			"rate": "0",
+			"halfRate": "2 s",
+
+			"hu": "Darmstadtium-275",
+			"en": "Darmstadtium-275"
+		}, {
+			"weight": "276.153034",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Darmstadtium-276",
+			"en": "Darmstadtium-276"
+		}, {
+			"weight": "277.155647",
+			"rate": "0",
+			"halfRate": "5 s",
+
+			"hu": "Darmstadtium-277",
+			"en": "Darmstadtium-277"
+		}, {
+			"weight": "278.156469",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Darmstadtium-278",
+			"en": "Darmstadtium-278"
+		}, {
+			"weight": "279.158861",
+			"rate": "0",
+			"halfRate": "10 s",
+
+			"hu": "Darmstadtium-279",
+			"en": "Darmstadtium-279"
+		}, {
+			"weight": "280.159795",
+			"rate": "0",
+			"halfRate": "11 s",
+
+			"hu": "Darmstadtium-280",
+			"en": "Darmstadtium-280"
+		}, {
+			"weight": "281.162061",
+			"rate": "0",
+			"halfRate": "4 min",
+
+			"hu": "Darmstadtium-281",
+			"en": "Darmstadtium-281"
+		}
+	]
+}
