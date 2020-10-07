@@ -124,7 +124,7 @@ class cardView extends StatelessWidget {
 
             if (stateElectronnegativity == true) {
               if (electronnegativityUnknown == true &&
-                      elementList[index]['electronnegativity'] == 'unknown' ||
+                  elementList[index]['electronnegativity'] == 'unknown' ||
                   elementList[index]['electronnegativity'] != 'unknown' &&
                       electronnegativityMin <=
                           num.parse(elementList[index]['electronnegativity']) &&
@@ -137,7 +137,7 @@ class cardView extends StatelessWidget {
 
             if (stateTypes == true) {
               if (typesOthernonmetals == true &&
-                      elementList[index]['type'] == 'otherNonmetal' ||
+                  elementList[index]['type'] == 'otherNonmetal' ||
                   typesNoblegases == true &&
                       elementList[index]['type'] == 'nobleGas' ||
                   typesAlkalimetals == true &&
@@ -171,7 +171,7 @@ class cardView extends StatelessWidget {
 
             if (stateConstructors == true) {
               if (constructorsProtonMin <=
-                      int.parse(elementList[index]['chargedComponent']) &&
+                  int.parse(elementList[index]['chargedComponent']) &&
                   constructorsProtonMax >=
                       int.parse(elementList[index]['chargedComponent']) &&
                   constructorsElectronMin <=
@@ -189,9 +189,9 @@ class cardView extends StatelessWidget {
 
             if (stateWeight == true) {
               if (weightMin <=
-                      double.parse(elementList[index]['weight']
-                          .replaceAll('(', '')
-                          .replaceAll(')', '')) &&
+                  double.parse(elementList[index]['weight']
+                      .replaceAll('(', '')
+                      .replaceAll(')', '')) &&
                   weightMax >=
                       double.parse(elementList[index]['weight']
                           .replaceAll('(', '')
@@ -204,425 +204,425 @@ class cardView extends StatelessWidget {
             if (passed == true) {
               pass++;
 
-              String isotopeWeight(input) {
-                if (input.contains('unknown')) {
-                  return Capitalizate(
-                      AppLocalizations.of(context).translate('unknown'));
-                } else {
-                  return input;
-                }
-              }
-
-              String isotopeRate(input) {
-                if (input.contains('unknown')) {
-                  return Capitalizate(
-                      AppLocalizations.of(context).translate('unknown'));
-                } else {
-                  return input +
-                      AppLocalizations.of(context)
-                          .translate('rateSymbolIsotopes');
-                }
-              }
-
-              String isotopeRadioactivity(input) {
-                if (input.contains('unknown')) {
-                  return Capitalizate(
-                      AppLocalizations.of(context).translate('unknown'));
-                } else if (input.contains('stable')) {
-                  return Capitalizate(
-                      AppLocalizations.of(context).translate('stable'));
-                } else {
-                  return Capitalizate(
-                      AppLocalizations.of(context).translate('radioactive'));
-                }
-              }
-
-              String toTime(input, inner) {
-                if (input.contains('y')) {
-                  if (double.parse(input.replaceAll(' y', '')) <= 1) {
-                    return input.replaceAll(' y',
-                        ' ' + AppLocalizations.of(context).translate('year'));
-                  } else {
-                    return input.replaceAll(' y',
-                        ' ' + AppLocalizations.of(context).translate('years'));
-                  }
-                } else if (input.contains(' d')) {
-                  if (double.parse(input.replaceAll(' d', '')) <= 1) {
-                    return input.replaceAll(' d',
-                        ' ' + AppLocalizations.of(context).translate('day'));
-                  } else {
-                    return input.replaceAll(' d',
-                        ' ' + AppLocalizations.of(context).translate('days'));
-                  }
-                } else if (input.contains(' h')) {
-                  if (double.parse(input.replaceAll(' h', '')) <= 1) {
-                    return input.replaceAll(' h',
-                        ' ' + AppLocalizations.of(context).translate('hour'));
-                  } else {
-                    return input.replaceAll(' h',
-                        ' ' + AppLocalizations.of(context).translate('hours'));
-                  }
-                } else if (input.contains(' min')) {
-                  if (double.parse(input.replaceAll(' min', '')) <= 1) {
-                    return input.replaceAll(' min',
-                        ' ' + AppLocalizations.of(context).translate('minute'));
-                  } else {
-                    return input.replaceAll(
-                        ' min',
-                        ' ' +
-                            AppLocalizations.of(context).translate('minutes'));
-                  }
-                } else if (input.contains(' s')) {
-                  if (double.parse(input.replaceAll(' s', '')) <= 1) {
-                    return input.replaceAll(' s',
-                        ' ' + AppLocalizations.of(context).translate('second'));
-                  } else {
-                    return input.replaceAll(
-                        ' s',
-                        ' ' +
-                            AppLocalizations.of(context).translate('seconds'));
-                  }
-                } else if (input.contains(' ms')) {
-                  if (double.parse(input.replaceAll(' ms', '')) <= 1) {
-                    return input.replaceAll(
-                        ' ms',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('millisecond'));
-                  } else {
-                    return input.replaceAll(
-                        ' ms',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('milliseconds'));
-                  }
-                } else if (input.contains(' ns')) {
-                  if (double.parse(input.replaceAll(' ns', '')) <= 1) {
-                    return input.replaceAll(
-                        ' ns',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('nanosecond'));
-                  } else {
-                    return input.replaceAll(
-                        ' ns',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('nanoseconds'));
-                  }
-                } else if (input.contains(' ps')) {
-                  if (double.parse(input.replaceAll(' ps', '')) <= 1) {
-                    return input.replaceAll(
-                        ' ps',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('picosecond'));
-                  } else {
-                    return input.replaceAll(
-                        ' ps',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('picoseconds'));
-                  }
-                } else if (input.contains(' µs')) {
-                  if (double.parse(input.replaceAll(' µs', '')) <= 1) {
-                    return input.replaceAll(
-                        ' µs',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('microsecond'));
-                  } else {
-                    return input.replaceAll(
-                        ' µs',
-                        ' ' +
-                            AppLocalizations.of(context)
-                                .translate('microseconds'));
-                  }
-                } else if (input == 'unknown') {
-                  //print(elementList[index]['isotopes'][inner]['en'] + ': UNKNOWN');
-                } else if (input == 'stable') {
-                  //print(elementList[index]['isotopes'][inner]['en'] + ': STABLE');
-                } else if (input == '') {
-                  //print(elementList[index]['isotopes'][inner]['en'] + ': NULL');
-                } else {
-                  print(elementList[index]['isotopes'][inner]['en'] +
-                      ': ' +
-                      elementList[index]['isotopes'][inner]['halfRate']);
-                }
-
-                //print(elementList[index]['isotopes'][inner]['en'] + ': ' + elementList[index]['isotopes'][inner]['halfRate']);
-                return input;
-              }
-
-              bool isotopeHalflifePointer(input) {
-                if (input.contains('unknown')) {
-                  return true;
-                } else if (input.contains('stable')) {
-                  return true;
-                } else {
-                  return false;
-                }
-              }
-
-              double isotopeHalflifeVisibility(input) {
-                if (input.contains('unknown')) {
-                  return 0;
-                } else if (input.contains('stable')) {
-                  return 0;
-                } else {
-                  return 1;
-                }
-              }
-
-              final listIsotopes = <Widget>[];
-              listIsotopes.add(Container(
-                  width: MediaQuery.of(context).size.width * .15 / 2));
-              for (var innerIndex = 0;
-                  innerIndex < elementList[index]['isotopes'].length;
-                  innerIndex++) {
-                listIsotopes.add(
-                  new Padding(
-                    padding: EdgeInsets.only(
-                        left: MediaQuery.of(context).size.width * .15 / 2,
-                        right: MediaQuery.of(context).size.width * .15 / 2),
-                    child: Container(
-                      width: MediaQuery.of(context).size.width * .7,
-                      decoration: BoxDecoration(
-                        color: Color.fromRGBO(150, 150, 150, .4),
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(
-                            (MediaQuery.of(context).size.height +
-                                    MediaQuery.of(context).size.width) /
-                                2 *
-                                .03,
-                          ),
-                        ),
-                      ),
-                      child: Padding(
-                        padding: EdgeInsets.all(
-                            MediaQuery.of(context).size.width * .15 / 2),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Tooltip(
-                              message: AppLocalizations.of(context)
-                                  .translate('isotopeName'),
-                              child: AutoSizeText(
-                                elementList[index]['isotopes'][innerIndex][
-                                    AppLocalizations.of(context)
-                                        .translate('key')],
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize:
-                                      MediaQuery.of(context).size.height * .04,
-                                ),
-                                maxLines: 1,
-                              ),
-                            ),
-                            Text(
-                              '',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize:
-                                    MediaQuery.of(context).size.height * .03,
-                              ),
-                            ),
-                            Tooltip(
-                              message: AppLocalizations.of(context)
-                                  .translate('isotopeWeight'),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: <Widget>[
-                                  Text(
-                                    Capitalizate(AppLocalizations.of(context)
-                                        .translate('weightIsotopes')),
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize:
-                                          MediaQuery.of(context).size.height *
-                                              .03,
-                                    ),
-                                  ),
-                                  AutoSizeText(
-                                    isotopeWeight(elementList[index]['isotopes']
-                                        [innerIndex]['weight']),
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize:
-                                          MediaQuery.of(context).size.height *
-                                              .03,
-                                    ),
-                                    maxLines: 1,
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Text(
-                              '',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize:
-                                    MediaQuery.of(context).size.height * .03,
-                              ),
-                            ),
-                            Tooltip(
-                              message: AppLocalizations.of(context)
-                                  .translate('rate'),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: <Widget>[
-                                  Text(
-                                    AppLocalizations.of(context)
-                                        .translate('rateIsotopes'),
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize:
-                                          MediaQuery.of(context).size.height *
-                                              .03,
-                                    ),
-                                  ),
-                                  AutoSizeText(
-                                    isotopeRate(elementList[index]['isotopes']
-                                        [innerIndex]['rate']),
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize:
-                                          MediaQuery.of(context).size.height *
-                                              .03,
-                                    ),
-                                    maxLines: 1,
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Text(
-                              '',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize:
-                                    MediaQuery.of(context).size.height * .03,
-                              ),
-                            ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                                Tooltip(
-                                  message: AppLocalizations.of(context)
-                                      .translate('isotopeRadioactivity'),
-                                  child: Row(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: <Widget>[
-                                      Padding(
-                                        padding: EdgeInsets.only(
-                                            bottom: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
-                                                .01),
-                                        child: Image(
-                                            image: AssetImage(
-                                                "lib/icons/radioactive_white_500.png"),
-                                            height: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
-                                                .04,
-                                            width: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
-                                                .04),
-                                      ),
-                                      Text(
-                                        " " +
-                                            isotopeRadioactivity(
-                                                elementList[index]['isotopes']
-                                                    [innerIndex]['halfRate']),
-                                        style: TextStyle(
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: MediaQuery.of(context)
-                                                  .size
-                                                  .height *
-                                              .03,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                IgnorePointer(
-                                  ignoring: isotopeHalflifePointer(
-                                      elementList[index]['isotopes'][innerIndex]
-                                          ['halfRate']),
-                                  child: Opacity(
-                                    opacity: isotopeHalflifeVisibility(
-                                        elementList[index]['isotopes']
-                                            [innerIndex]['halfRate']),
-                                    child: Tooltip(
-                                      message: AppLocalizations.of(context)
-                                          .translate('isotopeHalflife'),
-                                      child: Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: <Widget>[
-                                          Padding(
-                                            padding: EdgeInsets.only(
-                                                bottom: MediaQuery.of(context)
-                                                        .size
-                                                        .width *
-                                                    .01),
-                                            child: Image(
-                                                image: AssetImage(
-                                                    "lib/icons/halftime_white_500.png"),
-                                                height: MediaQuery.of(context)
-                                                        .size
-                                                        .width *
-                                                    .045,
-                                                width: MediaQuery.of(context)
-                                                        .size
-                                                        .width *
-                                                    .045),
-                                          ),
-                                          Expanded(
-                                            child: AutoSizeText(
-                                              ' ' +
-                                                  toTime(
-                                                      elementList[index]
-                                                                  ['isotopes']
-                                                              [innerIndex]
-                                                          ['halfRate'],
-                                                      innerIndex),
-                                              style: TextStyle(
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: MediaQuery.of(context)
-                                                        .size
-                                                        .height *
-                                                    .03,
-                                              ),
-                                              minFontSize: 1,
-                                              maxLines: 1,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                );
-              }
-              listIsotopes.add(Container(
-                  width: MediaQuery.of(context).size.width * .15 / 2));
+//              String isotopeWeight(input) {
+//                if (input.contains('unknown')) {
+//                  return Capitalizate(
+//                      AppLocalizations.of(context).translate('unknown'));
+//                } else {
+//                  return input;
+//                }
+//              }
+//
+//              String isotopeRate(input) {
+//                if (input.contains('unknown')) {
+//                  return Capitalizate(
+//                      AppLocalizations.of(context).translate('unknown'));
+//                } else {
+//                  return input +
+//                      AppLocalizations.of(context)
+//                          .translate('rateSymbolIsotopes');
+//                }
+//              }
+//
+//              String isotopeRadioactivity(input) {
+//                if (input.contains('unknown')) {
+//                  return Capitalizate(
+//                      AppLocalizations.of(context).translate('unknown'));
+//                } else if (input.contains('stable')) {
+//                  return Capitalizate(
+//                      AppLocalizations.of(context).translate('stable'));
+//                } else {
+//                  return Capitalizate(
+//                      AppLocalizations.of(context).translate('radioactive'));
+//                }
+//              }
+//
+//              String toTime(input, inner) {
+//                if (input.contains('y')) {
+//                  if (double.parse(input.replaceAll(' y', '')) <= 1) {
+//                    return input.replaceAll(' y',
+//                        ' ' + AppLocalizations.of(context).translate('year'));
+//                  } else {
+//                    return input.replaceAll(' y',
+//                        ' ' + AppLocalizations.of(context).translate('years'));
+//                  }
+//                } else if (input.contains(' d')) {
+//                  if (double.parse(input.replaceAll(' d', '')) <= 1) {
+//                    return input.replaceAll(' d',
+//                        ' ' + AppLocalizations.of(context).translate('day'));
+//                  } else {
+//                    return input.replaceAll(' d',
+//                        ' ' + AppLocalizations.of(context).translate('days'));
+//                  }
+//                } else if (input.contains(' h')) {
+//                  if (double.parse(input.replaceAll(' h', '')) <= 1) {
+//                    return input.replaceAll(' h',
+//                        ' ' + AppLocalizations.of(context).translate('hour'));
+//                  } else {
+//                    return input.replaceAll(' h',
+//                        ' ' + AppLocalizations.of(context).translate('hours'));
+//                  }
+//                } else if (input.contains(' min')) {
+//                  if (double.parse(input.replaceAll(' min', '')) <= 1) {
+//                    return input.replaceAll(' min',
+//                        ' ' + AppLocalizations.of(context).translate('minute'));
+//                  } else {
+//                    return input.replaceAll(
+//                        ' min',
+//                        ' ' +
+//                            AppLocalizations.of(context).translate('minutes'));
+//                  }
+//                } else if (input.contains(' s')) {
+//                  if (double.parse(input.replaceAll(' s', '')) <= 1) {
+//                    return input.replaceAll(' s',
+//                        ' ' + AppLocalizations.of(context).translate('second'));
+//                  } else {
+//                    return input.replaceAll(
+//                        ' s',
+//                        ' ' +
+//                            AppLocalizations.of(context).translate('seconds'));
+//                  }
+//                } else if (input.contains(' ms')) {
+//                  if (double.parse(input.replaceAll(' ms', '')) <= 1) {
+//                    return input.replaceAll(
+//                        ' ms',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('millisecond'));
+//                  } else {
+//                    return input.replaceAll(
+//                        ' ms',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('milliseconds'));
+//                  }
+//                } else if (input.contains(' ns')) {
+//                  if (double.parse(input.replaceAll(' ns', '')) <= 1) {
+//                    return input.replaceAll(
+//                        ' ns',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('nanosecond'));
+//                  } else {
+//                    return input.replaceAll(
+//                        ' ns',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('nanoseconds'));
+//                  }
+//                } else if (input.contains(' ps')) {
+//                  if (double.parse(input.replaceAll(' ps', '')) <= 1) {
+//                    return input.replaceAll(
+//                        ' ps',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('picosecond'));
+//                  } else {
+//                    return input.replaceAll(
+//                        ' ps',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('picoseconds'));
+//                  }
+//                } else if (input.contains(' µs')) {
+//                  if (double.parse(input.replaceAll(' µs', '')) <= 1) {
+//                    return input.replaceAll(
+//                        ' µs',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('microsecond'));
+//                  } else {
+//                    return input.replaceAll(
+//                        ' µs',
+//                        ' ' +
+//                            AppLocalizations.of(context)
+//                                .translate('microseconds'));
+//                  }
+//                } else if (input == 'unknown') {
+//                  //print(elementList[index]['isotopes'][inner]['en'] + ': UNKNOWN');
+//                } else if (input == 'stable') {
+//                  //print(elementList[index]['isotopes'][inner]['en'] + ': STABLE');
+//                } else if (input == '') {
+//                  //print(elementList[index]['isotopes'][inner]['en'] + ': NULL');
+//                } else {
+//                  print(elementList[index]['isotopes'][inner]['en'] +
+//                      ': ' +
+//                      elementList[index]['isotopes'][inner]['halfRate']);
+//                }
+//
+//                //print(elementList[index]['isotopes'][inner]['en'] + ': ' + elementList[index]['isotopes'][inner]['halfRate']);
+//                return input;
+//              }
+//
+//              bool isotopeHalflifePointer(input) {
+//                if (input.contains('unknown')) {
+//                  return true;
+//                } else if (input.contains('stable')) {
+//                  return true;
+//                } else {
+//                  return false;
+//                }
+//              }
+//
+//              double isotopeHalflifeVisibility(input) {
+//                if (input.contains('unknown')) {
+//                  return 0;
+//                } else if (input.contains('stable')) {
+//                  return 0;
+//                } else {
+//                  return 1;
+//                }
+//              }
+//
+//              final listIsotopes = <Widget>[];
+//              listIsotopes.add(Container(
+//                  width: MediaQuery.of(context).size.width * .15 / 2));
+//              for (var innerIndex = 0;
+//                  innerIndex < elementList[index]['isotopes'].length;
+//                  innerIndex++) {
+//                listIsotopes.add(
+//                  new Padding(
+//                    padding: EdgeInsets.only(
+//                        left: MediaQuery.of(context).size.width * .15 / 2,
+//                        right: MediaQuery.of(context).size.width * .15 / 2),
+//                    child: Container(
+//                      width: MediaQuery.of(context).size.width * .7,
+//                      decoration: BoxDecoration(
+//                        color: Color.fromRGBO(150, 150, 150, .4),
+//                        borderRadius: BorderRadius.all(
+//                          Radius.circular(
+//                            (MediaQuery.of(context).size.height +
+//                                    MediaQuery.of(context).size.width) /
+//                                2 *
+//                                .03,
+//                          ),
+//                        ),
+//                      ),
+//                      child: Padding(
+//                        padding: EdgeInsets.all(
+//                            MediaQuery.of(context).size.width * .15 / 2),
+//                        child: Column(
+//                          crossAxisAlignment: CrossAxisAlignment.start,
+//                          children: <Widget>[
+//                            Tooltip(
+//                              message: AppLocalizations.of(context)
+//                                  .translate('isotopeName'),
+//                              child: AutoSizeText(
+//                                elementList[index]['isotopes'][innerIndex][
+//                                    AppLocalizations.of(context)
+//                                        .translate('key')],
+//                                style: TextStyle(
+//                                  color: Colors.white,
+//                                  fontWeight: FontWeight.bold,
+//                                  fontSize:
+//                                      MediaQuery.of(context).size.height * .04,
+//                                ),
+//                                maxLines: 1,
+//                              ),
+//                            ),
+//                            Text(
+//                              '',
+//                              style: TextStyle(
+//                                fontWeight: FontWeight.bold,
+//                                fontSize:
+//                                    MediaQuery.of(context).size.height * .03,
+//                              ),
+//                            ),
+//                            Tooltip(
+//                              message: AppLocalizations.of(context)
+//                                  .translate('isotopeWeight'),
+//                              child: Column(
+//                                crossAxisAlignment: CrossAxisAlignment.start,
+//                                children: <Widget>[
+//                                  Text(
+//                                    Capitalizate(AppLocalizations.of(context)
+//                                        .translate('weightIsotopes')),
+//                                    style: TextStyle(
+//                                      color: Colors.white,
+//                                      fontWeight: FontWeight.bold,
+//                                      fontSize:
+//                                          MediaQuery.of(context).size.height *
+//                                              .03,
+//                                    ),
+//                                  ),
+//                                  AutoSizeText(
+//                                    isotopeWeight(elementList[index]['isotopes']
+//                                        [innerIndex]['weight']),
+//                                    style: TextStyle(
+//                                      color: Colors.white,
+//                                      fontWeight: FontWeight.bold,
+//                                      fontSize:
+//                                          MediaQuery.of(context).size.height *
+//                                              .03,
+//                                    ),
+//                                    maxLines: 1,
+//                                  ),
+//                                ],
+//                              ),
+//                            ),
+//                            Text(
+//                              '',
+//                              style: TextStyle(
+//                                fontWeight: FontWeight.bold,
+//                                fontSize:
+//                                    MediaQuery.of(context).size.height * .03,
+//                              ),
+//                            ),
+//                            Tooltip(
+//                              message: AppLocalizations.of(context)
+//                                  .translate('rate'),
+//                              child: Column(
+//                                crossAxisAlignment: CrossAxisAlignment.start,
+//                                children: <Widget>[
+//                                  Text(
+//                                    AppLocalizations.of(context)
+//                                        .translate('rateIsotopes'),
+//                                    style: TextStyle(
+//                                      color: Colors.white,
+//                                      fontWeight: FontWeight.bold,
+//                                      fontSize:
+//                                          MediaQuery.of(context).size.height *
+//                                              .03,
+//                                    ),
+//                                  ),
+//                                  AutoSizeText(
+//                                    isotopeRate(elementList[index]['isotopes']
+//                                        [innerIndex]['rate']),
+//                                    style: TextStyle(
+//                                      color: Colors.white,
+//                                      fontWeight: FontWeight.bold,
+//                                      fontSize:
+//                                          MediaQuery.of(context).size.height *
+//                                              .03,
+//                                    ),
+//                                    maxLines: 1,
+//                                  ),
+//                                ],
+//                              ),
+//                            ),
+//                            Text(
+//                              '',
+//                              style: TextStyle(
+//                                fontWeight: FontWeight.bold,
+//                                fontSize:
+//                                    MediaQuery.of(context).size.height * .03,
+//                              ),
+//                            ),
+//                            Column(
+//                              crossAxisAlignment: CrossAxisAlignment.start,
+//                              children: <Widget>[
+//                                Tooltip(
+//                                  message: AppLocalizations.of(context)
+//                                      .translate('isotopeRadioactivity'),
+//                                  child: Row(
+//                                    crossAxisAlignment:
+//                                        CrossAxisAlignment.center,
+//                                    children: <Widget>[
+//                                      Padding(
+//                                        padding: EdgeInsets.only(
+//                                            bottom: MediaQuery.of(context)
+//                                                    .size
+//                                                    .width *
+//                                                .01),
+//                                        child: Image(
+//                                            image: AssetImage(
+//                                                "lib/icons/radioactive_white_500.png"),
+//                                            height: MediaQuery.of(context)
+//                                                    .size
+//                                                    .width *
+//                                                .04,
+//                                            width: MediaQuery.of(context)
+//                                                    .size
+//                                                    .width *
+//                                                .04),
+//                                      ),
+//                                      Text(
+//                                        " " +
+//                                            isotopeRadioactivity(
+//                                                elementList[index]['isotopes']
+//                                                    [innerIndex]['halfRate']),
+//                                        style: TextStyle(
+//                                          color: Colors.white,
+//                                          fontWeight: FontWeight.bold,
+//                                          fontSize: MediaQuery.of(context)
+//                                                  .size
+//                                                  .height *
+//                                              .03,
+//                                        ),
+//                                      ),
+//                                    ],
+//                                  ),
+//                                ),
+//                                IgnorePointer(
+//                                  ignoring: isotopeHalflifePointer(
+//                                      elementList[index]['isotopes'][innerIndex]
+//                                          ['halfRate']),
+//                                  child: Opacity(
+//                                    opacity: isotopeHalflifeVisibility(
+//                                        elementList[index]['isotopes']
+//                                            [innerIndex]['halfRate']),
+//                                    child: Tooltip(
+//                                      message: AppLocalizations.of(context)
+//                                          .translate('isotopeHalflife'),
+//                                      child: Row(
+//                                        crossAxisAlignment:
+//                                            CrossAxisAlignment.center,
+//                                        children: <Widget>[
+//                                          Padding(
+//                                            padding: EdgeInsets.only(
+//                                                bottom: MediaQuery.of(context)
+//                                                        .size
+//                                                        .width *
+//                                                    .01),
+//                                            child: Image(
+//                                                image: AssetImage(
+//                                                    "lib/icons/halftime_white_500.png"),
+//                                                height: MediaQuery.of(context)
+//                                                        .size
+//                                                        .width *
+//                                                    .045,
+//                                                width: MediaQuery.of(context)
+//                                                        .size
+//                                                        .width *
+//                                                    .045),
+//                                          ),
+//                                          Expanded(
+//                                            child: AutoSizeText(
+//                                              ' ' +
+//                                                  toTime(
+//                                                      elementList[index]
+//                                                                  ['isotopes']
+//                                                              [innerIndex]
+//                                                          ['halfRate'],
+//                                                      innerIndex),
+//                                              style: TextStyle(
+//                                                color: Colors.white,
+//                                                fontWeight: FontWeight.bold,
+//                                                fontSize: MediaQuery.of(context)
+//                                                        .size
+//                                                        .height *
+//                                                    .03,
+//                                              ),
+//                                              minFontSize: 1,
+//                                              maxLines: 1,
+//                                            ),
+//                                          ),
+//                                        ],
+//                                      ),
+//                                    ),
+//                                  ),
+//                                ),
+//                              ],
+//                            ),
+//                          ],
+//                        ),
+//                      ),
+//                    ),
+//                  ),
+//                );
+//              }
+//              listIsotopes.add(Container(
+//                  width: MediaQuery.of(context).size.width * .15 / 2));
 
               listElements.add(
                 new GestureDetector(
@@ -693,21 +693,21 @@ class cardView extends StatelessWidget {
                         String list = " ";
                         if (elementList[index]["gamma"] == true) {
                           list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("gamma")) +
+                              .translate("gamma")) +
                               " ";
                         } else if (elementList[index]["beta"] == true) {
                           list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("beta")) +
+                              .translate("beta")) +
                               " ";
                         } else if (elementList[index]["alpha"] == true) {
                           list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("alpha")) +
+                              .translate("alpha")) +
                               " ";
                         } else if (elementList[index]
-                                ["multipleRadiationEmitters"] ==
+                        ["multipleRadiationEmitters"] ==
                             true) {
                           list += Capitalizate(AppLocalizations.of(context)
-                                  .translate("multipleRadiationEmitters") +
+                              .translate("multipleRadiationEmitters") +
                               " ");
                         } else {
                           list = " " +
@@ -732,82 +732,83 @@ class cardView extends StatelessWidget {
                               maxChildSize: 1,
                               builder:
                                   (BuildContext context, scrollController) {
-                                return ClipRRect(
-                                  borderRadius: BorderRadius.only(
-                                    topLeft: Radius.circular(
-                                      (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
-                                          2 *
-                                          .1,
-                                    ),
-                                    topRight: Radius.circular(
-                                        (MediaQuery.of(context).size.height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
-                                            2 *
-                                            .1),
-                                  ),
-                                  child: BackdropFilter(
-                                    filter: ImageFilter.blur(
-                                        sigmaX: (MediaQuery.of(context)
-                                                    .size
-                                                    .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
-                                            2 *
-                                            .05,
-                                        sigmaY: (MediaQuery.of(context)
-                                                    .size
-                                                    .height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
-                                            2 *
-                                            .05),
-                                    child: SingleChildScrollView(
+                                return SingleChildScrollView(
                                       controller: scrollController,
-                                      child: Container(
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(
+                                            (MediaQuery.of(context).size.height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .1,
+                                          ),
+                                          topRight: Radius.circular(
+                                              (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .1),
+                                        ),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                              sigmaX: (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05,
+                                              sigmaY: (MediaQuery.of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05),
+                                          child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
                                         child: Padding(
                                           padding: EdgeInsets.only(
                                               top: 30, bottom: 30),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.start,
+                                            CrossAxisAlignment.start,
                                             children: <Widget>[
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate("elementName"),
                                                   child: AutoSizeText(
                                                     elementList[index][
-                                                        AppLocalizations.of(
-                                                                context)
-                                                            .translate("key")],
+                                                    AppLocalizations.of(
+                                                        context)
+                                                        .translate("key")],
                                                     style: TextStyle(
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       color: Colors.white,
                                                       height: 1.2,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .1,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .1,
                                                     ),
                                                     maxLines: 1,
                                                   ),
@@ -816,20 +817,20 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   bottom: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
+                                                      context)
+                                                      .size
+                                                      .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
                                                       2 *
                                                       .05,
                                                 ),
@@ -837,50 +838,40 @@ class cardView extends StatelessWidget {
                                                   children: <Widget>[
                                                     Tooltip(
                                                       message: AppLocalizations
-                                                              .of(context)
+                                                          .of(context)
                                                           .translate("symbol"),
                                                       child: Text(
                                                         elementList[index]
-                                                                ["element"] +
+                                                        ["element"] +
                                                             ', ',
                                                         style: TextStyle(
                                                           fontWeight:
-                                                              FontWeight.bold,
+                                                          FontWeight.bold,
                                                           color: Colors.white,
                                                           fontSize: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
-                                                              (1 /
-                                                                  int.parse(AppLocalizations.of(
-                                                                          context)
-                                                                      .translate(
-                                                                          "maxVolume"))),
+                                                              context)
+                                                              .size
+                                                              .width * .09,
                                                         ),
                                                       ),
                                                     ),
                                                     Tooltip(
                                                       message: AppLocalizations
-                                                              .of(context)
+                                                          .of(context)
                                                           .translate(
-                                                              "elementNumber"),
+                                                          "elementNumber"),
                                                       child: Text(
                                                         elementList[index]
-                                                                ["number"]
+                                                        ["number"]
                                                             .toString(),
                                                         style: TextStyle(
                                                           fontWeight:
-                                                              FontWeight.bold,
+                                                          FontWeight.bold,
                                                           color: Colors.white,
                                                           fontSize: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
-                                                              (1 /
-                                                                  int.parse(AppLocalizations.of(
-                                                                          context)
-                                                                      .translate(
-                                                                          "maxVolume"))),
+                                                              context)
+                                                              .size
+                                                              .width * .09,
                                                         ),
                                                       ),
                                                     ),
@@ -890,17 +881,17 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate("consistency"),
                                                   child: Row(
                                                     children: <Widget>[
@@ -908,25 +899,25 @@ class cardView extends StatelessWidget {
                                                           image: AssetImage(
                                                               consistencyIcon()),
                                                           height: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .07,
                                                           width: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .07),
                                                       Text(
                                                         consistencyText(),
                                                         style: TextStyle(
                                                           color: Colors.white,
                                                           fontWeight:
-                                                              FontWeight.bold,
+                                                          FontWeight.bold,
                                                           fontSize: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .08,
                                                         ),
                                                       ),
@@ -937,12 +928,12 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
@@ -956,25 +947,25 @@ class cardView extends StatelessWidget {
                                                           image: AssetImage(
                                                               "lib/icons/discovery_white_500.png"),
                                                           height: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .07,
                                                           width: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .07),
                                                       Text(
                                                         discoveryText(),
                                                         style: TextStyle(
                                                           color: Colors.white,
                                                           fontWeight:
-                                                              FontWeight.bold,
+                                                          FontWeight.bold,
                                                           fontSize: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .08,
                                                         ),
                                                       ),
@@ -985,33 +976,33 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate(
-                                                          "radioactivity"),
+                                                      "radioactivity"),
                                                   child: Row(
                                                     children: <Widget>[
                                                       Image(
                                                           image: AssetImage(
                                                               "lib/icons/radioactive_white_500.png"),
                                                           height: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .06,
                                                           width: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .06),
                                                       Text(
                                                         " " +
@@ -1019,11 +1010,11 @@ class cardView extends StatelessWidget {
                                                         style: TextStyle(
                                                           color: Colors.white,
                                                           fontWeight:
-                                                              FontWeight.bold,
+                                                          FontWeight.bold,
                                                           fontSize: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .08,
                                                         ),
                                                       ),
@@ -1034,44 +1025,44 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Container(
                                                   width: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .7,
                                                   child: Padding(
                                                     padding: EdgeInsets.only(
                                                         top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .01,
                                                         bottom: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .05),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                              context)
+                                                          context)
                                                           .translate(
-                                                              'radioactivityInfo'),
+                                                          'radioactivityInfo'),
                                                       style: TextStyle(
                                                         color: Colors.white70,
                                                         fontWeight:
-                                                            FontWeight.bold,
+                                                        FontWeight.bold,
                                                         fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .06,
                                                       ),
                                                     ),
@@ -1081,29 +1072,29 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate("type"),
                                                   child: Text(
                                                     typeText(),
                                                     style: TextStyle(
                                                       color: Colors.white,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                     ),
                                                   ),
                                                 ),
@@ -1111,44 +1102,44 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   top: (MediaQuery.of(context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
+                                                      .size
+                                                      .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
                                                       2 *
                                                       .05,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate(
-                                                          "electronnegativity"),
+                                                      "electronnegativity"),
                                                   child: Text(
                                                     AppLocalizations.of(context)
-                                                            .translate(
-                                                                "electronnegativityPre") +
+                                                        .translate(
+                                                        "electronnegativityPre") +
                                                         ": " +
                                                         ElectronnegativityText(
                                                             elementList[index][
-                                                                "electronnegativity"]),
+                                                            "electronnegativity"]),
                                                     style: TextStyle(
                                                       color: Colors.white,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                     ),
                                                   ),
                                                 ),
@@ -1156,36 +1147,36 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate("block"),
                                                   child: Text(
                                                     Capitalizate(AppLocalizations
-                                                                .of(context)
-                                                            .translate(
-                                                                "blockPre")) +
+                                                        .of(context)
+                                                        .translate(
+                                                        "blockPre")) +
                                                         ": " +
                                                         Capitalizate(
                                                             elementList[index]
-                                                                ["block"]),
+                                                            ["block"]),
                                                     style: TextStyle(
                                                       color: Colors.white,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                     ),
                                                   ),
                                                 ),
@@ -1193,36 +1184,36 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate("weight"),
                                                   child: Text(
                                                     Capitalizate(AppLocalizations
-                                                                .of(context)
-                                                            .translate(
-                                                                "weightPre")) +
+                                                        .of(context)
+                                                        .translate(
+                                                        "weightPre")) +
                                                         ": " +
                                                         Capitalizate(
                                                             elementList[index]
-                                                                ["weight"]),
+                                                            ["weight"]),
                                                     style: TextStyle(
                                                       color: Colors.white,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                     ),
                                                   ),
                                                 ),
@@ -1230,48 +1221,48 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   bottom: (MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .height +
-                                                          MediaQuery.of(context)
-                                                              .size
-                                                              .width) /
+                                                      context)
+                                                      .size
+                                                      .height +
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width) /
                                                       2 *
                                                       .05,
                                                 ),
                                                 child: Container(
                                                   width: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .6,
                                                   child: Padding(
                                                     padding: EdgeInsets.only(
                                                         top: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .height *
+                                                            context)
+                                                            .size
+                                                            .height *
                                                             .01),
                                                     child: Text(
                                                       AppLocalizations.of(
-                                                              context)
+                                                          context)
                                                           .translate(
-                                                              'molarmass'),
+                                                          'molarmass'),
                                                       style: TextStyle(
                                                         color: Colors.white70,
                                                         fontWeight:
-                                                            FontWeight.bold,
+                                                        FontWeight.bold,
                                                         fontSize: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
+                                                            context)
+                                                            .size
+                                                            .width *
                                                             .06,
                                                       ),
                                                     ),
@@ -1281,97 +1272,284 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   bottom: MediaQuery.of(context)
-                                                          .size
-                                                          .height *
+                                                      .size
+                                                      .height *
                                                       .01,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate('isotopeTitle')
                                                       .replaceAll(
-                                                          '{elementName}',
-                                                          elementList[index][
-                                                              AppLocalizations.of(
-                                                                      context)
-                                                                  .translate(
-                                                                      'key')]),
+                                                      '{elementName}',
+                                                      elementList[index][
+                                                      AppLocalizations.of(
+                                                          context)
+                                                          .translate(
+                                                          'key')]),
                                                   child: Text(
                                                     AppLocalizations.of(context)
                                                         .translate('isotopes'),
                                                     style: TextStyle(
                                                       color: Colors.white,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                     ),
                                                   ),
                                                 ),
                                               ),
                                               SingleChildScrollView(
                                                 scrollDirection:
-                                                    Axis.horizontal,
+                                                Axis.horizontal,
                                                 child:
-                                                    Row(children: listIsotopes),
+                                                Row(children: <Widget> [
+                                                  Container(
+                                                    child: Padding(
+                                                      padding: EdgeInsets.only(
+                                                          left: MediaQuery.of(context).size.width * .15,
+                                                          right: MediaQuery.of(context).size.width * .15),
+                                                      child: Container(
+                                                        width: MediaQuery.of(context).size.width * .7,
+                                                        decoration: BoxDecoration(
+                                                          color: Color.fromRGBO(150, 150, 150, .2),
+                                                          borderRadius: BorderRadius.all(
+                                                            Radius.circular(
+                                                              (MediaQuery.of(context).size.height +
+                                                                  MediaQuery.of(context).size.width) /
+                                                                  2 *
+                                                                  .03,
+                                                            ),
+                                                          ),
+                                                        ),
+                                                        child: Padding(
+                                                          padding: EdgeInsets.all(
+                                                              MediaQuery.of(context).size.width * .15 / 2),
+                                                          child: Stack(
+                                                            alignment: Alignment.center,
+                                                            children: <Widget>[ Column(
+                                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                                            children: <Widget>[
+                                                              Text('',
+                                                                style: TextStyle(
+                                                                  color: Colors.white,
+                                                                  fontWeight: FontWeight.bold,
+                                                                  fontSize:
+                                                                  MediaQuery.of(context).size.height * .04,
+                                                                ),
+                                                              ),
+                                                              Text(
+                                                                '',
+                                                                style: TextStyle(
+                                                                  fontWeight: FontWeight.bold,
+                                                                  fontSize:
+                                                                  MediaQuery.of(context).size.height * .03,
+                                                                ),
+                                                              ),
+                                                              Text(
+                                                                '',
+                                                                style: TextStyle(
+                                                                  color: Colors.white,
+                                                                  fontWeight: FontWeight.bold,
+                                                                  fontSize:
+                                                                  MediaQuery.of(context).size.height *
+                                                                      .03,
+                                                                ),
+                                                              ),
+                                                              Text(
+                                                                '',
+                                                                style: TextStyle(
+                                                                  fontWeight: FontWeight.bold,
+                                                                  fontSize:
+                                                                  MediaQuery.of(context).size.height * .03,
+                                                                ),
+                                                              ),
+                                                              Column(
+                                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                                  children: <Widget>[
+                                                                    Text(
+                                                                      '',
+                                                                      style: TextStyle(
+                                                                        color: Colors.white,
+                                                                        fontWeight: FontWeight.bold,
+                                                                        fontSize:
+                                                                        MediaQuery.of(context).size.height *
+                                                                            .03,
+                                                                      ),
+                                                                    ),
+                                                                    Text(
+                                                                      '',
+                                                                      style: TextStyle(
+                                                                        color: Colors.white,
+                                                                        fontWeight: FontWeight.bold,
+                                                                        fontSize:
+                                                                        MediaQuery.of(context).size.height *
+                                                                            .03,
+                                                                      ),
+                                                                    ),
+                                                                  ],
+                                                                ),
+                                                              Text(
+                                                                '',
+                                                                style: TextStyle(
+                                                                  fontWeight: FontWeight.bold,
+                                                                  fontSize:
+                                                                  MediaQuery.of(context).size.height * .03,
+                                                                ),
+                                                              ),
+                                                              Column(
+                                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                                children: <Widget>[
+                                                                  Row(
+                                                                      crossAxisAlignment:
+                                                                      CrossAxisAlignment.center,
+                                                                      children: <Widget>[
+                                                                        Padding(
+                                                                          padding: EdgeInsets.only(
+                                                                              bottom: MediaQuery.of(context)
+                                                                                  .size
+                                                                                  .width *
+                                                                                  .01),
+                                                                          child: Opacity(
+                                                                            opacity: 0,
+                                                                            child: Image(
+                                                                              image: AssetImage(
+                                                                                  "lib/icons/radioactive_white_500.png"),
+                                                                              height: MediaQuery.of(context)
+                                                                                  .size
+                                                                                  .width *
+                                                                                  .04,
+                                                                              width: MediaQuery.of(context)
+                                                                                  .size
+                                                                                  .width *
+                                                                                  .04),
+                                                                        ),
+                                                                        ),
+                                                                        Text(
+                                                                          '',
+                                                                          style: TextStyle(
+                                                                            color: Colors.white,
+                                                                            fontWeight: FontWeight.bold,
+                                                                            fontSize: MediaQuery.of(context)
+                                                                                .size
+                                                                                .height *
+                                                                                .03,
+                                                                          ),
+                                                                        ),
+                                                                      ],
+                                                                    ),
+                                                                  Row(
+                                                                      crossAxisAlignment:
+                                                                      CrossAxisAlignment.center,
+                                                                      children: <Widget>[
+                                                                        Padding(
+                                                                          padding: EdgeInsets.only(
+                                                                              bottom: MediaQuery.of(context)
+                                                                                  .size
+                                                                                  .width *
+                                                                                  .01),
+                                                                          child: Opacity(
+                                                                            opacity: 0,
+                                                                            child: Image(
+                                                                              image: AssetImage(
+                                                                                  "lib/icons/halftime_white_500.png"),
+                                                                              height: MediaQuery.of(context)
+                                                                                  .size
+                                                                                  .width *
+                                                                                  .045,
+                                                                              width: MediaQuery.of(context)
+                                                                                  .size
+                                                                                  .width *
+                                                                                  .045),
+                                                                        ),
+                                                                        ),
+                                                                        Expanded(
+                                                                          child: Text(
+                                                                            '',
+                                                                            style: TextStyle(
+                                                                              color: Colors.white,
+                                                                              fontWeight: FontWeight.bold,
+                                                                              fontSize: MediaQuery.of(context)
+                                                                                  .size
+                                                                                  .height *
+                                                                                  .03,
+                                                                            ),
+                                                                          ),
+                                                                        ),
+                                                                      ],
+                                                                    ),
+                                                                ],
+                                                              ),
+                                                            ],
+                                                          ),
+                                                            CircularProgressIndicator(valueColor: AlwaysStoppedAnimation(Colors.white),)
+                                                          ],
+                                                        ),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  ),
+                                    ],
+                                  ),//listIsotopes),
                                               ),
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Container(
                                                   child: Padding(
                                                     padding: EdgeInsets.only(
                                                       top: (MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .height +
-                                                              MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width) /
+                                                          context)
+                                                          .size
+                                                          .height +
+                                                          MediaQuery.of(
+                                                              context)
+                                                              .size
+                                                              .width) /
                                                           2 *
                                                           .05,
                                                     ),
                                                     child: Tooltip(
                                                       message: AppLocalizations
-                                                              .of(context)
+                                                          .of(context)
                                                           .translate(
-                                                              'protonnumber'),
+                                                          'protonnumber'),
                                                       child: Text(
                                                         AppLocalizations.of(
-                                                                    context)
-                                                                .translate(
-                                                                    'protons') +
+                                                            context)
+                                                            .translate(
+                                                            'protons') +
                                                             ': ' +
                                                             elementList[index][
-                                                                'chargedComponent'],
+                                                            'chargedComponent'],
                                                         style: TextStyle(
                                                           fontWeight:
-                                                              FontWeight.bold,
+                                                          FontWeight.bold,
                                                           color: Colors.white,
                                                           fontSize: MediaQuery.of(
-                                                                      context)
-                                                                  .size
-                                                                  .width *
+                                                              context)
+                                                              .size
+                                                              .width *
                                                               .08,
                                                         ),
                                                       ),
@@ -1382,35 +1560,35 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate(
-                                                          'electronnumber'),
+                                                      'electronnumber'),
                                                   child: Text(
                                                     AppLocalizations.of(context)
-                                                            .translate(
-                                                                'electrons') +
+                                                        .translate(
+                                                        'electrons') +
                                                         ': ' +
                                                         elementList[index][
-                                                            'chargedComponent'],
+                                                        'chargedComponent'],
                                                     style: TextStyle(
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       color: Colors.white,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                     ),
                                                   ),
                                                 ),
@@ -1418,35 +1596,35 @@ class cardView extends StatelessWidget {
                                               Padding(
                                                 padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                   right: MediaQuery.of(context)
-                                                          .size
-                                                          .width *
+                                                      .size
+                                                      .width *
                                                       .15,
                                                 ),
                                                 child: Tooltip(
                                                   message: AppLocalizations.of(
-                                                          context)
+                                                      context)
                                                       .translate(
-                                                          'neutronnumber'),
+                                                      'neutronnumber'),
                                                   child: Text(
                                                     AppLocalizations.of(context)
-                                                            .translate(
-                                                                'neutrons') +
+                                                        .translate(
+                                                        'neutrons') +
                                                         ': ' +
                                                         elementList[index]
-                                                            ['neutron'],
+                                                        ['neutron'],
                                                     style: TextStyle(
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                      FontWeight.bold,
                                                       color: Colors.white,
                                                       fontSize:
-                                                          MediaQuery.of(context)
-                                                                  .size
-                                                                  .width *
-                                                              .08,
+                                                      MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                          .08,
                                                     ),
                                                   ),
                                                 ),
@@ -1476,9 +1654,9 @@ class cardView extends StatelessWidget {
                         ),
                         borderRadius: new BorderRadius.circular(
                             (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
-                                    2 *
-                                    .02 +
+                                MediaQuery.of(context).size.width) /
+                                2 *
+                                .02 +
                                 10)),
                     height: MediaQuery.of(context).size.height * .9,
                     width: MediaQuery.of(context).size.width * .8,
@@ -1493,11 +1671,11 @@ class cardView extends StatelessWidget {
                           child: new Padding(
                             padding: EdgeInsets.only(
                                 top: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
+                                    MediaQuery.of(context).size.width) /
                                     2 *
                                     .02,
                                 left: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
+                                    MediaQuery.of(context).size.width) /
                                     2 *
                                     .04),
                             child: new Column(
@@ -1517,9 +1695,9 @@ class cardView extends StatelessWidget {
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                     fontSize: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                            MediaQuery.of(context).size.width) /
+                                        .size
+                                        .height +
+                                        MediaQuery.of(context).size.width) /
                                         2 *
                                         .1,
                                   ),
@@ -1533,11 +1711,11 @@ class cardView extends StatelessWidget {
                           child: new Padding(
                             padding: EdgeInsets.only(
                                 bottom: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
+                                    MediaQuery.of(context).size.width) /
                                     2 *
                                     .04,
                                 left: (MediaQuery.of(context).size.height +
-                                        MediaQuery.of(context).size.width) /
+                                    MediaQuery.of(context).size.width) /
                                     2 *
                                     .04),
                             child: new Align(
@@ -1555,9 +1733,9 @@ class cardView extends StatelessWidget {
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                     fontSize: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                            MediaQuery.of(context).size.width) /
+                                        .size
+                                        .height +
+                                        MediaQuery.of(context).size.width) /
                                         2 *
                                         .06,
                                   ),
@@ -1570,23 +1748,23 @@ class cardView extends StatelessWidget {
                                               offset: Offset(2.0, 2.0),
                                               blurRadius: 8.0,
                                               color:
-                                                  Color.fromARGB(255, 0, 0, 0),
+                                              Color.fromARGB(255, 0, 0, 0),
                                             ),
                                           ],
                                           fontSize: (MediaQuery.of(context)
-                                                      .size
-                                                      .height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              .size
+                                              .height +
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .1,
                                         )),
                                     TextSpan(text: "\n"),
                                     TextSpan(
                                       text: elementList[index][
-                                          AppLocalizations.of(context)
-                                              .translate("key")],
+                                      AppLocalizations.of(context)
+                                          .translate("key")],
                                     ),
                                   ],
                                 ),
@@ -1633,7 +1811,7 @@ class cardView extends StatelessWidget {
           } else {
             return new Tooltip(
               message:
-                  AppLocalizations.of(context).translate("moreAboutElement"),
+              AppLocalizations.of(context).translate("moreAboutElement"),
               child: new ListView(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
@@ -1643,23 +1821,23 @@ class cardView extends StatelessWidget {
           }
         } else {
           return
-          SleekCircularSlider(
-          appearance: CircularSliderAppearance(
-            spinnerMode: true,
-            size: (MediaQuery.of(context).size.height +
+            SleekCircularSlider(
+              appearance: CircularSliderAppearance(
+                spinnerMode: true,
+                size: (MediaQuery.of(context).size.height +
                     MediaQuery.of(context).size.width) /
-                2 *
-                .4,
-            customColors: CustomSliderColors(
-              trackColor: Color(0x00000000),
-              hideShadow: true,
-              progressBarColors: <Color>[
-                Color(0xff62a39c),
-                Color(0xff13547a),
-              ],
-            ),
-          ),
-        );
+                    2 *
+                    .4,
+                customColors: CustomSliderColors(
+                  trackColor: Color(0x00000000),
+                  hideShadow: true,
+                  progressBarColors: <Color>[
+                    Color(0xff62a39c),
+                    Color(0xff13547a),
+                  ],
+                ),
+              ),
+            );
         }
       },
     );
