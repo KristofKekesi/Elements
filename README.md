@@ -21,8 +21,8 @@ Latest release: __0.4.1__
 
 ## Beta state
 #### New features
-- Isotopes
-- New Main screen
+- Darker UI
+- Number of active selectors
 
 ## Beta program <img src="https://img.shields.io/badge/Open-green.svg" alt="">
 #### To aply:
