@@ -626,6 +626,9 @@ class cardView extends StatelessWidget {
 
               listElements.add(
                 new GestureDetector(
+                  onVerticalDragStart: (a){
+                    // ToDo add popup
+                  },
                   onTap: () {
                     // ignore: non_constant_identifier_names
                     String Capitalizate(input) {

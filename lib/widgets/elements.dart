@@ -404,7 +404,9 @@ class _elementsState extends State<elements> {
                                                 2 *
                                                 .1),
                                       ),
-                                      child: BackdropFilter(
+                                      child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+                                        child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery
                                                 .of(context)
@@ -428,8 +430,7 @@ class _elementsState extends State<elements> {
                                                 .05),
                                         child: SingleChildScrollView(
                                           controller: scrollController,
-                                          child: Container(
-                                            child: Center(
+                                          child: Center(
                                               child: Column(
                                                 children: <Widget>[
                                                   Padding(
@@ -826,7 +827,9 @@ class _elementsState extends State<elements> {
                                                       .width) /
                                                   2 *
                                                   .1)),
-                                      child: BackdropFilter(
+                                      child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+                                        child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery
                                                 .of(context)
@@ -1337,6 +1340,7 @@ class _elementsState extends State<elements> {
                                           ),
                                         ),
                                       ),
+                                    ),
                                     );
                                   },
                                 );
@@ -1435,7 +1439,9 @@ class _elementsState extends State<elements> {
                                                 2 *
                                                 .1),
                                       ),
-                                      child: BackdropFilter(
+                                      child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+                                        child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery
                                                 .of(context)
@@ -1691,7 +1697,7 @@ class _elementsState extends State<elements> {
                                           ),
                                         ),
                                       ),
-                                    );
+                                    ),);
                                   },
                                 );
                               },
@@ -1788,7 +1794,9 @@ class _elementsState extends State<elements> {
                                                 2 *
                                                 .1),
                                       ),
-                                      child: BackdropFilter(
+                                      child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+                                        child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery
                                                 .of(context)
@@ -2476,7 +2484,7 @@ class _elementsState extends State<elements> {
                                           ),
                                         ),
                                       ),
-                                    );
+                                    ),);
                                   },
                                 );
                               },
@@ -2574,7 +2582,9 @@ class _elementsState extends State<elements> {
                                                 2 *
                                                 .1),
                                       ),
-                                      child: BackdropFilter(
+                                      child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+                                        child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery
                                                 .of(context)
@@ -2811,7 +2821,7 @@ class _elementsState extends State<elements> {
                                           ),
                                         ),
                                       ),
-                                    );
+                                    ),);
                                   },
                                 );
                               },

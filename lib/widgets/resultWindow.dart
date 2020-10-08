@@ -71,6 +71,20 @@ class searchResults extends StatelessWidget {
     }
   }
 
+  // ignore: missing_return
+  String activeSelectorNum(context) {
+    int num = 0;
+    if (stateElectronnegativity == true) {num += 1;}
+    if (stateTypes == true) {num += 1;}
+    if (stateAtomicnumber == true) {num += 1;}
+    if (stateConstructors == true) {num += 1;}
+    if (stateWeight == true) {num += 1;}
+
+    if (num == 1) {return AppLocalizations.of(context).translate("selectorIndicatorSingular").replaceAll('{num}', num.toString());}
+    else {return AppLocalizations.of(context).translate("selectorIndicatorPlural").replaceAll('{num}', num.toString());}
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -132,7 +146,7 @@ class searchResults extends StatelessWidget {
                       opacity: indicatorOpacity(),
                       child:
                       Tooltip(
-                      message: AppLocalizations.of(context).translate("selectorIndicator"),
+                      message: activeSelectorNum(context),
                       child: Image(
                           image: AssetImage("lib/icons/triangle_yellow_500.png"),
                           height: MediaQuery.of(context).size.width * .095,
