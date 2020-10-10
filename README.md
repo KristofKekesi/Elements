@@ -65,7 +65,7 @@ Made with __Flutter SDK__ in __Dart__. Programmed in __Android Studio__.
 * _[Translations]_
   * _[hu]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
   * _[en]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi), [__Viktória Várszegi__](https://www.instagram.com/viktoriavarszegi/)
-* _[Glowing Snake]_ - [__Klári Bory_](https://www.instagram.com/boryklara/)
+* _[Glowing Snake]_ - [__Klári Bory__](https://www.instagram.com/boryklara/)
 ## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 <table>
