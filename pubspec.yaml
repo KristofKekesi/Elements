@@ -34,5 +34,6 @@ flutter:
   assets:
     - lib/
 
+    - lib/isotopes/
     - lib/backgrounds/
     - lib/icons/
