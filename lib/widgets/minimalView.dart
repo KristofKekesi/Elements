@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'dart:ui';
 
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
@@ -10,99 +9,11 @@ import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 // ignore: camel_case_types
 class minimalView extends StatelessWidget {
   @required
-  final bool typesOthernonmetals;
-  @required
-  final bool typesNoblegases;
-  @required
-  final bool typesAlkalimetals;
-  @required
-  final bool typesAlkaliearthmetals;
-  @required
-  final bool typesMetalloids;
-  @required
-  final bool typesPosttransitionmetals;
-  @required
-  final bool typesTransitionmetals;
-  @required
-  final bool typesLanthanoids;
-  @required
-  final bool typesActinoids;
-  @required
-  final bool typesUnknown;
-
-  @required
-  final double electronnegativityMin;
-  @required
-  final double electronnegativityMax;
-  @required
-  final bool electronnegativityUnknown;
-
-  @required
-  final int atomicnumberMin;
-  @required
-  final int atomicnumberMax;
-
-  @required
-  final int constructorsProtonMin;
-  @required
-  final int constructorsProtonMax;
-
-  @required
-  final int constructorsElectronMin;
-  @required
-  final int constructorsElectronMax;
-
-  @required
-  final int constructorsNeutronMin;
-  @required
-  final int constructorsNeutronMax;
-
-  @required
-  final double weightMin;
-  @required
-  final double weightMax;
-
-  @required
-  final bool stateElectronnegativity;
-  @required
-  final bool stateTypes;
-  @required
-  final bool stateAtomicnumber;
-  @required
-  final bool stateConstructors;
-  @required
-  final bool stateWeight;
+  final List passedElements;
 
   const minimalView({
     Key key,
-    this.typesOthernonmetals,
-    this.typesNoblegases,
-    this.typesAlkalimetals,
-    this.typesAlkaliearthmetals,
-    this.typesMetalloids,
-    this.typesPosttransitionmetals,
-    this.typesTransitionmetals,
-    this.typesLanthanoids,
-    this.typesActinoids,
-    this.typesUnknown,
-    this.electronnegativityMin,
-    this.electronnegativityMax,
-    this.electronnegativityUnknown,
-    this.atomicnumberMin,
-    this.atomicnumberMax,
-    this.constructorsProtonMin,
-    this.constructorsProtonMax,
-    this.constructorsElectronMin,
-    this.constructorsElectronMax,
-    this.constructorsNeutronMin,
-    this.constructorsNeutronMax,
-    this.weightMin,
-    this.weightMax,
-    this.stateElectronnegativity,
-    this.stateTypes,
-    this.stateAtomicnumber,
-    this.stateConstructors,
-    this.stateWeight,
+    this.passedElements,
   }) : super(key: key);
 
   @override
@@ -116,89 +27,7 @@ class minimalView extends StatelessWidget {
           var elementList = json.decode(snapshot.data.toString());
           final listElements = <Widget>[];
           for (var index = 0; index < elementList.length; index++) {
-            bool passed = true;
-
-            if (stateElectronnegativity == true) {
-              if (electronnegativityUnknown == true &&
-                      elementList[index]['electronnegativity'] == 'unknown' ||
-                  elementList[index]['electronnegativity'] != 'unknown' &&
-                      electronnegativityMin <=
-                          num.parse(elementList[index]['electronnegativity']) &&
-                      electronnegativityMax >=
-                          num.parse(elementList[index]['electronnegativity'])) {
-              } else {
-                passed = false;
-              }
-            }
-
-            if (stateTypes == true) {
-              if (typesOthernonmetals == true &&
-                      elementList[index]['type'] == 'otherNonmetal' ||
-                  typesNoblegases == true &&
-                      elementList[index]['type'] == 'nobleGas' ||
-                  typesAlkalimetals == true &&
-                      elementList[index]['type'] == 'alkaliMetal' ||
-                  typesAlkaliearthmetals == true &&
-                      elementList[index]['type'] == 'alkaliEarthMetal' ||
-                  typesMetalloids == true &&
-                      elementList[index]['type'] == 'metalloid' ||
-                  typesPosttransitionmetals == true &&
-                      elementList[index]['type'] == 'post-transitionMetal' ||
-                  typesTransitionmetals == true &&
-                      elementList[index]['type'] == 'transitionMetal' ||
-                  typesLanthanoids == true &&
-                      elementList[index]['type'] == 'lanthanoid' ||
-                  typesActinoids == true &&
-                      elementList[index]['type'] == 'actinoid' ||
-                  typesUnknown == true &&
-                      elementList[index]['type'] == 'unknown') {
-              } else {
-                passed = false;
-              }
-            }
-
-            if (stateAtomicnumber == true) {
-              if (atomicnumberMin <= elementList[index]['number'] &&
-                  atomicnumberMax >= elementList[index]['number']) {
-              } else {
-                passed = false;
-              }
-            }
-
-            if (stateConstructors == true) {
-              if (constructorsProtonMin <=
-                      int.parse(elementList[index]['chargedComponent']) &&
-                  constructorsProtonMax >=
-                      int.parse(elementList[index]['chargedComponent']) &&
-                  constructorsElectronMin <=
-                      int.parse(elementList[index]['chargedComponent']) &&
-                  constructorsElectronMax >=
-                      int.parse(elementList[index]['chargedComponent']) &&
-                  constructorsNeutronMin <=
-                      int.parse(elementList[index]['neutron']) &&
-                  constructorsNeutronMax >=
-                      int.parse(elementList[index]['neutron'])) {
-              } else {
-                passed = false;
-              }
-            }
-
-            if (stateWeight == true) {
-              if (weightMin <=
-                      double.parse(elementList[index]['weight']
-                          .replaceAll('(', '')
-                          .replaceAll(')', '')) &&
-                  weightMax >=
-                      double.parse(elementList[index]['weight']
-                          .replaceAll('(', '')
-                          .replaceAll(')', ''))) {
-              } else {
-                passed = false;
-              }
-            }
-
-            if (passed == false) {
-            } else {
+            if (passedElements.contains(index) == true) {
               pass++;
 
               listElements.add(

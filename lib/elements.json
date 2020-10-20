@@ -1769,7 +1769,7 @@
 	"chargedComponent": "68",
 	"neutron": "99",
 
-	"isotopes-src": "Er.json"
+	"isotopes-src": "isotopes/Er.json"
   }, {
 	"element": "Tm",
 	"number": 69,

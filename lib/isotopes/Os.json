@@ -1,3 +1,249 @@
 {
-	
+  "isotopes": [
+    {
+      "weight": "161.984431",
+      "rate": "0",
+      "halfRate": "1.87 ms",
+      "hu": "Ozmium-162",
+      "en": "Osmium-162"
+    },
+    {
+      "weight": "162.98269",
+      "rate": "0",
+      "halfRate": "5.5 ms",
+      "hu": "Ozmium-163",
+      "en": "Osmium-163"
+    },
+    {
+      "weight": "163.978035649",
+      "rate": "0",
+      "halfRate": "21 ms",
+      "hu": "Ozmium-164",
+      "en": "Osmium-164"
+    },
+    {
+      "weight": "164.976762",
+      "rate": "0",
+      "halfRate": "71 ms",
+      "hu": "Ozmium-165",
+      "en": "Osmium-165"
+    },
+    {
+      "weight": "165.972690753",
+      "rate": "0",
+      "halfRate": "216 ms",
+      "hu": "Ozmium-166",
+      "en": "Osmium-166"
+    },
+    {
+      "weight": "166.971547969",
+      "rate": "0",
+      "halfRate": "810 ms",
+      "hu": "Ozmium-167",
+      "en": "Osmium-167"
+    },
+    {
+      "weight": "167.967803678",
+      "rate": "0",
+      "halfRate": "2.06 s",
+      "hu": "Ozmium-168",
+      "en": "Osmium-168"
+    },
+    {
+      "weight": "168.96701927",
+      "rate": "0",
+      "halfRate": "3.46 s",
+      "hu": "Ozmium-169",
+      "en": "Osmium-169"
+    },
+    {
+      "weight": "169.963577028",
+      "rate": "0",
+      "halfRate": "7.46 s",
+      "hu": "Ozmium-170",
+      "en": "Osmium-170"
+    },
+    {
+      "weight": "170.963184819",
+      "rate": "0",
+      "halfRate": "8.3 s",
+      "hu": "Ozmium-171",
+      "en": "Osmium-171"
+    },
+    {
+      "weight": "171.960023303",
+      "rate": "0",
+      "halfRate": "19.2 s",
+      "hu": "Ozmium-172",
+      "en": "Osmium-172"
+    },
+    {
+      "weight": "172.959808409",
+      "rate": "0",
+      "halfRate": "22.4 s",
+      "hu": "Ozmium-173",
+      "en": "Osmium-173"
+    },
+    {
+      "weight": "173.957062202",
+      "rate": "0",
+      "halfRate": "44 s",
+      "hu": "Ozmium-174",
+      "en": "Osmium-174"
+    },
+    {
+      "weight": "174.956945835",
+      "rate": "0",
+      "halfRate": "1.4 min",
+      "hu": "Ozmium-175",
+      "en": "Osmium-175"
+    },
+    {
+      "weight": "175.954806",
+      "rate": "0",
+      "halfRate": "3.67 min",
+      "hu": "Ozmium-176",
+      "en": "Osmium-176"
+    },
+    {
+      "weight": "176.954965324",
+      "rate": "0",
+      "halfRate": "3 min",
+      "hu": "Ozmium-177",
+      "en": "Osmium-177"
+    },
+    {
+      "weight": "177.953251241",
+      "rate": "0",
+      "halfRate": "5 min",
+      "hu": "Ozmium-178",
+      "en": "Osmium-178"
+    },
+    {
+      "weight": "178.953816017",
+      "rate": "0",
+      "halfRate": "6.5 min",
+      "hu": "Ozmium-179",
+      "en": "Osmium-179"
+    },
+    {
+      "weight": "179.952378803",
+      "rate": "0",
+      "halfRate": "21.5 min",
+      "hu": "Ozmium-180",
+      "en": "Osmium-180"
+    },
+    {
+      "weight": "180.953244",
+      "rate": "0",
+      "halfRate": "1.8 h",
+      "hu": "Ozmium-181",
+      "en": "Osmium-181"
+    },
+    {
+      "weight": "181.952110186",
+      "rate": "0",
+      "halfRate": "22.1 h",
+      "hu": "Ozmium-182",
+      "en": "Osmium-182"
+    },
+    {
+      "weight": "182.953126102",
+      "rate": "0",
+      "halfRate": "13 h",
+      "hu": "Ozmium-183",
+      "en": "Osmium-183"
+    },
+    {
+      "weight": "183.952489071",
+      "rate": "0.02",
+      "halfRate": "stable",
+      "hu": "Ozmium-184",
+      "en": "Osmium-184"
+    },
+    {
+      "weight": "184.954042265",
+      "rate": "0",
+      "halfRate": "93.6 d",
+      "hu": "Ozmium-185",
+      "en": "Osmium-185"
+    },
+    {
+      "weight": "185.953838158",
+      "rate": "1.59",
+      "halfRate": "2000000000000000 y",
+      "hu": "Ozmium-186",
+      "en": "Osmium-186"
+    },
+    {
+      "weight": "186.955750458",
+      "rate": "1.96",
+      "halfRate": "stable",
+      "hu": "Ozmium-187",
+      "en": "Osmium-187"
+    },
+    {
+      "weight": "187.955838228",
+      "rate": "13.24",
+      "halfRate": "stable",
+      "hu": "Ozmium-188",
+      "en": "Osmium-188"
+    },
+    {
+      "weight": "188.95814747",
+      "rate": "16.15",
+      "halfRate": "stable",
+      "hu": "Ozmium-189",
+      "en": "Osmium-189"
+    },
+    {
+      "weight": "189.958447048",
+      "rate": "26.26",
+      "halfRate": "stable",
+      "hu": "Ozmium-190",
+      "en": "Osmium-190"
+    },
+    {
+      "weight": "190.960929718",
+      "rate": "0",
+      "halfRate": "15.4 d",
+      "hu": "Ozmium-191",
+      "en": "Osmium-191"
+    },
+    {
+      "weight": "191.96148069",
+      "rate": "40.78",
+      "halfRate": "stable",
+      "hu": "Ozmium-192",
+      "en": "Osmium-192"
+    },
+    {
+      "weight": "192.964151563",
+      "rate": "0",
+      "halfRate": "1.255 d",
+      "hu": "Ozmium-193",
+      "en": "Osmium-193"
+    },
+    {
+      "weight": "193.965182083",
+      "rate": "0",
+      "halfRate": "6 y",
+      "hu": "Ozmium-194",
+      "en": "Osmium-194"
+    },
+    {
+      "weight": "194.968126661",
+      "rate": "0",
+      "halfRate": "6.5 min",
+      "hu": "Ozmium-195",
+      "en": "Osmium-195"
+    },
+    {
+      "weight": "195.969639333",
+      "rate": "0",
+      "halfRate": "34.83 min",
+      "hu": "Ozmium-196",
+      "en": "Osmium-196"
+    }
+  ]
 }
