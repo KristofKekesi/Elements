@@ -42,6 +42,8 @@
   "constructorsNeutrons": "Neutronok",
   "weightSelector": "Tömeg",
   "weightMinSelector": "Tömeg",
+  "isotopenumSelector": "Izotópok száma",
+  "isotopenumMinSelector": "Izotópok",
   "resetSelector": "Szűrők visszaállítása",
   "resetWarnSelector": "A művelet visszaállítja a szűrőket.",
   "resetWarnLabelSelector": "Visszaállítás",

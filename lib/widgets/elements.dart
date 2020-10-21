@@ -105,13 +105,24 @@ bool enabledWeight = false;
 double weightMin = 1;
 double weightMax = 294;
 
+// weight
+double defIsotopenumMin = 1;
+double defIsotopenumMax = 40;
+
+bool stateIsotopenum = false;
+bool enabledIsotopenum = false;
+
+double isotopenumMin = 1;
+double isotopenumMax = 40;
+
 void checkResetVisibility() {
   if (enabledElectronnegativity == true ||
       enabledTypes == true ||
       enabledAtomicnumber == true ||
       enabledConstructors == true ||
       enabledConstructors == true ||
-      enabledWeight == true) {
+      enabledWeight == true ||
+      enabledIsotopenum == true) {
     resetVisibility = true;
   } else {
     resetVisibility = false;
@@ -207,6 +218,21 @@ class _elementsState extends State<elements> {
       } else {
         stateWeight = true;
         enabledWeight = true;
+      }
+    });
+  }
+
+  void setIsotopenum() {
+    setState(() {
+      if (isotopenumMin ==
+          defIsotopenumMin &&
+          isotopenumMax ==
+              defIsotopenumMax) {
+        stateIsotopenum = false;
+        enabledIsotopenum = false;
+      } else {
+        stateIsotopenum = true;
+        enabledIsotopenum = true;
       }
     });
   }
@@ -2585,6 +2611,340 @@ class _elementsState extends State<elements> {
                                       child: Container(
                                         decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
                                         child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                              sigmaX: (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05,
+                                              sigmaY: (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05),
+                                          child: SingleChildScrollView(
+                                            controller: scrollController,
+                                            child: Container(
+                                              child: Center(
+                                                child: Column(
+                                                  children: <Widget>[
+                                                    Padding(
+                                                      padding: EdgeInsets.only(
+                                                          top: MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height *
+                                                              .04,
+                                                          bottom: MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .height *
+                                                              .05),
+                                                      child: Text(
+                                                        AppLocalizations.of(
+                                                            context)
+                                                            .translate(
+                                                            'weightSelector') +
+                                                            ':',
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                          fontWeight:
+                                                          FontWeight.bold,
+                                                          fontSize: MediaQuery
+                                                              .of(
+                                                              context)
+                                                              .size
+                                                              .width *
+                                                              .09,
+                                                        ),
+                                                      ),
+                                                    ),
+                                                    SleekCircularSlider(
+                                                      initialValue: weightMin,
+                                                      min: 1,
+                                                      max: 294,
+                                                      appearance:
+                                                      CircularSliderAppearance(
+                                                        animationEnabled: false,
+                                                        size: (MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height +
+                                                            MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .width) /
+                                                            2 *
+                                                            .4,
+                                                        infoProperties:
+                                                        InfoProperties(
+                                                          modifier:
+                                                          percentageModifier,
+                                                          topLabelStyle: TextStyle(
+                                                              fontSize: (MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .height +
+                                                                  MediaQuery
+                                                                      .of(
+                                                                      context)
+                                                                      .size
+                                                                      .width) /
+                                                                  2 *
+                                                                  .06,
+                                                              fontWeight:
+                                                              FontWeight.bold,
+                                                              color:
+                                                              Colors.white),
+                                                          mainLabelStyle:
+                                                          TextStyle(
+                                                            fontSize: (MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .height +
+                                                                MediaQuery
+                                                                    .of(
+                                                                    context)
+                                                                    .size
+                                                                    .width) /
+                                                                2 *
+                                                                .08,
+                                                            color: Colors.white,
+                                                          ),
+                                                          topLabelText:
+                                                          AppLocalizations.of(
+                                                              context)
+                                                              .translate(
+                                                              'sliderMin'),
+                                                        ),
+                                                        customColors:
+                                                        CustomSliderColors(
+                                                          trackColor:
+                                                          Colors.white,
+                                                          hideShadow: true,
+                                                          progressBarColors: <
+                                                              Color>[
+                                                            Color(0xff13547a),
+                                                            Color(0xff62a39c),
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      onChangeEnd: (double v) {
+                                                        setState(() {
+                                                          weightMin =
+                                                              double.parse(
+                                                                  percentageModifier(
+                                                                      v));
+                                                        });
+
+                                                        setWeight();
+                                                        checkResetVisibility();
+                                                      },
+                                                    ),
+                                                    SleekCircularSlider(
+                                                      initialValue: weightMax,
+                                                      min: 1,
+                                                      max: 294,
+                                                      appearance:
+                                                      CircularSliderAppearance(
+                                                        animationEnabled: false,
+                                                        size: (MediaQuery
+                                                            .of(
+                                                            context)
+                                                            .size
+                                                            .height +
+                                                            MediaQuery
+                                                                .of(
+                                                                context)
+                                                                .size
+                                                                .width) /
+                                                            2 *
+                                                            .4,
+                                                        infoProperties:
+                                                        InfoProperties(
+                                                          modifier:
+                                                          percentageModifier,
+                                                          topLabelStyle: TextStyle(
+                                                              fontWeight:
+                                                              FontWeight.bold,
+                                                              fontSize: (MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .height +
+                                                                  MediaQuery
+                                                                      .of(
+                                                                      context)
+                                                                      .size
+                                                                      .width) /
+                                                                  2 *
+                                                                  .06,
+                                                              color:
+                                                              Colors.white),
+                                                          mainLabelStyle: TextStyle(
+                                                              color: Colors.white,
+                                                              fontSize: (MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .height +
+                                                                  MediaQuery
+                                                                      .of(
+                                                                      context)
+                                                                      .size
+                                                                      .width) /
+                                                                  2 *
+                                                                  .08),
+                                                          topLabelText:
+                                                          AppLocalizations.of(
+                                                              context)
+                                                              .translate(
+                                                              'sliderMax'),
+                                                        ),
+                                                        customColors:
+                                                        CustomSliderColors(
+                                                          trackColor:
+                                                          Colors.white,
+                                                          hideShadow: true,
+                                                          progressBarColors: <
+                                                              Color>[
+                                                            Color(0xff13547a),
+                                                            Color(0xff62a39c),
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      onChangeEnd: (double v) {
+                                                        setState(() {
+                                                          weightMax =
+                                                              double.parse(
+                                                                  percentageModifier(
+                                                                      v));
+                                                        });
+
+                                                        setWeight();
+                                                        checkResetVisibility();
+                                                      },
+                                                    ),
+                                                  ],
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),);
+                                  },
+                                );
+                              },
+                            );
+                          },
+                          child: Container(
+                            //width: MediaQuery.of(context).size.width,
+                            child: Tooltip(
+                              message: AppLocalizations.of(context)
+                                  .translate('weightSelector'),
+                              child: Row(
+                                mainAxisAlignment:
+                                MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    AppLocalizations.of(context)
+                                        .translate('weightMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      //height: MediaQuery.of(context).size.width * .0014,
+                                      fontSize:
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: StatefulBuilder(
+                                      builder: (BuildContext context,
+                                          StateSetter setState) {
+                                        return Opacity(
+                                          opacity: enabledWeight ? 1 : 0,
+                                          child: Checkbox(
+                                            activeColor:
+                                            Color.fromRGBO(255, 255, 255, 0),
+                                            value: stateWeight,
+                                            onChanged: enabledWeight
+                                                ? (bool value) {
+                                              setState(
+                                                    () {
+                                                  stateWeight = value;
+                                                },
+                                              );
+                                            }
+                                                : null,
+                                          ),
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () {
+                            showModalBottomSheet(
+                              isScrollControlled: true,
+                              context: context,
+                              builder: (context) {
+                                return DraggableScrollableSheet(
+                                  initialChildSize: .95,
+                                  maxChildSize: 1,
+                                  builder:
+                                      (BuildContext context, scrollController) {
+                                    return ClipRRect(
+                                      borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .1),
+                                        topRight: Radius.circular(
+                                            (MediaQuery
+                                                .of(context)
+                                                .size
+                                                .height +
+                                                MediaQuery
+                                                    .of(context)
+                                                    .size
+                                                    .width) /
+                                                2 *
+                                                .1),
+                                      ),
+                                      child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+                                        child: BackdropFilter(
                                         filter: ImageFilter.blur(
                                             sigmaX: (MediaQuery
                                                 .of(context)
@@ -2630,7 +2990,7 @@ class _elementsState extends State<elements> {
                                                       AppLocalizations.of(
                                                           context)
                                                           .translate(
-                                                          'weightSelector') +
+                                                          'isotopenumSelector') +
                                                           ':',
                                                       style: TextStyle(
                                                         color: Colors.white,
@@ -2646,9 +3006,9 @@ class _elementsState extends State<elements> {
                                                     ),
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: weightMin,
+                                                    initialValue: isotopenumMin,
                                                     min: 1,
-                                                    max: 294,
+                                                    max: 40,
                                                     appearance:
                                                     CircularSliderAppearance(
                                                       animationEnabled: false,
@@ -2667,7 +3027,7 @@ class _elementsState extends State<elements> {
                                                       infoProperties:
                                                       InfoProperties(
                                                         modifier:
-                                                        percentageModifier,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
                                                             fontSize: (MediaQuery
                                                                 .of(
@@ -2721,20 +3081,20 @@ class _elementsState extends State<elements> {
                                                     ),
                                                     onChangeEnd: (double v) {
                                                       setState(() {
-                                                        weightMin =
+                                                        isotopenumMin =
                                                             double.parse(
-                                                                percentageModifier(
+                                                                percentageModifierNull(
                                                                     v));
                                                       });
 
-                                                      setWeight();
+                                                      setIsotopenum();
                                                       checkResetVisibility();
                                                     },
                                                   ),
                                                   SleekCircularSlider(
-                                                    initialValue: weightMax,
+                                                    initialValue: isotopenumMax,
                                                     min: 1,
-                                                    max: 294,
+                                                    max: 40,
                                                     appearance:
                                                     CircularSliderAppearance(
                                                       animationEnabled: false,
@@ -2753,7 +3113,7 @@ class _elementsState extends State<elements> {
                                                       infoProperties:
                                                       InfoProperties(
                                                         modifier:
-                                                        percentageModifier,
+                                                        percentageModifierNull,
                                                         topLabelStyle: TextStyle(
                                                             fontWeight:
                                                             FontWeight.bold,
@@ -2805,13 +3165,13 @@ class _elementsState extends State<elements> {
                                                     ),
                                                     onChangeEnd: (double v) {
                                                       setState(() {
-                                                        weightMax =
+                                                        isotopenumMax =
                                                             double.parse(
-                                                                percentageModifier(
+                                                                percentageModifierNull(
                                                                     v));
                                                       });
 
-                                                      setWeight();
+                                                      setIsotopenum();
                                                       checkResetVisibility();
                                                     },
                                                   ),
@@ -2831,14 +3191,14 @@ class _elementsState extends State<elements> {
                             //width: MediaQuery.of(context).size.width,
                             child: Tooltip(
                               message: AppLocalizations.of(context)
-                                  .translate('weightSelector'),
+                                  .translate('isotopenumSelector'),
                               child: Row(
                                 mainAxisAlignment:
                                 MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
                                     AppLocalizations.of(context)
-                                        .translate('weightMinSelector'),
+                                        .translate('isotopenumMinSelector'),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       //height: MediaQuery.of(context).size.width * .0014,
@@ -2856,16 +3216,16 @@ class _elementsState extends State<elements> {
                                       builder: (BuildContext context,
                                           StateSetter setState) {
                                         return Opacity(
-                                            opacity: enabledWeight ? 1 : 0,
+                                            opacity: enabledIsotopenum ? 1 : 0,
                                             child: Checkbox(
                                           activeColor:
                                           Color.fromRGBO(255, 255, 255, 0),
-                                          value: stateWeight,
-                                          onChanged: enabledWeight
+                                          value: stateIsotopenum,
+                                          onChanged: enabledIsotopenum
                                               ? (bool value) {
                                             setState(
                                                   () {
-                                                stateWeight = value;
+                                                stateIsotopenum = value;
                                               },
                                             );
                                           }
@@ -2942,17 +3302,22 @@ class _elementsState extends State<elements> {
                                 weightMin = defWeightMin;
                                 weightMax = defWeightMax;
 
+                                isotopenumMin = defIsotopenumMin;
+                                isotopenumMax = defIsotopenumMax;
+
                                 stateElectronnegativity = false;
                                 stateTypes = false;
                                 stateAtomicnumber = false;
                                 stateConstructors = false;
                                 stateWeight = false;
+                                stateIsotopenum = false;
 
                                 enabledElectronnegativity = false;
                                 enabledTypes = false;
                                 enabledAtomicnumber = false;
                                 enabledConstructors = false;
                                 enabledWeight = false;
+                                enabledIsotopenum = false;
 
                                 resetVisibility = false;
 
@@ -3024,12 +3389,15 @@ class _elementsState extends State<elements> {
                           constructorsNeutronMax: constructorsNeutronMax,
                           weightMin: weightMin,
                           weightMax: weightMax,
+                          isotopenumMin: isotopenumMin,
+                          isotopenumMax: isotopenumMax,
 
                           stateElectronnegativity: stateElectronnegativity,
                           stateTypes: stateTypes,
                           stateAtomicnumber: stateAtomicnumber,
                           stateConstructors: stateConstructors,
                           stateWeight: stateWeight,
+                          stateIsotopenum: stateIsotopenum,
                         ),
                   ),
                 );

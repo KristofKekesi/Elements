@@ -42,6 +42,8 @@
   "constructorsNeutrons": "Neutrons",
   "weightSelector": "Weight",
   "weightMinSelector": "Weight",
+  "isotopenumSelector": "Number of isotopes",
+  "isotopenumMinSelector": "Isotope num.",
   "resetSelector": "Reset Selectors",
   "resetWarnSelector": "This action will remove changes form the selectors.",
   "resetWarnLabelSelector": "Reset",

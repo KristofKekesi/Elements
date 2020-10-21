@@ -69,6 +69,11 @@ class viewSelector extends StatefulWidget {
   final double weightMax;
 
   @required
+  final double isotopenumMin;
+  @required
+  final double isotopenumMax;
+
+  @required
   final bool stateElectronnegativity;
   @required
   final bool stateTypes;
@@ -78,6 +83,8 @@ class viewSelector extends StatefulWidget {
   final bool stateConstructors;
   @required
   final bool stateWeight;
+  @required
+  final bool stateIsotopenum;
 
   const viewSelector(
       {Key key,
@@ -109,7 +116,10 @@ class viewSelector extends StatefulWidget {
       this.stateTypes,
       this.stateAtomicnumber,
       this.stateConstructors,
-      this.stateWeight})
+      this.stateWeight,
+      this.isotopenumMin,
+      this.isotopenumMax,
+      this.stateIsotopenum})
       : super(key: key);
 
   @override
@@ -218,6 +228,16 @@ class viewSelectorState extends State<viewSelector> {
                 }
               }
 
+              if (stateIsotopenum == true) {
+                if (isotopenumMin <=
+                        double.parse(elementList[index]['isotopenum']) &&
+                    isotopenumMax >=
+                        double.parse(elementList[index]['isotopenum'])) {
+                } else {
+                  passed = false;
+                }
+              }
+
               if (passed == true) {
                 passedElements.add(index);
               }
@@ -228,7 +248,7 @@ class viewSelectorState extends State<viewSelector> {
               children: <Widget>[
                 Expanded(
                   child: getView(
-                      passedElements,
+                    passedElements,
                   ),
                 ),
                 Row(
@@ -381,8 +401,7 @@ class viewSelectorState extends State<viewSelector> {
         });
   }
 
-  Widget getView(
-      List passedElements) {
+  Widget getView(List passedElements) {
     switch (selectredViewMarker) {
       case viewMarker.cards:
         return cardView(
