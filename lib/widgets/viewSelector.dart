@@ -230,9 +230,9 @@ class viewSelectorState extends State<viewSelector> {
 
               if (stateIsotopenum == true) {
                 if (isotopenumMin <=
-                        double.parse(elementList[index]['isotopenum']) &&
+                        double.parse(elementList[index]['isotopeNum']) &&
                     isotopenumMax >=
-                        double.parse(elementList[index]['isotopenum'])) {
+                        double.parse(elementList[index]['isotopeNum'])) {
                 } else {
                   passed = false;
                 }
