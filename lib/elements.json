@@ -25,6 +25,7 @@
 	"chargedComponent": "1",
 	"neutron": "0",
 
+	"isotopenum": "7",
 	"isotopes-src": "isotopes/H.json"
   }, {
 	"element": "He",
@@ -52,6 +53,7 @@
 	"chargedComponent": "2",
 	"neutron": "2",
 
+	"isotopenum": "9",
 	"isotopes-src": "isotopes/He.json"
   }, {
 	"element": "Li",
@@ -78,6 +80,7 @@
 	"chargedComponent": "3",
 	"neutron": "4",
 
+	"isotopenum": "10",
 	"isotopes-src": "isotopes/Li.json"
   }, {
 	"element": "Be",
@@ -104,6 +107,7 @@
 	"chargedComponent": "4",
 	"neutron": "5",
 
+	"isotopenum": "12",
 	"isotopes-src": "isotopes/Be.json"
   }, {
 	"element": "B",
@@ -130,6 +134,7 @@
 	"chargedComponent": "5",
 	"neutron": "6",
 
+	"isotopenum": "14",
 	"isotopes-src": "isotopes/B.json"
   }, {
 	"element": "C",
@@ -156,6 +161,7 @@
 	"chargedComponent": "6",
 	"neutron": "6",
 
+	"isotopenum": "15",
 	"isotopes-src": "isotopes/C.json"
   }, {
 	"element": "N",
@@ -182,6 +188,7 @@
 	"chargedComponent": "7",
 	"neutron": "7",
 
+	"isotopenum": "16",
 	"isotopes-src": "isotopes/N.json"
   }, {
 	"element": "O",
@@ -208,6 +215,7 @@
 	"chargedComponent": "8",
 	"neutron": "8",
 
+	"isotopenum": "17",
 	"isotopes-src": "isotopes/O.json"
   }, {
 	"element": "F",
@@ -234,6 +242,7 @@
 	"chargedComponent": "9",
 	"neutron": "10",
 
+	"isotopenum": "18",
 	"isotopes-src": "isotopes/F.json"
   }, {
 	"element": "Ne",
@@ -260,6 +269,7 @@
 	"chargedComponent": "10",
 	"neutron": "10",
 
+	"isotopenum": "19",
 	"isotopes-src": "isotopes/Ne.json"
   }, {
 	"element": "Na",
@@ -286,6 +296,7 @@
 	"chargedComponent": "11",
 	"neutron": "12",
 
+	"isotopenum": "20",
 	"isotopes-src": "isotopes/Na.json"
   }, {
 	"element": "Mg",
@@ -312,6 +323,7 @@
 	"chargedComponent": "12",
 	"neutron": "12",
 
+	"isotopenum": "22",
 	"isotopes-src": "isotopes/Mg.json"
   }, {
 	"element": "Al",
@@ -338,6 +350,7 @@
 	"chargedComponent": "13",
 	"neutron": "14",
 
+	"isotopenum": "22",
 	"isotopes-src": "isotopes/Al.json"
   }, {
 	"element": "Si",
@@ -364,6 +377,8 @@
 	"chargedComponent": "14",
 	"neutron": "14",
 
+
+	"isotopenum": "23",
 	"isotopes-src": "isotopes/Si.json"
   }, {
 	"element": "P",
@@ -390,6 +405,7 @@
 	"chargedComponent": "15",
 	"neutron": "16",
 
+	"isotopenum": "23",
 	"isotopes-src": "isotopes/P.json"
   }, {
 	"element": "S",
@@ -416,6 +432,7 @@
 	"chargedComponent": "16",
 	"neutron": "16",
 
+	"isotopenum": "24",
 	"isotopes-src": "isotopes/S.json"
   }, {
 	"element": "Cl",
@@ -442,6 +459,7 @@
 	"chargedComponent": "17",
 	"neutron": "18",
 
+	"isotopenum": "24",
 	"isotopes-src": "isotopes/Cl.json"
   }, {
 	"element": "Ar",
@@ -468,6 +486,7 @@
 	"chargedComponent": "18",
 	"neutron": "22",
 
+	"isotopenum": "24",
 	"isotopes-src": "isotopes/Ar.json"
   }, {
 	"element": "K",
@@ -494,6 +513,7 @@
 	"chargedComponent": "19",
 	"neutron": "20",
 
+	"isotopenum": "24",
 	"isotopes-src": "isotopes/K.json"
   }, {
 	"element": "Ca",
@@ -520,6 +540,7 @@
 	"chargedComponent": "20",
 	"neutron": "20",
 
+	"isotopenum": "24",
 	"isotopes-src": "isotopes/Ca.json"
   }, {
 	"element": "Sc",
@@ -546,6 +567,7 @@
 	"chargedComponent": "21",
 	"neutron": "24",
 
+	"isotopenum": "25",
 	"isotopes-src": "isotopes/Sc.json"
   }, {
 	"element": "Ti",
@@ -572,6 +594,7 @@
 	"chargedComponent": "26",
 	"neutron": "22",
 
+	"isotopenum": "26",
 	"isotopes-src": "isotopes/Ti.json"
   }, {
 	"element": "V",
@@ -598,6 +621,7 @@
 	"chargedComponent": "23",
 	"neutron": "28",
 
+	"isotopenum": "26",
 	"isotopes-src": "isotopes/V.json"
   }, {
 	"element": "Cr",
@@ -624,6 +648,7 @@
 	"chargedComponent": "24",
 	"neutron": "28",
 
+	"isotopenum": "26",
 	"isotopes-src": "isotopes/Cr.json"
   }, {
 	"element": "Mn",
@@ -650,6 +675,7 @@
 	"chargedComponent": "25",
 	"neutron": "30",
 
+	"isotopenum": "26",
 	"isotopes-src": "isotopes/Mn.json"
   }, {
 	"element": "Fe",
@@ -676,6 +702,7 @@
 	"chargedComponent": "26",
 	"neutron": "30",
 
+	"isotopenum": "28",
 	"isotopes-src": "isotopes/Fe.json"
   }, {
 	"element": "Co",
@@ -702,6 +729,7 @@
 	"chargedComponent": "27",
 	"neutron": "32",
 
+	"isotopenum": "29",
 	"isotopes-src": "isotopes/Co.json"
   }, {
 	"element": "Ni",
@@ -728,6 +756,7 @@
 	"chargedComponent": "28",
 	"neutron": "31",
 
+	"isotopenum": "31",
 	"isotopes-src": "isotopes/Ni.json"
   }, {
 	"element": "Cu",
@@ -754,6 +783,7 @@
 	"chargedComponent": "29",
 	"neutron": "35",
 
+	"isotopenum": "29",
 	"isotopes-src": "isotopes/Cu.json"
   }, {
 	"element": "Zn",
@@ -780,6 +810,7 @@
 	"chargedComponent": "35",
 	"neutron": "30",
 
+	"isotopenum": "30",
 	"isotopes-src": "isotopes/Zn.json"
   }, {
 	"element": "Ga",
@@ -803,9 +834,11 @@
 	"hu": "Gallium",
 	"en": "Gallium",
 
+	"isotopenum": "",
 	"chargedComponent": "31",
 	"neutron": "38",
 
+	"isotopenum": "31",
 	"isotopes-src": "isotopes/Ga.json"
   }, {
 	"element": "Ge",
@@ -832,6 +865,7 @@
 	"chargedComponent": "32",
 	"neutron": "41",
 
+	"isotopenum": "32",
 	"isotopes-src": "isotopes/Ge.json"
   }, {
 	"element": "As",
@@ -858,6 +892,7 @@
 	"chargedComponent": "33",
 	"neutron": "42",
 
+	"isotopenum": "33",
 	"isotopes-src": "isotopes/As.json"
   }, {
 	"element": "Se",
@@ -884,6 +919,7 @@
 	"chargedComponent": "34",
 	"neutron": "45",
 
+	"isotopenum": "30",
 	"isotopes-src": "isotopes/Se.json"
   }, {
 	"element": "Br",
@@ -910,6 +946,7 @@
 	"chargedComponent": "35",
 	"neutron": "45",
 
+	"isotopenum": "31",
 	"isotopes-src": "isotopes/Br.json"
   }, {
 	"element": "Kr",
@@ -936,6 +973,8 @@
 	"chargedComponent": "36",
 	"neutron": "48",
 
+
+	"isotopenum": "32",
 	"isotopes-src": "isotopes/Kr.json"
   }, {
 	"element": "Rb",
@@ -962,6 +1001,8 @@
 	"chargedComponent": "37",
 	"neutron": "48",
 
+
+	"isotopenum": "32",
 	"isotopes-src": "isotopes/Rb.json"
   }, {
 	"element": "Sr",
@@ -988,6 +1029,8 @@
 	"chargedComponent": "38",
 	"neutron": "50",
 
+
+	"isotopenum": "33",
 	"isotopes-src": "isotopes/Sr.json"
   }, {
 	"element": "Y",
@@ -1014,6 +1057,7 @@
 	"chargedComponent": "39",
 	"neutron": "50",
 
+	"isotopenum": "33",
 	"isotopes-src": "isotopes/Y.json"
   }, {
 	"element": "Zr",
@@ -1040,6 +1084,7 @@
 	"chargedComponent": "40",
 	"neutron": "51",
 
+	"isotopenum": "33",
 	"isotopes-src": "isotopes/Zr.json"
   }, {
 	"element": "Nb",
@@ -1066,6 +1111,7 @@
 	"chargedComponent": "41",
 	"neutron": "52",
 
+	"isotopenum": "33",
 	"isotopes-src": "isotopes/Nb.json"
   }, {
 	"element": "Mo",
@@ -1092,6 +1138,7 @@
 	"chargedComponent": "42",
 	"neutron": "54",
 
+	"isotopenum": "33",
 	"isotopes-src": "isotopes/Mo.json"
   }, {
 	"element": "Tc",
@@ -1118,6 +1165,7 @@
 	"chargedComponent": "43",
 	"neutron": "55",
 
+	"isotopenum": "34",
 	"isotopes-src": "isotopes/Tc.json"
   }, {
 	"element": "Ru",
@@ -1144,6 +1192,7 @@
 	"chargedComponent": "44",
 	"neutron": "57",
 
+	"isotopenum": "34",
 	"isotopes-src": "isotopes/Ru.json"
   }, {
 	"element": "Rh",
@@ -1170,6 +1219,7 @@
 	"chargedComponent": "45",
 	"neutron": "58",
 
+	"isotopenum": "34",
 	"isotopes-src": "isotopes/Rh.json"
   }, {
 	"element": "Pd",
@@ -1196,6 +1246,7 @@
 	"chargedComponent": "46",
 	"neutron": "60",
 
+	"isotopenum": "34",
 	"isotopes-src": "isotopes/Pd.json"
   }, {
 	"element": "Ag",
@@ -1222,6 +1273,7 @@
 	"chargedComponent": "47",
 	"neutron": "61",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Ag.json"
   }, {
 	"element": "Cd",
@@ -1248,6 +1300,7 @@
 	"chargedComponent": "48",
 	"neutron": "64",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Cd.json"
   }, {
 	"element": "In",
@@ -1274,6 +1327,7 @@
 	"chargedComponent": "49",
 	"neutron": "66",
 
+	"isotopenum": "39",
 	"isotopes-src": "isotopes/In.json"
   }, {
 	"element": "Sn",
@@ -1300,6 +1354,7 @@
 	"chargedComponent": "50",
 	"neutron": "69",
 
+	"isotopenum": "39",
 	"isotopes-src": "isotopes/Sn.json"
   }, {
 	"element": "Sb",
@@ -1326,6 +1381,7 @@
 	"chargedComponent": "51",
 	"neutron": "71",
 
+	"isotopenum": "37",
 	"isotopes-src": "isotopes/Sb.json"
   }, {
 	"element": "Te",
@@ -1352,6 +1408,7 @@
 	"chargedComponent": "52",
 	"neutron": "76",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Te.json"
 
   }, {
@@ -1379,6 +1436,7 @@
 	"chargedComponent": "53",
 	"neutron": "75",
 
+	"isotopenum": "37",
 	"isotopes-src": "isotopes/I.json"
   }, {
 	"element": "Xe",
@@ -1405,6 +1463,7 @@
 	"chargedComponent": "54",
 	"neutron": "77",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Xe.json"
   }, {
 	"element": "Cs",
@@ -1431,6 +1490,7 @@
 	"chargedComponent": "55",
 	"neutron": "78",
 
+	"isotopenum": "40",
 	"isotopes-src": "isotopes/Cs.json"
   }, {
 	"element": "Ba",
@@ -1457,6 +1517,7 @@
 	"chargedComponent": "86",
 	"neutron": "81",
 
+	"isotopenum": "40",
 	"isotopes-src": "isotopes/Ba.json"
   }, {
 	"element": "La",
@@ -1483,6 +1544,7 @@
 	"chargedComponent": "57",
 	"neutron": "82",
 
+	"isotopenum": "39",
 	"isotopes-src": "isotopes/La.json"
   }, {
 	"element": "Ce",
@@ -1509,6 +1571,7 @@
 	"chargedComponent": "58",
 	"neutron": "82",
 
+	"isotopenum": "39",
 	"isotopes-src": "isotopes/Ce.json"
   }, {
 	"element": "Pr",
@@ -1535,6 +1598,7 @@
 	"chargedComponent": "59",
 	"neutron": "82",
 
+	"isotopenum": "39",
 	"isotopes-src": "isotopes/Pr.json"
   }, {
 	"element": "Nd",
@@ -1561,6 +1625,7 @@
 	"chargedComponent": "60",
 	"neutron": "84",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Nd.json"
   }, {
 	"element": "Pm",
@@ -1587,6 +1652,7 @@
 	"chargedComponent": "61",
 	"neutron": "84",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Pm.json"
   }, {
 	"element": "Sm",
@@ -1613,6 +1679,7 @@
 	"chargedComponent": "62",
 	"neutron": "88",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Sm.json"
   }, {
 	"element": "Eu",
@@ -1639,6 +1706,7 @@
 	"chargedComponent": "63",
 	"neutron": "89",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Eu.json"
   }, {
 	"element": "Gd",
@@ -1665,6 +1733,7 @@
 	"chargedComponent": "64",
 	"neutron": "93",
 
+	"isotopenum": "36",
 	"isotopes-src": "isotopes/Gd.json"
   }, {
 	"element": "Tb",
@@ -1691,6 +1760,7 @@
 	"chargedComponent": "65",
 	"neutron": "94",
 
+	"isotopenum": "36",
 	"isotopes-src": "isotopes/Tb.json"
   }, {
 	"element": "Dy",
@@ -1717,6 +1787,7 @@
 	"chargedComponent": "66",
 	"neutron": "97",
 
+	"isotopenum": "36",
 	"isotopes-src": "isotopes/Dy.json"
   }, {
 	"element": "Ho",
@@ -1743,6 +1814,7 @@
 	"chargedComponent": "67",
 	"neutron": "98",
 
+	"isotopenum": "36",
 	"isotopes-src": "isotopes/Ho.json"
   }, {
 	"element": "Er",
@@ -1769,6 +1841,7 @@
 	"chargedComponent": "68",
 	"neutron": "99",
 
+	"isotopenum": "35",
 	"isotopes-src": "isotopes/Er.json"
   }, {
 	"element": "Tm",
@@ -1795,6 +1868,7 @@
 	"chargedComponent": "69",
 	"neutron": "100",
 
+	"isotopenum": "35",
 	"isotopes-src": "isotopes/Tm.json"
   }, {
 	"element": "Yb",
@@ -1821,6 +1895,7 @@
 	"chargedComponent": "70",
 	"neutron": "103",
 
+	"isotopenum": "35",
 	"isotopes-src": "isotopes/Yb.json"
   }, {
 	"element": "Lu",
@@ -1847,6 +1922,7 @@
 	"chargedComponent": "71",
 	"neutron": "104",
 
+	"isotopenum": "35",
 	"isotopes-src": "isotopes/Lu.json"
   }, {
 	"element": "Hf",
@@ -1873,6 +1949,7 @@
 	"chargedComponent": "72",
 	"neutron": "106",
 
+	"isotopenum": 36"",
 	"isotopes-src": "isotopes/Hf.json"
   }, {
 	"element": "Ta",
@@ -1899,6 +1976,7 @@
 	"chargedComponent": "73",
 	"neutron": "108",
 
+	"isotopenum": "36",
 	"isotopes-src": "isotopes/Ta.json"
   }, {
 	"element": "W",
@@ -1925,6 +2003,7 @@
 	"chargedComponent": "74",
 	"neutron": "110",
 
+	"isotopenum": "35",
 	"isotopes-src": "isotopes/W.json"
   }, {
 	"element": "Re",
@@ -1951,6 +2030,7 @@
 	"chargedComponent": "75",
 	"neutron": "111",
 
+	"isotopenum": "35",
 	"isotopes-src": "isotopes/Re.json"
   }, {
 	"element": "Os",
@@ -1977,6 +2057,7 @@
 	"chargedComponent": "76",
 	"neutron": "114",
 
+	"isotopenum": "35",
 	"isotopes-src": "isotopes/Os.json"
   }, {
 	"element": "Ir",
@@ -2003,6 +2084,7 @@
 	"chargedComponent": "77",
 	"neutron": "115",
 
+	"isotopenum": "36",
 	"isotopes-src": "isotopes/Ir.json"
   }, {
 	"element": "Pt",
@@ -2029,6 +2111,7 @@
 	"chargedComponent": "78",
 	"neutron": "117",
 
+	"isotopenum": "37",
 	"isotopes-src": "isotopes/Pt.json"
   }, {
 	"element": "Au",
@@ -2055,6 +2138,7 @@
 	"chargedComponent": "79",
 	"neutron": "118",
 
+	"isotopenum": "37",
 	"isotopes-src": "isotopes/Au.json"
   }, {
 	"element": "Hg",
@@ -2081,6 +2165,7 @@
 	"chargedComponent": "80",
 	"neutron": "121",
 
+	"isotopenum": "40",
 	"isotopes-src": "isotopes/Hg.json"
   }, {
 	"element": "Tl",
@@ -2107,6 +2192,7 @@
 	"chargedComponent": "81",
 	"neutron": "123",
 
+	"isotopenum": "37",
 	"isotopes-src": "isotopes/Tl.json"
   }, {
 	"element": "Pb",
@@ -2133,6 +2219,7 @@
 	"chargedComponent": "82",
 	"neutron": "125",
 
+	"isotopenum": "38",
 	"isotopes-src": "isotopes/Pb.json"
   }, {
 	"element": "Bi",
@@ -2159,6 +2246,7 @@
 	"chargedComponent": "83",
 	"neutron": "126",
 
+	"isotopenum": "36",
 	"isotopes-src": "isotopes/Bi.json"
   }, {
 	"element": "Po",
@@ -2185,6 +2273,7 @@
 	"chargedComponent": "84",
 	"neutron": "125",
 
+	"isotopenum": "33",
 	"isotopes-src": "isotopes/Po.json"
   }, {
 	"element": "At",
@@ -2211,6 +2300,7 @@
 	"chargedComponent": "85",
 	"neutron": "125",
 
+	"isotopenum": "31",
 	"isotopes-src": "isotopes/At.json"
   }, {
 	"element": "Rn",
@@ -2237,6 +2327,7 @@
 	"chargedComponent": "86",
 	"neutron": "136",
 
+	"isotopenum": "34",
 	"isotopes-src": "isotopes/Rn.json"
   }, {
 	"element": "Fr",
@@ -2263,6 +2354,7 @@
 	"chargedComponent": "87",
 	"neutron": "136",
 
+	"isotopenum": "34",
 	"isotopes-src": "isotopes/Fr.json"
   }, {
 	"element": "Ra",
@@ -2289,6 +2381,7 @@
 	"chargedComponent": "88",
 	"neutron": "138",
 
+	"isotopenum": "34",
 	"isotopes-src": "isotopes/Ra.json"
   }, {
 	"element": "Ac",
@@ -2315,6 +2408,7 @@
 	"chargedComponent": "89",
 	"neutron": "138",
 
+	"isotopenum": "31",
 	"isotopes-src": "isotopes/Ac.json"
   }, {
 	"element": "Th",
@@ -2341,6 +2435,7 @@
 	"chargedComponent": "90",
 	"neutron": "142",
 
+	"isotopenum": "30",
 	"isotopes-src": "isotopes/Th.json"
   }, {
 	"element": "Pa",
@@ -2367,6 +2462,7 @@
 	"chargedComponent": "91",
 	"neutron": "148",
 
+	"isotopenum": "29",
 	"isotopes-src": "isotopes/Pa.json"
   }, {
 	"element": "U",
@@ -2393,6 +2489,7 @@
 	"chargedComponent": "92",
 	"neutron": "146",
 
+	"isotopenum": "26",
 	"isotopes-src": "isotopes/U.json"
   }, {
 	"element": "Np",
@@ -2419,6 +2516,7 @@
 	"chargedComponent": "93",
 	"neutron": "144",
 
+	"isotopenum": "20",
 	"isotopes-src": "isotopes/Np.json"
   }, {
 	"element": "Pu",
@@ -2445,6 +2543,7 @@
 	"chargedComponent": "94",
 	"neutron": "150",
 
+	"isotopenum": "20",
 	"isotopes-src": "isotopes/Pu.json"
   }, {
 	"element": "Am",
@@ -2471,6 +2570,7 @@
 	"chargedComponent": "95",
 	"neutron": "148",
 
+	"isotopenum": "19",
 	"isotopes-src": "isotopes/Am.json"
   }, {
 	"element": "Cm",
@@ -2497,6 +2597,7 @@
 	"chargedComponent": "96",
 	"neutron": "151",
 
+	"isotopenum": "20",
 	"isotopes-src": "isotopes/Cm.json"
   }, {
 	"element": "Bk",
@@ -2523,6 +2624,7 @@
 	"chargedComponent": "97",
 	"neutron": "150",
 
+	"isotopenum": "20",
 	"isotopes-src": "isotopes/Bk.json"
   }, {
 	"element": "Cf",
@@ -2549,6 +2651,7 @@
 	"chargedComponent": "98",
 	"neutron": "153",
 
+	"isotopenum": "20",
 	"isotopes-src": "isotopes/Cf.json"
   }, {
 	"element": "Es",
@@ -2575,6 +2678,7 @@
 	"chargedComponent": "99",
 	"neutron": "153",
 
+	"isotopenum": "19",
 	"isotopes-src": "isotopes/Es.json"
   }, {
 	"element": "Fm",
@@ -2601,6 +2705,7 @@
 	"chargedComponent": "100",
 	"neutron": "157",
 
+	"isotopenum": "19",
 	"isotopes-src": "isotopes/Fm.json"
   }, {
 	"element": "Md",
@@ -2627,6 +2732,7 @@
 	"chargedComponent": "101",
 	"neutron": "157",
 
+	"isotopenum": "18",
 	"isotopes-src": "isotopes/Md.json"
   }, {
 	"element": "No",
@@ -2653,6 +2759,7 @@
 	"chargedComponent": "102",
 	"neutron": "157",
 
+	"isotopenum": "17",
 	"isotopes-src": "isotopes/No.json"
   }, {
 	"element": "Lr",
@@ -2679,6 +2786,7 @@
 	"chargedComponent": "103",
 	"neutron": "159",
 
+	"isotopenum": "16",
 	"isotopes-src": "isotopes/Lr.json"
   }, {
 	"element": "Rf",
@@ -2705,6 +2813,7 @@
 	"chargedComponent": "104",
 	"neutron": "157",
 
+	"isotopenum": "16",
 	"isotopes-src": "isotopes/Rf.json"
   }, {
 	"element": "Db",
@@ -2731,6 +2840,7 @@
 	"chargedComponent": "105",
 	"neutron": "157",
 
+	"isotopenum": "16",
 	"isotopes-src": "isotopes/Db.json"
   }, {
 	"element": "Sg",
@@ -2757,6 +2867,7 @@
 	"chargedComponent": "106",
 	"neutron": "157",
 
+	"isotopenum": "16",
 	"isotopes-src": "isotopes/Sg.json"
   }, {
 	"element": "Bh",
@@ -2783,6 +2894,7 @@
 	"chargedComponent": "107",
 	"neutron": "155",
 
+	"isotopenum": "16",
 	"isotopes-src": "isotopes/Bh.json"
   }, {
 	"element": "Hs",
@@ -2809,6 +2921,7 @@
 	"chargedComponent": "108",
 	"neutron": "157",
 
+	"isotopenum": "15",
 	"isotopes-src": "isotopes/Hs.json"
   }, {
 	"element": "Mt",
@@ -2835,6 +2948,7 @@
 	"chargedComponent": "109",
 	"neutron": "157",
 
+	"isotopenum": "15",
 	"isotopes-src": "isotopes/Mt.json"
   }, {
 	"element": "Ds",
@@ -2861,6 +2975,7 @@
 	"chargedComponent": "110",
 	"neutron": "151",
 
+	"isotopenum": "15",
 	"isotopes-src": "isotopes/Ds.json"
   }, {
 	"element": "Rg",
@@ -2887,6 +3002,7 @@
 	"chargedComponent": "111",
 	"neutron": "161",
 
+	"isotopenum": "12",
 	"isotopes-src": "isotopes/Rg.json"
   }, {
 	"element": "Cn",
@@ -2913,6 +3029,7 @@
 	"chargedComponent": "112",
 	"neutron": "165",
 
+	"isotopenum": "9",
 	"isotopes-src": "isotopes/Cn.json"
   }, {
 	"element": "Nh",
@@ -2939,6 +3056,7 @@
 	"chargedComponent": "113",
 	"neutron": "173",
 
+	"isotopenum": "5",
 	"isotopes-src": "isotopes/Nh.json"
   }, {
 	"element": "Fl",
@@ -2965,6 +3083,7 @@
 	"chargedComponent": "114",
 	"neutron": "175",
 
+	"isotopenum": "5",
 	"isotopes-src": "isotopes/Fl.json"
   }, {
 	"element": "Mc",
@@ -2991,6 +3110,7 @@
 	"chargedComponent": "115",
 	"neutron": "175",
 
+	"isotopenum": "5",
 	"isotopes-src": "isotopes/Mc.json"
   }, {
 	"element": "Lv",
@@ -3017,6 +3137,7 @@
 	"chargedComponent": "116",
 	"neutron": "177",
 
+	"isotopenum": "4",
 	"isotopes-src": "isotopes/Lv.json"
   }, {
 	"element": "Ts",
@@ -3043,6 +3164,7 @@
 	"chargedComponent": "117",
 	"neutron": "177",
 
+	"isotopenum": "4",
 	"isotopes-src": "isotopes/Ts.json"
   }, {
 	"element": "Og",
@@ -3069,6 +3191,7 @@
 	"chargedComponent": "118",
 	"neutron": "176",
 
+	"isotopenum": "1",
 	"isotopes-src": "isotopes/Og.json"
   }
 ]
