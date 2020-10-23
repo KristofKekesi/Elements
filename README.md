@@ -4,7 +4,7 @@
 <h1 align="center">
   Elements
 </h1>
-
+  
 <img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-45-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 <span style="text-align: justify;">A modern app to track the cemical elements. Including all 118 elements, with their weight, radiation, consistency, type, block, and electronnegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat.</span>
@@ -71,15 +71,25 @@ Made with __Flutter SDK__ in __Dart__. Programmed in __Android Studio__.
 ## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
 
 <table>
+   <tr><td>
+  mail:
+ </td><td>
+  kristofkekesiofficial@gmail.com
+ </td></tr>
  <tr><td>
   Discord:
  </td><td>
   https://discord.gg/7URAMuc
  </td></tr>
- <tr><td>
-  mail:
+  <tr><td>
+  Twitter: [Elements]
  </td><td>
-  kristofkekesiofficial@gmail.com
+  https://twitter.com/ElementsApp_
+ </td></tr>
+  <tr><td>
+  Twitter: [Kristóf Kékesi]
+ </td><td>
+  https://twitter.com/KristofKekesi
  </td></tr>
 </table>
 
