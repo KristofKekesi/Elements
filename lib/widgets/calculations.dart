@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:elements_rework/widgets/calculations-NumberOfMoles.dart';
 import 'package:elements_rework/widgets/calculations-NumbersOfAtoms.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -86,7 +87,7 @@ class _calculationsState extends State<calculations> {
                     Container(
                       width: MediaQuery.of(context).size.width,
                       child: Text(
-                        'Modes',
+                        'Calculate',
                         style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
@@ -145,13 +146,12 @@ class _calculationsState extends State<calculations> {
                                   message: AppLocalizations.of(context)
                                       .translate('electronnegativitySelector'),
                                   child: AutoSizeText(
-                                    'Numbers of atoms',
+                                    'Mass (m)',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .09,
+                                              .08,
                                       color: Colors.white,
                                     ),
                                     maxLines: 1,
@@ -168,13 +168,143 @@ class _calculationsState extends State<calculations> {
                                   message: AppLocalizations.of(context)
                                       .translate('typesSelector'),
                                   child: AutoSizeText(
-                                    'Weight percent',
+                                    'Molar mass (M)',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .09,
+                                              .08,
+                                      color: Colors.white,
+                                    ),
+                                    maxLines: 1,
+                                    group: modes,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            GestureDetector(
+                              onTap: () {},
+                              child: Container(
+                                width: MediaQuery.of(context).size.width,
+                                child: Tooltip(
+                                  message: AppLocalizations.of(context)
+                                      .translate('typesSelector'),
+                                  child: AutoSizeText(
+                                    'Number of atoms',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .08,
+                                      color: Colors.white,
+                                    ),
+                                    maxLines: 1,
+                                    group: modes,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        calculateNumberOfMoles(),
+                                  ),
+                                );
+                              },
+                              child: Container(
+                                width: MediaQuery.of(context).size.width,
+                                child: Tooltip(
+                                  message: AppLocalizations.of(context)
+                                      .translate('typesSelector'),
+                                  child: AutoSizeText(
+                                    'Number of moles (n)',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .08,
+                                      color: Colors.white,
+                                    ),
+                                    maxLines: 1,
+                                    group: modes,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(
+                        top: MediaQuery.of(context).size.height * .02,
+                      ),
+                      child: Container(
+                        width: MediaQuery.of(context).size.width,
+                        child: Text(
+                          'Constants',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: MediaQuery.of(context).size.width * .12,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                            colors: [
+                              Color(0xfff22447),
+                              Color(0xffb80733),
+                            ],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight),
+                        borderRadius: BorderRadius.circular(
+                            (MediaQuery.of(context).size.height +
+                                    MediaQuery.of(context).size.width) /
+                                2 *
+                                .02),
+                      ),
+                      child: Padding(
+                        padding: EdgeInsets.only(
+                            left: (MediaQuery.of(context).size.height +
+                                    MediaQuery.of(context).size.width) /
+                                2 *
+                                .04,
+                            right: (MediaQuery.of(context).size.height +
+                                    MediaQuery.of(context).size.width) /
+                                2 *
+                                .04,
+                            top: (MediaQuery.of(context).size.height +
+                                    MediaQuery.of(context).size.width) /
+                                2 *
+                                .03,
+                            bottom: (MediaQuery.of(context).size.height +
+                                    MediaQuery.of(context).size.width) /
+                                2 *
+                                .03),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            GestureDetector(
+                              onTap: () {},
+                              child: Container(
+                                width: MediaQuery.of(context).size.width,
+                                child: Tooltip(
+                                  message: AppLocalizations.of(context)
+                                      .translate('typesSelector'),
+                                  child: AutoSizeText(
+                                    'Avogadro constant',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width *
+                                              .08,
                                       color: Colors.white,
                                     ),
                                     maxLines: 1,

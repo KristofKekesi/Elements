@@ -1332,7 +1332,7 @@ class cardView extends StatelessWidget {
                                                                                           fontWeight: FontWeight.bold,
                                                                                           fontSize: MediaQuery.of(context).size.height * .03,
                                                                                         ),
-                                                                                        minFontSize: .1,
+                                                                                        minFontSize: 1,
                                                                                         maxLines: 1,
                                                                                       ),
                                                                                     ),

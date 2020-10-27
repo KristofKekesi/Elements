@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:elements_rework/widgets/resultWindow.dart';
 
+import 'calculations.dart';
 import 'elements.dart';
 
 // ignore: camel_case_types
@@ -18,22 +19,10 @@ class landing extends StatelessWidget {
             alignment: Alignment.topLeft,
             child: Padding(
               padding: EdgeInsets.only(
-                  left: MediaQuery
-                      .of(context)
-                      .size
-                      .width * .1,
-                  right: MediaQuery
-                      .of(context)
-                      .size
-                      .width * .25,
-                  top: MediaQuery
-                      .of(context)
-                      .size
-                      .height * .02,
-                  bottom: MediaQuery
-                      .of(context)
-                      .size
-                      .height * .02),
+                  left: MediaQuery.of(context).size.width * .1,
+                  right: MediaQuery.of(context).size.width * .25,
+                  top: MediaQuery.of(context).size.height * .02,
+                  bottom: MediaQuery.of(context).size.height * .02),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
@@ -42,18 +31,11 @@ class landing extends StatelessWidget {
                       Scaffold.of(context).openDrawer();
                     },
                     child: Tooltip(
-                      message:
-                      AppLocalizations.of(context).translate("menu"),
+                      message: AppLocalizations.of(context).translate("menu"),
                       child: Image(
                           image: AssetImage("lib/icons/right_500.png"),
-                          height: MediaQuery
-                              .of(context)
-                              .size
-                              .width * .105,
-                          width: MediaQuery
-                              .of(context)
-                              .size
-                              .width * .105),
+                          height: MediaQuery.of(context).size.width * .105,
+                          width: MediaQuery.of(context).size.width * .105),
                     ),
                   ),
                   Row(
@@ -64,10 +46,7 @@ class landing extends StatelessWidget {
                         textAlign: TextAlign.left,
                         style: new TextStyle(
                             color: Colors.black,
-                            fontSize: MediaQuery
-                                .of(context)
-                                .size
-                                .width * .12,
+                            fontSize: MediaQuery.of(context).size.width * .12,
                             fontWeight: FontWeight.bold),
                         maxLines: 1,
                       ),
@@ -82,14 +61,8 @@ class landing extends StatelessWidget {
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.only(
-                    left: (MediaQuery
-                        .of(context)
-                        .size
-                        .height +
-                        MediaQuery
-                            .of(context)
-                            .size
-                            .width) /
+                    left: (MediaQuery.of(context).size.height +
+                            MediaQuery.of(context).size.width) /
                         2 *
                         .05),
                 child: AutoSizeText(
@@ -98,28 +71,16 @@ class landing extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: MediaQuery
-                        .of(context)
-                        .size
-                        .width * .12,
+                    fontSize: MediaQuery.of(context).size.width * .12,
                   ),
                   maxLines: 1,
                 ),
               ),
               Padding(
                 padding: EdgeInsets.only(
-                    bottom: MediaQuery
-                        .of(context)
-                        .size
-                        .height * .03,
-                    left: (MediaQuery
-                        .of(context)
-                        .size
-                        .height +
-                        MediaQuery
-                            .of(context)
-                            .size
-                            .width) /
+                    bottom: MediaQuery.of(context).size.height * .03,
+                    left: (MediaQuery.of(context).size.height +
+                            MediaQuery.of(context).size.width) /
                         2 *
                         .05),
                 child: AutoSizeText(
@@ -127,10 +88,7 @@ class landing extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: MediaQuery
-                        .of(context)
-                        .size
-                        .width * .07,
+                    fontSize: MediaQuery.of(context).size.width * .07,
                   ),
                   maxLines: 1,
                 ),
@@ -138,52 +96,43 @@ class landing extends StatelessWidget {
               Column(
                 children: <Widget>[
                   GestureDetector(
-                    onTap: (){Scaffold.of(context).showSnackBar(
-                      SnackBar(
-                        content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Expanded(child: AutoSizeText(
-                          AppLocalizations.of(context).translate('noTests'),
-                          maxLines: 1,
-                          minFontSize: 1,
-                        ),),],),
-                      ),),
-                    );},
-                      child: Padding(
-                        padding: EdgeInsets.only(
-                            bottom: MediaQuery
-                                .of(context)
-                                .size
-                                .height * .03,
-                            right: (MediaQuery
-                                .of(context)
-                                .size
-                                .height +
-                                MediaQuery
-                                    .of(context)
-                                    .size
-                                    .width) /
-                                2 *
-                                .05,
-                            left: (MediaQuery
-                                .of(context)
-                                .size
-                                .height +
-                                MediaQuery
-                                    .of(context)
-                                    .size
-                                    .width) /
-                                2 *
-                                .05),
-                        child: Tooltip(
-                          message: AppLocalizations.of(context).translate('soon'),
-                          child: Container(
-                          width: MediaQuery
-                              .of(context)
-                              .size
-                              .width * .8,
-                          height: MediaQuery
-                              .of(context)
-                              .size
-                              .height * .1,
+                    onTap: () {
+                      Scaffold.of(context).showSnackBar(
+                        SnackBar(
+                          content: SafeArea(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                Expanded(
+                                  child: AutoSizeText(
+                                    AppLocalizations.of(context)
+                                        .translate('noTests'),
+                                    maxLines: 1,
+                                    minFontSize: 1,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      );
+                    },
+                    child: Padding(
+                      padding: EdgeInsets.only(
+                          bottom: MediaQuery.of(context).size.height * .03,
+                          right: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .05,
+                          left: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .05),
+                      child: Tooltip(
+                        message: AppLocalizations.of(context).translate('soon'),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width * .8,
+                          height: MediaQuery.of(context).size.height * .1,
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                                 colors: [
@@ -193,32 +142,20 @@ class landing extends StatelessWidget {
                                 begin: Alignment.topLeft,
                                 end: Alignment.bottomRight),
                             borderRadius: BorderRadius.circular(
-                                (MediaQuery
-                                    .of(context)
-                                    .size
-                                    .height +
-                                    MediaQuery
-                                        .of(context)
-                                        .size
-                                        .width) /
+                                (MediaQuery.of(context).size.height +
+                                        MediaQuery.of(context).size.width) /
                                     2 *
                                     .02),
                           ),
                           child: Center(
                             child: Padding(
                               padding: EdgeInsets.only(
-                                  left: MediaQuery
-                                      .of(context)
-                                      .size
-                                      .width * .1,
+                                  left: MediaQuery.of(context).size.width * .1,
                                   right:
-                                  MediaQuery
-                                      .of(context)
-                                      .size
-                                      .width * .1),
+                                      MediaQuery.of(context).size.width * .1),
                               child: Row(
                                 mainAxisAlignment:
-                                MainAxisAlignment.spaceBetween,
+                                    MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
                                     AppLocalizations.of(context)
@@ -227,124 +164,8 @@ class landing extends StatelessWidget {
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                         fontSize:
-                                        MediaQuery
-                                            .of(context)
-                                            .size
-                                            .width * .08),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  GestureDetector(
-                    onTap: (){
-//                      Navigator.push(
-//                          context,
-//                          MaterialPageRoute(
-//                          builder: (context) =>
-//                      calculations(),),);
-
-                      Scaffold.of(context).showSnackBar(
-                        SnackBar(
-                          content: SafeArea(child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[ Expanded(child: AutoSizeText(
-                            AppLocalizations.of(context).translate('noCalculations'),
-                            maxLines: 1,
-                            minFontSize: 1,
-                          ),),],),
-                          ),),
-                      );
-                      },
-                      child: Padding(
-                        padding: EdgeInsets.only(
-                            bottom: MediaQuery
-                                .of(context)
-                                .size
-                                .height * .03,
-                            right: (MediaQuery
-                                .of(context)
-                                .size
-                                .height +
-                                MediaQuery
-                                    .of(context)
-                                    .size
-                                    .width) /
-                                2 *
-                                .05,
-                            left: (MediaQuery
-                                .of(context)
-                                .size
-                                .height +
-                                MediaQuery
-                                    .of(context)
-                                    .size
-                                    .width) /
-                                2 *
-                                .05),
-                        child: Tooltip(
-                          message: AppLocalizations.of(context).translate('soon'),
-                          child: Container(
-                          width: MediaQuery
-                              .of(context)
-                              .size
-                              .width * .8,
-                          height: MediaQuery
-                              .of(context)
-                              .size
-                              .height * .1,
-                          decoration: BoxDecoration(
-                            gradient: LinearGradient(
-                                colors: [
-                                  Color(0xfff22447),
-                                  Color(0xffb80733),
-//                                  Color(0xffffcf1b),
-//                                  Color(0xffff881b),
-                                ],
-                                begin: Alignment.topLeft,
-                                end: Alignment.bottomRight),
-                            borderRadius: BorderRadius.circular(
-                                (MediaQuery
-                                    .of(context)
-                                    .size
-                                    .height +
-                                    MediaQuery
-                                        .of(context)
-                                        .size
-                                        .width) /
-                                    2 *
-                                    .02),
-                          ),
-                          child: Center(
-                            child: Padding(
-                              padding: EdgeInsets.only(
-                                  left: MediaQuery
-                                      .of(context)
-                                      .size
-                                      .width * .1,
-                                  right:
-                                  MediaQuery
-                                      .of(context)
-                                      .size
-                                      .width * .1),
-                              child: Row(
-                                mainAxisAlignment:
-                                MainAxisAlignment.spaceBetween,
-                                children: <Widget>[
-                                  Text(
-                                    AppLocalizations.of(context).translate(
-                                        'titleCalculations'),
-                                    //AppLocalizations.of(context).translate('titleCompounds'),
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize:
-                                        MediaQuery
-                                            .of(context)
-                                            .size
-                                            .width * .08),
+                                            MediaQuery.of(context).size.width *
+                                                .08),
                                   ),
                                 ],
                               ),
@@ -359,164 +180,235 @@ class landing extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => elements(bottomPadding: MediaQuery.of(context).size.height)),
+                          builder: (context) => calculations(),
+                        ),
                       );
                     },
-                    child:
-                    Padding(
+                    child: Padding(
                       padding: EdgeInsets.only(
-                          bottom: MediaQuery
-                              .of(context)
-                              .size
-                              .height * .03,
-                          right: (MediaQuery
-                              .of(context)
-                              .size
-                              .height +
-                              MediaQuery
-                                  .of(context)
-                                  .size
-                                  .width) /
+                          bottom: MediaQuery.of(context).size.height * .03,
+                          right: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
                               2 *
                               .05,
-                          left: (MediaQuery
-                              .of(context)
-                              .size
-                              .height +
-                              MediaQuery
-                                  .of(context)
-                                  .size
-                                  .width) /
+                          left: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
                               2 *
                               .05),
                       child: Tooltip(
-                        message: AppLocalizations.of(context)
-                            .translate('settings'),
+                        message: AppLocalizations.of(context).translate('soon'),
                         child: Container(
-                        width: MediaQuery
-                            .of(context)
-                            .size
-                            .width * .8,
-                        height: MediaQuery
-                            .of(context)
-                            .size
-                            .height * .1,
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                              colors: [
-                                Color(0xff62a39c),
-                                Color(0xff13547a),
-                              ],
-                              begin: Alignment.topLeft,
-                              end: Alignment.bottomRight),
-                          borderRadius: BorderRadius.circular(
-                              (MediaQuery
-                                  .of(context)
-                                  .size
-                                  .height +
-                                  MediaQuery
-                                      .of(context)
-                                      .size
-                                      .width) /
-                                  2 *
-                                  .02),
+                          width: MediaQuery.of(context).size.width * .8,
+                          height: MediaQuery.of(context).size.height * .1,
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                                colors: [
+                                  Color(0xfff22447),
+                                  Color(0xffb80733),
+//                                  Color(0xffffcf1b),
+//                                  Color(0xffff881b),
+                                ],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight),
+                            borderRadius: BorderRadius.circular(
+                                (MediaQuery.of(context).size.height +
+                                        MediaQuery.of(context).size.width) /
+                                    2 *
+                                    .02),
+                          ),
+                          child: Center(
+                            child: Padding(
+                              padding: EdgeInsets.only(
+                                  left: MediaQuery.of(context).size.width * .1,
+                                  right:
+                                      MediaQuery.of(context).size.width * .1),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    AppLocalizations.of(context)
+                                        .translate('titleCalculations'),
+                                    //AppLocalizations.of(context).translate('titleCompounds'),
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize:
+                                            MediaQuery.of(context).size.width *
+                                                .08),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
                         ),
-                        child: Center(
+                      ),
+                    ),
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => elements(
+                                bottomPadding:
+                                    MediaQuery.of(context).size.height)),
+                      );
+                    },
+                    child: Padding(
+                      padding: EdgeInsets.only(
+                          bottom: MediaQuery.of(context).size.height * .03,
+                          right: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .05,
+                          left: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .05),
+                      child: Tooltip(
+                        message:
+                            AppLocalizations.of(context).translate('settings'),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width * .8,
+                          height: MediaQuery.of(context).size.height * .1,
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                                colors: [
+                                  Color(0xff62a39c),
+                                  Color(0xff13547a),
+                                ],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight),
+                            borderRadius: BorderRadius.circular(
+                                (MediaQuery.of(context).size.height +
+                                        MediaQuery.of(context).size.width) /
+                                    2 *
+                                    .02),
+                          ),
+                          child: Center(
                             child: Row(
-                              mainAxisAlignment:
-                              MainAxisAlignment.spaceBetween,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) =>
-                                              searchResults(
-                                                bottomPadding: MediaQuery.of(context).size.height,
-
-                                                typesOthernonmetals: typesOthernonmetals,
-                                                typesNoblegases: typesNoblegases,
-                                                typesAlkalimetals: typesAlkalimetals,
+                                          builder: (context) => searchResults(
+                                                bottomPadding:
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .height,
+                                                typesOthernonmetals:
+                                                    typesOthernonmetals,
+                                                typesNoblegases:
+                                                    typesNoblegases,
+                                                typesAlkalimetals:
+                                                    typesAlkalimetals,
                                                 typesAlkaliearthmetals:
-                                                typesAlkaliearthmetals,
-                                                typesMetalloids: typesMetalloids,
+                                                    typesAlkaliearthmetals,
+                                                typesMetalloids:
+                                                    typesMetalloids,
                                                 typesPosttransitionmetals:
-                                                typesPosttransitionmetals,
+                                                    typesPosttransitionmetals,
                                                 typesTransitionmetals:
-                                                typesTransitionmetals,
-                                                typesLanthanoids: typesLanthanoids,
+                                                    typesTransitionmetals,
+                                                typesLanthanoids:
+                                                    typesLanthanoids,
                                                 typesActionids: typesActinoids,
                                                 typesUnknown: typesUnknown,
                                                 electronnegativityMin:
-                                                electronnegativityMin,
+                                                    electronnegativityMin,
                                                 electronnegativityMax:
-                                                electronnegativityMax,
+                                                    electronnegativityMax,
                                                 electronnegativityUnknown:
-                                                electronnegativityUnknown,
-                                                atomicnumberMin: atomicnumberMin,
-                                                atomicnumberMax: atomicnumberMax,
+                                                    electronnegativityUnknown,
+                                                atomicnumberMin:
+                                                    atomicnumberMin,
+                                                atomicnumberMax:
+                                                    atomicnumberMax,
                                                 constructorsProtonMin:
-                                                constructorsProtonMin,
+                                                    constructorsProtonMin,
                                                 constructorsProtonMax:
-                                                constructorsProtonMax,
+                                                    constructorsProtonMax,
                                                 constructorsElectronMin:
-                                                constructorsElectronMin,
+                                                    constructorsElectronMin,
                                                 constructorsElectronMax:
-                                                constructorsElectronMax,
+                                                    constructorsElectronMax,
                                                 constructorsNeutronMin:
-                                                constructorsNeutronMin,
+                                                    constructorsNeutronMin,
                                                 constructorsNeutronMax:
-                                                constructorsNeutronMax,
+                                                    constructorsNeutronMax,
                                                 weightMin: weightMin,
                                                 weightMax: weightMax,
                                                 stateElectronnegativity:
-                                                stateElectronnegativity,
+                                                    stateElectronnegativity,
                                                 stateTypes: stateTypes,
-                                                stateAtomicnumber: stateAtomicnumber,
-                                                stateConstructors: stateConstructors,
+                                                stateAtomicnumber:
+                                                    stateAtomicnumber,
+                                                stateConstructors:
+                                                    stateConstructors,
                                                 stateWeight: stateWeight,
                                               )),
                                     );
                                   },
-                                  child:
-                                  Tooltip(message: AppLocalizations.of(context).translate('tooltipElements'), child: Container(color: Color.fromRGBO(0, 0, 0, 0), height: MediaQuery.of(context).size.height * .1, child: Padding(padding: EdgeInsets.only(left: MediaQuery.of(context).size.width * .1, right: MediaQuery.of(context).size.width * .02,), child: Center(child: Text(
-                                    AppLocalizations.of(context)
-                                        .translate('titleElements'),
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize:
-                                        MediaQuery
-                                            .of(context)
-                                            .size
-                                            .width *
-                                            .08),
-                                  ),),),),),),
-                               Padding(padding: EdgeInsets.only(right: MediaQuery
-        .of(context)
-        .size
-        .width * .1), child: Image(
-                                        image: AssetImage(
-                                            "lib/icons/settings_white_500.png"),
-                                        height: MediaQuery
-                                            .of(context)
-                                            .size
-                                            .width *
-                                            .07,
-                                        width: MediaQuery
-                                            .of(context)
-                                            .size
-                                            .width *
-                                            .07),
+                                  child: Tooltip(
+                                    message: AppLocalizations.of(context)
+                                        .translate('tooltipElements'),
+                                    child: Container(
+                                      color: Color.fromRGBO(0, 0, 0, 0),
+                                      height:
+                                          MediaQuery.of(context).size.height *
+                                              .1,
+                                      child: Padding(
+                                        padding: EdgeInsets.only(
+                                          left: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              .1,
+                                          right: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              .02,
+                                        ),
+                                        child: Center(
+                                          child: Text(
+                                            AppLocalizations.of(context)
+                                                .translate('titleElements'),
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    .08),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
                                   ),
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(
+                                      right: MediaQuery.of(context).size.width *
+                                          .1),
+                                  child: Image(
+                                      image: AssetImage(
+                                          "lib/icons/settings_white_500.png"),
+                                      height:
+                                          MediaQuery.of(context).size.width *
+                                              .07,
+                                      width: MediaQuery.of(context).size.width *
+                                          .07),
+                                ),
                               ],
                             ),
                           ),
                         ),
                       ),
-                          ),
                     ),
+                  ),
                 ],
               ),
             ],

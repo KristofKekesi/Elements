@@ -132,16 +132,11 @@ class _NumbersOfAtomsState extends State<NumbersOfAtoms> {
                                           .05,
                                       bottom:
                                           MediaQuery.of(context).size.height *
-                                              .035,
+                                              .0,
                                     ),
                                     decoration: new BoxDecoration(
                                       color: Color(
                                           int.parse(elementList[index]["m1"])),
-//                                  image: DecorationImage(
-//                                    image: AssetImage("lib/backgrounds/" +
-//                                        elementList[index]["bg"]),
-//                                    fit: BoxFit.cover,
-//                                  ),
                                       borderRadius: new BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
                                                   MediaQuery.of(context)

@@ -124,7 +124,8 @@ class searchResults extends StatelessWidget {
         stateAtomicnumber == true ||
         stateConstructors == true ||
         stateWeight == true ||
-        stateConstructors == true) {
+        stateConstructors == true ||
+        stateIsotopenum == true) {
       return 1;
     } else {
       return 0;
@@ -225,7 +226,8 @@ class searchResults extends StatelessWidget {
                               stateTypes == false &&
                               stateAtomicnumber == false &&
                               stateConstructors == false &&
-                              stateWeight == false,
+                              stateWeight == false &&
+                              stateIsotopenum == false,
                           child: Opacity(
                             opacity: indicatorOpacity(),
                             child: Tooltip(
