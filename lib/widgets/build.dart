@@ -37,11 +37,9 @@ class Splash extends StatelessWidget {
 }
 
 class Build extends StatelessWidget {
-  final scaffoldKey = GlobalKey<ScaffoldState>(); // <---- Another instance variable
-
   @override
   Widget build(BuildContext context) {
-    return Scaffold(key: scaffoldKey, backgroundColor: Colors.white, body: landing(), drawer: customDrawer());
+    return Scaffold(backgroundColor: Colors.white, body: landing(), drawer: customDrawer());
   }
 
 }

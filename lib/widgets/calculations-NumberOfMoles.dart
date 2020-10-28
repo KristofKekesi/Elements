@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:ui';
 
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:elements_rework/widgets/localization.dart';
+import 'package:elements_rework/widgets/build.dart';
 
 var calculateModesNumberOfMoles = AutoSizeGroup();
 var calculationModesNumberOfMoles = AutoSizeGroup();
@@ -181,6 +181,670 @@ class _calculateNumberOfMoles extends State<calculateNumberOfMoles> {
   }
 }
 
+String M = '1';
+String m = '1';
+
+String addTom(plus, equal) {
+  if (equal == true) {
+    return m = plus;
+  } else {
+    if (plus == '.') {
+      if (m.contains('.')) {
+        return m;
+      } else {
+        return m += '.';
+      }
+    }
+    if (plus == 'backspace') {
+      if (m == '0') {
+        return m;
+      } else if (m != null && m.length > 1) {
+        return m = m.substring(0, m.length - 1);
+      } else {
+        return m = '0';
+      }
+    }
+    if (m.length <= 5) {
+      if (m == '0') {
+        if (plus == '0') {
+          return m = '0';
+        } else {
+          return m = plus;
+        }
+      } else {
+        return m += plus;
+      }
+    }
+  }
+}
+
+class CalculationsPopup extends StatefulWidget {
+  const CalculationsPopup({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  _CalculationsPopupState createState() => _CalculationsPopupState();
+}
+
+class _CalculationsPopupState extends State<CalculationsPopup> {
+  @override
+  Widget build(BuildContext context) {
+    return DraggableScrollableSheet(
+      initialChildSize: .95,
+      maxChildSize: 1,
+      builder: (BuildContext context, scrollController) {
+        return ClipRRect(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular((MediaQuery.of(context).size.height +
+                    MediaQuery.of(context).size.width) /
+                2 *
+                .1),
+            topRight: Radius.circular((MediaQuery.of(context).size.height +
+                    MediaQuery.of(context).size.width) /
+                2 *
+                .1),
+          ),
+          child: Container(
+            decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(
+                  sigmaX: (MediaQuery.of(context).size.height +
+                          MediaQuery.of(context).size.width) /
+                      2 *
+                      .05,
+                  sigmaY: (MediaQuery.of(context).size.height +
+                          MediaQuery.of(context).size.width) /
+                      2 *
+                      .05),
+              child: SingleChildScrollView(
+                controller: scrollController,
+                child: Center(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Center(
+                        child: Padding(
+                          padding: EdgeInsets.only(
+                              top: MediaQuery.of(context).size.height * .04,
+                              bottom: MediaQuery.of(context).size.height * .05),
+                          child: Text(
+                            'Mass' + ':',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: MediaQuery.of(context).size.width * .09,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(
+                          left: MediaQuery.of(context).size.width * .09,
+                          bottom: MediaQuery.of(context).size.height * .01,
+                          top: MediaQuery.of(context).size.height * .03,
+                          right: MediaQuery.of(context).size.width * .15,
+                        ),
+                        child: AutoSizeText(
+                          'Custom number',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              fontSize:
+                                  MediaQuery.of(context).size.height * .04),
+                          maxLines: 1,
+                          group: popupModesNumberOfMoles,
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(
+                          left: MediaQuery.of(context).size.width * .09,
+                          bottom: MediaQuery.of(context).size.height * .01,
+                          right: MediaQuery.of(context).size.width * .15,
+                        ),
+                        child: AutoSizeText(
+                          m,
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              fontSize:
+                                  MediaQuery.of(context).size.height * .04),
+                          maxLines: 1,
+                          group: popupModesNumberOfMoles,
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(
+                            left: MediaQuery.of(context).size.width * .1,
+                            bottom: MediaQuery.of(context).size.width * .1,
+                            right: MediaQuery.of(context).size.width * .1),
+                        child: Column(children: <Widget>[
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: <Widget>[
+                              GestureDetector(
+                                onTap: () {
+                                  addTom('1', false);
+                                  setState(() {});
+                                },
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(
+                                        colors: [
+                                          Color(0xfff22447),
+                                          Color(0xffb80733),
+                                        ],
+                                        begin: Alignment.topLeft,
+                                        end: Alignment.bottomRight),
+                                    borderRadius: BorderRadius.circular(
+                                        (MediaQuery.of(context).size.height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                            2 *
+                                            .02),
+                                  ),
+                                  width:
+                                      MediaQuery.of(context).size.width * .23,
+                                  height:
+                                      MediaQuery.of(context).size.width * .23,
+                                  child: Center(
+                                    child: Text(
+                                      '1',
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                          fontSize: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              .1),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              GestureDetector(
+                                onTap: () {
+                                  addTom('2', false);
+                                  setState(() {});
+                                },
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(
+                                        colors: [
+                                          Color(0xfff22447),
+                                          Color(0xffb80733),
+                                        ],
+                                        begin: Alignment.topLeft,
+                                        end: Alignment.bottomRight),
+                                    borderRadius: BorderRadius.circular(
+                                        (MediaQuery.of(context).size.height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                            2 *
+                                            .02),
+                                  ),
+                                  width:
+                                      MediaQuery.of(context).size.width * .23,
+                                  height:
+                                      MediaQuery.of(context).size.width * .23,
+                                  child: Center(
+                                    child: Text(
+                                      '2',
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                          fontSize: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              .1),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              GestureDetector(
+                                onTap: () {
+                                  addTom('3', false);
+                                  setState(() {});
+                                },
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(
+                                        colors: [
+                                          Color(0xfff22447),
+                                          Color(0xffb80733),
+                                        ],
+                                        begin: Alignment.topLeft,
+                                        end: Alignment.bottomRight),
+                                    borderRadius: BorderRadius.circular(
+                                        (MediaQuery.of(context).size.height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                            2 *
+                                            .02),
+                                  ),
+                                  width:
+                                      MediaQuery.of(context).size.width * .23,
+                                  height:
+                                      MediaQuery.of(context).size.width * .23,
+                                  child: Center(
+                                    child: Text(
+                                      '3',
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                          fontSize: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              .1),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(
+                                top: MediaQuery.of(context).size.width * .05),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: <Widget>[
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('4', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '4',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('5', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '5',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('6', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '6',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(
+                                top: MediaQuery.of(context).size.width * .05),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: <Widget>[
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('7', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '7',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('8', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '8',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('9', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '9',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(
+                                top: MediaQuery.of(context).size.width * .05),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: <Widget>[
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('.', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '.',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('0', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '0',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                GestureDetector(
+                                  onTap: () {
+                                    addTom('backspace', false);
+                                    setState(() {});
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xfff22447),
+                                            Color(0xffb80733),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    width:
+                                        MediaQuery.of(context).size.width * .23,
+                                    height:
+                                        MediaQuery.of(context).size.width * .23,
+                                    child: Center(
+                                      child: Text(
+                                        '<-',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ]),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        );
+      },
+    );
+  }
+}
+
 // ignore: camel_case_types
 class calculationsNumberOfMoles extends StatefulWidget {
   @override
@@ -189,16 +853,6 @@ class calculationsNumberOfMoles extends StatefulWidget {
 
 // ignore: camel_case_types
 class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
-  bool select = true;
-  bool custom = false;
-
-  String M = '1';
-  String m = '1';
-
-  PersistentBottomSheetController _controller; // <------ Instance variable
-  final _scaffoldKey =
-      GlobalKey<ScaffoldState>(); // <---- Another instance variable
-
   String addToM(plus, equal) {
     if (equal == true) {
       setState(() {
@@ -231,44 +885,6 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
             }
           } else {
             return M += plus;
-          }
-        }
-      });
-    }
-  }
-
-  String addTom(plus, equal) {
-    if (equal == true) {
-      setState(() {
-        return m = plus;
-      });
-    } else {
-      setState(() {
-        if (plus == '.') {
-          if (m.contains('.')) {
-            return m;
-          } else {
-            return m += '.';
-          }
-        }
-        if (plus == 'backspace') {
-          if (m == '0') {
-            return m;
-          } else if (m != null && m.length > 1) {
-            return m = m.substring(0, m.length - 1);
-          } else {
-            return m = '0';
-          }
-        }
-        if (m.length <= 5) {
-          if (m == '0') {
-            if (plus == '0') {
-              return m = '0';
-            } else {
-              return m = plus;
-            }
-          } else {
-            return m += plus;
           }
         }
       });
@@ -308,9 +924,16 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
     return double.parse(number);
   }
 
+  final scaffoldKey =
+      GlobalKey<ScaffoldState>(); // <---- Another instance variable
+  void openCalculationsPopup() {
+    scaffoldKey.currentState.showBottomSheet((context) { return CalculationsPopup();});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: scaffoldKey,
       body: Builder(
         builder: (context) {
           return SafeArea(
@@ -1132,505 +1755,7 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
                                     ),
                                     GestureDetector(
                                       onTap: () {
-                                        showModalBottomSheet(
-                                            isScrollControlled: true,
-                                            context: context,
-                                            builder: (context) {
-                                              return DraggableScrollableSheet(
-                                                initialChildSize: .95,
-                                                maxChildSize: 1,
-                                                builder: (BuildContext context,
-                                                    scrollController) {
-                                                  return ClipRRect(
-                                                    borderRadius:
-                                                        BorderRadius.only(
-                                                      topLeft: Radius.circular(
-                                                          (MediaQuery.of(context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
-                                                              2 *
-                                                              .1),
-                                                      topRight: Radius.circular(
-                                                          (MediaQuery.of(context)
-                                                                      .size
-                                                                      .height +
-                                                                  MediaQuery.of(
-                                                                          context)
-                                                                      .size
-                                                                      .width) /
-                                                              2 *
-                                                              .1),
-                                                    ),
-                                                    child: Container(
-                                                      decoration: BoxDecoration(
-                                                          color: Color.fromRGBO(
-                                                              0, 0, 0, .3)),
-                                                      child: BackdropFilter(
-                                                        filter: ImageFilter.blur(
-                                                            sigmaX: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
-                                                                2 *
-                                                                .05,
-                                                            sigmaY: (MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .height +
-                                                                    MediaQuery.of(
-                                                                            context)
-                                                                        .size
-                                                                        .width) /
-                                                                2 *
-                                                                .05),
-                                                        child:
-                                                            SingleChildScrollView(
-                                                          controller:
-                                                              scrollController,
-                                                          child: Center(
-                                                            child: Column(
-                                                              crossAxisAlignment:
-                                                                  CrossAxisAlignment
-                                                                      .start,
-                                                              children: <
-                                                                  Widget>[
-                                                                Center(
-                                                                  child:
-                                                                      Padding(
-                                                                    padding: EdgeInsets.only(
-                                                                        top: MediaQuery.of(context).size.height *
-                                                                            .04,
-                                                                        bottom: MediaQuery.of(context).size.height *
-                                                                            .05),
-                                                                    child: Text(
-                                                                      'Mass' +
-                                                                          ':',
-                                                                      style:
-                                                                          TextStyle(
-                                                                        color: Colors
-                                                                            .white,
-                                                                        fontWeight:
-                                                                            FontWeight.bold,
-                                                                        fontSize:
-                                                                            MediaQuery.of(context).size.width *
-                                                                                .09,
-                                                                      ),
-                                                                    ),
-                                                                  ),
-                                                                ),
-                                                                Padding(
-                                                                  padding:
-                                                                      EdgeInsets
-                                                                          .only(
-                                                                    left: MediaQuery.of(context)
-                                                                            .size
-                                                                            .width *
-                                                                        .09,
-                                                                    bottom: MediaQuery.of(context)
-                                                                            .size
-                                                                            .height *
-                                                                        .01,
-                                                                    top: MediaQuery.of(context)
-                                                                            .size
-                                                                            .height *
-                                                                        .03,
-                                                                    right: MediaQuery.of(context)
-                                                                            .size
-                                                                            .width *
-                                                                        .15,
-                                                                  ),
-                                                                  child:
-                                                                      AutoSizeText(
-                                                                    'Custom number',
-                                                                    style: TextStyle(
-                                                                        fontWeight:
-                                                                            FontWeight
-                                                                                .bold,
-                                                                        color: Colors
-                                                                            .white,
-                                                                        fontSize:
-                                                                            MediaQuery.of(context).size.height *
-                                                                                .04),
-                                                                    maxLines: 1,
-                                                                    group:
-                                                                        popupModesNumberOfMoles,
-                                                                  ),
-                                                                ),
-                                                                Padding(
-                                                                  padding:
-                                                                      EdgeInsets
-                                                                          .only(
-                                                                    left: MediaQuery.of(context)
-                                                                            .size
-                                                                            .width *
-                                                                        .09,
-                                                                    bottom: MediaQuery.of(context)
-                                                                            .size
-                                                                            .height *
-                                                                        .01,
-                                                                    right: MediaQuery.of(context)
-                                                                            .size
-                                                                            .width *
-                                                                        .15,
-                                                                  ),
-                                                                  child:
-                                                                      AutoSizeText(
-                                                                    m,
-                                                                    style: TextStyle(
-                                                                        fontWeight:
-                                                                            FontWeight
-                                                                                .bold,
-                                                                        color: Colors
-                                                                            .white,
-                                                                        fontSize:
-                                                                            MediaQuery.of(context).size.height *
-                                                                                .04),
-                                                                    maxLines: 1,
-                                                                    group:
-                                                                        popupModesNumberOfMoles,
-                                                                  ),
-                                                                ),
-                                                                Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      left: MediaQuery.of(context)
-                                                                              .size
-                                                                              .width *
-                                                                          .1,
-                                                                      bottom: MediaQuery.of(context)
-                                                                              .size
-                                                                              .width *
-                                                                          .1,
-                                                                      right: MediaQuery.of(context)
-                                                                              .size
-                                                                              .width *
-                                                                          .1),
-                                                                  child: Column(
-                                                                      children: <
-                                                                          Widget>[
-                                                                        Row(
-                                                                          mainAxisAlignment:
-                                                                              MainAxisAlignment.spaceBetween,
-                                                                          children: <
-                                                                              Widget>[
-                                                                            GestureDetector(
-                                                                              onTap: () {
-                                                                                addTom('1', false);
-                                                                              },
-                                                                              child: Container(
-                                                                                decoration: BoxDecoration(
-                                                                                  gradient: LinearGradient(colors: [
-                                                                                    Color(0xfff22447),
-                                                                                    Color(0xffb80733),
-                                                                                  ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                  borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                ),
-                                                                                width: MediaQuery.of(context).size.width * .23,
-                                                                                height: MediaQuery.of(context).size.width * .23,
-                                                                                child: Center(
-                                                                                  child: Text(
-                                                                                    '1',
-                                                                                    style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                            ),
-                                                                            GestureDetector(
-                                                                              onTap: () {
-                                                                                addTom('2', false);
-                                                                              },
-                                                                              child: Container(
-                                                                                decoration: BoxDecoration(
-                                                                                  gradient: LinearGradient(colors: [
-                                                                                    Color(0xfff22447),
-                                                                                    Color(0xffb80733),
-                                                                                  ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                  borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                ),
-                                                                                width: MediaQuery.of(context).size.width * .23,
-                                                                                height: MediaQuery.of(context).size.width * .23,
-                                                                                child: Center(
-                                                                                  child: Text(
-                                                                                    '2',
-                                                                                    style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                            ),
-                                                                            GestureDetector(
-                                                                              onTap: () {
-                                                                                addTom('3', false);
-                                                                              },
-                                                                              child: Container(
-                                                                                decoration: BoxDecoration(
-                                                                                  gradient: LinearGradient(colors: [
-                                                                                    Color(0xfff22447),
-                                                                                    Color(0xffb80733),
-                                                                                  ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                  borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                ),
-                                                                                width: MediaQuery.of(context).size.width * .23,
-                                                                                height: MediaQuery.of(context).size.width * .23,
-                                                                                child: Center(
-                                                                                  child: Text(
-                                                                                    '3',
-                                                                                    style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                            ),
-                                                                          ],
-                                                                        ),
-                                                                        Padding(
-                                                                          padding:
-                                                                              EdgeInsets.only(top: MediaQuery.of(context).size.width * .05),
-                                                                          child:
-                                                                              Row(
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.spaceBetween,
-                                                                            children: <Widget>[
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('4', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '4',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('5', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '5',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('6', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '6',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                        ),
-                                                                        Padding(
-                                                                          padding:
-                                                                              EdgeInsets.only(top: MediaQuery.of(context).size.width * .05),
-                                                                          child:
-                                                                              Row(
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.spaceBetween,
-                                                                            children: <Widget>[
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('7', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '7',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('8', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '8',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('9', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '9',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                        ),
-                                                                        Padding(
-                                                                          padding:
-                                                                              EdgeInsets.only(top: MediaQuery.of(context).size.width * .05),
-                                                                          child:
-                                                                              Row(
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.spaceBetween,
-                                                                            children: <Widget>[
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('.', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '.',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('0', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '0',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                              GestureDetector(
-                                                                                onTap: () {
-                                                                                  addTom('backspace', false);
-                                                                                },
-                                                                                child: Container(
-                                                                                  decoration: BoxDecoration(
-                                                                                    gradient: LinearGradient(colors: [
-                                                                                      Color(0xfff22447),
-                                                                                      Color(0xffb80733),
-                                                                                    ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                                                                                    borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
-                                                                                  ),
-                                                                                  width: MediaQuery.of(context).size.width * .23,
-                                                                                  height: MediaQuery.of(context).size.width * .23,
-                                                                                  child: Center(
-                                                                                    child: Text(
-                                                                                      '<-',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
-                                                                                    ),
-                                                                                  ),
-                                                                                ),
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                        ),
-                                                                      ]),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ),
-                                                  );
-                                                },
-                                              );
-                                            });
+                                        openCalculationsPopup();
                                       },
                                       child: Tooltip(
                                         message: 'Mass (m)',
