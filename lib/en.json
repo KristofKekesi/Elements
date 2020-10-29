@@ -156,5 +156,19 @@
   "electronnumber": "Numbers of electrons",
   "neutronnumber": "Numbers of neutrons",
   "cardView": "Card view",
-  "minimalView": "Minimal view"
+  "minimalView": "Minimal view",
+
+  "_comment_": "CALCULATIONS",
+  "one": "One",
+  "two": "Two",
+  "three": "Three",
+  "four": "Four",
+  "five": "Five",
+  "six": "Six",
+  "seven": "Seven",
+  "eight": "Eight",
+  "nine": "Nine",
+  "dot": "Dot",
+  "zero": "Zero",
+  "backspace": "Backspace"
 }

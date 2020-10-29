@@ -5,7 +5,6 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 import 'package:elements_rework/widgets/localization.dart';
-import 'package:elements_rework/widgets/build.dart';
 
 var calculateModesNumberOfMoles = AutoSizeGroup();
 var calculationModesNumberOfMoles = AutoSizeGroup();
@@ -237,11 +236,11 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
         return ClipRRect(
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular((MediaQuery.of(context).size.height +
-                    MediaQuery.of(context).size.width) /
+                MediaQuery.of(context).size.width) /
                 2 *
                 .1),
             topRight: Radius.circular((MediaQuery.of(context).size.height +
-                    MediaQuery.of(context).size.width) /
+                MediaQuery.of(context).size.width) /
                 2 *
                 .1),
           ),
@@ -250,11 +249,11 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
             child: BackdropFilter(
               filter: ImageFilter.blur(
                   sigmaX: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
+                      MediaQuery.of(context).size.width) /
                       2 *
                       .05,
                   sigmaY: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
+                      MediaQuery.of(context).size.width) /
                       2 *
                       .05),
               child: SingleChildScrollView(
@@ -285,15 +284,13 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                           top: MediaQuery.of(context).size.height * .03,
                           right: MediaQuery.of(context).size.width * .15,
                         ),
-                        child: AutoSizeText(
+                        child: Text(
                           'Custom number',
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.white,
                               fontSize:
-                                  MediaQuery.of(context).size.height * .04),
-                          maxLines: 1,
-                          group: popupModesNumberOfMoles,
+                              MediaQuery.of(context).size.height * .04),
                         ),
                       ),
                       Padding(
@@ -302,15 +299,13 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                           bottom: MediaQuery.of(context).size.height * .01,
                           right: MediaQuery.of(context).size.width * .15,
                         ),
-                        child: AutoSizeText(
+                        child: Text(
                           m,
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.white,
                               fontSize:
-                                  MediaQuery.of(context).size.height * .04),
-                          maxLines: 1,
-                          group: popupModesNumberOfMoles,
+                              MediaQuery.of(context).size.height * .04),
                         ),
                       ),
                       Padding(
@@ -338,16 +333,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                         end: Alignment.bottomRight),
                                     borderRadius: BorderRadius.circular(
                                         (MediaQuery.of(context).size.height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                            MediaQuery.of(context)
+                                                .size
+                                                .width) /
                                             2 *
                                             .02),
                                   ),
                                   width:
-                                      MediaQuery.of(context).size.width * .23,
+                                  MediaQuery.of(context).size.width * .23,
                                   height:
-                                      MediaQuery.of(context).size.width * .23,
+                                  MediaQuery.of(context).size.width * .23,
                                   child: Center(
                                     child: Text(
                                       '1',
@@ -355,8 +350,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white,
                                           fontSize: MediaQuery.of(context)
-                                                  .size
-                                                  .width *
+                                              .size
+                                              .width *
                                               .1),
                                     ),
                                   ),
@@ -378,16 +373,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                         end: Alignment.bottomRight),
                                     borderRadius: BorderRadius.circular(
                                         (MediaQuery.of(context).size.height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                            MediaQuery.of(context)
+                                                .size
+                                                .width) /
                                             2 *
                                             .02),
                                   ),
                                   width:
-                                      MediaQuery.of(context).size.width * .23,
+                                  MediaQuery.of(context).size.width * .23,
                                   height:
-                                      MediaQuery.of(context).size.width * .23,
+                                  MediaQuery.of(context).size.width * .23,
                                   child: Center(
                                     child: Text(
                                       '2',
@@ -395,8 +390,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white,
                                           fontSize: MediaQuery.of(context)
-                                                  .size
-                                                  .width *
+                                              .size
+                                              .width *
                                               .1),
                                     ),
                                   ),
@@ -418,16 +413,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                         end: Alignment.bottomRight),
                                     borderRadius: BorderRadius.circular(
                                         (MediaQuery.of(context).size.height +
-                                                MediaQuery.of(context)
-                                                    .size
-                                                    .width) /
+                                            MediaQuery.of(context)
+                                                .size
+                                                .width) /
                                             2 *
                                             .02),
                                   ),
                                   width:
-                                      MediaQuery.of(context).size.width * .23,
+                                  MediaQuery.of(context).size.width * .23,
                                   height:
-                                      MediaQuery.of(context).size.width * .23,
+                                  MediaQuery.of(context).size.width * .23,
                                   child: Center(
                                     child: Text(
                                       '3',
@@ -435,8 +430,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white,
                                           fontSize: MediaQuery.of(context)
-                                                  .size
-                                                  .width *
+                                              .size
+                                              .width *
                                               .1),
                                     ),
                                   ),
@@ -466,16 +461,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '4',
@@ -483,8 +478,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -506,16 +501,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '5',
@@ -523,8 +518,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -546,16 +541,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '6',
@@ -563,8 +558,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -595,16 +590,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '7',
@@ -612,8 +607,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -635,16 +630,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '8',
@@ -652,8 +647,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -675,16 +670,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '9',
@@ -692,8 +687,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -724,16 +719,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '.',
@@ -741,8 +736,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -764,16 +759,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '0',
@@ -781,8 +776,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
+                                                .size
+                                                .width *
                                                 .1),
                                       ),
                                     ),
@@ -804,26 +799,20 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                                  MediaQuery.of(context)
-                                                      .size
-                                                      .width) /
+                                              MediaQuery.of(context)
+                                                  .size
+                                                  .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     height:
-                                        MediaQuery.of(context).size.width * .23,
+                                    MediaQuery.of(context).size.width * .23,
                                     child: Center(
-                                      child: Text(
-                                        '<-',
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.white,
-                                            fontSize: MediaQuery.of(context)
-                                                    .size
-                                                    .width *
-                                                .1),
+                                      child: Image(
+                                        height: MediaQuery.of(context).size.width * .13,
+                                        image: AssetImage('lib/icons/left_white_500.png'),
                                       ),
                                     ),
                                   ),
@@ -1694,9 +1683,9 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
                                                                                   width: MediaQuery.of(context).size.width * .23,
                                                                                   height: MediaQuery.of(context).size.width * .23,
                                                                                   child: Center(
-                                                                                    child: Text(
-                                                                                      '<-',
-                                                                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: MediaQuery.of(context).size.width * .1),
+                                                                                    child: Image(
+                                                                                      height: MediaQuery.of(context).size.width * .13,
+                                                                                      image: AssetImage('lib/icons/left_white_500.png'),
                                                                                     ),
                                                                                   ),
                                                                                 ),
