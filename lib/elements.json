@@ -3211,12 +3211,13 @@
 	"bg": "119_lv.jpg",
 	"m1": "0xff376994",
 
-	"hu": "Oganeszon",
-	"en": "Oganesson",
+	"hu": "Ununennium",
+	"en": "Ununennium",
 
 	"chargedComponent": "unknown",
 	"neutron": "unknown",
 
-	"isotopeNum": false
+	"isotopeNum": "1",
+	"isotopes-src": "isotopes/Uue.json"
   }
 ]
