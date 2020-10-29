@@ -3168,8 +3168,8 @@
   }, {
 	"element": "Og",
 	"number": 118,
-	"weight": "(294)",
-	"type": "unknown",
+	"weight": "unknown",
+	"type": "nobleGas",
 	"block": "p",
 	"consistency": "unknown",
 	"discovery": "2006",
@@ -3192,5 +3192,31 @@
 
 	"isotopeNum": "1",
 	"isotopes-src": "isotopes/Og.json"
+  }, {
+	"element": "Uue",
+	"number": 119,
+	"weight": "unknown",
+	"type": "unknown",
+	"block": "unknown",
+	"consistency": "unknown",
+	"discovery": "hypothetical",
+	"electronnegativity": "unknown",
+
+	"radioactivity": "radioactive",
+	"gamma": false,
+	"beta": false,
+	"alpha": false,
+	"multipleRadiationEmitters": false,
+
+	"bg": "119_lv.jpg",
+	"m1": "0xff376994",
+
+	"hu": "Oganeszon",
+	"en": "Oganesson",
+
+	"chargedComponent": "unknown",
+	"neutron": "unknown",
+
+	"isotopeNum": false
   }
 ]
