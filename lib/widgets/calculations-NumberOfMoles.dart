@@ -183,6 +183,7 @@ class _calculateNumberOfMoles extends State<calculateNumberOfMoles> {
 String M = '1';
 String m = '1';
 
+// ignore: missing_return
 String addTom(plus, equal) {
   if (equal == true) {
     return m = plus;
@@ -319,7 +320,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                             children: <Widget>[
                               GestureDetector(
                                 onTap: () {
-                                  addTom('1', false);
+                                  m += '1';
                                   setState(() {});
                                 },
                                 child: Container(
@@ -359,7 +360,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  addTom('2', false);
+                                  m += '2';
                                   setState(() {});
                                 },
                                 child: Container(
@@ -399,7 +400,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  addTom('3', false);
+                                  m += '3';
                                   setState(() {});
                                 },
                                 child: Container(
@@ -447,7 +448,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('4', false);
+                                    m += '4';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -487,7 +488,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('5', false);
+                                    m = '5';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -527,7 +528,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('6', false);
+                                    m += '6';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -576,7 +577,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('7', false);
+                                    m += '7';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -616,7 +617,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('8', false);
+                                    m += '8';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -656,7 +657,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('9', false);
+                                    m += '9';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -705,7 +706,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('.', false);
+                                    m += '.';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -745,7 +746,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('0', false);
+                                    m += '0';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -785,7 +786,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    addTom('backspace', false);
+                                    m += 'backspace';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -811,8 +812,11 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                     MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Image(
-                                        height: MediaQuery.of(context).size.width * .13,
-                                        image: AssetImage('lib/icons/left_white_500.png'),
+                                        height:
+                                        MediaQuery.of(context).size.width *
+                                            .13,
+                                        image: AssetImage(
+                                            'lib/icons/left_white_500.png'),
                                       ),
                                     ),
                                   ),
@@ -834,6 +838,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
   }
 }
 
+
 // ignore: camel_case_types
 class calculationsNumberOfMoles extends StatefulWidget {
   @override
@@ -842,6 +847,7 @@ class calculationsNumberOfMoles extends StatefulWidget {
 
 // ignore: camel_case_types
 class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
+  // ignore: missing_return
   String addToM(plus, equal) {
     if (equal == true) {
       setState(() {
@@ -916,7 +922,7 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
   final scaffoldKey =
       GlobalKey<ScaffoldState>(); // <---- Another instance variable
   void openCalculationsPopup() {
-    scaffoldKey.currentState.showBottomSheet((context) { return CalculationsPopup();});
+    scaffoldKey.currentState.showBottomSheet((context) => CalculationsPopup());
   }
 
   @override
