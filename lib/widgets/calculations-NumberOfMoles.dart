@@ -31,6 +31,7 @@ class _calculateNumberOfMoles extends State<calculateNumberOfMoles> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Builder(
         builder: (context) {
           return SafeArea(
@@ -258,6 +259,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                       2 *
                       .05),
               child: SingleChildScrollView(
+
                 controller: scrollController,
                 child: Center(
                   child: Column(
@@ -488,7 +490,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    m = '5';
+                                    m += '5';
                                     setState(() {});
                                   },
                                   child: Container(
@@ -706,8 +708,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
-                                    m += '.';
-                                    setState(() {});
+
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -746,8 +747,6 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    m += '0';
-                                    setState(() {});
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -786,8 +785,6 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    m += 'backspace';
-                                    setState(() {});
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -812,11 +809,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                     MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Image(
-                                        height:
-                                        MediaQuery.of(context).size.width *
-                                            .13,
-                                        image: AssetImage(
-                                            'lib/icons/left_white_500.png'),
+                                        height: MediaQuery.of(context).size.width * .13,
+                                        image: AssetImage('lib/icons/left_white_500.png'),
                                       ),
                                     ),
                                   ),
@@ -837,7 +831,6 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
     );
   }
 }
-
 
 // ignore: camel_case_types
 class calculationsNumberOfMoles extends StatefulWidget {
@@ -928,6 +921,7 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       key: scaffoldKey,
       body: Builder(
         builder: (context) {

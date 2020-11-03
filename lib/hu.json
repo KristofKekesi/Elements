@@ -107,6 +107,10 @@
   "weightMinSelector": "Tömeg",
   "isotopenumSelector": "Izotópok száma",
   "isotopenumMinSelector": "Izotópok",
+  "proofSelector": "Bizonyíték",
+  "proofMinSelector": "Bizonyíték",
+  "proofed": "Bizonyított",
+  "proofHypothetical": "Nem bizonyított",
   "resetSelector": "Szűrők visszaállítása",
   "resetWarnSelector": "A művelet visszaállítja a szűrőket.",
   "resetWarnLabelSelector": "Visszaállítás",
@@ -196,5 +200,5 @@
 
   "_comment_": "BUTTONS",
   "cards": "Kártyák",
-  "minimal": "Minimál",
+  "minimal": "Minimál"
 }

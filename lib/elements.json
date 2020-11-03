@@ -2731,8 +2731,8 @@
     "m1": "0xff376994",
     "hu": "Ununennium",
     "en": "Ununennium",
-    "chargedComponent": "unknown",
-    "neutron": "unknown",
+    "chargedComponent": "-",
+    "neutron": "-",
     "isotopeNum": "0"
   },
   {
@@ -2753,8 +2753,8 @@
     "m1": "0xff376994",
     "hu": "Unbinulium",
     "en": "Unbinilium",
-    "chargedComponent": "unknown",
-    "neutron": "unknown",
+    "chargedComponent": "-",
+    "neutron": "-",
     "isotopeNum": "0"
   },
   {
@@ -2775,8 +2775,8 @@
     "m1": "0xff376994",
     "hu": "Unbiunium",
     "en": "Unbiunium",
-    "chargedComponent": "unknown",
-    "neutron": "unknown",
+    "chargedComponent": "-",
+    "neutron": "-",
     "isotopeNum": "0"
   },
   {
@@ -2797,8 +2797,8 @@
     "m1": "0xff376994",
     "hu": "Unbibium",
     "en": "Unbibium",
-    "chargedComponent": "unknown",
-    "neutron": "unknown",
+    "chargedComponent": "-",
+    "neutron": "-",
     "isotopeNum": "0"
   }, {
 	"element": "Ubq",
@@ -2822,8 +2822,8 @@
 	"hu": "Unbiquadium",
 	"en": "Unbiquadium",
 
-	"chargedComponent": "unknown",
-	"neutron": "unknown",
+	"chargedComponent": "-",
+	"neutron": "-",
 
 	"isotopeNum": "0"
 }, {
@@ -2848,8 +2848,8 @@
 	"hu": "Unbipentium",
 	"en": "Unbipentium",
 
-	"chargedComponent": "unknown",
-	"neutron": "unknown",
+	"chargedComponent": "-",
+	"neutron": "-",
 
 	"isotopeNum": "0"
 }

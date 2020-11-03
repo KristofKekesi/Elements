@@ -31,6 +31,7 @@ class _calculationsState extends State<calculations> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Builder(
         builder: (context) => SafeArea(
           child: Column(

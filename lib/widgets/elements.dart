@@ -3240,6 +3240,260 @@ class _elementsState extends State<elements> {
                             ),
                           ),
                         ),
+                        GestureDetector(
+                          onTap: () {
+                            showModalBottomSheet(
+                              isScrollControlled: true,
+                              context: context,
+                              builder: (context) {
+                                return DraggableScrollableSheet(
+                                  initialChildSize: .95,
+                                  maxChildSize: 1,
+                                  builder:
+                                      (BuildContext context, scrollController) {
+                                    return ClipRRect(
+                                      borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(
+                                              (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .1),
+                                          topRight: Radius.circular(
+                                              (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .1)),
+                                      child: Container(
+                                        decoration: BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                              sigmaX: (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05,
+                                              sigmaY: (MediaQuery
+                                                  .of(context)
+                                                  .size
+                                                  .height +
+                                                  MediaQuery
+                                                      .of(context)
+                                                      .size
+                                                      .width) /
+                                                  2 *
+                                                  .05),
+                                          child: SingleChildScrollView(
+                                            controller: scrollController,
+                                            child: Center(
+                                              child: Column(
+                                                mainAxisAlignment:
+                                                MainAxisAlignment
+                                                    .spaceBetween,
+                                                children: <Widget>[
+                                                  Padding(
+                                                    padding: EdgeInsets.only(
+                                                        top:
+                                                        MediaQuery
+                                                            .of(context)
+                                                            .size
+                                                            .height *
+                                                            .04,
+                                                        bottom:
+                                                        MediaQuery
+                                                            .of(context)
+                                                            .size
+                                                            .height *
+                                                            .05),
+                                                    child: Text(
+                                                      AppLocalizations.of(context)
+                                                          .translate(
+                                                          'proofSelector') +
+                                                          ':',
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                        fontSize:
+                                                        MediaQuery
+                                                            .of(context)
+                                                            .size
+                                                            .width *
+                                                            .08,
+                                                        fontWeight:
+                                                        FontWeight.bold,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  StatefulBuilder(
+                                                    builder: (BuildContext
+                                                    context,
+                                                        StateSetter setState) {
+                                                      return CheckboxListTile(
+                                                        title: Text(
+                                                          Capitalizate(
+                                                            AppLocalizations.of(
+                                                                context)
+                                                                .translate(
+                                                                'proofed'),
+                                                          ),
+                                                          style: TextStyle(
+                                                              fontWeight:
+                                                              FontWeight.bold,
+                                                              color: Colors.white,
+                                                              fontSize: MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .height *
+                                                                  .04),
+                                                        ),
+                                                        controlAffinity:
+                                                        ListTileControlAffinity
+                                                            .platform,
+                                                        activeColor:
+                                                        Color.fromRGBO(
+                                                            255, 255, 255, 0),
+                                                        value: typesNoblegases,
+                                                        onChanged: (bool value) {
+                                                          setState(
+                                                                () {
+                                                              typesNoblegases =
+                                                                  value;
+                                                            },
+                                                          );
+
+                                                          setTypes();
+                                                          checkResetVisibility();
+                                                        },
+                                                      );
+                                                    },
+                                                  ),
+                                                  StatefulBuilder(
+                                                    builder: (BuildContext
+                                                    context,
+                                                        StateSetter setState) {
+                                                      return CheckboxListTile(
+                                                        title: Text(
+                                                          Capitalizate(
+                                                            AppLocalizations.of(
+                                                                context)
+                                                                .translate(
+                                                                'hypothetical'),
+                                                          ),
+                                                          style: TextStyle(
+                                                              fontWeight:
+                                                              FontWeight.bold,
+                                                              color: Colors.white,
+                                                              fontSize: MediaQuery
+                                                                  .of(
+                                                                  context)
+                                                                  .size
+                                                                  .height *
+                                                                  .04),
+                                                        ),
+                                                        controlAffinity:
+                                                        ListTileControlAffinity
+                                                            .platform,
+                                                        activeColor:
+                                                        Color.fromRGBO(
+                                                            255, 255, 255, 0),
+                                                        value: typesAlkalimetals,
+                                                        onChanged: (bool value) {
+                                                          setState(
+                                                                () {
+                                                              typesAlkalimetals =
+                                                                  value;
+                                                            },
+                                                          );
+
+                                                          setTypes();
+                                                          checkResetVisibility();
+                                                        },
+                                                      );
+                                                    },
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            );
+                          },
+                          child: Container(
+                            width: MediaQuery
+                                .of(context)
+                                .size
+                                .width,
+                            child: Tooltip(
+                              message: AppLocalizations.of(context)
+                                  .translate('proofSelector'),
+                              child: Row(
+                                mainAxisAlignment:
+                                MainAxisAlignment.spaceBetween,
+                                children: <Widget>[
+                                  Text(
+                                    AppLocalizations.of(context)
+                                        .translate('proofMinSelector'),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize:
+                                      MediaQuery
+                                          .of(context)
+                                          .size
+                                          .width *
+                                          .09,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: StatefulBuilder(
+                                      builder: (BuildContext context,
+                                          StateSetter setState) {
+                                        return Opacity(
+                                          opacity: enabledTypes ? 1 : 0,
+                                          child: Checkbox(
+                                            activeColor:
+                                            Color.fromRGBO(255, 255, 255, 0),
+                                            value: stateTypes,
+                                            onChanged: enabledTypes
+                                                ? (bool value) {
+                                              setState(
+                                                    () {
+                                                  stateTypes = value;
+                                                },
+                                              );
+                                            }
+                                                : null,
+                                          ),
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
