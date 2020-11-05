@@ -70,6 +70,11 @@ class searchResults extends StatelessWidget {
   final double isotopenumMax;
 
   @required
+  final bool proof;
+  @required
+  final bool hypothetical;
+
+  @required
   final bool stateElectronnegativity;
   @required
   final bool stateTypes;
@@ -81,6 +86,8 @@ class searchResults extends StatelessWidget {
   final bool stateWeight;
   @required
   final bool stateIsotopenum;
+  @required
+  final bool stateProof;
 
   const searchResults(
       {Key key,
@@ -115,7 +122,7 @@ class searchResults extends StatelessWidget {
       this.stateWeight,
       this.isotopenumMin,
       this.isotopenumMax,
-      this.stateIsotopenum})
+      this.stateIsotopenum, this.proof, this.hypothetical, this.stateProof})
       : super(key: key);
 
   double indicatorOpacity() {
@@ -125,7 +132,9 @@ class searchResults extends StatelessWidget {
         stateConstructors == true ||
         stateWeight == true ||
         stateConstructors == true ||
-        stateIsotopenum == true) {
+        stateIsotopenum == true ||
+        stateProof == true &&
+            (proof == false || hypothetical == true)) {
       return 1;
     } else {
       return 0;
@@ -151,6 +160,9 @@ class searchResults extends StatelessWidget {
       num += 1;
     }
     if (stateIsotopenum == true) {
+      num += 1;
+    }
+    if (stateProof == true) {
       num += 1;
     }
 
@@ -227,7 +239,9 @@ class searchResults extends StatelessWidget {
                               stateAtomicnumber == false &&
                               stateConstructors == false &&
                               stateWeight == false &&
-                              stateIsotopenum == false,
+                              stateIsotopenum == false &&
+                              stateProof == false ||
+                              proof == true && hypothetical == false,
                           child: Opacity(
                             opacity: indicatorOpacity(),
                             child: Tooltip(
@@ -275,12 +289,16 @@ class searchResults extends StatelessWidget {
                   weightMax: weightMax,
                   isotopenumMin: isotopenumMin,
                   isotopenumMax: isotopenumMax,
+                  proof: proof,
+                  hypothetical: hypothetical,
+
                   stateElectronnegativity: stateElectronnegativity,
                   stateTypes: stateTypes,
                   stateAtomicnumber: stateAtomicnumber,
                   stateConstructors: stateConstructors,
                   stateWeight: stateWeight,
                   stateIsotopenum: stateIsotopenum,
+                  stateProof: stateProof,
                 ),
               ),
             ],

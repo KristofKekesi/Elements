@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/drawer.dart';
 
@@ -105,7 +104,7 @@ bool enabledWeight = false;
 double weightMin = 1;
 double weightMax = 294;
 
-// weight
+// isotopenum
 double defIsotopenumMin = 1;
 double defIsotopenumMax = 40;
 
@@ -115,6 +114,16 @@ bool enabledIsotopenum = false;
 double isotopenumMin = 1;
 double isotopenumMax = 40;
 
+// proof
+bool defProof = true;
+bool defHypothetical = false;
+
+bool stateProof = false;
+bool enabledProof = false;
+
+bool proof = true;
+bool hypothetical = false;
+
 void checkResetVisibility() {
   if (enabledElectronnegativity == true ||
       enabledTypes == true ||
@@ -122,7 +131,8 @@ void checkResetVisibility() {
       enabledConstructors == true ||
       enabledConstructors == true ||
       enabledWeight == true ||
-      enabledIsotopenum == true) {
+      enabledIsotopenum == true ||
+      enabledProof == true) {
     resetVisibility = true;
   } else {
     resetVisibility = false;
@@ -233,6 +243,24 @@ class _elementsState extends State<elements> {
       } else {
         stateIsotopenum = true;
         enabledIsotopenum = true;
+      }
+    });
+  }
+
+  void setProof() {
+    setState(() {
+      if (proof ==
+          true &&
+          hypothetical ==
+              false) {
+        stateProof = true;
+        enabledProof = false;
+      } else if (proof == false && hypothetical == false) {
+        stateProof = true;
+        enabledProof = true;
+      } else {
+        stateProof = true;
+        enabledProof = true;
       }
     });
   }
@@ -773,7 +801,6 @@ class _elementsState extends State<elements> {
                                         'electronnegativityMinSelector'),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                       MediaQuery
                                           .of(context)
@@ -1390,7 +1417,6 @@ class _elementsState extends State<elements> {
                                         .translate('typesMinSelector'),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                       MediaQuery
                                           .of(context)
@@ -1745,7 +1771,6 @@ class _elementsState extends State<elements> {
                                         .translate('atomicnumMinSelector'),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                       MediaQuery
                                           .of(context)
@@ -2533,7 +2558,6 @@ class _elementsState extends State<elements> {
                                         .translate('constructorsMinSelector'),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                       MediaQuery
                                           .of(context)
@@ -2867,7 +2891,6 @@ class _elementsState extends State<elements> {
                                         .translate('weightMinSelector'),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                       MediaQuery
                                           .of(context)
@@ -3201,7 +3224,6 @@ class _elementsState extends State<elements> {
                                         .translate('isotopenumMinSelector'),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      //height: MediaQuery.of(context).size.width * .0014,
                                       fontSize:
                                       MediaQuery
                                           .of(context)
@@ -3368,16 +3390,16 @@ class _elementsState extends State<elements> {
                                                         activeColor:
                                                         Color.fromRGBO(
                                                             255, 255, 255, 0),
-                                                        value: typesNoblegases,
+                                                        value: proof,
                                                         onChanged: (bool value) {
                                                           setState(
                                                                 () {
-                                                              typesNoblegases =
+                                                              proof =
                                                                   value;
                                                             },
                                                           );
 
-                                                          setTypes();
+                                                          setProof();
                                                           checkResetVisibility();
                                                         },
                                                       );
@@ -3412,16 +3434,16 @@ class _elementsState extends State<elements> {
                                                         activeColor:
                                                         Color.fromRGBO(
                                                             255, 255, 255, 0),
-                                                        value: typesAlkalimetals,
+                                                        value: hypothetical,
                                                         onChanged: (bool value) {
                                                           setState(
                                                                 () {
-                                                              typesAlkalimetals =
+                                                              hypothetical =
                                                                   value;
                                                             },
                                                           );
 
-                                                          setTypes();
+                                                          setProof();
                                                           checkResetVisibility();
                                                         },
                                                       );
@@ -3470,16 +3492,16 @@ class _elementsState extends State<elements> {
                                       builder: (BuildContext context,
                                           StateSetter setState) {
                                         return Opacity(
-                                          opacity: enabledTypes ? 1 : 0,
+                                          opacity: enabledProof ? 1 : 0,
                                           child: Checkbox(
                                             activeColor:
                                             Color.fromRGBO(255, 255, 255, 0),
-                                            value: stateTypes,
-                                            onChanged: enabledTypes
+                                            value: stateProof,
+                                            onChanged: enabledProof
                                                 ? (bool value) {
                                               setState(
                                                     () {
-                                                  stateTypes = value;
+                                                  stateProof = value;
                                                 },
                                               );
                                             }
@@ -3559,6 +3581,9 @@ class _elementsState extends State<elements> {
                                 isotopenumMin = defIsotopenumMin;
                                 isotopenumMax = defIsotopenumMax;
 
+                                proof = defProof;
+                                hypothetical = defHypothetical;
+
                                 stateElectronnegativity = false;
                                 stateTypes = false;
                                 stateAtomicnumber = false;
@@ -3572,6 +3597,7 @@ class _elementsState extends State<elements> {
                                 enabledConstructors = false;
                                 enabledWeight = false;
                                 enabledIsotopenum = false;
+                                enabledProof = false;
 
                                 resetVisibility = false;
 
@@ -3645,6 +3671,8 @@ class _elementsState extends State<elements> {
                           weightMax: weightMax,
                           isotopenumMin: isotopenumMin,
                           isotopenumMax: isotopenumMax,
+                          proof: proof,
+                          hypothetical: hypothetical,
 
                           stateElectronnegativity: stateElectronnegativity,
                           stateTypes: stateTypes,
@@ -3652,6 +3680,7 @@ class _elementsState extends State<elements> {
                           stateConstructors: stateConstructors,
                           stateWeight: stateWeight,
                           stateIsotopenum: stateIsotopenum,
+                          stateProof: stateProof,
                         ),
                   ),
                 );
@@ -3689,7 +3718,7 @@ class _elementsState extends State<elements> {
                   height: MediaQuery
                       .of(context)
                       .size
-                      .height * .1,
+                      .width * .18,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(colors: [
                       Color(0xff62a39c),

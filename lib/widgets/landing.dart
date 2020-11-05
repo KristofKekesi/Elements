@@ -132,7 +132,7 @@ class landing extends StatelessWidget {
                         message: AppLocalizations.of(context).translate('soon'),
                         child: Container(
                           width: MediaQuery.of(context).size.width * .8,
-                          height: MediaQuery.of(context).size.height * .1,
+                          height: MediaQuery.of(context).size.width * .18,
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                                 colors: [
@@ -199,7 +199,7 @@ class landing extends StatelessWidget {
                         message: AppLocalizations.of(context).translate('soon'),
                         child: Container(
                           width: MediaQuery.of(context).size.width * .8,
-                          height: MediaQuery.of(context).size.height * .1,
+                          height: MediaQuery.of(context).size.width * .18,
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                                 colors: [
@@ -271,7 +271,7 @@ class landing extends StatelessWidget {
                             AppLocalizations.of(context).translate('settings'),
                         child: Container(
                           width: MediaQuery.of(context).size.width * .8,
-                          height: MediaQuery.of(context).size.height * .1,
+                          height: MediaQuery.of(context).size.width * .18,
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                                 colors: [
@@ -359,8 +359,8 @@ class landing extends StatelessWidget {
                                     child: Container(
                                       color: Color.fromRGBO(0, 0, 0, 0),
                                       height:
-                                          MediaQuery.of(context).size.height *
-                                              .1,
+                                          MediaQuery.of(context).size.width *
+                                              .18,
                                       child: Padding(
                                         padding: EdgeInsets.only(
                                           left: MediaQuery.of(context)

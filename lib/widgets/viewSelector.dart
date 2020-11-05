@@ -74,6 +74,11 @@ class viewSelector extends StatefulWidget {
   final double isotopenumMax;
 
   @required
+  final bool proof;
+  @required
+  final bool hypothetical;
+
+  @required
   final bool stateElectronnegativity;
   @required
   final bool stateTypes;
@@ -85,6 +90,8 @@ class viewSelector extends StatefulWidget {
   final bool stateWeight;
   @required
   final bool stateIsotopenum;
+  @required
+  final bool stateProof;
 
   const viewSelector(
       {Key key,
@@ -119,7 +126,7 @@ class viewSelector extends StatefulWidget {
       this.stateWeight,
       this.isotopenumMin,
       this.isotopenumMax,
-      this.stateIsotopenum})
+      this.stateIsotopenum, this.proof, this.hypothetical, this.stateProof})
       : super(key: key);
 
   @override
@@ -238,6 +245,16 @@ class viewSelectorState extends State<viewSelector> {
                 }
               }
 
+              if (stateProof == true) {
+                if (proof == true && elementList[index]['discovery'] != 'hypothetical') {
+                  // nothing
+                } else if (hypothetical == true && elementList[index]['discovery'] == 'hypothetical') {
+                  passed = true;
+                } else {
+                  passed = false;
+                }
+              }
+
               if (passed == true) {
                 passedElements.add(index);
               }
@@ -269,7 +286,7 @@ class viewSelectorState extends State<viewSelector> {
                               .translate("cardView"),
                           child: Container(
                             width: MediaQuery.of(context).size.width * .35,
-                            height: MediaQuery.of(context).size.height * .1,
+                            height: MediaQuery.of(context).size.width * .18,
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
                                   colors: [
@@ -329,7 +346,7 @@ class viewSelectorState extends State<viewSelector> {
                                 right: MediaQuery.of(context).size.width * .1),
                             child: Container(
                               width: MediaQuery.of(context).size.width * .35,
-                              height: MediaQuery.of(context).size.height * .1,
+                              height: MediaQuery.of(context).size.width * .18,
                               decoration: BoxDecoration(
                                 gradient: LinearGradient(
                                     colors: [
