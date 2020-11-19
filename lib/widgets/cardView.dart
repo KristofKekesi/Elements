@@ -148,7 +148,10 @@ class cardView extends StatelessWidget {
                                 maxChildSize: 1,
                                 builder:
                                     (BuildContext context, scrollController) {
-                                  return SingleChildScrollView(
+                                  return NotificationListener<OverscrollIndicatorNotification>(
+                                      onNotification: (OverscrollIndicatorNotification overscroll) {
+                                    overscroll.disallowGlow();
+                                  },child: SingleChildScrollView(
                                     controller: scrollController,
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.only(
@@ -1291,12 +1294,16 @@ class cardView extends StatelessWidget {
                                                                             2),
                                                                   );
 
-                                                                  return SingleChildScrollView(
+                                                                  return NotificationListener<OverscrollIndicatorNotification>(
+                                                                      onNotification: (OverscrollIndicatorNotification overscroll) {
+                                                                    overscroll.disallowGlow();
+                                                                  },child: SingleChildScrollView(
                                                                     scrollDirection:
                                                                     Axis.horizontal,
                                                                     child: Row(
                                                                         children:
                                                                         listIsotopes),
+                                                                  ),
                                                                   );
                                                                 } else {
                                                                   return Row(
@@ -1601,6 +1608,7 @@ class cardView extends StatelessWidget {
                                         ),
                                       ),
                                     ),
+                                  ),
                                   );
                                 });
                           });
@@ -1712,7 +1720,10 @@ class cardView extends StatelessWidget {
                               maxChildSize: 1,
                               builder:
                                   (BuildContext context, scrollController) {
-                                return SingleChildScrollView(
+                                return NotificationListener<OverscrollIndicatorNotification>(
+                                    onNotification: (OverscrollIndicatorNotification overscroll) {
+                                  overscroll.disallowGlow();
+                                },child: SingleChildScrollView(
                                   controller: scrollController,
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.only(
@@ -2855,12 +2866,16 @@ class cardView extends StatelessWidget {
                                                                           2),
                                                                 );
 
-                                                                return SingleChildScrollView(
+                                                                return NotificationListener<OverscrollIndicatorNotification>(
+                                                                    onNotification: (OverscrollIndicatorNotification overscroll) {
+                                                                  overscroll.disallowGlow();
+                                                                },child: SingleChildScrollView(
                                                                   scrollDirection:
                                                                   Axis.horizontal,
                                                                   child: Row(
                                                                       children:
                                                                       listIsotopes),
+                                                                ),
                                                                 );
                                                               } else {
                                                                 return Row(
@@ -3165,6 +3180,7 @@ class cardView extends StatelessWidget {
                                       ),
                                     ),
                                   ),
+                                ),
                                 );
                               });
                         });
@@ -3345,11 +3361,15 @@ class cardView extends StatelessWidget {
               child: Tooltip(
                 message:
                     AppLocalizations.of(context).translate("moreAboutElement"),
-                child: ListView(
+                child: NotificationListener<OverscrollIndicatorNotification>(
+        onNotification: (OverscrollIndicatorNotification overscroll) {
+        overscroll.disallowGlow();
+        },child: ListView(
                   shrinkWrap: true,
                   scrollDirection: Axis.horizontal,
                   children: listElements,
                 ),
+              ),
               ),
             );
           }

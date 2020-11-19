@@ -139,7 +139,10 @@ class minimalView extends StatelessWidget {
                               maxChildSize: 1,
                               builder:
                                   (BuildContext context, scrollController) {
-                                return SingleChildScrollView(
+                                return NotificationListener<OverscrollIndicatorNotification>(
+                                    onNotification: (OverscrollIndicatorNotification overscroll) {
+                                  overscroll.disallowGlow();
+                                },child: SingleChildScrollView(
                                   controller: scrollController,
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.only(
@@ -1282,12 +1285,16 @@ class minimalView extends StatelessWidget {
                                                                           2),
                                                                 );
 
-                                                                return SingleChildScrollView(
+                                                                return NotificationListener<OverscrollIndicatorNotification>(
+                                                                    onNotification: (OverscrollIndicatorNotification overscroll) {
+                                                                  overscroll.disallowGlow();
+                                                                },child: SingleChildScrollView(
                                                                   scrollDirection:
                                                                   Axis.horizontal,
                                                                   child: Row(
                                                                       children:
                                                                       listIsotopes),
+                                                                ),
                                                                 );
                                                               } else {
                                                                 return Row(
@@ -1592,6 +1599,7 @@ class minimalView extends StatelessWidget {
                                       ),
                                     ),
                                   ),
+                                ),
                                 );
                               });
                         });
@@ -1693,7 +1701,10 @@ class minimalView extends StatelessWidget {
                       SizedBox.expand(
                         child: Padding(
                           padding: EdgeInsets.only(left: 7, right: 7),
-                          child: ListView(
+                          child: NotificationListener<OverscrollIndicatorNotification>(
+                            onNotification: (OverscrollIndicatorNotification overscroll) {
+                              overscroll.disallowGlow();
+                            },child: ListView(
                             children: <Widget>[
                               Container(
                                   height:
@@ -1712,6 +1723,7 @@ class minimalView extends StatelessWidget {
                                   height:
                                       MediaQuery.of(context).size.height * .01),
                             ],
+                          ),
                           ),
                         ),
                       ),

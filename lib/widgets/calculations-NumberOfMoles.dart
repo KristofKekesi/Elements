@@ -184,41 +184,6 @@ class _calculateNumberOfMoles extends State<calculateNumberOfMoles> {
 String M = '1';
 String m = '1';
 
-// ignore: missing_return
-String addTom(plus, equal) {
-  if (equal == true) {
-    return m = plus;
-  } else {
-    if (plus == '.') {
-      if (m.contains('.')) {
-        return m;
-      } else {
-        return m += '.';
-      }
-    }
-    if (plus == 'backspace') {
-      if (m == '0') {
-        return m;
-      } else if (m != null && m.length > 1) {
-        return m = m.substring(0, m.length - 1);
-      } else {
-        return m = '0';
-      }
-    }
-    if (m.length <= 5) {
-      if (m == '0') {
-        if (plus == '0') {
-          return m = '0';
-        } else {
-          return m = plus;
-        }
-      } else {
-        return m += plus;
-      }
-    }
-  }
-}
-
 class CalculationsPopup extends StatefulWidget {
   const CalculationsPopup({
     Key key,
@@ -229,6 +194,40 @@ class CalculationsPopup extends StatefulWidget {
 }
 
 class _CalculationsPopupState extends State<CalculationsPopup> {
+// ignore: missing_return
+  String addTom(plus, equal) {
+    if (equal == true) {
+        return m = plus;
+    } else {
+      if (plus == '.') {
+        if (m.contains('.')) {
+            return m;
+        } else {
+            return m += '.';
+        }
+      }
+      if (plus == 'backspace') {
+        if (m == '0') {
+            return m;
+        } else if (m != null && m.length > 1) {
+            return m = m.substring(0, m.length - 1);
+        } else {
+            return m = '0';
+        }
+      }
+      if (m.length <= 5) {
+        if (m == '0') {
+          if (plus == '0') {
+              return m = '0';
+          } else {
+              return m = plus;
+          }
+        } else {return m += plus;
+        }
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return DraggableScrollableSheet(
@@ -238,11 +237,11 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
         return ClipRRect(
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular((MediaQuery.of(context).size.height +
-                MediaQuery.of(context).size.width) /
+                    MediaQuery.of(context).size.width) /
                 2 *
                 .1),
             topRight: Radius.circular((MediaQuery.of(context).size.height +
-                MediaQuery.of(context).size.width) /
+                    MediaQuery.of(context).size.width) /
                 2 *
                 .1),
           ),
@@ -251,17 +250,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
             child: BackdropFilter(
               filter: ImageFilter.blur(
                   sigmaX: (MediaQuery.of(context).size.height +
-                      MediaQuery.of(context).size.width) /
+                          MediaQuery.of(context).size.width) /
                       2 *
                       .05,
                   sigmaY: (MediaQuery.of(context).size.height +
-                      MediaQuery.of(context).size.width) /
+                          MediaQuery.of(context).size.width) /
                       2 *
                       .05),
-              child: SingleChildScrollView(
-
+              child: ListView(
                 controller: scrollController,
-                child: Center(
+                children: <Widget>[ Center(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
@@ -293,7 +291,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               fontWeight: FontWeight.bold,
                               color: Colors.white,
                               fontSize:
-                              MediaQuery.of(context).size.height * .04),
+                                  MediaQuery.of(context).size.height * .04),
                         ),
                       ),
                       Padding(
@@ -308,7 +306,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               fontWeight: FontWeight.bold,
                               color: Colors.white,
                               fontSize:
-                              MediaQuery.of(context).size.height * .04),
+                                  MediaQuery.of(context).size.height * .04),
                         ),
                       ),
                       Padding(
@@ -322,7 +320,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                             children: <Widget>[
                               GestureDetector(
                                 onTap: () {
-                                  m += '1';
+                                  addTom('1', false);
                                   setState(() {});
                                 },
                                 child: Container(
@@ -336,16 +334,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                         end: Alignment.bottomRight),
                                     borderRadius: BorderRadius.circular(
                                         (MediaQuery.of(context).size.height +
-                                            MediaQuery.of(context)
-                                                .size
-                                                .width) /
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
                                             2 *
                                             .02),
                                   ),
                                   width:
-                                  MediaQuery.of(context).size.width * .23,
+                                      MediaQuery.of(context).size.width * .23,
                                   height:
-                                  MediaQuery.of(context).size.width * .23,
+                                      MediaQuery.of(context).size.width * .23,
                                   child: Center(
                                     child: Text(
                                       '1',
@@ -353,8 +351,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white,
                                           fontSize: MediaQuery.of(context)
-                                              .size
-                                              .width *
+                                                  .size
+                                                  .width *
                                               .1),
                                     ),
                                   ),
@@ -362,7 +360,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  m += '2';
+                                  addTom('2', false);
                                   setState(() {});
                                 },
                                 child: Container(
@@ -376,16 +374,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                         end: Alignment.bottomRight),
                                     borderRadius: BorderRadius.circular(
                                         (MediaQuery.of(context).size.height +
-                                            MediaQuery.of(context)
-                                                .size
-                                                .width) /
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
                                             2 *
                                             .02),
                                   ),
                                   width:
-                                  MediaQuery.of(context).size.width * .23,
+                                      MediaQuery.of(context).size.width * .23,
                                   height:
-                                  MediaQuery.of(context).size.width * .23,
+                                      MediaQuery.of(context).size.width * .23,
                                   child: Center(
                                     child: Text(
                                       '2',
@@ -393,8 +391,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white,
                                           fontSize: MediaQuery.of(context)
-                                              .size
-                                              .width *
+                                                  .size
+                                                  .width *
                                               .1),
                                     ),
                                   ),
@@ -402,7 +400,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  m += '3';
+                                  addTom('3', false);
                                   setState(() {});
                                 },
                                 child: Container(
@@ -416,16 +414,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                         end: Alignment.bottomRight),
                                     borderRadius: BorderRadius.circular(
                                         (MediaQuery.of(context).size.height +
-                                            MediaQuery.of(context)
-                                                .size
-                                                .width) /
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
                                             2 *
                                             .02),
                                   ),
                                   width:
-                                  MediaQuery.of(context).size.width * .23,
+                                      MediaQuery.of(context).size.width * .23,
                                   height:
-                                  MediaQuery.of(context).size.width * .23,
+                                      MediaQuery.of(context).size.width * .23,
                                   child: Center(
                                     child: Text(
                                       '3',
@@ -433,8 +431,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white,
                                           fontSize: MediaQuery.of(context)
-                                              .size
-                                              .width *
+                                                  .size
+                                                  .width *
                                               .1),
                                     ),
                                   ),
@@ -450,7 +448,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
-                                    m += '4';
+                                    addTom('4', false);
                                     setState(() {});
                                   },
                                   child: Container(
@@ -464,16 +462,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '4',
@@ -481,8 +479,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -490,7 +488,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    m += '5';
+                                    addTom('5', false);
                                     setState(() {});
                                   },
                                   child: Container(
@@ -504,16 +502,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '5',
@@ -521,8 +519,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -530,7 +528,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    m += '6';
+                                    addTom('6', false);
                                     setState(() {});
                                   },
                                   child: Container(
@@ -544,16 +542,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '6',
@@ -561,8 +559,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -579,7 +577,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
-                                    m += '7';
+                                    addTom('7', false);
                                     setState(() {});
                                   },
                                   child: Container(
@@ -593,16 +591,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '7',
@@ -610,8 +608,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -619,7 +617,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    m += '8';
+                                    addTom('8', false);
                                     setState(() {});
                                   },
                                   child: Container(
@@ -633,16 +631,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '8',
@@ -650,8 +648,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -659,7 +657,7 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
-                                    m += '9';
+                                    addTom('9', false);
                                     setState(() {});
                                   },
                                   child: Container(
@@ -673,16 +671,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '9',
@@ -690,8 +688,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -708,7 +706,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                               children: <Widget>[
                                 GestureDetector(
                                   onTap: () {
-
+                                    addTom('.', false);
+                                    setState(() {});
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -721,16 +720,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '.',
@@ -738,8 +737,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -747,6 +746,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
+                                    addTom('0', false);
+                                    setState(() {});
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -759,16 +760,16 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Text(
                                         '0',
@@ -776,8 +777,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
                                             fontSize: MediaQuery.of(context)
-                                                .size
-                                                .width *
+                                                    .size
+                                                    .width *
                                                 .1),
                                       ),
                                     ),
@@ -785,6 +786,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                 ),
                                 GestureDetector(
                                   onTap: () {
+                                    addTom('backspace', false);
+                                    setState(() {});
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -797,20 +800,23 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                                           end: Alignment.bottomRight),
                                       borderRadius: BorderRadius.circular(
                                           (MediaQuery.of(context).size.height +
-                                              MediaQuery.of(context)
-                                                  .size
-                                                  .width) /
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
                                               2 *
                                               .02),
                                     ),
                                     width:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     height:
-                                    MediaQuery.of(context).size.width * .23,
+                                        MediaQuery.of(context).size.width * .23,
                                     child: Center(
                                       child: Image(
-                                        height: MediaQuery.of(context).size.width * .13,
-                                        image: AssetImage('lib/icons/left_white_500.png'),
+                                        height:
+                                            MediaQuery.of(context).size.width *
+                                                .13,
+                                        image: AssetImage(
+                                            'lib/icons/left_white_500.png'),
                                       ),
                                     ),
                                   ),
@@ -823,7 +829,8 @@ class _CalculationsPopupState extends State<CalculationsPopup> {
                     ],
                   ),
                 ),
-              ),
+                ],
+            ),
             ),
           ),
         );
@@ -912,10 +919,9 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
     return double.parse(number);
   }
 
-  final scaffoldKey =
-      GlobalKey<ScaffoldState>(); // <---- Another instance variable
+  final scaffoldKey = GlobalKey<ScaffoldState>(); // <---- Another instance variable
   void openCalculationsPopup() {
-    scaffoldKey.currentState.showBottomSheet((context) => CalculationsPopup());
+    scaffoldKey.currentState.showBottomSheet((context) => CalculationsPopup(), backgroundColor: Colors.transparent); //backgroundColor: Color(0xff757575)
   }
 
   @override
@@ -1094,7 +1100,10 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
                                                                 2 *
                                                                 .05),
                                                         child:
-                                                            SingleChildScrollView(
+                                                  NotificationListener<OverscrollIndicatorNotification>(
+                                                  onNotification: (OverscrollIndicatorNotification overscroll) {
+                                                  overscroll.disallowGlow();
+                                                  },child: SingleChildScrollView(
                                                           controller:
                                                               scrollController,
                                                           child: Center(
@@ -1286,12 +1295,16 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
                                                                         message:
                                                                             'Select an element.',
                                                                         child:
-                                                                            new SingleChildScrollView(
+                                                                            NotificationListener<OverscrollIndicatorNotification>(
+                                                                          onNotification: (OverscrollIndicatorNotification overscroll) {
+                                                                        overscroll.disallowGlow();
+                                                                      },child: SingleChildScrollView(
                                                                           scrollDirection:
                                                                               Axis.horizontal,
                                                                           child:
                                                                               Row(children: listElements),
                                                                         ),
+                                                                            ),
                                                                       );
                                                                     } else {
                                                                       return Container(
@@ -1670,7 +1683,7 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
                                                                               ),
                                                                               GestureDetector(
                                                                                 onTap: () {
-                                                                                  addToM('backspace', false);
+                                                                                  addToM('backspace', true);
                                                                                 },
                                                                                 child: Container(
                                                                                   decoration: BoxDecoration(
@@ -1700,6 +1713,7 @@ class _calculationsNumberOfMoles extends State<calculationsNumberOfMoles> {
                                                           ),
                                                         ),
                                                       ),
+                                                    ),
                                                     ),
                                                   );
                                                 },
