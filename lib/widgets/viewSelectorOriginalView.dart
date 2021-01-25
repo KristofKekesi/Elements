@@ -7,12 +7,15 @@ import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 import 'elementPopup.dart';
 
+int tableWidthUnit = 18;
+int tableHeightUnit = 7;
+
 // ignore: camel_case_types
-class minimalView extends StatelessWidget {
+class originalView extends StatelessWidget {
   @required
   final List passedElements;
 
-  const minimalView({
+  const originalView({
     Key key,
     this.passedElements,
   }) : super(key: key);
@@ -100,7 +103,7 @@ class minimalView extends StatelessWidget {
                         new Align(
                           alignment: Alignment.center,
                           child: new Text(
-                            elementList[index]["element"].toString(),
+                            elementList[index]["element"],
                             textAlign: TextAlign.left,
                             style: new TextStyle(
                               color: Colors.white,

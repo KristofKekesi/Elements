@@ -12,47 +12,18 @@
   "_comment_": "SPLASH SCREEN",
   "loadString": "Betöltés",
 
-  "_comment_": "MODES SCREEN",
-  "modes": "Módok",
-  "welcoming": "Hello",
-  "subline": "Üdv az Elements-ben.",
-  "titleTests": "Tesztek",
-  "noTests": "A tesztek várható megjelenése 2020.",
-  "titleCalculations": "Számítások",
-  "titleElements": "Elemek",
-
   "_comment_": "DRAWER",
   "translate": "Fordítások",
   "support": "Támogatás",
-  "preferencies": "Preferenciák",
   "contributors": "Készítők",
   "contacts": "Elérhetőség",
   "license": "Licensze",
   "credits": "Több Infó",
 
   "_comment_": "TOOLTIPS",
-  "menu": "Menü",
-  "soon": "Hamarosan!",
-  "settings": "Beállítások",
-  "tooltipTests": "Teszteld magad.",
-  "tooltipElements": "Peruódusos rendszer szűrőkkel.",
   "back": "Vissza",
+  "menu": "Menü",
 
-
-
-  "_comment_": "CALCULATIONS",
-  "one": "Egy",
-  "two": "Kettő",
-  "three": "Három",
-  "four": "Négy",
-  "five": "Öt",
-  "six": "Hat",
-  "seven": "Hét",
-  "eight": "Nyolc",
-  "nine": "Kilenc",
-  "dot": "Pont",
-  "zero": "Nulla",
-  "backspace": "Vissza",
 
   "_comment_": "TOOLTIPS",
   "electronnegativity": "Elektronnegativitás",
@@ -87,6 +58,7 @@
 
 
   "_comment_": "ELEMENTS",
+  "titleElements": "Elements",
   "_comment_": "SELECTORS",
   "selectorTag": "Szűrők",
   "electronnegativitySelector": "Elektronnegativitás",

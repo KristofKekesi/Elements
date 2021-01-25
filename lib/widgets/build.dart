@@ -3,7 +3,7 @@ import 'package:elements_rework/widgets/localization.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 import 'package:elements_rework/widgets/drawer.dart';
-import 'package:elements_rework/widgets/landing.dart';
+import 'package:elements_rework/widgets/elements.dart';
 
 class Splash extends StatelessWidget {
   @override
@@ -39,7 +39,7 @@ class Splash extends StatelessWidget {
 class Build extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.white, body: landing(), drawer: customDrawer());
+    return Scaffold(backgroundColor: Colors.white, body: elements(), drawer: customDrawer());
   }
 
 }

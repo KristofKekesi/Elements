@@ -4,8 +4,10 @@ import 'package:elements_rework/widgets/elements.dart';
 import 'package:flutter/material.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
-import 'cardView.dart';
-import 'minimalView.dart';
+import 'viewSelectorCardView.dart';
+import 'viewSelectorOriginalView.dart';
+import 'viewSelectorMinimalView.dart';
+
 import 'localization.dart';
 
 enum viewMarker { cards, minimal }
@@ -204,20 +206,23 @@ class viewSelectorState extends State<viewSelector> {
               }
 
               if (stateConstructors == true) {
-                if (constructorsProtonMin <=
-                        int.parse(elementList[index]['chargedComponent']) &&
-                    constructorsProtonMax >=
-                        int.parse(elementList[index]['chargedComponent']) &&
-                    constructorsElectronMin <=
-                        int.parse(elementList[index]['chargedComponent']) &&
-                    constructorsElectronMax >=
-                        int.parse(elementList[index]['chargedComponent']) &&
-                    constructorsNeutronMin <=
-                        int.parse(elementList[index]['neutron']) &&
-                    constructorsNeutronMax >=
-                        int.parse(elementList[index]['neutron'])) {
-                } else {
+                if (elementList[index]['chargedComponent'] == "-" || elementList[index]['neutron'] == "-") {
                   passed = false;
+                } else {
+                  if (constructorsProtonMin <=
+                      int.parse(elementList[index]['chargedComponent']) &&
+                      constructorsProtonMax >=
+                          int.parse(elementList[index]['chargedComponent']) &&
+                      constructorsElectronMin <=
+                          int.parse(elementList[index]['chargedComponent']) &&
+                      constructorsElectronMax >=
+                          int.parse(elementList[index]['chargedComponent']) &&
+                      constructorsNeutronMin <=
+                          int.parse(elementList[index]['neutron']) &&
+                      constructorsNeutronMax >=
+                          int.parse(elementList[index]['neutron'])) {} else {
+                    passed = false;
+                  }
                 }
               }
 
@@ -245,14 +250,15 @@ class viewSelectorState extends State<viewSelector> {
                 }
               }
 
-              if (stateProof == true) {
-                if (proof == true && elementList[index]['discovery'] != 'hypothetical') {
-                  // nothing
-                } else if (hypothetical == true && elementList[index]['discovery'] == 'hypothetical') {
-                  passed = true;
-                } else {
+              if (proof == true && hypothetical == true) {
+              } else if (proof == true &&
+                    elementList[index]['discovery'] == 'hypothetical') {
                   passed = false;
-                }
+              } else if (hypothetical == true &&
+                  elementList[index]['discovery'] != 'hypothetical') {
+                passed = false;
+              } else if (proof == false && hypothetical == false) {
+                passed = false;
               }
 
               if (passed == true) {
@@ -425,7 +431,7 @@ class viewSelectorState extends State<viewSelector> {
           passedElements: passedElements,
         );
       case viewMarker.minimal:
-        return minimalView(
+        return originalView( //minimalView(
           passedElements: passedElements,
         );
     }

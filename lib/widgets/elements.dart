@@ -258,9 +258,7 @@ class _elementsState extends State<elements> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Builder(
-        builder: (context) => SafeArea(
+    return SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -277,13 +275,13 @@ class _elementsState extends State<elements> {
                     children: <Widget>[
                       GestureDetector(
                         onTap: () {
-                          Navigator.of(context).pop();
+                          Scaffold.of(context).openDrawer();
                         },
                         child: Tooltip(
                           message:
-                              AppLocalizations.of(context).translate("back"),
+                              AppLocalizations.of(context).translate("menu"),
                           child: Image(
-                              image: AssetImage("lib/icons/left_500.png"),
+                              image: AssetImage("lib/icons/right_500.png"),
                               height: MediaQuery.of(context).size.width * .105,
                               width: MediaQuery.of(context).size.width * .105),
                         ),
@@ -3492,7 +3490,7 @@ class _elementsState extends State<elements> {
                     context,
                     MaterialPageRoute(
                       builder: (context) => searchResults(
-                        bottomPadding: widget.bottomPadding,
+                        bottomPadding: MediaQuery.of(context).size.height,
                         typesOthernonmetals: typesOthernonmetals,
                         typesNoblegases: typesNoblegases,
                         typesAlkalimetals: typesAlkalimetals,
@@ -3578,8 +3576,6 @@ class _elementsState extends State<elements> {
               ),
             ],
           ),
-        ),
-      ),
     );
   }
 }
