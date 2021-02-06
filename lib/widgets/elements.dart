@@ -324,12 +324,13 @@ class _elementsState extends State<elements> {
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
                             colors: [
                               Color(0xff62a39c),
                               Color(0xff13547a),
                             ],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight),
+                        ),
                         borderRadius: BorderRadius.circular(
                             (MediaQuery.of(context).size.height +
                                     MediaQuery.of(context).size.width) /
