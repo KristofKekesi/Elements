@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:flutter/material.dart';
@@ -120,7 +122,10 @@ class searchResults extends StatelessWidget {
       this.stateWeight,
       this.isotopenumMin,
       this.isotopenumMax,
-      this.stateIsotopenum, this.proof, this.hypothetical, this.stateProof})
+      this.stateIsotopenum,
+      this.proof,
+      this.hypothetical,
+      this.stateProof})
       : super(key: key);
 
   double indicatorOpacity() {
@@ -131,8 +136,7 @@ class searchResults extends StatelessWidget {
         stateWeight == true ||
         stateConstructors == true ||
         stateIsotopenum == true ||
-        stateProof == true &&
-            (proof == false || hypothetical == true)) {
+        stateProof == true && (proof == false || hypothetical == true)) {
       return 1;
     } else {
       return 0;
@@ -181,122 +185,134 @@ class searchResults extends StatelessWidget {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.only(bottom: bottomPadding * .03),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          padding: EdgeInsets.only(bottom: bottomPadding * .0),
+          child: Stack(
             children: <Widget>[
+              viewSelector(
+                bottomPadding: bottomPadding,
+                typesOthernonmetals: typesOthernonmetals,
+                typesNoblegases: typesNoblegases,
+                typesAlkalimetals: typesAlkalimetals,
+                typesAlkaliearthmetals: typesAlkaliearthmetals,
+                typesMetalloids: typesMetalloids,
+                typesPosttransitionmetals: typesPosttransitionmetals,
+                typesTransitionmetals: typesTransitionmetals,
+                typesLanthanoids: typesLanthanoids,
+                typesActinoids: typesActionids,
+                typesUnknown: typesUnknown,
+                electronnegativityMin: electronnegativityMin,
+                electronnegativityMax: electronnegativityMax,
+                electronnegativityUnknown: electronnegativityUnknown,
+                atomicnumberMin: atomicnumberMin,
+                atomicnumberMax: atomicnumberMax,
+                constructorsProtonMin: constructorsProtonMin,
+                constructorsProtonMax: constructorsProtonMax,
+                constructorsElectronMin: constructorsElectronMin,
+                constructorsElectronMax: constructorsElectronMax,
+                constructorsNeutronMin: constructorsNeutronMin,
+                constructorsNeutronMax: constructorsNeutronMax,
+                weightMin: weightMin,
+                weightMax: weightMax,
+                isotopenumMin: isotopenumMin,
+                isotopenumMax: isotopenumMax,
+                proof: proof,
+                hypothetical: hypothetical,
+                stateElectronnegativity: stateElectronnegativity,
+                stateTypes: stateTypes,
+                stateAtomicnumber: stateAtomicnumber,
+                stateConstructors: stateConstructors,
+                stateWeight: stateWeight,
+                stateIsotopenum: stateIsotopenum,
+                stateProof: stateProof,
+              ),
               Align(
                 alignment: Alignment.topLeft,
-                child: Padding(
-                  padding: EdgeInsets.only(
-                    left: MediaQuery.of(context).size.width * .1,
-                    right: MediaQuery.of(context).size.width * .1,
-                    top: MediaQuery.of(context).size.height * .02,
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                child: ClipRect(
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(
+                        sigmaX: (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .02,
+                        sigmaY: (MediaQuery.of(context).size.height +
+                                MediaQuery.of(context).size.width) /
+                            2 *
+                            .02),
+                    child: Padding(
+                      padding: EdgeInsets.only(
+                        left: MediaQuery.of(context).size.width * .1,
+                        right: MediaQuery.of(context).size.width * .1,
+                        top: MediaQuery.of(context).size.height * .02,
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
-                          GestureDetector(
-                            onTap: () {
-                              Navigator.of(context).pop();
-                            },
-                            child: Tooltip(
-                              message: AppLocalizations.of(context)
-                                  .translate("back"),
-                              child: Image(
-                                  image: AssetImage("lib/icons/left_500.png"),
-                                  height:
-                                      MediaQuery.of(context).size.width * .105,
-                                  width:
-                                      MediaQuery.of(context).size.width * .105),
-                            ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                onTap: () {
+                                  Navigator.of(context).pop();
+                                },
+                                child: Tooltip(
+                                  message: AppLocalizations.of(context)
+                                      .translate("back"),
+                                  child: Image(
+                                      image:
+                                          AssetImage("lib/icons/left_500.png"),
+                                      height:
+                                          MediaQuery.of(context).size.width *
+                                              .105,
+                                      width: MediaQuery.of(context).size.width *
+                                          .105),
+                                ),
+                              ),
+                              AutoSizeText(
+                                " " +
+                                    AppLocalizations.of(context)
+                                        .translate('titleElements'),
+                                textAlign: TextAlign.left,
+                                style: new TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.width * .12,
+                                    fontWeight: FontWeight.bold),
+                                maxLines: 1,
+                              ),
+                            ],
                           ),
-                          AutoSizeText(
-                            " " +
-                                AppLocalizations.of(context)
-                                    .translate('titleElements'),
-                            textAlign: TextAlign.left,
-                            style: new TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.width * .12,
-                                fontWeight: FontWeight.bold),
-                            maxLines: 1,
+                          Padding(
+                            padding: EdgeInsets.only(
+                                right: MediaQuery.of(context).size.width * .01),
+                            child: IgnorePointer(
+                              ignoring: stateElectronnegativity == false &&
+                                      stateTypes == false &&
+                                      stateAtomicnumber == false &&
+                                      stateConstructors == false &&
+                                      stateWeight == false &&
+                                      stateIsotopenum == false &&
+                                      stateProof == false ||
+                                  proof == true && hypothetical == false,
+                              child: Opacity(
+                                opacity: indicatorOpacity(),
+                                child: Tooltip(
+                                  message: activeSelectorNum(context),
+                                  child: Image(
+                                      image: AssetImage(
+                                          "lib/icons/triangle_yellow_500.png"),
+                                      height:
+                                          MediaQuery.of(context).size.width *
+                                              .095,
+                                      width: MediaQuery.of(context).size.width *
+                                          .095),
+                                ),
+                              ),
+                            ),
                           ),
                         ],
                       ),
-                      Padding(
-                        padding: EdgeInsets.only(
-                            right: MediaQuery.of(context).size.width * .01),
-                        child: IgnorePointer(
-                          ignoring: stateElectronnegativity == false &&
-                              stateTypes == false &&
-                              stateAtomicnumber == false &&
-                              stateConstructors == false &&
-                              stateWeight == false &&
-                              stateIsotopenum == false &&
-                              stateProof == false ||
-                              proof == true && hypothetical == false,
-                          child: Opacity(
-                            opacity: indicatorOpacity(),
-                            child: Tooltip(
-                              message: activeSelectorNum(context),
-                              child: Image(
-                                  image: AssetImage(
-                                      "lib/icons/triangle_yellow_500.png"),
-                                  height:
-                                      MediaQuery.of(context).size.width * .095,
-                                  width:
-                                      MediaQuery.of(context).size.width * .095),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
-                ),
-              ),
-              Expanded(
-                child: viewSelector(
-                  bottomPadding: bottomPadding,
-                  typesOthernonmetals: typesOthernonmetals,
-                  typesNoblegases: typesNoblegases,
-                  typesAlkalimetals: typesAlkalimetals,
-                  typesAlkaliearthmetals: typesAlkaliearthmetals,
-                  typesMetalloids: typesMetalloids,
-                  typesPosttransitionmetals: typesPosttransitionmetals,
-                  typesTransitionmetals: typesTransitionmetals,
-                  typesLanthanoids: typesLanthanoids,
-                  typesActinoids: typesActionids,
-                  typesUnknown: typesUnknown,
-                  electronnegativityMin: electronnegativityMin,
-                  electronnegativityMax: electronnegativityMax,
-                  electronnegativityUnknown: electronnegativityUnknown,
-                  atomicnumberMin: atomicnumberMin,
-                  atomicnumberMax: atomicnumberMax,
-                  constructorsProtonMin: constructorsProtonMin,
-                  constructorsProtonMax: constructorsProtonMax,
-                  constructorsElectronMin: constructorsElectronMin,
-                  constructorsElectronMax: constructorsElectronMax,
-                  constructorsNeutronMin: constructorsNeutronMin,
-                  constructorsNeutronMax: constructorsNeutronMax,
-                  weightMin: weightMin,
-                  weightMax: weightMax,
-                  isotopenumMin: isotopenumMin,
-                  isotopenumMax: isotopenumMax,
-                  proof: proof,
-                  hypothetical: hypothetical,
-
-                  stateElectronnegativity: stateElectronnegativity,
-                  stateTypes: stateTypes,
-                  stateAtomicnumber: stateAtomicnumber,
-                  stateConstructors: stateConstructors,
-                  stateWeight: stateWeight,
-                  stateIsotopenum: stateIsotopenum,
-                  stateProof: stateProof,
                 ),
               ),
             ],

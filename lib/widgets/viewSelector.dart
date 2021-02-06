@@ -1,6 +1,8 @@
 import 'dart:convert';
+import 'dart:ui';
 
 import 'package:elements_rework/widgets/elements.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
@@ -266,15 +268,52 @@ class viewSelectorState extends State<viewSelector> {
               }
             }
 
-            return Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            return ClipRect(child: BackdropFilter(
+                filter: ImageFilter.blur(
+                sigmaX: (MediaQuery.of(context)
+                .size
+                .height +
+                MediaQuery.of(context)
+                    .size
+                    .width) /
+          2 *
+          .02,
+          sigmaY: (MediaQuery.of(context)
+              .size
+              .height +
+          MediaQuery.of(context)
+              .size
+              .width) /
+          2 *
+          .02),
+          child: Stack(
               children: <Widget>[
                 Expanded(
                   child: getView(
                     passedElements,
                   ),
                 ),
-                Row(
+                Align(
+                  alignment: Alignment.bottomCenter,
+                  child: ClipRect(child: BackdropFilter(
+                    filter: ImageFilter.blur(
+                        sigmaX: (MediaQuery.of(context)
+                            .size
+                            .height +
+                            MediaQuery.of(context)
+                                .size
+                                .width) /
+                            2 *
+                            .02,
+                        sigmaY: (MediaQuery.of(context)
+                            .size
+                            .height +
+                            MediaQuery.of(context)
+                                .size
+                                .width) /
+                            2 *
+                            .02),
+                    child:Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     GestureDetector(
@@ -286,6 +325,8 @@ class viewSelectorState extends State<viewSelector> {
                       child: Padding(
                         padding: EdgeInsets.only(
                           left: MediaQuery.of(context).size.width * .1,
+                            bottom: MediaQuery.of(context).size.height * .015,
+                            top: MediaQuery.of(context).size.height * .015,
                         ),
                         child: Tooltip(
                           message: AppLocalizations.of(context)
@@ -349,7 +390,9 @@ class viewSelectorState extends State<viewSelector> {
                           },
                           child: Padding(
                             padding: EdgeInsets.only(
-                                right: MediaQuery.of(context).size.width * .1),
+                                right: MediaQuery.of(context).size.width * .1,
+                                bottom: MediaQuery.of(context).size.height * .015,
+                                top: MediaQuery.of(context).size.height * .015,),
                             child: Container(
                               width: MediaQuery.of(context).size.width * .35,
                               height: MediaQuery.of(context).size.width * .18,
@@ -399,8 +442,8 @@ class viewSelectorState extends State<viewSelector> {
                           ),
                         )),
                   ],
-                ),
-              ],
+                ),),),),
+              ],),),
             );
           } else {
             return SleekCircularSlider(
@@ -431,7 +474,7 @@ class viewSelectorState extends State<viewSelector> {
           passedElements: passedElements,
         );
       case viewMarker.minimal:
-        return originalView( //minimalView(
+        return minimalView( //minimalView(
           passedElements: passedElements,
         );
     }
