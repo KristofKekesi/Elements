@@ -130,7 +130,10 @@ class viewSelector extends StatefulWidget {
       this.stateWeight,
       this.isotopenumMin,
       this.isotopenumMax,
-      this.stateIsotopenum, this.proof, this.hypothetical, this.stateProof})
+      this.stateIsotopenum,
+      this.proof,
+      this.hypothetical,
+      this.stateProof})
       : super(key: key);
 
   @override
@@ -208,11 +211,12 @@ class viewSelectorState extends State<viewSelector> {
               }
 
               if (stateConstructors == true) {
-                if (elementList[index]['chargedComponent'] == "-" || elementList[index]['neutron'] == "-") {
+                if (elementList[index]['chargedComponent'] == "-" ||
+                    elementList[index]['neutron'] == "-") {
                   passed = false;
                 } else {
                   if (constructorsProtonMin <=
-                      int.parse(elementList[index]['chargedComponent']) &&
+                          int.parse(elementList[index]['chargedComponent']) &&
                       constructorsProtonMax >=
                           int.parse(elementList[index]['chargedComponent']) &&
                       constructorsElectronMin <=
@@ -222,7 +226,8 @@ class viewSelectorState extends State<viewSelector> {
                       constructorsNeutronMin <=
                           int.parse(elementList[index]['neutron']) &&
                       constructorsNeutronMax >=
-                          int.parse(elementList[index]['neutron'])) {} else {
+                          int.parse(elementList[index]['neutron'])) {
+                  } else {
                     passed = false;
                   }
                 }
@@ -254,8 +259,8 @@ class viewSelectorState extends State<viewSelector> {
 
               if (proof == true && hypothetical == true) {
               } else if (proof == true &&
-                    elementList[index]['discovery'] == 'hypothetical') {
-                  passed = false;
+                  elementList[index]['discovery'] == 'hypothetical') {
+                passed = false;
               } else if (hypothetical == true &&
                   elementList[index]['discovery'] != 'hypothetical') {
                 passed = false;
@@ -268,185 +273,184 @@ class viewSelectorState extends State<viewSelector> {
               }
             }
 
-            return ClipRect(child: BackdropFilter(
-                filter: ImageFilter.blur(
-                sigmaX: (MediaQuery.of(context)
-                .size
-                .height +
-                MediaQuery.of(context)
-                    .size
-                    .width) /
-          2 *
-          .02,
-          sigmaY: (MediaQuery.of(context)
-              .size
-              .height +
-          MediaQuery.of(context)
-              .size
-              .width) /
-          2 *
-          .02),
-          child: Stack(
+            return Stack(
               children: <Widget>[
-                Expanded(
-                  child: getView(
-                    passedElements,
-                  ),
+                getView(
+                  passedElements,
                 ),
                 Align(
                   alignment: Alignment.bottomCenter,
-                  child: ClipRect(child: BackdropFilter(
-                    filter: ImageFilter.blur(
-                        sigmaX: (MediaQuery.of(context)
-                            .size
-                            .height +
-                            MediaQuery.of(context)
-                                .size
-                                .width) /
-                            2 *
-                            .02,
-                        sigmaY: (MediaQuery.of(context)
-                            .size
-                            .height +
-                            MediaQuery.of(context)
-                                .size
-                                .width) /
-                            2 *
-                            .02),
-                    child:Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    GestureDetector(
-                      onTap: () {
-                        setState(() {
-                          selectredViewMarker = viewMarker.cards;
-                        });
-                      },
-                      child: Padding(
-                        padding: EdgeInsets.only(
-                          left: MediaQuery.of(context).size.width * .1,
-                            bottom: MediaQuery.of(context).size.height * .015,
-                            top: MediaQuery.of(context).size.height * .015,
-                        ),
-                        child: Tooltip(
-                          message: AppLocalizations.of(context)
-                              .translate("cardView"),
-                          child: Container(
-                            width: MediaQuery.of(context).size.width * .35,
-                            height: MediaQuery.of(context).size.width * .18,
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                  colors: [
-                                    Color(0xff62a39c),
-                                    Color(0xff13547a),
-                                  ],
-                                  begin: Alignment.topLeft,
-                                  end: Alignment.bottomRight),
-                              borderRadius: BorderRadius.circular(
-                                  (MediaQuery.of(context).size.height +
-                                          MediaQuery.of(context).size.width) /
-                                      2 *
-                                      .02),
-                            ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: <Widget>[
-                                Image(
-                                    image: AssetImage(
-                                        "lib/icons/card_white_500.png"),
-                                    height: (MediaQuery.of(context)
-                                                .size
-                                                .height +
-                                            MediaQuery.of(context).size.width) /
-                                        2 *
-                                        .06,
-                                    width: MediaQuery.of(context).size.width *
-                                        .04),
-                                Text(
-                                  " " +
-                                      AppLocalizations.of(context)
-                                          .translate('cards'),
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize:
-                                          MediaQuery.of(context).size.width *
-                                              .05),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Tooltip(
-                        message: AppLocalizations.of(context)
-                            .translate("minimalView"),
-                        child: GestureDetector(
-                          onTap: () {
-                            setState(() {
-                              selectredViewMarker = viewMarker.minimal;
-                            });
-                          },
-                          child: Padding(
-                            padding: EdgeInsets.only(
-                                right: MediaQuery.of(context).size.width * .1,
-                                bottom: MediaQuery.of(context).size.height * .015,
-                                top: MediaQuery.of(context).size.height * .015,),
-                            child: Container(
-                              width: MediaQuery.of(context).size.width * .35,
-                              height: MediaQuery.of(context).size.width * .18,
-                              decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                    colors: [
-                                      Color(0xff62a39c),
-                                      Color(0xff13547a),
-                                    ],
-                                    begin: Alignment.topLeft,
-                                    end: Alignment.bottomRight),
-                                borderRadius: BorderRadius.circular(
-                                    (MediaQuery.of(context).size.height +
-                                            MediaQuery.of(context).size.width) /
-                                        2 *
-                                        .02),
+                  child: ClipRect(
+                    child: BackdropFilter(
+                      filter: ImageFilter.blur(
+                          sigmaX: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .02,
+                          sigmaY: (MediaQuery.of(context).size.height +
+                                  MediaQuery.of(context).size.width) /
+                              2 *
+                              .02),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+                          GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                selectredViewMarker = viewMarker.cards;
+                              });
+                            },
+                            child: Padding(
+                              padding: EdgeInsets.only(
+                                left: MediaQuery.of(context).size.width * .1,
+                                bottom:
+                                    MediaQuery.of(context).size.height * .015,
+                                top: MediaQuery.of(context).size.height * .015,
                               ),
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: <Widget>[
-                                  Image(
-                                      image: AssetImage(
-                                          "lib/icons/modern_white_500.png"),
-                                      height:
-                                          (MediaQuery.of(context).size.height +
+                              child: Tooltip(
+                                message: AppLocalizations.of(context)
+                                    .translate("cardView"),
+                                child: Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * .35,
+                                  height:
+                                      MediaQuery.of(context).size.width * .18,
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(
+                                        colors: [
+                                          Color(0xff62a39c),
+                                          Color(0xff13547a),
+                                        ],
+                                        begin: Alignment.topLeft,
+                                        end: Alignment.bottomRight),
+                                    borderRadius: BorderRadius.circular(
+                                        (MediaQuery.of(context).size.height +
+                                                MediaQuery.of(context)
+                                                    .size
+                                                    .width) /
+                                            2 *
+                                            .02),
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: <Widget>[
+                                      Image(
+                                          image: AssetImage(
+                                              "lib/icons/card_white_500.png"),
+                                          height: (MediaQuery.of(context)
+                                                      .size
+                                                      .height +
                                                   MediaQuery.of(context)
                                                       .size
                                                       .width) /
                                               2 *
                                               .06,
-                                      width: MediaQuery.of(context).size.width *
-                                          .04),
-                                  Text(
-                                    " " +
-                                        AppLocalizations.of(context)
-                                            .translate('minimal'),
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize:
-                                            MediaQuery.of(context).size.width *
+                                          width: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              .04),
+                                      Text(
+                                        " " +
+                                            AppLocalizations.of(context)
+                                                .translate('cards'),
+                                        style: TextStyle(
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
                                                 .05),
+                                      ),
+                                    ],
                                   ),
-                                ],
+                                ),
                               ),
                             ),
                           ),
-                        )),
-                  ],
-                ),),),),
-              ],),),
+                          Tooltip(
+                              message: AppLocalizations.of(context)
+                                  .translate("minimalView"),
+                              child: GestureDetector(
+                                onTap: () {
+                                  setState(() {
+                                    selectredViewMarker = viewMarker.minimal;
+                                  });
+                                },
+                                child: Padding(
+                                  padding: EdgeInsets.only(
+                                    right:
+                                        MediaQuery.of(context).size.width * .1,
+                                    bottom: MediaQuery.of(context).size.height *
+                                        .015,
+                                    top: MediaQuery.of(context).size.height *
+                                        .015,
+                                  ),
+                                  child: Container(
+                                    width:
+                                        MediaQuery.of(context).size.width * .35,
+                                    height:
+                                        MediaQuery.of(context).size.width * .18,
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                          colors: [
+                                            Color(0xff62a39c),
+                                            Color(0xff13547a),
+                                          ],
+                                          begin: Alignment.topLeft,
+                                          end: Alignment.bottomRight),
+                                      borderRadius: BorderRadius.circular(
+                                          (MediaQuery.of(context).size.height +
+                                                  MediaQuery.of(context)
+                                                      .size
+                                                      .width) /
+                                              2 *
+                                              .02),
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: <Widget>[
+                                        Image(
+                                            image: AssetImage(
+                                                "lib/icons/modern_white_500.png"),
+                                            height: (MediaQuery.of(context)
+                                                        .size
+                                                        .height +
+                                                    MediaQuery.of(context)
+                                                        .size
+                                                        .width) /
+                                                2 *
+                                                .06,
+                                            width: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .04),
+                                        Text(
+                                          " " +
+                                              AppLocalizations.of(context)
+                                                  .translate('minimal'),
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: MediaQuery.of(context)
+                                                      .size
+                                                      .width *
+                                                  .05),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              )),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ],
             );
           } else {
-            return SleekCircularSlider(
+            return Center(child: SleekCircularSlider(
               appearance: CircularSliderAppearance(
                 spinnerMode: true,
                 size: (MediaQuery.of(context).size.height +
@@ -461,7 +465,7 @@ class viewSelectorState extends State<viewSelector> {
                     Color(0xff13547a),
                   ],
                 ),
-              ),
+              ),),
             );
           }
         });
@@ -474,7 +478,8 @@ class viewSelectorState extends State<viewSelector> {
           passedElements: passedElements,
         );
       case viewMarker.minimal:
-        return minimalView( //minimalView(
+        return minimalView(
+          //minimalView(
           passedElements: passedElements,
         );
     }

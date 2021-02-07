@@ -232,7 +232,7 @@ class originalView extends StatelessWidget {
             );
           }
         } else {
-          return SleekCircularSlider(
+          return Center(child: SleekCircularSlider(
             appearance: CircularSliderAppearance(
               spinnerMode: true,
               size: (MediaQuery.of(context).size.height +
@@ -247,7 +247,7 @@ class originalView extends StatelessWidget {
                   Color(0xff13547a),
                 ],
               ),
-            ),
+            ),),
           );
         }
       },

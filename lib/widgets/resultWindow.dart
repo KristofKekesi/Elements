@@ -184,9 +184,7 @@ class searchResults extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Padding(
-          padding: EdgeInsets.only(bottom: bottomPadding * .0),
-          child: Stack(
+        child: Stack(
             children: <Widget>[
               viewSelector(
                 bottomPadding: bottomPadding,
@@ -279,35 +277,36 @@ class searchResults extends StatelessWidget {
                                     fontWeight: FontWeight.bold),
                                 maxLines: 1,
                               ),
-                            ],
-                          ),
-                          Padding(
-                            padding: EdgeInsets.only(
-                                right: MediaQuery.of(context).size.width * .01),
-                            child: IgnorePointer(
-                              ignoring: stateElectronnegativity == false &&
+                              Padding(
+                                padding: EdgeInsets.only(
+                                    left: MediaQuery.of(context).size.width * .03,
+                                    right: MediaQuery.of(context).size.width * .03),
+                                child: IgnorePointer(
+                                  ignoring: stateElectronnegativity == false &&
                                       stateTypes == false &&
                                       stateAtomicnumber == false &&
                                       stateConstructors == false &&
                                       stateWeight == false &&
                                       stateIsotopenum == false &&
                                       stateProof == false ||
-                                  proof == true && hypothetical == false,
-                              child: Opacity(
-                                opacity: indicatorOpacity(),
-                                child: Tooltip(
-                                  message: activeSelectorNum(context),
-                                  child: Image(
-                                      image: AssetImage(
-                                          "lib/icons/triangle_yellow_500.png"),
-                                      height:
+                                      proof == true && hypothetical == false,
+                                  child: Opacity(
+                                    opacity: indicatorOpacity(),
+                                    child: Tooltip(
+                                      message: activeSelectorNum(context),
+                                      child: Image(
+                                          image: AssetImage(
+                                              "lib/icons/triangle_yellow_500.png"),
+                                          height:
                                           MediaQuery.of(context).size.width *
                                               .095,
-                                      width: MediaQuery.of(context).size.width *
-                                          .095),
+                                          width: MediaQuery.of(context).size.width *
+                                              .095),
+                                    ),
+                                  ),
                                 ),
                               ),
-                            ),
+                            ],
                           ),
                         ],
                       ),
@@ -318,7 +317,6 @@ class searchResults extends StatelessWidget {
             ],
           ),
         ),
-      ),
     );
   }
 }

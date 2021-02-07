@@ -193,16 +193,12 @@ class minimalView extends StatelessWidget {
                                             Row(
                                               mainAxisAlignment: MainAxisAlignment.start,
                                               children: <Widget>[
-                                                Tooltip(
-                                                    message: AppLocalizations.of(context)
-                                                        .translate("back"),
-                                                    child: Image(
+                                                Image(
                                                         image: AssetImage("lib/icons/left_500.png"),
                                                         height:
                                                         MediaQuery.of(context).size.width * .105,
                                                         width:
                                                         MediaQuery.of(context).size.width * .105),
-                                                  ),
                                                 AutoSizeText(
                                                   " " +
                                                       AppLocalizations.of(context)
@@ -219,11 +215,48 @@ class minimalView extends StatelessWidget {
                                             ),
                                           ],
                                         ),),),
-                                        new Wrap(
+                                        Wrap(
                                           direction: Axis.horizontal,
                                           spacing: 0,
                                           runSpacing: 0,
                                           children: listElements,
+                                        ),
+                                        Align(
+                                          alignment: Alignment.bottomCenter,
+                                          child: Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: <Widget>[
+                                                  Padding(
+                                                      padding: EdgeInsets.only(
+                                                        left:
+                                                        MediaQuery.of(context).size.width * .1,
+                                                      ),
+                                                      child: Container(
+                                                          width: MediaQuery.of(context).size.width *
+                                                              .35,
+                                                          height:
+                                                          MediaQuery.of(context).size.width *
+                                                              .18,
+                                                        ),
+
+                                                  ),
+                                                 Padding(
+                                                          padding: EdgeInsets.only(
+                                                            right:
+                                                            MediaQuery.of(context).size.width *
+                                                                .1,
+                                                          ),
+                                                          child: Container(
+                                                            width:
+                                                            MediaQuery.of(context).size.width *
+                                                                .35,
+                                                            height:
+                                                            MediaQuery.of(context).size.width *
+                                                                .18,
+                                                          ),
+                                                        ),
+                                                ],
+                                              ),
                                         ),
                                       ],
                                     ),
@@ -241,7 +274,7 @@ class minimalView extends StatelessWidget {
                 );
               }
             } else {
-              return SleekCircularSlider(
+              return Center(child: SleekCircularSlider(
                 appearance: CircularSliderAppearance(
                   spinnerMode: true,
                   size: (MediaQuery.of(context).size.height +
@@ -256,7 +289,7 @@ class minimalView extends StatelessWidget {
                       Color(0xff13547a),
                     ],
                   ),
-                ),
+                ),),
               );
             }
           },

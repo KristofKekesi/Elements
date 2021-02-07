@@ -5,7 +5,6 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
-import 'package:flutter_conditional_rendering/conditional.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 import 'elementPopup.dart';
@@ -47,27 +46,32 @@ class cardView extends StatelessWidget {
                           builder: (context) {
                             return ElementPopup(
                               context: context,
-                              name: elementList[index][AppLocalizations.of(context).translate("key")],
+                              name: elementList[index][
+                                  AppLocalizations.of(context)
+                                      .translate("key")],
                               symbol: elementList[index]["element"],
                               number: elementList[index]["number"],
                               consistency: elementList[index]["consistency"],
                               discovery: elementList[index]["discovery"],
-                              electronnegativity: elementList[index]["electronnegativity"],
+                              electronnegativity: elementList[index]
+                                  ["electronnegativity"],
                               block: elementList[index]["block"],
                               weight: elementList[index]["weight"],
-                              radioactivity: elementList[index]["radioactivity"],
+                              radioactivity: elementList[index]
+                                  ["radioactivity"],
                               gamma: elementList[index]["gamma"],
                               beta: elementList[index]["beta"],
                               alpha: elementList[index]["alpha"],
-                              multipleRadiationEmitters: elementList[index]["multipleRadiationEmitters"],
+                              multipleRadiationEmitters: elementList[index]
+                                  ["multipleRadiationEmitters"],
                               type: elementList[index]["type"],
                               isotopeNum: elementList[index]["isotopeNum"],
                               isotopesSrc: elementList[index]["isotopesSrc"],
-                              chargedComponents: elementList[index]["chargedComponent"],
+                              chargedComponents: elementList[index]
+                                  ["chargedComponent"],
                               neutron: elementList[index]["neutron"],
                             );
-                          }
-                      );
+                          });
                     }
                   },
                   onTap: () {
@@ -77,27 +81,30 @@ class cardView extends StatelessWidget {
                         builder: (context) {
                           return ElementPopup(
                             context: context,
-                            name: elementList[index][AppLocalizations.of(context).translate("key")],
+                            name: elementList[index]
+                                [AppLocalizations.of(context).translate("key")],
                             symbol: elementList[index]["element"],
                             number: elementList[index]["number"],
                             consistency: elementList[index]["consistency"],
                             discovery: elementList[index]["discovery"],
-                            electronnegativity: elementList[index]["electronnegativity"],
+                            electronnegativity: elementList[index]
+                                ["electronnegativity"],
                             block: elementList[index]["block"],
                             weight: elementList[index]["weight"],
                             radioactivity: elementList[index]["radioactivity"],
                             gamma: elementList[index]["gamma"],
                             beta: elementList[index]["beta"],
                             alpha: elementList[index]["alpha"],
-                            multipleRadiationEmitters: elementList[index]["multipleRadiationEmitters"],
+                            multipleRadiationEmitters: elementList[index]
+                                ["multipleRadiationEmitters"],
                             type: elementList[index]["type"],
                             isotopeNum: elementList[index]["isotopeNum"],
                             isotopesSrc: elementList[index]["isotopesSrc"],
-                            chargedComponents: elementList[index]["chargedComponent"],
+                            chargedComponents: elementList[index]
+                                ["chargedComponent"],
                             neutron: elementList[index]["neutron"],
                           );
-                        }
-                    );
+                        });
                   },
                   child: Container(
                     margin: EdgeInsets.only(
@@ -117,10 +124,8 @@ class cardView extends StatelessWidget {
                                     2 *
                                     .02 +
                                 10)),
-                    height: MediaQuery.of(context).size.height * .9,
                     width: MediaQuery.of(context).size.width * .8,
                     child: new Column(
-                      //crossAxisAlignment: CrossAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -268,27 +273,106 @@ class cardView extends StatelessWidget {
               ),
             );
           } else {
-            return Padding(
-              padding: EdgeInsets.only(
-                bottom: MediaQuery.of(context).size.height * .035,
-              ),
-              child: Tooltip(
-                message:
-                    AppLocalizations.of(context).translate("moreAboutElement"),
-                child: NotificationListener<OverscrollIndicatorNotification>(
-        onNotification: (OverscrollIndicatorNotification overscroll) {
-        overscroll.disallowGlow();
-        },child: ListView(
-                  shrinkWrap: true,
-                  scrollDirection: Axis.horizontal,
-                  children: listElements,
+            return Container(
+                height: MediaQuery.of(context).size.height,
+                child: Column(
+              children: <Widget>[
+                Container(
+                    height:
+                    MediaQuery.of(context).size.height *
+                        .04),
+                Opacity(
+                  opacity: 0,
+                  child:
+                  Padding(
+                    padding: EdgeInsets.only(
+                      left: MediaQuery.of(context).size.width * .1 - MediaQuery.of(context).size.width * .02,
+                      right: MediaQuery.of(context).size.width * .1 - MediaQuery.of(context).size.width * .02,
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: <Widget>[
+                            Image(
+                                image: AssetImage("lib/icons/left_500.png"),
+                                height:
+                                MediaQuery.of(context).size.width * .105,
+                                width:
+                                MediaQuery.of(context).size.width * .105),
+                            AutoSizeText(
+                              " " +
+                                  AppLocalizations.of(context)
+                                      .translate('titleElements'),
+                              textAlign: TextAlign.left,
+                              style: new TextStyle(
+                                  color: Colors.black,
+                                  fontSize:
+                                  MediaQuery.of(context).size.width * .12,
+                                  fontWeight: FontWeight.bold),
+                              maxLines: 1,
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),),),
+                Expanded(child: Tooltip(
+                  message: AppLocalizations.of(context)
+                      .translate("moreAboutElement"),
+                  child: NotificationListener<OverscrollIndicatorNotification>(
+                    onNotification:
+                        (OverscrollIndicatorNotification overscroll) {
+                      overscroll.disallowGlow();
+                    },
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(children: listElements),
+                    ),
+                  ),),
                 ),
-              ),
-              ),
-            );
+                Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(
+                          left: MediaQuery.of(context).size.width * .1,
+                          top: MediaQuery.of(context).size.width * .1,
+                        ),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width *
+                              .35,
+                          height:
+                          MediaQuery.of(context).size.width *
+                              .18,
+                        ),
+
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(
+                          right:
+                          MediaQuery.of(context).size.width *
+                              .1,
+                        ),
+                        child: Container(
+                          width:
+                          MediaQuery.of(context).size.width *
+                              .35,
+                          height:
+                          MediaQuery.of(context).size.width *
+                              .18,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),);
           }
         } else {
-          return SleekCircularSlider(
+          return Center(child: SleekCircularSlider(
             appearance: CircularSliderAppearance(
               spinnerMode: true,
               size: (MediaQuery.of(context).size.height +
@@ -303,7 +387,7 @@ class cardView extends StatelessWidget {
                   Color(0xff13547a),
                 ],
               ),
-            ),
+            ),),
           );
         }
       },
