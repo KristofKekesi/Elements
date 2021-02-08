@@ -28,7 +28,7 @@ Latest release: __0.4.2__
 
 ## Beta program <img src="https://img.shields.io/badge/Open-green.svg" alt="">
 #### To aply:
-Send an email to kristofkekesiofficial@gmail.com with your name and email address and some sentences about yourself and why are you interested in the app.
+Send an email to kristofkekesiofficial@gmail.com with your name and email address and some sentences about why are you interested in the app.
 #### Requirements:
 - Phone or tablet with Android
 - Google Drive
