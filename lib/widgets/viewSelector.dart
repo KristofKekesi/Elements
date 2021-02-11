@@ -41,11 +41,11 @@ class viewSelector extends StatefulWidget {
   final bool typesUnknown;
 
   @required
-  final double electronnegativityMin;
+  final double electronegativityMin;
   @required
-  final double electronnegativityMax;
+  final double electronegativityMax;
   @required
-  final bool electronnegativityUnknown;
+  final bool electronegativityUnknown;
 
   @required
   final int atomicnumberMin;
@@ -83,7 +83,7 @@ class viewSelector extends StatefulWidget {
   final bool hypothetical;
 
   @required
-  final bool stateElectronnegativity;
+  final bool stateElectronegativity;
   @required
   final bool stateTypes;
   @required
@@ -110,9 +110,9 @@ class viewSelector extends StatefulWidget {
       this.typesLanthanoids,
       this.typesActinoids,
       this.typesUnknown,
-      this.electronnegativityMin,
-      this.electronnegativityMax,
-      this.electronnegativityUnknown,
+      this.electronegativityMin,
+      this.electronegativityMax,
+      this.electronegativityUnknown,
       this.atomicnumberMin,
       this.atomicnumberMax,
       this.constructorsProtonMin,
@@ -123,7 +123,7 @@ class viewSelector extends StatefulWidget {
       this.constructorsNeutronMax,
       this.weightMin,
       this.weightMax,
-      this.stateElectronnegativity,
+      this.stateElectronegativity,
       this.stateTypes,
       this.stateAtomicnumber,
       this.stateConstructors,
@@ -161,16 +161,16 @@ class viewSelectorState extends State<viewSelector> {
             for (var index = 0; index < elementList.length; index++) {
               bool passed = true;
 
-              if (stateElectronnegativity == true) {
-                if (electronnegativityUnknown == true &&
-                        elementList[index]['electronnegativity'] == 'unknown' ||
-                    elementList[index]['electronnegativity'] != 'unknown' &&
-                        electronnegativityMin <=
+              if (stateElectronegativity == true) {
+                if (electronegativityUnknown == true &&
+                        elementList[index]['electronegativity'] == 'unknown' ||
+                    elementList[index]['electronegativity'] != 'unknown' &&
+                        electronegativityMin <=
                             num.parse(
-                                elementList[index]['electronnegativity']) &&
-                        electronnegativityMax >=
+                                elementList[index]['electronegativity']) &&
+                        electronegativityMax >=
                             num.parse(
-                                elementList[index]['electronnegativity'])) {
+                                elementList[index]['electronegativity'])) {
                 } else {
                   passed = false;
                 }

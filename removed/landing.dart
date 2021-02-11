@@ -318,12 +318,12 @@
 //                                                     typesLanthanoids,
 //                                                 typesActionids: typesActinoids,
 //                                                 typesUnknown: typesUnknown,
-//                                                 electronnegativityMin:
-//                                                     electronnegativityMin,
-//                                                 electronnegativityMax:
-//                                                     electronnegativityMax,
-//                                                 electronnegativityUnknown:
-//                                                     electronnegativityUnknown,
+//                                                 electronegativityMin:
+//                                                     electronegativityMin,
+//                                                 electronegativityMax:
+//                                                     electronegativityMax,
+//                                                 electronegativityUnknown:
+//                                                     electronegativityUnknown,
 //                                                 atomicnumberMin:
 //                                                     atomicnumberMin,
 //                                                 atomicnumberMax:
@@ -342,8 +342,8 @@
 //                                                     constructorsNeutronMax,
 //                                                 weightMin: weightMin,
 //                                                 weightMax: weightMax,
-//                                                 stateElectronnegativity:
-//                                                     stateElectronnegativity,
+//                                                 stateElectronegativity:
+//                                                     stateElectronegativity,
 //                                                 stateTypes: stateTypes,
 //                                                 stateAtomicnumber:
 //                                                     stateAtomicnumber,

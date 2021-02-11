@@ -53,8 +53,8 @@ class cardView extends StatelessWidget {
                               number: elementList[index]["number"],
                               consistency: elementList[index]["consistency"],
                               discovery: elementList[index]["discovery"],
-                              electronnegativity: elementList[index]
-                                  ["electronnegativity"],
+                              electronegativity: elementList[index]
+                                  ["electronegativity"],
                               block: elementList[index]["block"],
                               weight: elementList[index]["weight"],
                               radioactivity: elementList[index]
@@ -87,8 +87,8 @@ class cardView extends StatelessWidget {
                             number: elementList[index]["number"],
                             consistency: elementList[index]["consistency"],
                             discovery: elementList[index]["discovery"],
-                            electronnegativity: elementList[index]
-                                ["electronnegativity"],
+                            electronegativity: elementList[index]
+                                ["electronegativity"],
                             block: elementList[index]["block"],
                             weight: elementList[index]["weight"],
                             radioactivity: elementList[index]["radioactivity"],
@@ -249,7 +249,7 @@ class cardView extends StatelessWidget {
           ));
 
           if (pass == 0) {
-            return Container(
+            return Center(child: Container(
               width: MediaQuery.of(context).size.width * .8,
               height: MediaQuery.of(context).size.height * .5,
               child: Column(
@@ -270,7 +270,7 @@ class cardView extends StatelessWidget {
                         fontSize: MediaQuery.of(context).size.width * .06),
                   ),
                 ],
-              ),
+              ),),
             );
           } else {
             return Container(

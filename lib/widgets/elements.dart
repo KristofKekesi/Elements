@@ -48,16 +48,16 @@ bool typesActinoids = true;
 bool typesUnknown = true;
 
 // e-
-double defElectronnegativityMin = 0;
-double defElectronnegativityMax = 4;
-bool defElectronnegativityUnknown = true;
+double defElectronegativityMin = 0;
+double defElectronegativityMax = 4;
+bool defElectronegativityUnknown = true;
 
-bool stateElectronnegativity = false;
-bool enabledElectronnegativity = false;
+bool stateElectronegativity = false;
+bool enabledElectronegativity = false;
 
-double electronnegativityMin = 0;
-double electronnegativityMax = 4;
-bool electronnegativityUnknown = true;
+double electronegativityMin = 0;
+double electronegativityMax = 4;
+bool electronegativityUnknown = true;
 
 // atomic number
 int settingAtomicnumberMin = 1;
@@ -125,7 +125,7 @@ bool proof = true;
 bool hypothetical = false;
 
 void checkResetVisibility() {
-  if (enabledElectronnegativity == true ||
+  if (enabledElectronegativity == true ||
       enabledTypes == true ||
       enabledAtomicnumber == true ||
       enabledConstructors == true ||
@@ -151,16 +151,16 @@ class elements extends StatefulWidget {
 
 // ignore: camel_case_types
 class _elementsState extends State<elements> {
-  void setElectronnegativity() {
+  void setElectronegativity() {
     setState(() {
-      if (electronnegativityUnknown == defElectronnegativityUnknown &&
-          electronnegativityMin == defElectronnegativityMin &&
-          electronnegativityMax == defElectronnegativityMax) {
-        stateElectronnegativity = false;
-        enabledElectronnegativity = false;
+      if (electronegativityUnknown == defElectronegativityUnknown &&
+          electronegativityMin == defElectronegativityMin &&
+          electronegativityMax == defElectronegativityMax) {
+        stateElectronegativity = false;
+        enabledElectronegativity = false;
       } else {
-        stateElectronnegativity = true;
-        enabledElectronnegativity = true;
+        stateElectronegativity = true;
+        enabledElectronegativity = true;
       }
     });
   }
@@ -445,7 +445,7 @@ class _elementsState extends State<elements> {
                                                               AppLocalizations.of(
                                                                           context)
                                                                       .translate(
-                                                                          'electronnegativitySelector') +
+                                                                          'electronegativitySelector') +
                                                                   ':',
                                                               style: TextStyle(
                                                                 color: Colors
@@ -463,7 +463,7 @@ class _elementsState extends State<elements> {
                                                           ),
                                                           SleekCircularSlider(
                                                             initialValue:
-                                                                electronnegativityMin,
+                                                                electronegativityMin,
                                                             min: 0,
                                                             max: 4,
                                                             appearance:
@@ -530,24 +530,24 @@ class _elementsState extends State<elements> {
                                                             ),
                                                             onChangeEnd: (v) {
                                                               setState(() {
-                                                                electronnegativityMin =
+                                                                electronegativityMin =
                                                                     num.parse(v
                                                                         .toStringAsFixed(
                                                                             2));
 
-                                                                if (electronnegativityMin == defElectronnegativityMin &&
-                                                                    electronnegativityMax ==
-                                                                        defElectronnegativityMax &&
-                                                                    electronnegativityUnknown ==
-                                                                        defElectronnegativityUnknown) {
-                                                                  stateElectronnegativity =
+                                                                if (electronegativityMin == defElectronegativityMin &&
+                                                                    electronegativityMax ==
+                                                                        defElectronegativityMax &&
+                                                                    electronegativityUnknown ==
+                                                                        defElectronegativityUnknown) {
+                                                                  stateElectronegativity =
                                                                       false;
-                                                                  enabledElectronnegativity =
+                                                                  enabledElectronegativity =
                                                                       false;
                                                                 } else {
-                                                                  stateElectronnegativity =
+                                                                  stateElectronegativity =
                                                                       true;
-                                                                  enabledElectronnegativity =
+                                                                  enabledElectronegativity =
                                                                       true;
                                                                   resetVisibility =
                                                                       true;
@@ -559,7 +559,7 @@ class _elementsState extends State<elements> {
                                                           ),
                                                           SleekCircularSlider(
                                                             initialValue:
-                                                                electronnegativityMax,
+                                                                electronegativityMax,
                                                             min: 0,
                                                             max: 4,
                                                             appearance:
@@ -621,24 +621,24 @@ class _elementsState extends State<elements> {
                                                             ),
                                                             onChangeEnd: (v) {
                                                               setState(() {
-                                                                electronnegativityMax =
+                                                                electronegativityMax =
                                                                     num.parse(v
                                                                         .toStringAsFixed(
                                                                             2));
 
-                                                                if (electronnegativityMin == defElectronnegativityMin &&
-                                                                    electronnegativityMax ==
-                                                                        defElectronnegativityMax &&
-                                                                    electronnegativityUnknown ==
-                                                                        defElectronnegativityUnknown) {
-                                                                  stateElectronnegativity =
+                                                                if (electronegativityMin == defElectronegativityMin &&
+                                                                    electronegativityMax ==
+                                                                        defElectronegativityMax &&
+                                                                    electronegativityUnknown ==
+                                                                        defElectronegativityUnknown) {
+                                                                  stateElectronegativity =
                                                                       false;
-                                                                  enabledElectronnegativity =
+                                                                  enabledElectronegativity =
                                                                       false;
                                                                 } else {
-                                                                  stateElectronnegativity =
+                                                                  stateElectronegativity =
                                                                       true;
-                                                                  enabledElectronnegativity =
+                                                                  enabledElectronegativity =
                                                                       true;
                                                                 }
                                                               });
@@ -656,7 +656,7 @@ class _elementsState extends State<elements> {
                                                                   Capitalizate(AppLocalizations.of(
                                                                           context)
                                                                       .translate(
-                                                                          'unknownelectronnegativity')),
+                                                                          'unknownelectronegativity')),
                                                                   style: TextStyle(
                                                                       fontWeight:
                                                                           FontWeight
@@ -678,14 +678,14 @@ class _elementsState extends State<elements> {
                                                                         255,
                                                                         0),
                                                                 value:
-                                                                    electronnegativityUnknown,
+                                                                    electronegativityUnknown,
                                                                 onChanged: (bool
                                                                     value) {
                                                                   setState(() {
-                                                                    electronnegativityUnknown =
+                                                                    electronegativityUnknown =
                                                                         value;
 
-                                                                    setElectronnegativity();
+                                                                    setElectronegativity();
                                                                     checkResetVisibility();
                                                                   });
                                                                 },
@@ -709,14 +709,14 @@ class _elementsState extends State<elements> {
                                     child: Tooltip(
                                       message: AppLocalizations.of(context)
                                           .translate(
-                                              'electronnegativitySelector'),
+                                              'electronegativitySelector'),
                                       child: Row(
                                         mainAxisAlignment:
                                             MainAxisAlignment.spaceBetween,
                                         children: <Widget>[
                                           Text(
                                             AppLocalizations.of(context).translate(
-                                                'electronnegativityMinSelector'),
+                                                'electronegativityMinSelector'),
                                             style: TextStyle(
                                               fontWeight: FontWeight.bold,
                                               fontSize: MediaQuery.of(context)
@@ -736,7 +736,7 @@ class _elementsState extends State<elements> {
                                                     StateSetter setState) {
                                                   return Opacity(
                                                     opacity:
-                                                        enabledElectronnegativity
+                                                        enabledElectronegativity
                                                             ? 1
                                                             : 0,
                                                     child: Checkbox(
@@ -744,13 +744,13 @@ class _elementsState extends State<elements> {
                                                           Color.fromRGBO(
                                                               255, 255, 255, 0),
                                                       value:
-                                                          stateElectronnegativity,
+                                                          stateElectronegativity,
                                                       onChanged:
-                                                          enabledElectronnegativity
+                                                          enabledElectronegativity
                                                               ? (bool value) {
                                                                   setState(
                                                                     () {
-                                                                      stateElectronnegativity =
+                                                                      stateElectronegativity =
                                                                           value;
                                                                     },
                                                                   );
@@ -3399,12 +3399,12 @@ class _elementsState extends State<elements> {
                                     typesActinoids = defTypesActinoids;
                                     typesUnknown = defTypesUnknown;
 
-                                    electronnegativityMin =
-                                        defElectronnegativityMin;
-                                    electronnegativityMax =
-                                        defElectronnegativityMax;
-                                    electronnegativityUnknown =
-                                        defElectronnegativityUnknown;
+                                    electronegativityMin =
+                                        defElectronegativityMin;
+                                    electronegativityMax =
+                                        defElectronegativityMax;
+                                    electronegativityUnknown =
+                                        defElectronegativityUnknown;
 
                                     atomicnumberMin = defAtomicnumberMin;
                                     atomicnumberMax = defAtomicnumberMax;
@@ -3433,14 +3433,14 @@ class _elementsState extends State<elements> {
                                     proof = defProof;
                                     hypothetical = defHypothetical;
 
-                                    stateElectronnegativity = false;
+                                    stateElectronegativity = false;
                                     stateTypes = false;
                                     stateAtomicnumber = false;
                                     stateConstructors = false;
                                     stateWeight = false;
                                     stateIsotopenum = false;
 
-                                    enabledElectronnegativity = false;
+                                    enabledElectronegativity = false;
                                     enabledTypes = false;
                                     enabledAtomicnumber = false;
                                     enabledConstructors = false;
@@ -3502,9 +3502,9 @@ class _elementsState extends State<elements> {
                         typesLanthanoids: typesLanthanoids,
                         typesActionids: typesActinoids,
                         typesUnknown: typesUnknown,
-                        electronnegativityMin: electronnegativityMin,
-                        electronnegativityMax: electronnegativityMax,
-                        electronnegativityUnknown: electronnegativityUnknown,
+                        electronegativityMin: electronegativityMin,
+                        electronegativityMax: electronegativityMax,
+                        electronegativityUnknown: electronegativityUnknown,
                         atomicnumberMin: atomicnumberMin,
                         atomicnumberMax: atomicnumberMax,
                         constructorsProtonMin: constructorsProtonMin,
@@ -3519,7 +3519,7 @@ class _elementsState extends State<elements> {
                         isotopenumMax: isotopenumMax,
                         proof: proof,
                         hypothetical: hypothetical,
-                        stateElectronnegativity: stateElectronnegativity,
+                        stateElectronegativity: stateElectronegativity,
                         stateTypes: stateTypes,
                         stateAtomicnumber: stateAtomicnumber,
                         stateConstructors: stateConstructors,

@@ -33,11 +33,11 @@ class searchResults extends StatelessWidget {
   final bool typesUnknown;
 
   @required
-  final double electronnegativityMin;
+  final double electronegativityMin;
   @required
-  final double electronnegativityMax;
+  final double electronegativityMax;
   @required
-  final bool electronnegativityUnknown;
+  final bool electronegativityUnknown;
 
   @required
   final int atomicnumberMin;
@@ -75,7 +75,7 @@ class searchResults extends StatelessWidget {
   final bool hypothetical;
 
   @required
-  final bool stateElectronnegativity;
+  final bool stateElectronegativity;
   @required
   final bool stateTypes;
   @required
@@ -102,9 +102,9 @@ class searchResults extends StatelessWidget {
       this.typesLanthanoids,
       this.typesActionids,
       this.typesUnknown,
-      this.electronnegativityMin,
-      this.electronnegativityMax,
-      this.electronnegativityUnknown,
+      this.electronegativityMin,
+      this.electronegativityMax,
+      this.electronegativityUnknown,
       this.atomicnumberMin,
       this.atomicnumberMax,
       this.constructorsProtonMin,
@@ -115,7 +115,7 @@ class searchResults extends StatelessWidget {
       this.constructorsNeutronMax,
       this.weightMin,
       this.weightMax,
-      this.stateElectronnegativity,
+      this.stateElectronegativity,
       this.stateTypes,
       this.stateAtomicnumber,
       this.stateConstructors,
@@ -129,7 +129,7 @@ class searchResults extends StatelessWidget {
       : super(key: key);
 
   double indicatorOpacity() {
-    if (stateElectronnegativity == true ||
+    if (stateElectronegativity == true ||
         stateTypes == true ||
         stateAtomicnumber == true ||
         stateConstructors == true ||
@@ -146,7 +146,7 @@ class searchResults extends StatelessWidget {
   // ignore: missing_return
   String activeSelectorNum(context) {
     int num = 0;
-    if (stateElectronnegativity == true) {
+    if (stateElectronegativity == true) {
       num += 1;
     }
     if (stateTypes == true) {
@@ -198,9 +198,9 @@ class searchResults extends StatelessWidget {
                 typesLanthanoids: typesLanthanoids,
                 typesActinoids: typesActionids,
                 typesUnknown: typesUnknown,
-                electronnegativityMin: electronnegativityMin,
-                electronnegativityMax: electronnegativityMax,
-                electronnegativityUnknown: electronnegativityUnknown,
+                electronegativityMin: electronegativityMin,
+                electronegativityMax: electronegativityMax,
+                electronegativityUnknown: electronegativityUnknown,
                 atomicnumberMin: atomicnumberMin,
                 atomicnumberMax: atomicnumberMax,
                 constructorsProtonMin: constructorsProtonMin,
@@ -215,7 +215,7 @@ class searchResults extends StatelessWidget {
                 isotopenumMax: isotopenumMax,
                 proof: proof,
                 hypothetical: hypothetical,
-                stateElectronnegativity: stateElectronnegativity,
+                stateElectronegativity: stateElectronegativity,
                 stateTypes: stateTypes,
                 stateAtomicnumber: stateAtomicnumber,
                 stateConstructors: stateConstructors,
@@ -282,7 +282,7 @@ class searchResults extends StatelessWidget {
                                     left: MediaQuery.of(context).size.width * .03,
                                     right: MediaQuery.of(context).size.width * .03),
                                 child: IgnorePointer(
-                                  ignoring: stateElectronnegativity == false &&
+                                  ignoring: stateElectronegativity == false &&
                                       stateTypes == false &&
                                       stateAtomicnumber == false &&
                                       stateConstructors == false &&

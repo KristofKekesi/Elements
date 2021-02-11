@@ -48,7 +48,7 @@ class originalView extends StatelessWidget {
                             number: elementList[index]["number"],
                             consistency: elementList[index]["consistency"],
                             discovery: elementList[index]["discovery"],
-                            electronnegativity: elementList[index]["electronnegativity"],
+                            electronegativity: elementList[index]["electronegativity"],
                             block: elementList[index]["block"],
                             weight: elementList[index]["weight"],
                             radioactivity: elementList[index]["radioactivity"],

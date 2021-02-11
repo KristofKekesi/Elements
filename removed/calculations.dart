@@ -145,7 +145,7 @@
 //                                 width: MediaQuery.of(context).size.width,
 //                                 child: Tooltip(
 //                                   message: AppLocalizations.of(context)
-//                                       .translate('electronnegativitySelector'),
+//                                       .translate('electronegativitySelector'),
 //                                   child: AutoSizeText(
 //                                     'Mass (m)',
 //                                     style: TextStyle(

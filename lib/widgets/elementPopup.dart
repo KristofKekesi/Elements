@@ -15,7 +15,7 @@ class ElementPopup extends StatelessWidget {
   final int number;
   final String consistency;
   final String discovery;
-  final String electronnegativity;
+  final String electronegativity;
   final String block;
   final String weight;
   final String radioactivity;
@@ -36,7 +36,7 @@ class ElementPopup extends StatelessWidget {
     this.symbol,
     this.number,
     this.consistency,
-    this.electronnegativity,
+    this.electronegativity,
     this.block,
     this.weight,
     this.radioactivity,
@@ -52,13 +52,11 @@ class ElementPopup extends StatelessWidget {
     this.discovery,
   }) : super(key: key);
 
-  // ignore: non_constant_identifier_names
   String Capitalizate(input) {
     return input[0].toUpperCase() + input.substring(1);
   }
 
-  // ignore: non_constant_identifier_names
-  String ElectronnegativityText(input) {
+  String electronegativityText(input) {
     if (input == 'unknown') {
       return Capitalizate(AppLocalizations.of(context).translate('unknown'));
     } else {
@@ -97,6 +95,8 @@ class ElementPopup extends StatelessWidget {
     if (discovery == "ancient") {
       return ' ' +
           Capitalizate(AppLocalizations.of(context).translate("ancient"));
+    } else if (discovery == "hypothetical") {
+      return ' ' + Capitalizate(AppLocalizations.of(context).translate("hypothetical"));
     } else {
       return ' ' + discovery;
     }
@@ -396,12 +396,12 @@ class ElementPopup extends StatelessWidget {
                             ),
                             child: Tooltip(
                               message: AppLocalizations.of(context)
-                                  .translate("electronnegativity"),
+                                  .translate("electronegativity"),
                               child: Text(
                                 AppLocalizations.of(context)
-                                        .translate("electronnegativityPre") +
+                                        .translate("electronegativityPre") +
                                     ": " +
-                                    electronnegativity,
+                                    electronegativity,
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -1457,7 +1457,7 @@ class ElementPopup extends StatelessWidget {
                             ),
                             child: Tooltip(
                               message: AppLocalizations.of(context)
-                                  .translate('electronnumber'),
+                                  .translate('electronumber'),
                               child: Text(
                                 AppLocalizations.of(context)
                                         .translate('electrons') +

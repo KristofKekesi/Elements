@@ -148,7 +148,7 @@
 //                                   child: Tooltip(
 //                                     message: AppLocalizations.of(context)
 //                                         .translate(
-//                                             'electronnegativitySelector'),
+//                                             'electronegativitySelector'),
 //                                     child: AutoSizeText(
 //                                       'Molar mass (M) and Mass (m)',
 //                                       style: TextStyle(
