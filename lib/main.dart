@@ -6,18 +6,24 @@ import 'package:flutter/material.dart';
 
 import 'package:elements_rework/widgets/build.dart';
 
+class NoScrollGlow extends ScrollBehavior {
+  @override
+  Widget buildViewportChrome(
+      BuildContext context, Widget child, AxisDirection axisDirection) {
+    return child;
+  }
+}
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
-
   @override
   _MyAppState createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
-  void initState(){
+  void initState() {
     super.initState();
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitDown,
@@ -28,6 +34,12 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      builder: (context, child) {
+        return ScrollConfiguration(
+          behavior: NoScrollGlow(),
+          child: child,
+        );
+      },
       localizationsDelegates: [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
@@ -69,7 +81,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Splash();

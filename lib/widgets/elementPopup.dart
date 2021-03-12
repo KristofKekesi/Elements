@@ -96,7 +96,8 @@ class ElementPopup extends StatelessWidget {
       return ' ' +
           Capitalizate(AppLocalizations.of(context).translate("ancient"));
     } else if (discovery == "hypothetical") {
-      return ' ' + Capitalizate(AppLocalizations.of(context).translate("hypothetical"));
+      return ' ' +
+          Capitalizate(AppLocalizations.of(context).translate("hypothetical"));
     } else {
       return ' ' + discovery;
     }
@@ -139,37 +140,34 @@ class ElementPopup extends StatelessWidget {
         initialChildSize: .56,
         maxChildSize: 1,
         builder: (BuildContext context, scrollController) {
-          return NotificationListener<OverscrollIndicatorNotification>(
-            // ignore: missing_return
-            onNotification: (OverscrollIndicatorNotification overscroll) {
-              overscroll.disallowGlow();
-            },
-            child: SingleChildScrollView(
-              controller: scrollController,
-              child: ClipRRect(
-                borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(
-                    (MediaQuery.of(context).size.height +
+          return SingleChildScrollView(
+            controller: scrollController,
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(
+                  (MediaQuery.of(context).size.height +
+                          MediaQuery.of(context).size.width) /
+                      2 *
+                      .1,
+                ),
+                topRight: Radius.circular((MediaQuery.of(context).size.height +
+                        MediaQuery.of(context).size.width) /
+                    2 *
+                    .1),
+              ),
+              child: BackdropFilter(
+                filter: ImageFilter.blur(
+                    sigmaX: (MediaQuery.of(context).size.height +
                             MediaQuery.of(context).size.width) /
                         2 *
-                        .1,
-                  ),
-                  topRight: Radius.circular(
-                      (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .1),
-                ),
-                child: BackdropFilter(
-                  filter: ImageFilter.blur(
-                      sigmaX: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .05,
-                      sigmaY: (MediaQuery.of(context).size.height +
-                              MediaQuery.of(context).size.width) /
-                          2 *
-                          .05),
+                        .05,
+                    sigmaY: (MediaQuery.of(context).size.height +
+                            MediaQuery.of(context).size.width) /
+                        2 *
+                        .05),
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(
+                      minHeight: MediaQuery.of(context).size.height),
                   child: Container(
                     decoration:
                         BoxDecoration(color: Color.fromRGBO(0, 0, 0, .3)),
@@ -203,10 +201,7 @@ class ElementPopup extends StatelessWidget {
                             padding: EdgeInsets.only(
                               left: MediaQuery.of(context).size.width * .15,
                               right: MediaQuery.of(context).size.width * .15,
-                              bottom: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .05,
+                              bottom: MediaQuery.of(context).size.height * .03,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -217,10 +212,10 @@ class ElementPopup extends StatelessWidget {
                                     symbol + ', ',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.white,
+                                      color: Colors.white70,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .09,
+                                              .07,
                                     ),
                                   ),
                                 ),
@@ -231,10 +226,10 @@ class ElementPopup extends StatelessWidget {
                                     number.toString(),
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.white,
+                                      color: Colors.white70,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .09,
+                                              .07,
                                     ),
                                   ),
                                 ),
@@ -257,9 +252,9 @@ class ElementPopup extends StatelessWidget {
                                       ),
                                       height:
                                           MediaQuery.of(context).size.width *
-                                              .07,
+                                              .06,
                                       width: MediaQuery.of(context).size.width *
-                                          .07),
+                                          .06),
                                   Text(
                                     consistencyText(),
                                     style: TextStyle(
@@ -267,7 +262,7 @@ class ElementPopup extends StatelessWidget {
                                       fontWeight: FontWeight.bold,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .08,
+                                              .07,
                                     ),
                                   ),
                                 ],
@@ -291,9 +286,9 @@ class ElementPopup extends StatelessWidget {
                                           "lib/icons/discovery_white_500.png"),
                                       height:
                                           MediaQuery.of(context).size.width *
-                                              .07,
+                                              .06,
                                       width: MediaQuery.of(context).size.width *
-                                          .07),
+                                          .06),
                                   Text(
                                     discoveryText(),
                                     style: TextStyle(
@@ -301,7 +296,7 @@ class ElementPopup extends StatelessWidget {
                                       fontWeight: FontWeight.bold,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .08,
+                                              .07,
                                     ),
                                   ),
                                 ],
@@ -323,9 +318,9 @@ class ElementPopup extends StatelessWidget {
                                           "lib/icons/radioactive_white_500.png"),
                                       height:
                                           MediaQuery.of(context).size.width *
-                                              .06,
+                                              .05,
                                       width: MediaQuery.of(context).size.width *
-                                          .06),
+                                          .05),
                                   Text(
                                     " " + radioactivityString(),
                                     style: TextStyle(
@@ -333,7 +328,7 @@ class ElementPopup extends StatelessWidget {
                                       fontWeight: FontWeight.bold,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .08,
+                                              .07,
                                     ),
                                   ),
                                 ],
@@ -350,9 +345,9 @@ class ElementPopup extends StatelessWidget {
                               child: Padding(
                                 padding: EdgeInsets.only(
                                     top: MediaQuery.of(context).size.height *
-                                        .01,
+                                        .005,
                                     bottom: MediaQuery.of(context).size.height *
-                                        .05),
+                                        .03),
                                 child: Text(
                                   AppLocalizations.of(context)
                                       .translate('radioactivityInfo'),
@@ -360,7 +355,7 @@ class ElementPopup extends StatelessWidget {
                                     color: Colors.white70,
                                     fontWeight: FontWeight.bold,
                                     fontSize:
-                                        MediaQuery.of(context).size.width * .06,
+                                        MediaQuery.of(context).size.width * .05,
                                   ),
                                 ),
                               ),
@@ -380,7 +375,7 @@ class ElementPopup extends StatelessWidget {
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   fontSize:
-                                      MediaQuery.of(context).size.width * .08,
+                                      MediaQuery.of(context).size.width * .07,
                                 ),
                               ),
                             ),
@@ -389,10 +384,7 @@ class ElementPopup extends StatelessWidget {
                             padding: EdgeInsets.only(
                               left: MediaQuery.of(context).size.width * .15,
                               right: MediaQuery.of(context).size.width * .15,
-                              top: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .05,
+                              top: MediaQuery.of(context).size.height * .03,
                             ),
                             child: Tooltip(
                               message: AppLocalizations.of(context)
@@ -406,7 +398,7 @@ class ElementPopup extends StatelessWidget {
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   fontSize:
-                                      MediaQuery.of(context).size.width * .08,
+                                      MediaQuery.of(context).size.width * .07,
                                 ),
                               ),
                             ),
@@ -428,7 +420,7 @@ class ElementPopup extends StatelessWidget {
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   fontSize:
-                                      MediaQuery.of(context).size.width * .08,
+                                      MediaQuery.of(context).size.width * .07,
                                 ),
                               ),
                             ),
@@ -450,7 +442,7 @@ class ElementPopup extends StatelessWidget {
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   fontSize:
-                                      MediaQuery.of(context).size.width * .08,
+                                      MediaQuery.of(context).size.width * .07,
                                 ),
                               ),
                             ),
@@ -459,17 +451,14 @@ class ElementPopup extends StatelessWidget {
                             padding: EdgeInsets.only(
                               left: MediaQuery.of(context).size.width * .15,
                               right: MediaQuery.of(context).size.width * .15,
-                              bottom: (MediaQuery.of(context).size.height +
-                                      MediaQuery.of(context).size.width) /
-                                  2 *
-                                  .05,
+                              bottom: MediaQuery.of(context).size.height * .03,
                             ),
                             child: Container(
                               width: MediaQuery.of(context).size.width * .6,
                               child: Padding(
                                 padding: EdgeInsets.only(
                                     top: MediaQuery.of(context).size.height *
-                                        .01),
+                                        .005),
                                 child: Text(
                                   AppLocalizations.of(context)
                                       .translate('molarmass'),
@@ -477,7 +466,7 @@ class ElementPopup extends StatelessWidget {
                                     color: Colors.white70,
                                     fontWeight: FontWeight.bold,
                                     fontSize:
-                                        MediaQuery.of(context).size.width * .06,
+                                        MediaQuery.of(context).size.width * .05,
                                   ),
                                 ),
                               ),
@@ -806,7 +795,7 @@ class ElementPopup extends StatelessWidget {
                                                     .7,
                                                 decoration: BoxDecoration(
                                                   color: Color.fromRGBO(
-                                                      150, 150, 150, .4),
+                                                      150, 150, 150, .2),
                                                   borderRadius:
                                                       BorderRadius.all(
                                                     Radius.circular(
@@ -828,7 +817,7 @@ class ElementPopup extends StatelessWidget {
                                                               .size
                                                               .width *
                                                           .15 /
-                                                          2),
+                                                          3),
                                                   child: Column(
                                                     crossAxisAlignment:
                                                         CrossAxisAlignment
@@ -853,8 +842,8 @@ class ElementPopup extends StatelessWidget {
                                                             fontSize: MediaQuery.of(
                                                                         context)
                                                                     .size
-                                                                    .height *
-                                                                .04,
+                                                                    .width *
+                                                                .07,
                                                           ),
                                                           maxLines: 1,
                                                         ),
@@ -889,7 +878,7 @@ class ElementPopup extends StatelessWidget {
                                                                           'weightIsotopes')),
                                                               style: TextStyle(
                                                                 color: Colors
-                                                                    .white,
+                                                                    .white70,
                                                                 fontWeight:
                                                                     FontWeight
                                                                         .bold,
@@ -953,7 +942,7 @@ class ElementPopup extends StatelessWidget {
                                                                       'rateIsotopes'),
                                                               style: TextStyle(
                                                                 color: Colors
-                                                                    .white,
+                                                                    .white70,
                                                                 fontWeight:
                                                                     FontWeight
                                                                         .bold,
@@ -1137,14 +1126,12 @@ class ElementPopup extends StatelessWidget {
                                                   2),
                                         );
 
-                                        return NotificationListener<
-                                            OverscrollIndicatorNotification>(
-                                          // ignore: missing_return
-                                          onNotification:
-                                              (OverscrollIndicatorNotification
-                                                  overscroll) {
-                                            overscroll.disallowGlow();
-                                          },
+                                        return Padding(
+                                          padding: EdgeInsets.only(
+                                              bottom: MediaQuery.of(context)
+                                                      .size
+                                                      .height *
+                                                  .03),
                                           child: SingleChildScrollView(
                                             scrollDirection: Axis.horizontal,
                                             child: Row(children: listIsotopes),
@@ -1425,10 +1412,7 @@ class ElementPopup extends StatelessWidget {
                             child: Container(
                               child: Padding(
                                 padding: EdgeInsets.only(
-                                  top: (MediaQuery.of(context).size.height +
-                                          MediaQuery.of(context).size.width) /
-                                      2 *
-                                      .05,
+                                  top: 0,
                                 ),
                                 child: Tooltip(
                                   message: AppLocalizations.of(context)
@@ -1443,7 +1427,7 @@ class ElementPopup extends StatelessWidget {
                                       color: Colors.white,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
-                                              .08,
+                                              .07,
                                     ),
                                   ),
                                 ),
@@ -1467,7 +1451,7 @@ class ElementPopup extends StatelessWidget {
                                   fontWeight: FontWeight.bold,
                                   color: Colors.white,
                                   fontSize:
-                                      MediaQuery.of(context).size.width * .08,
+                                      MediaQuery.of(context).size.width * .07,
                                 ),
                               ),
                             ),
@@ -1489,7 +1473,7 @@ class ElementPopup extends StatelessWidget {
                                   fontWeight: FontWeight.bold,
                                   color: Colors.white,
                                   fontSize:
-                                      MediaQuery.of(context).size.width * .08,
+                                      MediaQuery.of(context).size.width * .07,
                                 ),
                               ),
                             ),

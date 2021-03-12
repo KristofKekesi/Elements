@@ -1100,10 +1100,7 @@
 //                                                                 2 *
 //                                                                 .05),
 //                                                         child:
-//                                                   NotificationListener<OverscrollIndicatorNotification>(
-//                                                   onNotification: (OverscrollIndicatorNotification overscroll) {
-//                                                   overscroll.disallowGlow();
-//                                                   },child: SingleChildScrollView(
+//                                                   SingleChildScrollView(
 //                                                           controller:
 //                                                               scrollController,
 //                                                           child: Center(
@@ -1295,16 +1292,12 @@
 //                                                                         message:
 //                                                                             'Select an element.',
 //                                                                         child:
-//                                                                             NotificationListener<OverscrollIndicatorNotification>(
-//                                                                           onNotification: (OverscrollIndicatorNotification overscroll) {
-//                                                                         overscroll.disallowGlow();
-//                                                                       },child: SingleChildScrollView(
+//                                                                         SingleChildScrollView(
 //                                                                           scrollDirection:
 //                                                                               Axis.horizontal,
 //                                                                           child:
 //                                                                               Row(children: listElements),
 //                                                                         ),
-//                                                                             ),
 //                                                                       );
 //                                                                     } else {
 //                                                                       return Container(
@@ -1713,7 +1706,6 @@
 //                                                           ),
 //                                                         ),
 //                                                       ),
-//                                                     ),
 //                                                     ),
 //                                                   );
 //                                                 },

@@ -162,11 +162,7 @@ class originalView extends StatelessWidget {
                       SizedBox.expand(
                         child: Padding(
                           padding: EdgeInsets.only(left: 7, right: 7),
-                          child: NotificationListener<OverscrollIndicatorNotification>(
-                            // ignore: missing_return
-                            onNotification: (OverscrollIndicatorNotification overscroll) {
-                              overscroll.disallowGlow();
-                            },child: ListView(
+                          child:  ListView(
                             children: <Widget>[
                               Container(
                                   height:
@@ -188,7 +184,6 @@ class originalView extends StatelessWidget {
                           ),
                           ),
                         ),
-                      ),
                       Positioned(
                         top: -1,
                         width: MediaQuery.of(context).size.width,

@@ -164,14 +164,7 @@ class minimalView extends StatelessWidget {
                           SizedBox.expand(
                             child: Padding(
                               padding: EdgeInsets.only(left: MediaQuery.of(context).size.width * .02, right: MediaQuery.of(context).size.width * .02),
-                              child: NotificationListener<
-                                  OverscrollIndicatorNotification>(
-                                // ignore: missing_return
-                                onNotification: (OverscrollIndicatorNotification
-                                    overscroll) {
-                                  overscroll.disallowGlow();
-                                },
-                                child: ListView(
+                              child: ListView(
                                   children: <Widget>[
                                     Container(
                                         height:
@@ -270,7 +263,6 @@ class minimalView extends StatelessWidget {
                             ),
                           ),
                       ),
-                    ),
                 );
               }
             } else {

@@ -21,10 +21,7 @@ class customDrawer extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width * .75,
       child: Drawer(
-        child: NotificationListener<OverscrollIndicatorNotification>(
-      onNotification: (OverscrollIndicatorNotification overscroll) {
-      overscroll.disallowGlow();
-      },child: ListView(
+        child: ListView(
           children: <Widget>[
             Container(
               height: MediaQuery.of(context).size.height * .2,
@@ -151,7 +148,6 @@ class customDrawer extends StatelessWidget {
               ),
           ],
         ),
-      ),
       ),
     );
   }

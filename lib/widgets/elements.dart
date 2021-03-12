@@ -337,10 +337,7 @@ class _elementsState extends State<elements> {
                                 2 *
                                 .02),
                       ),
-                      child: NotificationListener<OverscrollIndicatorNotification>(
-                        onNotification: (OverscrollIndicatorNotification overscroll) {
-                          overscroll.disallowGlow();
-                        },child: ListView(
+                      child: ListView(
                         children: <Widget>[
                           Padding(
                             padding: EdgeInsets.only(
@@ -3365,7 +3362,6 @@ class _elementsState extends State<elements> {
                           ),
                         ],
                       ),
-                    ),
                     ),
                     Opacity(
                       opacity: resetVisibility ? 1 : 0,
