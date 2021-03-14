@@ -23,13 +23,13 @@ class cardView extends StatelessWidget {
   Widget build(BuildContext context) {
     int pass = 0;
 
-    return new FutureBuilder(
+    return FutureBuilder(
       future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           var elementList = json.decode(snapshot.data.toString());
           final listElements = <Widget>[];
-          listElements.add(new Container(
+          listElements.add( Container(
             width: MediaQuery.of(context).size.width * .05,
           ));
           for (var index = 0; index < elementList.length; index++) {
@@ -37,7 +37,7 @@ class cardView extends StatelessWidget {
               pass++;
 
               listElements.add(
-                new GestureDetector(
+                GestureDetector(
                   onVerticalDragUpdate: (dragInfo) {
                     if (dragInfo.delta.dy <= 0) {
                       showModalBottomSheet(
@@ -111,28 +111,28 @@ class cardView extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * .05,
                       right: MediaQuery.of(context).size.width * .05,
                     ),
-                    decoration: new BoxDecoration(
+                    decoration: BoxDecoration(
                         color: Color(int.parse(elementList[index]["m1"])),
                         image: DecorationImage(
                           image: AssetImage(
                               "lib/backgrounds/" + elementList[index]["bg"]),
                           fit: BoxFit.cover,
                         ),
-                        borderRadius: new BorderRadius.circular(
+                        borderRadius: BorderRadius.circular(
                             (MediaQuery.of(context).size.height +
                                         MediaQuery.of(context).size.width) /
                                     2 *
                                     .02 +
                                 10)),
                     width: MediaQuery.of(context).size.width * .8,
-                    child: new Column(
+                    child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
-                        new Align(
+                        Align(
                           alignment: Alignment.topLeft,
-                          child: new Padding(
+                          child: Padding(
                             padding: EdgeInsets.only(
                                 top: (MediaQuery.of(context).size.height +
                                         MediaQuery.of(context).size.width) /
@@ -142,13 +142,13 @@ class cardView extends StatelessWidget {
                                         MediaQuery.of(context).size.width) /
                                     2 *
                                     .04),
-                            child: new Column(
+                            child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
-                                new Text(
+                                Text(
                                   elementList[index]["number"].toString(),
                                   textAlign: TextAlign.left,
-                                  style: new TextStyle(
+                                  style: TextStyle(
                                     shadows: <Shadow>[
                                       Shadow(
                                         offset: Offset(2.0, 2.0),
@@ -172,7 +172,7 @@ class cardView extends StatelessWidget {
                         ),
                         Expanded(
                           flex: 10,
-                          child: new Padding(
+                          child: Padding(
                             padding: EdgeInsets.only(
                                 bottom: (MediaQuery.of(context).size.height +
                                         MediaQuery.of(context).size.width) /
@@ -182,11 +182,11 @@ class cardView extends StatelessWidget {
                                         MediaQuery.of(context).size.width) /
                                     2 *
                                     .04),
-                            child: new Align(
+                            child: Align(
                               alignment: Alignment.bottomLeft,
                               child: RichText(
                                 text: TextSpan(
-                                  style: new TextStyle(
+                                  style: TextStyle(
                                     shadows: <Shadow>[
                                       Shadow(
                                         offset: Offset(2.0, 2.0),
@@ -244,7 +244,7 @@ class cardView extends StatelessWidget {
             }
           }
 
-          listElements.add(new Container(
+          listElements.add(Container(
             width: MediaQuery.of(context).size.width * .05,
           ));
 
@@ -306,7 +306,7 @@ class cardView extends StatelessWidget {
                                     AppLocalizations.of(context)
                                         .translate('titleElements'),
                                 textAlign: TextAlign.left,
-                                style: new TextStyle(
+                                style: TextStyle(
                                     color: Colors.black,
                                     fontSize:
                                         MediaQuery.of(context).size.width * .12,

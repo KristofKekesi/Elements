@@ -44,7 +44,7 @@
 //                       AutoSizeText(
 //                         " " + AppLocalizations.of(context).translate('modes'),
 //                         textAlign: TextAlign.left,
-//                         style: new TextStyle(
+//                         style: TextStyle(
 //                             color: Colors.black,
 //                             fontSize: MediaQuery.of(context).size.width * .12,
 //                             fontWeight: FontWeight.bold),

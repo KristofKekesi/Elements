@@ -146,7 +146,7 @@ class viewSelectorState extends State<viewSelector> {
 
   @override
   Widget build(BuildContext context) {
-    return new FutureBuilder(
+    return FutureBuilder(
         future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
         // ignore: missing_return
         builder: (context, snapshot) {
@@ -155,7 +155,7 @@ class viewSelectorState extends State<viewSelector> {
             List passedElements = [];
 
             final listElements = <Widget>[];
-            listElements.add(new Container(
+            listElements.add(Container(
               width: MediaQuery.of(context).size.width * .05,
             ));
             for (var index = 0; index < elementList.length; index++) {

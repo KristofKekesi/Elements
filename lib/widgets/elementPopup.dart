@@ -52,11 +52,12 @@ class ElementPopup extends StatelessWidget {
     this.discovery,
   }) : super(key: key);
 
+
   String Capitalizate(input) {
     return input[0].toUpperCase() + input.substring(1);
   }
 
-  String electronegativityText(input) {
+  String checkUnknown(input) {
     if (input == 'unknown') {
       return Capitalizate(AppLocalizations.of(context).translate('unknown'));
     } else {
@@ -393,7 +394,7 @@ class ElementPopup extends StatelessWidget {
                                 AppLocalizations.of(context)
                                         .translate("electronegativityPre") +
                                     ": " +
-                                    electronegativity,
+                                    checkUnknown(electronegativity),
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -415,7 +416,7 @@ class ElementPopup extends StatelessWidget {
                                 Capitalizate(AppLocalizations.of(context)
                                         .translate("blockPre")) +
                                     ": " +
-                                    Capitalizate(block),
+                                    checkUnknown(block),
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -437,7 +438,7 @@ class ElementPopup extends StatelessWidget {
                                 Capitalizate(AppLocalizations.of(context)
                                         .translate("weightPre")) +
                                     ": " +
-                                    weight,
+                                    checkUnknown(weight),
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -776,7 +777,7 @@ class ElementPopup extends StatelessWidget {
                                                 isotopeInfo['isotopes'].length;
                                             innerIndex++) {
                                           listIsotopes.add(
-                                            new Padding(
+                                            Padding(
                                               padding: EdgeInsets.only(
                                                   left: MediaQuery.of(context)
                                                           .size

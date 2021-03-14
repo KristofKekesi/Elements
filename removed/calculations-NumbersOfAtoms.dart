@@ -62,7 +62,7 @@
 //                               AppLocalizations.of(context)
 //                                   .translate('titleCalculations'),
 //                           textAlign: TextAlign.left,
-//                           style: new TextStyle(
+//                           style: TextStyle(
 //                               color: Colors.black,
 //                               fontSize: MediaQuery.of(context).size.width * .12,
 //                               fontWeight: FontWeight.bold),
@@ -104,13 +104,13 @@
 //                             var elementList =
 //                                 json.decode(snapshot.data.toString());
 //                             final listElements = <Widget>[];
-//                             listElements.add(new Container(
+//                             listElements.add( Container(
 //                               width: MediaQuery.of(context).size.width * .05,
 //                             ));
 //                             for (var index = 0;
 //                                 index < elementList.length;
 //                                 index++) {
-//                               listElements.add(new StatefulBuilder(builder:
+//                               listElements.add(StatefulBuilder(builder:
 //                                   (BuildContext context, StateSetter setState) {
 //                                 return GestureDetector(
 //                                   onTap: () {
@@ -134,10 +134,10 @@
 //                                           MediaQuery.of(context).size.height *
 //                                               .0,
 //                                     ),
-//                                     decoration: new BoxDecoration(
+//                                     decoration: BoxDecoration(
 //                                       color: Color(
 //                                           int.parse(elementList[index]["m1"])),
-//                                       borderRadius: new BorderRadius.circular(
+//                                       borderRadius: BorderRadius.circular(
 //                                           (MediaQuery.of(context).size.height +
 //                                                   MediaQuery.of(context)
 //                                                       .size
@@ -159,9 +159,9 @@
 //                                         mainAxisAlignment:
 //                                             MainAxisAlignment.start,
 //                                         children: <Widget>[
-//                                           new Align(
+//                                           Align(
 //                                             alignment: Alignment.topLeft,
-//                                             child: new Padding(
+//                                             child: Padding(
 //                                               padding: EdgeInsets.only(
 //                                                 top: (MediaQuery.of(context)
 //                                                             .size
@@ -180,15 +180,15 @@
 //                                                     2 *
 //                                                     .04,
 //                                               ),
-//                                               child: new Column(
+//                                               child: Column(
 //                                                 crossAxisAlignment:
 //                                                     CrossAxisAlignment.start,
 //                                                 children: <Widget>[
-//                                                   new Text(
+//                                                   Text(
 //                                                     elementList[index]["number"]
 //                                                         .toString(),
 //                                                     textAlign: TextAlign.left,
-//                                                     style: new TextStyle(
+//                                                     style: TextStyle(
 //                                                       shadows: <Shadow>[
 //                                                         Shadow(
 //                                                           offset:
@@ -243,7 +243,7 @@
 //                                                             .width) /
 //                                                     2 *
 //                                                     .04),
-//                                             child: new Align(
+//                                             child: Align(
 //                                               alignment: Alignment.bottomLeft,
 //                                               child: Text(
 //                                                 elementList[index]["element"],
@@ -279,13 +279,13 @@
 //                               }));
 //                             }
 //
-//                             listElements.add(new Container(
+//                             listElements.add(Container(
 //                               width: MediaQuery.of(context).size.width * .05,
 //                             ));
 //
-//                             return new Tooltip(
+//                             return Tooltip(
 //                               message: 'Select an element.',
-//                               child: new SingleChildScrollView(
+//                               child: SingleChildScrollView(
 //                                 scrollDirection: Axis.horizontal,
 //                                 child: Row(children: listElements),
 //                               ),

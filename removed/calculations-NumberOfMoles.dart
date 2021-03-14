@@ -68,7 +68,7 @@
 //                           child: AutoSizeText(
 //                             " Number of moles",
 //                             textAlign: TextAlign.left,
-//                             style: new TextStyle(
+//                             style: TextStyle(
 //                                 color: Colors.black,
 //                                 fontSize:
 //                                     MediaQuery.of(context).size.width * .12,
@@ -965,7 +965,7 @@
 //                           child: AutoSizeText(
 //                             " Number of moles",
 //                             textAlign: TextAlign.left,
-//                             style: new TextStyle(
+//                             style: TextStyle(
 //                                 color: Colors.black,
 //                                 fontSize:
 //                                     MediaQuery.of(context).size.width * .12,
@@ -1184,7 +1184,7 @@
 //                                                                           <Widget>[];
 //                                                                       listElements
 //                                                                           .add(
-//                                                                               new Container(
+//                                                                               Container(
 //                                                                         width: MediaQuery.of(context).size.width *
 //                                                                             .05,
 //                                                                       ));
@@ -1210,9 +1210,9 @@
 //                                                                                 left: MediaQuery.of(context).size.width * .05,
 //                                                                                 right: MediaQuery.of(context).size.width * .05,
 //                                                                               ),
-//                                                                               decoration: new BoxDecoration(
+//                                                                               decoration: BoxDecoration(
 //                                                                                 color: Color(int.parse(elementList[index]["m1"])),
-//                                                                                 borderRadius: new BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
+//                                                                                 borderRadius: BorderRadius.circular((MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02),
 //                                                                               ),
 //                                                                               width: MediaQuery.of(context).size.width * .35,
 //                                                                               child: Tooltip(
@@ -1222,20 +1222,20 @@
 //                                                                                   mainAxisSize: MainAxisSize.max,
 //                                                                                   mainAxisAlignment: MainAxisAlignment.start,
 //                                                                                   children: <Widget>[
-//                                                                                     new Align(
+//                                                                                     Align(
 //                                                                                       alignment: Alignment.topLeft,
-//                                                                                       child: new Padding(
+//                                                                                       child: Padding(
 //                                                                                         padding: EdgeInsets.only(
 //                                                                                           top: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .02,
 //                                                                                           left: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04,
 //                                                                                         ),
-//                                                                                         child: new Column(
+//                                                                                         child: Column(
 //                                                                                           crossAxisAlignment: CrossAxisAlignment.start,
 //                                                                                           children: <Widget>[
-//                                                                                             new Text(
+//                                                                                             Text(
 //                                                                                               elementList[index]["number"].toString(),
 //                                                                                               textAlign: TextAlign.left,
-//                                                                                               style: new TextStyle(
+//                                                                                               style: TextStyle(
 //                                                                                                 shadows: <Shadow>[
 //                                                                                                   Shadow(
 //                                                                                                     offset: Offset(2.0, 2.0),
@@ -1254,7 +1254,7 @@
 //                                                                                     ),
 //                                                                                     Padding(
 //                                                                                       padding: EdgeInsets.only(bottom: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04, left: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04, right: (MediaQuery.of(context).size.height + MediaQuery.of(context).size.width) / 2 * .04),
-//                                                                                       child: new Align(
+//                                                                                       child: Align(
 //                                                                                         alignment: Alignment.bottomLeft,
 //                                                                                         child: Text(
 //                                                                                           elementList[index]["element"],
@@ -1283,12 +1283,12 @@
 //
 //                                                                       listElements
 //                                                                           .add(
-//                                                                               new Container(
+//                                                                               Container(
 //                                                                         width: MediaQuery.of(context).size.width *
 //                                                                             .05,
 //                                                                       ));
 //
-//                                                                       return new Tooltip(
+//                                                                       return Tooltip(
 //                                                                         message:
 //                                                                             'Select an element.',
 //                                                                         child:

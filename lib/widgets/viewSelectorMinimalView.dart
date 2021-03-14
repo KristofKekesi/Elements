@@ -22,7 +22,7 @@ class minimalView extends StatelessWidget {
   Widget build(context) {
     int pass = 0;
 
-    return new FutureBuilder(
+    return FutureBuilder(
           future:
               DefaultAssetBundle.of(context).loadString('lib/elements.json'),
           builder: (context, snapshot) {
@@ -83,7 +83,7 @@ class minimalView extends StatelessWidget {
                                     MediaQuery.of(context).size.width) /
                                 2 *
                                 .05),
-                        decoration: new BoxDecoration(
+                        decoration: BoxDecoration(
                             color: Color(int.parse(elementList[index]["m1"])),
                             borderRadius: BorderRadius.circular(
                                 (MediaQuery.of(context).size.height +
@@ -98,18 +98,18 @@ class minimalView extends StatelessWidget {
                                 MediaQuery.of(context).size.height) /
                             2 *
                             .13,
-                        child: new Column(
+                        child: Column(
                           //crossAxisAlignment: CrossAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            new Align(
+                            Align(
                               alignment: Alignment.center,
-                              child: new Text(
+                              child: Text(
                                 elementList[index]["element"],
                                 textAlign: TextAlign.left,
-                                style: new TextStyle(
+                                style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   fontSize: (MediaQuery.of(context)
@@ -157,7 +157,7 @@ class minimalView extends StatelessWidget {
                 return Container(
                   decoration: BoxDecoration(color: Color(0xffffffff)),
                   child: SizedBox.expand(
-                    child: new Tooltip(
+                    child: Tooltip(
                       message: AppLocalizations.of(context)
                           .translate("moreAboutElement"),
                       child:
@@ -197,7 +197,7 @@ class minimalView extends StatelessWidget {
                                                       AppLocalizations.of(context)
                                                           .translate('titleElements'),
                                                   textAlign: TextAlign.left,
-                                                  style: new TextStyle(
+                                                  style: TextStyle(
                                                       color: Colors.black,
                                                       fontSize:
                                                       MediaQuery.of(context).size.width * .12,

@@ -24,7 +24,7 @@ class originalView extends StatelessWidget {
   Widget build(context) {
     int pass = 0;
 
-    return new FutureBuilder(
+    return FutureBuilder(
       future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
@@ -79,7 +79,7 @@ class originalView extends StatelessWidget {
                                 MediaQuery.of(context).size.width) /
                             2 *
                             .05),
-                    decoration: new BoxDecoration(
+                    decoration: BoxDecoration(
                         color: Color(int.parse(elementList[index]["m1"])),
                         borderRadius: BorderRadius.circular(
                             (MediaQuery.of(context).size.height +
@@ -94,18 +94,18 @@ class originalView extends StatelessWidget {
                             MediaQuery.of(context).size.height) /
                         2 *
                         .13,
-                    child: new Column(
+                    child: Column(
                       //crossAxisAlignment: CrossAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        new Align(
+                        Align(
                           alignment: Alignment.center,
-                          child: new Text(
+                          child: Text(
                             elementList[index]["element"],
                             textAlign: TextAlign.left,
-                            style: new TextStyle(
+                            style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
                               fontSize: (MediaQuery.of(context).size.height +
@@ -154,7 +154,7 @@ class originalView extends StatelessWidget {
                 padding: EdgeInsets.only(
                     top: MediaQuery.of(context).size.height * .02,
                     bottom: MediaQuery.of(context).size.height * .02),
-                child: new Tooltip(
+                child: Tooltip(
                   message: AppLocalizations.of(context)
                       .translate("moreAboutElement"),
                   child: Stack(
@@ -169,7 +169,7 @@ class originalView extends StatelessWidget {
                                       MediaQuery.of(context).size.height * .04),
                               Column(
                                 children: <Widget>[
-                                  new Wrap(
+                                  Wrap(
                                     direction: Axis.horizontal,
                                     spacing: 0,
                                     runSpacing: 0,

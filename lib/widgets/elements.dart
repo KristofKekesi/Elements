@@ -291,7 +291,7 @@ class _elementsState extends State<elements> {
                             AppLocalizations.of(context)
                                 .translate('titleElements'),
                         textAlign: TextAlign.left,
-                        style: new TextStyle(
+                        style: TextStyle(
                             color: Colors.black,
                             fontSize: MediaQuery.of(context).size.width * .12,
                             fontWeight: FontWeight.bold),
