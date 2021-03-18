@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:ui';
 
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:elements_rework/loadJsonData.dart';
 import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
@@ -22,14 +23,8 @@ class minimalView extends StatelessWidget {
   Widget build(context) {
     int pass = 0;
 
-    return FutureBuilder(
-          future:
-              DefaultAssetBundle.of(context).loadString('lib/elements.json'),
-          builder: (context, snapshot) {
-            if (snapshot.hasData) {
-              var elementList = json.decode(snapshot.data.toString());
               final listElements = <Widget>[];
-              for (var index = 0; index < elementList.length; index++) {
+              for (var index = 0; index < elementData.length; index++) {
                 if (passedElements.contains(index) == true) {
                   pass++;
 
@@ -42,30 +37,30 @@ class minimalView extends StatelessWidget {
                             builder: (context) {
                               return ElementPopup(
                                 context: context,
-                                name: elementList[index][
+                                name: elementData[index][
                                     AppLocalizations.of(context)
                                         .translate("key")],
-                                symbol: elementList[index]["element"],
-                                number: elementList[index]["number"],
-                                consistency: elementList[index]["consistency"],
-                                discovery: elementList[index]["discovery"],
-                                electronegativity: elementList[index]
+                                symbol: elementData[index]["element"],
+                                number: elementData[index]["number"],
+                                consistency: elementData[index]["consistency"],
+                                discovery: elementData[index]["discovery"],
+                                electronegativity: elementData[index]
                                     ["electronegativity"],
-                                block: elementList[index]["block"],
-                                weight: elementList[index]["weight"],
-                                radioactivity: elementList[index]
+                                block: elementData[index]["block"],
+                                weight: elementData[index]["weight"],
+                                radioactivity: elementData[index]
                                     ["radioactivity"],
-                                gamma: elementList[index]["gamma"],
-                                beta: elementList[index]["beta"],
-                                alpha: elementList[index]["alpha"],
-                                multipleRadiationEmitters: elementList[index]
+                                gamma: elementData[index]["gamma"],
+                                beta: elementData[index]["beta"],
+                                alpha: elementData[index]["alpha"],
+                                multipleRadiationEmitters: elementData[index]
                                     ["multipleRadiationEmitters"],
-                                type: elementList[index]["type"],
-                                isotopeNum: elementList[index]["isotopeNum"],
-                                isotopesSrc: elementList[index]["isotopesSrc"],
-                                chargedComponents: elementList[index]
+                                type: elementData[index]["type"],
+                                isotopeNum: elementData[index]["isotopeNum"],
+                                isotopesSrc: elementData[index]["isotopesSrc"],
+                                chargedComponents: elementData[index]
                                     ["chargedComponent"],
-                                neutron: elementList[index]["neutron"],
+                                neutron: elementData[index]["neutron"],
                               );
                             });
                       },
@@ -84,7 +79,7 @@ class minimalView extends StatelessWidget {
                                 2 *
                                 .05),
                         decoration: BoxDecoration(
-                            color: Color(int.parse(elementList[index]["m1"])),
+                            color: Color(int.parse(elementData[index]["m1"])),
                             borderRadius: BorderRadius.circular(
                                 (MediaQuery.of(context).size.height +
                                         MediaQuery.of(context).size.width) /
@@ -107,7 +102,7 @@ class minimalView extends StatelessWidget {
                             Align(
                               alignment: Alignment.center,
                               child: Text(
-                                elementList[index]["element"],
+                                elementData[index]["element"],
                                 textAlign: TextAlign.left,
                                 style: TextStyle(
                                   color: Colors.white,
@@ -265,26 +260,5 @@ class minimalView extends StatelessWidget {
                       ),
                 );
               }
-            } else {
-              return Center(child: SleekCircularSlider(
-                appearance: CircularSliderAppearance(
-                  spinnerMode: true,
-                  size: (MediaQuery.of(context).size.height +
-                          MediaQuery.of(context).size.width) /
-                      2 *
-                      .4,
-                  customColors: CustomSliderColors(
-                    trackColor: Color(0x00000000),
-                    hideShadow: true,
-                    progressBarColors: <Color>[
-                      Color(0xff62a39c),
-                      Color(0xff13547a),
-                    ],
-                  ),
-                ),),
-              );
-            }
-          },
-    );
   }
 }

@@ -36,41 +36,9 @@ class customDrawer extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(
-                  top: MediaQuery.of(context).size.height * .03),
-              child: GestureDetector(
-                onTap: () {
-                  _launchURL('https://crwd.in/elementsapp');
-                },
-                child: ListTile(
-                  title: Text(
-                    AppLocalizations.of(context).translate('translate'),
-                    style: TextStyle(
-                        letterSpacing: 2,
-                        fontWeight: FontWeight.bold,
-                        fontSize: MediaQuery.of(context).size.width * .07),
-                  ),
-                ),
-              ),
-            ),
-            GestureDetector(
-              onTap: () {
-                _launchURL('https://www.patreon.com/KristofKekesi');
-              },
-              child: ListTile(
-                title: Text(
-                  AppLocalizations.of(context).translate('support'),
-                  style: TextStyle(
-                      letterSpacing: 2,
-                      fontWeight: FontWeight.bold,
-                      fontSize: MediaQuery.of(context).size.width * .07),
-                ),
-              ),
-            ),
-            Divider(
-              thickness: MediaQuery.of(context).size.height * .005,
-            ),
-            GestureDetector(
+                padding: EdgeInsets.only(
+                    top: MediaQuery.of(context).size.height * .03),
+                child: GestureDetector(
               onTap: () {
                 _launchURL(
                     'https://github.com/KristofKekesi/Elements/blob/master/README.md#contributors-');
@@ -84,6 +52,7 @@ class customDrawer extends StatelessWidget {
                       fontSize: MediaQuery.of(context).size.width * .07),
                 ),
               ),
+            ),
             ),
             GestureDetector(
               onTap: () {

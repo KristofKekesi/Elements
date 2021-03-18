@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
+import '../loadJsonData.dart';
 import 'elementPopup.dart';
 
 // ignore: camel_case_types
@@ -23,16 +24,11 @@ class cardView extends StatelessWidget {
   Widget build(BuildContext context) {
     int pass = 0;
 
-    return FutureBuilder(
-      future: DefaultAssetBundle.of(context).loadString('lib/elements.json'),
-      builder: (context, snapshot) {
-        if (snapshot.hasData) {
-          var elementList = json.decode(snapshot.data.toString());
           final listElements = <Widget>[];
           listElements.add( Container(
             width: MediaQuery.of(context).size.width * .05,
           ));
-          for (var index = 0; index < elementList.length; index++) {
+          for (var index = 0; index < elementData.length; index++) {
             if (passedElements.contains(index) == true) {
               pass++;
 
@@ -46,30 +42,30 @@ class cardView extends StatelessWidget {
                           builder: (context) {
                             return ElementPopup(
                               context: context,
-                              name: elementList[index][
+                              name: elementData[index][
                                   AppLocalizations.of(context)
                                       .translate("key")],
-                              symbol: elementList[index]["element"],
-                              number: elementList[index]["number"],
-                              consistency: elementList[index]["consistency"],
-                              discovery: elementList[index]["discovery"],
-                              electronegativity: elementList[index]
+                              symbol: elementData[index]["element"],
+                              number: elementData[index]["number"],
+                              consistency: elementData[index]["consistency"],
+                              discovery: elementData[index]["discovery"],
+                              electronegativity: elementData[index]
                                   ["electronegativity"],
-                              block: elementList[index]["block"],
-                              weight: elementList[index]["weight"],
-                              radioactivity: elementList[index]
+                              block: elementData[index]["block"],
+                              weight: elementData[index]["weight"],
+                              radioactivity: elementData[index]
                                   ["radioactivity"],
-                              gamma: elementList[index]["gamma"],
-                              beta: elementList[index]["beta"],
-                              alpha: elementList[index]["alpha"],
-                              multipleRadiationEmitters: elementList[index]
+                              gamma: elementData[index]["gamma"],
+                              beta: elementData[index]["beta"],
+                              alpha: elementData[index]["alpha"],
+                              multipleRadiationEmitters: elementData[index]
                                   ["multipleRadiationEmitters"],
-                              type: elementList[index]["type"],
-                              isotopeNum: elementList[index]["isotopeNum"],
-                              isotopesSrc: elementList[index]["isotopesSrc"],
-                              chargedComponents: elementList[index]
+                              type: elementData[index]["type"],
+                              isotopeNum: elementData[index]["isotopeNum"],
+                              isotopesSrc: elementData[index]["isotopesSrc"],
+                              chargedComponents: elementData[index]
                                   ["chargedComponent"],
-                              neutron: elementList[index]["neutron"],
+                              neutron: elementData[index]["neutron"],
                             );
                           });
                     }
@@ -81,28 +77,28 @@ class cardView extends StatelessWidget {
                         builder: (context) {
                           return ElementPopup(
                             context: context,
-                            name: elementList[index]
+                            name: elementData[index]
                                 [AppLocalizations.of(context).translate("key")],
-                            symbol: elementList[index]["element"],
-                            number: elementList[index]["number"],
-                            consistency: elementList[index]["consistency"],
-                            discovery: elementList[index]["discovery"],
-                            electronegativity: elementList[index]
+                            symbol: elementData[index]["element"],
+                            number: elementData[index]["number"],
+                            consistency: elementData[index]["consistency"],
+                            discovery: elementData[index]["discovery"],
+                            electronegativity: elementData[index]
                                 ["electronegativity"],
-                            block: elementList[index]["block"],
-                            weight: elementList[index]["weight"],
-                            radioactivity: elementList[index]["radioactivity"],
-                            gamma: elementList[index]["gamma"],
-                            beta: elementList[index]["beta"],
-                            alpha: elementList[index]["alpha"],
-                            multipleRadiationEmitters: elementList[index]
+                            block: elementData[index]["block"],
+                            weight: elementData[index]["weight"],
+                            radioactivity: elementData[index]["radioactivity"],
+                            gamma: elementData[index]["gamma"],
+                            beta: elementData[index]["beta"],
+                            alpha: elementData[index]["alpha"],
+                            multipleRadiationEmitters: elementData[index]
                                 ["multipleRadiationEmitters"],
-                            type: elementList[index]["type"],
-                            isotopeNum: elementList[index]["isotopeNum"],
-                            isotopesSrc: elementList[index]["isotopesSrc"],
-                            chargedComponents: elementList[index]
+                            type: elementData[index]["type"],
+                            isotopeNum: elementData[index]["isotopeNum"],
+                            isotopesSrc: elementData[index]["isotopesSrc"],
+                            chargedComponents: elementData[index]
                                 ["chargedComponent"],
-                            neutron: elementList[index]["neutron"],
+                            neutron: elementData[index]["neutron"],
                           );
                         });
                   },
@@ -112,10 +108,10 @@ class cardView extends StatelessWidget {
                       right: MediaQuery.of(context).size.width * .05,
                     ),
                     decoration: BoxDecoration(
-                        color: Color(int.parse(elementList[index]["m1"])),
+                        color: Color(int.parse(elementData[index]["m1"])),
                         image: DecorationImage(
                           image: AssetImage(
-                              "lib/backgrounds/" + elementList[index]["bg"]),
+                              "lib/backgrounds/" + elementData[index]["bg"]),
                           fit: BoxFit.cover,
                         ),
                         borderRadius: BorderRadius.circular(
@@ -146,7 +142,7 @@ class cardView extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  elementList[index]["number"].toString(),
+                                  elementData[index]["number"].toString(),
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     shadows: <Shadow>[
@@ -205,7 +201,7 @@ class cardView extends StatelessWidget {
                                   ),
                                   children: <TextSpan>[
                                     TextSpan(
-                                        text: elementList[index]["element"],
+                                        text: elementData[index]["element"],
                                         style: TextStyle(
                                           shadows: <Shadow>[
                                             Shadow(
@@ -226,7 +222,7 @@ class cardView extends StatelessWidget {
                                         )),
                                     TextSpan(text: "\n"),
                                     TextSpan(
-                                      text: elementList[index][
+                                      text: elementData[index][
                                           AppLocalizations.of(context)
                                               .translate("key")],
                                     ),
@@ -360,28 +356,5 @@ class cardView extends StatelessWidget {
               ),
             );
           }
-        } else {
-          return Center(
-            child: SleekCircularSlider(
-              appearance: CircularSliderAppearance(
-                spinnerMode: true,
-                size: (MediaQuery.of(context).size.height +
-                        MediaQuery.of(context).size.width) /
-                    2 *
-                    .4,
-                customColors: CustomSliderColors(
-                  trackColor: Color(0x00000000),
-                  hideShadow: true,
-                  progressBarColors: <Color>[
-                    Color(0xff62a39c),
-                    Color(0xff13547a),
-                  ],
-                ),
-              ),
-            ),
-          );
-        }
-      },
-    );
+      }
   }
-}
