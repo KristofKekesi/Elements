@@ -47,8 +47,8 @@ class _MyAppState extends State<MyApp> {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: [
-        const Locale('hu', ''),
         const Locale('en', ''),
+        const Locale('hu', ''),
       ],
       localeResolutionCallback: (locale, supportedLocales) {
         for (var supportedLocale in supportedLocales) {
