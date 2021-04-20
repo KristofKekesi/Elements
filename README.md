@@ -5,7 +5,7 @@
   Elements
 </h1>
   
-<img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-46-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
+<img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-46-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ydEenefh)
 
 <span style="text-align: justify;">A modern app to track the chemical elements. Including all 118 elements, with their weight, radiation, consistency, type, block, and electronegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat.</span>
 
@@ -68,7 +68,7 @@ Made with __Flutter SDK__ in __Dart__. Programmed in __Android Studio__.
   * _[hu]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
   * _[en]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi), [__Viktória Várszegi__](https://www.instagram.com/viktoriavarszegi/)
 * _[Glowing Snake]_ - [__Klári Bory__](https://www.instagram.com/boryklara/)
-## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7URAMuc)
+## Contacts [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ydEenefh)
 
 <table>
    <tr><td>
@@ -79,7 +79,7 @@ Made with __Flutter SDK__ in __Dart__. Programmed in __Android Studio__.
  <tr><td>
   Discord:
  </td><td>
-  https://discord.gg/7URAMuc
+  https://discord.gg/ydEenefh
  </td></tr>
   <tr><td>
   Twitter: [Elements]
