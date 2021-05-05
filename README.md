@@ -5,12 +5,12 @@
   Elements
 </h1>
   
-<img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-46-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt=""> [![Discord](https://img.shields.io/discord/639186082214445116.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ydEenefh)
+<img src="https://img.shields.io/badge/Beta%20Program-Open-green.svg" alt=""> <img src="https://img.shields.io/badge/Status-Release-green.svg" alt=""> <img src="https://img.shields.io/badge/Released-2020/07/13-green.svg" alt=""> <img src="https://img.shields.io/badge/Contributors-46-blue.svg" alt=""> <img src="https://img.shields.io/badge/Build-Passed-green.svg" alt="">
 
 <span style="text-align: justify;">A modern app to track the chemical elements. Including all 118 elements, with their weight, radiation, consistency, type, block, and electronegativity. If you are a seventh grader or higher, you should use it to help your studying, or use it as a cheat sheat.</span>
 
 ## Download <img src="https://img.shields.io/badge/Play%20Store-green.svg" alt="">
-Latest release: __0.4.2__
+Latest release: __1.0__
 
 <a href='https://play.google.com/store/apps/details?id=com.kristofkekesi.elements&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 ## State <img src="https://img.shields.io/badge/Release-green.svg" alt="">
