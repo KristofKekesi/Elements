@@ -1,8 +1,8 @@
-import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:elements_rework/widgets/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'package:elements_rework/widgets/build.dart';
 
@@ -34,7 +34,13 @@ class NoScrollGlow extends ScrollBehavior {
   }
 }
 
-void main() => runApp(MyApp());
+void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark.copyWith(
+      statusBarColor: Colors.black, // Color for Android
+      statusBarBrightness: Brightness.light // Dark == white status bar -- for IOS.
+  ));
+  runApp(MyApp());
+}
 
 class MyApp extends StatefulWidget {
   @override
