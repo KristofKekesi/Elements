@@ -289,7 +289,10 @@ class viewSelectorState extends State<viewSelector> {
                                   MediaQuery.of(context).size.width) /
                               2 *
                               .02),
-                      child: Row(
+                      child: SafeArea(
+                        bottom: false,
+                        top: false,
+                        child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           GestureDetector(
@@ -302,7 +305,7 @@ class viewSelectorState extends State<viewSelector> {
                               padding: EdgeInsets.only(
                                 left: MediaQuery.of(context).size.width * .1,
                                 bottom:
-                                    MediaQuery.of(context).size.height * .015,
+                                    MediaQuery.of(context).size.height * .03,
                                 top: MediaQuery.of(context).size.height * .015,
                               ),
                               child: Tooltip(
@@ -379,7 +382,7 @@ class viewSelectorState extends State<viewSelector> {
                                     right:
                                         MediaQuery.of(context).size.width * .1,
                                     bottom: MediaQuery.of(context).size.height *
-                                        .015,
+                                        .03,
                                     top: MediaQuery.of(context).size.height *
                                         .015,
                                   ),
@@ -444,7 +447,7 @@ class viewSelectorState extends State<viewSelector> {
                       ),
                     ),
                   ),
-                ),
+                ),),
               ],
             );
           } else {

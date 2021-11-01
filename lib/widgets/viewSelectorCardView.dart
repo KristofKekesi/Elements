@@ -278,12 +278,13 @@ class cardView extends StatelessWidget {
                   Container(height: MediaQuery.of(context).size.height * .04),
                   Opacity(
                     opacity: 0,
-                    child: Padding(
+                    child: SafeArea(
+                  top: false,
+                  child: Padding(
                       padding: EdgeInsets.only(
-                        left: MediaQuery.of(context).size.width * .1 -
-                            MediaQuery.of(context).size.width * .02,
-                        right: MediaQuery.of(context).size.width * .1 -
-                            MediaQuery.of(context).size.width * .02,
+                          left: MediaQuery.of(context).size.width * .1,
+                          right: MediaQuery.of(context).size.width * .1,
+                          bottom: MediaQuery.of(context).size.height * .02
                       ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -291,12 +292,23 @@ class cardView extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: <Widget>[
-                              Image(
-                                  image: AssetImage("lib/icons/left_500.png"),
-                                  height:
-                                      MediaQuery.of(context).size.width * .105,
-                                  width:
-                                      MediaQuery.of(context).size.width * .105),
+                              GestureDetector(
+                                onTap: () {
+                                  Navigator.of(context).pop();
+                                },
+                                child: Tooltip(
+                                  message: AppLocalizations.of(context)
+                                      .translate("back"),
+                                  child: Image(
+                                      image:
+                                      AssetImage("lib/icons/left_500.png"),
+                                      height:
+                                      MediaQuery.of(context).size.width *
+                                          .105,
+                                      width: MediaQuery.of(context).size.width *
+                                          .105),
+                                ),
+                              ),
                               AutoSizeText(
                                 " " +
                                     AppLocalizations.of(context)
@@ -305,15 +317,30 @@ class cardView extends StatelessWidget {
                                 style: TextStyle(
                                     color: Colors.black,
                                     fontSize:
-                                        MediaQuery.of(context).size.width * .12,
+                                    MediaQuery.of(context).size.width * .1,
                                     fontWeight: FontWeight.bold),
                                 maxLines: 1,
+                                minFontSize: 1,
+                              ),
+                              Padding(
+                                padding: EdgeInsets.only(
+                                    left: MediaQuery.of(context).size.width * .03,
+                                    right: MediaQuery.of(context).size.width * .03),
+                                child: Image(
+                                          image: AssetImage(
+                                              "lib/icons/triangle_yellow_500.png"),
+                                          height:
+                                          MediaQuery.of(context).size.width *
+                                              .095,
+                                          width: MediaQuery.of(context).size.width *
+                                              .095),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
+                  ),
                   ),
                   Expanded(
                     child: Tooltip(
@@ -334,6 +361,7 @@ class cardView extends StatelessWidget {
                           padding: EdgeInsets.only(
                             left: MediaQuery.of(context).size.width * .1,
                             top: MediaQuery.of(context).size.width * .1,
+                            bottom: MediaQuery.of(context).size.height * .02,
                           ),
                           child: Container(
                             width: MediaQuery.of(context).size.width * .35,

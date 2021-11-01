@@ -183,8 +183,7 @@ class searchResults extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SafeArea(
-        child: Stack(
+      body: Stack(
             children: <Widget>[
               viewSelector(
                 bottomPadding: bottomPadding,
@@ -236,87 +235,90 @@ class searchResults extends StatelessWidget {
                                 MediaQuery.of(context).size.width) /
                             2 *
                             .02),
-                    child: Padding(
+                    child: SafeArea(
+                      bottom: false,
+                      child: Padding(
                       padding: EdgeInsets.only(
                         left: MediaQuery.of(context).size.width * .1,
                         right: MediaQuery.of(context).size.width * .1,
-                        top: MediaQuery.of(context).size.height * .02,
+                        bottom: MediaQuery.of(context).size.height * .02
                       ),
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: <Widget>[
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: <Widget>[
-                              GestureDetector(
-                                onTap: () {
-                                  Navigator.of(context).pop();
-                                },
-                                child: Tooltip(
-                                  message: AppLocalizations.of(context)
-                                      .translate("back"),
-                                  child: Image(
-                                      image:
-                                          AssetImage("lib/icons/left_500.png"),
-                                      height:
-                                          MediaQuery.of(context).size.width *
-                                              .105,
-                                      width: MediaQuery.of(context).size.width *
-                                          .105),
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: <Widget>[
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: <Widget>[
+                                GestureDetector(
+                                  onTap: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                  child: Tooltip(
+                                    message: AppLocalizations.of(context)
+                                        .translate("back"),
+                                    child: Image(
+                                        image:
+                                            AssetImage("lib/icons/left_500.png"),
+                                        height:
+                                            MediaQuery.of(context).size.width *
+                                                .105,
+                                        width: MediaQuery.of(context).size.width *
+                                            .105),
+                                  ),
                                 ),
-                              ),
-                              AutoSizeText(
-                                " " +
-                                    AppLocalizations.of(context)
-                                        .translate('titleElements'),
-                                textAlign: TextAlign.left,
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize:
-                                        MediaQuery.of(context).size.width * .12,
-                                    fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                              ),
-                              Padding(
-                                padding: EdgeInsets.only(
-                                    left: MediaQuery.of(context).size.width * .03,
-                                    right: MediaQuery.of(context).size.width * .03),
-                                child: IgnorePointer(
-                                  ignoring: stateElectronegativity == false &&
-                                      stateTypes == false &&
-                                      stateAtomicnumber == false &&
-                                      stateConstructors == false &&
-                                      stateWeight == false &&
-                                      stateIsotopenum == false &&
-                                      stateProof == false ||
-                                      proof == true && hypothetical == false,
-                                  child: Opacity(
-                                    opacity: indicatorOpacity(),
-                                    child: Tooltip(
-                                      message: activeSelectorNum(context),
-                                      child: Image(
-                                          image: AssetImage(
-                                              "lib/icons/triangle_yellow_500.png"),
-                                          height:
-                                          MediaQuery.of(context).size.width *
-                                              .095,
-                                          width: MediaQuery.of(context).size.width *
-                                              .095),
+                                AutoSizeText(
+                                  " " +
+                                      AppLocalizations.of(context)
+                                          .translate('titleElements'),
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize:
+                                          MediaQuery.of(context).size.width * .1,
+                                      fontWeight: FontWeight.bold),
+                                  maxLines: 1,
+                                  minFontSize: 1,
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(
+                                      left: MediaQuery.of(context).size.width * .03,
+                                      right: MediaQuery.of(context).size.width * .03),
+                                  child: IgnorePointer(
+                                    ignoring: stateElectronegativity == false &&
+                                        stateTypes == false &&
+                                        stateAtomicnumber == false &&
+                                        stateConstructors == false &&
+                                        stateWeight == false &&
+                                        stateIsotopenum == false &&
+                                        stateProof == false ||
+                                        proof == true && hypothetical == false,
+                                    child: Opacity(
+                                      opacity: indicatorOpacity(),
+                                      child: Tooltip(
+                                        message: activeSelectorNum(context),
+                                        child: Image(
+                                            image: AssetImage(
+                                                "lib/icons/triangle_yellow_500.png"),
+                                            height:
+                                            MediaQuery.of(context).size.width *
+                                                .095,
+                                            width: MediaQuery.of(context).size.width *
+                                                .095),
+                                      ),
                                     ),
                                   ),
                                 ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
+                              ],
+                            ),
+                          ],
+                        ),
+                    ),
                     ),
                   ),
                 ),
               ),
             ],
           ),
-        ),
     );
   }
 }

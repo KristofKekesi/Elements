@@ -268,7 +268,6 @@ class _elementsState extends State<elements> {
                   padding: EdgeInsets.only(
                       left: MediaQuery.of(context).size.width * .1,
                       right: MediaQuery.of(context).size.width * .25,
-                      top: MediaQuery.of(context).size.height * .02,
                       bottom: MediaQuery.of(context).size.height * .02),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
@@ -293,9 +292,10 @@ class _elementsState extends State<elements> {
                         textAlign: TextAlign.left,
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: MediaQuery.of(context).size.width * .12,
+                            fontSize: MediaQuery.of(context).size.width * .1,
                             fontWeight: FontWeight.bold),
                         maxLines: 1,
+                        minFontSize: 1,
                       ),
                     ],
                   ),
@@ -315,7 +315,7 @@ class _elementsState extends State<elements> {
                         style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: MediaQuery.of(context).size.width * .12,
+                          fontSize: MediaQuery.of(context).size.width * .1,
                         ),
                       ),
                     ),
@@ -719,7 +719,7 @@ class _elementsState extends State<elements> {
                                               fontSize: MediaQuery.of(context)
                                                       .size
                                                       .width *
-                                                  .09,
+                                                  .08,
                                               color: Colors.white,
                                             ),
                                           ),
@@ -1393,7 +1393,7 @@ class _elementsState extends State<elements> {
                                               fontSize: MediaQuery.of(context)
                                                       .size
                                                       .width *
-                                                  .09,
+                                                  .08,
                                               color: Colors.white,
                                             ),
                                           ),
@@ -1721,7 +1721,7 @@ class _elementsState extends State<elements> {
                                               fontSize: MediaQuery.of(context)
                                                       .size
                                                       .width *
-                                                  .09,
+                                                  .08,
                                               color: Colors.white,
                                             ),
                                           ),
@@ -2433,7 +2433,7 @@ class _elementsState extends State<elements> {
                                               fontSize: MediaQuery.of(context)
                                                       .size
                                                       .width *
-                                                  .09,
+                                                  .08,
                                               color: Colors.white,
                                             ),
                                           ),
@@ -2747,7 +2747,7 @@ class _elementsState extends State<elements> {
                                               fontSize: MediaQuery.of(context)
                                                       .size
                                                       .width *
-                                                  .09,
+                                                  .08,
                                               color: Colors.white,
                                             ),
                                           ),
@@ -3060,7 +3060,7 @@ class _elementsState extends State<elements> {
                                               fontSize: MediaQuery.of(context)
                                                       .size
                                                       .width *
-                                                  .09,
+                                                  .08,
                                               color: Colors.white,
                                             ),
                                           ),
@@ -3323,7 +3323,7 @@ class _elementsState extends State<elements> {
                                               fontSize: MediaQuery.of(context)
                                                       .size
                                                       .width *
-                                                  .09,
+                                                  .08,
                                               color: Colors.white,
                                             ),
                                           ),
@@ -3471,9 +3471,9 @@ class _elementsState extends State<elements> {
                           AppLocalizations.of(context)
                               .translate('resetSelector'),
                           style: TextStyle(
-                            color: Colors.black.withOpacity(.7),
+                            color: Colors.black,
                             fontWeight: FontWeight.bold,
-                            fontSize: MediaQuery.of(context).size.width * .07,
+                            fontSize: MediaQuery.of(context).size.width * .06,
                           ),
                         ),
                       ),

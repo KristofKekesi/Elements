@@ -143,6 +143,8 @@ class ElementPopup extends StatelessWidget {
         builder: (BuildContext context, scrollController) {
           return SingleChildScrollView(
             controller: scrollController,
+            scrollDirection: Axis.vertical,
+            physics: ClampingScrollPhysics(),
             child: ClipRRect(
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(

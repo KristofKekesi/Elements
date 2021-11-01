@@ -169,40 +169,69 @@ class minimalView extends StatelessWidget {
                                       children: <Widget>[
                                         Opacity(
                                           opacity: 0,
-                                          child:
-                                        Padding(
-                                          padding: EdgeInsets.only(
-                                            left: MediaQuery.of(context).size.width * .1 - MediaQuery.of(context).size.width * .02,
-                                            right: MediaQuery.of(context).size.width * .1 - MediaQuery.of(context).size.width * .02,
-                                          ),
-                                          child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                          children: <Widget>[
-                                            Row(
-                                              mainAxisAlignment: MainAxisAlignment.start,
-                                              children: <Widget>[
-                                                Image(
-                                                        image: AssetImage("lib/icons/left_500.png"),
-                                                        height:
-                                                        MediaQuery.of(context).size.width * .105,
-                                                        width:
-                                                        MediaQuery.of(context).size.width * .105),
-                                                AutoSizeText(
-                                                  " " +
-                                                      AppLocalizations.of(context)
-                                                          .translate('titleElements'),
-                                                  textAlign: TextAlign.left,
-                                                  style: TextStyle(
-                                                      color: Colors.black,
-                                                      fontSize:
-                                                      MediaQuery.of(context).size.width * .12,
-                                                      fontWeight: FontWeight.bold),
-                                                  maxLines: 1,
-                                                ),
-                                              ],
+                                          child: SafeArea(
+                                            top: false,
+                                            child: Padding(
+                                              padding: EdgeInsets.only(
+                                                  left: MediaQuery.of(context).size.width * .1,
+                                                  right: MediaQuery.of(context).size.width * .1
+                                              ),
+                                              child: Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: <Widget>[
+                                                  Row(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    children: <Widget>[
+                                                      GestureDetector(
+                                                        onTap: () {
+                                                          Navigator.of(context).pop();
+                                                        },
+                                                        child: Tooltip(
+                                                          message: AppLocalizations.of(context)
+                                                              .translate("back"),
+                                                          child: Image(
+                                                              image:
+                                                              AssetImage("lib/icons/left_500.png"),
+                                                              height:
+                                                              MediaQuery.of(context).size.width *
+                                                                  .105,
+                                                              width: MediaQuery.of(context).size.width *
+                                                                  .105),
+                                                        ),
+                                                      ),
+                                                      AutoSizeText(
+                                                        " " +
+                                                            AppLocalizations.of(context)
+                                                                .translate('titleElements'),
+                                                        textAlign: TextAlign.left,
+                                                        style: TextStyle(
+                                                            color: Colors.black,
+                                                            fontSize:
+                                                            MediaQuery.of(context).size.width * .1,
+                                                            fontWeight: FontWeight.bold),
+                                                        maxLines: 1,
+                                                        minFontSize: 1,
+                                                      ),
+                                                      Padding(
+                                                        padding: EdgeInsets.only(
+                                                            left: MediaQuery.of(context).size.width * .03,
+                                                            right: MediaQuery.of(context).size.width * .03),
+                                                        child: Image(
+                                                            image: AssetImage(
+                                                                "lib/icons/triangle_yellow_500.png"),
+                                                            height:
+                                                            MediaQuery.of(context).size.width *
+                                                                .095,
+                                                            width: MediaQuery.of(context).size.width *
+                                                                .095),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ],
+                                              ),
                                             ),
-                                          ],
-                                        ),),),
+                                          ),
+                                        ),
                                         Wrap(
                                           direction: Axis.horizontal,
                                           spacing: 0,
